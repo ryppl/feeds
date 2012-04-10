@@ -8,14 +8,13 @@ Boost provides free portable peer-reviewed C++ libraries. The emphasis is on
 portable libraries that work well with the C++ Standard Library.</description>
   <homepage>http://boost.org</homepage>
   <category>Development</category>
-  <needs-terminal/>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <implementation arch="*-src" compile:command="echo" id="sha1new=afa023014b6f725678fe5ab62991ea1ebdecc81e" license="OSI Approved :: Boost Software License (BSL-1.0)" released="2012-04-09" stability="developer" version="1.48-pre">
+  <implementation arch="*-*" id="sha1new=afa023014b6f725678fe5ab62991ea1ebdecc81e" license="OSI Approved :: Boost Software License (BSL-1.0)" released="2012-04-09" stability="developer" version="1.48-pre1">
     <archive extract="purpleKarrot-boost-zero-25e54f5" href="http://nodeload.github.com/purpleKarrot/boost-zero/zipball/25e54f5f7a7eb5881e5a31724b17cdfbb578234d" size="163007" type="application/zip"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+DmtoACgkQxnV5mk56UjF36wCfdaO1G5s5u2cIbFDmmSvQvLF98w4AnjwIuZ1Z
-7q4YmKQeULlql9fE3zWE
+iEYEABECAAYFAk+EioMACgkQxnV5mk56UjGwawCcCBgHe5VTXKWtT9yFfUmG+cKOaxkAnjWIurMs
+vAYZHRx62cNChguxj6tM
 
 -->

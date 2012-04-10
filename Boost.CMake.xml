@@ -2,72 +2,27 @@
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://ryppl.github.com/feeds/Boost.CMake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>Boost.CMake</name>
-  <summary>a collection of CMake modules to simplify the use and development of Boost libraries</summary>
+  <summary>A collection of CMake modules to simplify the use and development of Boost libraries</summary>
   <description>
-Warning
-
-Boost.CMake is NOT the official build system for the Boost libraries.
-
-You might be interested in the official Getting Started section on the Boost
+Boost.CMake is a collection of CMake modules to simplify the use and
+development of Boost libraries.  **Warning:** Boost.CMake is NOT the
+official build system for the Boost libraries.  You might be
+interested in the official Getting Started section on the Boost
 website.
-
-If you want to use a library that is proposed for Boost, you might find the
-following instructions in the install section of its documentation:
-
-download the sources from Boost Vault
-
-extract the archive into the boost-source directory
-
-run bjam
-
-Easy, three simple steps and your library is built, if you are used to build
-Boost from source. If you usually install Boost prebuilt via an installer or
-package management system, you might ask yourself: “The easiest way to install
-this library is to deinstall Boost and then recompile everything? What is this
-bjam thing anyway, can’t I use Visual Studio?”
-
-With Boost.CMake, the install instruction might look like this:
-
-download and extract the sources from Boost Vault
-
-run CMake to generate project files or makefiles
-
-open the generated project with your IDE
-
-use your IDE to build and install the library
-
-This instruction is longer and far more ambiguous. It is unclear what is meant
-by “project files”, “makefiles”, “generated project” and “IDE”.
-This ambiguity is intended. Unlike bjam, CMake is not a build-system; it is a
-meta-build-system, or build-system generator. CMake supports multiple native
-build systems on certain platforms. Supported build-systems are specified in the
-Generators section of the CMake manual.
-
-With Boost.CMake, it is not required to have the Boost source code to build one
-individual library. The only requirement is that all its dependencies are
-installed. It is still possible to build the whole Boost distribution at once.
-In that case, the dependencies of each library do not have to be installed.</description>
+</description>
   <homepage>https://github.com/purpleKarrot/Boost.CMake</homepage>
   <category>Development</category>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <implementation arch="*-src" doc-dir="doc" id="sha1new=b7fe5a0bd003763b2ac91069c93498ead5d2e128" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-10" stability="developer" version="1.48-pre">
+  <implementation arch="*-*" doc-dir="doc" id="sha1new=b7fe5a0bd003763b2ac91069c93498ead5d2e128" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-10" stability="developer" version="1.48-pre">
     <requires interface="http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml">
       <version not-before="2.8.5"/>
     </requires>
-    <command name="compile">
-      <runner interface="http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}</arg>
-        <arg>${DISTDIR}</arg>
-    </runner>
-  </command>
 
     <archive extract="purpleKarrot-Boost.CMake-dd55a7e" href="http://nodeload.github.com/purpleKarrot/Boost.CMake/zipball/dd55a7e50ef8056e4a8a14f1b496fae0ba2ec174" size="439712" type="application/zip"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+EbKIACgkQxnV5mk56UjGm1gCbBRQWN1pxW17bZt3u0VD5XmgI/AcAoJbT7ZqF
-Hvsq1Gxlr7gXuEPGe6uX
+iEYEABECAAYFAk+EjiAACgkQxnV5mk56UjHO+gCfZ1UL8lhzAd5BA+OQaNc/nSk1IsUAnRaRBI0r
+V4XgAmfMczyFpc09FgBw
 
 -->
