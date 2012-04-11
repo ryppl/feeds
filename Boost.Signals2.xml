@@ -24,7 +24,7 @@ return values are combined.</description>
   <homepage>http://boost.org/libs/signals2</homepage>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <category>Development</category>
-  <implementation arch="*-src" compile:command="${CMAKE} -E copy_directory ${CMAKELISTS_OVERLAY} . &amp;&amp; ${CMAKE} -D &quot;CMAKE_INSTALL_PREFIX=${DISTDIR}&quot; -D &quot;BoostCMake_DIR=${BoostCMake_DIR}&quot; -D &quot;CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}&quot; . &amp;&amp; ${CMAKE} --build .  &amp;&amp; ${CMAKE} --build . --target install" compile:dup-src="true" id="sha1new=3b87be97af14ca1b6c363a80a1b1e2481bc42ab1" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-10" stability="developer" version="1.48-pre">
+  <implementation arch="*-src" compile:command="${CMAKE} -E copy_directory ${CMAKELISTS_OVERLAY} . &amp;&amp; ${CMAKE} -D &quot;CMAKE_INSTALL_PREFIX=${DISTDIR}&quot; -D &quot;BoostCMake_DIR=${BoostCMake_DIR}&quot; -D &quot;CMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}&quot; . &amp;&amp; ${CMAKE} --build . --target install" compile:dup-src="true" id="sha1new=3b87be97af14ca1b6c363a80a1b1e2481bc42ab1" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-10" stability="developer" version="1.48-pre">
     <requires interface="http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml">
       <executable-in-var name="CMAKE"/>
     </requires>
@@ -40,7 +40,7 @@ return values are combined.</description>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+E26wACgkQxnV5mk56UjEqpQCfQSgJW6v5k9vCaynr9esyLFJlfTQAn3qiQmLK
-p5Z5TUyKSQvuz1hcCeN/
+iEYEABECAAYFAk+E3G4ACgkQxnV5mk56UjGkEACfTXa5xU4DXsJdt/ZwC5l30oyg0tQAnR+5XMO4
+xPps3hAs1mA4LpGwl3fL
 
 -->
