@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/ryppl/0runner.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>0runner</name>
+  <summary>A simple multi-step runner for 0install</summary>
+  <description>
+0runner can be used to 0launch a sequence of feeds, passing ; as a
+separator between lists of arguments to be passed to 0launch.  For
+example, the following snippet issues two cmake commands in sequence:
+
+  &lt;command name='compile'&gt;
+   &lt;runner interface='http://ryppl.github.com/feeds/ryppl/0runner.xml'/&gt;
+     &lt;arg&gt;http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml&lt;/arg&gt;
+         &lt;arg&gt;-D&lt;/arg&gt; &lt;arg&gt;CMAKE_INSTALL_PREFIX=${DISTDIR}&lt;/arg&gt; &lt;arg&gt;${SRCDIR}&lt;/arg&gt;
+     &lt;arg&gt;;&lt;/arg&gt;
+     &lt;arg&gt;http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml&lt;/arg&gt;
+         &lt;arg&gt;--build&lt;/arg&gt; &lt;arg&gt;.&lt;/arg&gt; &lt;arg&gt;--target&lt;/arg&gt; &lt;arg&gt;install&lt;/arg&gt;
+   &lt;/runner&gt;
+  &lt;/command&gt;
+  </description>
+
+  <homepage>http://github.com/ryppl/0runner</homepage>
+
+    <implementation id="sha1new=52b0da1b3f09e0ee7177334f56f89d861278b445" released="2012-04-13" version="1.0">
+    <command name="run" path="zerorunner.py">
+      <runner interface="http://repo.roscidus.com/python/python">
+        <version before="3"/>
+      </runner>
+    </command>
+      <manifest-digest sha256="b67e2c7926537af720814cc9de826b770938f5a53145c060b62dba57accbad59"/>
+      <archive extract="0runner-1.0" href="http://ryppl.github.com/releases/0runner/1.0/0runner-1.0.tar.bz2" size="1810"/>
+    </implementation>
+
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+IZ0cACgkQxnV5mk56UjGS9ACgk4M/yr2NraF1zLuIPMB44DLpkuUAoIxtV+Ty
+vy3xUygphGaoPjd70Z5p
+
+-->
