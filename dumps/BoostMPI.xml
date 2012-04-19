@@ -1,0 +1,37 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostMPI</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>cmake</arg>
+    <arg>config</arg>
+    <arg>conversion</arg>
+    <arg>core</arg>
+    <arg>exception</arg>
+    <arg>function</arg>
+    <arg>graph</arg>
+    <arg>integer</arg>
+    <arg>iterator</arg>
+    <arg>mpl</arg>
+    <arg>optional</arg>
+    <arg>property_map</arg>
+    <arg>python</arg>
+    <arg>serialization</arg>
+    <arg>smart_ptr</arg>
+    <arg>static_assert</arg>
+    <arg>type_traits</arg>
+    <arg>utility</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostSerialization </dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

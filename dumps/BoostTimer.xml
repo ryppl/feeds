@@ -1,0 +1,28 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostTimer</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>chrono</arg>
+    <arg>config</arg>
+    <arg>core</arg>
+    <arg>exception</arg>
+    <arg>integer</arg>
+    <arg>io</arg>
+    <arg>system</arg>
+    <arg>utility</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostSystem</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+    <library>boost_timer</library>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

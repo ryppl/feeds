@@ -1,0 +1,24 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostUUID</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostIO</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostRandom</dependency>
+    <dependency>BoostSerialization</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

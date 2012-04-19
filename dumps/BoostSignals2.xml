@@ -1,0 +1,29 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostSignals2</name>
+  <depends>
+    <dependency>BoostAny</dependency>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostMultiIndex</dependency>
+    <dependency>BoostOptional</dependency>
+    <dependency>BoostParameter</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+    <dependency>BoostVariant</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

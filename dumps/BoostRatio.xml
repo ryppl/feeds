@@ -1,0 +1,20 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostRatio</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostRational</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

@@ -1,0 +1,32 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostFilesystem</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>system</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostFunctional</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostIO</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostSystem</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+    <library>boost_filesystem</library>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

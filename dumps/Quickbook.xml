@@ -1,0 +1,35 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>Quickbook</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>algorithm</arg>
+    <arg>bind</arg>
+    <arg>config</arg>
+    <arg>conversion</arg>
+    <arg>core</arg>
+    <arg>filesystem</arg>
+    <arg>foreach</arg>
+    <arg>iostreams</arg>
+    <arg>iterator</arg>
+    <arg>preprocessor</arg>
+    <arg>program_options</arg>
+    <arg>range</arg>
+    <arg>smart_ptr</arg>
+    <arg>spirit</arg>
+    <arg>tuple</arg>
+    <arg>unordered</arg>
+    <arg>utility</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+  </depends>
+  <include-directories>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+    <executable>quickbook</executable>
+  </executables>
+</cmake-project>

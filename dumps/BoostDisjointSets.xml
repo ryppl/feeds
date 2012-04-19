@@ -1,0 +1,23 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostDisjointSets</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>test</arg>
+    <arg>graph</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostGraph</dependency>
+    <dependency>BoostTest</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

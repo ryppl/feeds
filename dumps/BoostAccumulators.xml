@@ -1,0 +1,31 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostAccumulators</name>
+  <depends>
+    <dependency>BoostArray</dependency>
+    <dependency>BoostCircularBuffer</dependency>
+    <dependency>BoostConceptCheck</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostFusion</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostNumeric</dependency>
+    <dependency>BoostParameter</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTuple</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostTypeof</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostTTI</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostFunctionTypes</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostTypeTraits</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

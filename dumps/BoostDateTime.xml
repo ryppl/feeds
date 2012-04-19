@@ -1,0 +1,47 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostDateTime</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>algorithm</arg>
+    <arg>config</arg>
+    <arg>conversion</arg>
+    <arg>core</arg>
+    <arg>exception</arg>
+    <arg>integer</arg>
+    <arg>io</arg>
+    <arg>mpl</arg>
+    <arg>range</arg>
+    <arg>serialization</arg>
+    <arg>smart_ptr</arg>
+    <arg>tokenizer</arg>
+    <arg>type_traits</arg>
+    <arg>utility</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostAlgorithm</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostConversion</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostIO</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostSerialization</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostTokenizer</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+    <library>boost_date_time</library>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostAlgorithm</name>
+  <depends>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConceptCheck</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostRegex</dependency>
+    <dependency>BoostTimer</dependency>
+    <dependency>BoostTuple</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

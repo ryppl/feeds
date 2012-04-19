@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostAssign</name>
+  <depends>
+    <dependency>BoostArray</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostPtrContainer</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTuple</dependency>
+    <dependency>BoostTypeTraits</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

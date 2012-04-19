@@ -1,0 +1,45 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostSpirit</name>
+  <depends>
+    <dependency>BoostAlgorithm</dependency>
+    <dependency>BoostArray</dependency>
+    <dependency>BoostAssign</dependency>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConceptCheck</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostConversion</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostForeach</dependency>
+    <dependency>BoostFormat</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostFunctionTypes</dependency>
+    <dependency>BoostFusion</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostIO</dependency>
+    <dependency>BoostIOStreams</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostOptional</dependency>
+    <dependency>BoostPhoenix</dependency>
+    <dependency>BoostPool</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostProto</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostTypeof</dependency>
+    <dependency>BoostUnordered</dependency>
+    <dependency>BoostUtility</dependency>
+    <dependency>BoostVariant</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

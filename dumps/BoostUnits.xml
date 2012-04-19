@@ -1,0 +1,24 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostUnits</name>
+  <depends>
+    <dependency>BoostAlgorithm</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostIO</dependency>
+    <dependency>BoostLambda</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostTypeof</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

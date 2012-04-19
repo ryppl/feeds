@@ -1,0 +1,32 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostMSM</name>
+  <depends>
+    <dependency>BoostAny</dependency>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostCircularBuffer</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostFusion</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostParameter</dependency>
+    <dependency>BoostPhoenix</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostProto</dependency>
+    <dependency>BoostSerialization</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStatechart</dependency>
+    <dependency>BoostTimer</dependency>
+    <dependency>BoostTuple</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostTypeof</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

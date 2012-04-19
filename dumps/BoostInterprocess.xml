@@ -1,0 +1,27 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostInterprocess</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostContainer</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostDateTime</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostIntrusive</dependency>
+    <dependency>BoostMath</dependency>
+    <dependency>BoostMove</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUnordered</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

@@ -1,0 +1,16 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostScopeExit</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostTypeof</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

@@ -1,0 +1,40 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostPython</name>
+  <find-package>
+    <arg>PythonLibs</arg>
+  </find-package>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>bind</arg>
+    <arg>config</arg>
+    <arg>conversion</arg>
+    <arg>core</arg>
+    <arg>foreach</arg>
+    <arg>function</arg>
+    <arg>graph</arg>
+    <arg>integer</arg>
+    <arg>iterator</arg>
+    <arg>mpl</arg>
+    <arg>numeric</arg>
+    <arg>preprocessor</arg>
+    <arg>property_map</arg>
+    <arg>smart_ptr</arg>
+    <arg>static_assert</arg>
+    <arg>tuple</arg>
+    <arg>type_traits</arg>
+    <arg>utility</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+    <library>boost_python</library>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

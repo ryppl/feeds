@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostICL</name>
+  <depends>
+    <dependency>BoostConceptCheck</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostContainer</dependency>
+    <dependency>BoostDateTime</dependency>
+    <dependency>BoostInterprocess</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMove</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostRational</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

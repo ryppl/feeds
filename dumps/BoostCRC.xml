@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostCRC</name>
+  <depends>
+    <dependency>BoostArray</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostMPL</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

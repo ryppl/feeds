@@ -1,0 +1,45 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostProgramOptions</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>any</arg>
+    <arg>bind</arg>
+    <arg>config</arg>
+    <arg>conversion</arg>
+    <arg>core</arg>
+    <arg>exception</arg>
+    <arg>function</arg>
+    <arg>iterator</arg>
+    <arg>smart_ptr</arg>
+    <arg>static_assert</arg>
+    <arg>tokenizer</arg>
+    <arg>type_traits</arg>
+    <arg>utility</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostAny</dependency>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostConversion</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTokenizer</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+    <library>boost_program_options</library>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

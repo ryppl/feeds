@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostIntrusive</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostFunctional</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostMove</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

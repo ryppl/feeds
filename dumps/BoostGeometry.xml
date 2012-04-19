@@ -1,0 +1,44 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostGeometry</name>
+  <depends>
+    <dependency>BoostAlgorithm</dependency>
+    <dependency>BoostArray</dependency>
+    <dependency>BoostAssign</dependency>
+    <dependency>BoostConceptCheck</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostConversion</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostForeach</dependency>
+    <dependency>BoostFunctionTypes</dependency>
+    <dependency>BoostFusion</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMath</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostMSM</dependency>
+    <dependency>BoostNumeric</dependency>
+    <dependency>BoostPolygon</dependency>
+    <dependency>BoostProgramOptions</dependency>
+    <dependency>BoostProto</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostRational</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTest</dependency>
+    <dependency>BoostTimer</dependency>
+    <dependency>BoostTokenizer</dependency>
+    <dependency>BoostTuple</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostTypeof</dependency>
+    <dependency>BoostUnits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

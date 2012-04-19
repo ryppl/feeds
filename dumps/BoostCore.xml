@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostCore</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostIterator</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostTypeTraits</dependency>
+  </depends>
+  <include-directories>
+    <directory>/Users/dave/src/ryppl/boost-zero/boost/core/include</directory>
+    <directory>/tmp/bb/boost/core/include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

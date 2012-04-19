@@ -1,0 +1,23 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostStatechart</name>
+  <depends>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostConversion</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostThread</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

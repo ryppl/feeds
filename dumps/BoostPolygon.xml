@@ -1,0 +1,16 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostPolygon</name>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

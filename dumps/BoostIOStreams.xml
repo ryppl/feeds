@@ -1,0 +1,33 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostIOStreams</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>config</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostBind</dependency>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostException</dependency>
+    <dependency>BoostFunction</dependency>
+    <dependency>BoostInteger</dependency>
+    <dependency>BoostMPL</dependency>
+    <dependency>BoostPreprocessor</dependency>
+    <dependency>BoostRange</dependency>
+    <dependency>BoostSmartPtr</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTypeTraits</dependency>
+    <dependency>BoostUtility</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+    <library>boost_iostreams</library>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>

@@ -1,0 +1,24 @@
+<?xml version='1.0' ?>
+<cmake-project>
+  <name>BoostDynamicBitset</name>
+  <find-package>
+    <arg>Boost</arg>
+    <arg>COMPONENTS</arg>
+    <arg>test</arg>
+    <arg>config</arg>
+    <arg>NO_MODULE</arg>
+  </find-package>
+  <depends>
+    <dependency>BoostConfig</dependency>
+    <dependency>BoostCore</dependency>
+    <dependency>BoostStaticAssert</dependency>
+    <dependency>BoostTest</dependency>
+  </depends>
+  <include-directories>
+    <directory>include</directory>
+  </include-directories>
+  <libraries>
+  </libraries>
+  <executables>
+  </executables>
+</cmake-project>
