@@ -4,7 +4,6 @@
   <find-package>
     <arg>Boost</arg>
     <arg>COMPONENTS</arg>
-    <arg>cmake</arg>
     <arg>config</arg>
     <arg>conversion</arg>
     <arg>core</arg>
@@ -25,13 +24,13 @@
     <arg>NO_MODULE</arg>
   </find-package>
   <depends>
-    <dependency>BoostSerialization </dependency>
+    <dependency>BoostSerialization</dependency>
   </depends>
   <include-directories>
     <directory>include</directory>
   </include-directories>
   <libraries>
+    <library>boost_mpi</library>
+    <library>boost_mpi_python</library>
   </libraries>
-  <executables>
-  </executables>
 </cmake-project>

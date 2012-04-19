@@ -23,8 +23,6 @@
     <arg>utility</arg>
     <arg>NO_MODULE</arg>
   </find-package>
-  <depends>
-  </depends>
   <include-directories>
     <directory>include</directory>
   </include-directories>
@@ -33,6 +31,4 @@
     <library>boost_test_exec_monitor</library>
     <library>boost_unit_test_framework</library>
   </libraries>
-  <executables>
-  </executables>
 </cmake-project>

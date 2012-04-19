@@ -27,14 +27,10 @@
     <arg>utility</arg>
     <arg>NO_MODULE</arg>
   </find-package>
-  <depends>
-  </depends>
   <include-directories>
     <directory>include</directory>
   </include-directories>
   <libraries>
     <library>boost_python</library>
   </libraries>
-  <executables>
-  </executables>
 </cmake-project>
