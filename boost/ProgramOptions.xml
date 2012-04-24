@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/ProgramOptions.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostProgramOptions</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>The program_options library allows program developers to obtain program options, that is (name, value) pairs from the user, via conventional methods such as command line and config file.</summary>
+  <homepage>libs/program_options/</homepage>
+  <dc:author>Vladimir Prus</dc:author>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="75fbc827-3198-4eaf-8ec1-c24c364f1dca" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+      <archive extract="boost-lib-program_options-4839321" href="http://nodeload.github.com/boost-lib/program_options/zipball/48393218d9cfcd3636668f12fb4897d18d025500" size="159758" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>-DBoostAny_DIR=BoostAny_DIR</arg>
+        <arg>-DBoostBind_DIR=BoostBind_DIR</arg>
+        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
+        <arg>-DBoostConversion_DIR=BoostConversion_DIR</arg>
+        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
+        <arg>-DBoostException_DIR=BoostException_DIR</arg>
+        <arg>-DBoostFunction_DIR=BoostFunction_DIR</arg>
+        <arg>-DBoostIterator_DIR=BoostIterator_DIR</arg>
+        <arg>-DBoostSmartPtr_DIR=BoostSmartPtr_DIR</arg>
+        <arg>-DBoostStaticAssert_DIR=BoostStaticAssert_DIR</arg>
+        <arg>-DBoostTokenizer_DIR=BoostTokenizer_DIR</arg>
+        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
+        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/program_options</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Release</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=bin</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Any-dev.xml">
+        <environment insert="." mode="replace" name="BoostAny_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
+        <environment insert="." mode="replace" name="BoostBind_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tokenizer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WeCYACgkQxnV5mk56UjF1OQCeP9DWIkNSXrXLWQy3JKzbHAjxvD0AnRINVhth
+Ogk/f4Zy2Oqt8mlnUCiu
+
+-->

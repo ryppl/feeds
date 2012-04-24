@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/DateTime.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostDateTime</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A set of date-time libraries based on generic programming concepts.</summary>
+  <homepage>libs/date_time/</homepage>
+  <dc:author>Jeff Garland</dc:author>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="a35d4238-9776-4430-a6b6-bfd8dc08d6bb" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+      <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>-DBoostAlgorithm_DIR=BoostAlgorithm_DIR</arg>
+        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
+        <arg>-DBoostConversion_DIR=BoostConversion_DIR</arg>
+        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
+        <arg>-DBoostException_DIR=BoostException_DIR</arg>
+        <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
+        <arg>-DBoostIo_DIR=BoostIo_DIR</arg>
+        <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
+        <arg>-DBoostRange_DIR=BoostRange_DIR</arg>
+        <arg>-DBoostSerialization_DIR=BoostSerialization_DIR</arg>
+        <arg>-DBoostSmartPtr_DIR=BoostSmartPtr_DIR</arg>
+        <arg>-DBoostTokenizer_DIR=BoostTokenizer_DIR</arg>
+        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
+        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/date_time</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Release</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=bin</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Algorithm-dev.xml">
+        <environment insert="." mode="replace" name="BoostAlgorithm_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Io-dev.xml">
+        <environment insert="." mode="replace" name="BoostIo_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
+        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Range-dev.xml">
+        <environment insert="." mode="replace" name="BoostRange_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Serialization-dev.xml">
+        <environment insert="." mode="replace" name="BoostSerialization_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tokenizer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+Wd/8ACgkQxnV5mk56UjHsPACeP0bKu5jIkIZX2ftVcxATdn99NbEAnjQzHydu
+Wc1sTX1uDp+1wBZFan+G
+
+-->
