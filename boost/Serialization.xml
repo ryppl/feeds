@@ -9,7 +9,7 @@
   <dc:author>Robert Ramey</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="26fd5d21-0e29-4308-a613-d2c4ceabcf4c" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
+    <implementation arch="*-src" id="c611503a-17b0-453f-bee6-925191f23fbc" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -26,7 +26,7 @@
         <arg>-DBoostFunction_DIR=BoostFunction_DIR</arg>
         <arg>-DBoostFunctional_DIR=BoostFunctional_DIR</arg>
         <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
-        <arg>-DBoostIo_DIR=BoostIo_DIR</arg>
+        <arg>-DBoostIO_DIR=BoostIO_DIR</arg>
         <arg>-DBoostIterator_DIR=BoostIterator_DIR</arg>
         <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
         <arg>-DBoostOptional_DIR=BoostOptional_DIR</arg>
@@ -84,8 +84,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
         <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Io-dev.xml">
-        <environment insert="." mode="replace" name="BoostIo_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
+        <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
@@ -127,7 +127,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wf4YACgkQxnV5mk56UjENHACffuNttfffxrw9kZ8qGW6Wx9Q8zdAAnjtw7SP4
-woa1zs+GDaLRckP9r/Uf
+iEYEABECAAYFAk+WgdoACgkQxnV5mk56UjGUnACeM7RPpgQAfsitgveP7TqvsEBrW8kAnROaVsmY
+uCUdwROl3VPHwEdgVFu2
 
 -->

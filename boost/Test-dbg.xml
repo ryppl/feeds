@@ -8,7 +8,7 @@
   <dc:author>Gennadiy Rozental</dc:author>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="faefd797-c7bd-4d47-a3f5-58806ad6a9a1" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
+    <implementation arch="*-src" id="8e80f901-a6a6-4228-8521-e4c4d60c0a2b" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
       <archive extract="boost-lib-test-a3ae1c3" href="http://nodeload.github.com/boost-lib/test/zipball/a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc" size="1004084" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -24,7 +24,7 @@
         <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
         <arg>-DBoostException_DIR=BoostException_DIR</arg>
         <arg>-DBoostFunction_DIR=BoostFunction_DIR</arg>
-        <arg>-DBoostIo_DIR=BoostIo_DIR</arg>
+        <arg>-DBoostIO_DIR=BoostIO_DIR</arg>
         <arg>-DBoostIterator_DIR=BoostIterator_DIR</arg>
         <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
         <arg>-DBoostNumeric_DIR=BoostNumeric_DIR</arg>
@@ -77,8 +77,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Io-dev.xml">
-        <environment insert="." mode="replace" name="BoostIo_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
+        <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
@@ -114,7 +114,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wf48ACgkQxnV5mk56UjFw2wCfYCxX0iSIVBB7gUIwLU+cRGdE99sAn3ecN0Pd
-U+p82M/qT/k0/4Fn9Di2
+iEYEABECAAYFAk+WgeMACgkQxnV5mk56UjGRNgCeK8efb1ArHzYraGChW4l5zfv264IAn2Q3NpxS
+BjJxYrB3kkQgBM7pFk4L
 
 -->

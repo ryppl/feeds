@@ -8,7 +8,7 @@
   <dc:author>Beman Dawes</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2b87bdd9-9bcf-43a1-8105-8544bb63edae" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
+    <implementation arch="*-src" id="9f325434-da32-45c5-8e8b-bbac738d85c8" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -23,7 +23,7 @@
         <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
         <arg>-DBoostException_DIR=BoostException_DIR</arg>
         <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
-        <arg>-DBoostIo_DIR=BoostIo_DIR</arg>
+        <arg>-DBoostIO_DIR=BoostIO_DIR</arg>
         <arg>-DBoostSystem_DIR=BoostSystem_DIR</arg>
         <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
         <arg>;</arg>
@@ -64,8 +64,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
         <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Io-dev.xml">
-        <environment insert="." mode="replace" name="BoostIo_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
+        <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
@@ -77,7 +77,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wf5EACgkQxnV5mk56UjH+CACgmHv96Mhr/aZyltF5SMsdpeCe3HgAn3ytBUFb
-pmoZIAlGVSu1yYFbFis1
+iEYEABECAAYFAk+WgeUACgkQxnV5mk56UjGBXACffMlwXe/K1bVlb129fpaEpyY3klgAoKf9yph4
+ZH+mJnCfnhw1nHyrvuwm
 
 -->
