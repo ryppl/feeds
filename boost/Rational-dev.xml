@@ -8,7 +8,7 @@
   <dc:author>Paul Moore</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c5b82513-cd18-4210-a756-0105f7907b02" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="4ffa3eaf-851e-4021-aaf9-1fd5048da16d" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeDAACgkQxnV5mk56UjFyRgCeLPfbRWT3wYnZ5P26i4RtEvQnV9YAoJyl0KeW
-nmiSo1lMX+mm7X4ETS9k
+iEYEABECAAYFAk+Wf4EACgkQxnV5mk56UjErDQCffX4Zi/VcB9Kz9whEY0gDcDZplN0AoKHGalIM
+8H1FlcPFlDX4V/TTTz+0
 
 -->

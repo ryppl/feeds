@@ -8,7 +8,7 @@
   <dc:author>Alexander Nasonov</dc:author>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="74b85c6c-6650-42f8-9b92-4c8d83902c6c" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="f42938dd-7a8a-401a-892c-e822de964a1c" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-scope_exit-5f996f7" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/5f996f7d7ff316556f057d1e99dd188dff0c09b1" size="99753" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeDMACgkQxnV5mk56UjESogCgjZrfeejkTSFTc2aH+nGzvQYRxWMAniXbW8OF
-0iz4BKQ5JS23duudIT5N
+iEYEABECAAYFAk+Wf4UACgkQxnV5mk56UjE8qwCgoqD1Tg6+q2BP1dQStsr1mmTDx3YAn3/1vxZI
+Y0WkOXRa3C3J3K4Dcdhm
 
 -->

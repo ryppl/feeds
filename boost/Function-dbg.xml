@@ -9,7 +9,7 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b9ecbf06-ae7f-4b42-bdfb-1b29ef3c8367" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="f511135e-7161-40d1-a091-d967626c4d32" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeAcACgkQxnV5mk56UjEh7gCcCmmgc0GgtB4QxWShj/QVyxtcqKMAn3+Ibtb8
-jU3c1AT/tWkLWdC/0Kck
+iEYEABECAAYFAk+Wf0kACgkQxnV5mk56UjHlVgCgkbwo/HGdXkQk0kmkRRAagbIrl8gAmgIaNvYU
+yFklijkqK0WEMMf5RNS5
 
 -->

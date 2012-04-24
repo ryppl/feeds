@@ -9,7 +9,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="654dfdd2-61a3-493c-9b88-b4203173afdb" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="36ce73b0-bf29-4e35-8465-f4f937a69b0c" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-thread-420efc2" href="http://nodeload.github.com/boost-lib/thread/zipball/420efc212804318765379b2b22f662418585cc62" size="430513" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -57,7 +57,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
@@ -118,7 +118,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeD0ACgkQxnV5mk56UjHcAwCfbunPJeDK0f5D4C2HZdC+soqHr7QAoIhppWtH
-Soz3T5T/frj+iOxDbhuQ
+iEYEABECAAYFAk+Wf5AACgkQxnV5mk56UjGASACdFjPOGuALOA4Fz0ET7gYusZCIzKwAmwSl8OaM
+28buM4ucZ4+0VdtHgATP
 
 -->

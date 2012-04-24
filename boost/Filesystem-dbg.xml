@@ -8,7 +8,7 @@
   <dc:author>Beman Dawes</dc:author>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ee98efff-a027-4584-9ae3-8e4a5c834bad" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="6f15801c-c2c3-48c1-aa29-49a7541c4f2a" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-filesystem-c61b7e7" href="http://nodeload.github.com/boost-lib/filesystem/zipball/c61b7e767e57e956df1827a2120d6b40c23a474a" size="287957" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,7 +40,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
@@ -50,7 +50,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeAMACgkQxnV5mk56UjHujgCfcJf/mLWaCtf6T1S0fpARSfyMbKsAoKHvk59M
-sal+Knjqx8cNoIKy1w+s
+iEYEABECAAYFAk+Wf0UACgkQxnV5mk56UjGF2QCgofpa0bz77n0w6bwRAK+DswCTIesAoKN6EXMY
+Ii6vp49TjdnQz0agZBKo
 
 -->

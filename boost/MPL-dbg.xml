@@ -8,7 +8,7 @@
   <dc:author>Aleksey Gurtovoy</dc:author>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1e836e3f-ff87-4dba-8090-3b71dc4a72d8" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="96399252-c3a5-44b9-ac98-c65d7de90bb8" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-mpl-b3eedbc" href="http://nodeload.github.com/boost-lib/mpl/zipball/b3eedbc816942f9d3d9db4017a696e830f93347d" size="2737234" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBwACgkQxnV5mk56UjFSXQCfXZctWY0WbszWRhILkgiTQQ1qqBAAoJcASFKO
-owuKV3UmNIPLoU376hM4
+iEYEABECAAYFAk+Wf2MACgkQxnV5mk56UjHV0gCdF3TrRwEuyEgu38x83numVkwjxrYAoKhpFdQx
+mMunsKzDzjlReaG5niWB
 
 -->

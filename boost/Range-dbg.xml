@@ -9,7 +9,7 @@
   <dc:author>Niel Groves</dc:author>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7f04e771-b039-417b-8a46-14f3b57cb759" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="53c490a0-3939-4c37-9c51-ea5f0508128c" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-range-a104c48" href="http://nodeload.github.com/boost-lib/range/zipball/a104c48977ec6d420abf7b34c9bcdc94a1f7d6a2" size="803652" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeC4ACgkQxnV5mk56UjGuQACeIIjJFDiiAlUgflIH9bHqZv4OdWsAoIOPkjUU
-GNYSau7uRKmC27L2W70Q
+iEYEABECAAYFAk+Wf3wACgkQxnV5mk56UjEBdACfQUINhBQrTrfnPWIPmMtI1DInCnwAniHBnx//
+k99yFmY1TC1I75M59Q5j
 
 -->

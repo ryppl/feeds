@@ -8,7 +8,7 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b391c861-0d2f-4bd1-adcb-b542181406b9" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="47da62df-346c-4c6f-bc94-aec2a0f6471a" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd+4ACgkQxnV5mk56UjGA5QCeKXANk7T/tiulXY7GxYeps4lhhoIAoIRDsmNL
-oISXDPITETr4yvggTu5c
+iEYEABECAAYFAk+Wfy4ACgkQxnV5mk56UjGgbgCgjPy88Pu8DLVHOq7AOcIMDNs4yMwAoKdYUzSz
+cGAr7iDynYP6gvLOVhpM
 
 -->

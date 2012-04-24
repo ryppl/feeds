@@ -9,7 +9,7 @@
   <dc:author>Jens Maurer</dc:author>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="32c44862-b8be-4b12-a4b9-c406db563245" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="2ff185c8-a84c-41a0-8d44-ab9e741f0020" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-compatibility-c84115b" href="http://nodeload.github.com/boost-lib/compatibility/zipball/c84115ba67fc022ada1e9a725f1da59fa22102f6" size="15071" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/gACgkQxnV5mk56UjG0qACfQx+fHTPpdUHssoiNQINOTF4600AAn2igV9Yg
-xDTw4+VdiTv1V+F0ACtv
+iEYEABECAAYFAk+WfzoACgkQxnV5mk56UjHlUACeKiKRoEF/ihpqpyIMDBsMB1A57UkAoJletRcz
+oC+0SKkt6l3mZ0/UzTvk
 
 -->

@@ -11,7 +11,7 @@
   <dc:author>Darin Adler</dc:author>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3d10cb50-13a2-44bd-9125-3e131ebb2411" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="6657ec05-e8f2-4a65-bf9f-2481a9889451" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -42,14 +42,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeDcACgkQxnV5mk56UjGfMwCfbdAoTsTmoB7FEMZm2PXev/kQvDEAoKRM3bfh
-LjgVe+MnrKjyIclxr3qH
+iEYEABECAAYFAk+Wf4gACgkQxnV5mk56UjFMeQCeO5Pwfky9DqwQxikx4WDqGuVhv4MAoKS6KgtK
+FwgJpvlme2qx5p9PdWfj
 
 -->

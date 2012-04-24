@@ -9,7 +9,7 @@
   <dc:author>Jaakko Järvi</dc:author>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="74e86844-0298-40d1-9099-003eab4cdc60" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="7b7ab75c-bba6-47cc-b79c-a9dbf15ec905" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-lambda-9140145" href="http://nodeload.github.com/boost-lib/lambda/zipball/914014514c7cdee429f9c095174533abc69b4934" size="166956" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBYACgkQxnV5mk56UjFTDwCcD8o2XMAAxoufLAwqZUqGmGfVc2AAoKIDEZ4F
-32RI9yEc3PqO+XSDJnI+
+iEYEABECAAYFAk+Wf1sACgkQxnV5mk56UjEHFQCeNj2UiqDwvP6TI/y9SccXD3ZZ0QwAn1WVRhrs
+iDal2x02Yl0KgKmJ+3aw
 
 -->

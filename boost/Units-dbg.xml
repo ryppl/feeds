@@ -9,7 +9,7 @@
   <dc:author>Steven Watanabe</dc:author>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="27b889e6-2593-458b-843c-e47490369d6b" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="10b4a4aa-28aa-4a00-b9c7-a37dd9c3fe09" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeEYACgkQxnV5mk56UjFuSgCgkFfpMxPa0/xbGOyWGIXQJ7i+q1kAn0/0ElJY
-ilHLbxufPdRXViM13lAN
+iEYEABECAAYFAk+Wf5kACgkQxnV5mk56UjFy3wCgi33fY6F1it3W+zcY9sX7USfjGOgAn0Iw3IeL
+v9GWdqp5pbuEiniLx/RW
 
 -->

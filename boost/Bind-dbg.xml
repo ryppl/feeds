@@ -26,7 +26,7 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2ce56683-f91f-4f7d-9862-4b32dc87c1b3" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="870e2524-775e-4ad0-b003-532bd6c8eee0" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -57,14 +57,14 @@ A utility library for passing references to
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/QACgkQxnV5mk56UjE85gCcCCvPUkLRQqfj4T3ex31l0HBpo5kAn2v6Nl3F
-eovumi+s2xdy1Qy6qX3A
+iEYEABECAAYFAk+WfzUACgkQxnV5mk56UjETVgCdEhdqtQt57Ygtnye5oJrtTkaYFV0AniE5v193
+IcgmsmnsXycC1yHJJG9i
 
 -->

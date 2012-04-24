@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e08f15d1-0bea-49cf-96b1-cc5bc25be879" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="ecc39316-ef09-4182-a73e-18e74eb4dc3c" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-type_traits-c0e01e2" href="http://nodeload.github.com/boost-lib/type_traits/zipball/c0e01e2d36942936f75738a6d72233da8e9dd568" size="895065" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -41,14 +41,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeEQACgkQxnV5mk56UjFx6QCdF4GdiKCVvHFc7C6WVdzNKAtcXrgAoJAv/rA2
-0mtg3tERe9+SdtnpXLKO
+iEYEABECAAYFAk+Wf5gACgkQxnV5mk56UjEkZQCcDBTAKFtJfL08T8jh4x6Y85yaZeAAni3/oojf
+5vM+tpYO0CF+V0f1yV2l
 
 -->

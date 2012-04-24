@@ -8,7 +8,7 @@
   <dc:author>Daniel James</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6e0bdd27-6270-41e8-961b-91a737068e2f" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="32eed106-d708-45e8-8c7f-4ad44aadfe91" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-unordered-e9d55d7" href="http://nodeload.github.com/boost-lib/unordered/zipball/e9d55d7ded491933006c651f015d140893098004" size="192045" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeEcACgkQxnV5mk56UjGrbQCfUnGiM+9/3rAuLyk50ZXqQlwybWsAn3cnrPCw
-haVn6dwM4ExwvKxETKje
+iEYEABECAAYFAk+Wf5oACgkQxnV5mk56UjEuWQCggzxXykvkccWRKEGXscYMIfAVCzMAnjri3Ohj
+Xt+pfLRI5RxSzViodzm+
 
 -->

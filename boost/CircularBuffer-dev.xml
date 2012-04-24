@@ -8,7 +8,7 @@
   <dc:author>Jan Gaspar</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ce9b0c4d-b516-4337-84b8-c496f07fbf38" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="2a5c6e35-9c3b-4b8a-ac57-f7b73ebf03a4" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/cACgkQxnV5mk56UjFPuACffdiDvO03TP2MAsLdp+glggzN3lwAnAg3iKmm
-Ww8TqQK8aOBwv2m0R/tJ
+iEYEABECAAYFAk+WfzgACgkQxnV5mk56UjFfUACeMylzrSejI3UOv8pKhRL43pN56cgAmwSGRpLd
+RHKnxoDhvJf2c1HTPN2f
 
 -->

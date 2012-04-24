@@ -8,7 +8,7 @@
   <dc:author/>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9f9a5157-74d4-44c6-b38b-7234a75fcb00" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="c37c5dce-23e1-44d1-9827-fb3b7e872763" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBAACgkQxnV5mk56UjE9qgCfZC5F0QQykMcwxl+IXn5MlqkmWXwAni9n8jF7
-+0saEUNKhmGejhRvJvdE
+iEYEABECAAYFAk+Wf1QACgkQxnV5mk56UjFZNQCghnbug3YaI9bkBdMOqcuh0eOrTm4AnAqPnX+a
+sXFWN7IeAvxZ2pL/IUsh
 
 -->

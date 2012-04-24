@@ -8,7 +8,7 @@
   <dc:author>Ion Gaztañaga</dc:author>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="74e6c82b-431d-49d8-9e90-6b1492b4aa67" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="e713ee1e-e67e-42ae-87f8-95f85191e4f2" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-interprocess-b27e2e0" href="http://nodeload.github.com/boost-lib/interprocess/zipball/b27e2e04a163489e806d8c5a9e1e99872abc7e8f" size="833791" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBEACgkQxnV5mk56UjFGtwCgo8Jkafico5EKOoanvLVmjyZEgzYAn2zsOHu0
-VUXp+ISXq13gevboQ8zU
+iEYEABECAAYFAk+Wf1YACgkQxnV5mk56UjEpgACePeWGUO+ulQ27gWE6dBSbYpr5q/8AmwW2NB+1
+1469Gopejm+VB6dRnsTq
 
 -->

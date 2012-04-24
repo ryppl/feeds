@@ -8,7 +8,7 @@
   <dc:author>Steve Cleary</dc:author>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b99162a5-2063-48a6-aee6-9c223a0d6173" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="6011342a-4e3a-4059-a9aa-6ac34f8308fc" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCUACgkQxnV5mk56UjHtEACfWHDES1YVOPO9K0k/hNNGdASZ3zwAoKNooz3z
-rBUT1tspf4qQ3ZBFtG8f
+iEYEABECAAYFAk+Wf3IACgkQxnV5mk56UjHnRgCdEZmSsOkO3R0uuIlyqcY5Nu2axAcAnifINIqW
+/6mV+1knud+EXwOoV1DH
 
 -->

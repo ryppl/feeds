@@ -8,7 +8,7 @@
   <dc:author>Nicolai Josuttis</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bf3f9b80-c72d-481d-bc64-09bdcd6cef58" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="29164275-64fb-44c2-8170-a0464a9b94e5" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-array-8b17cd1" href="http://nodeload.github.com/boost-lib/array/zipball/8b17cd12a6b619b5f5f708ed8ce9f5917e0f53bd" size="16215" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/AACgkQxnV5mk56UjENBQCgmjnWZUYupI6b7q7nhBnxQKdIv+UAoI12Vpm5
-hpUnpy8Pgv4BKSBgLLuT
+iEYEABECAAYFAk+WfzAACgkQxnV5mk56UjERigCfXdMYCPKJ2SYpXZzL9rm59OAfp4IAoJGV4789
+sgQE2rMVjzA7WkpZN4Ag
 
 -->

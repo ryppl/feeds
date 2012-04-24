@@ -9,7 +9,7 @@
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="35866c72-efd3-4db4-bbe7-f01d16f5df2c" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="3955e7f7-65e6-4ebc-b24a-1ab5e4695c08" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeEAACgkQxnV5mk56UjHZBgCff5OWczk8AILLnwBI5oS+zZhzJJkAn1EdA6qa
-9TiH2GLZykGZuT8YFhJz
+iEYEABECAAYFAk+Wf5MACgkQxnV5mk56UjFCiACeN/g/t4wqTcyribpqMM9GNg2sdM8AnROv1cev
+/yMKLDp9Aw/fbprqO2y8
 
 -->

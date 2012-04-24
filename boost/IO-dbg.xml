@@ -8,7 +8,7 @@
   <dc:author>Daryle Walker</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0e5aa8b5-6784-4255-88e3-da2daa7eb376" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="4b5ab4e4-6812-42fe-8ccf-071900296c56" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBMACgkQxnV5mk56UjFiDgCgmVEOG2aY5zN6C/OgdeyQNdMSKucAn13y4U7o
-Wz9lEP6UJ1OTTlsv2Iex
+iEYEABECAAYFAk+Wf1gACgkQxnV5mk56UjHmyQCcDMfUAtPY7/rNl9pzLAztq2U4aL0AnRqPq5y3
+jO2ABuwP1kKnjizFwi9e
 
 -->

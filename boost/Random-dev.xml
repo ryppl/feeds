@@ -8,7 +8,7 @@
   <dc:author>Jens Maurer</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7f5073d1-9d84-46ca-9228-2cf9026fe78a" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="b2197ba7-910e-441b-ad06-8ba5ba49fb4b" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -56,7 +56,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
@@ -117,7 +117,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeC0ACgkQxnV5mk56UjGzZQCdHPxXYYo5Fi0h26GL545XnQIWuLYAoJk748oa
-VDkY/j82FXuBJEcfZzPI
+iEYEABECAAYFAk+Wf3oACgkQxnV5mk56UjEjRgCePCchLn0eootHwJNNH17desDyVj8AoJp6d5Pq
+mYQ40gnevL6ZlV8556Mh
 
 -->

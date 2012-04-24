@@ -9,7 +9,7 @@
   <dc:author>Matthias Troyer</dc:author>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6c918684-6edc-4314-92dc-90f0b7645938" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="337bed3d-8ced-4532-be05-db934ee5a10d" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-mpi-5f6f80d" href="http://nodeload.github.com/boost-lib/mpi/zipball/5f6f80d78dc068b33d443b502c65e7a84401a2dd" size="219930" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -56,7 +56,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
@@ -114,7 +114,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBoACgkQxnV5mk56UjF2NACeJ5aqUsru9rKv4argWCRbsbohKJ0AnivrIjT7
-Iv+D2uAXNED2RMu4r3+D
+iEYEABECAAYFAk+Wf2EACgkQxnV5mk56UjEFtgCfU2XtQuiR5q1+X3KgexB1JB2SPlUAoJmJwiRX
+9WTrLz7JDJIbyrbSy4dd
 
 -->

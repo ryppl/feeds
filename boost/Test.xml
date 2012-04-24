@@ -8,7 +8,7 @@
   <dc:author>Gennadiy Rozental</dc:author>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a016065b-f142-4971-bac9-5227e23011d3" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="263551ff-514c-455c-8aaf-efe733e79fdd" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-test-a3ae1c3" href="http://nodeload.github.com/boost-lib/test/zipball/a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc" size="1004084" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -56,7 +56,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
@@ -114,7 +114,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeDwACgkQxnV5mk56UjECaACfVH3NQ/EOttBb5x77P6dkJAjBsqoAn1PdEmhH
-ywM6hR8hPxdkTvZHXiVF
+iEYEABECAAYFAk+Wf48ACgkQxnV5mk56UjHjEACgl++tPqKQHFkziFGLR0fDOc8iC7MAoIuWaHOD
+EShOBnfNKHf9SXxNmOet
 
 -->

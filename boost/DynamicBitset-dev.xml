@@ -10,7 +10,7 @@
   <dc:author>Chuck Allison</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5801ffa0-06ec-4681-8769-32205fb4bfc6" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="99066139-035b-4221-9d30-4b655e8659f9" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-dynamic_bitset-2f5e9b9" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" size="53595" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -42,7 +42,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
@@ -55,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeAEACgkQxnV5mk56UjHIygCcC/rXh4ChacSAiW8SiZG6FGqiB6wAn2RFZhzA
-D/BRGPE0gQckTwiroVhR
+iEYEABECAAYFAk+Wf0IACgkQxnV5mk56UjHYKQCgjDWzD1Db99STDse1anGcbS5GEwYAn3uDdzsy
+oENr6HL3Bxs0yQn2gz37
 
 -->

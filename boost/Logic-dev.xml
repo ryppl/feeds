@@ -8,7 +8,7 @@
   <dc:author>Doug Gregor</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a476e72c-f928-4305-9ed2-90a635521e9d" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="9be97151-cfdd-41ec-be14-5d6ce098f725" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBcACgkQxnV5mk56UjGsugCgjjhn4OewycgQ6OReFC8pjkWTAj4AnRIlJhy8
-gNxOv04NI/ejscso+T9s
+iEYEABECAAYFAk+Wf1wACgkQxnV5mk56UjEnSwCgoaFyiXhMM53SHk9+wR5T+ktJ0O0AnjnSBThP
+EuETW8CIuxsyE8/XMpdX
 
 -->

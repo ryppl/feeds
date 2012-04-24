@@ -8,7 +8,7 @@
   <dc:author>Dave Abrahams</dc:author>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c79c97ee-236a-4e20-ab7e-1236a1d929ac" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="7efc68c2-d138-434c-a47e-868c9fcb585b" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -57,7 +57,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
@@ -118,7 +118,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCwACgkQxnV5mk56UjHqGgCgpRJbLUbtRqPM6Jx2aNu/twOO4H0An05Y5eB4
-S85HyV5sh92kwmECj4ka
+iEYEABECAAYFAk+Wf3oACgkQxnV5mk56UjEU2ACgi/PVaX7E+FQVMdF8oLJ/LRBbZLgAn1m21oyT
+KIuwZHohl152jYXCaVIw
 
 -->

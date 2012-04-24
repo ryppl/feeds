@@ -8,7 +8,7 @@
   <dc:author>Ion Gaztañaga</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3583ef5e-e397-41c8-9a6a-8e1b604fa49c" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="b5f1e0e7-fb21-4ee0-a58a-9f6c7caebbdd" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-intrusive-3854bb1" href="http://nodeload.github.com/boost-lib/intrusive/zipball/3854bb1a8d9d655b330137bc1fb2a8606f8de434" size="508493" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBIACgkQxnV5mk56UjGixACeNC6ImGG/yvpxdY4Nz8h9MQE4gMQAn18eoTmU
-h3FqpUq0TocsxF0OUfbB
+iEYEABECAAYFAk+Wf1cACgkQxnV5mk56UjGW1QCeKQB7YpThVo1jCmI6uS8qafogdkcAn30i/58C
+2DbpXv7dgkoPucKddId9
 
 -->

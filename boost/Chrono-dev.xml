@@ -9,7 +9,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5ed447ce-77fd-47ee-bc5c-a5bb8de8abf1" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="462cb5b1-1141-4493-951f-6a9fa545d51c" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-chrono-bcb5566" href="http://nodeload.github.com/boost-lib/chrono/zipball/bcb556677222caab2626f7a160a74b43a8ba81a3" size="574649" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -54,7 +54,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Accumulators-dev.xml">
@@ -106,7 +106,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/UACgkQxnV5mk56UjHbJACfV6zAMqqj81Ze/Pf3C80/RDQ6yxQAoKaXxR9Q
-OBGKZRZCyXluuEE3jJ9T
+iEYEABECAAYFAk+WfzcACgkQxnV5mk56UjHPqgCgncjlGsF2/ttLe7Zy7A8FwkfmJUUAoJQVmZt1
+VJoSXtqnzRsmsOdeOgfL
 
 -->

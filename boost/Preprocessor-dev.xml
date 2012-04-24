@@ -9,7 +9,7 @@
   <dc:author>Vesa Karvonen</dc:author>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0f288ca0-3aeb-4ee6-bab2-5450f07ce5e4" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="48fcbfe6-ffbf-4c85-b5ba-dc70bc7c135b" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCUACgkQxnV5mk56UjEeNwCfQNX5LdhqBFOfxpURcfdGBzVCv4oAoIEazHkG
-OYhmEYucWpJ0rnaUap+W
+iEYEABECAAYFAk+Wf3IACgkQxnV5mk56UjGABQCgjtqzXemS7BFtFVBdN3HTYisMDDQAoIH+JMkj
+gOyrQ5QbSFK2TZmF5/Ay
 
 -->

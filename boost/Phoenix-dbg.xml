@@ -10,7 +10,7 @@
   <dc:author>Thomas Heller</dc:author>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1a682d1c-53d4-4503-ad45-69b25067a302" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="fb5450da-4397-4b91-8e57-bb8b27dfece5" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-phoenix-01f9ff9" href="http://nodeload.github.com/boost-lib/phoenix/zipball/01f9ff971aa23c709c52cbf70f810e9c5b48c685" size="893837" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -41,14 +41,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCMACgkQxnV5mk56UjEGlgCdFNoV9WhjTP5Q00CogK29Hn0M5AIAnA8yF48X
-u4qUG+RkwSZCoNwL06AQ
+iEYEABECAAYFAk+Wf28ACgkQxnV5mk56UjF7lACbBwJTaFfo/ho3+6AGooi38lbtmhUAnjzttRra
+90w1vtTl0KVXwJa3iEmX
 
 -->

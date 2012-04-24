@@ -6,7 +6,7 @@
   <summary>***WRITE ME (one line)***</summary>
   <homepage>http://www.boost.org</homepage>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1bd91db5-b73e-46ac-b333-37ad314410be" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="6b82587e-7ea7-4a10-a4d3-249e50244a7a" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-boostbook-3213c0a" href="http://nodeload.github.com/boost-lib/boostbook/zipball/3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab" size="212674" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -37,14 +37,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/UACgkQxnV5mk56UjEr5gCfdyVfH2ztlTUjmQA+Y14AkjBVqLYAnjMkXbY2
-6dJG8TkfTq/5Kzodgk30
+iEYEABECAAYFAk+WfzYACgkQxnV5mk56UjF4QQCfdm7j7KIqPT1qBjeaCxc89YlA78EAnRAWL6d+
+kbeHFAIfL5rUvt3ab8k6
 
 -->

@@ -8,7 +8,7 @@
   <dc:author>Beman Dawes</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eaaf9a95-9b5e-4775-ac05-3668030ff9bc" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="d008acbe-0e1c-48f8-9d3b-826799a2f654" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -47,7 +47,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Chrono-dev.xml">
@@ -78,7 +78,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeD8ACgkQxnV5mk56UjEvBwCeOzGHIttJ/W+dWCCEHsCFEpZOh+UAoIqsRirA
-uX3Htuub2D7hESQhXr3l
+iEYEABECAAYFAk+Wf5IACgkQxnV5mk56UjFuaQCggriy2+ukycCRB4/Y/QtESsJFMOYAn3c1hhZg
+OEmxEKCJbGxPUtAyj1GI
 
 -->

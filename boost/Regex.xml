@@ -8,7 +8,7 @@
   <dc:author>John Maddock</dc:author>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="681e2bc0-b14b-4864-83ca-1454b05459a5" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="a610e927-b94c-4853-999e-5526e2fa49f7" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -54,7 +54,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/ConceptCheck-dev.xml">
@@ -106,7 +106,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeDEACgkQxnV5mk56UjFYegCeK5hUfB4DloVbWNhfrsjz4T73dzwAmQGYBTMC
-bNgeDSJfINa7IgbD3lwb
+iEYEABECAAYFAk+Wf4MACgkQxnV5mk56UjGtbwCdHZvA5LXQBrwFAS3tL2fQdZuiSZ8An1Dq34Jt
+x5gCxdYdeIALhDndpbB3
 
 -->

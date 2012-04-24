@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c1984e3c-4dae-40c0-bdfb-5e711a53dfde" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="7952998e-0eb4-4174-9c37-0920b10555ae" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-geometry-b525b54" href="http://nodeload.github.com/boost-lib/geometry/zipball/b525b54702501135602da646ad1634126c254c1a" size="5240094" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -42,14 +42,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeAsACgkQxnV5mk56UjHmsgCdFVQwTLn+frxpI6giy4pOr3zA49sAni/PbZOT
-YZ6ueQ4F3zcOOiAMMuxk
+iEYEABECAAYFAk+Wf04ACgkQxnV5mk56UjH/fgCfS+EIcFlf8Y7rCWc54PsrrJKC0jMAoKZti+k5
+0XqFAcNSfp8H/wXAKXXM
 
 -->

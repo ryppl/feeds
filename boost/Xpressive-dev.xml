@@ -8,7 +8,7 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fbac45d9-8c8c-4814-a186-a96f3589f617" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="39fb8f61-5b7b-4d5e-8677-c39d4b8f2576" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeEoACgkQxnV5mk56UjHGswCfRTmdM13YLVTbe+oERB38JRWkDSIAoIkpG7gm
-4g7cwBzLrdGdjOIftvmm
+iEYEABECAAYFAk+Wf54ACgkQxnV5mk56UjFVYwCglVT/PrwB30kvGPYvoaTq3NHXDFUAniwubRL+
+W3z827OBQBpqcm6OnBsd
 
 -->

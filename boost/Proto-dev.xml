@@ -8,7 +8,7 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f05ff71b-ed36-4d38-9090-f171c5bf5fce" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="3b28af78-d704-4144-8e13-bcdfe8feabbb" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-proto-4926fee" href="http://nodeload.github.com/boost-lib/proto/zipball/4926fee1658bb507b8b8497048d53bf730bc67bb" size="446348" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCkACgkQxnV5mk56UjEKxACeLQBZ2I7AUbNnCiE3jjhss9B3BsMAn1+G5quR
-NRvS5COxSX4Ti9oGWqks
+iEYEABECAAYFAk+Wf3cACgkQxnV5mk56UjFBZgCfXCn3nnkQhOKxMyO8vQZ3jJrFSgYAoJmjRNDL
+Uyvaii+xeNjqUGhTfdcO
 
 -->

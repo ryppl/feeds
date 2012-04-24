@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="612dd90e-9d7b-41b4-9857-4c3b8c6c0fbc" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="cdefb5f0-f086-40ef-ab9f-eaf40cbbf861" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -42,7 +42,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
@@ -55,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd/kACgkQxnV5mk56UjHhegCfcZc7lz7V1D+0srgR+JIYQGamirwAnj2ceANt
-QJ2VVgpXC2IeMmFmFe9M
+iEYEABECAAYFAk+WfzoACgkQxnV5mk56UjHAdgCcDMPv6urcHFHFLQiADXtRTj9eg14An03QyPRp
+gw5FqGp3fYuFkD827hkP
 
 -->

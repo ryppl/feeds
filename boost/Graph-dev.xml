@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b1bf7d10-de27-4318-96aa-41b7b09c8385" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="46bcd275-b62e-4046-a173-12258337b93f" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -82,7 +82,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Algorithm-dev.xml">
@@ -209,7 +209,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeA0ACgkQxnV5mk56UjGuzACgiQ24UR/d9KPjA4FTrP5bXh71p/AAnRgIuzcJ
-e6NLeVWnCB6SoO/lLkJA
+iEYEABECAAYFAk+Wf1AACgkQxnV5mk56UjH/IwCcDbBVM2U2kf04E9SLL/XC3ZhtYowAn03si7RQ
+2Pb/V/8iKhBi1CN5Kkv8
 
 -->

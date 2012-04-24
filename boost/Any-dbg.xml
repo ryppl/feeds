@@ -8,7 +8,7 @@
   <dc:author>Kevlin Henney</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ebec17c9-188c-4551-950b-b82ba27ccba7" released="2012-04-24" stability="testing" version="1.49-post-201204240952">
+    <implementation arch="*-src" id="c20eadbc-4f31-4046-b5f1-5da863ed63b2" released="2012-04-24" stability="testing" version="1.49-post-201204241023">
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,7 +40,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
@@ -50,7 +50,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wd+8ACgkQxnV5mk56UjENKQCfZgDXm/K6NvcHCrfx7Uge6dCb8fkAoKR6+SGj
-1ZlnHNeCk7DJeuoi+hfL
+iEYEABECAAYFAk+WfzAACgkQxnV5mk56UjHezgCffa6ulodCHGX2d8/fMxkBQmSfi8AAnRU89rrq
+51e35sGID0qOIOyqr6Hn
 
 -->

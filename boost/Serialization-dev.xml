@@ -9,7 +9,7 @@
   <dc:author>Robert Ramey</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2b4092d3-b7b1-4261-824f-82aac78c621a" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="0844097c-1f20-406f-bbdf-448e11506d80" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -59,7 +59,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Array-dev.xml">
@@ -126,7 +126,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeDQACgkQxnV5mk56UjHcJwCfVG9rGLGme0c0z2OygqY5xRGtvIgAn0qx7XH5
-TWQ53MCGOl0hU9cckT0q
+iEYEABECAAYFAk+Wf4UACgkQxnV5mk56UjHt8QCglRTuPJSm4cTC7t9paHeTuTsrrtAAnReBe30Q
+fifY7sJY35Uyr27haN5R
 
 -->

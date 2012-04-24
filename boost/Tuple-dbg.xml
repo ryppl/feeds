@@ -8,7 +8,7 @@
   <dc:author>Jaakko Järvi</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c493d50c-5abf-40d9-9f56-c2dcb6a22d3e" released="2012-04-24" stability="testing" version="1.49-post-201204240954">
+    <implementation arch="*-src" id="0a26eb3b-b542-41f4-96b7-6a918ff5518d" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -39,14 +39,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeEMACgkQxnV5mk56UjHh7gCfVrTC6BAR3GQSAQ+cHSLtPOM+Ze4AoJJVFaUb
-f+Xnv50HuV5wfWeVHXik
+iEYEABECAAYFAk+Wf5YACgkQxnV5mk56UjGU/gCfbOOzFkrCgLqbxoIO6KR3vTi7R1YAn0POFhd8
+tPSEBSQBNz7sWMbcwfnF
 
 -->

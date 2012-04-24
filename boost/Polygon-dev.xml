@@ -8,7 +8,7 @@
   <dc:author>Lucanus Simonson</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="aedf41c4-d348-47eb-8269-4837e507bed4" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="8b0a884c-f6a8-408a-81e4-47634fe39c81" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCMACgkQxnV5mk56UjEqzgCdHijn9preqVDdUF3aBT/yGh0JW3cAnRlWprCy
-TcohzSrA9xooyDoFTjic
+iEYEABECAAYFAk+Wf3AACgkQxnV5mk56UjFPqgCgmJLG5dVa50309/YidbgMYwtbPwcAn0WG5L5d
+3oJBPqJH2FKkkU/6swPh
 
 -->

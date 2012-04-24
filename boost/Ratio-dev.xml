@@ -8,7 +8,7 @@
   <dc:author>Vicente J. Botet Escribá</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3113003d-22fb-40ff-a917-9e12913cfb77" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="bd1e87a2-7d68-4ffb-b837-bdd63b619c5c" released="2012-04-24" stability="testing" version="1.49-post-201204241025">
       <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeC8ACgkQxnV5mk56UjEtfwCfXu4h/DTG5/3VkqrIQuI+Fj9/dCYAn2Zx97/A
-tPNCcGTxw/Vjqm3+PRiQ
+iEYEABECAAYFAk+Wf4AACgkQxnV5mk56UjHDiQCfU4bSYwh88ZlwjwOcJZj9M1vpNXcAoI/GsauW
+xwTBXnICLBAlacU1AHID
 
 -->

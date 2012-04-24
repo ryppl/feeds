@@ -10,7 +10,7 @@
   <dc:author>Thomas Witt</dc:author>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a711175e-975c-4b6f-a5e3-05d2bcb6c1dd" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="a84ca1a6-b9ca-4c5a-a928-ac653122ad64" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-iterator-00d114a" href="http://nodeload.github.com/boost-lib/iterator/zipball/00d114a88cae489976093a77356baa4615a3134e" size="1591678" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBUACgkQxnV5mk56UjEeiACgiUaZOaJWgPNxMXaEgkqNxH9cf8YAoI3LpI/8
-k7K6k9C1OtQjjnRO+b6s
+iEYEABECAAYFAk+Wf1oACgkQxnV5mk56UjGVgACeIcV8jNIzighfrigYym9Iv+BJvM0AnRiGbAUC
+EOfp8nITbgAiha5QfQ4q
 
 -->

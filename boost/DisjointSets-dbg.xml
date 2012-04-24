@@ -10,7 +10,7 @@
   <dc:author>Lie-Quan Lee</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9530775a-5bde-40f0-a467-86571bba7141" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="3b5cc078-7933-4623-b10f-67a9dc6aac03" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -43,7 +43,7 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
@@ -56,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeAAACgkQxnV5mk56UjHGCgCfRH0Q5jZ71n8fgrK0PrzqWQxjBy4An2WsORd6
-LmLmEjtStu5/9qmxWwYS
+iEYEABECAAYFAk+Wf0IACgkQxnV5mk56UjEDJQCeOssUTExt79p5LAEa4qmOFyTwkMIAn1czgE2k
+m04sw21j7WmtQeGjy8kC
 
 -->

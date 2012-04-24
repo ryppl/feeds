@@ -8,7 +8,7 @@
   <dc:author>Tim Blechmann</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="aa2224a0-eef5-4014-a16f-f1ede3a95d0b" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="54f14ade-f9f7-4cca-b1cb-e0f1a2e63eec" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeA4ACgkQxnV5mk56UjEImwCglJYSur5Rv6iufrB56Tf/cemhexwAnji6bCiF
-7RGtQIP5Dd6ZzJKNLpkO
+iEYEABECAAYFAk+Wf1IACgkQxnV5mk56UjEXTACdFAL9q5uMs7vfbSa5SLe27pMQ+FYAoJSRrASr
+ra14hMeiisldJKsFG9+0
 
 -->

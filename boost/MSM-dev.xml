@@ -8,7 +8,7 @@
   <dc:author>Christophe Henry</dc:author>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e4c312a4-2168-4c34-a416-1c84ee4765ed" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="70b30374-191d-4823-8d87-6d75efa96644" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -38,14 +38,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeBwACgkQxnV5mk56UjERSwCgogNbwkfL7JwbCw6xO5TT+To1LFIAoJZNdcu7
-ELenhfJFha3tgYkrWhBL
+iEYEABECAAYFAk+Wf2QACgkQxnV5mk56UjHK7QCgkGjh4zoPh5snzK4UJfZDSarWGz0An1JCHMd6
+bOEXdjY6knNdOByqIEwM
 
 -->

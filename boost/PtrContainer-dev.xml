@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="35fc1605-8b32-479a-853b-c625dfdd8cf9" released="2012-04-24" stability="testing" version="1.49-post-201204240953">
+    <implementation arch="*-src" id="3e8228b6-5d33-4e4d-afa3-9080499a4a1a" released="2012-04-24" stability="testing" version="1.49-post-201204241024">
       <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
     </implementation>
     <command name="compile">
@@ -40,14 +40,14 @@
         <arg>-P</arg>
         <arg>cmake_install.cmake</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WeCoACgkQxnV5mk56UjHaoQCbBISuqZSUPJSX6EMMM715FIOB/5gAmQGoXCDn
-fzwyHelSqbHJdMLedn+8
+iEYEABECAAYFAk+Wf3gACgkQxnV5mk56UjHsiQCeJBHOW6eHM8oj/yuf0wDRRKjuw3kAnj5j+IQi
+CVOyPGBS7JpRQY0xYaDs
 
 -->
