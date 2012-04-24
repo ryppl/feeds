@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1902fc8c-4892-4b11-b01f-fd4009d80a7b" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="0ff37605-2c10-414a-a0c4-868fe0506fc3" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
+      <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZ8ACgkQxnV5mk56UjGA1gCgnG1AOAZkWX+bxgRx5BvESO5Z7I4An1YSYRDU
-GKN3ppABQspnfTBK1bu9
+iEYEABECAAYFAk+W8ugACgkQxnV5mk56UjHjSACcCFay4arLL+wyaBRToCiuatVsAr8AnjxU3jO5
+mu/Cf/7N82fBL762IOTy
 
 -->

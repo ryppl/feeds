@@ -8,8 +8,9 @@
   <dc:author>Ion Gaztañaga</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d2021e2b-482a-488a-af11-1ad3f777b8c6" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="116509b5-10e7-483f-a20a-b09f8e76a6e7" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
       <archive extract="boost-lib-intrusive-3854bb1" href="http://nodeload.github.com/boost-lib/intrusive/zipball/3854bb1a8d9d655b330137bc1fb2a8606f8de434" size="508493" type="application/zip"/>
+      <manifest-digest sha1new="dc6b23d8b1cbb64d0fcd364848ee15d63b72a1ea"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgasACgkQxnV5mk56UjE+kQCfQHy2/dBt0PmWTTuHX5zvPzFZ31YAoJ8ZHeU8
-UPnXbdCiQsoCE0S9MBfZ
+iEYEABECAAYFAk+W8xcACgkQxnV5mk56UjGLqACdGocPo4FV7zzWCcEXLoM/me9P5BkAniFSRLS3
+DMJiJC5NEdmOb1J9QAYu
 
 -->

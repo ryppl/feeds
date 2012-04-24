@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6e93c46f-8957-4cc7-8102-7f5ecbcc4c5e" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="f17a190e-2412-41ad-8b55-332232c4050f" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-thread-420efc2" href="http://nodeload.github.com/boost-lib/thread/zipball/420efc212804318765379b2b22f662418585cc62" size="430513" type="application/zip"/>
+      <manifest-digest sha1new="9ecfc4d7244c5cc17b52212fbd0f858d92655692"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -119,7 +120,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgeQACgkQxnV5mk56UjF8OwCfUnuX9gHpx3tQ2O3+8OhsB6XZF98An0iPd6r6
-8daVSh+BAIM0cvwhlCcz
+iEYEABECAAYFAk+W8+4ACgkQxnV5mk56UjFc+wCcDe1V6R6PDfrTIcpEDZmIRXkufsAAnihUom5o
+n7bz++BZQm/Nc4L+OV7/
 
 -->

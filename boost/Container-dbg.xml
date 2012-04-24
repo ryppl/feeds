@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="840e814d-fe17-4612-bdd1-8d49b241cf26" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="eb08748e-361f-4346-88dd-0718c134b876" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-container-a26a62b" href="http://nodeload.github.com/boost-lib/container/zipball/a26a62ba8c1d61e96930805dc1902ebc79ccd63d" size="290425" type="application/zip"/>
+      <manifest-digest sha1new="a462ceb0a867e5ed839422f71cea96d5d1680221"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZIACgkQxnV5mk56UjHbBwCfQftXVqj3VuOY/lrUHC9ZiBOH7SEAoIBU8w3G
-ls9+hVGb0B+OfFZgJXxE
+iEYEABECAAYFAk+W8tIACgkQxnV5mk56UjEeeQCgifeppRKcmyAsw8D8OCkDmuobLjMAnipW0GLG
+Q9RbtPNJb8IEbmdlW4MF
 
 -->

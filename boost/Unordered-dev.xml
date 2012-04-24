@@ -8,8 +8,9 @@
   <dc:author>Daniel James</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f342d8d8-bbfb-4727-b74b-5742da67fba7" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="39d97567-89f4-4a5a-a473-9976b0910c22" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
       <archive extract="boost-lib-unordered-e9d55d7" href="http://nodeload.github.com/boost-lib/unordered/zipball/e9d55d7ded491933006c651f015d140893098004" size="192045" type="application/zip"/>
+      <manifest-digest sha1new="1bcbe66ef86bdd9ef21e7796ebf1af0c7791dd74"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wge0ACgkQxnV5mk56UjGxwwCeNrl3SKVyJQWIohYjYaiFpDSzV/sAnR3yTxVL
-NGdr1rMSDatc7CFV9lJf
+iEYEABECAAYFAk+W9AkACgkQxnV5mk56UjEeIgCgg861P6i0QwRR37/fD3KoiENrQTEAnRGjvbXR
+5+C3wVrOgNFZyDcOwgJM
 
 -->

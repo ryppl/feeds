@@ -9,8 +9,9 @@
   <dc:author>Matthias Troyer</dc:author>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a63866e9-9728-4073-ab31-8a63fd6f6da3" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="4ca1115a-a73d-4c9e-a3a2-94aa66bb01da" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
       <archive extract="boost-lib-mpi-5f6f80d" href="http://nodeload.github.com/boost-lib/mpi/zipball/5f6f80d78dc068b33d443b502c65e7a84401a2dd" size="219930" type="application/zip"/>
+      <manifest-digest sha1new="79ae2e7d84a730612c484165fc39e384ec6ab099"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -115,7 +116,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgbcACgkQxnV5mk56UjFcRQCeKWQX3KWxpZDvDobBZsxkqAiztkMAnAl1NKsP
-C9vNswShn+JHyzXudO+3
+iEYEABECAAYFAk+W80AACgkQxnV5mk56UjG6+ACeNy6s2oRN5+pAIXxt3ZxNhXSe7UAAn3wxdAHH
+zeXElGrXrSCEGWpmPHQ7
 
 -->

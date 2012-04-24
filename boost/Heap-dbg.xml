@@ -8,8 +8,9 @@
   <dc:author>Tim Blechmann</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e2f4553f-fbcc-476e-af43-c4bff8ea18e6" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="a5558232-c58e-4bad-9da1-3c6d5e580dc8" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
       <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
+      <manifest-digest sha1new="dc873a677d1f8a15e220148cd6096168051dce78"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgacACgkQxnV5mk56UjHmswCfQ6dpv5pFhrBq93aXVyEUgvgychkAniGiPUBu
-QBhDmP3a6IblO9XaqeA3
+iEYEABECAAYFAk+W8woACgkQxnV5mk56UjH2bwCePqJiNzhAoNLPHtea2A4Ev8mVO6EAoIdofFXF
+n9jDrcM1+29DqEgHZme9
 
 -->

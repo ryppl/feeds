@@ -9,8 +9,9 @@
   <dc:author>Robert Ramey</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c611503a-17b0-453f-bee6-925191f23fbc" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="c1e2db71-3789-47b3-b95c-c0ffed7cae76" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
+      <manifest-digest sha1new="ca2be928f371d397edb30377e7d9835210652a3d"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -127,7 +128,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgdoACgkQxnV5mk56UjGUnACeM7RPpgQAfsitgveP7TqvsEBrW8kAnROaVsmY
-uCUdwROl3VPHwEdgVFu2
+iEYEABECAAYFAk+W88gACgkQxnV5mk56UjFolwCdGoTNL7zS4mL034T/aXP8oP6nMyQAoJdTXiuI
+AbJ7hCySwXqap4QN/FL7
 
 -->

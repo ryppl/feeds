@@ -8,8 +8,9 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c34ee80e-8161-4937-b167-991ceff4d563" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="ad31450e-152e-4dea-ab52-c20a3faab47b" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
+      <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgYMACgkQxnV5mk56UjEpHQCdHUc+bd6kgFdtqQ7GVDcuQ8mCENEAnj6d7DSj
-1nvhNPCHdHDnd2TFyU6Z
+iEYEABECAAYFAk+W8rEACgkQxnV5mk56UjFeaQCfds2N1S9sMXmnmmlJ1EMZzYJzQVUAnAvipzJW
+C7HL/ACV06oxhiH4Dxys
 
 -->

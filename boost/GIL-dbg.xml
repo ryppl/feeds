@@ -13,8 +13,9 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="07172526-33c2-4bea-bbaa-5004d779c352" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="22a14c6b-5408-42cf-901b-e354a5319842" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
+      <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -51,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgaQACgkQxnV5mk56UjFsiQCdGCwdkZb9wq9IDrS0ys8p+dlDhz8AnRbPjNdr
-L9jiPW85vgvvIn3Q53xo
+iEYEABECAAYFAk+W8vgACgkQxnV5mk56UjGswgCfVqQUcUzigAo2t5oiCYHQFyMnByQAoIpKJv++
+vDcgZVhTW3ykH9C8f4OR
 
 -->

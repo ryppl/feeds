@@ -8,8 +8,9 @@
   <dc:author>Beman Dawes</dc:author>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ebd329ca-ae43-41e2-b452-f9959b3c2128" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="15dda0f0-45fc-4c2d-94fe-3b6f02cb20af" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-system-353bd55" href="http://nodeload.github.com/boost-lib/system/zipball/353bd5548cc13000f3f6ec337422f03ffd9526e7" size="44487" type="application/zip"/>
+      <manifest-digest sha1new="7355b3334601d5adbdca5ce6c1625ca0829d6618"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -58,7 +59,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgeEACgkQxnV5mk56UjEYXgCeLPUdlfHdO7b7aq2K0WVWpxTONiAAn1IoAjWd
-w2xK+rO0+5fTxqnVUAQx
+iEYEABECAAYFAk+W8+QACgkQxnV5mk56UjHfSACdF3vpeU4+nxczL/wILtQZo0ZLrRQAn1ct0aDk
+CbXWTRp1/OaVcRfYVRkK
 
 -->

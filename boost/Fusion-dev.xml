@@ -11,8 +11,9 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dc07b638-4e80-4a6c-8cc0-38c5d4c10b39" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="dd6269d1-5fb4-48ef-9e9d-bbc36a6bdef7" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-fusion-4392acf" href="http://nodeload.github.com/boost-lib/fusion/zipball/4392acfbfbcb26cf34f0ef1870e0b2f3367dc9df" size="1209617" type="application/zip"/>
+      <manifest-digest sha1new="74973b8b3a83d75179baaa95b61c207957eee2c7"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -48,7 +49,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgaAACgkQxnV5mk56UjG0PQCdFsVTCz5A+ib9zeg7m9nN5M4ygIYAoJtfCAxY
-X2U9UigPUJT/lDZbE1BA
+iEUEABECAAYFAk+W8uoACgkQxnV5mk56UjExdwCfemCD/zb4E97i9kk+HBwYDVqwAgkAl0wv9PPq
+pHk20+cU9ZbATOjQfAI=
 
 -->

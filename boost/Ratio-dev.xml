@@ -8,8 +8,9 @@
   <dc:author>Vicente J. Botet Escribá</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dc527b67-4e42-4b3f-a2c6-092fc6afdb54" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="e7b778ed-7409-4637-ae75-46191e458ad3" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
+      <manifest-digest sha1new="ddd202152dff504f922dfd76e59d11abac88f6f5"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgdQACgkQxnV5mk56UjEsMwCdFTtyCSpUTJrGbBSGCR5NVU2I1RQAn04PYXRw
-4/0VILMaaYjmGb+shRA7
+iEYEABECAAYFAk+W874ACgkQxnV5mk56UjFzKQCglWkHKmja+rEcPqfDX/v63SLad+cAnjnue3HK
+1hJhYCK7lB5tmshJpw1g
 
 -->

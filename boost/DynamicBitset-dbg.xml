@@ -10,8 +10,9 @@
   <dc:author>Chuck Allison</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5a0740f1-742e-4fd0-b121-c1c37cb24a8c" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="c2d41cd1-8e0b-45af-b78a-43d406cafe23" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-dynamic_bitset-2f5e9b9" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" size="53595" type="application/zip"/>
+      <manifest-digest sha1new="937c502cc09795474b36d917e423cd5a26584b55"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -56,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZgACgkQxnV5mk56UjFjZwCdG9QCxFPK1r0TFkjnPgOF6CZWHm8AoIO0dkJ6
-iTrGk6jA1A3qgXcOzGHu
+iEYEABECAAYFAk+W8tsACgkQxnV5mk56UjHr/QCdEqBil6uFdC3inWoTcwSi0I/OX5kAnjChDizz
+SlqwOliOTLNoiGiD4LQt
 
 -->

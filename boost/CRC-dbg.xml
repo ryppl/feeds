@@ -8,8 +8,9 @@
   <dc:author>Daryle Walker</dc:author>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ef320ddd-c753-45ed-8415-6f0082e6cd6c" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="dca1a1a0-8293-4e6e-9d84-4a94fdc82888" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
+      <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZQACgkQxnV5mk56UjFKlACfe2iev9LkOBla1pGPp12nnHdBKx4AoIDGBx5T
-Je4lwfuAzggIedXNmPRG
+iEYEABECAAYFAk+W8tYACgkQxnV5mk56UjFiMgCfblTjvjdUQPDZrPFc15Z+gtGTaqEAoJebKCYh
+P0uoqmWQvSEwX00MAiKy
 
 -->

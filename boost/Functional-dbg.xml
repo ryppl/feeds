@@ -24,8 +24,9 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f5962f43-2ff2-4490-a08e-9155b3ce3e93" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="d5589363-da75-4bc2-a93b-beff6676c403" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-functional-f332981" href="http://nodeload.github.com/boost-lib/functional/zipball/f3329812763cfbe09fca6f3a6f7aea5decbcc480" size="166324" type="application/zip"/>
+      <manifest-digest sha1new="33ac4b847f247cbde11b3f14d563d7cd58a2aaa8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -62,7 +63,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZ8ACgkQxnV5mk56UjGQlgCghYxXd1Pks7ophLkNw4KjicFb75sAn0C+sSn/
-vAGBPNYMOlS6VDyiXo/c
+iEYEABECAAYFAk+W8ucACgkQxnV5mk56UjF1EACfRKCg0FaVI4OhYrnn1CxLm7DWjwwAoI6/brzk
+Pe9VjWHI1ZG3fqM1yDrB
 
 -->

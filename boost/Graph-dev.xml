@@ -12,8 +12,9 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9434d1e9-5779-49c1-a911-c421d9522c9d" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="f421da58-1e2c-4433-8b6c-52230b83862f" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
+      <manifest-digest sha1new="a3183d1f78c0fb9fc808db8d02c67bc47b5d14ce"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -209,7 +210,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgaUACgkQxnV5mk56UjF8jACfSV6YKDgFNw20+e9nHfpWmn+pIbsAoIiGpGX4
-K0OilHvlubN4jHSZ8OL+
+iEYEABECAAYFAk+W8v0ACgkQxnV5mk56UjFiiACbBSjvXCz2sU/xAXaupSzSwoJB3hkAnRynR+Yc
+ME6Iuwipjb47KICMRPgC
 
 -->

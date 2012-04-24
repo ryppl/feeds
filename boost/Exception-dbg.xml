@@ -8,8 +8,9 @@
   <dc:author>Emil Dotchevski</dc:author>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="200e6095-6ed5-4c49-901c-f83c91d83e44" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="e25df465-0821-44ce-ae7f-ae15e65de87a" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-exception-d888b41" href="http://nodeload.github.com/boost-lib/exception/zipball/d888b415e7bf79708b3e6fd9ab0aaa491d7dad1b" size="230954" type="application/zip"/>
+      <manifest-digest sha1new="590830ddd9de965906f83034b572b09f7bf24280"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZgACgkQxnV5mk56UjEitwCfeIj/KJbO2MJ7DpQC4/42KFbh8ukAoIvnYCBE
-ekMdBByeH82rEW9K+wHP
+iEYEABECAAYFAk+W8t0ACgkQxnV5mk56UjHsyQCgl974qZGUO46AYmZMOPBG6/aE4dcAn3MJ02iP
+qrU5dU0BkNaUJefQsJ+B
 
 -->

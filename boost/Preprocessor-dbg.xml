@@ -9,8 +9,9 @@
   <dc:author>Vesa Karvonen</dc:author>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cc60f6f6-8854-4f39-8d08-cee99b4e823d" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="1f102622-4d9c-48d2-b1ff-944fcc5b8a84" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
       <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
+      <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgckACgkQxnV5mk56UjE9MACfZG4gaTc0pkhSOPdKCIFTYzmCN0UAn1wKzC28
-XwBsJR7SaQTPgu/arn4Q
+iEYEABECAAYFAk+W86MACgkQxnV5mk56UjHnawCfUDWNBYjt5e+qpjLjBGI1woNQeLMAn0RZRFAZ
+gCgoRA0ZfAtNT3pdXNKG
 
 -->

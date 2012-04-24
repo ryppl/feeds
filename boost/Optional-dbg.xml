@@ -8,8 +8,9 @@
   <dc:author>Fernando Cacciola</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="30b9d019-1f5c-4990-9cce-d3d7ab676127" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="0a79a053-7ad1-4c7d-8ad2-1d9326be3923" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
       <archive extract="boost-lib-optional-b0f724d" href="http://nodeload.github.com/boost-lib/optional/zipball/b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7" size="100931" type="application/zip"/>
+      <manifest-digest sha1new="1a74efbcedb71ee0e5f38a4932140d3d4323d8af"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgcQACgkQxnV5mk56UjFI2wCfeUdTHYUDMb6Z1f2bJoDmEwln6PUAnR5Dz7aF
-B9FiRI/9gkwGBgA4NT2O
+iEYEABECAAYFAk+W85AACgkQxnV5mk56UjEcTACfZKdt5rZ3Iy303vb5iJKbfZgLTJ4An02p2DVt
+s/NxyA2sSQZg7pG4zIOf
 
 -->

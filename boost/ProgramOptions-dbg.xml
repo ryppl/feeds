@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d2983070-3eb8-4b63-9193-59dd210e8d2b" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="d14fd5d1-3e0e-4063-8587-79653ebe0cb1" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
       <archive extract="boost-lib-program_options-4839321" href="http://nodeload.github.com/boost-lib/program_options/zipball/48393218d9cfcd3636668f12fb4897d18d025500" size="159758" type="application/zip"/>
+      <manifest-digest sha1new="786540c39175b26b817c5bd15386f1c050833d98"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -99,7 +100,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgcsACgkQxnV5mk56UjEclgCdHW6956JdSh1ywaLxVNOxVQgs+2wAmwU0O/bc
-sl78PVh6BRgpQQmwreBl
+iEYEABECAAYFAk+W86YACgkQxnV5mk56UjGcRQCeMnU9o0/oOOd0eucvFzsb3vIM3/cAoIWQFkBF
+wROxBlhIkvVAIW+GeCh1
 
 -->

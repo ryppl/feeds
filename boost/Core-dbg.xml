@@ -6,8 +6,9 @@
   <summary>***WRITE ME (one line)***</summary>
   <homepage>http://www.boost.org</homepage>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d80bae36-e14f-4db2-935a-08523e553983" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="6b1d6a6d-9fba-48d8-80ca-608f9cf4fa64" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-core-0b0d7b5" href="http://nodeload.github.com/boost-lib/core/zipball/0b0d7b586d12419e52a1365a015e75d29ed8fd3a" size="82102" type="application/zip"/>
+      <manifest-digest sha1new="055f7312fbb4354955b88518171c18c5eb2f68b0"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -44,7 +45,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZQACgkQxnV5mk56UjGOLACfR6I6Rg0cxn/xAisPQibqcTuz7X0AoKH2gFCG
-Jjs+aD3jaAYSmCsMDYuP
+iEYEABECAAYFAk+W8tQACgkQxnV5mk56UjFPXwCeK6FG7rT38/2ssS/3RjLVoJHYsigAn3gkjU10
+asOh7PYhsaPv1CBcjTXc
 
 -->

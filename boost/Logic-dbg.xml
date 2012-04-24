@@ -8,8 +8,9 @@
   <dc:author>Doug Gregor</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e2c9149b-8e39-4f74-a094-961f4da2274b" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="6c52d24d-f7e8-4160-9183-c14d21740cb1" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
+      <manifest-digest sha1new="55e6864c29485cec6a7f1354a45c28ddbb64f111"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgbEACgkQxnV5mk56UjGIPACgliycSq8Dg9iqst//+n7TQ2LpAewAnRyiU1fA
-kCg8K3OFmTbhwytd/6fR
+iEYEABECAAYFAk+W8yIACgkQxnV5mk56UjGc7ACfSHPfHu0VsIJC8xri2TlR7Z70k1gAn30HK0Ft
+HTG6CBCFE4gpYyKXE6BA
 
 -->

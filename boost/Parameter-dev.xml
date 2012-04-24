@@ -11,8 +11,9 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8eda6e8d-e404-4a20-8ebb-fc32ca241cb4" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="68bb2f71-af45-43b7-9124-b854922609ff" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
       <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
+      <manifest-digest sha1new="f14d8172a5fa047a5abe507fdd8c9acea4c67eb7"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -48,7 +49,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgcQACgkQxnV5mk56UjFe2gCfYea/V2Qbd2qNJyA9o9j0pxd//40AoJnEYnwM
-DKRm8K0Ky8NtmV/0nj6b
+iEYEABECAAYFAk+W85EACgkQxnV5mk56UjF73wCfTS/d/GTCnRZsdW4rsV12IhziFqQAnRQXCU9f
+mKAXalCp9adr0Kv66rJF
 
 -->

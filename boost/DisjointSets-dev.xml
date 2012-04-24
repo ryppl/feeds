@@ -10,8 +10,9 @@
   <dc:author>Lie-Quan Lee</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a15ecdd9-fba8-4b77-8c4f-9e1063a1ac69" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="a7097cf3-95fc-4e1a-bea7-a335aee02425" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
+      <manifest-digest sha1new="9c4c12c1c4262fd95c482493e9cb4681350c5d7f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -55,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZYACgkQxnV5mk56UjEJqwCdF3VrsF04GOuZXTlw21x4bKyk3lMAn12WcuIB
-F4n6PmEd/vFHn6knquGL
+iEYEABECAAYFAk+W8tkACgkQxnV5mk56UjH5kgCeIJCWtmvZmA/ldygl0EapniOqORIAoJTka9wC
+hvA1Bg1XFHh6ykmyMD+a
 
 -->

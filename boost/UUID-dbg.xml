@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f8d1f0e9-a351-4a90-b9fb-d689cd8a0e7b" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="2d2ebbbd-b13b-4500-a286-c48e40fefa2d" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
       <archive extract="boost-lib-uuid-7235414" href="http://nodeload.github.com/boost-lib/uuid/zipball/7235414cbe99a431f0183a927b3285170a33a60e" size="48926" type="application/zip"/>
+      <manifest-digest sha1new="f6a7fe4a4e0cdce2f9d4d90ca6dc892cabec82ee"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgfAACgkQxnV5mk56UjFYgQCfcpNluofjEvYovWuq/gYGU6IyJMkAoIfCwhFW
-bDKLNpwKOeBF0dLUE6n3
+iEYEABECAAYFAk+W9A4ACgkQxnV5mk56UjH7SQCgpCfBNDReWRbvS55F+TF0Hh0/u7gAningNIf4
+aQw+lvRw7UOTXxbtF+9x
 
 -->

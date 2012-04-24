@@ -8,8 +8,9 @@
   <dc:author>Jens Maurer</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="287aa611-5fe3-4e14-a5e1-11debc969b85" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="54bcebe8-215e-40c0-85cf-9a7e8b3ecc81" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
+      <manifest-digest sha1new="de645815364acb78b029019be93f30c4932622e4"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -118,7 +119,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgdIACgkQxnV5mk56UjFkRgCeN6neXNdbyUzVHvbTQr2OsAoTTL4An2OaEf8F
-4ZXFRdSunPQiosKlLyHm
+iEYEABECAAYFAk+W87UACgkQxnV5mk56UjGy3ACgoGa++NYnbCCuir42dJkkAXhux0YAnjetzIJE
+/uvsE5d7/ozLoD60PUsi
 
 -->

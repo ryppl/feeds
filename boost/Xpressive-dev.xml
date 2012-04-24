@@ -8,8 +8,9 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c2cec71f-74fa-43bf-b9c7-04ee6bec659c" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="75ef468f-fcc3-4b4f-887d-78860e11e90d" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
       <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
+      <manifest-digest sha1new="c0f2289efc3c20efbb44d680d8dd2ebced21c0bc"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgfEACgkQxnV5mk56UjFQQgCcC/KAEZDGSlmA2J5gOaMrF3lEoTUAoJHoQbXe
-mCsB84z61lU1mkWXhVhR
+iEYEABECAAYFAk+W9BYACgkQxnV5mk56UjGGvACdE2/QMpY+v6kShTnX8i+CjZCKOTMAn3o7meTr
+J11SWP7dHoShhB2WLJ0s
 
 -->

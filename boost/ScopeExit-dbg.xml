@@ -8,8 +8,9 @@
   <dc:author>Alexander Nasonov</dc:author>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e9353452-27c3-478b-9b4a-898f7d3851d8" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="0ed8b9d9-cf97-4951-8475-f4010a1b853f" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-scope_exit-5f996f7" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/5f996f7d7ff316556f057d1e99dd188dff0c09b1" size="99753" type="application/zip"/>
+      <manifest-digest sha1new="3ff8680ff2432ea1c46ae0f54c665e9cd680bb86"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgdgACgkQxnV5mk56UjGr6ACfUNB1xnDblW0LDa3dxZO5DL4lK0gAnijZmUQV
-MGA+hgEnHJYelSWCLk3h
+iEYEABECAAYFAk+W88UACgkQxnV5mk56UjE/ggCfT3ZzaJPm1Tf0K7KrfGTRnnAbdnoAn1BY4Apu
+1XN1UIwAcO58hAsmfVB8
 
 -->

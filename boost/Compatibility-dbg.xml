@@ -9,8 +9,9 @@
   <dc:author>Jens Maurer</dc:author>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d00dc13e-162c-481e-bffe-37eab861e9ab" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="cee206f1-b708-4bb4-a619-0808355f6070" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
       <archive extract="boost-lib-compatibility-c84115b" href="http://nodeload.github.com/boost-lib/compatibility/zipball/c84115ba67fc022ada1e9a725f1da59fa22102f6" size="15071" type="application/zip"/>
+      <manifest-digest sha1new="0690cea7e6722e9e5eae4dba3a6d1216b22ac5d0"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgY8ACgkQxnV5mk56UjHBdgCfeV6OP7sGmIvDzuHqasHccf4ECAQAn1aHw/D6
-E5vge21L55fDs/Oyi0+C
+iEYEABECAAYFAk+W8swACgkQxnV5mk56UjExkQCfSsU5u56fVs6rbNyS/v/sZhqzpQAAoKg/pINZ
+8WbBiKBvasOmW9m/ZAa0
 
 -->

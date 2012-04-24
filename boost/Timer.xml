@@ -8,8 +8,9 @@
   <dc:author>Beman Dawes</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6aed81a8-8528-4e7f-b928-891c5d351842" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="08eebfc4-c65e-44b7-9012-d9cfbd715a04" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
+      <manifest-digest sha1new="e9faecf16545b16ab008911b52ffcfe089447406"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -78,7 +79,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgeUACgkQxnV5mk56UjGQJwCffgwzfWqMbgEJM/sraKEdOhzF/EQAn3iPDUZk
-UiWnoeh2ZreuD8odn1qE
+iEYEABECAAYFAk+W8/EACgkQxnV5mk56UjGVLACePRRmDT5afxZ3toaxxtcnKlC5HfcAn3YFijS7
+/NP0QmlATi8RTWqaZefv
 
 -->

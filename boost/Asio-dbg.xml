@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9ca3ed5c-78f8-4099-be5d-04e79cb59d26" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="17115355-8e9e-4bb9-ac08-df2c54bfc2be" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
       <archive extract="boost-lib-asio-97e13d3" href="http://nodeload.github.com/boost-lib/asio/zipball/97e13d3b006c31acc620716444a778c507e7bcc8" size="1389225" type="application/zip"/>
+      <manifest-digest sha1new="ed82411c8902af3c945a3fb3036da8f770f6f97f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgYcACgkQxnV5mk56UjE0MwCfW4H4BSvB0oZn800pu8MDfUg/hNAAn1jFhJqx
-euVGAhFeX1EVNntJARda
+iEYEABECAAYFAk+W8rwACgkQxnV5mk56UjEjKACgl6tuuII+6qvuinxHQg25a1Q+OacAn34Qj2Ve
+K6eG9saXe2pYcg0zA11e
 
 -->

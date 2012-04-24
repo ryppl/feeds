@@ -8,8 +8,9 @@
   <dc:author>Nicolai Josuttis</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a665febf-dabe-4a6d-a526-323bd5d9edf7" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="f020dcda-a030-4b2b-b6ba-4bf4198d4d5d" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
       <archive extract="boost-lib-array-8b17cd1" href="http://nodeload.github.com/boost-lib/array/zipball/8b17cd12a6b619b5f5f708ed8ce9f5917e0f53bd" size="16215" type="application/zip"/>
+      <manifest-digest sha1new="0b4abc355dbc69adaf73e04472b00d577451bff2"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgYYACgkQxnV5mk56UjGbnQCfUOcxB3HJ6+OVIGhqPSVZishUGBMAn27pHLFO
-Rvu6l9l1hUBzwvF5/CEI
+iEYEABECAAYFAk+W8rgACgkQxnV5mk56UjE0XACePl9nflreSsPwqscdf5vmyoHhzdMAn0KoutBi
+OCjwFXbrm52cI61HrwHU
 
 -->

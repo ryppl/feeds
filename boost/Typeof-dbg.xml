@@ -9,8 +9,9 @@
   <dc:author>Peder Holt</dc:author>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="000eab0d-5667-4d5c-bca4-b360d65a44a4" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="08508c9f-3fd1-4162-9dc2-f63fbc8b14d0" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
       <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
+      <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgeoACgkQxnV5mk56UjG66gCfWceZgVqnExgl7YA0mf4ebtKB5gcAn17UF8aM
-g2BiD4yUJJhPotaBOLZF
+iEYEABECAAYFAk+W9AEACgkQxnV5mk56UjH5XwCeOdj4R3b/OQahBtmok8W03eXMMe4An1Soxjp4
+LlAFEdVNDpZOVqR6zIFt
 
 -->

@@ -8,8 +8,9 @@
   <dc:author>Daniel James</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="757a2239-e20b-49c3-9021-7b4a01745d69" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="ff7e6cac-1b89-4077-bb95-9eb27ada790f" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
       <archive extract="boost-lib-unordered-e9d55d7" href="http://nodeload.github.com/boost-lib/unordered/zipball/e9d55d7ded491933006c651f015d140893098004" size="192045" type="application/zip"/>
+      <manifest-digest sha1new="1bcbe66ef86bdd9ef21e7796ebf1af0c7791dd74"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wge4ACgkQxnV5mk56UjFhtACeIhlbKt51B3xRTyvkbRAk7hgusuEAoIotzeXp
-9B+Zp38wyYD5zOEaRBZz
+iEYEABECAAYFAk+W9AsACgkQxnV5mk56UjFwegCaAmL+bB+5hHDDYBQWJaAY1FWa4R0An0JTTurZ
+VovIcF9sHM12AfXxPoZk
 
 -->

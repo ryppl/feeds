@@ -10,8 +10,9 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6f7d931f-0f20-428f-9b88-c8a65299b9fc" released="2012-04-24" stability="testing" version="1.49-post-201204241033">
+    <implementation arch="*-src" id="47190e5d-35e3-4eca-b8de-77c721a8108c" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
       <archive extract="boost-lib-conversion-1e57a45" href="http://nodeload.github.com/boost-lib/conversion/zipball/1e57a45bb2da44ea5d9be050ace0a739129547a4" size="71392" type="application/zip"/>
+      <manifest-digest sha1new="3bf4f0064f7cb19c93c40f136abcc8a1961ab775"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgZIACgkQxnV5mk56UjFK8gCginbnf/Iy9a1HHyNNM5Ra20nkL6UAoIZVLyZC
-AocTQFR03A0hFiMqOrmm
+iEYEABECAAYFAk+W8tIACgkQxnV5mk56UjGQ4QCfT+8Alrc35RzskAOWuK3h3tQQFz4An19Pk+lI
+AB/E6Hi1gyn1TnSi1UKL
 
 -->

@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Math</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cd2ec57d-5408-44fa-8034-6e62608edf42" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="fa030b18-b5b6-49c5-b338-348cc3f52474" released="2012-04-24" stability="testing" version="1.49-post-201204241839">
       <archive extract="boost-lib-multi_array-0ddebd3" href="http://nodeload.github.com/boost-lib/multi_array/zipball/0ddebd3e206e05f3f6c68ad1c8d8eb6aa47de2d3" size="147906" type="application/zip"/>
+      <manifest-digest sha1new="7dce588c6157116d9f7875e87c8d28a7ef4a6924"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,7 +48,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgbwACgkQxnV5mk56UjH7YwCeIx6aFSAG4Nlf/m+zZiT3X8c2yDEAnjIIt+X/
-YR5ykdmdIVJesoIgVRS/
+iEYEABECAAYFAk+W80sACgkQxnV5mk56UjGZ6ACdGNjz3yhEZH9VRMzQEf4fcA46kCEAoI3fN5at
+Z2E3dFZtXtxMCYEJZzgx
 
 -->

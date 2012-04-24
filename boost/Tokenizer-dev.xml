@@ -9,8 +9,9 @@
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2483dfb6-5c9d-4a16-ae82-74a8e60829f1" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="f67870c6-a746-47a5-9e7a-f097f91fb2f6" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
+      <manifest-digest sha1new="c8de121c4d64f7f38638acb6a6ba15f2c7338db9"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgeYACgkQxnV5mk56UjHV+QCePregzwXxwtbtkUMuGP2fqxcSO4EAn2I6vwNS
-sozQu6V4w1B33H40rSL2
+iEYEABECAAYFAk+W8/MACgkQxnV5mk56UjFrRgCdFRxr2Edd3p20es/171R8ghqJs/YAn2Qllqfv
+cdZRs16fBnc4kobCRnGp
 
 -->

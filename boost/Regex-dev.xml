@@ -8,8 +8,9 @@
   <dc:author>John Maddock</dc:author>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="34d29079-9306-4055-baca-f90d9522e042" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="b67f7791-0208-4e10-bd4f-9179f169ebfd" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
+      <manifest-digest sha1new="32ee0bf1b24aae886b63c8b4e22ba01b070b0687"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -105,7 +106,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgdYACgkQxnV5mk56UjEk+ACfUcZ8kVnKDboI0U/ssDSnjgDxITgAn2Zx81ZJ
-/B4p4CND+ya0Nld8dAPm
+iEYEABECAAYFAk+W88EACgkQxnV5mk56UjGEYACfS3a7kD1kI8l7spa3XTv+rhaYDqgAn14wUrLi
+Kegk2BR7jE7cIW4Tf1yN
 
 -->

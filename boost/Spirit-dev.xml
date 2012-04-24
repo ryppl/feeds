@@ -11,8 +11,9 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="aafc8091-3035-4e9a-8045-e80f17687aa3" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="dba9bc89-11f1-4054-ab93-508e0032f88b" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-spirit-0e28531" href="http://nodeload.github.com/boost-lib/spirit/zipball/0e28531d80705d009f7355dfb1ca2466363b1c65" size="4519445" type="application/zip"/>
+      <manifest-digest sha1new="bbb53dde25a6f42f662f077ad7810facf8826d92"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -48,7 +49,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Wgd0ACgkQxnV5mk56UjGkJwCeIV/m1yHVUH3P/Bs6/wbUvfpPdQYAn2FkBwj8
-LS7mBh/lL93TKRN+NmZQ
+iEYEABECAAYFAk+W89IACgkQxnV5mk56UjFhXACeNLMaqVh4VNeFWr810/Iexq39nCAAoKjkN0bO
+XYyzlKPNL2OmLS7jIFA9
 
 -->

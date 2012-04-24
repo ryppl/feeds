@@ -8,8 +8,9 @@
   <dc:author>Jaakko Järvi</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a6652195-30ca-4076-a263-77c8a5a12eab" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="51fb7ada-efa5-46e9-ae0b-21b3f4281b4a" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
+      <manifest-digest sha1new="1f6847576867a1454f4d9a2e29f4711242fc0b46"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,7 +47,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgekACgkQxnV5mk56UjFUYgCeJ7nzBwt9IaGM5RmdJBjKbU+H6F0AoKmUcTXj
-BcN+jxSRu1VvI68jMnYm
+iEYEABECAAYFAk+W8/4ACgkQxnV5mk56UjFScACgg0XOFeXU5OZ3dxSWjUohvcLc+i0An1t/iM00
+u4Ug8h0O0Diztpo1eI0g
 
 -->

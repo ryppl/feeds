@@ -10,8 +10,9 @@
   <dc:author>Thomas Heller</dc:author>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a3c5bdb8-9d88-4591-a62d-36b55fbd3983" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="d5e9eac0-c71e-4941-93e2-6d54b9640908" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
       <archive extract="boost-lib-phoenix-01f9ff9" href="http://nodeload.github.com/boost-lib/phoenix/zipball/01f9ff971aa23c709c52cbf70f810e9c5b48c685" size="893837" type="application/zip"/>
+      <manifest-digest sha1new="b44a6fbe8c37781fdd7a1c8fdd84b67664a08711"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -48,7 +49,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgcYACgkQxnV5mk56UjHgdQCdFCTbcYawsGFnBGIV4eMGaWrX1WgAoJjBtHAj
-OwEYWGaQdJudg22YAwDS
+iEYEABECAAYFAk+W85UACgkQxnV5mk56UjFtCwCfbfA4nE56EGoHArRVtO5ic0bDDdcAnjjj6ETw
+i+g/Ln7wk9n/BCOmRq0K
 
 -->

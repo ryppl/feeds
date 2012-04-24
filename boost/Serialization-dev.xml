@@ -9,8 +9,9 @@
   <dc:author>Robert Ramey</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1e324eea-a6ab-487e-bdb5-55b529ddd791" released="2012-04-24" stability="testing" version="1.49-post-201204241035">
+    <implementation arch="*-src" id="937ed284-3c58-4792-a4e8-3b4258a92bbc" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
+      <manifest-digest sha1new="ca2be928f371d397edb30377e7d9835210652a3d"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -126,7 +127,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgdkACgkQxnV5mk56UjHoPwCgkK+D4GBfDmlIiFd9TpY1pYm8htwAnjhIrwAz
-/VHx58DkuS0WM1C6I2Px
+iEYEABECAAYFAk+W88cACgkQxnV5mk56UjEOLgCfeVzyJODPStEfLXG+hTSLY2WFK+4An3aobATl
+De+pyGwbHDaXfaB+mtVN
 
 -->

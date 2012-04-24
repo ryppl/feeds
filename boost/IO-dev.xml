@@ -8,8 +8,9 @@
   <dc:author>Daryle Walker</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0ee5f9af-6c31-4943-92cb-03b319766950" released="2012-04-24" stability="testing" version="1.49-post-201204241034">
+    <implementation arch="*-src" id="14452a12-811c-4256-93e3-fd031c84055f" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
       <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
+      <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,7 +46,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+WgawACgkQxnV5mk56UjFmkgCgl9v2P+7pjwpo6tGWlGpU+wDTp6wAn1RYuaNq
-L5IyPfzJzBeQ1wgvgOeI
+iEYEABECAAYFAk+W8xgACgkQxnV5mk56UjF58QCfaS6eGGUZIrrXCMazYPhipuR7D3wAoIkZNRz6
+dzf6hosC8CSdBPFKSncN
 
 -->
