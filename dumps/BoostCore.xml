@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostCore</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/core</source-directory>
   <depends>
     <dependency>BoostConfig</dependency>
     <dependency>BoostIterator</dependency>
@@ -9,6 +10,6 @@
   </depends>
   <include-directories>
     <directory>/Users/dave/src/ryppl/boost-zero/boost/core/include</directory>
-    <directory>/tmp/bb/boost/core/include</directory>
+    <directory>/private/var/folders/b2/w0_x7_854hz82sbrdxqqd6gr0000gn/T/tmpzpTooz/boost/core/include</directory>
   </include-directories>
 </cmake-project>

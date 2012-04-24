@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostMPI</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/mpi</source-directory>
   <find-package>
     <arg>Boost</arg>
     <arg>COMPONENTS</arg>

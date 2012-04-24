@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostSmartPtr</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/smart_ptr</source-directory>
   <depends>
     <dependency>BoostConfig</dependency>
     <dependency>BoostCore</dependency>

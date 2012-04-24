@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostTuple</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/tuple</source-directory>
   <depends>
     <dependency>BoostConfig</dependency>
     <dependency>BoostStaticAssert</dependency>

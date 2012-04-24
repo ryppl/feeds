@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostRange</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/range</source-directory>
   <depends>
     <dependency>BoostAlgorithm</dependency>
     <dependency>BoostArray</dependency>

@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostFormat</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/format</source-directory>
   <depends>
     <dependency>BoostConfig</dependency>
     <dependency>BoostCore</dependency>

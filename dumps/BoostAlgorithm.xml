@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostAlgorithm</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/algorithm</source-directory>
   <depends>
     <dependency>BoostBind</dependency>
     <dependency>BoostConceptCheck</dependency>

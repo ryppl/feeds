@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostContainer</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/container</source-directory>
   <depends>
     <dependency>BoostConfig</dependency>
     <dependency>BoostIntrusive</dependency>

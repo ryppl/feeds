@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostHeap</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/heap</source-directory>
   <depends>
     <dependency>BoostArray</dependency>
     <dependency>BoostBind</dependency>

@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostUnits</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/units</source-directory>
   <depends>
     <dependency>BoostAlgorithm</dependency>
     <dependency>BoostConfig</dependency>

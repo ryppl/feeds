@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostGeometry</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/geometry</source-directory>
   <depends>
     <dependency>BoostAlgorithm</dependency>
     <dependency>BoostArray</dependency>

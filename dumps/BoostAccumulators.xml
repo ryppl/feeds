@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostAccumulators</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/accumulators</source-directory>
   <depends>
     <dependency>BoostArray</dependency>
     <dependency>BoostCircularBuffer</dependency>

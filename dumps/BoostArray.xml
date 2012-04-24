@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostArray</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/array</source-directory>
   <depends>
     <dependency>BoostConfig</dependency>
     <dependency>BoostException</dependency>

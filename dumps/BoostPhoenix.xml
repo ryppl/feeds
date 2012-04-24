@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <cmake-project>
   <name>BoostPhoenix</name>
+  <source-directory>/Users/dave/src/ryppl/boost-zero/boost/phoenix</source-directory>
   <depends>
     <dependency>BoostBind</dependency>
     <dependency>BoostConfig</dependency>
