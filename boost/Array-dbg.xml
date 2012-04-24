@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Array-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostArray</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>STL compliant container wrapper for arrays of constant size.</summary>
+  <homepage>libs/array/</homepage>
+  <dc:author>Nicolai Josuttis</dc:author>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="605a042d-1aee-4a38-8250-74e87811dd17" released="2012-04-24" stability="testing" version="1.49-post-201204240941">
+      <archive extract="boost-lib-array-8b17cd1" href="http://nodeload.github.com/boost-lib/array/zipball/8b17cd12a6b619b5f5f708ed8ce9f5917e0f53bd" size="16215" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/array</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Debug</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dbg</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdS8ACgkQxnV5mk56UjFSaQCeIH0CrrhgoP4XFWn4V2YcwWzVsqYAn0Yv7Wfu
+YclJ0eNM2NHlrtmtkkrr
+
+-->

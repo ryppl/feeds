@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/TR1-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostTR1</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>The TR1 library provides an implementation of the C++ Technical Report on Standard Library Extensions. This library does not itself implement the TR1 components, rather it's a thin wrapper that will include your standard library's TR1 implementation (if it has one), otherwise it will include the Boost Library equivalents, and import them into namespace std::tr1.</summary>
+  <homepage>libs/tr1/</homepage>
+  <dc:author>John Maddock</dc:author>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="e91a62a3-7c53-434d-b7f3-81031ac64273" released="2012-04-24" stability="testing" version="1.49-post-201204240942">
+      <archive extract="boost-lib-tr1-29adf81" href="http://nodeload.github.com/boost-lib/tr1/zipball/29adf81005592df8f64d8084c4e0739f85b4ab18" size="187668" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/tr1</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Debug</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dbg</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdZcACgkQxnV5mk56UjFBywCeLu19fwA/QYpLb2ll5nsl6M4dWKsAn2nPccCN
+sDHnmbVIgavkTaOHw+CG
+
+-->

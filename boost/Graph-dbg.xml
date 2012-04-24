@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Graph-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostGraph</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>The BGL graph interface and graph components are generic, in the same sense as the the Standard Template Library (STL).</summary>
+  <homepage>libs/graph/</homepage>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>a University of Notre Dame team; now maintained by Andrew Sutton</dc:author>
+  <dc:author>Jeremiah Willcock.</dc:author>
+  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="2ccb0d81-9350-4a94-a802-9a15e0cfb05d" released="2012-04-24" stability="testing" version="1.49-post-201204240941">
+      <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>-DBoostAlgorithm_DIR=BoostAlgorithm_DIR</arg>
+        <arg>-DBoostAny_DIR=BoostAny_DIR</arg>
+        <arg>-DBoostArray_DIR=BoostArray_DIR</arg>
+        <arg>-DBoostBind_DIR=BoostBind_DIR</arg>
+        <arg>-DBoostConceptCheck_DIR=BoostConceptCheck_DIR</arg>
+        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
+        <arg>-DBoostConversion_DIR=BoostConversion_DIR</arg>
+        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
+        <arg>-DBoostDisjointSets_DIR=BoostDisjointSets_DIR</arg>
+        <arg>-DBoostDynamicBitset_DIR=BoostDynamicBitset_DIR</arg>
+        <arg>-DBoostException_DIR=BoostException_DIR</arg>
+        <arg>-DBoostFilesystem_DIR=BoostFilesystem_DIR</arg>
+        <arg>-DBoostForeach_DIR=BoostForeach_DIR</arg>
+        <arg>-DBoostFunction_DIR=BoostFunction_DIR</arg>
+        <arg>-DBoostFunctional_DIR=BoostFunctional_DIR</arg>
+        <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
+        <arg>-DBoostIterator_DIR=BoostIterator_DIR</arg>
+        <arg>-DBoostMath_DIR=BoostMath_DIR</arg>
+        <arg>-DBoostMpi_DIR=BoostMpi_DIR</arg>
+        <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
+        <arg>-DBoostMultiIndex_DIR=BoostMultiIndex_DIR</arg>
+        <arg>-DBoostOptional_DIR=BoostOptional_DIR</arg>
+        <arg>-DBoostParameter_DIR=BoostParameter_DIR</arg>
+        <arg>-DBoostPropertyMap_DIR=BoostPropertyMap_DIR</arg>
+        <arg>-DBoostPropertyTree_DIR=BoostPropertyTree_DIR</arg>
+        <arg>-DBoostRandom_DIR=BoostRandom_DIR</arg>
+        <arg>-DBoostRange_DIR=BoostRange_DIR</arg>
+        <arg>-DBoostRegex_DIR=BoostRegex_DIR</arg>
+        <arg>-DBoostSerialization_DIR=BoostSerialization_DIR</arg>
+        <arg>-DBoostSmartPtr_DIR=BoostSmartPtr_DIR</arg>
+        <arg>-DBoostSpirit_DIR=BoostSpirit_DIR</arg>
+        <arg>-DBoostStaticAssert_DIR=BoostStaticAssert_DIR</arg>
+        <arg>-DBoostTest_DIR=BoostTest_DIR</arg>
+        <arg>-DBoostTuple_DIR=BoostTuple_DIR</arg>
+        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
+        <arg>-DBoostTypeof_DIR=BoostTypeof_DIR</arg>
+        <arg>-DBoostUnordered_DIR=BoostUnordered_DIR</arg>
+        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>-DBoostVariant_DIR=BoostVariant_DIR</arg>
+        <arg>-DBoostXpressive_DIR=BoostXpressive_DIR</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/graph</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Debug</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dbg</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Algorithm-dev.xml">
+        <environment insert="." mode="replace" name="BoostAlgorithm_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Any-dev.xml">
+        <environment insert="." mode="replace" name="BoostAny_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Array-dev.xml">
+        <environment insert="." mode="replace" name="BoostArray_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
+        <environment insert="." mode="replace" name="BoostBind_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/ConceptCheck-dev.xml">
+        <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/DisjointSets-dev.xml">
+        <environment insert="." mode="replace" name="BoostDisjointSets_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/DynamicBitset-dev.xml">
+        <environment insert="." mode="replace" name="BoostDynamicBitset_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Filesystem-dev.xml">
+        <environment insert="." mode="replace" name="BoostFilesystem_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Foreach-dev.xml">
+        <environment insert="." mode="replace" name="BoostForeach_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Functional-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
+        <environment insert="." mode="replace" name="BoostMath_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Mpi-dev.xml">
+        <environment insert="." mode="replace" name="BoostMpi_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
+        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/MultiIndex-dev.xml">
+        <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Optional-dev.xml">
+        <environment insert="." mode="replace" name="BoostOptional_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Parameter-dev.xml">
+        <environment insert="." mode="replace" name="BoostParameter_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/PropertyMap-dev.xml">
+        <environment insert="." mode="replace" name="BoostPropertyMap_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/PropertyTree-dev.xml">
+        <environment insert="." mode="replace" name="BoostPropertyTree_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Random-dev.xml">
+        <environment insert="." mode="replace" name="BoostRandom_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Range-dev.xml">
+        <environment insert="." mode="replace" name="BoostRange_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Regex-dev.xml">
+        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Serialization-dev.xml">
+        <environment insert="." mode="replace" name="BoostSerialization_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Spirit-dev.xml">
+        <environment insert="." mode="replace" name="BoostSpirit_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
+        <environment insert="." mode="replace" name="BoostTest_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
+        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Typeof-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Unordered-dev.xml">
+        <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Variant-dev.xml">
+        <environment insert="." mode="replace" name="BoostVariant_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Xpressive-dev.xml">
+        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdVEACgkQxnV5mk56UjHuEQCfZ8uObm+fnOhAxYJK/YdYdphLLLwAnRHLl3X8
+8spuYeKPfaC+iacaadJL
+
+-->

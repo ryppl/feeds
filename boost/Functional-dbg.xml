@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Functional-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostFunctional</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>The Boost.Function library contains a family of class templates that are function object wrappers.</summary>
+  <homepage>libs/functional/</homepage>
+  <dc:author>Mark Rodgers</dc:author>
+  <dc:author>Daniel James</dc:author>
+  <dc:author>Tobias Schwinger</dc:author>
+  <description>functional:
+The Boost.Function library contains a family of
+    class templates that are function object
+    wrappers.
+
+functional/hash:
+A TR1 hash function object that can be extended to
+    hash user defined types.
+
+functional/factory:
+Function object templates for dynamic and static object creation
+
+functional/forward:
+Adapters to allow generic function objects to accept arbitrary arguments</description>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="1cd2a656-0ebd-45c1-93fc-49a9d70ddc06" released="2012-04-24" stability="testing" version="1.49-post-201204240941">
+      <archive extract="boost-lib-functional-f332981" href="http://nodeload.github.com/boost-lib/functional/zipball/f3329812763cfbe09fca6f3a6f7aea5decbcc480" size="166324" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/functional</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Debug</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dbg</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdUoACgkQxnV5mk56UjHeuACeLSoZloBZFRJo5FYcp0Rovxr9G8YAn3dtDtqw
+Ood3/sQIM5boF/yZIA5C
+
+-->

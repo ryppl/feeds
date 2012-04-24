@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Bind-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostBind</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>boost::bind is a generalization of the standard functions std::bind1st and std::bind2nd. It supports arbitrary function objects, functions, function pointers, and member function pointers, and is able to bind any argument to a specific value or route input arguments into arbitrary positions.</summary>
+  <homepage>libs/bind/</homepage>
+  <dc:author>Peter Dimov</dc:author>
+  <dc:author>Dave Abrahams</dc:author>
+  <dc:author>Doug Gregor</dc:author>
+  <dc:author>Jaako Järvi</dc:author>
+  <description>bind:
+boost::bind is a generalization of the standard
+    functions std::bind1st and std::bind2nd. It supports arbitrary
+    function objects, functions, function pointers, and member
+    function pointers, and is able to bind any argument to a
+    specific value or route input arguments into arbitrary
+    positions.
+
+bind/mem_fn:
+Generalized binders for function/object/pointers
+    and member functions.
+
+bind/ref:
+A utility library for passing references to
+    generic functions.</description>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="b0be6b85-a146-49be-ac22-c03e891b2672" released="2012-04-24" stability="testing" version="1.49-post-201204240941">
+      <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/bind</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dev</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdTMACgkQxnV5mk56UjGq4wCcDXVdGUz7YVytAq6AdOWU0ri29h4Ani/PSQnH
+qETGDmS83+BkFRly16lz
+
+-->

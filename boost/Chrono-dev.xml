@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Chrono-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostChrono</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>Useful time utilities.</summary>
+  <homepage>libs/chrono/</homepage>
+  <dc:author>Vicente J. Botet Escribá</dc:author>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="a7d1bdd6-48f7-4444-9f3c-2c7b0a64f05d" released="2012-04-24" stability="testing" version="1.49-post-201204240941">
+      <archive extract="boost-lib-chrono-bcb5566" href="http://nodeload.github.com/boost-lib/chrono/zipball/bcb556677222caab2626f7a160a74b43a8ba81a3" size="574649" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>-DBoostAccumulators_DIR=BoostAccumulators_DIR</arg>
+        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
+        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
+        <arg>-DBoostException_DIR=BoostException_DIR</arg>
+        <arg>-DBoostFormat_DIR=BoostFormat_DIR</arg>
+        <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
+        <arg>-DBoostInterprocess_DIR=BoostInterprocess_DIR</arg>
+        <arg>-DBoostMath_DIR=BoostMath_DIR</arg>
+        <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
+        <arg>-DBoostRatio_DIR=BoostRatio_DIR</arg>
+        <arg>-DBoostStaticAssert_DIR=BoostStaticAssert_DIR</arg>
+        <arg>-DBoostSystem_DIR=BoostSystem_DIR</arg>
+        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
+        <arg>-DBoostTypeof_DIR=BoostTypeof_DIR</arg>
+        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/chrono</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dev</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Accumulators-dev.xml">
+        <environment insert="." mode="replace" name="BoostAccumulators_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Format-dev.xml">
+        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Interprocess-dev.xml">
+        <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
+        <environment insert="." mode="replace" name="BoostMath_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
+        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Ratio-dev.xml">
+        <environment insert="." mode="replace" name="BoostRatio_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
+        <environment insert="." mode="replace" name="BoostSystem_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Typeof-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEUEABECAAYFAk+WdTUACgkQxnV5mk56UjEelgCfU0x7NpyQnFM7oIjTV8mxAnvGc+QAlj7lOuvk
+SIohoAQCWF/as1AP+WU=
+
+-->

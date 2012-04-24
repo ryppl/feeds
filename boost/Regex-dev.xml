@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Regex-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostRegex</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>Regular expression library.</summary>
+  <homepage>libs/regex/</homepage>
+  <dc:author>John Maddock</dc:author>
+  <category type="http://boost.org/lib-categories">String</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="7744fcb9-8a3f-4c50-9071-1c7ea3ca1ebb" released="2012-04-24" stability="testing" version="1.49-post-201204240942">
+      <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>-DBoostConceptCheck_DIR=BoostConceptCheck_DIR</arg>
+        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
+        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
+        <arg>-DBoostException_DIR=BoostException_DIR</arg>
+        <arg>-DBoostFunctional_DIR=BoostFunctional_DIR</arg>
+        <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
+        <arg>-DBoostIterator_DIR=BoostIterator_DIR</arg>
+        <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
+        <arg>-DBoostSmartPtr_DIR=BoostSmartPtr_DIR</arg>
+        <arg>-DBoostStaticAssert_DIR=BoostStaticAssert_DIR</arg>
+        <arg>-DBoostTest_DIR=BoostTest_DIR</arg>
+        <arg>-DBoostTimer_DIR=BoostTimer_DIR</arg>
+        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
+        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>-DBoostXpressive_DIR=BoostXpressive_DIR</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/regex</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dev</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/ConceptCheck-dev.xml">
+        <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Functional-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
+        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
+        <environment insert="." mode="replace" name="BoostTest_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Timer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTimer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Xpressive-dev.xml">
+        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdYYACgkQxnV5mk56UjEQmQCeJmPK0YNAxnq0MZthShF9apV86zkAn0ruwJhK
+7MAotf0hTKgZzv0ljCkT
+
+-->

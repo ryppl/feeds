@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Utility-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostUtility</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>Class noncopyable plus checked_delete(), checked_array_delete(), next(), prior() function templates, plus base-from-member idiom.</summary>
+  <homepage>libs/utility/utility.htm</homepage>
+  <dc:author>Dave Abrahams</dc:author>
+  <dc:author>Fernando Cacciola</dc:author>
+  <dc:author/>
+  <dc:author>Howard Hinnant</dc:author>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>Jaakko Järvi</dc:author>
+  <dc:author>Andrew Lumsdaine</dc:author>
+  <dc:author>others</dc:author>
+  <dc:author>John Maddock</dc:author>
+  <dc:author>Joseph Gauterin</dc:author>
+  <dc:author>Jeremiah Willcock</dc:author>
+  <dc:author>et al</dc:author>
+  <description>utility:
+Class noncopyable plus checked_delete(),
+    checked_array_delete(), next(), prior() function templates,
+    plus base-from-member idiom.
+
+utility/call_traits:
+Defines types for passing
+    parameters.
+
+utility/compressed_pair:
+Empty member optimization.
+
+utility/enable_if:
+Selective inclusion of function template
+    overloads.
+
+utility/in_place_factories:
+Generic in-place construction of contained objects
+    with a variadic argument-list.
+
+utility/operators:
+Templates ease arithmetic classes and
+    iterators.
+
+utility/result_of:
+Determines the type of a function call expression.
+    
+
+utility/swap:
+Enhanced generic swap function.
+
+utility/value_initialized:
+Wrapper for uniform-syntax value initialization,
+    based on the original idea of David Abrahams.</description>
+  <category type="http://boost.org/lib-categories">Generic</category>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories">Patterns</category>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">Memory</category>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="5dc56981-d6e3-4bca-a861-beb7bdef4299" released="2012-04-24" stability="testing" version="1.49-post-201204240942">
+      <archive extract="boost-lib-utility-951cd3d" href="http://nodeload.github.com/boost-lib/utility/zipball/951cd3d443071adb4caf3b1a9c4e240a23284b32" size="223222" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/utility</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Debug</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dbg</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdZ8ACgkQxnV5mk56UjEQywCeKQOmTtm90yIVCH5vHr33UmTGQAcAniqu9JRQ
+few86FqgUUpqLZuzaato
+
+-->

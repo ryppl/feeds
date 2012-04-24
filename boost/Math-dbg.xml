@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/Math-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostMath</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>Boost.Math includes several contributions in the domain of mathematics: The Greatest Common Divisor and Least Common Multiple library provides run-time and compile-time evaluation of the greatest common divisor (GCD) or least common multiple (LCM) of two integers. The Special Functions library currently provides eight templated special functions, in namespace boost. The Complex Number Inverse Trigonometric Functions are the inverses of trigonometric functions currently present in the C++ standard. Quaternions are a relative of complex numbers often used to parameterise rotations in three dimentional space. Octonions, like quaternions, are a relative of complex numbers.</summary>
+  <homepage>libs/math/</homepage>
+  <dc:author>Paul Bristow</dc:author>
+  <dc:author>Hubert Holin</dc:author>
+  <dc:author>Xiaogang Zhang</dc:author>
+  <dc:author>various</dc:author>
+  <dc:author>John Maddock</dc:author>
+  <dc:author>Daryle Walker</dc:author>
+  <description>math:
+Boost.Math includes several contributions in the
+    domain of mathematics: The Greatest Common Divisor and Least
+    Common Multiple library provides run-time and compile-time
+    evaluation of the greatest common divisor (GCD) or least common
+    multiple (LCM) of two integers. The Special Functions library
+    currently provides eight templated special functions, in
+    namespace boost. The Complex Number Inverse Trigonometric
+    Functions are the inverses of trigonometric functions currently
+    present in the C++ standard. Quaternions are a relative of
+    complex numbers often used to parameterise rotations in three
+    dimentional space. Octonions, like quaternions, are a relative
+    of complex numbers.
+
+math/common_factor:
+Greatest common divisor and least common
+    multiple.
+
+math/octonion:
+Octonions.
+
+math/quaternion:
+Quaternions.
+
+math/special_functions:
+A wide selection of mathematical special functions.
+
+math/statistical_distributions:
+A wide selection of univariate statistical distributions and
+    functions that operate on them.</description>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="19f0666d-2765-4d3f-8e8f-67ea3130f1c9" released="2012-04-24" stability="testing" version="1.49-post-201204240941">
+      <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>./source</arg>
+        <arg>-DBoostAlgorithm_DIR=BoostAlgorithm_DIR</arg>
+        <arg>-DBoostArray_DIR=BoostArray_DIR</arg>
+        <arg>-DBoostBind_DIR=BoostBind_DIR</arg>
+        <arg>-DBoostConceptCheck_DIR=BoostConceptCheck_DIR</arg>
+        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
+        <arg>-DBoostConversion_DIR=BoostConversion_DIR</arg>
+        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
+        <arg>-DBoostException_DIR=BoostException_DIR</arg>
+        <arg>-DBoostFormat_DIR=BoostFormat_DIR</arg>
+        <arg>-DBoostFunction_DIR=BoostFunction_DIR</arg>
+        <arg>-DBoostFusion_DIR=BoostFusion_DIR</arg>
+        <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
+        <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
+        <arg>-DBoostNumeric_DIR=BoostNumeric_DIR</arg>
+        <arg>-DBoostRandom_DIR=BoostRandom_DIR</arg>
+        <arg>-DBoostRegex_DIR=BoostRegex_DIR</arg>
+        <arg>-DBoostSmartPtr_DIR=BoostSmartPtr_DIR</arg>
+        <arg>-DBoostSpirit_DIR=BoostSpirit_DIR</arg>
+        <arg>-DBoostStaticAssert_DIR=BoostStaticAssert_DIR</arg>
+        <arg>-DBoostTest_DIR=BoostTest_DIR</arg>
+        <arg>-DBoostTimer_DIR=BoostTimer_DIR</arg>
+        <arg>-DBoostTr1_DIR=BoostTr1_DIR</arg>
+        <arg>-DBoostTuple_DIR=BoostTuple_DIR</arg>
+        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
+        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${BOOST_CMAKELISTS_DIR}/math</arg>
+        <arg>./source</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>./source</arg>
+        <arg>-DBUILD_TYPE=Debug</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>--build</arg>
+        <arg>.</arg>
+        <arg>;</arg>
+        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCOMPONENT=dbg</arg>
+        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
+        <arg>-P</arg>
+        <arg>cmake_install.cmake</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/cmakelists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Algorithm-dev.xml">
+        <environment insert="." mode="replace" name="BoostAlgorithm_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Array-dev.xml">
+        <environment insert="." mode="replace" name="BoostArray_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
+        <environment insert="." mode="replace" name="BoostBind_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/ConceptCheck-dev.xml">
+        <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Format-dev.xml">
+        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Fusion-dev.xml">
+        <environment insert="." mode="replace" name="BoostFusion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
+        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Numeric-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Random-dev.xml">
+        <environment insert="." mode="replace" name="BoostRandom_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Regex-dev.xml">
+        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Spirit-dev.xml">
+        <environment insert="." mode="replace" name="BoostSpirit_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
+        <environment insert="." mode="replace" name="BoostTest_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Timer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTimer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tr1-dev.xml">
+        <environment insert="." mode="replace" name="BoostTr1_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
+        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+WdV4ACgkQxnV5mk56UjEwFwCeMyHWUMyaPzlZ9VZfnsnq2za+rj4AoIyfjQgH
+gcBlEwTnjbeF/yaP9iAo
+
+-->
