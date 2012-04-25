@@ -9,7 +9,8 @@
   <homepage>http://ryppl.org</homepage>
   <category>Development</category>
   <icon href="http://ryppl.github.com/_static/ryppl.png" type="image/png"/>
-  <implementation arch="*-src" id="sha1new=2fa0123e285814e5472be426d195387e4206b198" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-25" stability="testing" version="1.49-post-201204251437">
+  <!-- The oddball ID is just to have something unique from other feeds using the same archive -->
+  <implementation arch="*-src" id="ryppl=7E02F451-8237-4C55-96DF-56A2984A39D5" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-25" stability="testing" version="1.49-post-201204251437">
     <archive extract="ryppl-boost-zero-6065c38" href="https://nodeload.github.com/ryppl/boost-zero/zipball/6065c386af02d7a8ec9401c45a817abd02b3585a" size="153214" type="application/zip"/>
     <manifest-digest sha256="382413b94ca47cc7671c7ea5499fbb539c0a461530ada84b54fd3ede84f23ce7"/>
     <command name="compile">
@@ -30,3 +31,8 @@
     </command>
   </implementation>
 </interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+YVhUACgkQxnV5mk56UjGBGgCdGhs5xBSxcSd+3NThZ9SCMPmdvmYAn3kjGibl
+icTjnELsXlIDEvCpDNOD
+
+-->
