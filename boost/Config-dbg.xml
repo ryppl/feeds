@@ -8,33 +8,38 @@
   <dc:author/>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1734ea73-5547-4b1f-8d76-31556cf6946b" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
+    <implementation arch="*-src" id="4c74490d-13a0-48da-a5fb-0c3bb6bfd551" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
       <archive extract="boost-lib-config-d4e581c" href="http://nodeload.github.com/boost-lib/config/zipball/d4e581c3afea07ff3a12eb6df47d8e1b068e0190" size="611643" type="application/zip"/>
       <manifest-digest sha256="ef7202319134ce3ecc57e3261d3c26092bf9a42bd69bf1af606376ff8976f1c4"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/config</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>-DBUILD_TYPE=Debug</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dbg</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -50,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU2MACgkQxnV5mk56UjEvNQCePBWTdvPBG1MgPiUud2MqVxZ53UUAnRtvddNw
-Gbqoo2384i24oyMQYP2c
+iEYEABECAAYFAk+YY8kACgkQxnV5mk56UjEp/QCdHd7llSdizy/sXIJzLjB8iWyPfc0An1M1Xgxh
+jTXzaph0DobtIn02U3GA
 
 -->

@@ -26,33 +26,38 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="05d1d3c1-9f60-4c14-8be0-a95735074132" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
+    <implementation arch="*-src" id="931dd226-55e7-4df2-8a9a-5f51467c0b46" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
       <archive extract="boost-lib-numeric-7098ba6" href="http://nodeload.github.com/boost-lib/numeric/zipball/7098ba6e03f76c16b980bdf58e9e3a9335abf8e7" size="49662654" type="application/zip"/>
       <manifest-digest sha256="37b4a9b6eed3ebf559a3f1ed17dc2dc4331738de5947f9c5d6e759f154d78f9a"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/numeric</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>-DBUILD_TYPE=Debug</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dbg</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -68,7 +73,7 @@ uBLAS provides matrix and vector classes as well
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU8EACgkQxnV5mk56UjHOpACfR/01bDlK/AEoJ3oCV/ZGK1pq27MAn0J9/tJk
-4+b6nhNblygkeieU5s0H
+iEYEABECAAYFAk+YZEoACgkQxnV5mk56UjHTdACdES0b2KMI/iWXk/N3M3g9wUILW/wAnjULodfg
+0yfnzcHo9AKC4UzvRkDK
 
 -->

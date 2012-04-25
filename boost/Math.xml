@@ -43,13 +43,14 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e4308f67-60f0-4286-9f2b-17a9f1c2ee75" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
+    <implementation arch="*-src" id="61732a26-9a0e-4efe-84a5-d47a6eacb87a" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
       <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
@@ -81,20 +82,24 @@ A wide selection of univariate statistical distributions and
         <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/math</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>-DBUILD_TYPE=Release</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=bin</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -185,7 +190,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU5cACgkQxnV5mk56UjGLIACgikDxfd818hDk9UQp/YqfYbP4TPYAn2mKGzdI
-PJopMqw51qs2qVaQRX+o
+iEYEABECAAYFAk+YZBoACgkQxnV5mk56UjEWKACfT6hIZu6PAyTkQZoXDc1gcHSXm/QAnA4YI+zw
+DWk/qf/LKZ+Mu4O+79pT
 
 -->

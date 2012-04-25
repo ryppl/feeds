@@ -26,32 +26,37 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ea2da089-3155-4b77-96d9-2ab784382c65" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
+    <implementation arch="*-src" id="d629979d-bd69-46eb-8849-31e00eb557a1" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
       <manifest-digest sha256="ddb4ec2e4f42c232916a7651a145caa7f1184c0a472e318dc0992df7fbe265ee"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/bind</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dev</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -67,7 +72,7 @@ A utility library for passing references to
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU10ACgkQxnV5mk56UjGCOQCcDRrF8d0kvrSojypx9BGlTs/FsCoAoITIouBB
-Wzp27RBwVSiKRe7v6pnU
+iEYEABECAAYFAk+YY8MACgkQxnV5mk56UjGckQCeKcFjfLMhsZyZ6zRECksyJtEzOtEAn1Tr3M7y
+p42NsJNCtdk1iXyOrg0f
 
 -->

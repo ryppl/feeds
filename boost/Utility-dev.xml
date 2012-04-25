@@ -61,32 +61,37 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ffcc00fa-1e08-438e-b65c-15b36dd6404f" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
+    <implementation arch="*-src" id="7f129b8e-729f-49c5-8dab-bfec60763764" released="2012-04-25" stability="testing" version="1.49-post-201204252053">
       <archive extract="boost-lib-utility-951cd3d" href="http://nodeload.github.com/boost-lib/utility/zipball/951cd3d443071adb4caf3b1a9c4e240a23284b32" size="223222" type="application/zip"/>
       <manifest-digest sha256="d20ae614ab361cee3ab5262d7b5ad2f90caebeb70d65b6ec1a97b265c9a4a412"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/utility</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dev</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -102,7 +107,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU7gACgkQxnV5mk56UjHdmQCdEx1s0KC6WN6Txb+80wB8gyRGTH4Ani8ZH4Av
-TAQZq1q6VoKqqgmB1Zt+
+iEYEABECAAYFAk+YZDUACgkQxnV5mk56UjFXKgCeNOZvtXmo9wHx0WFB+E3y12Q5v6gAnjVwswc1
+0MM2et+0ktZ0maygZ8A2
 
 -->

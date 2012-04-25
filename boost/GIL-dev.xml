@@ -13,32 +13,37 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8845fa8d-7ac5-4622-8cba-68c28683f48c" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
+    <implementation arch="*-src" id="d1cf71da-5d68-44e2-b500-9a049ae335c1" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
       <manifest-digest sha256="cdc7edf226e3bb261387cc292e642d6880edb9e471d14dfa53a3e342029079bb"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/gil</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dev</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -54,7 +59,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU3AACgkQxnV5mk56UjGXTgCeLtR9OlhAyYdKk2r1JHvwcrOEpRgAn3wxlAzY
-B/ED6nMOr1s1SWsNSxyL
+iEYEABECAAYFAk+YY9UACgkQxnV5mk56UjFCJwCfciT6vmEkcujeCsT3/WjvVGQt7PIAn3bbakNh
+vUwrgdtgQ5BMK+VkyhOM
 
 -->

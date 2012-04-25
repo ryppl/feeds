@@ -11,33 +11,38 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="82f93ff1-5e37-4541-949e-0b003ae9d902" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
+    <implementation arch="*-src" id="46cbb920-b0af-4020-91a1-47e29b4e219c" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
       <archive extract="boost-lib-spirit-0e28531" href="http://nodeload.github.com/boost-lib/spirit/zipball/0e28531d80705d009f7355dfb1ca2466363b1c65" size="4519445" type="application/zip"/>
       <manifest-digest sha256="1d3b24440e1e9f5f71622413ab8e95a7e6b4991f1ace11ba16495994c588f7e9"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/spirit</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>-DBUILD_TYPE=Debug</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dbg</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -53,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU7EACgkQxnV5mk56UjFgAwCfefC34lknEaFway/EemblhR61O+YAn1w9MMOu
-tuqK0zwYzDpJgBSmirbg
+iEYEABECAAYFAk+YZDIACgkQxnV5mk56UjHGdgCfU5Fd3206JT/+4GgTrc44FQ/ClS8AoIVu/XnF
+khxZLt4ejOdJ5w1cCN/y
 
 -->

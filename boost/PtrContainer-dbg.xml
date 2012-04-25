@@ -10,33 +10,38 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e59358de-0934-482a-bd6a-d8cd689d02d0" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
+    <implementation arch="*-src" id="8f437c2e-327e-4f55-b211-f9d7f31704a0" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
       <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
       <manifest-digest sha256="d0ad0e5c709f6e3690edd2ffc8dda590fc381e1322caa8900596184b68684a76"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/ptr_container</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>./source</arg>
         <arg>-DBUILD_TYPE=Debug</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>--build</arg>
         <arg>.</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
+        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-DCOMPONENT=dbg</arg>
         <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
         <arg>-P</arg>
@@ -52,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YU5kACgkQxnV5mk56UjEBNACdHlpt1e7mbVggnljXY5BsXH1FbdIAoKFPeCUH
-e9GuO0EQUljS2FsKfxpf
+iEYEABECAAYFAk+YZBIACgkQxnV5mk56UjGrEQCfVHvOf27RHyAU7nXz5j7f+D4+FWQAn0tiADVY
+k0YCkBIaCdFtmfIi3hNo
 
 -->
