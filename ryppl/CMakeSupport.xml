@@ -4,35 +4,17 @@
   <name>CMakeSupport</name>
   <summary>Ryppl's CMake Modules</summary>
   <description>
-    Supplies the files needed to support Ryppl projects' use of CMake
-  </description>
+Supplies the files needed to support Ryppl projects' use of CMake</description>
   <homepage>http://ryppl.org</homepage>
   <category>Development</category>
   <icon href="http://ryppl.github.com/_static/ryppl.png" type="image/png"/>
   <!-- The oddball ID is just to have something unique from other feeds using the same archive -->
-  <implementation arch="*-src" id="ryppl=7E02F451-8237-4C55-96DF-56A2984A39D5" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-25" stability="testing" version="1.49-post-201204251559">
-    <archive extract="ryppl-boost-zero-6065c38" href="https://nodeload.github.com/ryppl/boost-zero/zipball/6065c386af02d7a8ec9401c45a817abd02b3585a" size="153214" type="application/zip"/>
-    <manifest-digest sha256="382413b94ca47cc7671c7ea5499fbb539c0a461530ada84b54fd3ede84f23ce7"/>
-    <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}/ryppl/Modules</arg>
-        <arg>${DISTDIR}/Modules</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}/ryppl/Resources</arg>
-        <arg>${DISTDIR}/Resources</arg>
-      </runner>
-      <compile:implementation arch="*-*"/>
-    </command>
+  <implementation arch="*-*" id="sha1new=0913c85f12a669640fd7a35ec488a08489a25ee8" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-25" stability="testing" version="1.49-post-201204251624">
+    <archive extract="ryppl-ryppl-cmake-f231def" href="https://nodeload.github.com/ryppl/ryppl-cmake/zipball/f231def7a2c0f8e9c91ea652dc1c549b770b56d1" size="39252" type="application/zip"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YV6MACgkQxnV5mk56UjHreACfYLaw50ErXblgLIQlSo1bWjCVug4AniTb45j4
-5c2tE1ayQ+9DAI22ftS8
+iEYEABECAAYFAk+YXZ8ACgkQxnV5mk56UjGGpwCffBQiMZjyEwUsJMQUxQNsCiwuiKUAoI/f16Bg
+MzVtrXxLIgLYYRWwSK1k
 
 -->
