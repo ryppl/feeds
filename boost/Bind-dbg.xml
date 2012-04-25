@@ -26,9 +26,9 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9df65cac-e732-4a86-8603-c6ab693f67bb" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
+    <implementation arch="*-src" id="4d1aeb36-7d9e-478d-acec-13fc5ad39028" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
-      <manifest-digest sha1new="baac374d3b369d48ad3be4475059d8678cff533e"/>
+      <manifest-digest sha256="ddb4ec2e4f42c232916a7651a145caa7f1184c0a472e318dc0992df7fbe265ee"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -61,11 +61,14 @@ A utility library for passing references to
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8sUACgkQxnV5mk56UjE2lQCbBVVladyvcWzrWp6xru7zg0ICDEIAoKKnk49U
-QlOH9bHbDp5JQjPeCfya
+iEYEABECAAYFAk+YU10ACgkQxnV5mk56UjGNvgCfcEccfRc+KJycS2g+gjvQHaqbhvcAniDe2TOq
+0vpEumLwvKX5cQKzdXM+
 
 -->

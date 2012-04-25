@@ -8,9 +8,9 @@
   <dc:author>Doug Gregor</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e2470c3b-1c61-49de-8bc4-0add2fe2d5f4" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
+    <implementation arch="*-src" id="e296ed3c-49f8-4453-80a4-1b31eecebeaf" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
-      <manifest-digest sha1new="55e6864c29485cec6a7f1354a45c28ddbb64f111"/>
+      <manifest-digest sha256="ef835d407665166f7d8906f53c3aa39aeecd448634830b1395816e0faab56a37"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -42,11 +42,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8yEACgkQxnV5mk56UjEPpwCggv3ulz0mhoV2Ua3jz3Gx9FgxmE4An39oLPZf
-xw8/Z6tT1vTp0EJp5aV4
+iEYEABECAAYFAk+YU3gACgkQxnV5mk56UjGwcgCePaxppTgV2AkbbQevuC4crdzf0BkAn2wAOa8C
+ey5Nd2Cwr0Q11zuKlEJG
 
 -->

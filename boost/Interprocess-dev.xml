@@ -8,9 +8,9 @@
   <dc:author>Ion Gaztañaga</dc:author>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cf13ad7d-db35-4c8f-84fd-7a101ca4a4ed" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
+    <implementation arch="*-src" id="4d185d10-c034-4f2e-918f-229d19e03d5a" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-interprocess-b27e2e0" href="http://nodeload.github.com/boost-lib/interprocess/zipball/b27e2e04a163489e806d8c5a9e1e99872abc7e8f" size="833791" type="application/zip"/>
-      <manifest-digest sha1new="6ac58fcf16d3ce2efaf6a0278c57db11c6838b66"/>
+      <manifest-digest sha256="d0184fd8bc4596cda3cb4e5627c785df8ae10d13d23f449babeba7019af35852"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -42,11 +42,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8xQACgkQxnV5mk56UjE2kQCgp3TD4HWR7wKwCnwoo945AwdW+sEAoJ+92/uT
-+EUzMXlnJ1l396Wb+ebn
+iEYEABECAAYFAk+YU3cACgkQxnV5mk56UjHPvQCfZSruDbXs4bWMMFFZ2mGyrZAErrUAmwSGBuYL
+0cqzHcMl1YtLzqdAKq7c
 
 -->

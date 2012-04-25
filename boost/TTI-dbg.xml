@@ -6,9 +6,9 @@
   <summary>***WRITE ME (one line)***</summary>
   <homepage>http://www.boost.org</homepage>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4d42e464-c9d3-4303-a078-2f4f814c8d71" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
+    <implementation arch="*-src" id="d4329693-bad7-436c-a630-e6137c29005c" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
-      <manifest-digest sha1new="65a8e1f717aaaeef6812cee9cd0a07cc219a4dae"/>
+      <manifest-digest sha256="694152f73cc4992796873f78b6da761ad1df67c61b75cefa2f751a67d0c43604"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -41,11 +41,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8/wACgkQxnV5mk56UjGVQgCgnTQMD0gCV2WPpNbfna3c6gck68YAmwfRIIBM
-Yoww1Li8uEcy6JXy4KEn
+iEYEABECAAYFAk+YU7QACgkQxnV5mk56UjF2JgCgkB5KYOeOHxFD3KczKGGpd/4XIOIAn3/DNl/S
+Vlz10FnSdCj3iGKZrL/V
 
 -->

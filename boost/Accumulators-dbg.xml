@@ -8,9 +8,9 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="657e88aa-c1a9-45e0-8377-1966aaca3c54" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
+    <implementation arch="*-src" id="1821f71e-6ea7-40fd-bc8e-c05cbb9c4329" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
-      <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
+      <manifest-digest sha256="dd808f9f6447f2e94a34743737c907380c8343840595255d629a92b31a6f6406"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8rIACgkQxnV5mk56UjEjhwCgjlpwEFzqVf6UGs9akd1QQochD9YAoJtSVRf+
-5c7fruhmQ0Uz7o7P62Yv
+iEYEABECAAYFAk+YU1sACgkQxnV5mk56UjEqMACfZ/RYlP2WSkLP9yHx8H38pZu4IwUAoJPKeESt
+Kx6c5cD8VOivN48UXzIu
 
 -->

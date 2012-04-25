@@ -8,9 +8,9 @@
   <dc:author>Steve Cleary</dc:author>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="35e8302e-db00-4524-b69e-21b87f9f344d" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="8a2ca140-452a-4edd-b04e-6525a7c5cb19" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
-      <manifest-digest sha1new="1a8bfcefb84ea3d0fb24a2886f7afb9ccbf07aaf"/>
+      <manifest-digest sha256="dce4fe868ce0f03d3fc19d743247c37740f20c1d58d4b318a5a6e15626678039"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W850ACgkQxnV5mk56UjE0cwCeJvAqhtN2eblN5vZqxt9NNn1Ko+oAnRbpj/FX
-pT8kUwhzdsxF67t2A3Lm
+iEYEABECAAYFAk+YU5MACgkQxnV5mk56UjHO5gCdE+zyvRTKnET1xcp+2LHZchArQnIAni3NeLpA
+x8I+7NYqv2xHJXsy1EP4
 
 -->

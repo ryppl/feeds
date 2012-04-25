@@ -8,9 +8,9 @@
   <dc:author>Joaquín M López Muñoz</dc:author>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cca8e9d1-ae23-4119-b007-5fdf4b505231" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
+    <implementation arch="*-src" id="6fdb0c98-7003-466d-a29e-8c8824087bd7" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
-      <manifest-digest sha1new="afba6328cca18f79933c14b5e2fcafecf6b9225e"/>
+      <manifest-digest sha256="52ef9758318fd1d037949a42af215840c31724ae14a09a1af95e8d546893d4cd"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8uEACgkQxnV5mk56UjHKcQCdFVs/QEEcRBP0OBSob8j+Rkz4x3YAoIQ56qTH
-jLBM9uzcxDvUeFfpmgiQ
+iEYEABECAAYFAk+YU2cACgkQxnV5mk56UjGQPACeJfLeMttEdm8OM045UlpwxPO8qRsAoICPYnxP
+H4B9RU2omwxdz55bevE0
 
 -->

@@ -11,9 +11,9 @@
   <dc:author>Darin Adler</dc:author>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="28f3ea70-9c63-426d-82aa-db337f9d5f99" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
+    <implementation arch="*-src" id="b9af0b74-ba36-4269-9f79-59b47ac7eabd" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
-      <manifest-digest sha1new="f2ece99274cbce8c8f670882da5273a33181266f"/>
+      <manifest-digest sha256="8310b73d4f6dcb0dc1cb75ea2f2639974d3160ba6de74db2eaee800ac6ee3b66"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,11 +45,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+W88wACgkQxnV5mk56UjFXoQCghpv5/d+iymAafo1e9R+wg2bcPVEAmLx2SQM0
-o/bISCTJ2+5u+U2ZUSo=
+iEYEABECAAYFAk+YU6QACgkQxnV5mk56UjHuOQCeK3444C1jsnC3iZEBR5Y4kbZMbx4AoKLICqOJ
+5amvXFMlywzc28oDHfTD
 
 -->

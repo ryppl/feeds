@@ -8,9 +8,9 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="43134bf2-688e-46c5-a490-b314c2fb0eea" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
+    <implementation arch="*-src" id="19b8636e-3f6c-49e2-84e4-ee644ff84812" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
-      <manifest-digest sha1new="c0f2289efc3c20efbb44d680d8dd2ebced21c0bc"/>
+      <manifest-digest sha256="e7cf9b2d52bf2cbb7e1ce29bc60388170dd4348ff39ea9d3f92805f684f408db"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W9BcACgkQxnV5mk56UjHJsQCfStPKFDUuuOuRyaU9tWzgIZBHdFgAn2f5HJOT
-Z791cWyP2whkuuwjpU28
+iEYEABECAAYFAk+YU7wACgkQxnV5mk56UjGT7wCginLpH8YyUhbq2MTxZYjZQA937nEAoI5apLJ4
+Aqe0SCWGeqJFUfdsVRxN
 
 -->

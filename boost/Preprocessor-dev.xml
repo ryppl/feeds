@@ -9,9 +9,9 @@
   <dc:author>Vesa Karvonen</dc:author>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="13a49452-d661-486d-8141-4aa36849c715" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="f35ef096-1f34-4afe-a2e6-90ed47ee2c8a" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
-      <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
+      <manifest-digest sha256="1ceae6bbac1c701034133fcba5f0b21c588e9987bd02c7cb4ae1fe04de0bbfc2"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W858ACgkQxnV5mk56UjE7TgCfUyzs6eHedzzmCeA5mdodrMEjowAAn22pkxVb
-e85XGpJJimzmPadyXiaj
+iEYEABECAAYFAk+YU5MACgkQxnV5mk56UjH8GgCbBMX3aoXBpyCQTAX7nygI5j5rIgMAn24xvACd
+mOYOzEa+XHbeSw52domQ
 
 -->

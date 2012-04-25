@@ -8,9 +8,9 @@
   <dc:author>Dave Abrahams</dc:author>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="508e2d33-58c7-47b1-a47c-dd47ac687a58" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="feb94a55-1e25-4f3c-b470-dab9ab535204" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
-      <manifest-digest sha1new="54edb256de6dd13b71687c36113bd1c027272127"/>
+      <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -60,6 +60,9 @@
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -119,7 +122,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W87AACgkQxnV5mk56UjH9mgCcDmgwCRj2tr+V2Eb9/FzQp9Zs8EMAn3BCj0rV
-SQBZnsmTzyr+YCO4kFw3
+iEYEABECAAYFAk+YU5oACgkQxnV5mk56UjEIDgCfdj2qYdTdWlJF0jVxDtYbrUaGHiwAmwbyKAuq
+Hv6x+ycU2sxLi0TjxOgI
 
 -->

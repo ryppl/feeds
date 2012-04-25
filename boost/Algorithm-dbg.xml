@@ -20,9 +20,9 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ac0367c4-f239-48f8-ac08-0318fee334d5" released="2012-04-24" stability="testing" version="1.49-post-201204241836">
+    <implementation arch="*-src" id="ccfc3718-be31-4ce2-b5ed-a5b55c156002" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
-      <manifest-digest sha1new="46f6c5287cb96c13319a47673b4a6d75f578fa3b"/>
+      <manifest-digest sha256="9c0d3158f7f15b97edbe1330460f36ccf6e6837518ef901c32a2d77962781ee0"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -55,11 +55,14 @@ String algorithms library.</description>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8rYACgkQxnV5mk56UjGECQCghpkBC8MQbQIDaicQJ2jvB5HSWngAn1mcMnTe
-z1hqvscdhHsVsd+VuJZX
+iEYEABECAAYFAk+YU10ACgkQxnV5mk56UjFuOwCfV68O+JXo4qoXosWQAZ+aBoGfIpMAnRTi03+H
+sdxIXDX36K28PcBqQs9y
 
 -->

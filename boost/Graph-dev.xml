@@ -12,9 +12,9 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f421da58-1e2c-4433-8b6c-52230b83862f" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
+    <implementation arch="*-src" id="d495abb0-77c2-49a4-862f-a9c3133047ef" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
-      <manifest-digest sha1new="a3183d1f78c0fb9fc808db8d02c67bc47b5d14ce"/>
+      <manifest-digest sha256="4894a78fe95d659a9ac4ac10dc4f08ae5ca2b812db22cd8d850f66df1709fe53"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -85,6 +85,9 @@
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Algorithm-dev.xml">
         <environment insert="." mode="replace" name="BoostAlgorithm_DIR"/>
@@ -210,7 +213,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8v0ACgkQxnV5mk56UjFiiACbBSjvXCz2sU/xAXaupSzSwoJB3hkAnRynR+Yc
-ME6Iuwipjb47KICMRPgC
+iEYEABECAAYFAk+YU3MACgkQxnV5mk56UjE6PgCfSD2s0BO+sIzOEXMjhRTp7XG0t9cAnjNyV4OM
+78AeSxcuXgPRK2CdUJqn
 
 -->

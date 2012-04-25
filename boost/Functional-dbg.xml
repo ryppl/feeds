@@ -24,9 +24,9 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d5589363-da75-4bc2-a93b-beff6676c403" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
+    <implementation arch="*-src" id="761c7284-1511-4740-b997-902f77e36f51" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-functional-f332981" href="http://nodeload.github.com/boost-lib/functional/zipball/f3329812763cfbe09fca6f3a6f7aea5decbcc480" size="166324" type="application/zip"/>
-      <manifest-digest sha1new="33ac4b847f247cbde11b3f14d563d7cd58a2aaa8"/>
+      <manifest-digest sha256="00193a7152ce0dd2bef17924fd73a0f11810485d45b101368d5c85894bcd0bb8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -59,11 +59,14 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8ucACgkQxnV5mk56UjF1EACfRKCg0FaVI4OhYrnn1CxLm7DWjwwAoI6/brzk
-Pe9VjWHI1ZG3fqM1yDrB
+iEYEABECAAYFAk+YU2gACgkQxnV5mk56UjHfyQCePFwR7zOB52FdKtrlWl85H1YHTKwAn22bPVt6
+/Bt18qts1burI9rH0SO1
 
 -->

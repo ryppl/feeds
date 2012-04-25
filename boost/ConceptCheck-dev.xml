@@ -10,9 +10,9 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="029c1eb6-5584-4a40-8c1f-11d09b6facdc" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
+    <implementation arch="*-src" id="65095744-d3f8-43b1-9fce-bed5a8d4f58e" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
-      <manifest-digest sha1new="85956c1281ba7f7848816c5c522f97148a215acc"/>
+      <manifest-digest sha256="f32a5c5e8563c782092791d699dda5da24757638131b0f5e64a7cfb4090ee047"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -46,6 +46,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -56,7 +59,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8s0ACgkQxnV5mk56UjENxwCeJC8umc3bAzYs7ol+bt72DFu9IrEAnA3v2UBh
-zV0Jl82tpu/ptQOppEcU
+iEYEABECAAYFAk+YU2EACgkQxnV5mk56UjF4kgCfW9+RTtAUsGf/QXc7PNqGjkKElKcAni1VxyiH
+ObMTFhia3GdvYz6qdDWn
 
 -->

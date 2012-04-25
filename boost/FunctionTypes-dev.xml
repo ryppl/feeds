@@ -9,9 +9,9 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="75b06197-ceb6-457f-8c66-83c05be712d3" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
+    <implementation arch="*-src" id="9e4ed454-92b2-42f6-abb9-ef21b6d28f61" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
-      <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
+      <manifest-digest sha256="993b74c27eec6e662fb1ef200f69ed4fbc64b1020c145e8fd7907b29ec98244c"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8ucACgkQxnV5mk56UjHrEQCfZ7B/vKCZ0iwTM4BgF0f+xri9DN8AmgN1k49w
-2DslkY48Vsh98vgdW5i6
+iEYEABECAAYFAk+YU2gACgkQxnV5mk56UjFdIQCeNXPWM8e/VP9dyQD4j4CBUzPxcokAn0VOVQ4l
+NhjOg3aAJbIwtNbeR3/g
 
 -->

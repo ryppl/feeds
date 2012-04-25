@@ -9,9 +9,9 @@
   <dc:author>Robert Ramey</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c1e2db71-3789-47b3-b95c-c0ffed7cae76" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
+    <implementation arch="*-src" id="855bba07-afa6-42fe-863f-2fbe2878e561" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
-      <manifest-digest sha1new="ca2be928f371d397edb30377e7d9835210652a3d"/>
+      <manifest-digest sha256="410efa369be7f01d65b698c60eab2b6b2e596cb7301ff8aa5f8a8a8fd79e99e1"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -63,6 +63,9 @@
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Array-dev.xml">
         <environment insert="." mode="replace" name="BoostArray_DIR"/>
@@ -128,7 +131,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W88gACgkQxnV5mk56UjFolwCdGoTNL7zS4mL034T/aXP8oP6nMyQAoJdTXiuI
-AbJ7hCySwXqap4QN/FL7
+iEYEABECAAYFAk+YU6cACgkQxnV5mk56UjG07gCdFg49XY277uNO1wI/XoiQLNvz5EsAnA0seZB6
+AiQ5EQe0wGBdxMcYCbbE
 
 -->

@@ -8,9 +8,9 @@
   <dc:author>Tim Blechmann</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fe01e149-f45e-47e2-aa23-79d71937009d" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
+    <implementation arch="*-src" id="33137b22-7348-48e4-9a14-03258b1814ed" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
-      <manifest-digest sha1new="dc873a677d1f8a15e220148cd6096168051dce78"/>
+      <manifest-digest sha256="5f009b980808b7cb893cd0acc50196dcf6684a4e682551ef9660770c6ebad02f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -42,11 +42,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8woACgkQxnV5mk56UjH5ngCgj+k0jD/Nuv9PHaLp6RasOWsA0rQAoKMXEDBz
-0uB/cN1eEvttk+6UIhqm
+iEYEABECAAYFAk+YU2sACgkQxnV5mk56UjHLbACdFDMR1Ajahb8+vsF87NMu7Q/o7QMAoJfA1ia4
+vO3uRw7nJQSvMWDYgI8m
 
 -->

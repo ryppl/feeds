@@ -10,9 +10,9 @@
   <dc:author>Thomas Witt</dc:author>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bd2abc61-08d8-480d-9483-762e84c625b3" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
+    <implementation arch="*-src" id="2834fae0-85d5-4eea-8d64-4d62ae99adc0" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-iterator-00d114a" href="http://nodeload.github.com/boost-lib/iterator/zipball/00d114a88cae489976093a77356baa4615a3134e" size="1591678" type="application/zip"/>
-      <manifest-digest sha1new="61e201dfc33ec9761c9f639b6c94a500d8a137dd"/>
+      <manifest-digest sha256="24c9511505135ed28764bfd6220b99e74989b6617e1ec0b77c1d74e8e110c58b"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -44,11 +44,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8x4ACgkQxnV5mk56UjGlewCgpjpztwBRIcI38SOaPViRFrbQBIYAoIPD1jGL
-WvT4XafCJlcLHRlYouzE
+iEYEABECAAYFAk+YU3sACgkQxnV5mk56UjFfyQCdFLSFbo+z43k2k6WiBy8nGYj/NtsAn1U1jXuS
+DGzxgmMnp8cim+2CZ+hs
 
 -->

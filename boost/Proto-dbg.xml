@@ -8,9 +8,9 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c2cd91e3-6be2-4bfb-940c-921f39dd1edd" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="a236964f-9b86-4726-94ec-b462b1f32d28" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-proto-4926fee" href="http://nodeload.github.com/boost-lib/proto/zipball/4926fee1658bb507b8b8497048d53bf730bc67bb" size="446348" type="application/zip"/>
-      <manifest-digest sha1new="14b0a91dd3a3765c263ef2bfe8c502fb45e3ab4f"/>
+      <manifest-digest sha256="28f46e88e734cbde3f12d213f7095ae4ebc9d13f3421d2e425391a8f18b58ca8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W86sACgkQxnV5mk56UjHXJwCfdZFx8rNugG3nO9c1Q86egSr3lRsAnitIIGCw
-FtRAF69tVo/hCsvabPlh
+iEYEABECAAYFAk+YU5gACgkQxnV5mk56UjEjqwCfV9VLS8dAl9CGlkBcozBtCMctXKwAn2k6GuI1
+Y4dnn/FPnH+O0Aqcmoog
 
 -->

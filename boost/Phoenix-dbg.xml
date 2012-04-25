@@ -10,9 +10,9 @@
   <dc:author>Thomas Heller</dc:author>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d5e9eac0-c71e-4941-93e2-6d54b9640908" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="44409f77-05be-4285-b5b9-1efad3ea225e" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-phoenix-01f9ff9" href="http://nodeload.github.com/boost-lib/phoenix/zipball/01f9ff971aa23c709c52cbf70f810e9c5b48c685" size="893837" type="application/zip"/>
-      <manifest-digest sha1new="b44a6fbe8c37781fdd7a1c8fdd84b67664a08711"/>
+      <manifest-digest sha256="522d078ecd4b51cfeb32c1ce792bd3b53ade5b0c849d0c735dbc1bec00921b14"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -45,11 +45,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W85UACgkQxnV5mk56UjFtCwCfbfA4nE56EGoHArRVtO5ic0bDDdcAnjjj6ETw
-i+g/Ln7wk9n/BCOmRq0K
+iEYEABECAAYFAk+YU4oACgkQxnV5mk56UjHMKwCfa03G0v0UUy2Yei2CCU5kCPrGadMAoKfZVUta
+OUw7D0Dc/4c+Z4kDbDUP
 
 -->

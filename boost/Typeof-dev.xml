@@ -9,9 +9,9 @@
   <dc:author>Peder Holt</dc:author>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="462aa444-69fa-432f-833d-db5c8a07aafd" released="2012-04-24" stability="testing" version="1.49-post-201204241842">
+    <implementation arch="*-src" id="157faa16-95ec-4e95-a30d-f9ff518ced5d" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
-      <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
+      <manifest-digest sha256="a8adafb3e38437f60802a273797f2fdf225c9fee3ccec9af9ad961c7e4c41727"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W9AAACgkQxnV5mk56UjE+HgCgghhXCGHalOC5JOxRAokSIqprklAAn1lPisBH
-7JJ3BvLuLLvhRC5ok9D8
+iEYEABECAAYFAk+YU7QACgkQxnV5mk56UjFWRgCghUt2hGc3E6wmioPzFajFPPQ1chMAnjCKtNiu
+bwZjQ6LjhC0tgpNtx97K
 
 -->

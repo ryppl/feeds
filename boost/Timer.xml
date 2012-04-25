@@ -8,9 +8,9 @@
   <dc:author>Beman Dawes</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="08eebfc4-c65e-44b7-9012-d9cfbd715a04" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
+    <implementation arch="*-src" id="5c905e63-c9aa-4121-99e0-2a57643775c3" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
-      <manifest-digest sha1new="e9faecf16545b16ab008911b52ffcfe089447406"/>
+      <manifest-digest sha256="007b86df03768a9ae3b94bced9c2a36c0be41fb546df69a16514dcc1e2dad0a6"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -51,6 +51,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Chrono-dev.xml">
         <environment insert="." mode="replace" name="BoostChrono_DIR"/>
       </requires>
@@ -79,7 +82,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8/EACgkQxnV5mk56UjGVLACePRRmDT5afxZ3toaxxtcnKlC5HfcAn3YFijS7
-/NP0QmlATi8RTWqaZefv
+iEYEABECAAYFAk+YU7EACgkQxnV5mk56UjEHGgCfX92kORW+5qOOuHj5gk8uECUVv+cAoKQPstQZ
+pHVALNRxmiRPJmoD42sZ
 
 -->

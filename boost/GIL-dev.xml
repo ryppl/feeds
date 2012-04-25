@@ -13,9 +13,9 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="43d7d1ad-03ce-43ec-8f1a-c7ecea12dedc" released="2012-04-24" stability="testing" version="1.49-post-201204241837">
+    <implementation arch="*-src" id="8845fa8d-7ac5-4622-8cba-68c28683f48c" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
-      <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
+      <manifest-digest sha256="cdc7edf226e3bb261387cc292e642d6880edb9e471d14dfa53a3e342029079bb"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -47,11 +47,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8vYACgkQxnV5mk56UjHATQCaAxNo7AFI7wCXQlK00bHUrapsnsEAnjqVMxFV
-v1VGCEHlCV5ApfIi3/uz
+iEYEABECAAYFAk+YU3AACgkQxnV5mk56UjGXTgCeLtR9OlhAyYdKk2r1JHvwcrOEpRgAn3wxlAzY
+B/ED6nMOr1s1SWsNSxyL
 
 -->

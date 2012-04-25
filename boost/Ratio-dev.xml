@@ -8,9 +8,9 @@
   <dc:author>Vicente J. Botet Escribá</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e7b778ed-7409-4637-ae75-46191e458ad3" released="2012-04-24" stability="testing" version="1.49-post-201204241841">
+    <implementation arch="*-src" id="5ff573b3-b522-4bba-8d72-58bdcafcda95" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
-      <manifest-digest sha1new="ddd202152dff504f922dfd76e59d11abac88f6f5"/>
+      <manifest-digest sha256="79d392afc043358c368ac929525622ebd1a37249ecff815ee397fb9c99c1fb03"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -42,11 +42,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W874ACgkQxnV5mk56UjFzKQCglWkHKmja+rEcPqfDX/v63SLad+cAnjnue3HK
-1hJhYCK7lB5tmshJpw1g
+iEYEABECAAYFAk+YU50ACgkQxnV5mk56UjFP1wCdG4ohAL6fMfXmT7s94DgHPK5MS3EAn2l47chD
+rfWYQCypD1G7nQm/sYSL
 
 -->

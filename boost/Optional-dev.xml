@@ -8,9 +8,9 @@
   <dc:author>Fernando Cacciola</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8290a36a-0e57-40c7-8d22-7eed35d43724" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="94274900-7cff-4ed9-9f32-53bb10bf167f" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-optional-b0f724d" href="http://nodeload.github.com/boost-lib/optional/zipball/b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7" size="100931" type="application/zip"/>
-      <manifest-digest sha1new="1a74efbcedb71ee0e5f38a4932140d3d4323d8af"/>
+      <manifest-digest sha256="60716adffa4c4d65ad3086944fad4f92ddf38c22ee346a3cef69f7f52611bb71"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -42,11 +42,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W848ACgkQxnV5mk56UjGeXACfZDbXm+cGrawDUAZEYDFsHfV2bv0An3vfXeQL
-IoCJvkB9+FKiGKnK/p+k
+iEYEABECAAYFAk+YU4UACgkQxnV5mk56UjE2SACdGiwToIOD0WNfGEjtUAPRU/6IwmEAn2SohTNl
+QWAgYNu0rwTIF3DKSmK/
 
 -->

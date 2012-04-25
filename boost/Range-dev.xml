@@ -9,9 +9,9 @@
   <dc:author>Niel Groves</dc:author>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6ea62e98-1463-48d1-a18b-b3a5c62d5f6e" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="b18554d7-4690-4a61-8d53-1e4ac9d79154" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-range-a104c48" href="http://nodeload.github.com/boost-lib/range/zipball/a104c48977ec6d420abf7b34c9bcdc94a1f7d6a2" size="803652" type="application/zip"/>
-      <manifest-digest sha1new="93848be352f81c4a84105c12e5030f2140d28c36"/>
+      <manifest-digest sha256="e2c5c85b010a83c3562277ec37a9e382de6ef1bc8eb537d5e402c102abf05001"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -43,11 +43,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W87YACgkQxnV5mk56UjFhAQCeJAj9/dBKQkkS1RtKTxuudeu4Bz0An0Ahr1Gu
-MPSCMsL1rLm+euXeDeLl
+iEYEABECAAYFAk+YU54ACgkQxnV5mk56UjEs8wCeJ+ToORBvfl8JOaV8uOL+S+1AB+kAoIwooKNZ
+t0bPQmS4WxwBNFVJJh/7
 
 -->

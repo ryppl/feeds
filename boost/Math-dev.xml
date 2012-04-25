@@ -43,9 +43,9 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4ec1b64a-ddd7-46ea-9fa7-99ede8be677d" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
+    <implementation arch="*-src" id="144d8bc2-1f0a-457f-b188-01c11082918a" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
-      <manifest-digest sha1new="4beb962a16d01d559e9a317cb9fea4857e50356f"/>
+      <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -101,6 +101,9 @@ A wide selection of univariate statistical distributions and
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Algorithm-dev.xml">
         <environment insert="." mode="replace" name="BoostAlgorithm_DIR"/>
@@ -181,7 +184,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8ywACgkQxnV5mk56UjE+JwCgpU4ndY3VFhOZjxtMo3+mjyrwgKoAoJSgTFBO
-fWRCfEnR6tMPGNZY3TOI
+iEYEABECAAYFAk+YU5UACgkQxnV5mk56UjFqggCgjq+4Y0pw6BWUQcVaEKAuLOwqanoAmgLxicN8
+/JdMi84z73pyc75DEf8k
 
 -->

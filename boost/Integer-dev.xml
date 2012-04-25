@@ -8,9 +8,9 @@
   <dc:author/>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b356daa5-8ece-41c6-bffd-251762a89509" released="2012-04-24" stability="testing" version="1.49-post-201204241838">
+    <implementation arch="*-src" id="1ec322fc-2b81-454b-810d-e3409bb77430" released="2012-04-25" stability="testing" version="1.49-post-201204251941">
       <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
-      <manifest-digest sha1new="69bc178b5094fe4343b611af8812c9d94367f9d8"/>
+      <manifest-digest sha256="6cfab1a320948b381a597b95389ea53fc836d3d01631e501a6c6e471970fda9a"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -42,11 +42,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W8xIACgkQxnV5mk56UjFiQgCgiEqmABBeF2M9utDbjsE/dncxPFcAoIMM2zqV
-GwgU38YM+iPtwaVD7IbX
+iEYEABECAAYFAk+YU3EACgkQxnV5mk56UjEV3gCfTwiB4mwP59XmLk+6A0kl0wX45nIAnRMI7HkP
+CEUB33VzuWfL71bhzGK8
 
 -->

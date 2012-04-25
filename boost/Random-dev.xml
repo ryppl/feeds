@@ -8,9 +8,9 @@
   <dc:author>Jens Maurer</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c0c8fe1e-16c8-4c6e-a7b1-179fef622fb5" released="2012-04-24" stability="testing" version="1.49-post-201204241840">
+    <implementation arch="*-src" id="389ac167-01ee-4de9-b455-69d0a32d971b" released="2012-04-25" stability="testing" version="1.49-post-201204251942">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
-      <manifest-digest sha1new="de645815364acb78b029019be93f30c4932622e4"/>
+      <manifest-digest sha256="b7c6007c036cb9fbe94626ca0bfdd2aa7bf73c76209a76925562e03d7eb78cca"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
@@ -59,6 +59,9 @@
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
@@ -118,7 +121,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+W87MACgkQxnV5mk56UjFa0QCbB0v6tv5jkpb8IBRUesq+CQbLKP0AoIqSFzoP
-uxMELQfgDkYyhC3Pz9mY
+iEYEABECAAYFAk+YU50ACgkQxnV5mk56UjF5QACglL8tUp0oQOiEUusI4UbTduUivWMAnj4vUcaK
+igreAES6gWmKRmQ46FcM
 
 -->
