@@ -3,15 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Parameter-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostParameter</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.Parameter Library - Write functions that accept arguments by name.</summary>
-  <homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
     libs/parameter/</homepage>
   <dc:author>Daniel Wallin</dc:author>
   <dc:author>David Abrahams</dc:author>
+  <description>Boost.Parameter Library - Write functions that
+    accept arguments by name.</description>
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a4bc7604-5219-4cfc-9c5c-8cdf4f911e3f" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="2dd59782-3b35-417f-a758-0718a0d0e773" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
       <manifest-digest sha256="6ed0b2bb7e7138353520243cb838ff422a7e5ef18510479ccd798bdd33e52f31"/>
     </implementation>
@@ -56,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZv0ACgkQxnV5mk56UjHi2QCfewT5gseQ6bkW8mQ198Ee9BP9gyQAoJ7bzgzo
-H12JSt8OKEdvl0KRoY7Y
+iEYEABECAAYFAk+YjfkACgkQxnV5mk56UjF4SgCdG4em+CArgFaXfI9pImz/CcWRdoUAoKP+Zcty
+wiKsbWYFdO4L3XDkkZNa
 
 -->

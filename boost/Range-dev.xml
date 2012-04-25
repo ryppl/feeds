@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Range-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostRange</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A new infrastructure for generic algorithms that builds on top of the new iterator concepts.</summary>
-  <homepage>libs/range/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/range/</homepage>
   <dc:author>Thorsten Ottosen</dc:author>
   <dc:author>Niel Groves</dc:author>
+  <description>A new infrastructure for generic algorithms that
+    builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a6e1b499-4954-47c6-b3f8-71f7baf41225" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="fcacb56e-a7ee-44ac-8bd5-bbab20e39bcf" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-range-a104c48" href="http://nodeload.github.com/boost-lib/range/zipball/a104c48977ec6d420abf7b34c9bcdc94a1f7d6a2" size="803652" type="application/zip"/>
       <manifest-digest sha256="e2c5c85b010a83c3562277ec37a9e382de6ef1bc8eb537d5e402c102abf05001"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxYACgkQxnV5mk56UjGIDwCfU9iPXLotf6DvTIyAqvbXX9VKX5cAn2htDQxl
-NEgCD+6U1lrJxwLvNf87
+iEYEABECAAYFAk+YjhcACgkQxnV5mk56UjHr4gCgig7EBUfdcilO7XPSRzZvPuswI04AoIKAD8f9
+am5ss7J5YDlqldwQWyoa
 
 -->

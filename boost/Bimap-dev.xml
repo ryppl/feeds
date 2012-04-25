@@ -3,13 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Bimap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostBimap</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Bidirectional maps library for C++. With Boost.Bimap you can create associative containers in which both types can be used as key.</summary>
-  <homepage>libs/bimap/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/bimap/</homepage>
   <dc:author>Matias Capeletto</dc:author>
+  <description>Bidirectional maps library for C++. With Boost.Bimap you
+    can create associative containers in which both types can be used
+    as key.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="63636ca5-5a63-4f37-8e35-15090e9b9894" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="37ae9750-6c00-4332-aa64-0e6f5afcd49a" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-bimap-1de580e" href="http://nodeload.github.com/boost-lib/bimap/zipball/1de580e0e9442bbd0a3fbe3cf4686ea108a24931" size="1312406" type="application/zip"/>
       <manifest-digest sha256="d42930ca09bf2864e33859bbff4fd8562dc6a079a04bf2cae2bbb45bdb05efdd"/>
     </implementation>
@@ -53,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt0ACgkQxnV5mk56UjFQHwCgpA5IMQilKUIp9v2R2vBDCMiVC5kAn1PnlL/w
-M28T19WIqfDB6dUN0HkP
+iEYEABECAAYFAk+Yjc0ACgkQxnV5mk56UjEgiwCeO2YamRQZGhJXDFDekgDvQx+Tx58AoI2dY8UE
+I1xBW8jR6D8gOi0+J/B1
 
 -->

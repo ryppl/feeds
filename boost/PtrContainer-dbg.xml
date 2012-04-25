@@ -3,14 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/PtrContainer-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPtrContainer</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Containers for storing heap-allocated polymorphic objects to ease OO-programming.</summary>
-  <homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
     libs/ptr_container/</homepage>
   <dc:author>Thorsten Ottosen</dc:author>
+  <description>Containers for storing heap-allocated polymorphic
+    objects to ease OO-programming.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d6d66715-bb7f-4ffd-bc50-f98d5246cd9d" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="c40fcf76-37e4-4dd8-ac69-54f10aae3165" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
       <manifest-digest sha256="d0ad0e5c709f6e3690edd2ffc8dda590fc381e1322caa8900596184b68684a76"/>
     </implementation>
@@ -55,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxEACgkQxnV5mk56UjF8XACeJika1WdaJFPeBOY2+hdDJO0niSQAn0EyVDD7
-qye8r6IO6L+pM1JhqMaf
+iEYEABECAAYFAk+Yjg4ACgkQxnV5mk56UjH5MwCeLWKQ+F+qn92NdwgFhfUHLotyTTEAnAlxRCf7
+jJQ9lScogYGjXrlsPm6m
 
 -->

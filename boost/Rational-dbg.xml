@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Rational-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostRational</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A rational number class.</summary>
-  <homepage>libs/rational/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/rational/</homepage>
   <dc:author>Paul Moore</dc:author>
+  <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2ff5981a-b24f-400b-8fd6-0b6755819676" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="debf7583-7b95-4182-a1d4-7810ed8a5481" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
       <manifest-digest sha256="629451ab655307e6df8678b39f2f799b9b49c615b69aa153b3c03f5c193bca08"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxUACgkQxnV5mk56UjFyUQCfcOmVoqTGT93v9DLFeQpezsSdse0An24byvbD
-hQnH02GaTmCR0WZXQzqO
+iEYEABECAAYFAk+YjhYACgkQxnV5mk56UjEtdwCeITJiXE1VHoC3DYwdODyPtXkRS6IAnjFPNgvG
+EjR5S2ySFFCe2SCmik74
 
 -->

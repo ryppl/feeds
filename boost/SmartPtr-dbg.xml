@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/SmartPtr-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostSmartPtr</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Smart pointer class templates.</summary>
-  <homepage>libs/smart_ptr/smart_ptr.htm</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/smart_ptr/smart_ptr.htm</homepage>
   <dc:author>Peter Dimov</dc:author>
   <dc:author>Greg Colvin</dc:author>
   <dc:author>Beman Dawes</dc:author>
   <dc:author>Darin Adler</dc:author>
+  <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="69d60549-d6ef-4f60-9cad-db36e361d59d" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="4b1fcf80-5ddd-4bf8-b8aa-003674085c46" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
       <manifest-digest sha256="8310b73d4f6dcb0dc1cb75ea2f2639974d3160ba6de74db2eaee800ac6ee3b66"/>
     </implementation>
@@ -56,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxoACgkQxnV5mk56UjEJ3ACaA7Hd32gtbLsMqhGSbK0evFgQz6UAn36PVsdl
-+FURpAXZo8l4v9bzRLzW
+iEYEABECAAYFAk+YjhwACgkQxnV5mk56UjH/wACgid0rwPxImV0tdWKhawHsHOARdycAmgJNRzR/
+ZlwCDCB0NLyhUDKNr71d
 
 -->

@@ -3,13 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Container-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostContainer</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Standard library containers and extensions.</summary>
-  <homepage>libs/container/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/container/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
+  <description>Standard library containers and extensions.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b058ef97-3832-4c50-8058-ec3dbd5aeb9a" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="2de67903-5ded-4dbf-a5c2-63bb73daa564" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-container-a26a62b" href="http://nodeload.github.com/boost-lib/container/zipball/a26a62ba8c1d61e96930805dc1902ebc79ccd63d" size="290425" type="application/zip"/>
       <manifest-digest sha256="c77b393d83214fab559b8ecf03f0c2c1fa727b2e51073d10d22d9d5a235e2a45"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt8ACgkQxnV5mk56UjFMmQCgirVC79iXrYq7/hHbhuMjRs+QW2EAnA04OIj8
-Yro2nfbPNXQALTrXINTv
+iEYEABECAAYFAk+Yjc8ACgkQxnV5mk56UjHFCQCghHwoypk9uNcfPNi6dPaihiWS39UAn1WxRelW
+t59qNo2dimXOrgvpMV9z
 
 -->

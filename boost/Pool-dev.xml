@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Pool-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPool</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Memory pool management.</summary>
-  <homepage>libs/pool/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/pool/</homepage>
   <dc:author>Steve Cleary</dc:author>
+  <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a8828501-23bf-4d87-8b29-f3120ff15661" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="d4425db7-0a64-462c-b697-0a94a4390bd0" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
       <manifest-digest sha256="dce4fe868ce0f03d3fc19d743247c37740f20c1d58d4b318a5a6e15626678039"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZwUACgkQxnV5mk56UjHAqwCgi97NHlcg81MN0hAbO+r2Ov+9HFkAn3e0K5DM
-KkxClR6tERaHJAZsiMwD
+iEYEABECAAYFAk+YjgMACgkQxnV5mk56UjEjUQCfUR8YtUkt+KTEs/bJieGdkFrU6UQAn0fsgekV
+tzqgaBSlcFIVJIK6MVv0
 
 -->

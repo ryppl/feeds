@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Intrusive-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostIntrusive</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Intrusive containers and algorithms.</summary>
-  <homepage>libs/intrusive/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/intrusive/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
+  <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="95b59310-01e2-49b9-976e-84beb1035a69" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="9956948c-b82d-4d85-bee6-60fe25c8fd26" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-intrusive-3854bb1" href="http://nodeload.github.com/boost-lib/intrusive/zipball/3854bb1a8d9d655b330137bc1fb2a8606f8de434" size="508493" type="application/zip"/>
       <manifest-digest sha256="e31b9c9753c9b11c4c55f68155e5b6c4471f7bcdbb72922c5ac066fab0357b47"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvEACgkQxnV5mk56UjHoFACgiZMj0FbvjM6YDoMmV5LRdj7akcAAoIFNhsZh
-c7RHqUwNNU4bWIZYAm1j
+iEYEABECAAYFAk+YjeEACgkQxnV5mk56UjGf/wCcC1FYgg+hoSd2qJ6huSooC3eatQoAn0FPtvg+
+raQjnfbwXAJ8J/POAA5g
 
 -->

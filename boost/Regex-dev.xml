@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Regex-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostRegex</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Regular expression library.</summary>
-  <homepage>libs/regex/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/regex/</homepage>
   <dc:author>John Maddock</dc:author>
+  <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9dbb2c2c-54a7-4ccf-aa1d-dadf952ebe54" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="5d6b443d-916d-4b9e-b282-80d324630ba6" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
       <manifest-digest sha256="014aa0683685c92e4aceadeda68d91eb8756298cd6f6fb50bca781c697b1db28"/>
     </implementation>
@@ -112,7 +113,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxcACgkQxnV5mk56UjED4ACeMfFYJBD1vuWhUXkwwXUOP+nPX7gAoI2G0x4l
-cqQPNhC4zGLadPSmQMLb
+iEYEABECAAYFAk+YjhkACgkQxnV5mk56UjEMaQCeLDqqaoe+xqOXoQKq8+Ohuaulx3QAn3gw91PT
+j8iXDx+vGEIwistUEUCD
 
 -->

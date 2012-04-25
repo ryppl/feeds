@@ -3,10 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/TTI-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostTTI</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>***WRITE ME (one line)***</summary>
-  <homepage>http://www.boost.org</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="30c32096-3658-4eb5-b393-135ae926a9ea" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="bd1b0bad-5892-42dd-ad37-5085313c12b1" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
       <manifest-digest sha256="694152f73cc4992796873f78b6da761ad1df67c61b75cefa2f751a67d0c43604"/>
     </implementation>
@@ -51,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZyUACgkQxnV5mk56UjEi4QCgmGGShdc7988C6RJSc1GDBFTowyUAnA28nQrx
-rW25Txf0Ugq/58ywZqFB
+iEYEABECAAYFAk+YjigACgkQxnV5mk56UjGGrQCfa/DBfd8XQ+kLTbgG5HT19Sik4rgAoKbbBRFe
+/fvEZaHTJhAA50DxocJm
 
 -->

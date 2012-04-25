@@ -3,15 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Spirit-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostSpirit</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>LL parser framework represents parsers directly as EBNF grammars in inlined C++.</summary>
-  <homepage>libs/spirit/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/spirit/</homepage>
   <dc:author>Joel de Guzman</dc:author>
   <dc:author>Hartmut Kaiser</dc:author>
   <dc:author>Dan Nuffer</dc:author>
+  <description>LL parser framework represents parsers directly as
+    EBNF grammars in inlined C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b8ae5980-7994-4d88-8b7e-0b137b8e5e41" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="d862e3d1-a394-4d95-9aae-0042aef3758b" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-spirit-0e28531" href="http://nodeload.github.com/boost-lib/spirit/zipball/0e28531d80705d009f7355dfb1ca2466363b1c65" size="4519445" type="application/zip"/>
       <manifest-digest sha256="1d3b24440e1e9f5f71622413ab8e95a7e6b4991f1ace11ba16495994c588f7e9"/>
     </implementation>
@@ -56,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZyQACgkQxnV5mk56UjGVkgCeP0q4D9yPP5/gG19jPux9Qz5XrkMAoJt09LiG
-uEPLvlhGcZ/BRCP3MxRu
+iEYEABECAAYFAk+YjigACgkQxnV5mk56UjF1AACfTHpgTnetuUuFiwwozU+fI4mM1F4An2ZAfel8
+iSN56rB1WEHBZvokNXFo
 
 -->

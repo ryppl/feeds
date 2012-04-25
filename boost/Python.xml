@@ -3,12 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Python.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPython</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost Python Library is a framework for interfacing Python and C++. It allows you to quickly and seamlessly expose C++ classes functions and objects to Python, and vice-versa, using no special tools -- just your C++ compiler.</summary>
-  <homepage>libs/python/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/python/</homepage>
   <dc:author>Dave Abrahams</dc:author>
+  <description>The Boost Python Library is a framework for
+    interfacing Python and C++. It allows you to quickly and
+    seamlessly expose C++ classes functions and objects to Python,
+    and vice-versa, using no special tools -- just your C++
+    compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f909f6ed-959c-41c7-9551-13ad483a8ea6" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="11b0a241-c439-4bc9-863b-16f3887e976f" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
@@ -125,7 +130,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxUACgkQxnV5mk56UjG7YwCfeuqvjLm5QBnzqFlRuwSGAXkMDIQAnj8hmlRn
-LGcDjKHcagsOA8bt6IfW
+iEYEABECAAYFAk+YjhQACgkQxnV5mk56UjE6lwCfSxu+IROUq8rZN9ANCWgbY9sm2h8AoIzLmS3f
+NN2/2UbPHCv0XxRczVnY
 
 -->

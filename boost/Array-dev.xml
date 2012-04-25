@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Array-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostArray</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>STL compliant container wrapper for arrays of constant size.</summary>
-  <homepage>libs/array/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/array/</homepage>
   <dc:author>Nicolai Josuttis</dc:author>
+  <description>STL compliant container wrapper for arrays of
+    constant size.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1486fae6-d94f-4ccf-82b9-1bc4d63dc0b2" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="81740df1-7a9f-4f17-84bd-9b11ae2fe40e" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-array-8b17cd1" href="http://nodeload.github.com/boost-lib/array/zipball/8b17cd12a6b619b5f5f708ed8ce9f5917e0f53bd" size="16215" type="application/zip"/>
       <manifest-digest sha256="d771845e0959f728b7c783e0a50a61b8438c8cfde6f5e787af5c7c2bf243a046"/>
     </implementation>
@@ -52,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZtkACgkQxnV5mk56UjFc9gCdGeso7j+aGb3n0rxI4H/fKBHjcsAAnic0IAkL
-Yf0WQvKgWk3OCfHrJ3c+
+iEYEABECAAYFAk+YjccACgkQxnV5mk56UjFj0wCfQUcc7svdAQkCWqLjLMgMdBJUy+8AoJmsC3KU
+N3AxMltFXStnHUjAyROE
 
 -->

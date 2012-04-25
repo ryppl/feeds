@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Heap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostHeap</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Priority queue data structures.</summary>
-  <homepage>libs/heap/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/heap/</homepage>
   <dc:author>Tim Blechmann</dc:author>
+  <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="54d0b739-8633-473b-ae1e-47cc8bff0b4f" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="4fbc721f-4a90-4866-a034-92e9eb9fae8a" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
       <manifest-digest sha256="5f009b980808b7cb893cd0acc50196dcf6684a4e682551ef9660770c6ebad02f"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuYACgkQxnV5mk56UjHl1ACfanOwXIlrgYlKdKnjytEGTAITmuAAnApIPhUU
-LZCsWFtN8zK6acwZ8sox
+iEYEABECAAYFAk+YjdwACgkQxnV5mk56UjFtKACfRtA4ElLaAw7FWJDkWRpOWXSweNAAnRIf0KHe
+nvy0GZ1+P+uTSwvR1LiB
 
 -->

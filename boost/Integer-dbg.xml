@@ -3,12 +3,19 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Integer-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostInteger</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The organization of boost integer headers and classes is designed to take advantage of &lt;stdint.h&gt; types from the 1999 C standard without resorting to undefined behavior in terms of the 1998 C++ standard. The header &lt;boost/cstdint.hpp&gt; makes the standard integer types safely available in namespace boost without placing any names in namespace std.</summary>
-  <homepage>libs/integer/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/integer/</homepage>
   <dc:author/>
+  <description>The organization of boost integer headers and
+    classes is designed to take advantage of &lt;stdint.h&gt; types
+    from the 1999 C standard without resorting to undefined
+    behavior in terms of the 1998 C++ standard. The header
+    &lt;boost/cstdint.hpp&gt; makes the standard integer types
+    safely available in namespace boost without placing any names
+    in namespace std.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b8fe6e40-f69f-49cb-9cb0-55e6ef818985" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="e98b812c-d623-42ce-845c-2549785bef3a" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
       <manifest-digest sha256="6cfab1a320948b381a597b95389ea53fc836d3d01631e501a6c6e471970fda9a"/>
     </implementation>
@@ -53,7 +60,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZu4ACgkQxnV5mk56UjE1jQCgnt77rLpUoldXVY9YZ5jW1TsyXZwAn35iw+Ug
-7iqn4sJ/hdoBMX7wltdM
+iEYEABECAAYFAk+Yjd0ACgkQxnV5mk56UjGJjACeJL81gMln98+LepraErbWOcY1EXgAnjyKonzY
+h+FxV/csUAyfUFbFHeI0
 
 -->

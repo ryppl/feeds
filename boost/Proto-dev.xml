@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Proto-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostProto</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Expression template library and compiler construction toolkit for domain-specific embedded languages.</summary>
-  <homepage>libs/proto/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/proto/</homepage>
   <dc:author>Eric Niebler</dc:author>
+  <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="644570b2-06da-4cf3-8b32-d73237cb651e" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="8e1f32dc-3e7a-4ac1-8cc0-1748ce32605b" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-proto-4926fee" href="http://nodeload.github.com/boost-lib/proto/zipball/4926fee1658bb507b8b8497048d53bf730bc67bb" size="446348" type="application/zip"/>
       <manifest-digest sha256="28f46e88e734cbde3f12d213f7095ae4ebc9d13f3421d2e425391a8f18b58ca8"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZw8ACgkQxnV5mk56UjFHAACdETYtj9bOZIoLl9FiO1nLYiFU0VcAnAgOlPst
-85JTQWz2IfgC5+G+B3s0
+iEYEABECAAYFAk+YjgwACgkQxnV5mk56UjGC2QCfZtTiBURvN+sB0DjPs5mrYhA18xcAni2fsIGr
+SKecXcCLizUuFVpekJrn
 
 -->

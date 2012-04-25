@@ -3,8 +3,8 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Utility-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostUtility</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Class noncopyable plus checked_delete(), checked_array_delete(), next(), prior() function templates, plus base-from-member idiom.</summary>
-  <homepage>libs/utility/utility.htm</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/utility/utility.htm</homepage>
   <dc:author>Dave Abrahams</dc:author>
   <dc:author>Fernando Cacciola</dc:author>
   <dc:author/>
@@ -61,7 +61,7 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bb51c77c-f4fc-4bc3-967d-3ee1fb0a8064" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="957a54d3-9c7c-4d33-a73b-31dc48f89b32" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-utility-951cd3d" href="http://nodeload.github.com/boost-lib/utility/zipball/951cd3d443071adb4caf3b1a9c4e240a23284b32" size="223222" type="application/zip"/>
       <manifest-digest sha256="d20ae614ab361cee3ab5262d7b5ad2f90caebeb70d65b6ec1a97b265c9a4a412"/>
     </implementation>
@@ -106,7 +106,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZygACgkQxnV5mk56UjEFhACgngwT8zLOsKqnRLTdJZxrHCd1W+EAn2cb+lfq
-swSMTsUKGgGhHRPagIue
+iEYEABECAAYFAk+Yji0ACgkQxnV5mk56UjFZ+ACePXDRaD4ACsQqEvgDyNkltgr8OmkAn1ZZWH50
+QcRmsFEM9orENcwxXgOO
 
 -->

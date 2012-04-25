@@ -3,14 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/DisjointSets-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostDisjointSets</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.DisjointSets provides disjoint sets operations with union by rank and path compression.</summary>
-  <homepage>libs/disjoint_sets/disjoint_sets.html</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/disjoint_sets/disjoint_sets.html</homepage>
   <dc:author>Jeremy Siek</dc:author>
   <dc:author>Andrew Lumsdaine</dc:author>
   <dc:author>Lie-Quan Lee</dc:author>
+  <description>Boost.DisjointSets provides disjoint sets
+    operations with union by rank and path
+    compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="54f367af-6d13-4c79-a284-09061c8dbfc7" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="e5319e3b-dda9-439b-bdf0-adb150762bed" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
       <manifest-digest sha256="3d596a6830880e876da3a07df31734af7cafe4b41fef50d38c0764e6b5c5dc68"/>
     </implementation>
@@ -63,7 +66,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuAACgkQxnV5mk56UjFcCgCeIx3umg1PT6fQCUNmY7Zdhu2H4pgAnjgip3AL
-KvZzm2McB3DPl7bU10tq
+iEYEABECAAYFAk+Yjc8ACgkQxnV5mk56UjERTACeIeTceZ6GgfgM7cyfVCxXVbSBgJkAn32ll40w
+H9eAMhy7+NBKHOtkpBEu
 
 -->

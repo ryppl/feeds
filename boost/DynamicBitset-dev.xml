@@ -3,14 +3,21 @@
 <interface uri="http://ryppl.github.com/feeds/boost/DynamicBitset-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostDynamicBitset</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The dynamic_bitset class represents a set of bits. It provides accesses to the value of individual bits via an operator[] and provides all of the bitwise operators that one can apply to builtin integers, such as operator&amp; and operator&lt;&lt;. The number of bits in the set is specified at runtime via a parameter to the constructor of the dynamic_bitset.</summary>
-  <homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
     libs/dynamic_bitset/dynamic_bitset.html</homepage>
   <dc:author>Jeremy Siek</dc:author>
   <dc:author>Chuck Allison</dc:author>
+  <description>The dynamic_bitset class represents a set of bits.
+    It provides accesses to the value of individual bits via an
+    operator[] and provides all of the bitwise operators that one
+    can apply to builtin integers, such as operator&amp; and
+    operator&lt;&lt;. The number of bits in the set is specified at
+    runtime via a parameter to the constructor of the
+    dynamic_bitset.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f24ee811-0411-4cd1-8b2e-9ad6b015aaac" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="5edcdacf-5376-431d-bd30-37bbb154fd0f" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-dynamic_bitset-2f5e9b9" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" size="53595" type="application/zip"/>
       <manifest-digest sha256="988553a2ab5f475c3974bba8bc69ca5370e2d98ce9cb50d1d1b08ca0c60b8a62"/>
     </implementation>
@@ -62,7 +69,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuAACgkQxnV5mk56UjGTngCeIYfovM+IjXqcJVWs740dXBXUPp8AnjFWCuSM
-bDED6KHU/VtGZaSG8ZwR
+iEYEABECAAYFAk+YjdAACgkQxnV5mk56UjGyxACgnv+xaWjR2gjDjSKil8IAikUL+jMAoJzuEhaO
+k5stfYybZZNCZFVWCF6c
 
 -->

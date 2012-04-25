@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/PropertyMap-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPropertyMap</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Concepts defining interfaces which map key objects to value objects.</summary>
-  <homepage>libs/property_map/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/property_map/</homepage>
   <dc:author>Jeremy Siek</dc:author>
+  <description>Concepts defining interfaces which map key objects
+    to value objects.</description>
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bf141f47-1947-40c7-b432-02a5a5388eb7" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="a36352af-0a1c-4950-833d-93d6faa2bee4" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-property_map-c9f82e6" href="http://nodeload.github.com/boost-lib/property_map/zipball/c9f82e6d9b6fab8dbdd31351b96230da09959528" size="87793" type="application/zip"/>
       <manifest-digest sha256="f0b085cd64f279ae79bf8185ff57488c8c7264c47995ee385c33e0c476f53cfa"/>
     </implementation>
@@ -54,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZwwACgkQxnV5mk56UjHUVQCeJUo/47OEKA86nlYfEcnZFh9WP/YAn24smOSu
-wKe3mY+HxPmYfj4pSdld
+iEYEABECAAYFAk+YjgoACgkQxnV5mk56UjF1SgCgjjqky9V/pTggFKpW00Jxkp+GzvYAnRO1En4j
+kF5iybLVjQFOYFOc/uLf
 
 -->

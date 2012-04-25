@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Polygon-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPolygon</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</summary>
-  <homepage>libs/polygon/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/polygon/</homepage>
   <dc:author>Lucanus Simonson</dc:author>
+  <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0eeebfcb-3b8e-49ad-847f-ef4af8c16eee" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="70331fb1-2b05-4ae0-8ae4-5c309db7415a" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
       <manifest-digest sha256="bd6a1c14fa43df34a8aa8b012076eb39625ed579cb5508320dfaba574389ba85"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZwgACgkQxnV5mk56UjFoIwCgkyabKoiNilSD5ZP6Mr2flq1LJ8YAn0FEcQIK
-TmCJq8G9pbVY4RANvmxY
+iEYEABECAAYFAk+YjgcACgkQxnV5mk56UjEMUgCgh65/QtNfVuGUKnmErV/3tGf9uO4AoKYHohT5
+GHbGOaWiBsWd6X6PzgoT
 
 -->

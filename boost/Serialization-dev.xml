@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Serialization-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostSerialization</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Serialization for persistence and marshalling.</summary>
-  <homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
     libs/serialization/</homepage>
   <dc:author>Robert Ramey</dc:author>
+  <description>Serialization for persistence and
+    marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f2da658d-6625-4fba-a903-f565836fe921" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="c6ef6f12-67e8-47ca-8ddf-8190342e8e76" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
       <manifest-digest sha256="410efa369be7f01d65b698c60eab2b6b2e596cb7301ff8aa5f8a8a8fd79e99e1"/>
     </implementation>
@@ -133,7 +135,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxgACgkQxnV5mk56UjE+uACfVzltVoxYai62YOXEZwfImJn5G4AAn3yb0Lb2
-jGTQky6hzrWETD0GRLLk
+iEYEABECAAYFAk+YjhsACgkQxnV5mk56UjHb5ACeJl5Jp/xHXzF3iI0g2lPsiu4UqZUAnAgR3DO4
+Rg3JeTDMMI29+p0jRf7F
 
 -->

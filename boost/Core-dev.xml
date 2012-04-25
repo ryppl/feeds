@@ -3,10 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Core-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostCore</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>***WRITE ME (one line)***</summary>
-  <homepage>http://www.boost.org</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="49faae86-b751-420f-940d-78ac4fd982e6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="89b3db9c-db96-4887-95eb-f45646752df5" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-core-0b0d7b5" href="http://nodeload.github.com/boost-lib/core/zipball/0b0d7b586d12419e52a1365a015e75d29ed8fd3a" size="82102" type="application/zip"/>
       <manifest-digest sha256="24255ab56f6f5b681e9920a79aec34ae10c876e31e6a8427b68efeffa16e030a"/>
     </implementation>
@@ -50,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt8ACgkQxnV5mk56UjHmFwCdFfmEDstSki0yt1kD5+qn6ulq9e0AoIhH5iLc
-GHD3jZ9qrlk9fqLG1l91
+iEYEABECAAYFAk+Yjc4ACgkQxnV5mk56UjE78ACdF/LyohLwdblneHylARlXNHIYD2cAn3BUJqnB
+ySSlEzamJijGiV7/oE0M
 
 -->

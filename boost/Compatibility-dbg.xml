@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Compatibility-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostCompatibility</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Help for non-conforming standard libraries.</summary>
-  <homepage>libs/compatibility/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/compatibility/</homepage>
   <dc:author>Ralf Grosse-Kunstleve</dc:author>
   <dc:author>Jens Maurer</dc:author>
+  <description>Help for non-conforming standard
+    libraries.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="51d10a9b-6d7d-48a3-ad23-2eda8e123127" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="5c84f5d9-7c63-4470-ab2a-cded713d236f" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-compatibility-c84115b" href="http://nodeload.github.com/boost-lib/compatibility/zipball/c84115ba67fc022ada1e9a725f1da59fa22102f6" size="15071" type="application/zip"/>
       <manifest-digest sha256="357eb712270fc776cd297dae532146a5af880befd081fa5b491064ff6436798c"/>
     </implementation>
@@ -54,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt0ACgkQxnV5mk56UjGOSgCgidyxgPftWDdCG8w/eueSPLnAul8AmgNXNSse
-2819bXlr7h7y97X2H70w
+iEYEABECAAYFAk+Yjc0ACgkQxnV5mk56UjHwAwCbBftCkq4/FwSC3pfzL4K5aq6BuRcAnRjf/Qtz
+f8K3cXpTSkqwU/hh1tDU
 
 -->

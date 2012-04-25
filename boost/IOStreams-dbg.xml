@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/IOStreams-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostIOStreams</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.IOStreams provides a framework for defining streams, stream buffers and i/o filters.</summary>
-  <homepage>libs/iostreams/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/iostreams/</homepage>
   <dc:author>Jonathan Turkanis</dc:author>
+  <description>Boost.IOStreams provides a framework for defining
+    streams, stream buffers and i/o filters.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="977017f2-9bda-4cd3-997f-f7fb4fda381f" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="a4849104-9ac3-40ce-acea-612b2e024ba0" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-iostreams-1864e1f" href="http://nodeload.github.com/boost-lib/iostreams/zipball/1864e1f86bef21c160b6080c2bfc258c850962eb" size="700613" type="application/zip"/>
       <manifest-digest sha256="88c855fabae3970a25f15f3cf106780cd34dfd3594dd20d49118b2df3e3d78c8"/>
     </implementation>
@@ -58,7 +60,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvMACgkQxnV5mk56UjE4BwCdGYBDkjEyHo0jTlxYj0OxFfZ2tiAAnA2MKOFW
-YkGzGxricEkKI0zpsPPl
+iEYEABECAAYFAk+YjegACgkQxnV5mk56UjFgGQCeNMixHEOtlplnlaBg0C58F+eGG8QAn0wf4uXc
+HSpxTfuQ9MimF1lAlsU4
 
 -->

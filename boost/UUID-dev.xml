@@ -3,13 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/UUID-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostUUID</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A universally unique identifier.</summary>
-  <homepage>libs/uuid/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/uuid/</homepage>
   <dc:author>Andy Tompkins</dc:author>
+  <description>A universally unique identifier.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3d58e3ca-e17c-4cbd-92b7-14b735839992" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="087691c3-645a-46a8-a5b3-a666eb573f27" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-uuid-7235414" href="http://nodeload.github.com/boost-lib/uuid/zipball/7235414cbe99a431f0183a927b3285170a33a60e" size="48926" type="application/zip"/>
       <manifest-digest sha256="926ecb88a798286b137f4c056959a021789e8e29edadff577065854493f80370"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZygACgkQxnV5mk56UjEydACgl9BQNlnO3wAWEmtuJn8nP/qJuLIAnjW/XpMT
-Dsprs1qOx0XqPFHVJnj+
+iEYEABECAAYFAk+Yji0ACgkQxnV5mk56UjH1VACfQgfwrmI+CTdOjXo2vfGqzQYD060AnR3cZRxM
+hD+b0cpyMdzRWFpoedxV
 
 -->

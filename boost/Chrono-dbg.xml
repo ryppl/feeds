@@ -3,13 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Chrono-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostChrono</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Useful time utilities.</summary>
-  <homepage>libs/chrono/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/chrono/</homepage>
   <dc:author>Vicente J. Botet Escribá</dc:author>
+  <description>Useful time utilities.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="04b71f29-49d5-4e04-b923-787a01c530e2" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="b5bb5254-4296-4f00-85d6-a35177dd613d" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-chrono-bcb5566" href="http://nodeload.github.com/boost-lib/chrono/zipball/bcb556677222caab2626f7a160a74b43a8ba81a3" size="574649" type="application/zip"/>
       <manifest-digest sha256="5669bd55b8bcfc5cf98dd1f21cb3fc2cf3a09e819a136fce9754d5fe63ce0e17"/>
     </implementation>
@@ -114,7 +115,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt0ACgkQxnV5mk56UjH9MwCdGBtSoB32ZWZ05HmpSI72zNGuhyAAn1oUvrTu
-I2Pei60hsB3aI47jpQgg
+iEYEABECAAYFAk+YjcwACgkQxnV5mk56UjFCmQCfe46kkqrNvY7riYyj5IF1giiHTncAoJvW/KqM
+jqPPDuMMU1SQx8Jd/4HK
 
 -->

@@ -3,8 +3,8 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Math.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostMath</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.Math includes several contributions in the domain of mathematics: The Greatest Common Divisor and Least Common Multiple library provides run-time and compile-time evaluation of the greatest common divisor (GCD) or least common multiple (LCM) of two integers. The Special Functions library currently provides eight templated special functions, in namespace boost. The Complex Number Inverse Trigonometric Functions are the inverses of trigonometric functions currently present in the C++ standard. Quaternions are a relative of complex numbers often used to parameterise rotations in three dimentional space. Octonions, like quaternions, are a relative of complex numbers.</summary>
-  <homepage>libs/math/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/math/</homepage>
   <dc:author>Paul Bristow</dc:author>
   <dc:author>Hubert Holin</dc:author>
   <dc:author>Xiaogang Zhang</dc:author>
@@ -43,7 +43,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3f8925d5-7239-4637-aed8-dfdb67f9361e" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="f35ce177-58c5-4f97-9f20-73fdb00baafc" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
       <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
@@ -188,7 +188,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxEACgkQxnV5mk56UjHIIACfXuNBJ0jEyQIO9xR+THUax9t0Vu0AoIjDfcje
-l5lWbT+75lIoVBA73BP9
+iEYEABECAAYFAk+YjhUACgkQxnV5mk56UjHMxQCfU0C383pS+LEwKxaffKmtoUXITn8AoKEzQdNH
+QvDSQr0Y76U9t1f6iPMO
 
 -->

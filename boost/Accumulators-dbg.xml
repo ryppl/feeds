@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Accumulators-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostAccumulators</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Framework for incremental calculation, and collection of statistical accumulators.</summary>
-  <homepage>libs/accumulators/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/accumulators/</homepage>
   <dc:author>Eric Niebler</dc:author>
+  <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6c73528f-753c-4c49-bf05-6d07847056d2" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="7e596fdc-2932-490e-a2db-737f708c49b1" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
       <manifest-digest sha256="dd808f9f6447f2e94a34743737c907380c8343840595255d629a92b31a6f6406"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+YZtkACgkQxnV5mk56UjEWPwCY65A+ofPB0AJKMKTGjn9LPUwhvgCeOateH3lr
-j/grQc+PV5DUfdVz9F4=
+iEYEABECAAYFAk+YjccACgkQxnV5mk56UjF31QCeKX4Y/HGh/9SNKMJQO1kGaEbBqmYAn2q2om4K
+rcIUc0DXhywntGmuGVH3
 
 -->

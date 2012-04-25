@@ -3,13 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/ProgramOptions.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostProgramOptions</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The program_options library allows program developers to obtain program options, that is (name, value) pairs from the user, via conventional methods such as command line and config file.</summary>
-  <homepage>libs/program_options/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/program_options/</homepage>
   <dc:author>Vladimir Prus</dc:author>
+  <description>The program_options library allows program
+    developers to obtain program options, that is (name, value)
+    pairs from the user, via conventional methods such as command
+    line and config file.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="319869c4-2d4a-4487-b54c-e1248c936077" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="fe8ce0e5-a748-402a-8be1-857e5d4208a8" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-program_options-4839321" href="http://nodeload.github.com/boost-lib/program_options/zipball/48393218d9cfcd3636668f12fb4897d18d025500" size="159758" type="application/zip"/>
       <manifest-digest sha256="c5fceebd6db8cd2c2cc45dc04dec1c4194a91d347f628d3bd4fd9f7cb25ded6f"/>
     </implementation>
@@ -106,7 +110,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZwsACgkQxnV5mk56UjHifACeOBeqVngkI56aJ+pXbdEpNhysSjwAn3+jQG+l
-MxhW/fSCys97tyEg3tz2
+iEYEABECAAYFAk+YjgoACgkQxnV5mk56UjFKRACfTRI79vOLBORUIrVQZtdUrnEgClsAni+MswuB
+ELa/nqeKrbEbAtWQ/Xmq
 
 -->

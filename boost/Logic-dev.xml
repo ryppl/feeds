@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Logic-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostLogic</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>***WRITE ME (one line)***</summary>
-  <homepage>http://www.boost.org</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
   <dc:author>Doug Gregor</dc:author>
+  <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d048f728-b3bf-4ab7-9984-2d638577e767" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="f3fa7533-9256-4d41-a675-a000b0281187" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
       <manifest-digest sha256="ef835d407665166f7d8906f53c3aa39aeecd448634830b1395816e0faab56a37"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvMACgkQxnV5mk56UjHx0QCeNf/ds2L55exLvx8iB/Xbb1fsg6oAn1YBwFtz
-tnuFkvhUDfXatauNU8Gl
+iEYEABECAAYFAk+YjegACgkQxnV5mk56UjEbVQCfcDbNJOBzH0kChV+NPcLXfcnXrYEAn17Is+AJ
+pjBs+xDdJHmljqncv5Ii
 
 -->

@@ -3,8 +3,8 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Bind-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostBind</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>boost::bind is a generalization of the standard functions std::bind1st and std::bind2nd. It supports arbitrary function objects, functions, function pointers, and member function pointers, and is able to bind any argument to a specific value or route input arguments into arbitrary positions.</summary>
-  <homepage>libs/bind/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/bind/</homepage>
   <dc:author>Peter Dimov</dc:author>
   <dc:author>Dave Abrahams</dc:author>
   <dc:author>Doug Gregor</dc:author>
@@ -26,7 +26,7 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="56cd420e-1a76-4cae-882a-f1f0427a833d" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="47dbd5b8-a4c2-4d3b-a824-827e9d31c1ae" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
       <manifest-digest sha256="ddb4ec2e4f42c232916a7651a145caa7f1184c0a472e318dc0992df7fbe265ee"/>
     </implementation>
@@ -70,7 +70,7 @@ A utility library for passing references to
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZtoACgkQxnV5mk56UjGo0gCgkJTzwQEquPlXkZbK1W5CSek+oLwAnjmQi1FJ
-Lv4rIJu/MbZaFI+i2c4P
+iEYEABECAAYFAk+YjckACgkQxnV5mk56UjHqvACdFO3mXZE3QJhbGPqYVMx+/aZmtFEAnRcK+4sf
+lrcmRGvRjO9+yUeflhdd
 
 -->

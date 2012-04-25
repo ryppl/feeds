@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Optional-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostOptional</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Discriminated-union wrapper for optional values.</summary>
-  <homepage>libs/optional/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/optional/</homepage>
   <dc:author>Fernando Cacciola</dc:author>
+  <description>Discriminated-union wrapper for optional
+    values.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2b5d2d0a-34e6-4d04-be4b-98842236a18b" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="35f036cb-acee-4a96-92b2-d8e9494be324" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-optional-b0f724d" href="http://nodeload.github.com/boost-lib/optional/zipball/b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7" size="100931" type="application/zip"/>
       <manifest-digest sha256="60716adffa4c4d65ad3086944fad4f92ddf38c22ee346a3cef69f7f52611bb71"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvwACgkQxnV5mk56UjHZwgCeIOq81guBR6MQM81ktvawlv6O9zYAmwcZlb/8
-IV4dQ+Btnn5nTlEiIoOZ
+iEYEABECAAYFAk+YjfgACgkQxnV5mk56UjGmGACff7fZAXXxvdE9mtupJwINlkcHReUAoJK97Qzr
+jo2VIMCyg54+Chi7VDQ6
 
 -->

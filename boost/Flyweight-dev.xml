@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Flyweight-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostFlyweight</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Design pattern to manage large quantities of highly redundant objects.</summary>
-  <homepage>libs/flyweight/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/flyweight/</homepage>
   <dc:author>Joaquín M López Muñoz</dc:author>
+  <description>Design pattern to manage large quantities of highly redundant
+    objects.</description>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1d097f9d-9d68-4fc7-bd8b-75c49bf4b8b6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="47177953-0686-4dd6-ab82-4e3e4962a4bd" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
       <manifest-digest sha256="52ef9758318fd1d037949a42af215840c31724ae14a09a1af95e8d546893d4cd"/>
     </implementation>
@@ -52,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuIACgkQxnV5mk56UjF46wCggpl2/oLUEgmHWW5ABx1c8W5UQMAAoIMEOwNO
-n6M4BlBne9suGOa28m4X
+iEYEABECAAYFAk+YjdIACgkQxnV5mk56UjHxlACfawB6DNHV1BfWdElOqsI/s92sooQAnjELXSTc
+cb6H9KtEOKZR8tKsGPxi
 
 -->

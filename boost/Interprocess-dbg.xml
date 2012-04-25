@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Interprocess-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostInterprocess</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Shared memory, memory mapped files, process-shared mutexes, condition variables, containers and allocators.</summary>
-  <homepage>libs/interprocess/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/interprocess/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
+  <description>Shared memory, memory mapped files, process-shared mutexes,
+    condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0a20454a-9e71-431a-8e00-8b42f2a0b53c" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="d0ea3bc5-c526-4588-ac50-4baf8f4e7662" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-interprocess-b27e2e0" href="http://nodeload.github.com/boost-lib/interprocess/zipball/b27e2e04a163489e806d8c5a9e1e99872abc7e8f" size="833791" type="application/zip"/>
       <manifest-digest sha256="d0184fd8bc4596cda3cb4e5627c785df8ae10d13d23f449babeba7019af35852"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvAACgkQxnV5mk56UjH6vACgmz0HgQyYN10ZoNt8ttVHiJ/lsIoAnik1Eu4W
-ZeYKPi+SDLEWptPKUV/A
+iEYEABECAAYFAk+YjeYACgkQxnV5mk56UjFA9wCfdG/Orq/Kve3AbVV5tuLjzqP5X9EAoKlR/tF1
+/QX3zVWlqKwkV8Kkte5q
 
 -->

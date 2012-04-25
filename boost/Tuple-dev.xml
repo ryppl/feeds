@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Tuple-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostTuple</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Ease definition of functions returning multiple values, and more.</summary>
-  <homepage>libs/tuple/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/tuple/</homepage>
   <dc:author>Jaakko Järvi</dc:author>
+  <description>Ease definition of functions returning multiple
+    values, and more.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c5de09e5-4ba7-4ade-911f-5f170e342480" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="29fbd2bd-f2b0-4db1-8791-dc37833948a8" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
       <manifest-digest sha256="f99344eafae248ab7ea029912aa7a1c3a528f37d7afdca464d7294232d7f9ce3"/>
     </implementation>
@@ -52,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZyMACgkQxnV5mk56UjHR8QCfQu+Gngl2Ihg9ApcBgmrudxD9HtkAoIwibBWf
-k6Mon5mmXEytLUxluf0o
+iEYEABECAAYFAk+YjigACgkQxnV5mk56UjHnRQCeISHXrb1BM6STr/oSrNw+f0WeCUoAmwQRMF/Y
+pbMotNWZoyk6LRWOPfQa
 
 -->

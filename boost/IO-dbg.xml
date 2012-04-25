@@ -3,12 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/IO-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostIO</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The I/O sub-library of Boost helps segregate the large number of Boost headers. This sub-library should contain various items to use with/for the standard I/O library.</summary>
-  <homepage>libs/io/doc/ios_state.html</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/io/doc/ios_state.html</homepage>
   <dc:author>Daryle Walker</dc:author>
+  <description>The I/O sub-library of Boost helps segregate the
+    large number of Boost headers. This sub-library should contain
+    various items to use with/for the standard I/O
+    library.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="67f64314-5943-4773-ab88-be6ce2b667e6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="18991266-4be1-4d4b-af78-d5e3508c3681" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
       <manifest-digest sha256="fcdc7e2b02dda6c25e3f21505507e245a8c67006170b0987c18ea3215dde15a2"/>
     </implementation>
@@ -53,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvEACgkQxnV5mk56UjHx1wCdF7iSaBxiJ6bm5rXWPKDFh9up11gAn0NLmsiB
-XEnNCMM4ktPyuJaLqjMD
+iEYEABECAAYFAk+YjeMACgkQxnV5mk56UjFZxQCglebsmhfAKkZFUHGOrZN9yh7+/o8An3/Hk0jj
+sm13XtE1i4AHGmr1c8Zz
 
 -->

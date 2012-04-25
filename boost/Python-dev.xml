@@ -3,12 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Python-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPython</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost Python Library is a framework for interfacing Python and C++. It allows you to quickly and seamlessly expose C++ classes functions and objects to Python, and vice-versa, using no special tools -- just your C++ compiler.</summary>
-  <homepage>libs/python/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/python/</homepage>
   <dc:author>Dave Abrahams</dc:author>
+  <description>The Boost Python Library is a framework for
+    interfacing Python and C++. It allows you to quickly and
+    seamlessly expose C++ classes functions and objects to Python,
+    and vice-versa, using no special tools -- just your C++
+    compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3b4ac47e-e409-46d3-8368-b519d6e3f96c" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="192a6a84-eb88-4c32-8f40-c8a2b0fc6782" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
@@ -124,7 +129,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxQACgkQxnV5mk56UjFFowCgi95vKaoYoPppo0+kfayn+NleqgwAoJ/Hvu8t
-gHWO0giGNuSfMHLmVAud
+iEYEABECAAYFAk+YjhQACgkQxnV5mk56UjFe6gCeNxd3Ff6dhJtmr0gqKzTUIzva8pQAn1EpATAD
+yJ6Zpw5ySaGSnjAOU9FY
 
 -->

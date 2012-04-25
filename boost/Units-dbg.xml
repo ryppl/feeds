@@ -3,13 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Units-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostUnits</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</summary>
-  <homepage>libs/units/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/units/</homepage>
   <dc:author>Matthias Schabel</dc:author>
   <dc:author>Steven Watanabe</dc:author>
+  <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e837fa94-78ec-4862-9b2c-2570be0ab8f5" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="f90cf995-c21a-4a27-bf0d-5066e400e28e" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
       <manifest-digest sha256="3aba333fd47650f1445eee78929769ac6641d36a0de37136e6993095ee6ab53b"/>
     </implementation>
@@ -54,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZycACgkQxnV5mk56UjElRgCeL7jG5QCy6Yf4LVJuWcyawry10PEAnjldCmiU
-gO5gGMc9I9AObDNUN9VE
+iEYEABECAAYFAk+YjiwACgkQxnV5mk56UjGHPwCgguJR/DtMTWnWzNhSiUm8VzL71/4AnAv4VHJi
+KxNkP1Kor7Ar5J3FdfOm
 
 -->

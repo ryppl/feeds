@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/ICL-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostICL</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Interval Container Library, interval sets and maps and aggregation of associated values</summary>
-  <homepage>libs/icl/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/icl/</homepage>
   <dc:author>Joachim Faulhaber</dc:author>
+  <description>Interval Container Library, interval sets and maps and
+    aggregation of associated values</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="97de7e7f-2915-4b04-b954-6839411f4379" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="47db1d1b-0061-4153-a49d-a7618ef86e52" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-icl-03c68cd" href="http://nodeload.github.com/boost-lib/icl/zipball/03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c" size="4147046" type="application/zip"/>
       <manifest-digest sha256="bf319da7525a5e7522d222677e34e3807d0734c20a33ff7b8808ef74e61147cf"/>
     </implementation>
@@ -54,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvIACgkQxnV5mk56UjFOsACfbck2uE/7f7pYDmGip7fSxFB1MDUAmwaR/p1a
-nem7G+GpbHEL1/cmGqEv
+iEYEABECAAYFAk+Yje0ACgkQxnV5mk56UjG9tQCdGWvaObdKkSAvSkEeEw7v5bFQ6TYAn3SdMUK8
+OgeYn5kdqr7rtnGPGcXU
 
 -->

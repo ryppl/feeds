@@ -3,12 +3,19 @@
 <interface uri="http://ryppl.github.com/feeds/boost/TR1-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostTR1</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The TR1 library provides an implementation of the C++ Technical Report on Standard Library Extensions. This library does not itself implement the TR1 components, rather it's a thin wrapper that will include your standard library's TR1 implementation (if it has one), otherwise it will include the Boost Library equivalents, and import them into namespace std::tr1.</summary>
-  <homepage>libs/tr1/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/tr1/</homepage>
   <dc:author>John Maddock</dc:author>
+  <description>The TR1 library provides an implementation of the
+    C++ Technical Report on Standard Library Extensions. This
+    library does not itself implement the TR1 components, rather
+    it's a thin wrapper that will include your standard library's
+    TR1 implementation (if it has one), otherwise it will include
+    the Boost Library equivalents, and import them into namespace
+    std::tr1.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5ab8868c-f07a-4bb0-a901-8f35cea5e4f1" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="7f558b8d-9cc5-487c-831b-26681b021389" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-tr1-29adf81" href="http://nodeload.github.com/boost-lib/tr1/zipball/29adf81005592df8f64d8084c4e0739f85b4ab18" size="187668" type="application/zip"/>
       <manifest-digest sha256="f2c597cc0cb38d81af4292ef322bb01e7b87f409a1e45ef0791639a402c10545"/>
     </implementation>
@@ -52,7 +59,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZyMACgkQxnV5mk56UjEglwCgh7i8ySttA2gOrn9pLwL/5E8/dDkAn2bVKHCX
-m2/i7TdjcpPRnAycBx2B
+iEYEABECAAYFAk+YjicACgkQxnV5mk56UjEsSgCfXKtL7Y2ZreB2XIfVgURoImq4EbUAmwUYGKT9
+n2LQ8ULHox9gCIL9w7vK
 
 -->

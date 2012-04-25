@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/CircularBuffer-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostCircularBuffer</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A STL compliant container also known as ring or cyclic buffer. </summary>
-  <homepage>libs/circular_buffer/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/circular_buffer/</homepage>
   <dc:author>Jan Gaspar</dc:author>
+  <description>A STL compliant container also known as ring or cyclic buffer.
+    </description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b72368dd-b05d-463b-ab4f-d2712038cf2f" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="198e380e-ae4c-42a2-816e-cf23f7478d57" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha256="f5f0bf90369f3cb8ec1cd7aa61f89c0759ae64082b849ce06c190fe66402a93c"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt0ACgkQxnV5mk56UjFYKgCfWpVxQGA/yCJXbMQeBrqS4hPvL5MAn0mx4u3p
-iNlJrBtnR5HGS0PZJcVr
+iEYEABECAAYFAk+YjcwACgkQxnV5mk56UjGodgCfcQTfHD4nS6w/OJoBRx3HLw1RZhQAn1MocIOO
+M2UEBiJBitxpBNbjYnJq
 
 -->

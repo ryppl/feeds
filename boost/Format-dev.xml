@@ -3,13 +3,22 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Format-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostFormat</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The format library provides a class for formatting arguments according to a format-string, as does printf, but with two major differences: format sends the arguments to an internal stream, and so is entirely type-safe and naturally supports all user-defined types; the ellipsis (...) can not be used correctly in the strongly typed context of format, and thus the function call with arbitrary arguments is replaced by successive calls to an argument feeding operator%.</summary>
-  <homepage>libs/format/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/format/</homepage>
   <dc:author>Samuel Krempp</dc:author>
+  <description>The format library provides a class for formatting
+    arguments according to a format-string, as does printf, but
+    with two major differences: format sends the arguments to an
+    internal stream, and so is entirely type-safe and naturally
+    supports all user-defined types; the ellipsis (...) can not be
+    used correctly in the strongly typed context of format, and
+    thus the function call with arbitrary arguments is replaced by
+    successive calls to an argument feeding
+    operator%.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="da52ead8-0c5d-4d43-b3b3-c7d46c4a85c0" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="92b12eb5-c2c8-48c5-b9e1-36463d30c55b" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-format-6f5f79e" href="http://nodeload.github.com/boost-lib/format/zipball/6f5f79ec67a1ea29106a42ce283dc5b8630fc999" size="75022" type="application/zip"/>
       <manifest-digest sha256="2e06a127287cb1ccae620762255e9b1537f08280f0104a8d44ab49b90d626403"/>
     </implementation>
@@ -53,7 +62,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuIACgkQxnV5mk56UjENQACcCY+ODV/YOv+GcNn60dUDwO7081kAn1S1aG45
-cKLjzMIUN73gsKVO8JzB
+iEYEABECAAYFAk+YjdIACgkQxnV5mk56UjEZHACfSVAzLzrkkQECwS+aiCNLzu3xiPkAnRaHDaUj
+T7RJcCF2gBZ1vibTifUa
 
 -->

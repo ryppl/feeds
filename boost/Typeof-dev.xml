@@ -3,13 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Typeof-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostTypeof</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Typeof operator emulation.</summary>
-  <homepage>libs/typeof/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/typeof/</homepage>
   <dc:author>Arkadiy Vertleyb</dc:author>
   <dc:author>Peder Holt</dc:author>
+  <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0cb854a0-a00a-470f-9c09-56b057e426ca" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="cbf9828c-48ec-4aba-8fd4-282d29b8ab35" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
       <manifest-digest sha256="a8adafb3e38437f60802a273797f2fdf225c9fee3ccec9af9ad961c7e4c41727"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZyUACgkQxnV5mk56UjHzrgCghPUNPT0MzFHSriBe5K1ItcQsZuUAn3JaW0rj
-x+IkqE3Jayd0dAr+Cw6X
+iEYEABECAAYFAk+YjikACgkQxnV5mk56UjGpzQCfd61Tm3my5/9NwEPaGRag9XfXOCQAoIx9G4BX
+s2jS4pSQWpix/m6D4BiR
 
 -->

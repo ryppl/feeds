@@ -3,12 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/CRC-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostCRC</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost CRC Library provides two implementations of CRC (cyclic redundancy code) computation objects and two implementations of CRC computation functions. The implementations are template-based.</summary>
-  <homepage>libs/crc/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/crc/</homepage>
   <dc:author>Daryle Walker</dc:author>
+  <description>The Boost CRC Library provides two implementations
+    of CRC (cyclic redundancy code) computation objects and two
+    implementations of CRC computation functions. The
+    implementations are template-based.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7e6f9aeb-5d20-4df8-9e97-2c4f5e818a16" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="e5f6e3b0-c48f-4ef0-b612-cb67a2ecf424" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
       <manifest-digest sha256="97e1830873d350eced0828f07321f6e5a71a1800b2dcc08b0bddd46a5b15bcd9"/>
     </implementation>
@@ -53,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt8ACgkQxnV5mk56UjGPSgCcC+XKw2GdLD7HVsXooi0uVcXRcqEAn34Fq4TW
-DAN/KqHxl0G+RHc+Rign
+iEYEABECAAYFAk+Yjc8ACgkQxnV5mk56UjG6uACfR0+tauPUVvnAcZZQaiEDi7Jr8w8AnRbRymm7
+7Pb8KrFje2PSxKOKTUJf
 
 -->

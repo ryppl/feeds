@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/ConceptCheck-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostConceptCheck</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Tools for generic programming.</summary>
-  <homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
     libs/concept_check/</homepage>
   <dc:author>Jeremy Siek</dc:author>
+  <description>Tools for generic programming.</description>
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="513d6b67-e361-4420-b477-272f2db8d5f6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="57f81bb5-6315-4b93-8aa0-1d8fc75236f9" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha256="f32a5c5e8563c782092791d699dda5da24757638131b0f5e64a7cfb4090ee047"/>
     </implementation>
@@ -63,7 +64,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt4ACgkQxnV5mk56UjEgmwCeNX/deytSNX8IOZBlDmamyXFgtQMAn19q6Sri
-GKJDxopub5B1bkRyetNh
+iEYEABECAAYFAk+Yjc0ACgkQxnV5mk56UjEq1wCdHJH+BkO+XDYjfafbDzEL0aoa5dsAn0wKxC1p
+yBZ1esCMAbBu4Zgkp0e0
 
 -->

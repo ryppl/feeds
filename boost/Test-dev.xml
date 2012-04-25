@@ -3,12 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Test-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostTest</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Support for simple program testing, full unit testing, and for program execution monitoring.</summary>
-  <homepage>libs/test/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/test/</homepage>
   <dc:author>Gennadiy Rozental</dc:author>
+  <description>Support for simple program testing, full unit
+    testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="161cf43c-76f1-48df-9b4e-45055da22451" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="bc197320-cf92-43f1-aa6c-2e29e6340b98" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-test-a3ae1c3" href="http://nodeload.github.com/boost-lib/test/zipball/a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc" size="1004084" type="application/zip"/>
       <manifest-digest sha256="48c064b1a7a6d44f758f14b808611f43b3229d4aedb454226c3081d90e20bee3"/>
     </implementation>
@@ -120,7 +122,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZx8ACgkQxnV5mk56UjFJ6QCdEfehFVKGxE07T9dSwmDA0VwO0WQAn0J+qoGC
-6bvJyTML6GrJN8NY57aX
+iEYEABECAAYFAk+YjiMACgkQxnV5mk56UjHgCACfauxEkSOR+wncBXCclRP9AC7FxOMAn1uCu0GB
+R0D7n7k2AEZjeL/vi0S9
 
 -->

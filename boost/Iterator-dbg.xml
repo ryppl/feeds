@@ -3,14 +3,19 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Iterator-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostIterator</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost Iterator Library contains two parts. The first is a system of concepts which extend the C++ standard iterator requirements. The second is a framework of components for building iterators based on these extended concepts and includes several useful iterator adaptors.</summary>
-  <homepage>libs/iterator/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/iterator/</homepage>
   <dc:author>Dave Abrahams</dc:author>
   <dc:author>Jeremy Siek</dc:author>
   <dc:author>Thomas Witt</dc:author>
+  <description>The Boost Iterator Library contains two parts. The
+    first is a system of concepts which extend the C++ standard
+    iterator requirements. The second is a framework of components
+    for building iterators based on these extended concepts and
+    includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c5fe637b-3487-4ada-8fc7-93baddbcc6fc" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="93c667cf-f102-4158-9391-edaf122dba91" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-iterator-00d114a" href="http://nodeload.github.com/boost-lib/iterator/zipball/00d114a88cae489976093a77356baa4615a3134e" size="1591678" type="application/zip"/>
       <manifest-digest sha256="24c9511505135ed28764bfd6220b99e74989b6617e1ec0b77c1d74e8e110c58b"/>
     </implementation>
@@ -55,7 +60,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvQACgkQxnV5mk56UjEFeQCgoWcUAnFegHdoyCAzJedCz/pRg3gAnAq4OJgD
-TuxYMuuBsQuhvKjZ+2b1
+iEYEABECAAYFAk+YjesACgkQxnV5mk56UjETTACgl5NzaDdGlSfpsr+XOwCx8JZJKcgAnjhS2Lu9
+E3FP03w2yBhDZI6Kojw8
 
 -->

@@ -3,8 +3,8 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Functional-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostFunctional</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost.Function library contains a family of class templates that are function object wrappers.</summary>
-  <homepage>libs/functional/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/functional/</homepage>
   <dc:author>Mark Rodgers</dc:author>
   <dc:author>Daniel James</dc:author>
   <dc:author>Tobias Schwinger</dc:author>
@@ -24,7 +24,7 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0429f7dd-7c7e-4a53-9393-c886625172d6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="17e10805-4597-4405-8b8a-0990e3358c4a" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-functional-f332981" href="http://nodeload.github.com/boost-lib/functional/zipball/f3329812763cfbe09fca6f3a6f7aea5decbcc480" size="166324" type="application/zip"/>
       <manifest-digest sha256="00193a7152ce0dd2bef17924fd73a0f11810485d45b101368d5c85894bcd0bb8"/>
     </implementation>
@@ -69,7 +69,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuMACgkQxnV5mk56UjGspQCfTwAI3jVXmTCwcs5LldmDtrkCngcAniD+idkh
-MD50NduBY1zOdf7T86iL
+iEYEABECAAYFAk+YjdIACgkQxnV5mk56UjHuxwCfXAXLK5Zs3JVhV61WKBDkJNWD/xIAn2IHjDdG
+FMFMxWHaFURU+d12ggXg
 
 -->

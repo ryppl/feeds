@@ -3,13 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/MultiArray-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostMultiArray</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.MultiArray provides a generic N-dimensional array concept definition and common implementations of that interface.</summary>
-  <homepage>libs/multi_array/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/multi_array/</homepage>
   <dc:author>Ron Garcia</dc:author>
+  <description>Boost.MultiArray provides a generic N-dimensional
+    array concept definition and common implementations of that
+    interface.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b7791d3e-cce7-437d-8106-e518c6316761" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="fd1714b8-df1c-45fd-af5d-7c84f2e80a32" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-multi_array-0ddebd3" href="http://nodeload.github.com/boost-lib/multi_array/zipball/0ddebd3e206e05f3f6c68ad1c8d8eb6aa47de2d3" size="147906" type="application/zip"/>
       <manifest-digest sha256="a34b6f9a6639fa288457ce2cc76cdc4a2eb020864307588e352b6a0b8f9e6d1f"/>
     </implementation>
@@ -53,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvYACgkQxnV5mk56UjFqkgCgkRBJgHMVjbcuU90IFGS5QARnHsYAniYZfGeX
-rJxmE9R8odI/OY5O5laa
+iEYEABECAAYFAk+YjfAACgkQxnV5mk56UjGz8gCgglllO0O4Qisr1GMaeObEWzO8cKQAnArxwd8o
+ls/w2PtYH732HVD2kS8s
 
 -->

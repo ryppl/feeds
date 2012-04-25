@@ -3,15 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/TypeTraits-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostTypeTraits</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Templates for fundamental properties of types.</summary>
-  <homepage>libs/type_traits/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/type_traits/</homepage>
   <dc:author>John Maddock</dc:author>
   <dc:author>et al</dc:author>
   <dc:author>Steve Cleary</dc:author>
+  <description>Templates for fundamental properties of
+    types.</description>
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="79e5af53-daad-4954-add8-7959c4c890eb" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="2266fe4c-cb40-410d-8d50-9b06674dd3a0" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-type_traits-c0e01e2" href="http://nodeload.github.com/boost-lib/type_traits/zipball/c0e01e2d36942936f75738a6d72233da8e9dd568" size="895065" type="application/zip"/>
       <manifest-digest sha256="7c02f550a124646620ef316fc1bd09339d9cf81b413ec9745d2b92a0b01b2707"/>
     </implementation>
@@ -56,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZygACgkQxnV5mk56UjGf6gCghXVx4i78GizUnhPy+L6lcpFu/BAAoJSjJfMG
-hGAUN42TSoI65yNLAKAz
+iEYEABECAAYFAk+Yji0ACgkQxnV5mk56UjHDmgCeNe2sNqZT5vpNA5Xl89QgVVcIdGcAoJOTgvFH
+vc+Qknwhi7Ojn0IaKSKW
 
 -->

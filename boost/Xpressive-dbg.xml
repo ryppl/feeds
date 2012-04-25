@@ -3,12 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Xpressive-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostXpressive</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Regular expressions that can be written as strings or as expression templates, and which can refer to each other and themselves recursively with the power of context-free grammars.</summary>
-  <homepage>libs/xpressive/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/xpressive/</homepage>
   <dc:author>Eric Niebler</dc:author>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a6869e14-4863-425c-aaee-a76756fa2726" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="7dd8f62e-fe6d-43a8-b69c-99202161031a" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
       <manifest-digest sha256="e7cf9b2d52bf2cbb7e1ce29bc60388170dd4348ff39ea9d3f92805f684f408db"/>
     </implementation>
@@ -53,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZyoACgkQxnV5mk56UjH4hgCggKt8kazelDPfXeJft0ayz3YPu64AniHheHNx
-GIpaZ8yjey+1VmtW1Ucs
+iEYEABECAAYFAk+Yji4ACgkQxnV5mk56UjGGlgCfTHOBXjbxBgxAPJHbvQ57b7jmEdgAnRUMcYbX
+hXl+j6QtYOtt0KAjtuOS
 
 -->

@@ -3,16 +3,19 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Graph-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostGraph</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The BGL graph interface and graph components are generic, in the same sense as the the Standard Template Library (STL).</summary>
-  <homepage>libs/graph/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/graph/</homepage>
   <dc:author>Jeremy Siek</dc:author>
   <dc:author>a University of Notre Dame team; now maintained by Andrew Sutton</dc:author>
   <dc:author>Jeremiah Willcock.</dc:author>
+  <description>The BGL graph interface and graph components are
+    generic, in the same sense as the the Standard Template Library
+    (STL).</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="19fa7181-fca6-4b7c-a158-c16aa4db54d6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="9fcc85ea-115f-46e3-9158-03bd452f1e0a" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
       <manifest-digest sha256="4894a78fe95d659a9ac4ac10dc4f08ae5ca2b812db22cd8d850f66df1709fe53"/>
     </implementation>
@@ -216,7 +219,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZu0ACgkQxnV5mk56UjHCLQCgkI0m4ZPq/g6AOrYkPMWdYxHGcgoAoKDGPN9b
-rbLMQn4VsYwNLtYCCX12
+iEYEABECAAYFAk+Yjd0ACgkQxnV5mk56UjHEtQCeJu8BSD0I0GZBqqcZTZPRDRAGnxkAoIMljg7g
+7AoppMQBYOE+Nqeuxdfx
 
 -->

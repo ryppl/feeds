@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Asio-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostAsio</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Portable networking, including sockets, timers, hostname resolution and socket iostreams.</summary>
-  <homepage>libs/asio/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/asio/</homepage>
   <dc:author>Chris Kohlhoff</dc:author>
+  <description>Portable networking, including sockets, timers,
+    hostname resolution and socket iostreams.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bef9addd-a39f-4803-b009-9d71100f6be5" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="19de8aaf-ef4e-4d89-aa94-1c42f79e83ef" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-asio-97e13d3" href="http://nodeload.github.com/boost-lib/asio/zipball/97e13d3b006c31acc620716444a778c507e7bcc8" size="1389225" type="application/zip"/>
       <manifest-digest sha256="d051a6807cffd1f46e0bde1fbe9ff653a668a810a496e4a2fc5172375b1d6f42"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt0ACgkQxnV5mk56UjEwvwCeLjv9jEYzHFdYwv56cqPT74vn0hgAn38pf167
-XA7w0sYmDw7Mj5EGDE7o
+iEYEABECAAYFAk+Yjc0ACgkQxnV5mk56UjFMuACePKP+8Z1+WqCSBas+7V/9wNgKd9UAn0FwZQ49
+AQFf3CkW+k/mA/iv3tW+
 
 -->

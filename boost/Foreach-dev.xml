@@ -3,13 +3,24 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Foreach-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostForeach</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>In C++, writing a loop that iterates over a sequence is tedious. We can either use iterators, which requires a considerable amount of boiler-plate, or we can use the std::for_each() algorithm and move our loop body into a predicate, which requires no less boiler-plate and forces us to move our logic far from where it will be used. In contrast, some other languages, like Perl, provide a dedicated &quot;foreach&quot; construct that automates this process. BOOST_FOREACH is just such a construct for C++. It iterates over sequences for us, freeing us from having to deal directly with iterators or write predicates.</summary>
-  <homepage>libs/foreach/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/foreach/</homepage>
   <dc:author>Eric Niebler</dc:author>
+  <description>In C++, writing a loop that iterates over a
+    sequence is tedious. We can either use iterators, which
+    requires a considerable amount of boiler-plate, or we can use
+    the std::for_each() algorithm and move our loop body into a
+    predicate, which requires no less boiler-plate and forces us to
+    move our logic far from where it will be used. In contrast,
+    some other languages, like Perl, provide a dedicated &quot;foreach&quot;
+    construct that automates this process. BOOST_FOREACH is just
+    such a construct for C++. It iterates over sequences for us,
+    freeing us from having to deal directly with iterators or write
+    predicates.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ed1d518a-d2ab-41fd-903b-20be443f7dc7" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="f6662d21-2521-4750-aeda-d5d4640b979e" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
       <manifest-digest sha256="d6fdaea3f618e9d1d4572f7bcf69842a3d89c67e4063ab4dab8ee1d03a236622"/>
     </implementation>
@@ -53,7 +64,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuEACgkQxnV5mk56UjFMegCfYznHXsWJNePPtCj80Ik3aKjr6RgAn3AoZ3hi
-1cDW6akUxSJt8A8byrfS
+iEYEABECAAYFAk+YjdEACgkQxnV5mk56UjFo0wCeL4p766sbSJHx9L2Cn/07sKH9gnkAn2T9/zzK
+7Xkh8guEz53Bjs90wLGb
 
 -->

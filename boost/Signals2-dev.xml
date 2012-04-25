@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Signals2-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostSignals2</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Managed signals &amp; slots callback implementation (thread-safe version 2).</summary>
-  <homepage>libs/signals2/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/signals2/</homepage>
   <dc:author>Frank Mori Hess</dc:author>
+  <description>Managed signals &amp; slots callback
+    implementation (thread-safe version 2).</description>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="33592833-090a-4876-9c48-29f90751bea6" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="2281e646-605c-4549-b943-754e4a790237" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha256="3495646fcbad99650be3b9fd822e5004e096d529ece4c932f52b0427b3198e6f"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxgACgkQxnV5mk56UjE50QCgnDg+pQExyxfrbnNcvpVi/+1as74AoIBDqZwB
-gYGnc99Xc5HuS66bCaR4
+iEYEABECAAYFAk+YjhoACgkQxnV5mk56UjEgugCfeeVmXZ4Xt8afZks0Pp+TeKmWr24AnAzod+3P
+PJNEqVGjzqtkPIJUQHiR
 
 -->

@@ -3,14 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Phoenix-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostPhoenix</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Define small unnamed function objects at the actual call site, and more.</summary>
-  <homepage>libs/phoenix/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/phoenix/</homepage>
   <dc:author>Joel de Guzman</dc:author>
   <dc:author>Dan Marsden</dc:author>
   <dc:author>Thomas Heller</dc:author>
+  <description>Define small unnamed function objects at the actual
+    call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="96fd1692-6118-4e83-93e5-9e83b89bd295" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="57004fa1-3bb8-4dfe-ab85-f1da7531d665" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-phoenix-01f9ff9" href="http://nodeload.github.com/boost-lib/phoenix/zipball/01f9ff971aa23c709c52cbf70f810e9c5b48c685" size="893837" type="application/zip"/>
       <manifest-digest sha256="522d078ecd4b51cfeb32c1ce792bd3b53ade5b0c849d0c735dbc1bec00921b14"/>
     </implementation>
@@ -55,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZwEACgkQxnV5mk56UjEecACfbpTjxIA9pCLqR7isbK9phxYTBNwAoKTudTPS
-b2oJXEsMxyKT2R+zD8Ib
+iEYEABECAAYFAk+Yjf0ACgkQxnV5mk56UjH2gQCglZ4OAovIEUDuIxglElH1TCuGZVEAoJsDDy/o
+AkP+x0Q68VDvY/3uHjVq
 
 -->

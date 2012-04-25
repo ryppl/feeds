@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/GIL-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostGIL</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Generic Image Library</summary>
-  <homepage>libs/gil/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/gil/</homepage>
   <dc:author>Hailin Jin</dc:author>
   <dc:author>Lubomir Bourdev</dc:author>
+  <description>Generic Image Library</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eb7c3c41-2b1d-48a4-b852-8602402bec48" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="61b272ee-96f4-465b-af18-f778a9d603b0" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
       <manifest-digest sha256="cdc7edf226e3bb261387cc292e642d6880edb9e471d14dfa53a3e342029079bb"/>
     </implementation>
@@ -57,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZugACgkQxnV5mk56UjGPaQCgjIGJAvYrnu8m8qtFou5+a2Zz5N8AmwQbPFSI
-xSW5ekM4euxaGgvu7iAZ
+iEYEABECAAYFAk+YjdwACgkQxnV5mk56UjFlIwCgkIOlr2VQP83zg6rzdxKxC2nk0D8AniDQa6IG
+StNFv5pQYlHAqbgRjUgD
 
 -->

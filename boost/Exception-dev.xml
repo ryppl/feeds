@@ -3,12 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Exception-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostException</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost Exception library supports transporting of arbitrary data in exception objects, and transporting of exceptions between threads.</summary>
-  <homepage>libs/exception/doc/boost-exception.html</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/exception/doc/boost-exception.html</homepage>
   <dc:author>Emil Dotchevski</dc:author>
+  <description>The Boost Exception library supports transporting
+    of arbitrary data in exception objects, and transporting of
+    exceptions between threads.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8b84cb1d-7c7d-4acb-a9cd-0af257492549" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="a6d323ab-ae6b-4ed0-a941-b9d7f561a173" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-exception-d888b41" href="http://nodeload.github.com/boost-lib/exception/zipball/d888b415e7bf79708b3e6fd9ab0aaa491d7dad1b" size="230954" type="application/zip"/>
       <manifest-digest sha256="313c62777b5decd17f7300c31f67c5d18b0fd8031571999c774e363f6b3c8af5"/>
     </implementation>
@@ -52,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuAACgkQxnV5mk56UjFtLACfTf6fuj2SLCA00Abm0eSO51+v55EAoJd0pt+G
-ZOvDroCQaxVjwDNOBxQH
+iEYEABECAAYFAk+YjdEACgkQxnV5mk56UjH5vACfdy/AdjE8gljxdD2pbZ06KMbBNWUAoKa406XB
+hicWidJGrbIApPmoYgHv
 
 -->

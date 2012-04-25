@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Move-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostMove</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Portable move semantics for C++03 and C++11 compilers.</summary>
-  <homepage>libs/move/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/move/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
+  <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fad690a6-0458-4754-969d-eb389399ae4f" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="2133b01b-41eb-47d6-8acc-5b0f0e909538" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-move-c27a542" href="http://nodeload.github.com/boost-lib/move/zipball/c27a542db70084de093b412150018de585164608" size="86185" type="application/zip"/>
       <manifest-digest sha256="84c9d0f00ca33a888921fe6fe9c6537a53f67edb0364c467900d1be6adce28f5"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvQACgkQxnV5mk56UjH9/wCgj940QSGC6r6tGbekT9K0P+skEGAAoIMWKxYM
-rReDWBEHP8sIuXf2yItx
+iEYEABECAAYFAk+YjeoACgkQxnV5mk56UjEmlwCglzFhm0UPtMxrfv2K3zI0HxmAQD4AnRBLZl19
+RGh5LI9Wk7+Kc2uzUSHp
 
 -->

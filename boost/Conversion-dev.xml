@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Conversion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostConversion</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Polymorphic and lexical casts.</summary>
-  <homepage>libs/conversion/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/conversion/</homepage>
   <dc:author>Dave Abrahams</dc:author>
   <dc:author>Kevlin Henney</dc:author>
+  <description>Polymorphic and lexical casts.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="27280a23-8aa8-46ad-951f-6db6e3b91ff3" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="7b255b10-35e5-47b8-a828-ddcbdf642dee" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-conversion-1e57a45" href="http://nodeload.github.com/boost-lib/conversion/zipball/1e57a45bb2da44ea5d9be050ace0a739129547a4" size="71392" type="application/zip"/>
       <manifest-digest sha256="09d96fd2d550939a312bf1516577cc8ee26d3a4019e9699de1d302dd9410db51"/>
     </implementation>
@@ -54,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZt4ACgkQxnV5mk56UjHRwgCfV6cf8inAipbd4XYq/syK/G0OKk4AnjDMBlsP
-CEDuwBqgHjlrDX7HzTV2
+iEYEABECAAYFAk+Yjc4ACgkQxnV5mk56UjG04QCdGh3B+MR9yzPXA7nXB+MPiFvQTQgAniZT6V3A
+9gjwGHHGT6WYH+E9SKgq
 
 -->

@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/MSM-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostMSM</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A very high-performance library for expressive UML2 finite state machines.</summary>
-  <homepage>libs/msm/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/msm/</homepage>
   <dc:author>Christophe Henry</dc:author>
+  <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3c46d3ba-377a-4a94-b362-292d3c36d0c4" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="2581fe31-fe0d-40fb-b111-4fa9ae37e7a6" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
       <manifest-digest sha256="27eece8fcee3d6aad0bcedd4cdf32dd60150864df25efec038fb811f3e698a3e"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvoACgkQxnV5mk56UjHVIQCggr0fcZjvBjKB1+wVD6HYhoEYYHIAoJ3DtUQi
-OqCyte/qi4MaNLHsuGWo
+iEYEABECAAYFAk+YjfUACgkQxnV5mk56UjFFpgCgkNmedqgVAkhTFjt/rhSCjeuneVEAn1eAoWys
+eJEqkktM9ZrU7Hs3teyt
 
 -->

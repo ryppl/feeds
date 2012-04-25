@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Lambda-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostLambda</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Define small unnamed function objects at the actual call site, and more.</summary>
-  <homepage>libs/lambda/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/lambda/</homepage>
   <dc:author>Gary Powell</dc:author>
   <dc:author>Jaakko Järvi</dc:author>
+  <description>Define small unnamed function objects at the
+    actual call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a789d8ff-f5e4-4286-8100-2759a035c288" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="26746df2-10a0-447e-818b-211f5f49dcd4" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-lambda-9140145" href="http://nodeload.github.com/boost-lib/lambda/zipball/914014514c7cdee429f9c095174533abc69b4934" size="166956" type="application/zip"/>
       <manifest-digest sha256="b40c0cc392beb10c7f1937e2d2a03cc06d9f601e4bff69c05d819730a4771b99"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvIACgkQxnV5mk56UjGzegCgksPbdSh8c95hyLVNTBRf9PNz1d8AniI3kETm
-6OIVEYj/ptvhasBwrdCC
+iEYEABECAAYFAk+YjegACgkQxnV5mk56UjGDnwCaAuLtBeEwsu7eD2VwChXuYbvhqmQAmwTNLJg9
+eZN6JOpPFWmfGirfD9n4
 
 -->

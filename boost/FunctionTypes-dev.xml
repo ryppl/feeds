@@ -3,13 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/FunctionTypes-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostFunctionTypes</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.FunctionTypes provides functionality to classify, decompose and synthesize function, function pointer, function reference and pointer to member types.</summary>
-  <homepage>libs/function_types/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/function_types/</homepage>
   <dc:author>Tobias Schwinger</dc:author>
+  <description>Boost.FunctionTypes provides functionality to classify,
+    decompose and synthesize function, function pointer, function reference and
+    pointer to member types.</description>
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0690e4c1-c978-475d-83bc-dcfd72f2a621" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="0fc97460-e8c2-45a0-80d6-98f984aba69b" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
       <manifest-digest sha256="993b74c27eec6e662fb1ef200f69ed4fbc64b1020c145e8fd7907b29ec98244c"/>
     </implementation>
@@ -53,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuMACgkQxnV5mk56UjGMmwCdEkVPqE+szSzioeqmpRNda1nhJ0cAnA3R4YX+
-9Z4J8wNXU7SAOF/PQR4C
+iEYEABECAAYFAk+YjdMACgkQxnV5mk56UjFCXQCdEcXaN53p7ZCOj3hCeDZfpDlAr5YAoKH+TX89
+Y7bH8uZFWcQUJxht6P0l
 
 -->

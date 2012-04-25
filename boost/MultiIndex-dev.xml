@@ -3,13 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/MultiIndex-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostMultiIndex</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>The Boost Multi-index Containers Library provides a class template named multi_index_container which enables the construction of containers maintaining one or more indices with different sorting and access semantics.</summary>
-  <homepage>libs/multi_index/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/multi_index/</homepage>
   <dc:author>Joaquín M López Muñoz</dc:author>
+  <description>The Boost Multi-index Containers Library provides
+    a class template named multi_index_container which enables the
+    construction of containers maintaining one or more indices with
+    different sorting and access semantics.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="61077d66-9b87-4543-9fcc-39a9da81571c" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="24963fd6-33eb-41b4-abcf-435df41335f9" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-multi_index-eb9469c" href="http://nodeload.github.com/boost-lib/multi_index/zipball/eb9469ca835827db398d5d344314e2b2481b23ab" size="506902" type="application/zip"/>
       <manifest-digest sha256="61a9d346e996de192aefbc26c39036424ab02eddcdb949ef6f90af03ed273038"/>
     </implementation>
@@ -53,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZvkACgkQxnV5mk56UjGZSwCfZqAXVR4yZ4oDt0ZkoI7ngfmAKaQAoKU/7aLK
-+Em6f5ltDuTQiAeZmwCB
+iEYEABECAAYFAk+YjfUACgkQxnV5mk56UjEM9QCfdcW15Pz7HWX0xaujH8a2/UeGlxsAnRVW/6mQ
+uXnDYva6rgGyJlbx7yUt
 
 -->

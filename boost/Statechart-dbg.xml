@@ -3,12 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Statechart-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostStatechart</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Boost.Statechart - Arbitrarily complex finite state machines can be implemented in easily readable and maintainable C++ code.</summary>
-  <homepage>libs/statechart/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/statechart/</homepage>
   <dc:author>Andreas Huber Dönni</dc:author>
+  <description>Boost.Statechart - Arbitrarily complex finite
+    state machines can be implemented in easily readable and
+    maintainable C++ code.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="96dc827d-2107-439f-8ef1-34be5560880e" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="4181a2cd-0a47-44e6-9142-e340d29fa5d5" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-statechart-0e57052" href="http://nodeload.github.com/boost-lib/statechart/zipball/0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f" size="1136040" type="application/zip"/>
       <manifest-digest sha256="4fbfdbe99e8130db0c148f895e2589101375242a37eb7c0bcc706981d8f4ed78"/>
     </implementation>
@@ -53,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZx0ACgkQxnV5mk56UjGP7gCgqXXRXQ9imUbkAsRjqyUHvKVhrH0An0H5h3fU
-hZ2uOxXo1Vs/BEv3/snU
+iEYEABECAAYFAk+YjiEACgkQxnV5mk56UjHG/QCffovWnrLsZmGlZpFUVbRX3sz64mYAn04PJdc8
+wXNTmJVqBf5cEGkF2a+Q
 
 -->

@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Unordered-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostUnordered</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Unordered associative containers.</summary>
-  <homepage>libs/unordered/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/unordered/</homepage>
   <dc:author>Daniel James</dc:author>
+  <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="117af1c5-a258-4a54-ade4-a81eaaf5c8ec" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="937b3b97-a2f0-409a-a44e-a51e557dd6d8" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
       <archive extract="boost-lib-unordered-e9d55d7" href="http://nodeload.github.com/boost-lib/unordered/zipball/e9d55d7ded491933006c651f015d140893098004" size="192045" type="application/zip"/>
       <manifest-digest sha256="179c83b217c616c8b05801725fad75d957969a2092672a25f84d781c6b9a962f"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZycACgkQxnV5mk56UjETZACgqHqVhNZjexIREq0aLkPuof+EFPYAnR9DVUCs
-5gxAadH6GlWQ1/rytMpT
+iEYEABECAAYFAk+YjisACgkQxnV5mk56UjHNUQCePGXJfMhHoXWBtEBC3hlvgzBFppIAn2S9T6JD
+Rwi2TsvB3MHgbxyaJKNY
 
 -->

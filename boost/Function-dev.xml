@@ -3,13 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Function-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostFunction</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Function object wrappers for deferred calls or callbacks.</summary>
-  <homepage>libs/function/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/function/</homepage>
   <dc:author>Doug Gregor</dc:author>
+  <description>Function object wrappers for deferred calls or
+    callbacks.</description>
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="85ce4f9d-ef17-42e1-aed0-0418a4f3228d" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
+    <implementation arch="*-src" id="2785b02e-9f80-483d-96d3-886703e0841c" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
       <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
       <manifest-digest sha256="f5cd7a005e52e40094a4997f1f884f2ec2e2c77ead010e7060305b9c7755a70c"/>
     </implementation>
@@ -53,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZuIACgkQxnV5mk56UjGZQgCfSwrxauli/49SVwprmauBxG3ERbkAniRy2Qdx
-1ndmLcC1VfGFjueu9BtA
+iEYEABECAAYFAk+YjdIACgkQxnV5mk56UjF8pACfYNbyjwPOheDPBw7YaJvzAt4kAZEAoIlvN9pz
+YCZrBhCUxBPaLHVoGzrL
 
 -->

@@ -3,12 +3,13 @@
 <interface uri="http://ryppl.github.com/feeds/boost/Ratio-dbg.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostRatio</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>Compile time rational arithmetic.</summary>
-  <homepage>libs/ratio/</homepage>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/ratio/</homepage>
   <dc:author>Vicente J. Botet Escribá</dc:author>
+  <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ec39bd0a-dd45-48ef-be3c-b9eed3425bf3" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
+    <implementation arch="*-src" id="aa7a24b4-a95e-464e-97dc-bd36981e3b58" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
       <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
       <manifest-digest sha256="79d392afc043358c368ac929525622ebd1a37249ecff815ee397fb9c99c1fb03"/>
     </implementation>
@@ -53,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZxUACgkQxnV5mk56UjF4WgCfYWixbSq7bNnW/y0JBSg0r2H81YsAn3YuC8Qt
-KJViPx2aq6xag+WbSzi4
+iEYEABECAAYFAk+YjhYACgkQxnV5mk56UjFihACfeWnqi23NbELFM0lGWCe6qBTFv4MAn0f9Wr3K
+EUVHwHrkylOoAbz96LLm
 
 -->
