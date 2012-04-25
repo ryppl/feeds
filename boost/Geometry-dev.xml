@@ -11,21 +11,19 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fc78a364-ddba-4851-8fa5-66fef7cbcb85" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="d1e7c580-6389-47d5-a78c-c590a05ad8eb" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-geometry-b525b54" href="http://nodeload.github.com/boost-lib/geometry/zipball/b525b54702501135602da646ad1634126c254c1a" size="5240094" type="application/zip"/>
       <manifest-digest sha256="e9164446834f448790f2bc63835a09378335cc2580119c5dfc7cc72eb65e5c2d"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/geometry</arg>
@@ -57,7 +55,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY+IACgkQxnV5mk56UjFS1wCfSMrlKvwsfyhgT4Maf8iRvTCNNqcAn3UWp3Yw
-L6gIbiGhBJOZKGp0+H9g
+iEYEABECAAYFAk+YZu8ACgkQxnV5mk56UjHxpACgjGtEZjuQosW3oUyi0Vi18lejl9EAn3cM8LvB
+ZYWPEL5hYKPEwWo1tLse
 
 -->

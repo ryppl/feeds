@@ -43,14 +43,13 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cdc1880a-0628-4a98-816d-4093ae70a154" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="71baa421-efd4-4eff-94a3-27f7cbe56397" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
       <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
@@ -82,7 +81,6 @@ A wide selection of univariate statistical distributions and
         <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/math</arg>
@@ -190,7 +188,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZBAACgkQxnV5mk56UjEdGwCcCrxhTAd6kgOSyKdR5LsKrgVZiQMAn1K/pVvn
-EfEYPFhfqPr2KfMZV2ZZ
+iEYEABECAAYFAk+YZxEACgkQxnV5mk56UjE6SgCggqrGntG4UoetYgadZ7kKFV3/S5UAn1rmgMLS
+ETRwZQV6TqaZMC6fXkSa
 
 -->

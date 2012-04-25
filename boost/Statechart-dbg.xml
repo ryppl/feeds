@@ -8,21 +8,19 @@
   <dc:author>Andreas Huber Dönni</dc:author>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f8cffd23-6203-44e2-995a-5f8e9ad18eb8" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="96dc827d-2107-439f-8ef1-34be5560880e" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-statechart-0e57052" href="http://nodeload.github.com/boost-lib/statechart/zipball/0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f" size="1136040" type="application/zip"/>
       <manifest-digest sha256="4fbfdbe99e8130db0c148f895e2589101375242a37eb7c0bcc706981d8f4ed78"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/statechart</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZCYACgkQxnV5mk56UjHokACdHgBlZRZtH1Xem5B1nudBPb/PJrEAn2PWamLh
-qNPQEb/NGqmoI/NstIbr
+iEYEABECAAYFAk+YZx0ACgkQxnV5mk56UjGP7gCgqXXRXQ9imUbkAsRjqyUHvKVhrH0An0H5h3fU
+hZ2uOxXo1Vs/BEv3/snU
 
 -->

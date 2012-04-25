@@ -8,14 +8,13 @@
   <dc:author>Dave Abrahams</dc:author>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="414db96d-4db1-4c4a-a3f2-9c1b583e1dc1" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="3b4ac47e-e409-46d3-8368-b519d6e3f96c" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
@@ -40,7 +39,6 @@
         <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/python</arg>
@@ -126,7 +124,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZBgACgkQxnV5mk56UjEKjgCgl3tGHxc8d4HE1LrV4dXMjWSVH2cAni91vrBM
-gT5K/85tn5gAkfPNlZcZ
+iEYEABECAAYFAk+YZxQACgkQxnV5mk56UjFFowCgi95vKaoYoPppo0+kfayn+NleqgwAoJ/Hvu8t
+gHWO0giGNuSfMHLmVAud
 
 -->

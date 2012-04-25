@@ -8,21 +8,19 @@
   <dc:author>Daryle Walker</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e27c124b-03b3-46c3-8e94-5f325ab29bc5" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="f5d55942-88ba-4a4f-aa9e-9dca342936f4" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
       <manifest-digest sha256="fcdc7e2b02dda6c25e3f21505507e245a8c67006170b0987c18ea3215dde15a2"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/io</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY+AACgkQxnV5mk56UjFpJQCfUtBBi+PGWtlopC48MhxcZdj02MMAnRebD7wB
-aCMVD9gHR2YTEwOHJli4
+iEYEABECAAYFAk+YZvAACgkQxnV5mk56UjFgrQCeLsfDyClCnanQVOLs4MstSMZqlNEAn0gJ7/0W
+iq2Z4h7Z6uF77sHI3XO8
 
 -->

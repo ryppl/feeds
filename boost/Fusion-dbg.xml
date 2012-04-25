@@ -11,21 +11,19 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="477c8067-cace-4666-8c81-bcb5ef42d890" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="a57e2dda-77ab-41ea-b10e-0d9da6a4a83e" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-fusion-4392acf" href="http://nodeload.github.com/boost-lib/fusion/zipball/4392acfbfbcb26cf34f0ef1870e0b2f3367dc9df" size="1209617" type="application/zip"/>
       <manifest-digest sha256="0e02dc9aa6f9abce4cb40b3e04e06b31d6687f47a5372e545e17d18cdf8655f5"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/fusion</arg>
@@ -58,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY9AACgkQxnV5mk56UjFMiACdHbk/E7v8qUuQtcj1X7e6A1iqng8An0r0sYoq
-igV0QaXffskQb0nsmUg4
+iEYEABECAAYFAk+YZuUACgkQxnV5mk56UjFv+gCfYQ8RgjznYPZGmQWxkm7KQpjdQgAAoImb+EbA
+xm2rOuoCw3tJQB68ZbuE
 
 -->

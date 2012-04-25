@@ -11,21 +11,19 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3afa7c78-227a-4b99-b9f1-ca1bf48f69a6" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="a4bc7604-5219-4cfc-9c5c-8cdf4f911e3f" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
       <manifest-digest sha256="6ed0b2bb7e7138353520243cb838ff422a7e5ef18510479ccd798bdd33e52f31"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/parameter</arg>
@@ -58,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY/cACgkQxnV5mk56UjGabQCgkPk/G2fGrW+x9G9FRIZUD6bvcXYAoIAkADNb
-q+RagNnJlqnN6uMoO5ee
+iEYEABECAAYFAk+YZv0ACgkQxnV5mk56UjHi2QCfewT5gseQ6bkW8mQ198Ee9BP9gyQAoJ7bzgzo
+H12JSt8OKEdvl0KRoY7Y
 
 -->

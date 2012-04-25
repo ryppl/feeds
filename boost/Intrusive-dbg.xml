@@ -8,21 +8,19 @@
   <dc:author>Ion Gaztañaga</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="badb5b95-1149-4d68-832e-a13988b6e19b" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="cc60f988-7fb7-4a83-82d4-51e427918856" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-intrusive-3854bb1" href="http://nodeload.github.com/boost-lib/intrusive/zipball/3854bb1a8d9d655b330137bc1fb2a8606f8de434" size="508493" type="application/zip"/>
       <manifest-digest sha256="e31b9c9753c9b11c4c55f68155e5b6c4471f7bcdbb72922c5ac066fab0357b47"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/intrusive</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY+EACgkQxnV5mk56UjGDSgCgisQWSx+Z/+fSbvTtR2eAXv+RsOsAoKTg0GJ3
-9TIt8knJs+a9QTZHTb1o
+iEYEABECAAYFAk+YZvEACgkQxnV5mk56UjEl9gCggWs88SULgPPkAXMAdXp/D3NlHDkAoIz9Li1w
+yFUTHPnZweFha6sBRYYb
 
 -->

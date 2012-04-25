@@ -8,21 +8,19 @@
   <dc:author>Lucanus Simonson</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6d4aaf4e-53f7-4fe9-8e1a-2e2e8139d4b0" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="26165197-2a6f-40a9-803a-1551f8e46d8a" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
       <manifest-digest sha256="bd6a1c14fa43df34a8aa8b012076eb39625ed579cb5508320dfaba574389ba85"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/polygon</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZAQACgkQxnV5mk56UjFKBACcDgpwnUrvEBSzvGBUs+209RpkjFgAniu4xaat
-5YtT/gjAtpHanKj0c6Cv
+iEYEABECAAYFAk+YZwYACgkQxnV5mk56UjHxMgCfYjhQK9e0hIRyL8TGHqNEPuWjENAAmwdLpVFu
+zKaGtM+82nDOuRGxfzFe
 
 -->

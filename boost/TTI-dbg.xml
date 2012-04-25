@@ -6,21 +6,19 @@
   <summary>***WRITE ME (one line)***</summary>
   <homepage>http://www.boost.org</homepage>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a88ca3d1-cad6-454b-90af-039caa06705a" released="2012-04-25" stability="testing" version="1.49-post-201204252053">
+    <implementation arch="*-src" id="30c32096-3658-4eb5-b393-135ae926a9ea" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
       <manifest-digest sha256="694152f73cc4992796873f78b6da761ad1df67c61b75cefa2f751a67d0c43604"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/tti</arg>
@@ -53,7 +51,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZDEACgkQxnV5mk56UjFFlgCfVR0FkzXnqRdidBVo/ZzwiawwTFkAnibXP6Qn
-ddByERORINBEio+YWvKw
+iEYEABECAAYFAk+YZyUACgkQxnV5mk56UjEi4QCgmGGShdc7988C6RJSc1GDBFTowyUAnA28nQrx
+rW25Txf0Ugq/58ywZqFB
 
 -->

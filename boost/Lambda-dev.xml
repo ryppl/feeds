@@ -9,21 +9,19 @@
   <dc:author>Jaakko Järvi</dc:author>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c59b40bc-bbed-4de1-ac02-4f8db2808789" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="a789d8ff-f5e4-4286-8100-2759a035c288" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-lambda-9140145" href="http://nodeload.github.com/boost-lib/lambda/zipball/914014514c7cdee429f9c095174533abc69b4934" size="166956" type="application/zip"/>
       <manifest-digest sha256="b40c0cc392beb10c7f1937e2d2a03cc06d9f601e4bff69c05d819730a4771b99"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/lambda</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY+QACgkQxnV5mk56UjGy0gCggdk3uX5/IvX5U47Y3JA2PKZUFwMAn0BB0O39
-JHrRFETQj4rj1/FBLPjL
+iEYEABECAAYFAk+YZvIACgkQxnV5mk56UjGzegCgksPbdSh8c95hyLVNTBRf9PNz1d8AniI3kETm
+6OIVEYj/ptvhasBwrdCC
 
 -->

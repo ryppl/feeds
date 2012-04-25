@@ -9,21 +9,19 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1487b2bc-ad89-4aaf-934d-4b98a532254a" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="de99abed-526e-4f43-b0dc-e316c204a194" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
       <manifest-digest sha256="d6fdaea3f618e9d1d4572f7bcf69842a3d89c67e4063ab4dab8ee1d03a236622"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/foreach</arg>
@@ -56,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY8sACgkQxnV5mk56UjFsfACffI0KsovPCMpr4eCR2f9Qs5j256YAnR5LOC1j
-ccebFzoP1RZrCQXu/rBb
+iEYEABECAAYFAk+YZuEACgkQxnV5mk56UjFHFgCbBQqdahFK4mbeLlH6ny8FdakvqGMAnRGGyzy6
+qtPeFReo4+adleRrtqi1
 
 -->

@@ -8,21 +8,19 @@
   <dc:author>Jaakko Järvi</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="15e837e7-b3c3-45ed-95c8-909315f9d81f" released="2012-04-25" stability="testing" version="1.49-post-201204252053">
+    <implementation arch="*-src" id="c5de09e5-4ba7-4ade-911f-5f170e342480" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
       <manifest-digest sha256="f99344eafae248ab7ea029912aa7a1c3a528f37d7afdca464d7294232d7f9ce3"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/tuple</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZDAACgkQxnV5mk56UjGmkQCeLhJsm7dGvNzMa1bkCB6ZQLAWrU8An15p1YjC
-t87vNTb6UfoTdDxZyjb9
+iEYEABECAAYFAk+YZyMACgkQxnV5mk56UjHR8QCfQu+Gngl2Ihg9ApcBgmrudxD9HtkAoIwibBWf
+k6Mon5mmXEytLUxluf0o
 
 -->

@@ -10,21 +10,19 @@
   <dc:author>Thomas Heller</dc:author>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="faa208b9-fefd-459b-b5d8-3ec952b7f0f3" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="91456d41-dde8-4143-b855-cd535d57fdbf" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-phoenix-01f9ff9" href="http://nodeload.github.com/boost-lib/phoenix/zipball/01f9ff971aa23c709c52cbf70f810e9c5b48c685" size="893837" type="application/zip"/>
       <manifest-digest sha256="522d078ecd4b51cfeb32c1ce792bd3b53ade5b0c849d0c735dbc1bec00921b14"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/phoenix</arg>
@@ -56,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY/wACgkQxnV5mk56UjHrBwCcC43QPEikmmOBTnQDCSGopJ8JLbEAn0/LG9q5
-jaFvuuwFkHzzY+1RBPj0
+iEYEABECAAYFAk+YZwAACgkQxnV5mk56UjGDZACgkM8SO08SLQsxy1Zznv1E/9JvXEkAnj9MoLpv
+xn93r0qB23s6XQQlPtYE
 
 -->

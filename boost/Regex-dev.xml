@@ -8,14 +8,13 @@
   <dc:author>John Maddock</dc:author>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a2f1cb40-ad8b-4446-96e0-4aa2173d82e6" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="9dbb2c2c-54a7-4ccf-aa1d-dadf952ebe54" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
       <manifest-digest sha256="014aa0683685c92e4aceadeda68d91eb8756298cd6f6fb50bca781c697b1db28"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
@@ -37,7 +36,6 @@
         <arg>-DBoostXpressive_DIR=BoostXpressive_DIR</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/regex</arg>
@@ -114,7 +112,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZCAACgkQxnV5mk56UjF6/QCfZdZ92kmeln8CDpkkb6Q1Kqi0iGwAoIJmVRB2
-DYDoL2SOGK8zwm4V0U9J
+iEYEABECAAYFAk+YZxcACgkQxnV5mk56UjED4ACeMfFYJBD1vuWhUXkwwXUOP+nPX7gAoI2G0x4l
+cqQPNhC4zGLadPSmQMLb
 
 -->

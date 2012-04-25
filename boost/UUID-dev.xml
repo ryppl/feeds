@@ -9,21 +9,19 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c96ca465-f8db-4a6c-80bf-f12e437f18ac" released="2012-04-25" stability="testing" version="1.49-post-201204252053">
+    <implementation arch="*-src" id="3d58e3ca-e17c-4cbd-92b7-14b735839992" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-uuid-7235414" href="http://nodeload.github.com/boost-lib/uuid/zipball/7235414cbe99a431f0183a927b3285170a33a60e" size="48926" type="application/zip"/>
       <manifest-digest sha256="926ecb88a798286b137f4c056959a021789e8e29edadff577065854493f80370"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/uuid</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZDUACgkQxnV5mk56UjEhCACffjAEVH/ZQxPRYeuec8GuHOO9OEYAn0gbs6NH
-saioF+APrU6ycGb39unP
+iEYEABECAAYFAk+YZygACgkQxnV5mk56UjEydACgl9BQNlnO3wAWEmtuJn8nP/qJuLIAnjW/XpMT
+Dsprs1qOx0XqPFHVJnj+
 
 -->

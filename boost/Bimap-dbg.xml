@@ -9,21 +9,19 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b1a80055-b4b3-4b65-90fd-6d0f3d0bc500" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="b735f901-312b-4c00-9d7c-19fba55ffae1" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-bimap-1de580e" href="http://nodeload.github.com/boost-lib/bimap/zipball/1de580e0e9442bbd0a3fbe3cf4686ea108a24931" size="1312406" type="application/zip"/>
       <manifest-digest sha256="d42930ca09bf2864e33859bbff4fd8562dc6a079a04bf2cae2bbb45bdb05efdd"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/bimap</arg>
@@ -56,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY8UACgkQxnV5mk56UjEQwgCaAxYQzSfpNv92ZFcUGJYCD7jTcKIAn2RKxRbl
-GUdUuZzPSOG3wHVgqtDJ
+iEYEABECAAYFAk+YZtwACgkQxnV5mk56UjHwLQCdFfJ9ECkc1aOtntIQsZ5cXvoUSQIAoJujoA9u
+F+tXOXBrxBNzUZ7fQONt
 
 -->

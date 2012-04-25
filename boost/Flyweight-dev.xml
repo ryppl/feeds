@@ -8,21 +8,19 @@
   <dc:author>Joaquín M López Muñoz</dc:author>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fd48a7b7-0b0d-4ec8-a407-a2507e81c516" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="1d097f9d-9d68-4fc7-bd8b-75c49bf4b8b6" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
       <manifest-digest sha256="52ef9758318fd1d037949a42af215840c31724ae14a09a1af95e8d546893d4cd"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/flyweight</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY8sACgkQxnV5mk56UjF67wCeMLTYB6o9TN33A8nkRDNSEfm8pq4AnjgAo/xF
-hculIw+gv1/QO56gv4nM
+iEYEABECAAYFAk+YZuIACgkQxnV5mk56UjF46wCggpl2/oLUEgmHWW5ABx1c8W5UQMAAoIMEOwNO
+n6M4BlBne9suGOa28m4X
 
 -->

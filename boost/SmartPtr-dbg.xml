@@ -11,21 +11,19 @@
   <dc:author>Darin Adler</dc:author>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fda3c1de-c0c0-44c3-bbad-01c672d0da13" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="69d60549-d6ef-4f60-9cad-db36e361d59d" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
       <manifest-digest sha256="8310b73d4f6dcb0dc1cb75ea2f2639974d3160ba6de74db2eaee800ac6ee3b66"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/smart_ptr</arg>
@@ -58,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZCMACgkQxnV5mk56UjHQFACggIciyRDDsDNEtHZLLPpzu+BGY2wAoKf0fbzS
-Y8Y/4LVXcsha603fvC2O
+iEYEABECAAYFAk+YZxoACgkQxnV5mk56UjEJ3ACaA7Hd32gtbLsMqhGSbK0evFgQz6UAn36PVsdl
++FURpAXZo8l4v9bzRLzW
 
 -->

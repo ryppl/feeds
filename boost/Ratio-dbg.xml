@@ -8,21 +8,19 @@
   <dc:author>Vicente J. Botet Escribá</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="62751daf-236e-4842-8e8c-c6a1728e36bc" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="ec39bd0a-dd45-48ef-be3c-b9eed3425bf3" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
       <manifest-digest sha256="79d392afc043358c368ac929525622ebd1a37249ecff815ee397fb9c99c1fb03"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/ratio</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZBoACgkQxnV5mk56UjEKnwCdHwnEjTjstklR7cGCDM+dySelibsAnRKEbsmA
-bnP0EQ34Dfc7gt1x1ejs
+iEYEABECAAYFAk+YZxUACgkQxnV5mk56UjF4WgCfYWixbSq7bNnW/y0JBSg0r2H81YsAn3YuC8Qt
+KJViPx2aq6xag+WbSzi4
 
 -->

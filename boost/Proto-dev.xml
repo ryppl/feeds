@@ -8,21 +8,19 @@
   <dc:author>Eric Niebler</dc:author>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="089b6036-9584-47d3-bb93-d0d0d7f37e1b" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="644570b2-06da-4cf3-8b32-d73237cb651e" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-proto-4926fee" href="http://nodeload.github.com/boost-lib/proto/zipball/4926fee1658bb507b8b8497048d53bf730bc67bb" size="446348" type="application/zip"/>
       <manifest-digest sha256="28f46e88e734cbde3f12d213f7095ae4ebc9d13f3421d2e425391a8f18b58ca8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/proto</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEQEABECAAYFAk+YZBAACgkQxnV5mk56UjG0ywCXfYKS83Y5YQoxBlcFuhljKwbO4ACVHIgbSSy1
-VxKkSxdMDhURI7Aj9w==
+iEYEABECAAYFAk+YZw8ACgkQxnV5mk56UjFHAACdETYtj9bOZIoLl9FiO1nLYiFU0VcAnAgOlPst
+85JTQWz2IfgC5+G+B3s0
 
 -->

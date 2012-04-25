@@ -8,21 +8,19 @@
   <dc:author>Tim Blechmann</dc:author>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="75fed9b3-a830-41ab-a726-0271735ac997" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="8ff0a0a3-32a6-4ba4-ab1a-d8dbe637ea09" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
       <manifest-digest sha256="5f009b980808b7cb893cd0acc50196dcf6684a4e682551ef9660770c6ebad02f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/heap</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY9IACgkQxnV5mk56UjGtRwCfdEX19tYdtyrKFL9QtLUmDWN03TsAni1bIjsj
-WqpEPC3jq9QTXDsB+BzO
+iEYEABECAAYFAk+YZucACgkQxnV5mk56UjHpggCfeyPM+/75dS+mB/ABYnTJQzjobOIAoJJ4e5xR
+aBc9dA1FidTm/qK37Q33
 
 -->

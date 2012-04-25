@@ -9,14 +9,13 @@
   <dc:author>Robert Ramey</dc:author>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="329ff67d-81b9-450c-ba18-697e1f0f60b1" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="f2da658d-6625-4fba-a903-f565836fe921" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
       <manifest-digest sha256="410efa369be7f01d65b698c60eab2b6b2e596cb7301ff8aa5f8a8a8fd79e99e1"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
@@ -43,7 +42,6 @@
         <arg>-DBoostVariant_DIR=BoostVariant_DIR</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/serialization</arg>
@@ -135,7 +133,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZCEACgkQxnV5mk56UjH7ewCgpoucILv9o+BcM3dcDqJzrbYaUjYAn21r5oSY
-uO86EixTy3hqlI8NDzrw
+iEYEABECAAYFAk+YZxgACgkQxnV5mk56UjE+uACfVzltVoxYai62YOXEZwfImJn5G4AAn3yb0Lb2
+jGTQky6hzrWETD0GRLLk
 
 -->

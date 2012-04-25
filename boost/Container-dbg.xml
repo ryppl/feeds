@@ -9,21 +9,19 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3d6d9c9a-ebfd-418e-a015-55f5671b9510" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="1ac4c7cc-88e7-4572-8786-d207a63631c3" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-container-a26a62b" href="http://nodeload.github.com/boost-lib/container/zipball/a26a62ba8c1d61e96930805dc1902ebc79ccd63d" size="290425" type="application/zip"/>
       <manifest-digest sha256="c77b393d83214fab559b8ecf03f0c2c1fa727b2e51073d10d22d9d5a235e2a45"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/container</arg>
@@ -56,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY8kACgkQxnV5mk56UjGBeACeIYq3DgMCySZJKJmEQyF951kLJxoAn2iHxfOT
-uB9riRbdYxCqr77X9aMM
+iEYEABECAAYFAk+YZt8ACgkQxnV5mk56UjFLGACbBkLvNswBjwEmIsF/w7xSZ4LOyqsAn0EBl7Vs
+5WQxggD/mUIAsqpuNKbX
 
 -->

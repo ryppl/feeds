@@ -9,21 +9,19 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fb74265b-b3cd-4370-8a57-e57c6c757826" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="1390b912-7ce4-418c-89cf-128f76cf80e1" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha256="3495646fcbad99650be3b9fd822e5004e096d529ece4c932f52b0427b3198e6f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/signals2</arg>
@@ -56,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+YZCEACgkQxnV5mk56UjFNagCghIsk2dNvzguKLzAX7rbArYQEYp4AmKNIZIN9
-atJE2AoDuo4Pxeb3JAc=
+iEYEABECAAYFAk+YZxkACgkQxnV5mk56UjEVfwCfWhDS0zLv4hlvzq0tOC+upzZVuMkAoJsbBraY
+f4OhDaSG1LGwc2n5oG1g
 
 -->

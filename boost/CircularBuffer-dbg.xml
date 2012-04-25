@@ -8,21 +8,19 @@
   <dc:author>Jan Gaspar</dc:author>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="04ce7f4d-5d4f-432d-a4da-25028b01e332" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="b72368dd-b05d-463b-ab4f-d2712038cf2f" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha256="f5f0bf90369f3cb8ec1cd7aa61f89c0759ae64082b849ce06c190fe66402a93c"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/circular_buffer</arg>
@@ -55,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY8YACgkQxnV5mk56UjG5wwCeIqcgAZMh1F/Ahp7tVnNYrSX0sVEAoKBa7ptL
-ScPrQCHyIytLyIHL2zPp
+iEYEABECAAYFAk+YZt0ACgkQxnV5mk56UjFYKgCfWpVxQGA/yCJXbMQeBrqS4hPvL5MAn0mx4u3p
+iNlJrBtnR5HGS0PZJcVr
 
 -->

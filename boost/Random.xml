@@ -8,14 +8,13 @@
   <dc:author>Jens Maurer</dc:author>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c6c0e094-3b0c-439d-964c-eb1dc9e29836" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="af73d5d1-3e81-4eb5-8ad5-56c0c02deafb" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha256="b7c6007c036cb9fbe94626ca0bfdd2aa7bf73c76209a76925562e03d7eb78cca"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
@@ -40,7 +39,6 @@
         <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/random</arg>
@@ -127,7 +125,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZBcACgkQxnV5mk56UjHnYwCgiFRNYXQLVWfAtEWCWxO81vpJn/sAn1AJNZma
-MSMExyxaU3TNqDAf9SXh
+iEYEABECAAYFAk+YZxMACgkQxnV5mk56UjEtdwCdFd7sDGd0CIIy5K2k6xnGEWE96vwAoKK1rgfp
+QEDe826eOZqHXSsPeEbC
 
 -->

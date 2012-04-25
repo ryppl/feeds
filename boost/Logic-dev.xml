@@ -8,21 +8,19 @@
   <dc:author>Doug Gregor</dc:author>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5b3c56c1-f755-4938-91d0-6679e6ea4dcd" released="2012-04-25" stability="testing" version="1.49-post-201204252051">
+    <implementation arch="*-src" id="d048f728-b3bf-4ab7-9984-2d638577e767" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
       <manifest-digest sha256="ef835d407665166f7d8906f53c3aa39aeecd448634830b1395816e0faab56a37"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/logic</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YY+QACgkQxnV5mk56UjFoYgCdEUoTBf3bncA6gOrmsQ8EqdG8Ar8AnRvZ2oBm
-X2N5wtyhu+2+pxoj/q2h
+iEYEABECAAYFAk+YZvMACgkQxnV5mk56UjHx0QCeNf/ds2L55exLvx8iB/Xbb1fsg6oAn1YBwFtz
+tnuFkvhUDfXatauNU8Gl
 
 -->

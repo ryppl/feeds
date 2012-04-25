@@ -8,21 +8,19 @@
   <dc:author>Steve Cleary</dc:author>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f0991b23-e8f8-4693-81f6-d5ea05eb215d" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="a8828501-23bf-4d87-8b29-f3120ff15661" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
       <manifest-digest sha256="dce4fe868ce0f03d3fc19d743247c37740f20c1d58d4b318a5a6e15626678039"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/pool</arg>
@@ -54,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZAEACgkQxnV5mk56UjFgNQCeNCJDVXh3UNxN81w+AJK0WeeEM/gAoIkUqfsy
-ZOsmYwVe23gYoeWfOhCX
+iEYEABECAAYFAk+YZwUACgkQxnV5mk56UjHAqwCgi97NHlcg81MN0hAbO+r2Ov+9HFkAn3e0K5DM
+KkxClR6tERaHJAZsiMwD
 
 -->

@@ -9,21 +9,19 @@
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="61f640f1-0ea5-4b10-91a7-acded03ba263" released="2012-04-25" stability="testing" version="1.49-post-201204252053">
+    <implementation arch="*-src" id="fb091b2b-8d54-4849-8978-5742f51287fa" released="2012-04-25" stability="testing" version="1.49-post-201204252105">
       <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
       <manifest-digest sha256="a73489699571ba2c7f4261a918d2e1e0fac0c7a8af6f0c2d5ec3138c003a5170"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/tokenizer</arg>
@@ -56,7 +54,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZC4ACgkQxnV5mk56UjGZCgCgl7mrr1FVi+cQZaicYRZNd8TTN24AnA4m9clc
-AqQS7P0QEYyC4enh2o8/
+iEYEABECAAYFAk+YZyIACgkQxnV5mk56UjEwmwCfXP5BOXomhK3jrz2/pKHEFrbLneAAoJPVGUkv
+labuuOuBqA1hb41OCwWe
 
 -->

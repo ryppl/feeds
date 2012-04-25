@@ -26,21 +26,19 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="65789fb4-7286-4f55-9b0a-569aa032fa6f" released="2012-04-25" stability="testing" version="1.49-post-201204252052">
+    <implementation arch="*-src" id="2fe509be-4989-4f19-8b0b-6cadb6c95d86" released="2012-04-25" stability="testing" version="1.49-post-201204252104">
       <archive extract="boost-lib-numeric-7098ba6" href="http://nodeload.github.com/boost-lib/numeric/zipball/7098ba6e03f76c16b980bdf58e9e3a9335abf8e7" size="49662654" type="application/zip"/>
       <manifest-digest sha256="37b4a9b6eed3ebf559a3f1ed17dc2dc4331738de5947f9c5d6e759f154d78f9a"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${BOOST_CMAKELISTS_DIR}/numeric</arg>
@@ -72,7 +70,7 @@ uBLAS provides matrix and vector classes as well
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YZE0ACgkQxnV5mk56UjFHkgCfb/7GVkMI7KFHl4VAWBXrn9T+c0wAoJGRdSb3
-ux2r4fcaNEtCTBw5YmmJ
+iEYEABECAAYFAk+YZ0MACgkQxnV5mk56UjG0ZQCfZ1d+gnjbZj9GksaHiawyWjOm+TgAn06Qfy+H
+NMs0D08ab/Pk8lD+Zeky
 
 -->
