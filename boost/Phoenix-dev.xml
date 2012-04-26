@@ -12,7 +12,7 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3c522fa8-1f9e-47cd-bcb8-71d5e5f7067a" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="d1ee7072-dca0-4af4-b49c-fd875711e1dc" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-phoenix-01f9ff9" href="http://nodeload.github.com/boost-lib/phoenix/zipball/01f9ff971aa23c709c52cbf70f810e9c5b48c685" size="893837" type="application/zip"/>
       <manifest-digest sha256="522d078ecd4b51cfeb32c1ce792bd3b53ade5b0c849d0c735dbc1bec00921b14"/>
     </implementation>
@@ -52,11 +52,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjfwACgkQxnV5mk56UjGiCgCfcXG/I62vd6yP0RYjtfZRqzBNUXkAoIZ455oN
-XSjHpCA2YWFJtgbVc2Lx
+iEYEABECAAYFAk+Y2AcACgkQxnV5mk56UjFvjgCglN+G3vPQaYUpon+GFcJrroBnjz8AnR+dzPJk
+6hkMMcmPQnXfjMJls0+L
 
 -->

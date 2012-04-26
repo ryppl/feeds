@@ -9,7 +9,7 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d4425db7-0a64-462c-b697-0a94a4390bd0" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="e2fe0125-cb48-4072-bd5c-d68e47235424" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
       <manifest-digest sha256="dce4fe868ce0f03d3fc19d743247c37740f20c1d58d4b318a5a6e15626678039"/>
     </implementation>
@@ -49,11 +49,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjgMACgkQxnV5mk56UjEjUQCfUR8YtUkt+KTEs/bJieGdkFrU6UQAn0fsgekV
-tzqgaBSlcFIVJIK6MVv0
+iEYEABECAAYFAk+Y2A8ACgkQxnV5mk56UjHuQQCfZvlBawWoMECu9Qx5hjChe+l4LOUAn0CkYKmF
+s+2ohVxuyPmLjyR0ue5+
 
 -->

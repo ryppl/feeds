@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="23fe70a8-8d66-4d2f-b60d-269be85fe91c" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
+    <implementation arch="*-src" id="219fa2ce-fc2a-4e51-bce0-24ac4b695d8b" released="2012-04-26" stability="testing" version="1.49-post-201204260508">
       <archive extract="boost-lib-quickbook-41622f9" href="http://nodeload.github.com/boost-lib/quickbook/zipball/41622f98c58c43fb930efff2337953deafc0e800" size="436069" type="application/zip"/>
       <manifest-digest sha256="e61e42e8bf59b9082f064bf8d6bb977c4602647f4a6f2ee7bc86ff30a4bb3992"/>
     </implementation>
@@ -118,11 +118,12 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Yji8ACgkQxnV5mk56UjHkpwCfSIBsNgCSRB1WD6UpzBU9KTZkokIAn00/Pvau
-efQ0oCk82ZvlwOl7D13i
+iEYEABECAAYFAk+Y2DMACgkQxnV5mk56UjGejwCeJTKnrlCqaF8OlrtW8ZCQ3xR6t9MAn1EwoiBH
+CE+AplAeI+0TMqxswZ4f
 
 -->

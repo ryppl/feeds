@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2281e646-605c-4549-b943-754e4a790237" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="771f9f01-6406-4d15-a8b6-5baaf884b1d6" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha256="3495646fcbad99650be3b9fd822e5004e096d529ece4c932f52b0427b3198e6f"/>
     </implementation>
@@ -51,11 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjhoACgkQxnV5mk56UjEgugCfeeVmXZ4Xt8afZks0Pp+TeKmWr24AnAzod+3P
-PJNEqVGjzqtkPIJUQHiR
+iEYEABECAAYFAk+Y2B4ACgkQxnV5mk56UjH/AwCgl8JFibGZ9fwMwErsdvlR2WeY6m4Aniu3SRwZ
+0ab+9CO0G8heRByHpEkC
 
 -->

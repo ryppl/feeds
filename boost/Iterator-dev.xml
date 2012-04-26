@@ -15,7 +15,7 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0975980d-6f70-4962-8330-309dfb675f70" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="ba430ee5-6fe5-4a53-823f-ba0f1ac564c9" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-iterator-00d114a" href="http://nodeload.github.com/boost-lib/iterator/zipball/00d114a88cae489976093a77356baa4615a3134e" size="1591678" type="application/zip"/>
       <manifest-digest sha256="24c9511505135ed28764bfd6220b99e74989b6617e1ec0b77c1d74e8e110c58b"/>
     </implementation>
@@ -55,11 +55,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjeoACgkQxnV5mk56UjGrJgCfXZtD1+E1V6DLv+vehIcoogyA4yMAnjNnolfE
-qzIQNRnlDNzAv6K9H+MS
+iEYEABECAAYFAk+Y1/kACgkQxnV5mk56UjGeQACglrFginPEqIqZgCLNbiSOhhJ7z8MAn0JF1oWG
+Yg0peH2TbInQ7BFLPiw3
 
 -->

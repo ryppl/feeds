@@ -10,7 +10,7 @@
     values.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a42ec4cf-1e85-4de8-be7e-4865dad10bfe" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="92437044-25da-4558-9e96-07564d766cba" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-optional-b0f724d" href="http://nodeload.github.com/boost-lib/optional/zipball/b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7" size="100931" type="application/zip"/>
       <manifest-digest sha256="60716adffa4c4d65ad3086944fad4f92ddf38c22ee346a3cef69f7f52611bb71"/>
     </implementation>
@@ -50,11 +50,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjfgACgkQxnV5mk56UjEakQCcDD5xYWHthREhBqD50SFylyp+bu0An3/V0wfc
-lX8Ac17KqWOCnxsOPzXW
+iEYEABECAAYFAk+Y2AIACgkQxnV5mk56UjHQGwCfRL48E2GXiecHGdZf6hjcLONnA1sAn1LCez00
+aDjUqInyiq3MEt2n9lrJ
 
 -->

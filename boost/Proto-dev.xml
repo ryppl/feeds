@@ -9,7 +9,7 @@
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8e1f32dc-3e7a-4ac1-8cc0-1748ce32605b" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="aa0ce529-2b57-4022-bb10-427d70cb6db2" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-proto-4926fee" href="http://nodeload.github.com/boost-lib/proto/zipball/4926fee1658bb507b8b8497048d53bf730bc67bb" size="446348" type="application/zip"/>
       <manifest-digest sha256="28f46e88e734cbde3f12d213f7095ae4ebc9d13f3421d2e425391a8f18b58ca8"/>
     </implementation>
@@ -49,11 +49,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjgwACgkQxnV5mk56UjGC2QCfZtTiBURvN+sB0DjPs5mrYhA18xcAni2fsIGr
-SKecXcCLizUuFVpekJrn
+iEYEABECAAYFAk+Y2BcACgkQxnV5mk56UjF2CQCdGMaU3/oX6Ho1VjzZlq9tAkD8zoUAn1XfCHSX
+/ZndsA1mWY8/9zzUAlCi
 
 -->

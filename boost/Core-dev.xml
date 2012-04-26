@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="89b3db9c-db96-4887-95eb-f45646752df5" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
+    <implementation arch="*-src" id="2d2c2cc1-6ea5-4900-8e20-dfec6582df42" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
       <archive extract="boost-lib-core-0b0d7b5" href="http://nodeload.github.com/boost-lib/core/zipball/0b0d7b586d12419e52a1365a015e75d29ed8fd3a" size="82102" type="application/zip"/>
       <manifest-digest sha256="24255ab56f6f5b681e9920a79aec34ae10c876e31e6a8427b68efeffa16e030a"/>
     </implementation>
@@ -50,11 +50,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Yjc4ACgkQxnV5mk56UjE78ACdF/LyohLwdblneHylARlXNHIYD2cAn3BUJqnB
-ySSlEzamJijGiV7/oE0M
+iEYEABECAAYFAk+Y1+AACgkQxnV5mk56UjEY8gCffefr8M2OMCIhthf1va3NI3wHpUYAmgMa6VCJ
+UiVQtCC06lRpjedYvDDN
 
 -->

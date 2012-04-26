@@ -20,7 +20,7 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7a5f3541-611d-4513-a6af-0d1d5ca91126" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
+    <implementation arch="*-src" id="7abf3890-2805-405d-8307-a73cd1d1e5b8" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
       <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
       <manifest-digest sha256="9c0d3158f7f15b97edbe1330460f36ccf6e6837518ef901c32a2d77962781ee0"/>
     </implementation>
@@ -60,11 +60,12 @@ String algorithms library.</description>
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Yjc0ACgkQxnV5mk56UjFn1gCeON4wTvy4CQEusmW2Kic2X9H8C6AAoI8jmxHy
-32ygpuKn0zXveBg8VaP9
+iEYEABECAAYFAk+Y19sACgkQxnV5mk56UjG+LQCdGxzONPD9+5WPtGL1aAMeg3hBgnAAoJIjX8ce
+gqkVMVbSXOOXQcN3eX3A
 
 -->

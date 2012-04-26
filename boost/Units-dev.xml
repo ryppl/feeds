@@ -10,7 +10,7 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e98a7cea-330d-4bdc-8a16-4cf4ff2595a5" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
+    <implementation arch="*-src" id="e08ffe07-a4ef-4aa7-bb81-222d59ba1d60" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
       <manifest-digest sha256="3aba333fd47650f1445eee78929769ac6641d36a0de37136e6993095ee6ab53b"/>
     </implementation>
@@ -50,11 +50,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjiwACgkQxnV5mk56UjHXMQCfWCQhoC6iVCWZ8aLSUOW4xMbBGB4AnR/b1Nrm
-7WopGfu1UFasEdYtSIU9
+iEYEABECAAYFAk+Y2C8ACgkQxnV5mk56UjHRUgCggRQdkR2VfePkAoSZEL/tsRbwnTYAnjsKq6ke
+LGOj/SnhVJZJJhvG6w1A
 
 -->

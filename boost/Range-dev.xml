@@ -11,7 +11,7 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fcacb56e-a7ee-44ac-8bd5-bbab20e39bcf" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="b0eeef57-0477-4e5d-a6c8-d1194560cda8" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-range-a104c48" href="http://nodeload.github.com/boost-lib/range/zipball/a104c48977ec6d420abf7b34c9bcdc94a1f7d6a2" size="803652" type="application/zip"/>
       <manifest-digest sha256="e2c5c85b010a83c3562277ec37a9e382de6ef1bc8eb537d5e402c102abf05001"/>
     </implementation>
@@ -51,11 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjhcACgkQxnV5mk56UjHr4gCgig7EBUfdcilO7XPSRzZvPuswI04AoIKAD8f9
-am5ss7J5YDlqldwQWyoa
+iEYEABECAAYFAk+Y2BsACgkQxnV5mk56UjHiAQCbBtc34MyjG9byNFpN4Lngi8mmDbkAn1++wBA2
+TKHvk62TIqBi1PBLx0xY
 
 -->

@@ -13,7 +13,7 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d827a376-a374-4765-9ff5-72fe7e1f81f4" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
+    <implementation arch="*-src" id="f6a92a2d-0dd5-48fa-8fb8-8c401cd1d24c" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
       <manifest-digest sha256="3d596a6830880e876da3a07df31734af7cafe4b41fef50d38c0764e6b5c5dc68"/>
     </implementation>
@@ -61,11 +61,12 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Graph-dev.xml">
         <environment insert="." mode="replace" name="BoostGraph_DIR"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Yjc8ACgkQxnV5mk56UjGkFQCgg5SN8bQcju1sz35LZoh0v9bi2DkAnjyJkyAk
-PHhRAS+44mzdeZ0jf1lD
+iEYEABECAAYFAk+Y1+EACgkQxnV5mk56UjETJwCgh7YEOKcP8xye2CizMi66NObpHusAoINF4uLl
+raHQjC3Qu6IwGAuty7Xf
 
 -->

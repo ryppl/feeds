@@ -11,7 +11,7 @@
     exceptions between threads.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a6d323ab-ae6b-4ed0-a941-b9d7f561a173" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
+    <implementation arch="*-src" id="59417c51-a0b4-44c6-bd40-89d0bf01f8e2" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
       <archive extract="boost-lib-exception-d888b41" href="http://nodeload.github.com/boost-lib/exception/zipball/d888b415e7bf79708b3e6fd9ab0aaa491d7dad1b" size="230954" type="application/zip"/>
       <manifest-digest sha256="313c62777b5decd17f7300c31f67c5d18b0fd8031571999c774e363f6b3c8af5"/>
     </implementation>
@@ -51,11 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjdEACgkQxnV5mk56UjH5vACfdy/AdjE8gljxdD2pbZ06KMbBNWUAoKa406XB
-hicWidJGrbIApPmoYgHv
+iEYEABECAAYFAk+Y1+IACgkQxnV5mk56UjERbgCfeS4AVoGnTd7cKeF5bge+zXbmL8AAn275XLek
+3RjR8R53vqjSl5qU1waS
 
 -->

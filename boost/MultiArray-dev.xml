@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Math</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fd1714b8-df1c-45fd-af5d-7c84f2e80a32" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="1298ad22-3962-4f01-88a5-6daf8c57ab35" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-multi_array-0ddebd3" href="http://nodeload.github.com/boost-lib/multi_array/zipball/0ddebd3e206e05f3f6c68ad1c8d8eb6aa47de2d3" size="147906" type="application/zip"/>
       <manifest-digest sha256="a34b6f9a6639fa288457ce2cc76cdc4a2eb020864307588e352b6a0b8f9e6d1f"/>
     </implementation>
@@ -52,11 +52,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjfAACgkQxnV5mk56UjGz8gCgglllO0O4Qisr1GMaeObEWzO8cKQAnArxwd8o
-ls/w2PtYH732HVD2kS8s
+iEYEABECAAYFAk+Y1/sACgkQxnV5mk56UjHHLwCdEKt2dDAIQPCeogLHbafMeBfWMuUAoJ4K6ubK
+xreAISoOIujxHtjOhD3e
 
 -->

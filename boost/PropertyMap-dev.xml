@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e1d70a28-31b7-465f-8fed-9277ec390893" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="640d431a-590a-4dec-9818-15f9f70dd283" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-property_map-c9f82e6" href="http://nodeload.github.com/boost-lib/property_map/zipball/c9f82e6d9b6fab8dbdd31351b96230da09959528" size="87793" type="application/zip"/>
       <manifest-digest sha256="f0b085cd64f279ae79bf8185ff57488c8c7264c47995ee385c33e0c476f53cfa"/>
     </implementation>
@@ -51,11 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjgoACgkQxnV5mk56UjFl4wCglgq4GYiRV6qQGQE37zbln6CwATAAnRJtOj2m
-kWjrQNuZwP7Unnbs9Vef
+iEYEABECAAYFAk+Y2BMACgkQxnV5mk56UjFZwwCeNDvseA4qc1HCizs4DacUs1K3Y70An2b1mngF
+9wKQk0Fssy6VuYbMaRH9
 
 -->

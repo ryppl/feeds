@@ -26,7 +26,7 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="47dbd5b8-a4c2-4d3b-a824-827e9d31c1ae" released="2012-04-25" stability="testing" version="1.49-post-201204252350">
+    <implementation arch="*-src" id="838ef2b3-8235-4826-897d-182c2a64a5fe" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
       <manifest-digest sha256="ddb4ec2e4f42c232916a7651a145caa7f1184c0a472e318dc0992df7fbe265ee"/>
     </implementation>
@@ -66,11 +66,12 @@ A utility library for passing references to
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjckACgkQxnV5mk56UjHqvACdFO3mXZE3QJhbGPqYVMx+/aZmtFEAnRcK+4sf
-lrcmRGvRjO9+yUeflhdd
+iEYEABECAAYFAk+Y19wACgkQxnV5mk56UjHJmgCffwNwJt1qjGjDt0Po+RdgY6Ku0f0AniAyaEPt
+M+nO/EdXdpkpijZNE1Yz
 
 -->

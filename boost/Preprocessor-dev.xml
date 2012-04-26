@@ -11,7 +11,7 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ed7aa8fa-1be2-4982-ab68-1abec0365283" released="2012-04-25" stability="testing" version="1.49-post-201204252351">
+    <implementation arch="*-src" id="902ac776-4fdb-4837-8b9f-d86711b4704b" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
       <manifest-digest sha256="1ceae6bbac1c701034133fcba5f0b21c588e9987bd02c7cb4ae1fe04de0bbfc2"/>
     </implementation>
@@ -51,11 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjggACgkQxnV5mk56UjEdaQCfStvvZqIYL6BlUGEFLRb89v060eYAniH2GeVW
-IphqxKTj9UgB74/mk2pT
+iEYEABECAAYFAk+Y2BIACgkQxnV5mk56UjFsSQCeKSi7zX3ebEtRnlhdjjP7bY7mHnoAoIBaCalp
+lGz2TBiLC/JXstkjxETQ
 
 -->

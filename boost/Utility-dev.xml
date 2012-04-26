@@ -61,7 +61,7 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6f269d73-d244-4064-ae42-7418355f8673" released="2012-04-25" stability="testing" version="1.49-post-201204252352">
+    <implementation arch="*-src" id="d848a173-c4e4-4595-b93f-3a929e8f9faf" released="2012-04-26" stability="testing" version="1.49-post-201204260507">
       <archive extract="boost-lib-utility-951cd3d" href="http://nodeload.github.com/boost-lib/utility/zipball/951cd3d443071adb4caf3b1a9c4e240a23284b32" size="223222" type="application/zip"/>
       <manifest-digest sha256="d20ae614ab361cee3ab5262d7b5ad2f90caebeb70d65b6ec1a97b265c9a4a412"/>
     </implementation>
@@ -101,11 +101,12 @@ Wrapper for uniform-syntax value initialization,
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YjiwACgkQxnV5mk56UjFstQCfQkuMZfXd0aXSPycAtTuYTklx1G4AoJxdCNeH
-J3PTQAWhBuUKd3WOES3a
+iEYEABECAAYFAk+Y2DEACgkQxnV5mk56UjFZmQCeIpFCvt3BJryqzfYoQ9Iik2DooV0An27Zy06y
+hDygnv5AAZEOp5wmOJXc
 
 -->
