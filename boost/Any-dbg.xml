@@ -10,7 +10,7 @@
     different value types.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ea241a3e-f6be-4cc7-a1f7-4965effc4570" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="2dcdf7e3-8102-42fc-a386-7050af19fbfc" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
       <manifest-digest sha256="ca8e900a3139ddafd6ba9dad839185c996594035d4a4cc4c104d199e3908bfd0"/>
     </implementation>
@@ -21,7 +21,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -59,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEd8ACgkQxnV5mk56UjGWtQCeJYGiH7o00sx+674kgI8NaB82uEMAn1WfiWkK
-0e11/E0ct0oxeg42/NZa
+iEYEABECAAYFAk+bDGoACgkQxnV5mk56UjGyewCcDOVehP4K2NNctbQ5MUz92e6Q3PMAnR2PbHXT
+cnvfv4ODs6eAQvHWyHq8
 
 -->

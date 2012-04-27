@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="04df1107-6e16-4bf5-96f2-d3aa02681816" released="2012-04-26" stability="testing" version="1.49-post-201204270327">
+    <implementation arch="*-src" id="eb3687c9-c4a6-492a-9c5a-8ef0ec191084" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
       <archive extract="boost-lib-thread-420efc2" href="http://nodeload.github.com/boost-lib/thread/zipball/420efc212804318765379b2b22f662418585cc62" size="430513" type="application/zip"/>
       <manifest-digest sha256="3c68e1eeef182a59eb7b84c003c4da1d60db192fc54a00feab1ae1ff2b0a0a1e"/>
     </implementation>
@@ -21,24 +21,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostBind_DIR=${BoostBind_DIR}</arg>
-        <arg>-DBoostChrono_DIR=${BoostChrono_DIR}</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostDateTime_DIR=${BoostDateTime_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostFunction_DIR=${BoostFunction_DIR}</arg>
-        <arg>-DBoostFunctional_DIR=${BoostFunctional_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostIO_DIR=${BoostIO_DIR}</arg>
-        <arg>-DBoostMove_DIR=${BoostMove_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostOptional_DIR=${BoostOptional_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostStaticAssert_DIR=${BoostStaticAssert_DIR}</arg>
-        <arg>-DBoostSystem_DIR=${BoostSystem_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -126,7 +108,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEjIACgkQxnV5mk56UjHfgwCfb7GCuIL+CAqtKuVg5xlTNzuaBnAAmwWmoI5r
-ylV/LYilHwSTxE3cpnxL
+iEYEABECAAYFAk+bDMMACgkQxnV5mk56UjHn2ACfZ9JXWNUZmbwP3faw/eACb4bQ/rYAni9TM3zd
+B88VX7c7wBSFU50sgQ5n
 
 -->

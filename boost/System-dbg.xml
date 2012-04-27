@@ -10,7 +10,7 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1bbfb78a-d5d4-46a4-b0f8-0271f25aa6e9" released="2012-04-26" stability="testing" version="1.49-post-201204270327">
+    <implementation arch="*-src" id="be343e3b-2ea1-4e26-b87b-79805d0c4a16" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
       <archive extract="boost-lib-system-353bd55" href="http://nodeload.github.com/boost-lib/system/zipball/353bd5548cc13000f3f6ec337422f03ffd9526e7" size="44487" type="application/zip"/>
       <manifest-digest sha256="0f449f29948dcd3a2b40e4671c98b90b8491a5eeaa545ac88db967b8fef82d8b"/>
     </implementation>
@@ -21,9 +21,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -67,7 +64,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEi8ACgkQxnV5mk56UjH3EACdHNDM/Igin7Pm33g8rVsCldXtJOYAnRewtmzV
-bdpkP8si704Ml44qQUvf
+iEYEABECAAYFAk+bDL8ACgkQxnV5mk56UjEC5gCffAjogz66G7XUwiEkY1vD+W14cvEAoJB62QZP
+aHQnoPfQJyJQJK7SX2+D
 
 -->

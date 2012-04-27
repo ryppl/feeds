@@ -11,7 +11,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dd611f1d-bfa1-41a2-8404-395f2c552107" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="7486c8a0-5a6f-40da-aa43-b3315a0d8c65" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-mpi-5f6f80d" href="http://nodeload.github.com/boost-lib/mpi/zipball/5f6f80d78dc068b33d443b502c65e7a84401a2dd" size="219930" type="application/zip"/>
       <manifest-digest sha256="d97d472eebafcda3ab99d64cc6b898b5a4118efb810bd3679d72475573855e30"/>
     </implementation>
@@ -22,23 +22,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostConversion_DIR=${BoostConversion_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostFunction_DIR=${BoostFunction_DIR}</arg>
-        <arg>-DBoostGraph_DIR=${BoostGraph_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostIterator_DIR=${BoostIterator_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostOptional_DIR=${BoostOptional_DIR}</arg>
-        <arg>-DBoostPropertyMap_DIR=${BoostPropertyMap_DIR}</arg>
-        <arg>-DBoostPython_DIR=${BoostPython_DIR}</arg>
-        <arg>-DBoostSerialization_DIR=${BoostSerialization_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostStaticAssert_DIR=${BoostStaticAssert_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -123,7 +106,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEgIACgkQxnV5mk56UjEATwCfRaoEGYNVuArS/lGyIYCihDcMif8AnjG8NRUo
-P6Vi/lRs8VYuP9NgaGFG
+iEYEABECAAYFAk+bDIoACgkQxnV5mk56UjGytgCfcSeQ5NF4oEfDcnkgmswzQ1ZBV/oAnjJN4o/y
+I9Kk7vMH0u+3eU3/ZX7q
 
 -->

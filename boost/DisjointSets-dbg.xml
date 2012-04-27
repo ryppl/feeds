@@ -13,7 +13,7 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="08252c6a-c98d-4c4a-b47f-594949b17c97" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="4c48554a-1a12-4b0a-9e32-8e057bbced4d" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
       <manifest-digest sha256="3d596a6830880e876da3a07df31734af7cafe4b41fef50d38c0764e6b5c5dc68"/>
     </implementation>
@@ -24,8 +24,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostTest_DIR=${BoostTest_DIR}</arg>
-        <arg>-DBoostGraph_DIR=${BoostGraph_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -66,7 +64,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEegACgkQxnV5mk56UjGQMQCeJ9gY8xpr+2U26wJlEBmvH53OslcAn0OonFgG
-aRIWYYdmZBqIFyk5YRkL
+iEYEABECAAYFAk+bDHIACgkQxnV5mk56UjG6+ACeLxgaXJ9kU6HwTfcJhlu1pl1QgQ8An1EI3IWm
+CiyiwO8Oo/d0UT12vz/c
 
 -->

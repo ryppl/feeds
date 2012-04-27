@@ -11,7 +11,7 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="277450a4-abf4-412c-8a5d-419d5b21470f" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="6030f5db-b52a-4507-bb7d-9ff35f7218f6" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-filesystem-c61b7e7" href="http://nodeload.github.com/boost-lib/filesystem/zipball/c61b7e767e57e956df1827a2120d6b40c23a474a" size="287957" type="application/zip"/>
       <manifest-digest sha256="472a742a5a4ecc1379345a0592a8a7a144fd554903121b58590358b793dd2cc7"/>
     </implementation>
@@ -22,7 +22,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostSystem_DIR=${BoostSystem_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -59,7 +58,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEegACgkQxnV5mk56UjFZEgCggjN6Uen7g+LlqKDidd/C9Aly2bIAn3Ia0wZS
-xXNM1wGKECBIZeN1G4zW
+iEYEABECAAYFAk+bDHQACgkQxnV5mk56UjG0UwCfbNzjaD4m+Pkmf0aL85wVyPIquMYAoJeOVMwM
+Yy0sI1vNoInsKKdwrkVX
 
 -->

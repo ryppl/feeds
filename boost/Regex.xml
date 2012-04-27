@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="69b3d69a-72da-4c60-b365-32450e61d9dd" released="2012-04-26" stability="testing" version="1.49-post-201204270327">
+    <implementation arch="*-src" id="df85c4b9-250c-430c-b699-645f075aec80" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
       <manifest-digest sha256="014aa0683685c92e4aceadeda68d91eb8756298cd6f6fb50bca781c697b1db28"/>
     </implementation>
@@ -20,21 +20,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConceptCheck_DIR=${BoostConceptCheck_DIR}</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostFunctional_DIR=${BoostFunctional_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostIterator_DIR=${BoostIterator_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostStaticAssert_DIR=${BoostStaticAssert_DIR}</arg>
-        <arg>-DBoostTest_DIR=${BoostTest_DIR}</arg>
-        <arg>-DBoostTimer_DIR=${BoostTimer_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
-        <arg>-DBoostXpressive_DIR=${BoostXpressive_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -114,7 +99,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEigACgkQxnV5mk56UjFHIgCdHLMP5gi8O0GV1YBr8QXfRZCch2sAoID6RUfl
-uU1r5+OyYovFoaaWf8/C
+iEYEABECAAYFAk+bDLgACgkQxnV5mk56UjEk2ACeM3e3W0PVcd3Do+1C5wNaWqvW9XIAoJ0wgw2G
+odvfS4HBS/RokGD4hlXb
 
 -->

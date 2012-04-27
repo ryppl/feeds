@@ -10,7 +10,7 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="46219525-89d9-4b88-96cc-fc29032c49f1" released="2012-04-26" stability="testing" version="1.49-post-201204270327">
+    <implementation arch="*-src" id="bfdbec43-499b-47e9-b08b-777eae87829b" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha256="b7c6007c036cb9fbe94626ca0bfdd2aa7bf73c76209a76925562e03d7eb78cca"/>
     </implementation>
@@ -21,24 +21,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostConversion_DIR=${BoostConversion_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostForeach_DIR=${BoostForeach_DIR}</arg>
-        <arg>-DBoostFormat_DIR=${BoostFormat_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostMath_DIR=${BoostMath_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostMultiIndex_DIR=${BoostMultiIndex_DIR}</arg>
-        <arg>-DBoostRange_DIR=${BoostRange_DIR}</arg>
-        <arg>-DBoostRegex_DIR=${BoostRegex_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostStaticAssert_DIR=${BoostStaticAssert_DIR}</arg>
-        <arg>-DBoostTest_DIR=${BoostTest_DIR}</arg>
-        <arg>-DBoostTimer_DIR=${BoostTimer_DIR}</arg>
-        <arg>-DBoostTuple_DIR=${BoostTuple_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -127,7 +109,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEiIACgkQxnV5mk56UjHPFgCeMl+7kjv9xBR+0e8cgL7OXhsIT4YAniN20NW8
-LutJ8cKJ11S9nLM3UzQt
+iEYEABECAAYFAk+bDLIACgkQxnV5mk56UjFnHQCeIsD+lELxSBzPb2LBJsKApn21iosAoJGlPDf/
+G0f8JMzqKpYmVFj8UKdH
 
 -->

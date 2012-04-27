@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e5cbf969-91fd-4496-83bc-95c6ef6dd788" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="e373d651-88b3-4aa7-8de1-54b4924f0678" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
       <manifest-digest sha256="8f89b153bde52e5c6c9a83faa29992fe47a9b87e5e4364cb860a654b38aabf56"/>
     </implementation>
@@ -22,20 +22,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostAlgorithm_DIR=${BoostAlgorithm_DIR}</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostConversion_DIR=${BoostConversion_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostIO_DIR=${BoostIO_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostRange_DIR=${BoostRange_DIR}</arg>
-        <arg>-DBoostSerialization_DIR=${BoostSerialization_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostTokenizer_DIR=${BoostTokenizer_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -111,7 +97,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEegACgkQxnV5mk56UjGt6gCfaGR4Z/WpgJaMIlYYncTf7WUn+/MAoKVCDs9A
-3+bfblAhiWX+uow7SaVJ
+iEYEABECAAYFAk+bDHMACgkQxnV5mk56UjE47wCeLZd6bxRMeDQQ+0XNUfz/EzwcuPAAnAozVyIy
+Or83xj8npT+22+Mfh8jl
 
 -->

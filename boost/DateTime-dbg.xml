@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6df1e22f-fd2c-4d97-bf6e-1ffa45ee9be3" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="f119b20b-adfb-4b0a-ade0-0f5f7d54e872" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
       <manifest-digest sha256="8f89b153bde52e5c6c9a83faa29992fe47a9b87e5e4364cb860a654b38aabf56"/>
     </implementation>
@@ -22,20 +22,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostAlgorithm_DIR=${BoostAlgorithm_DIR}</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostConversion_DIR=${BoostConversion_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostIO_DIR=${BoostIO_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostRange_DIR=${BoostRange_DIR}</arg>
-        <arg>-DBoostSerialization_DIR=${BoostSerialization_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostTokenizer_DIR=${BoostTokenizer_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -112,7 +98,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEecACgkQxnV5mk56UjH1OwCfSZQuR+lGVva4UQ1DFaOyWvccATUAn0SOo6+U
-34KJqse9bYiE5TMfK3aq
+iEYEABECAAYFAk+bDHMACgkQxnV5mk56UjFlXgCeNPgmwbhZoJYr6QIs3WeaAbLW0AYAmwaJRDmx
+tpnsm++a/sCPJLJ2ivWN
 
 -->

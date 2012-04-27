@@ -10,7 +10,7 @@
     classes.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d2fd17b6-81e6-406b-a3f3-67e68780f9df" released="2012-04-26" stability="testing" version="1.49-post-201204270327">
+    <implementation arch="*-src" id="35369be7-a828-4314-a0f1-2ee723b25261" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
       <manifest-digest sha256="007b86df03768a9ae3b94bced9c2a36c0be41fb546df69a16514dcc1e2dad0a6"/>
     </implementation>
@@ -21,14 +21,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostChrono_DIR=${BoostChrono_DIR}</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostIO_DIR=${BoostIO_DIR}</arg>
-        <arg>-DBoostSystem_DIR=${BoostSystem_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -87,7 +79,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEjUACgkQxnV5mk56UjELvACgjeB6jHv1EyzjMyDA+uRxIU2Mqj4AoKMzlyJq
-W9gNJMFGW7JO/Prfqu+n
+iEYEABECAAYFAk+bDMcACgkQxnV5mk56UjFm2wCgkGhV7QOuINs1vnhAOVOI7LAMaEwAoKlQQ72W
+Tv8tu2R0QeyQNcNnwq0l
 
 -->

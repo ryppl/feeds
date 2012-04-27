@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="52c573ee-f148-4616-94f8-a8d0ecbf67f2" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="82f7b84e-7ccb-45f9-9044-14ce0a003ca4" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-iostreams-1864e1f" href="http://nodeload.github.com/boost-lib/iostreams/zipball/1864e1f86bef21c160b6080c2bfc258c850962eb" size="700613" type="application/zip"/>
       <manifest-digest sha256="88c855fabae3970a25f15f3cf106780cd34dfd3594dd20d49118b2df3e3d78c8"/>
     </implementation>
@@ -22,7 +22,6 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -60,7 +59,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEf8ACgkQxnV5mk56UjGOGwCeKQEwtAAHmAkFCyoP/EANwt1jec8An1Tl9MdM
-FLv3Jwhgsw1Kknth11rH
+iEYEABECAAYFAk+bDIgACgkQxnV5mk56UjG26ACgpyNBL7uOFg1N5I/WfHt2iAugfYAAoJVsoss9
++4KYWzcby/f/mjk1ZLEB
 
 -->

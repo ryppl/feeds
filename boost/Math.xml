@@ -43,7 +43,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eab22bfb-f0e6-4a68-80aa-edf83b1ccabe" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
+    <implementation arch="*-src" id="f59ad4a2-6074-4359-bb5e-662cef1eda8e" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
       <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
@@ -54,31 +54,6 @@ A wide selection of univariate statistical distributions and
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostAlgorithm_DIR=${BoostAlgorithm_DIR}</arg>
-        <arg>-DBoostArray_DIR=${BoostArray_DIR}</arg>
-        <arg>-DBoostBind_DIR=${BoostBind_DIR}</arg>
-        <arg>-DBoostConceptCheck_DIR=${BoostConceptCheck_DIR}</arg>
-        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
-        <arg>-DBoostConversion_DIR=${BoostConversion_DIR}</arg>
-        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
-        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
-        <arg>-DBoostFormat_DIR=${BoostFormat_DIR}</arg>
-        <arg>-DBoostFunction_DIR=${BoostFunction_DIR}</arg>
-        <arg>-DBoostFusion_DIR=${BoostFusion_DIR}</arg>
-        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
-        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
-        <arg>-DBoostNumeric_DIR=${BoostNumeric_DIR}</arg>
-        <arg>-DBoostRandom_DIR=${BoostRandom_DIR}</arg>
-        <arg>-DBoostRegex_DIR=${BoostRegex_DIR}</arg>
-        <arg>-DBoostSmartPtr_DIR=${BoostSmartPtr_DIR}</arg>
-        <arg>-DBoostSpirit_DIR=${BoostSpirit_DIR}</arg>
-        <arg>-DBoostStaticAssert_DIR=${BoostStaticAssert_DIR}</arg>
-        <arg>-DBoostTest_DIR=${BoostTest_DIR}</arg>
-        <arg>-DBoostTimer_DIR=${BoostTimer_DIR}</arg>
-        <arg>-DBoostTr1_DIR=${BoostTr1_DIR}</arg>
-        <arg>-DBoostTuple_DIR=${BoostTuple_DIR}</arg>
-        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
-        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -188,7 +163,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+aEhsACgkQxnV5mk56UjEd0gCfQFvC/vQaSq7g00XbGfql2Ffo+oAAniuEo+US
-aVEEDbtFMIoqUyOO3Lq/
+iEYEABECAAYFAk+bDKoACgkQxnV5mk56UjFhXwCeJjznQCDn3Y5Fe4mTAafGkwhyOboAnRB5sfjm
+DYXQq4m8WB4iHtaFg7Sm
 
 -->
