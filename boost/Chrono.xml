@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a7ac7409-722a-4038-924a-81caf29f5c81" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
+    <implementation arch="*-src" id="aadb739a-a9b0-41e2-92ff-a2ddc33610ef" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
       <archive extract="boost-lib-chrono-bcb5566" href="http://nodeload.github.com/boost-lib/chrono/zipball/bcb556677222caab2626f7a160a74b43a8ba81a3" size="574649" type="application/zip"/>
       <manifest-digest sha256="5669bd55b8bcfc5cf98dd1f21cb3fc2cf3a09e819a136fce9754d5fe63ce0e17"/>
     </implementation>
@@ -21,21 +21,21 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostAccumulators_DIR=BoostAccumulators_DIR</arg>
-        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
-        <arg>-DBoostCore_DIR=BoostCore_DIR</arg>
-        <arg>-DBoostException_DIR=BoostException_DIR</arg>
-        <arg>-DBoostFormat_DIR=BoostFormat_DIR</arg>
-        <arg>-DBoostInteger_DIR=BoostInteger_DIR</arg>
-        <arg>-DBoostInterprocess_DIR=BoostInterprocess_DIR</arg>
-        <arg>-DBoostMath_DIR=BoostMath_DIR</arg>
-        <arg>-DBoostMpl_DIR=BoostMpl_DIR</arg>
-        <arg>-DBoostRatio_DIR=BoostRatio_DIR</arg>
-        <arg>-DBoostStaticAssert_DIR=BoostStaticAssert_DIR</arg>
-        <arg>-DBoostSystem_DIR=BoostSystem_DIR</arg>
-        <arg>-DBoostTypeTraits_DIR=BoostTypeTraits_DIR</arg>
-        <arg>-DBoostTypeof_DIR=BoostTypeof_DIR</arg>
-        <arg>-DBoostUtility_DIR=BoostUtility_DIR</arg>
+        <arg>-DBoostAccumulators_DIR=${BoostAccumulators_DIR}</arg>
+        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
+        <arg>-DBoostCore_DIR=${BoostCore_DIR}</arg>
+        <arg>-DBoostException_DIR=${BoostException_DIR}</arg>
+        <arg>-DBoostFormat_DIR=${BoostFormat_DIR}</arg>
+        <arg>-DBoostInteger_DIR=${BoostInteger_DIR}</arg>
+        <arg>-DBoostInterprocess_DIR=${BoostInterprocess_DIR}</arg>
+        <arg>-DBoostMath_DIR=${BoostMath_DIR}</arg>
+        <arg>-DBoostMpl_DIR=${BoostMpl_DIR}</arg>
+        <arg>-DBoostRatio_DIR=${BoostRatio_DIR}</arg>
+        <arg>-DBoostStaticAssert_DIR=${BoostStaticAssert_DIR}</arg>
+        <arg>-DBoostSystem_DIR=${BoostSystem_DIR}</arg>
+        <arg>-DBoostTypeTraits_DIR=${BoostTypeTraits_DIR}</arg>
+        <arg>-DBoostTypeof_DIR=${BoostTypeof_DIR}</arg>
+        <arg>-DBoostUtility_DIR=${BoostUtility_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -115,7 +115,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Y198ACgkQxnV5mk56UjHFnACgmpMZiVAtg3dpGQPD5yYzWIL6qzAAniOrTcPJ
-RcCsKBjl/LuLPTN7kq2g
+iEYEABECAAYFAk+aEeMACgkQxnV5mk56UjHqagCgmapGcU4te5EpUsk5IrlIQolCCP4AnRPRsrgo
+pY0RQK68Yydhox0j70nO
 
 -->

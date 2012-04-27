@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1024c031-e517-4b6c-a10e-296f85de56e4" released="2012-04-26" stability="testing" version="1.49-post-201204260506">
+    <implementation arch="*-src" id="09af3712-fe99-4152-b09f-f88a980e689d" released="2012-04-26" stability="testing" version="1.49-post-201204270326">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha256="f32a5c5e8563c782092791d699dda5da24757638131b0f5e64a7cfb4090ee047"/>
     </implementation>
@@ -22,8 +22,8 @@
         <arg>copy_directory</arg>
         <arg>${SRCDIR}</arg>
         <arg>./source</arg>
-        <arg>-DBoostConfig_DIR=BoostConfig_DIR</arg>
-        <arg>-DBoostTest_DIR=BoostTest_DIR</arg>
+        <arg>-DBoostConfig_DIR=${BoostConfig_DIR}</arg>
+        <arg>-DBoostTest_DIR=${BoostTest_DIR}</arg>
         <arg>;</arg>
         <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
         <arg>-E</arg>
@@ -64,7 +64,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+Y198ACgkQxnV5mk56UjHQNgCfWnOt5KSTlgLUqqlv8KI+u9bmTGgAn0AI+T0O
-1FyVNQ1IhA87f41qhNPh
+iEYEABECAAYFAk+aEeQACgkQxnV5mk56UjFyGgCdE2m0/lKurXy+hjHd4YNB+nWx1bQAn2WBnbgG
+cBWWK+ZshHuT9m0ueqqk
 
 -->
