@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/ryppl/0cmake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>0cmake</name>
+  <summary>0compile utility for CMake-based Ryppl projects</summary>
+  <description>
+0cmake can be used in a Ryppl project's 0install feed to build and install the
+feed from source.  For example:
+
+&lt;command name='compile'&gt; &lt;runner
+interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
+&lt;arg&gt;--component=bin&lt;/arg&gt; &lt;/runner&gt; &lt;/command&gt;</description>
+  <category>Development</category>
+  <category>Building</category>
+  <homepage>http://github.com/ryppl/0cmake</homepage>
+  <dc:author>Dave Abrahams &lt;dave@boostpro.com&gt;</dc:author>
+
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation id="sha1new=1197bf3aa226e036ed72cf0d4c5a1f3e2accc33a" released="2012-04-28" stability="developer" version="0.8-pre-201204281437">
+      <archive extract="ryppl-0cmake-d45031e" href="http://nodeload.github.com/ryppl/0cmake/zipball/d45031e2749eb51ac756e84c90ba6b7c30142140" size="2848" type="application/zip"/>
+    </implementation>
+    <command name="run" path="zerorunner.py">
+      <runner interface="http://repo.roscidus.com/python/python">
+        <version before="3"/>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
+        <version not-before="0.8-pre-201204281412"/>
+        <environment insert="." mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+cPN4ACgkQxnV5mk56UjEB2gCfUvzFJnoqeLR7NX1cWH/mtvXX4oMAn1r4yo2n
+D/pYKOdfqwwOTl66hKSR
+
+-->
