@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5859b03f-6cb2-404a-b138-b1942813dedf" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="fb3d6eb5-188f-491d-8587-0f55dbccef82" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
       <manifest-digest sha256="993b74c27eec6e662fb1ef200f69ed4fbc64b1020c145e8fd7907b29ec98244c"/>
     </implementation>
@@ -53,26 +53,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
-        <environment insert="." mode="replace" name="BoostCore_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
-        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml">
-        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7A4ACgkQxnV5mk56UjFFtQCbBfcXBARF39VlmxV/kb5eE27F01wAnRlFhy1h
-X6ohJ8BRrDV5WtFk9qt0
+iEYEABECAAYFAk+b9agACgkQxnV5mk56UjEYzACgk67g+OInLdMxQegl54wnpK2XpvYAnix67PDx
+MH/aMKHG0Enb3Fl4Njxb
 
 -->

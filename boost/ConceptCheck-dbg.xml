@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f32b69e7-9f63-4468-af84-7f7e3bc982cf" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="10e03062-7990-4483-8e14-6412eeab8203" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha256="f32a5c5e8563c782092791d699dda5da24757638131b0f5e64a7cfb4090ee047"/>
     </implementation>
@@ -52,29 +52,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
-        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
-        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Parameter-dev.xml">
-        <environment insert="." mode="replace" name="BoostParameter_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml">
-        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7AcACgkQxnV5mk56UjHE8QCfZ6JImWe5eyOllVd7lebqOBctZ/0AnAzFmChd
-gWxyHbv8ym1TaFbLgbvi
+iEYEABECAAYFAk+b9aMACgkQxnV5mk56UjGNHACdHjmUp6gLWLvfgPDnJ7/mQnJRGHcAniDHleOC
+3P11+STkm9NPORkSxagR
 
 -->

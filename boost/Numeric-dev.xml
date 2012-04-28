@@ -26,7 +26,7 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="137aae12-27b8-4835-a200-6058cf9e434d" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
+    <implementation arch="*-src" id="e90fadc7-b4ca-4c2f-a1eb-5ca14a675596" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-numeric-7098ba6" href="http://nodeload.github.com/boost-lib/numeric/zipball/7098ba6e03f76c16b980bdf58e9e3a9335abf8e7" size="49662654" type="application/zip"/>
       <manifest-digest sha256="37b4a9b6eed3ebf559a3f1ed17dc2dc4331738de5947f9c5d6e759f154d78f9a"/>
     </implementation>
@@ -66,54 +66,12 @@ uBLAS provides matrix and vector classes as well
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/ConceptCheck-dev.xml">
-        <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
-        <environment insert="." mode="replace" name="BoostCore_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
-        <environment insert="." mode="replace" name="BoostIO_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
-        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Logic-dev.xml">
-        <environment insert="." mode="replace" name="BoostLogic_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
-        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml">
-        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Rational-dev.xml">
-        <environment insert="." mode="replace" name="BoostRational_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
-        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
-        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Typeof-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7HgACgkQxnV5mk56UjEQegCgn+pUOawZXp8T39TUzu7UEUvG9DUAnRCED3dA
-OI/pqeT3PSGosPVdImKH
+iEYEABECAAYFAk+b9g8ACgkQxnV5mk56UjFwzQCdE6pGQCGAhq7UcKLLmnb8f+2F6foAniwkPOYK
+CzmfQUPOJpEQF4QUXORJ
 
 -->

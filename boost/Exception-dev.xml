@@ -11,7 +11,7 @@
     exceptions between threads.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2cb8b5cd-de0b-46a7-9a5a-c2038c8d69b7" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="d5f32f47-dc8d-4af3-84de-a0fd3929abc9" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-exception-d888b41" href="http://nodeload.github.com/boost-lib/exception/zipball/d888b415e7bf79708b3e6fd9ab0aaa491d7dad1b" size="230954" type="application/zip"/>
       <manifest-digest sha256="313c62777b5decd17f7300c31f67c5d18b0fd8031571999c774e363f6b3c8af5"/>
     </implementation>
@@ -51,27 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
-        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
-        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Units-dev.xml">
-        <environment insert="." mode="replace" name="BoostUnits_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7AoACgkQxnV5mk56UjGlIwCbBF7Dawlk/AcTtRxikz5MYhGbYugAn2IZnDDd
-xn8v8Up+KCyVhunFMIOl
+iEYEABECAAYFAk+b9aYACgkQxnV5mk56UjEkkwCfU/J1qgADatQuc0krVbXqWtoU+w8An1aqVzca
+5nipb0GrR/wdgmxV7gcJ
 
 -->

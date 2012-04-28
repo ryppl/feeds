@@ -10,7 +10,7 @@
     different value types.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="da58b40c-6e4b-4d57-9f5d-b5fcd011046e" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="3c31eea2-f79b-42b2-909a-d744b060251e" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
       <manifest-digest sha256="ca8e900a3139ddafd6ba9dad839185c996594035d4a4cc4c104d199e3908bfd0"/>
     </implementation>
@@ -51,23 +51,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
-        <environment insert="." mode="replace" name="BoostException_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
-        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7AEACgkQxnV5mk56UjFhmgCeKuO0sqzRX0JfsNWlrv4gKnOhdQYAn0tSD3cy
-nzfo1/rdXvPML4vRSE8T
+iEYEABECAAYFAk+b9ZwACgkQxnV5mk56UjF0fwCfXB0gH9FzLUVZ/xyL74L4Yr399EcAn3aXxVQZ
+ftq39VbfZXk5Dp2t2TUv
 
 -->

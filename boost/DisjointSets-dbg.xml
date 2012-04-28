@@ -13,7 +13,7 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0b0988af-376d-4516-90c6-ebb5e310fc2a" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="96740ed8-c40e-4e3a-b673-55728c02a6af" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
       <manifest-digest sha256="3d596a6830880e876da3a07df31734af7cafe4b41fef50d38c0764e6b5c5dc68"/>
     </implementation>
@@ -54,20 +54,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
-        <environment insert="." mode="replace" name="BoostCore_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Graph-dev.xml">
-        <environment insert="." mode="replace" name="BoostGraph_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
-        <environment insert="." mode="replace" name="BoostTest_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7AkACgkQxnV5mk56UjETUwCfR6lu4Ny5gaTbTXuYpVSTNRCiFaIAoKAw0pl6
-wjPtvbuux3Q6ej42dcBa
+iEYEABECAAYFAk+b9aUACgkQxnV5mk56UjEwGwCcC3MBcICV8O9Pn0QCLg40kkT/D+EAn15zjUx/
+Aec5NXgu1RKK1/ycn2+V
 
 -->

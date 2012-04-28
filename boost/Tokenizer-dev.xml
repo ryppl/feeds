@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d420206a-23c3-407f-ace6-f3d1ae289aac" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
+    <implementation arch="*-src" id="fa376cbe-e159-4b6a-91dc-2b7d1973561c" released="2012-04-28" stability="testing" version="1.49-post-201204281351">
       <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
       <manifest-digest sha256="a73489699571ba2c7f4261a918d2e1e0fac0c7a8af6f0c2d5ec3138c003a5170"/>
     </implementation>
@@ -51,21 +51,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
-        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7GMACgkQxnV5mk56UjE9DwCfVsXRwxtvsa+f4dN8WD+YKk3DEYwAn0iZvH8g
-vXF+G+eu2JE/5rZ+ue/H
+iEYEABECAAYFAk+b9fQACgkQxnV5mk56UjF60ACeNlBpl0JFWN1zUR2k17e4e/3awSEAnjdbIuIv
+lCUppHxq2Rg1acW5ZhKw
 
 -->

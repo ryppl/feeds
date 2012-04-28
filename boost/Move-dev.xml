@@ -9,7 +9,7 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b6837d75-926a-48f8-9d0a-c522dbcc0416" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="1bb0aad5-6200-4908-ae76-369a4c52738d" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-move-c27a542" href="http://nodeload.github.com/boost-lib/move/zipball/c27a542db70084de093b412150018de585164608" size="86185" type="application/zip"/>
       <manifest-digest sha256="84c9d0f00ca33a888921fe6fe9c6537a53f67edb0364c467900d1be6adce28f5"/>
     </implementation>
@@ -49,24 +49,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
-        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7CEACgkQxnV5mk56UjFAlwCeJmN5OCCqnenBiiiW7O66CsBtiI8AoIq4omhu
-1GGhEF5pAHk6QKkvOMYK
+iEYEABECAAYFAk+b9bwACgkQxnV5mk56UjHYKgCgiL9VfmCSRROAAS2PFEuZ7HxXgLQAoIAFQRdc
+7rbV2MOfaD00RXHnIB6G
 
 -->

@@ -9,7 +9,7 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ca44639c-5b1b-4ba1-82bc-40ff508126bb" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="6b85c978-4ce0-4a8a-8618-ad039412c265" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-intrusive-3854bb1" href="http://nodeload.github.com/boost-lib/intrusive/zipball/3854bb1a8d9d655b330137bc1fb2a8606f8de434" size="508493" type="application/zip"/>
       <manifest-digest sha256="e31b9c9753c9b11c4c55f68155e5b6c4471f7bcdbb72922c5ac066fab0357b47"/>
     </implementation>
@@ -49,39 +49,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
-        <environment insert="." mode="replace" name="BoostCore_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Functional-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
-        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Move-dev.xml">
-        <environment insert="." mode="replace" name="BoostMove_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
-        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
-        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7BwACgkQxnV5mk56UjH2AgCglgE0K9cblEDkDtinEnoWe5w4EbkAoI6FxuWo
-bmOdsDp9swkWPcHJmFzW
+iEYEABECAAYFAk+b9bkACgkQxnV5mk56UjFIWwCfRgoV5vUK2N+j1NRMbjINHLF11Y8AnRhqQYx6
+5Aa3rK4x/v7Xnag6wsgm
 
 -->

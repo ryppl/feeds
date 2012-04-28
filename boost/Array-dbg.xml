@@ -10,7 +10,7 @@
     constant size.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="69ca6a34-711b-4f7b-95df-05892280f01b" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="2b34e2b0-35ad-4bc6-b53a-7163e76fe37e" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-array-8b17cd1" href="http://nodeload.github.com/boost-lib/array/zipball/8b17cd12a6b619b5f5f708ed8ce9f5917e0f53bd" size="16215" type="application/zip"/>
       <manifest-digest sha256="d771845e0959f728b7c783e0a50a61b8438c8cfde6f5e787af5c7c2bf243a046"/>
     </implementation>
@@ -51,20 +51,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
-        <environment insert="." mode="replace" name="BoostException_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7AEACgkQxnV5mk56UjEaQQCeJ/lJUgyCTJ3R96KFKTRc0+CoX3MAmgPJkcK1
-QpDXuBYe4Jczw5cdrPhw
+iEYEABECAAYFAk+b9ZwACgkQxnV5mk56UjEcTgCeJ7Tlrho34Ez7kcPUPzC9tLaXf/UAmgKlI+HA
+iTJKZMuRfu+eyyPjvthz
 
 -->

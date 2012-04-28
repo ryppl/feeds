@@ -13,7 +13,7 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="590e2c47-4922-4083-a2c5-e292832164f7" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="9470d82f-7a8a-49b7-a52c-4f0a4d173c73" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-multi_index-eb9469c" href="http://nodeload.github.com/boost-lib/multi_index/zipball/eb9469ca835827db398d5d344314e2b2481b23ab" size="506902" type="application/zip"/>
       <manifest-digest sha256="61a9d346e996de192aefbc26c39036424ab02eddcdb949ef6f90af03ed273038"/>
     </implementation>
@@ -54,50 +54,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
-        <environment insert="." mode="replace" name="BoostBind_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
-        <environment insert="." mode="replace" name="BoostCore_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
-        <environment insert="." mode="replace" name="BoostException_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Foreach-dev.xml">
-        <environment insert="." mode="replace" name="BoostForeach_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Functional-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
-        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
-        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml">
-        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
-        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
-        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
-        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
-        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7CsACgkQxnV5mk56UjFs9gCeIUyjiXcjM/lODlodLWswLyibtW0AoJYzdJNb
-gpWylAFB2Dtirh6f7FRS
+iEYEABECAAYFAk+b9cUACgkQxnV5mk56UjFrAwCgpLK/dfeVNBevwO5lekquafy6Hu0An3IJdkiL
+Lkqb1C983iU7k38it8fT
 
 -->

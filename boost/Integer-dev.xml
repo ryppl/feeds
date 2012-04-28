@@ -15,7 +15,7 @@
     in namespace std.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4cf168c1-6ba1-4899-b8fa-6c120c868354" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
+    <implementation arch="*-src" id="fd2f118a-0eeb-4a8b-a4d4-ad94cbbb669b" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
       <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
       <manifest-digest sha256="6cfab1a320948b381a597b95389ea53fc836d3d01631e501a6c6e471970fda9a"/>
     </implementation>
@@ -55,18 +55,12 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
-        <environment insert="." mode="replace" name="BoostCore_DIR"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b7BUACgkQxnV5mk56UjELOgCfdYAEUe/jvNUZYVQ41brjOQykzRIAn3gRW16o
-WhxLXWeQwkkwWTjBqO0/
+iEYEABECAAYFAk+b9bUACgkQxnV5mk56UjFaKACfcqUsvSjIvQZzM4gImUdD/vd4VfEAn2x/XNhD
+Yuy8/a4K7BWp8WFE1Qhc
 
 -->
