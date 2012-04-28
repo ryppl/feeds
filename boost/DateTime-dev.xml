@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e373d651-88b3-4aa7-8de1-54b4924f0678" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="4b2173a7-2c9c-4ccb-a621-6ce991cf09aa" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
       <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
       <manifest-digest sha256="8f89b153bde52e5c6c9a83faa29992fe47a9b87e5e4364cb860a654b38aabf56"/>
     </implementation>
@@ -72,8 +72,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Range-dev.xml">
         <environment insert="." mode="replace" name="BoostRange_DIR"/>
@@ -97,7 +97,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDHMACgkQxnV5mk56UjE47wCeLZd6bxRMeDQQ+0XNUfz/EzwcuPAAnAozVyIy
-Or83xj8npT+22+Mfh8jl
+iEYEABECAAYFAk+bTk0ACgkQxnV5mk56UjFhXQCfYpSzeSMxQwBvKqp3XRKodLMfTaMAn2R2fKni
+VNMwjbTnYRvRTX9kDsae
 
 -->

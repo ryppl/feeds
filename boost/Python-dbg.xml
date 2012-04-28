@@ -13,7 +13,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ce0aeb86-1f8f-4e5a-a410-aeb0f877dcb6" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
+    <implementation arch="*-src" id="12392c30-6e16-452b-8251-7ad2fac6cec2" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
@@ -81,8 +81,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Numeric-dev.xml">
         <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
@@ -108,11 +108,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/PythonLibs-dev.xml">
+        <environment insert="." mode="replace" name="PythonLibs_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDLEACgkQxnV5mk56UjFGIACfaaBjc3EmJAGrqA40aUBHUqdvOpAAniX2Gccv
-o0s+WHmMetDkVlIWWwus
+iEYEABECAAYFAk+bTpsACgkQxnV5mk56UjFZTgCdHE1xgcB2MnzuKCjsqA0Crqf7skEAn2kPfXyZ
+8eZaqIZRw/adlVDEgFq9
 
 -->

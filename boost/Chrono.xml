@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f7e66c91-b1cf-4eb6-bc92-e5d2e80a5645" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="0b2c23dc-1aea-49de-99bf-21178faae7c5" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
       <archive extract="boost-lib-chrono-bcb5566" href="http://nodeload.github.com/boost-lib/chrono/zipball/bcb556677222caab2626f7a160a74b43a8ba81a3" size="574649" type="application/zip"/>
       <manifest-digest sha256="5669bd55b8bcfc5cf98dd1f21cb3fc2cf3a09e819a136fce9754d5fe63ce0e17"/>
     </implementation>
@@ -75,8 +75,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
         <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Ratio-dev.xml">
         <environment insert="." mode="replace" name="BoostRatio_DIR"/>
@@ -100,7 +100,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDG4ACgkQxnV5mk56UjGwnwCfazEi3Hywpw8+EnH8ipzo7fhJXU8AoKbqUE7e
-9ukIRF/a6iT2DAv2JPat
+iEYEABECAAYFAk+bTkkACgkQxnV5mk56UjFe4wCghM6exlZ/IpPGIWdZkk1vjZ4NU54An1ecJEEz
+9+f16TraMvi3s5cr3MpP
 
 -->

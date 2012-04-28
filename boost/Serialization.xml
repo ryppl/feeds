@@ -11,7 +11,7 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fe171f05-e38f-4bfb-9427-d6ea9af5c644" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
+    <implementation arch="*-src" id="28ba24a3-19d8-418e-98c4-5090430ead90" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
       <archive extract="boost-lib-serialization-ebd63ab" href="http://nodeload.github.com/boost-lib/serialization/zipball/ebd63abc2a16ae3a3c18f2821d8e3668e9b1e3fc" size="843982" type="application/zip"/>
       <manifest-digest sha256="410efa369be7f01d65b698c60eab2b6b2e596cb7301ff8aa5f8a8a8fd79e99e1"/>
     </implementation>
@@ -79,8 +79,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
@@ -106,8 +106,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Uuid-dev.xml">
-        <environment insert="." mode="replace" name="BoostUuid_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/UUID-dev.xml">
+        <environment insert="." mode="replace" name="BoostUUID_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Variant-dev.xml">
         <environment insert="." mode="replace" name="BoostVariant_DIR"/>
@@ -116,7 +116,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDLsACgkQxnV5mk56UjGmMQCdEarfQqz7ro06+AWwBfYxgputVEEAnj5Z2oAR
-SBHr6ccM/V70B+sk8ang
+iEYEABECAAYFAk+bTqYACgkQxnV5mk56UjGFvACgh1xhoYbWpjxUrmU4OfyQkmFOI9EAn0jLglGX
+8mjlNKhfIS8ZFTzOES19
 
 -->

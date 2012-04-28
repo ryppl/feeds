@@ -11,7 +11,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7fb5cabf-2e87-411b-a5ec-a501880eba05" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="967cfa35-6623-463b-94a4-c67237ec09af" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
       <archive extract="boost-lib-mpi-5f6f80d" href="http://nodeload.github.com/boost-lib/mpi/zipball/5f6f80d78dc068b33d443b502c65e7a84401a2dd" size="219930" type="application/zip"/>
       <manifest-digest sha256="d97d472eebafcda3ab99d64cc6b898b5a4118efb810bd3679d72475573855e30"/>
     </implementation>
@@ -76,8 +76,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
@@ -103,11 +103,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/MPI-dev.xml">
+        <environment insert="." mode="replace" name="MPI_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/PythonLibs-dev.xml">
+        <environment insert="." mode="replace" name="PythonLibs_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDIsACgkQxnV5mk56UjGkMwCggNrcB9OM8YXSrKVB1H1VNG63+DQAoKN8u0A0
-pnPBhJSEnwII9wZL5hXp
+iEYEABECAAYFAk+bTm8ACgkQxnV5mk56UjHyIQCeJqo4/YtvQpxSxR9rAimnPWYHcA4AnjwHRHmb
+HdoA4FRAnlWkdWgOJxFk
 
 -->

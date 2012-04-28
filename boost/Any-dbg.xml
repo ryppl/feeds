@@ -10,7 +10,7 @@
     different value types.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2dcdf7e3-8102-42fc-a386-7050af19fbfc" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="5699a1a1-1f88-45ba-8e2d-c20313c9feaf" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
       <manifest-digest sha256="ca8e900a3139ddafd6ba9dad839185c996594035d4a4cc4c104d199e3908bfd0"/>
     </implementation>
@@ -51,14 +51,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDGoACgkQxnV5mk56UjGyewCcDOVehP4K2NNctbQ5MUz92e6Q3PMAnR2PbHXT
-cnvfv4ODs6eAQvHWyHq8
+iEYEABECAAYFAk+bTkAACgkQxnV5mk56UjFYCQCdGFpTFWirOdkqd4p3zps/AoPU+RYAn1P6M+18
+/zf2jLIZo60dJ6locTut
 
 -->

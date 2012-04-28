@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d7de1a13-ae20-48a3-9c58-09293a2b8177" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="de5eed3b-202d-4891-b315-d0523d534da5" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha256="f32a5c5e8563c782092791d699dda5da24757638131b0f5e64a7cfb4090ee047"/>
     </implementation>
@@ -52,17 +52,11 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
-        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
-        <environment insert="." mode="replace" name="BoostTest_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDG8ACgkQxnV5mk56UjEyKwCdFpHbqV413u9awzV5OoZkpL5bY40AniUBe38C
-zRtlLxmOXXRC4bwrP/NU
+iEYEABECAAYFAk+bTkkACgkQxnV5mk56UjHv9gCeOv390C15xE/57ZHaZX7qX4ULG2cAn0YB8bLO
+9CRo42hKK0u+x2hJdcjk
 
 -->

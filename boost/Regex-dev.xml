@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="492ee5e0-8446-40ed-9edc-543dbd337ac0" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
+    <implementation arch="*-src" id="f201c2ca-86c7-4c07-82fb-ec61ed154e47" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
       <manifest-digest sha256="014aa0683685c92e4aceadeda68d91eb8756298cd6f6fb50bca781c697b1db28"/>
     </implementation>
@@ -70,8 +70,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
         <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
@@ -94,11 +94,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Xpressive-dev.xml">
         <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ICU-dev.xml">
+        <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDLcACgkQxnV5mk56UjG2vwCfcmPN9cbG1CNVkgj36OB4jDfK16AAn0X66ucb
-UxWQFnO1R3V8RkmLSDl7
+iEYEABECAAYFAk+bTqIACgkQxnV5mk56UjGsVQCeL0/JMCltAVYarzStnzRjBQcryfQAoJlAbS0i
+rd8Qy7OVtWXqcmHg0R9n
 
 -->

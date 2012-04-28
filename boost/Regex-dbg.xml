@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="968eee6b-57d5-4ca6-8cee-e73131e714e1" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
+    <implementation arch="*-src" id="4a8ffab2-5227-415f-bd41-40d295724401" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
       <manifest-digest sha256="014aa0683685c92e4aceadeda68d91eb8756298cd6f6fb50bca781c697b1db28"/>
     </implementation>
@@ -71,8 +71,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
         <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
@@ -95,11 +95,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Xpressive-dev.xml">
         <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/ICU-dev.xml">
+        <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDLgACgkQxnV5mk56UjGKLgCeJMzTKN0guLfZ8488zQ1b8g87AlEAnjtx14yR
-9i9pem35u37kpCttA+hU
+iEYEABECAAYFAk+bTqMACgkQxnV5mk56UjG/LwCcDexQ2ORhu1gWC+irZ4aycmRAdqsAniFhOPid
+rO1boxi32Ekpn6xp5x8f
 
 -->

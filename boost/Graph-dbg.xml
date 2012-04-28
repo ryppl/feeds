@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8a5fc716-b0e0-4621-95cc-4d255cba5bf1" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="e9f66173-e249-46f0-892b-8cb8b0df1715" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
       <manifest-digest sha256="4894a78fe95d659a9ac4ac10dc4f08ae5ca2b812db22cd8d850f66df1709fe53"/>
     </implementation>
@@ -110,11 +110,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
         <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpi-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpi_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPI-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPI_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MultiIndex-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
@@ -180,7 +180,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDIIACgkQxnV5mk56UjGB4QCfYtU5xnjkW1kMFG51xd5dTSyn4ycAoII5yNlg
-/pCn+MiU8uZdYmpbc/CK
+iEYEABECAAYFAk+bTmwACgkQxnV5mk56UjHXeQCgoM2x51HpTr5uQAEe6lmvWrMyToIAn15eKnBQ
+EiArNPWGi/umW53NSyKU
 
 -->

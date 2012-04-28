@@ -43,7 +43,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f59ad4a2-6074-4359-bb5e-662cef1eda8e" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="22b1f14a-f81c-4ab1-ac78-8f0efc4dab6e" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
       <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
@@ -120,8 +120,8 @@ A wide selection of univariate statistical distributions and
       <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
         <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Numeric-dev.xml">
         <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
@@ -147,8 +147,8 @@ A wide selection of univariate statistical distributions and
       <requires interface="http://ryppl.github.com/feeds/boost/Timer-dev.xml">
         <environment insert="." mode="replace" name="BoostTimer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Tr1-dev.xml">
-        <environment insert="." mode="replace" name="BoostTr1_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/TR1-dev.xml">
+        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
         <environment insert="." mode="replace" name="BoostTuple_DIR"/>
@@ -163,7 +163,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDKoACgkQxnV5mk56UjFhXwCeJjznQCDn3Y5Fe4mTAafGkwhyOboAnRB5sfjm
-DYXQq4m8WB4iHtaFg7Sm
+iEYEABECAAYFAk+bTp0ACgkQxnV5mk56UjECFQCcDHX0Bn1OJU/wdV41b6JU5lupzHcAnj/SQCdX
+1rTOcVxHINhkPwWfRVTr
 
 -->

@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="562786f5-d1b3-413f-be2e-d413123affe1" released="2012-04-27" stability="testing" version="1.49-post-201204272115">
+    <implementation arch="*-src" id="e8f69e39-e123-4649-b9a7-1ad7a3e5e825" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
       <archive extract="boost-lib-iostreams-1864e1f" href="http://nodeload.github.com/boost-lib/iostreams/zipball/1864e1f86bef21c160b6080c2bfc258c850962eb" size="700613" type="application/zip"/>
       <manifest-digest sha256="88c855fabae3970a25f15f3cf106780cd34dfd3594dd20d49118b2df3e3d78c8"/>
     </implementation>
@@ -55,11 +55,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/BZip2-dev.xml">
+        <environment insert="." mode="replace" name="BZip2_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ZLIB-dev.xml">
+        <environment insert="." mode="replace" name="ZLIB_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDIgACgkQxnV5mk56UjHD0gCfWoLq42jYMO2wc6kY8NogrpYoqFEAn2jTvm1e
-1LmfZ6Z7MO6UEBQPwF3E
+iEYEABECAAYFAk+bTm0ACgkQxnV5mk56UjEVkgCbBSE+wy+noE6lNtIYjeBGzoPdCjEAoJdddzWl
+8KcIicT+uTcUGpCyKhEX
 
 -->

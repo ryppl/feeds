@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ab1bdd24-acab-4555-96a2-8f60419a6e23" released="2012-04-27" stability="testing" version="1.49-post-201204272117">
+    <implementation arch="*-src" id="be8d4ee0-7d66-4eb3-a106-18ea8c0aeae8" released="2012-04-27" stability="testing" version="1.49-post-201204280158">
       <archive extract="boost-lib-quickbook-41622f9" href="http://nodeload.github.com/boost-lib/quickbook/zipball/41622f98c58c43fb930efff2337953deafc0e800" size="436069" type="application/zip"/>
       <manifest-digest sha256="e61e42e8bf59b9082f064bf8d6bb977c4602647f4a6f2ee7bc86ff30a4bb3992"/>
     </implementation>
@@ -71,8 +71,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Foreach-dev.xml">
         <environment insert="." mode="replace" name="BoostForeach_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Iostreams-dev.xml">
-        <environment insert="." mode="replace" name="BoostIostreams_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/IOStreams-dev.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
@@ -106,7 +106,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDNEACgkQxnV5mk56UjGFSQCgkpUGgEhkVvwnJOU0oYUndYPJX+8An1rX+7P7
-N3ELukZF9MB3+KKwGgLi
+iEYEABECAAYFAk+bTsAACgkQxnV5mk56UjGJKACfXizDAQwir+iQSijXPLfrYznE5egAnRS0Mv3S
+clwje5pG1/fYtMK/S5vq
 
 -->

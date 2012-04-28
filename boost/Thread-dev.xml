@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eb3687c9-c4a6-492a-9c5a-8ef0ec191084" released="2012-04-27" stability="testing" version="1.49-post-201204272116">
+    <implementation arch="*-src" id="744558a6-991f-4846-b71f-8cfe707f4e65" released="2012-04-27" stability="testing" version="1.49-post-201204280158">
       <archive extract="boost-lib-thread-420efc2" href="http://nodeload.github.com/boost-lib/thread/zipball/420efc212804318765379b2b22f662418585cc62" size="430513" type="application/zip"/>
       <manifest-digest sha256="3c68e1eeef182a59eb7b84c003c4da1d60db192fc54a00feab1ae1ff2b0a0a1e"/>
     </implementation>
@@ -83,8 +83,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Move-dev.xml">
         <environment insert="." mode="replace" name="BoostMove_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Mpl-dev.xml">
-        <environment insert="." mode="replace" name="BoostMpl_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
@@ -104,11 +104,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/Threads-dev.xml">
+        <environment insert="." mode="replace" name="Threads_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bDMMACgkQxnV5mk56UjHn2ACfZ9JXWNUZmbwP3faw/eACb4bQ/rYAni9TM3zd
-B88VX7c7wBSFU50sgQ5n
+iEYEABECAAYFAk+bTq0ACgkQxnV5mk56UjEQEQCfUg5ck3kfcvtuJAaZGJ0r7Fx/qWwAn3kYIECq
+UvpY1wu8+5GnA2nfUqUi
 
 -->
