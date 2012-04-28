@@ -19,10 +19,10 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
     <implementation id="sha1new=8189f210ace92a1c54fed88e052493f97140ee5b" released="2012-04-28" stability="developer" version="0.8-pre-201204281522">
       <archive extract="ryppl-0cmake-7936652" href="http://nodeload.github.com/ryppl/0cmake/zipball/7936652dd3ded3223d991e0ac2097011c2217547" size="3066" type="application/zip"/>
     </implementation>
-    <implementation id="sha1new=1197bf3aa226e036ed72cf0d4c5a1f3e2accc33a" released="2012-04-28" stability="developer" version="0.8-pre-201204281437">
+    <implementation id="sha1new=1197bf3aa226e036ed72cf0d4c5a1f3e2accc33a" released="2012-04-28" stability="developer" version="0.8-pre-201204281607">
       <archive extract="ryppl-0cmake-d45031e" href="http://nodeload.github.com/ryppl/0cmake/zipball/d45031e2749eb51ac756e84c90ba6b7c30142140" size="2848" type="application/zip"/>
     </implementation>
-    <command name="run" path="zerorunner.py">
+    <command name="run" path="zerocmake.py">
       <runner interface="http://repo.roscidus.com/python/python">
         <version before="3"/>
       </runner>
@@ -34,7 +34,7 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cQ7IACgkQxnV5mk56UjHiOwCfVMtvJAIO2MozD5imWlB5iX/+XpkAmQGRJvfQ
-YviSV7kxIlhfiP/Uh+Ja
+iEYEABECAAYFAk+cThAACgkQxnV5mk56UjHCXQCgmoBLBi2g3bTcIoGp1M9j9wjTN2YAnjMidUFC
+9x8czYIFqpL1bvefEMRZ
 
 -->
