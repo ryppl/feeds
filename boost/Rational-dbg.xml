@@ -9,13 +9,13 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a7852ab8-adaf-4f5c-b9ec-2f895fe2bc8a" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
+    <implementation arch="*-src" id="061f3410-7236-47ef-b9cf-4696676eec4f" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
       <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
       <manifest-digest sha256="629451ab655307e6df8678b39f2f799b9b49c615b69aa153b3c03f5c193bca08"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSmEACgkQxnV5mk56UjEuBgCfYqTzByrHO3AN2JtaOkocw0ru4Z0An3kIxGAb
-yySpLJXBjGC0nu6DKghG
+iEYEABECAAYFAk+ca60ACgkQxnV5mk56UjHHGgCglrEniLXe5f5PFM37SS5clUWqmMwAoKi3qyWb
+/xKB3aqrVrbBI1Ki1HaR
 
 -->

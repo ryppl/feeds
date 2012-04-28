@@ -20,13 +20,13 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="75400e69-b05f-4cf1-9709-4b75a83fe51f" released="2012-04-28" stability="testing" version="1.49-post-201204281950">
+    <implementation arch="*-src" id="86ddb723-ef34-42bc-9a53-724e3d4bfca0" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
       <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
       <manifest-digest sha256="9c0d3158f7f15b97edbe1330460f36ccf6e6837518ef901c32a2d77962781ee0"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -38,7 +38,7 @@ String algorithms library.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSiUACgkQxnV5mk56UjE4LwCfZE918ezK39idguOKCjimZsd9NlYAn1jmLLlT
-OrI4bqAoI9EtacdUO2y4
+iEYEABECAAYFAk+ca1oACgkQxnV5mk56UjFRsQCgojYhtaSsTdUMDX6Zt48XJ/ntSnAAn3xiBqGj
+bheNF/LVEbHoQdgVFt0o
 
 -->

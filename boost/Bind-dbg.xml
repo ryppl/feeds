@@ -26,13 +26,13 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="51a35405-302a-420c-8275-5217247f62a7" released="2012-04-28" stability="testing" version="1.49-post-201204281951">
+    <implementation arch="*-src" id="ebe42756-6c42-4a88-8b47-a21c6a20b770" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
       <manifest-digest sha256="ddb4ec2e4f42c232916a7651a145caa7f1184c0a472e318dc0992df7fbe265ee"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -43,7 +43,7 @@ A utility library for passing references to
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSiUACgkQxnV5mk56UjEOqwCfcueURbBR7oUjnHtrmsRB2Sw5WJIAnj51noKe
-G8pZ4fK8WV+KihTR57sT
+iEYEABECAAYFAk+ca1kACgkQxnV5mk56UjEbUACeMqweGrEGuj0LaRFtYJxhxghVuNgAnjVIkRGL
+ABM06lUxJuJkllO4JdTh
 
 -->

@@ -10,13 +10,13 @@
     has never been easier.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8fa81ffe-d19f-4786-9b25-21f63087fbef" released="2012-04-28" stability="testing" version="1.49-post-201204281950">
+    <implementation arch="*-src" id="2eb276af-a645-4279-a5f9-4ed49a53dc53" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
       <archive extract="boost-lib-assign-142ad90" href="http://nodeload.github.com/boost-lib/assign/zipball/142ad90451a0d197a41d950eaadee0d04e6f992a" size="62393" type="application/zip"/>
       <manifest-digest sha256="d5118cef8f1d52683cf3e21f6aa5895b56dd82833432b15d52f33e8c520ff326"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSiQACgkQxnV5mk56UjEFiQCcDZ6u6vIbGU4V9flUbHv3PjznXU4AnRbb5GR+
-Y6zsYos+gpaipTbC4S68
+iEYEABECAAYFAk+ca1gACgkQxnV5mk56UjFSpwCeNVG8LkT62RJ0H1cu6oLW+Rjm0q8An0+gHhsA
+e0L9VICUxebZH44j/1SZ
 
 -->

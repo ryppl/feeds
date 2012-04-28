@@ -13,13 +13,13 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2bbb9e28-f6d5-40f2-ba63-4b8ec12f1c37" released="2012-04-28" stability="testing" version="1.49-post-201204281951">
+    <implementation arch="*-src" id="a0911c31-3db2-492a-91f6-cb71b01ccd0d" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
       <archive extract="boost-lib-fusion-4392acf" href="http://nodeload.github.com/boost-lib/fusion/zipball/4392acfbfbcb26cf34f0ef1870e0b2f3367dc9df" size="1209617" type="application/zip"/>
       <manifest-digest sha256="0e02dc9aa6f9abce4cb40b3e04e06b31d6687f47a5372e545e17d18cdf8655f5"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -31,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSjIACgkQxnV5mk56UjF/MQCcDRHVw7IVMWpUlAP8xSRf9Ucn5UcAnRZOpayS
-0ZOLaOigliJJJ71SE/r5
+iEYEABECAAYFAk+ca2gACgkQxnV5mk56UjHdDACcDz97lm0KEVThtRflS2rPa7J7aQoAnA9KI2up
+1lySrmZfoD60o5WfkNW6
 
 -->

@@ -10,13 +10,13 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="da7f71e5-eeff-475f-8d94-d5c3a3f7f37d" released="2012-04-28" stability="testing" version="1.49-post-201204281951">
+    <implementation arch="*-src" id="01eed6d7-0d00-4be2-b54a-0b918607763c" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
       <archive extract="boost-lib-boostbook-3213c0a" href="http://nodeload.github.com/boost-lib/boostbook/zipball/3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab" size="212674" type="application/zip"/>
       <manifest-digest sha256="2df8339b16e4da6a5b719b0d30a4722ac915dfd425bb545c3221c734037fe8ea"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSicACgkQxnV5mk56UjF1uACfRJJsFmM5DSCOkUYCfZ9L6+TII9wAmgI7XrWP
-uRR6zO0AZjzJYoTnYS0Z
+iEYEABECAAYFAk+ca1sACgkQxnV5mk56UjEAEgCff9VUmWGNnFPoSroZFSyBLhSHLHsAoKQjFYLv
+UHOtS6vEvE9HU+zf2WdL
 
 -->

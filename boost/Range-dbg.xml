@@ -11,13 +11,13 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6f60c9fb-58c7-4926-b8c2-262754924f8a" released="2012-04-28" stability="testing" version="1.49-post-201204281951">
+    <implementation arch="*-src" id="117dbe31-ec40-4cce-9667-abf696a28426" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
       <archive extract="boost-lib-range-a104c48" href="http://nodeload.github.com/boost-lib/range/zipball/a104c48977ec6d420abf7b34c9bcdc94a1f7d6a2" size="803652" type="application/zip"/>
       <manifest-digest sha256="e2c5c85b010a83c3562277ec37a9e382de6ef1bc8eb537d5e402c102abf05001"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSmEACgkQxnV5mk56UjFZfgCeLh343rzkjEPzXbB74qplsH7kV3kAn1x63OSr
-RJre+1b6bBwcvwA1lIm4
+iEYEABECAAYFAk+ca60ACgkQxnV5mk56UjGojQCdEHFetF0gHjNo2JkbzF8wedy+b/0An0JbMffh
+SctNUQCAb3COphd2BMeg
 
 -->

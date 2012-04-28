@@ -9,13 +9,13 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="df39ad15-ce62-4c75-81a9-487c9ec2034a" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
+    <implementation arch="*-src" id="81505525-b881-4173-8025-36d1b7540fcf" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
       <archive extract="boost-lib-unordered-e9d55d7" href="http://nodeload.github.com/boost-lib/unordered/zipball/e9d55d7ded491933006c651f015d140893098004" size="192045" type="application/zip"/>
       <manifest-digest sha256="179c83b217c616c8b05801725fad75d957969a2092672a25f84d781c6b9a962f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSnMACgkQxnV5mk56UjFCEQCdH0zHK0+bRX/dMNOELeTunufRyz0AoIChogV2
-P2gT/jngxHSIgOVNpaCI
+iEYEABECAAYFAk+ca8QACgkQxnV5mk56UjFANACgiuOIKrBgtgBGycK6/RGuHNsAbIcAn0Z9s6w7
+s7ZnidjArIz5pSEERKor
 
 -->

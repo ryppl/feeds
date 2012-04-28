@@ -13,13 +13,13 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1dca5e1e-a423-44de-8818-1edfa549cdb8" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
+    <implementation arch="*-src" id="299a7ae2-88af-49dd-8607-79de7829a40f" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
       <archive extract="boost-lib-spirit-0e28531" href="http://nodeload.github.com/boost-lib/spirit/zipball/0e28531d80705d009f7355dfb1ca2466363b1c65" size="4519445" type="application/zip"/>
       <manifest-digest sha256="1d3b24440e1e9f5f71622413ab8e95a7e6b4991f1ace11ba16495994c588f7e9"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSnIACgkQxnV5mk56UjHbXwCeIAwp8H54+155wFv/XzVaj4stjC0Anjq2MxDq
-mRIkn34pzSaauM/3D0O1
+iEYEABECAAYFAk+ca8IACgkQxnV5mk56UjGCVACdHJ4vVcqMpS3as4Ts8oMqGLR+UpkAnRlcEbDu
+UWt4HvIDD8FBoiiORHSJ
 
 -->

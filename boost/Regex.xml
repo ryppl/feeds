@@ -9,13 +9,13 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3345d810-ef85-4476-89fa-0f7da13a4840" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
+    <implementation arch="*-src" id="8ed38d5c-e811-4950-abfe-b9f3b26bc193" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
       <archive extract="boost-lib-regex-6b31952" href="http://nodeload.github.com/boost-lib/regex/zipball/6b319529b27332b186244e85a3f76cd5e59eea4b" size="818639" type="application/zip"/>
       <manifest-digest sha256="014aa0683685c92e4aceadeda68d91eb8756298cd6f6fb50bca781c697b1db28"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281522"/>
+        <version not-before="0.8-pre-201204281803"/>
         <arg>--component=bin</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -74,7 +74,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+cSmQACgkQxnV5mk56UjFpcACcCmAALweBf+85kemrdV9umnKcieQAnA3T7k9r
-1Sf/qREdvYXQXc3HyT0x
+iEYEABECAAYFAk+ca68ACgkQxnV5mk56UjFcJACfVKz2MBg8A6681bmRkVmxCbYZaaAAn28kwTFk
+o9X37ioscbVfmX7+dzyl
 
 -->
