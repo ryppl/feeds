@@ -11,12 +11,15 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
   <homepage>http://ryppl.org</homepage>
   <category>Development</category>
   <icon href="http://www.cmake.org/opensourcelogos/cmakelogo.png" type="image/png"/>
-  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="sha1new=d87b2054240a4648e411e67dd2692ff6e99c3f20" released="2012-04-27" version="1.49-post-201204272223">
+  <group arch="*-src" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation id="sha1new=9af8277fb1cf5f1917b564a4918424ab73fd2cd4" released="2012-04-28" stability="testing" version="1.49-post-201204281116">
+      <archive extract="ryppl-boost-zero-15fda8d" href="http://nodeload.github.com/ryppl/boost-zero/zipball/15fda8d8dc7b05aacffc2411268afe7db2469b6f" size="153689" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d87b2054240a4648e411e67dd2692ff6e99c3f20" released="2012-04-27" stability="testing" version="1.49-post-201204272223">
       <archive extract="ryppl-boost-zero-be3c161" href="http://nodeload.github.com/ryppl/boost-zero/zipball/be3c161010bdf41a1e1615a1e2f076fea2bbc73f" size="152757" type="application/zip"/>
     </implementation>
 
-    <implementation arch="*-src" id="sha1new=2fa0123e285814e5472be426d195387e4206b198" released="2012-04-25" stability="testing" version="1.49-post-201204251437">
+    <implementation id="sha1new=2fa0123e285814e5472be426d195387e4206b198" released="2012-04-25" stability="testing" version="1.49-post-201204251437">
       <archive extract="ryppl-boost-zero-6065c38" href="https://nodeload.github.com/ryppl/boost-zero/zipball/6065c386af02d7a8ec9401c45a817abd02b3585a" size="153214" type="application/zip"/>
       <manifest-digest sha256="382413b94ca47cc7671c7ea5499fbb539c0a461530ada84b54fd3ede84f23ce7"/>
     </implementation>
@@ -33,7 +36,7 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bVOgACgkQxnV5mk56UjFzXACgo7RQ+FG7wPRDGldflAjaV09fgksAoKHGljEk
-yEsMF7j3Vm/IWnnaIUbg
+iEYEABECAAYFAk+cCmEACgkQxnV5mk56UjF8ZQCghE2HLN8GW99xL2SQb2DxRHJsvAsAn1l6oBU1
+ks8Y1zJSFH2B8ZLHAq+R
 
 -->
