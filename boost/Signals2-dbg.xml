@@ -11,52 +11,24 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b4187981-71bf-4582-82a8-04a5d6254696" released="2012-04-28" stability="testing" version="1.49-post-201204281351">
+    <implementation arch="*-src" id="4f8be3d2-426c-4e86-9fba-6511206afe61" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha256="3495646fcbad99650be3b9fd822e5004e096d529ece4c932f52b0427b3198e6f"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${BOOST_CMAKELISTS_DIR}/signals2</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>./source</arg>
-        <arg>-DBUILD_TYPE=Debug</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>--build</arg>
-        <arg>.</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>-DCOMPONENT=dbg</arg>
-        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
-        <arg>-P</arg>
-        <arg>cmake_install.cmake</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201204281522"/>
+        <arg>--component=dbg</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
-        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+        <environment insert="signals2" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b9egACgkQxnV5mk56UjG7LQCgqCIxs942JKFT7iS1/kznesnxXkcAoKbAyj6o
-WBp64bA2PcLvg3YUwwY8
+iEYEABECAAYFAk+cSmUACgkQxnV5mk56UjFwWQCcC5HH/lz4Hn5bhbzrnUcRgRkYFoMAoIKrn2el
+xZt1WXrc+j787cxKvuwZ
 
 -->

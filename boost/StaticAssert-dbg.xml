@@ -12,52 +12,24 @@
   <category type="http://boost.org/lib-categories">Correctness</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="672cb3e3-1f03-4a3b-b063-bf8fd51eb19b" released="2012-04-28" stability="testing" version="1.49-post-201204281351">
+    <implementation arch="*-src" id="40c1e844-b303-482b-8ba3-cdfc98f6f7b6" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha256="e152891f47403d3eb4dae9a9c82384b0a442e251d8fb0ed42abcb78d0c586fc8"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${BOOST_CMAKELISTS_DIR}/static_assert</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>./source</arg>
-        <arg>-DBUILD_TYPE=Debug</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>--build</arg>
-        <arg>.</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>-DCOMPONENT=dbg</arg>
-        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
-        <arg>-P</arg>
-        <arg>cmake_install.cmake</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201204281522"/>
+        <arg>--component=dbg</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
-        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+        <environment insert="static_assert" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b9eoACgkQxnV5mk56UjG21QCdFszcXtjtHTmHZ5IjYZ3YCGCT+I0AnjfJxtOo
-vfOECTxI1YpWUP07nvZ4
+iEYEABECAAYFAk+cSmYACgkQxnV5mk56UjE8HQCfZqaoV9C5s9C5OojWoufqR0kDx5sAnA5tW4Xf
+79+YA6AeS+0KhDzzBMMm
 
 -->

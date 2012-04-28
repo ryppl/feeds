@@ -10,52 +10,24 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0b5bb4b7-e092-404b-aae3-cedb9b9f63ed" released="2012-04-28" stability="testing" version="1.49-post-201204281351">
+    <implementation arch="*-src" id="f73b83c3-e55c-4c34-8d1b-421ce5ea85b6" released="2012-04-28" stability="testing" version="1.49-post-201204281952">
       <archive extract="boost-lib-uuid-7235414" href="http://nodeload.github.com/boost-lib/uuid/zipball/7235414cbe99a431f0183a927b3285170a33a60e" size="48926" type="application/zip"/>
       <manifest-digest sha256="926ecb88a798286b137f4c056959a021789e8e29edadff577065854493f80370"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${BOOST_CMAKELISTS_DIR}/uuid</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>./source</arg>
-        <arg>-DBUILD_TYPE=Debug</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>--build</arg>
-        <arg>.</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>-DCOMPONENT=dbg</arg>
-        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
-        <arg>-P</arg>
-        <arg>cmake_install.cmake</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201204281522"/>
+        <arg>--component=dbg</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
-        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+        <environment insert="uuid" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b9f0ACgkQxnV5mk56UjG0bgCfcTMJDITj6mpJlwNixPY5W68Ese0AniWLu3pw
-ttF+s8ZxuGRezsSf4INm
+iEYEABECAAYFAk+cSnUACgkQxnV5mk56UjGFhgCfS/ZAp+xxEE+vQK65/m8ot88zVpwAnj4GmC9x
+VUpbe3j/vzkcOJSsaBq9
 
 -->

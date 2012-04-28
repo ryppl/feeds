@@ -11,52 +11,25 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a8b39349-b6f5-4efa-a130-31f6faff7381" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
+    <implementation arch="*-src" id="374aae67-b56a-40d5-b518-78a2a218acea" released="2012-04-28" stability="testing" version="1.49-post-201204281950">
       <archive extract="boost-lib-asio-97e13d3" href="http://nodeload.github.com/boost-lib/asio/zipball/97e13d3b006c31acc620716444a778c507e7bcc8" size="1389225" type="application/zip"/>
       <manifest-digest sha256="d051a6807cffd1f46e0bde1fbe9ff653a668a810a496e4a2fc5172375b1d6f42"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${BOOST_CMAKELISTS_DIR}/asio</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>--build</arg>
-        <arg>.</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>-DCOMPONENT=dev</arg>
-        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
-        <arg>-P</arg>
-        <arg>cmake_install.cmake</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201204281522"/>
+        <arg>--component=dev</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
-        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+        <environment insert="asio" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b9aMACgkQxnV5mk56UjHaeACcCW7OoriW1q/DYp7kcxo1M7Iqo2AAnR0QMWrt
-H7fgwrvXoK8//p1ESbRL
+iEYEABECAAYFAk+cSiYACgkQxnV5mk56UjE4AQCeIIAKbaxwJ/oRuTIPuU/WvaduxskAoI88PTZo
+QJVuwwY+6YmnRs5Op2UG
 
 -->

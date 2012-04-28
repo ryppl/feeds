@@ -10,52 +10,24 @@
     </description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c6bbfbf2-2fd0-45cb-8d97-d01545898c83" released="2012-04-28" stability="testing" version="1.49-post-201204281350">
+    <implementation arch="*-src" id="e847acab-7513-43ba-b67f-cd2e6678a643" released="2012-04-28" stability="testing" version="1.49-post-201204281951">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha256="f5f0bf90369f3cb8ec1cd7aa61f89c0759ae64082b849ce06c190fe66402a93c"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0runner.xml">
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${SRCDIR}</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
-        <arg>${BOOST_CMAKELISTS_DIR}/circular_buffer</arg>
-        <arg>./source</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>./source</arg>
-        <arg>-DBUILD_TYPE=Debug</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>--build</arg>
-        <arg>.</arg>
-        <arg>;</arg>
-        <arg>http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml</arg>
-        <arg>-DCMAKE_MODULE_PATH=${CMAKE_MODULE_PATH}</arg>
-        <arg>-DCOMPONENT=dbg</arg>
-        <arg>-DCMAKE_INSTALL_PREFIX=${DISTDIR}</arg>
-        <arg>-P</arg>
-        <arg>cmake_install.cmake</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201204281522"/>
+        <arg>--component=dbg</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="." mode="replace" name="BOOST_CMAKELISTS_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
-        <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+        <environment insert="circular_buffer" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+b9aIACgkQxnV5mk56UjH11ACfYmiFx+/ahTJ3e3VyCt8PWRYNliIAoIarJgKA
-mcfY48tUzo79Ptr8jBLt
+iEYEABECAAYFAk+cSigACgkQxnV5mk56UjHu+gCfUcf4vcg0y+8gGEWfTaSAfvPHL3cAnjpOQIHC
+MmKblXxsAcCjR6gf01Fs
 
 -->

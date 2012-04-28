@@ -9,12 +9,17 @@ Supplies the files needed to support Ryppl projects' use of CMake</description>
   <category>Development</category>
   <icon href="http://ryppl.github.com/_static/ryppl.png" type="image/png"/>
   <!-- The oddball ID is just to have something unique from other feeds using the same archive -->
-  <implementation arch="*-*" id="sha1new=0913c85f12a669640fd7a35ec488a08489a25ee8" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)" released="2012-04-25" stability="testing" version="1.49-post-201204251624">
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation id="sha1new=fc3e17ab80c3243617cde24b4038208c3c250556" released="2012-04-28" stability="developer" version="0.8-pre-201204281532">
+      <archive extract="ryppl-ryppl-cmake-ea94bdd" href="http://nodeload.github.com/ryppl/ryppl-cmake/zipball/ea94bdd99ef90ad9ea643cd7db1fbbec0cca02e6" size="41390" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=0913c85f12a669640fd7a35ec488a08489a25ee8" released="2012-04-25" stability="developer" version="0.8-pre-201204251624">
     <archive extract="ryppl-ryppl-cmake-f231def" href="https://nodeload.github.com/ryppl/ryppl-cmake/zipball/f231def7a2c0f8e9c91ea652dc1c549b770b56d1" size="39252" type="application/zip"/>
   </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+YXZ8ACgkQxnV5mk56UjGGpwCffBQiMZjyEwUsJMQUxQNsCiwuiKUAoI/f16Bg
-MzVtrXxLIgLYYRWwSK1k
+iEYEABECAAYFAk+cRe0ACgkQxnV5mk56UjFCPACfVk1rG98QhPtQlRoDKlgh5KW3ioIAn0FDR1yd
+SO89594BowRaZ4i0jwgj
 
 -->
