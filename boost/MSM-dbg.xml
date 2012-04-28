@@ -9,7 +9,7 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f10e03cd-994d-4f56-89d9-441858a2950a" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
+    <implementation arch="*-src" id="084472a5-5deb-4a91-b555-f9aa69e2c7da" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
       <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
       <manifest-digest sha256="27eece8fcee3d6aad0bcedd4cdf32dd60150864df25efec038fb811f3e698a3e"/>
     </implementation>
@@ -50,11 +50,68 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Any-dev.xml">
+        <environment insert="." mode="replace" name="BoostAny_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
+        <environment insert="." mode="replace" name="BoostBind_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CircularBuffer-dev.xml">
+        <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Fusion-dev.xml">
+        <environment insert="." mode="replace" name="BoostFusion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+        <environment insert="." mode="replace" name="BoostMPL_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Parameter-dev.xml">
+        <environment insert="." mode="replace" name="BoostParameter_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Phoenix-dev.xml">
+        <environment insert="." mode="replace" name="BoostPhoenix_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml">
+        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Proto-dev.xml">
+        <environment insert="." mode="replace" name="BoostProto_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Serialization-dev.xml">
+        <environment insert="." mode="replace" name="BoostSerialization_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Statechart-dev.xml">
+        <environment insert="." mode="replace" name="BoostStatechart_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Timer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTimer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
+        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Typeof-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTncACgkQxnV5mk56UjGC2wCdHv4a11YZPmxZ64UqwOTTqHIBDzAAni+7WGYD
-ymgZ8yIHb0YdduBPmBFf
+iEYEABECAAYFAk+b7CoACgkQxnV5mk56UjFTFQCeLsyfQ5ExtsBPYzgezfeF78LY8SoAoINCJObY
+P6xiLSARcDT02DLnqsgi
 
 -->

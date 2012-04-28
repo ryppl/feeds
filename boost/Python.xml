@@ -13,7 +13,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="13af0e39-e1ab-44be-bf1f-c94c9ae44835" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
+    <implementation arch="*-src" id="551613b0-1140-492d-9720-fc2eca2c0a4d" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
@@ -53,6 +53,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/PythonLibs-dev.xml">
+        <environment insert="." mode="replace" name="PythonLibs_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -108,14 +111,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/PythonLibs-dev.xml">
-        <environment insert="." mode="replace" name="PythonLibs_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTpgACgkQxnV5mk56UjGB/gCfaT847ZAqGykx//3/TpHkU/LMkiEAoI7yl1wD
-TyNOs+WFoQipTnxnCZcr
+iEYEABECAAYFAk+b7FAACgkQxnV5mk56UjGYzgCeNIPyHZhhzd7bh78H+QogmCC7eBAAn01qAQIE
+HZzwqs/uznpvc4teigS/
 
 -->

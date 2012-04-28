@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2765f94e-491b-44ad-912e-f0254462e12e" released="2012-04-27" stability="testing" version="1.49-post-201204280158">
+    <implementation arch="*-src" id="e96290e6-ba65-4206-a256-940b7541851c" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
       <archive extract="boost-lib-thread-420efc2" href="http://nodeload.github.com/boost-lib/thread/zipball/420efc212804318765379b2b22f662418585cc62" size="430513" type="application/zip"/>
       <manifest-digest sha256="3c68e1eeef182a59eb7b84c003c4da1d60db192fc54a00feab1ae1ff2b0a0a1e"/>
     </implementation>
@@ -51,6 +51,9 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/Threads-dev.xml">
+        <environment insert="." mode="replace" name="Threads_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
       </requires>
@@ -75,17 +78,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Functional-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
-        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Move-dev.xml">
-        <environment insert="." mode="replace" name="BoostMove_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Move-dev.xml">
+        <environment insert="." mode="replace" name="BoostMove_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
@@ -105,14 +108,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/Threads-dev.xml">
-        <environment insert="." mode="replace" name="Threads_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTrAACgkQxnV5mk56UjF7AACeKJFpXPpDy28RfFuYx9NTvpyfKo0An2oUsT1D
-bQhsU7d+nwrBcQQkSBkq
+iEYEABECAAYFAk+b7GIACgkQxnV5mk56UjGCAwCfcyyo30SGYL+7b0iVvI+ReTI/BsYAoJIavKag
+MGoE+eWHUgAt9tvDHR8e
 
 -->

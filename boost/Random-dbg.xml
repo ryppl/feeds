@@ -10,7 +10,7 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2bd8613c-287f-412f-9ab0-bc961fc01957" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
+    <implementation arch="*-src" id="cfd32939-d8e8-4c3f-bbb0-729d6eb06e8f" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha256="b7c6007c036cb9fbe94626ca0bfdd2aa7bf73c76209a76925562e03d7eb78cca"/>
     </implementation>
@@ -69,11 +69,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
         <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
+        <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MultiIndex-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
@@ -109,7 +109,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTpsACgkQxnV5mk56UjE5vACfV0dQcH4Rcq4kMmf9NT2gcH6eGooAnj7dmfLV
-CZ5r/YnUJdazhlSEzY0x
+iEYEABECAAYFAk+b7E4ACgkQxnV5mk56UjHB8ACfWH1taKNnV1FkEqlsmSHbvivvW98An3qABDJj
+ry0PayUYtahWKgT7MwoU
 
 -->

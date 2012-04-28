@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bbecadcb-976e-405d-a8eb-80ea835fb6c0" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
+    <implementation arch="*-src" id="f6f36644-3f4d-474d-95e7-4e15d9bcfde9" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
       <manifest-digest sha256="4894a78fe95d659a9ac4ac10dc4f08ae5ca2b812db22cd8d850f66df1709fe53"/>
     </implementation>
@@ -107,14 +107,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MPI-dev.xml">
         <environment insert="." mode="replace" name="BoostMPI_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
+        <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MultiIndex-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
@@ -180,7 +180,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTmcACgkQxnV5mk56UjH8XQCdGpCXAn/HD0YLYmEaQJvD/k4PHJMAn0VMAu3k
-xVCm/rAvZZwmjF6CZrSN
+iEYEABECAAYFAk+b7BYACgkQxnV5mk56UjGoTQCfevHGhPEeX5MaJJvHarOsBJG8HWYAn0cf0kS3
+WnWkThDKh9PnlxMtaQvR
 
 -->

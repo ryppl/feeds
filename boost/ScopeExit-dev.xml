@@ -9,7 +9,7 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="22e428bc-edbb-463b-a097-e3e9148d5ff6" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
+    <implementation arch="*-src" id="98df3048-ef65-4f04-a3ca-b3fa65c196e9" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
       <archive extract="boost-lib-scope_exit-5f996f7" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/5f996f7d7ff316556f057d1e99dd188dff0c09b1" size="99753" type="application/zip"/>
       <manifest-digest sha256="4d3de25b3d7b97ccfa769921d12c9741919b1fa4bd66fe0933cd919d7d9e3151"/>
     </implementation>
@@ -49,12 +49,21 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml">
+        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Typeof-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTqAACgkQxnV5mk56UjGNVQCfRnL8GWyggxc8GPVESmlQyiJyqZQAn2tX3y9e
-OV5ptkuZ/IjBL263j9y0
+iEYEABECAAYFAk+b7FMACgkQxnV5mk56UjHtDQCeLqT0XSFnjX9Kt3GQUhFLLY/GovsAoI31AEOo
+5Lrlt8Ruq3s07bsQH4Zu
 
 -->

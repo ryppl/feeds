@@ -17,7 +17,7 @@
     dynamic_bitset.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c9e0f7d-bab0-414b-8b0d-9916cd841464" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
+    <implementation arch="*-src" id="eb394171-4c00-44de-8b68-5bd7054b47a5" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
       <archive extract="boost-lib-dynamic_bitset-2f5e9b9" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" size="53595" type="application/zip"/>
       <manifest-digest sha256="988553a2ab5f475c3974bba8bc69ca5370e2d98ce9cb50d1d1b08ca0c60b8a62"/>
     </implementation>
@@ -58,11 +58,23 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
+        <environment insert="." mode="replace" name="BoostTest_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTk0ACgkQxnV5mk56UjHNTwCfZKvt0a4pOYldlb/cyOHsox+s6fQAnjB4w+Xy
-zl84LCp0WcfBT05fd4SW
+iEYEABECAAYFAk+b7AoACgkQxnV5mk56UjHqtgCfWyqtBYn8JyRdNxCZVbIA6SU95H0An0MkPMTN
+hK35l/Aguh8Jl7bOZlGp
 
 -->

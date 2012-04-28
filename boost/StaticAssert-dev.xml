@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Correctness</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fea3e0b2-b1e4-451c-b6c2-707210816dd4" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
+    <implementation arch="*-src" id="9a05d2c5-b57c-4537-9014-041e6d8d2047" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha256="e152891f47403d3eb4dae9a9c82384b0a442e251d8fb0ed42abcb78d0c586fc8"/>
     </implementation>
@@ -52,12 +52,21 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTqYACgkQxnV5mk56UjGGCgCfecfMld2F2LJGxSUAV84ihKY9Er4AnR7xIr+h
-upVDSTCTzcOqNsUh/1EW
+iEYEABECAAYFAk+b7FgACgkQxnV5mk56UjHlHgCeKgBI7kndeJ3zvF7QVMf/q7HBK8EAoIbgqmxM
+LvL4mvR2YbUFAOKuohUy
 
 -->

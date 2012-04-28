@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6de15a9c-9bce-4f8d-9efe-c4c7a8453a32" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
+    <implementation arch="*-src" id="a9d180bb-b7f0-4fbd-9b79-e9d39e5f2228" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
       <archive extract="boost-lib-graph-508a247" href="http://nodeload.github.com/boost-lib/graph/zipball/508a247be8b05d25b5a8da8f5cdb4305143ee3f3" size="3852477" type="application/zip"/>
       <manifest-digest sha256="4894a78fe95d659a9ac4ac10dc4f08ae5ca2b812db22cd8d850f66df1709fe53"/>
     </implementation>
@@ -106,14 +106,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MPI-dev.xml">
         <environment insert="." mode="replace" name="BoostMPI_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Math-dev.xml">
+        <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/MultiIndex-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
@@ -179,7 +179,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTmMACgkQxnV5mk56UjG6bACghTb8TeRxmdEdOCC2XtzMXBh1lgkAnj5ZF9pL
-7OHozaj7NQ0NazcMTWKw
+iEYEABECAAYFAk+b7BkACgkQxnV5mk56UjE78QCeItzeSM5Y4kb7el0f6L1Cu/e/s+kAn0oynHp7
+66N/cSYx07h8o+BYcygT
 
 -->

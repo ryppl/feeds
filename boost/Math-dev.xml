@@ -43,7 +43,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b97f851e-c8c6-42e3-a72b-c2fd7c6b2e63" released="2012-04-27" stability="testing" version="1.49-post-201204280157">
+    <implementation arch="*-src" id="a32caa48-75d8-4349-896d-ee11c83a0287" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
       <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
       <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
     </implementation>
@@ -140,14 +140,14 @@ A wide selection of univariate statistical distributions and
       <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TR1-dev.xml">
+        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Test-dev.xml">
         <environment insert="." mode="replace" name="BoostTest_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Timer-dev.xml">
         <environment insert="." mode="replace" name="BoostTimer_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TR1-dev.xml">
-        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/Tuple-dev.xml">
         <environment insert="." mode="replace" name="BoostTuple_DIR"/>
@@ -162,7 +162,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTqEACgkQxnV5mk56UjHOVwCePLcQzADgE80X+xGWXDfEQZiSYBkAoIGHyN/C
-MqvYD87Yt62zEnytekHn
+iEYEABECAAYFAk+b7E0ACgkQxnV5mk56UjESZgCfSQkdb1SZWFSpEDHvdFXkibCGr/4An0MOWgq4
+P1FEeobhEayY/j9BydJa
 
 -->

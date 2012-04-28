@@ -10,7 +10,7 @@
     classes.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="80980f1e-8843-4541-8b29-1fc6953b5874" released="2012-04-27" stability="testing" version="1.49-post-201204280158">
+    <implementation arch="*-src" id="bd4d325d-6fd1-4673-9884-6bf7738a6bab" released="2012-04-28" stability="testing" version="1.49-post-201204281310">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
       <manifest-digest sha256="007b86df03768a9ae3b94bced9c2a36c0be41fb546df69a16514dcc1e2dad0a6"/>
     </implementation>
@@ -62,11 +62,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
-        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/IO-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
@@ -78,7 +78,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTq4ACgkQxnV5mk56UjGI8QCeLnB1JZtFfo/vXLk5fuLTq9K0rGwAmwTOwj3L
-JkqXjolyMSxavJYfztLc
+iEYEABECAAYFAk+b7GEACgkQxnV5mk56UjFtwwCfV7X5+j/hccdf5fLROj/xijX0/1gAnR3s0goE
+d9nwj4gDRsjvzMmoyf7s
 
 -->

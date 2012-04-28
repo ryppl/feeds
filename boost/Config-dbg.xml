@@ -10,7 +10,7 @@
     idiosyncrasies; not intended for library users.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="df72a830-ec87-4a52-a482-b644674a03c6" released="2012-04-27" stability="testing" version="1.49-post-201204280156">
+    <implementation arch="*-src" id="3eaf3502-abc1-4bf0-a321-eee3730cfc73" released="2012-04-28" stability="testing" version="1.49-post-201204281309">
       <archive extract="boost-lib-config-d4e581c" href="http://nodeload.github.com/boost-lib/config/zipball/d4e581c3afea07ff3a12eb6df47d8e1b068e0190" size="611643" type="application/zip"/>
       <manifest-digest sha256="ef7202319134ce3ecc57e3261d3c26092bf9a42bd69bf1af606376ff8976f1c4"/>
     </implementation>
@@ -51,11 +51,14 @@
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <environment insert="Modules" mode="prepend" name="CMAKE_MODULE_PATH"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+bTkwACgkQxnV5mk56UjF+JgCeI1Ih5NYmQzyZ75MB7jjkHcpZrHIAn0FPlkXx
-gGcrI/gVzcGnJZ/3N+/C
+iEYEABECAAYFAk+b7AkACgkQxnV5mk56UjHMDACfQjQiWYS26AWRS8bYKA7Erb+/ulcAn1nCTnWG
+oOI1X7TGCwVL78dfV5Kv
 
 -->
