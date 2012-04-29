@@ -26,7 +26,7 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
       </runner>
       <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
         <version not-before="0.8-pre-201204281412"/>
-        <environment insert="." mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
+        <environment insert="Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
       </requires>
     </command>
   </group>
