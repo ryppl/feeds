@@ -12,13 +12,13 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="65857ab1-a0cb-4868-a994-cc115179befa" released="2012-04-29" stability="testing" version="1.49-post-201204291755">
+    <implementation arch="*-src" id="e02e57d0-2c82-42ef-8efa-6a4778dc8c77" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
       <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
       <manifest-digest sha256="e7cf9b2d52bf2cbb7e1ce29bc60388170dd4348ff39ea9d3f92805f684f408db"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgJAACgkQxnV5mk56UjEz1gCfaHI0IlrX+zTqysMWTyExpbEdO2oAoICXs5Ju
-LIm1F4yFSZUKUFyXXtdk
+iEYEABECAAYFAk+dkkMACgkQxnV5mk56UjHU0gCeK9VPFvKhv3j9NpzxRH6bKl8fCpgAn00PMu+w
+0lkwK8GZ8mHFSeDLzics
 
 -->

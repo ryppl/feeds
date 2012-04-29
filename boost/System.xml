@@ -10,13 +10,13 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c2128543-4809-4923-8375-a5583dccdb83" released="2012-04-29" stability="testing" version="1.49-post-201204291755">
+    <implementation arch="*-src" id="5de5b837-72e3-4b27-ab30-e98d1fb777ff" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
       <archive extract="boost-lib-system-73218b5" href="http://nodeload.github.com/boost-lib/system/zipball/73218b57aadda5261abd7d5bb0b6e5c43d37b4b0" size="44606" type="application/zip"/>
       <manifest-digest sha256="a62ec0f0546361cf6354f0900622808a85b82c0cec050bce8152b078c8f11b65"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=bin</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -36,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgH8ACgkQxnV5mk56UjG3OQCfV95z7NR4CEjVcmPwrnDOkFQ8LyoAn1B2dteg
-IUop7va5b+U6gAs5ecMp
+iEYEABECAAYFAk+dkjMACgkQxnV5mk56UjG9/wCfRqNf72L3OvpgeCQiRORWIuWesxEAnjrZpYGU
+zOF/wAZWOCZsSJcGV/4W
 
 -->

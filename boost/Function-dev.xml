@@ -11,13 +11,13 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="622e99da-103d-483f-9add-68eb4ad739e3" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="4e0fe0b3-1609-4260-993d-d10207f6e75a" released="2012-04-29" stability="testing" version="1.49-post-201204291908">
       <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
       <manifest-digest sha256="f5cd7a005e52e40094a4997f1f884f2ec2e2c77ead010e7060305b9c7755a70c"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgEQACgkQxnV5mk56UjE5+ACeLfZMcBkwubY03UCjyECP9+bs1L0An1QmxDDL
-SC/h/Og4WI2tHTAI5M6z
+iEYEABECAAYFAk+dkcUACgkQxnV5mk56UjEzNwCfaiEZERihupN49dFEn6EyBBZsWj4AoIl82Lrv
+g0cddgTKB6QAfPAn6Rqb
 
 -->

@@ -10,13 +10,13 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7dd242ae-ad29-4ac4-bb5d-7d164d1bd872" released="2012-04-29" stability="testing" version="1.49-post-201204291755">
+    <implementation arch="*-src" id="3bbbc9b0-122f-44db-b506-25de41fd39b5" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
       <manifest-digest sha256="f99344eafae248ab7ea029912aa7a1c3a528f37d7afdca464d7294232d7f9ce3"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgIkACgkQxnV5mk56UjE3mQCfVNZbQJ1hl/OLSzhJI4PcMXNbKlEAoJIoHfoX
-nAD+5rzgai6hrZYaLLUc
+iEYEABECAAYFAk+dkj0ACgkQxnV5mk56UjFKWgCeO50hI1XSH0+8F2o0xov73q6a9C0AoItyJ3V1
+IVcz00nm8oZ7BdukP+L5
 
 -->

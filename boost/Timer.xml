@@ -10,13 +10,13 @@
     classes.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9fdbb32a-ea0a-44b3-a5fe-2e25ceba0479" released="2012-04-29" stability="testing" version="1.49-post-201204291755">
+    <implementation arch="*-src" id="21a50987-137a-4caf-a0e4-30d2c5e8ac21" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
       <manifest-digest sha256="007b86df03768a9ae3b94bced9c2a36c0be41fb546df69a16514dcc1e2dad0a6"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=bin</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -51,7 +51,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgIcACgkQxnV5mk56UjF+HQCfahf27zxZK6lCraZNLEo4bdAdFEgAnjVZdWje
-nqOmxC/BVtiJFBnjET3K
+iEYEABECAAYFAk+dkjoACgkQxnV5mk56UjFaSACfRtXiQVj3zfMH1S8lDtXsLEbbOwsAn0uGY6iz
+KgaHmG3SXRsTxbrSTofZ
 
 -->

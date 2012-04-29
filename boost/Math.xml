@@ -43,13 +43,13 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="055c32e9-391c-48c4-b490-9c1e37b45373" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="74bf98f6-5341-48a3-a262-2a340314280b" released="2012-04-29" stability="testing" version="1.49-post-201204291909">
       <archive extract="boost-lib-math-bc0afcf" href="http://nodeload.github.com/boost-lib/math/zipball/bc0afcf064963bdd0a5f57ecbe84908e8201e99d" size="13359780" type="application/zip"/>
       <manifest-digest sha256="81cc8f115a201288f69a6673816333fea297ca25f4970293d35da2a14ee178c8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=bin</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -135,7 +135,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgHAACgkQxnV5mk56UjHiHQCgkcyLj7/CT9XPtmM4l6VQjS91j2QAoInldKwK
-6ndHmXwGA6ygs/nQx9Kt
+iEYEABECAAYFAk+dkigACgkQxnV5mk56UjFc9QCaAvRmAkk2HI7Gg1nCTRG+H+Ud3ngAn3EAgR/b
+EAlmvOzRkMvRENz9WISq
 
 -->

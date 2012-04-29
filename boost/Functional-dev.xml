@@ -24,13 +24,13 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4c5594dd-9bd0-47ee-98cd-222abee35253" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="b48576f2-d7eb-47fa-8fc7-9d4708e1ecfd" released="2012-04-29" stability="testing" version="1.49-post-201204291908">
       <archive extract="boost-lib-functional-16d011f" href="http://nodeload.github.com/boost-lib/functional/zipball/16d011feba236755b7632e4a6bfa50090587d4b5" size="169550" type="application/zip"/>
       <manifest-digest sha256="6332a2e21e676c7302706b7d1dea8f31c08264681c464bc862b2ea2135227ded"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -42,7 +42,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgEUACgkQxnV5mk56UjEUdgCgkWL+7q5VWxrzVn6ocJlUKpU5hUcAmgLZ12t6
-bIAkBKul4vZDEyX1arSx
+iEYEABECAAYFAk+dkcYACgkQxnV5mk56UjHrYACcDXGWjOaJLrrgEQNBYgpqtTYBP8wAn3WpiGvN
+TO631yeKYOUJ5gp7pi/d
 
 -->

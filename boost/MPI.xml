@@ -11,13 +11,13 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="151569c3-be42-4d98-8a36-f7e74496c911" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="f3dc1405-4a5b-4f98-852d-de5c05ad8243" released="2012-04-29" stability="testing" version="1.49-post-201204291909">
       <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
       <manifest-digest sha256="133aa99ee7b2b45fbd6eb369d60289f27c885ecec73fedda71e2236d675b68df"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=bin</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -85,7 +85,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgFcACgkQxnV5mk56UjEFsgCffDKhmCuOFFOdH5C5yH1medlkX6oAn2IU4ZG1
-VVIMFX+TFhrtXJQlBcZ3
+iEYEABECAAYFAk+dkfMACgkQxnV5mk56UjFK4ACdGLVYcUmEsZnT/3oveJ5C0awu9tIAoJrIykWI
+LZQnf8X+CcG1SCQIsuaG
 
 -->

@@ -10,13 +10,13 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="51437186-5198-4681-ba1f-da84bf55c428" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="fabe854c-8656-40a6-9e56-93a2a224674e" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha256="b7c6007c036cb9fbe94626ca0bfdd2aa7bf73c76209a76925562e03d7eb78cca"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -81,7 +81,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgHUACgkQxnV5mk56UjHkEgCgm4cAIlZVTzi1x1+GQ0jqI85KHGUAn37rscFS
-KiZji8T9gCHRivT09tvC
+iEYEABECAAYFAk+dkikACgkQxnV5mk56UjESdACeN+ZabzSnZG8cbIFDKWlKmmzXFpYAn1x7I0ua
+1c6P+s+/JuVPPoh9MGy9
 
 -->

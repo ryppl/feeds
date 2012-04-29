@@ -11,13 +11,13 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="581ce46b-786c-4a56-8288-ec101ac0b1c4" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="b95c5a8e-ac52-4404-b3e3-202e8d06550e" released="2012-04-29" stability="testing" version="1.49-post-201204291908">
       <archive extract="boost-lib-filesystem-ca208a7" href="http://nodeload.github.com/boost-lib/filesystem/zipball/ca208a787b6d615438be38dac75a656db76ca8cc" size="294828" type="application/zip"/>
       <manifest-digest sha256="ae35344675a42bc1cd2b3b1f76bef4989636f962584bb8b098d3ec109506094e"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -31,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgEIACgkQxnV5mk56UjFlgQCfbmW36LjiKt+B90RtBx5fYJIGnCAAnR+cpDiI
-tHFhVPhvT5YsuFVJ/gT8
+iEYEABECAAYFAk+dkcQACgkQxnV5mk56UjGUkACfWXWm2BjWcsGk1rP9J8f6SAUsUH4An2d8HbeW
+s7E4wIB5MjkjDVUs4mr6
 
 -->

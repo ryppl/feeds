@@ -13,13 +13,13 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9203731e-615e-40f5-962a-7711861fa3ab" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="8435b4fa-537c-4071-bcfe-c0d138284e2e" released="2012-04-29" stability="testing" version="1.49-post-201204291908">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
       <manifest-digest sha256="3d596a6830880e876da3a07df31734af7cafe4b41fef50d38c0764e6b5c5dc68"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -31,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgEEACgkQxnV5mk56UjEiAgCgiQZMoy2PrCN1SDSOgVlzCj7zbPgAnR2mR6Ve
-Tkejwz3GCwYdXeNaS4ZE
+iEYEABECAAYFAk+dkcIACgkQxnV5mk56UjHMcQCbBx0Eh5SWnKcmTaD59cyEPETJnNIAn2+SkDgG
+IRsquIO+JH5wEUW24eav
 
 -->

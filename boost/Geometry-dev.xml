@@ -12,13 +12,13 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="06e4d0bb-72df-4a67-868b-040a7aa6f316" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="ae6ace07-9f87-480e-909d-1584bccd6e0d" released="2012-04-29" stability="testing" version="1.49-post-201204291908">
       <archive extract="boost-lib-geometry-a5e95cc" href="http://nodeload.github.com/boost-lib/geometry/zipball/a5e95cca3fa4439a521a30418f5a691663ddb218" size="5242245" type="application/zip"/>
       <manifest-digest sha256="615ca78529fab3d54b3027d97a95c44b6880a438c292a463324293cc4b2e6913"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgFEACgkQxnV5mk56UjFoOACggF5IpvPlxIG2VpHQsV4mAfF6POIAmwe4s9tp
-qiy7bPbYP5JTAcEMD30X
+iEYEABECAAYFAk+dkekACgkQxnV5mk56UjEoVQCdGKh7vlviiTXgvpqe9FJGkfdNy8MAn2zEkQZ3
+/+lS+QcedVl9VYddjrIi
 
 -->

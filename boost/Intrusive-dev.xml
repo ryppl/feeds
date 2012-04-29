@@ -9,13 +9,13 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="96785c4d-0ab7-49b8-bbe1-0a0e1291f9f6" released="2012-04-29" stability="testing" version="1.49-post-201204291754">
+    <implementation arch="*-src" id="773536d7-51ab-45b0-a87c-9a6cf622669c" released="2012-04-29" stability="testing" version="1.49-post-201204291909">
       <archive extract="boost-lib-intrusive-fd95549" href="http://nodeload.github.com/boost-lib/intrusive/zipball/fd955491fcddbcfbc295e02174a14220c343e2be" size="508484" type="application/zip"/>
       <manifest-digest sha256="99c6cfd5761fc897bd21b1dda0a0037777e44cd52e4aafdf7de7a8626000ebeb"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
+        <version not-before="0.8-pre-201204291504"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dgFIACgkQxnV5mk56UjHjqwCgiIlEttvVTDJDEvTV8eqEayfms64AnAtVsIgD
-T0vRW/mi4/OFysNC2Mrc
+iEYEABECAAYFAk+dkeYACgkQxnV5mk56UjFGxACfXXp6akNy0rZHLPGLeZrGreZPHU0Amwe/PdjW
+MUc/bNwb8mrreaeWF8ty
 
 -->
