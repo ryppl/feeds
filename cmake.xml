@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/cmake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>CMake</name>
+  <summary>cross platform make</summary>
+  <description>
+    Make is a family of tools designed to build, test and package software.
+    CMake is used to control the software compilation process using simple
+    platform and compiler independent configuration files. CMake generates
+    native makefiles and workspaces that can be used in the compiler
+  environment of your choice.</description>
+  <homepage>http://www.cmake.org/</homepage>
+  <category>Development</category>
+  <icon href="http://cloud.ohloh.net/attachments/920/CMake-logo-triangle-high-res_med.png" type="image/png"/>
+  <needs-terminal/>
+  <group license="OSI Approved :: BSD License (revised)" main="bin/cmake" released="2012-01-02" stability="stable" version="2.8.7">
+    <implementation arch="Windows-i386" id="sha1new=bfc59135fdd1309d2e1346632ec9fe80872b5e07" main="bin/cmake.exe">
+      <archive extract="cmake-2.8.7-win32-x86" href="http://www.cmake.org/files/v2.8/cmake-2.8.7-win32-x86.zip" size="10885434" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-i386" id="sha1new=57a27572ef8b9da60a9456bbc88bed1ee76510cb">
+      <archive extract="cmake-2.8.7-Linux-i386" href="http://www.cmake.org/files/v2.8/cmake-2.8.7-Linux-i386.tar.gz" size="16999959" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="sha1new=ca8b84c2ac99486677e144017e380191697e3143" main="CMake 2.8-7.app/Contents/bin/cmake">
+      <archive extract="cmake-2.8.7-Darwin-universal" href="http://www.cmake.org/files/v2.8/cmake-2.8.7-Darwin-universal.tar.gz" size="29756918" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" compile:binary-main="bin/cmake" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="sha1new=37dafd39bfd06d654a1806240267f7afe351ad8e">
+      <archive extract="cmake-2.8.7" href="http://www.cmake.org/files/v2.8/cmake-2.8.7.tar.gz" size="5667409" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
+
+  <group license="OSI Approved :: BSD License (revised)" main="bin/cmake" released="2012-04-19" stability="stable" version="2.8.8">
+    <implementation arch="Windows-i386" id="sha1new=b003816f70afe2941763cf089f6c9d6ff2f09c44" main="bin/cmake.exe">
+      <archive extract="cmake-2.8.8-win32-x86" href="http://www.cmake.org/files/v2.8/cmake-2.8.8-win32-x86.zip" size="11480094" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-i386" id="sha1new=f0c7800e5e264c5d96d1cd6151de92dfc74f65bb">
+      <archive extract="cmake-2.8.8-Linux-i386" href="http://www.cmake.org/files/v2.8/cmake-2.8.8-Linux-i386.tar.gz" size="19259433" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="sha1new=ac3af6ae78a51c8f5da6358439f49612932e175e" main="CMake 2.8-8.app/Contents/bin/cmake">
+      <archive extract="cmake-2.8.8-Darwin-universal" href="http://www.cmake.org/files/v2.8/cmake-2.8.8-Darwin-universal.tar.gz" size="35715134" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" compile:binary-main="bin/cmake" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="sha1new=3b168bad7cfd5f158b62ba6bfb0abb07c65ae2f8">
+      <archive extract="cmake-2.8.8" href="http://www.cmake.org/files/v2.8/cmake-2.8.8.tar.gz" size="5691656" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
+  <package-implementation distributions="Debian" main="/usr/bin/cmake" package="cmake"/>
+  <package-implementation distributions="RPM" main="/usr/bin/cmake" package="cmake"/>
+  <package-implementation distributions="Cygwin" main="/usr/bin/cmake" package="cmake"/>
+  <package-implementation distributions="Ports" main="/usr/local/bin/cmake" package="cmake"/>
+  <package-implementation distributions="MacPorts" main="/opt/local/bin/cmake" package="cmake"/>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+dS6EACgkQxnV5mk56UjFrLACfQV2Lv9hn6tjdjKeUrQsdcZbMZd0AnjUNkyjk
+uEV4i00Jo0OHbWsAbSjj
+
+-->
