@@ -16,7 +16,10 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
   <dc:author>Dave Abrahams &lt;dave@boostpro.com&gt;</dc:author>
 
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=71c9c20ec0f0268f9a3a92f3c07733b183c0413b" released="2012-04-29" stability="developer" version="0.8-pre-201204291325">
+    <implementation id="sha1new=109d43b4fdd65ccf2e594fdc8727250eaf36e4b4" released="2012-04-29" stability="developer" version="0.8-pre-201204291504">
+      <archive extract="ryppl-0cmake-999d0f2" href="http://nodeload.github.com/ryppl/0cmake/zipball/999d0f2d96e1341a3cd60ff73ae6a8e36782b6aa" size="3116" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=71c9c20ec0f0268f9a3a92f3c07733b183c0413b" released="2012-04-29" stability="buggy" version="0.8-pre-201204291325">
       <archive extract="ryppl-0cmake-3b20096" href="http://nodeload.github.com/ryppl/0cmake/zipball/3b20096133345975985c835d5eaf30520ad02435" size="3116" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=f5b74ecfa894b1b91992d724ba529fdd4e7f76e1" released="2012-04-29" stability="buggy" version="0.8-pre-201204291303">
@@ -34,7 +37,7 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+df+MACgkQxnV5mk56UjGl1ACfdwmbz6dyVFUxWA2CBbC5F/vZiRYAn0m1hmca
-QzyWv7TRdDLZ0bmNddGl
+iEYEABECAAYFAk+dkLsACgkQxnV5mk56UjF3mQCeMYgTB+D9f50MYOQm42a7eHKlQ8UAnRhDjAEy
+B7DmILCYiYV1l4gPMCY9
 
 -->
