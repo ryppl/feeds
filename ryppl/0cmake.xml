@@ -17,17 +17,8 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
   <needs-terminal/>
 
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=63bbfe03b5fda5bc49dc2b7d92e1ce709011fa16" released="2012-04-28" stability="developer" version="0.8-pre-201204281642">
-      <archive extract="ryppl-0cmake-d5e262e" href="http://nodeload.github.com/ryppl/0cmake/zipball/d5e262e0c4839e3b22360cc32e087f9e87768f4e" size="3074" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=1218021e255ec55365a6bd12bb33aa1043ec713c" released="2012-04-28" stability="developer" version="0.8-pre-201204281803">
-      <archive extract="ryppl-0cmake-9a003fa" href="http://nodeload.github.com/ryppl/0cmake/zipball/9a003faa5942d03437fc6396fbbc01e143492eca" size="3098" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=8189f210ace92a1c54fed88e052493f97140ee5b" released="2012-04-28" stability="developer" version="0.8-pre-201204281522">
-      <archive extract="ryppl-0cmake-7936652" href="http://nodeload.github.com/ryppl/0cmake/zipball/7936652dd3ded3223d991e0ac2097011c2217547" size="3066" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=1197bf3aa226e036ed72cf0d4c5a1f3e2accc33a" released="2012-04-28" stability="developer" version="0.8-pre-201204281607">
-      <archive extract="ryppl-0cmake-d45031e" href="http://nodeload.github.com/ryppl/0cmake/zipball/d45031e2749eb51ac756e84c90ba6b7c30142140" size="2848" type="application/zip"/>
+    <implementation id="sha1new=e0c31f75f16ac1e693ab675ae33f533c2a4a9532" released="2012-04-28" stability="developer" version="0.8-pre-201204282116">
+      <archive extract="ryppl-0cmake-103536e" href="http://nodeload.github.com/ryppl/0cmake/zipball/103536eb4821e29df36d999753a6e374566f3dd2" size="3142" type="application/zip"/>
     </implementation>
     <command name="run" path="zerocmake.py">
       <runner interface="http://repo.roscidus.com/python/python">
@@ -41,7 +32,7 @@ interface='http://ryppl.github.com/feeds/ryppl/0cmake.xml'/&gt;
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+caVAACgkQxnV5mk56UjFKcgCeJkPVFBhzNEuDAQk8GnDlPvo5GYgAn3LsJyto
-jlCqQR8qeF95uIqUaqAe
+iEYEABECAAYFAk+clngACgkQxnV5mk56UjGNbwCfdNI6nnkwnq+DTIipOljU5xLqcVEAoIQCNquU
+INamrq1sUpJf4IEoNqxy
 
 -->
