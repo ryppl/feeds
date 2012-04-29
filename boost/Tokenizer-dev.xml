@@ -11,13 +11,13 @@
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dd375070-9b08-4aca-9fed-796b9e38a5db" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
+    <implementation arch="*-src" id="38e7327d-dd39-4a76-86c7-e4bbd8983f7a" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
       <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
       <manifest-digest sha256="a73489699571ba2c7f4261a918d2e1e0fac0c7a8af6f0c2d5ec3138c003a5170"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca7wACgkQxnV5mk56UjH0iACdFA2rBx0ui/VaalX7XOKvD3re+6wAn2kIeCEF
-04l9/lor7/AMYC+ZWxs3
+iEYEABECAAYFAk+ddzwACgkQxnV5mk56UjFM2wCfXJMN3qHC1VM9TqsYBOq8lfFDfJYAmwVcl8cV
+YsxXaAUBDv+i6LdkIjh0
 
 -->

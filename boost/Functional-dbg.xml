@@ -24,13 +24,13 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="409e80ab-3199-41d0-abe6-15130ed7f96f" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
-      <archive extract="boost-lib-functional-f332981" href="http://nodeload.github.com/boost-lib/functional/zipball/f3329812763cfbe09fca6f3a6f7aea5decbcc480" size="166324" type="application/zip"/>
-      <manifest-digest sha256="00193a7152ce0dd2bef17924fd73a0f11810485d45b101368d5c85894bcd0bb8"/>
+    <implementation arch="*-src" id="02d8fb15-5943-4031-8adb-5b81be80603e" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
+      <archive extract="boost-lib-functional-16d011f" href="http://nodeload.github.com/boost-lib/functional/zipball/16d011feba236755b7632e4a6bfa50090587d4b5" size="169550" type="application/zip"/>
+      <manifest-digest sha256="6332a2e21e676c7302706b7d1dea8f31c08264681c464bc862b2ea2135227ded"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -41,7 +41,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca2QACgkQxnV5mk56UjEXJQCdFJ4a6Hj6woihq6GAcXudl0EBwQUAn1vKT6S+
-cX84r3RwAuK/Kt7POaPq
+iEYEABECAAYFAk+ddvUACgkQxnV5mk56UjGG1wCeIqIKJIIK2YLqqryfDakKKgQK4qUAoIpTMf08
+8vp8p4yCSljnFzDFFRKt
 
 -->

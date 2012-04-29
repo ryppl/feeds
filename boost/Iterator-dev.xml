@@ -15,13 +15,13 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1059c508-de90-4086-b4ae-e3c048e042ad" released="2012-04-28" stability="testing" version="1.49-post-201204282213">
-      <archive extract="boost-lib-iterator-00d114a" href="http://nodeload.github.com/boost-lib/iterator/zipball/00d114a88cae489976093a77356baa4615a3134e" size="1591678" type="application/zip"/>
-      <manifest-digest sha256="24c9511505135ed28764bfd6220b99e74989b6617e1ec0b77c1d74e8e110c58b"/>
+    <implementation arch="*-src" id="3f96a570-a54d-4ba2-983a-0b781dee8d5e" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
+      <archive extract="boost-lib-iterator-9091159" href="http://nodeload.github.com/boost-lib/iterator/zipball/909115965b4bfdf95145aaeb21a42bf336ac5102" size="1591731" type="application/zip"/>
+      <manifest-digest sha256="cd0ff87454992db227742356d0d8cfb8151c77b0d56d81e1db407b1415c23977"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -33,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca3wACgkQxnV5mk56UjHLWgCfYWvjZSof/5BCeb18EMB1KxEJVsMAniTzImlT
-8r/YoCSv1UsxoPeEuWI/
+iEYEABECAAYFAk+ddwgACgkQxnV5mk56UjGjPwCfb6QBUBJXycZlbONNW0KgCM2VuMYAnisHw485
+QW6Iz+jxC+icDKA3o+/w
 
 -->

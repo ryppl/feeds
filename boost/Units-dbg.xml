@@ -10,13 +10,13 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="87d637c2-a9b3-4875-bb12-3c570802460a" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
+    <implementation arch="*-src" id="594a00ab-ff70-4675-867a-af5f67bfed68" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
       <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
       <manifest-digest sha256="3aba333fd47650f1445eee78929769ac6641d36a0de37136e6993095ee6ab53b"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca8QACgkQxnV5mk56UjGwawCfUkvbnfKULAk48Qy5mRTnO2FDJcYAn0Wvv8h3
-pZzrb7Uj4ZLYxUr3ow+O
+iEYEABECAAYFAk+dd0MACgkQxnV5mk56UjGO4QCeP+Sz9FIPbjIUoiPY9OaUR4x3IyMAnA7bVdzU
+SW15SHijXTER6KO4QIqU
 
 -->

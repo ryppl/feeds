@@ -9,13 +9,13 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bc2e087f-7113-46f4-a3b9-3c438fe65338" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
+    <implementation arch="*-src" id="7f15b6f6-9c8b-45cf-a39f-c604d4295127" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
       <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
       <manifest-digest sha256="5f009b980808b7cb893cd0acc50196dcf6684a4e682551ef9660770c6ebad02f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca2oACgkQxnV5mk56UjF+EQCgiqt1i6Rj/wHv1HDYBRJ0kpCmmiAAn0mnecEi
-Fa9wGotw1g4Pi1yCIC84
+iEYEABECAAYFAk+ddvoACgkQxnV5mk56UjG7VgCbBwzpzSz6F+9kfVmSzS1arrgocPkAn1KlklFX
+3tZn5OgUVVy4xnsKBd1A
 
 -->

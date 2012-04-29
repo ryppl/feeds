@@ -10,13 +10,13 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="25e93742-4429-4bad-8251-428adf46d91c" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
-      <archive extract="boost-lib-system-353bd55" href="http://nodeload.github.com/boost-lib/system/zipball/353bd5548cc13000f3f6ec337422f03ffd9526e7" size="44487" type="application/zip"/>
-      <manifest-digest sha256="0f449f29948dcd3a2b40e4671c98b90b8491a5eeaa545ac88db967b8fef82d8b"/>
+    <implementation arch="*-src" id="be2061df-054a-46eb-924a-d744263d86dc" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
+      <archive extract="boost-lib-system-73218b5" href="http://nodeload.github.com/boost-lib/system/zipball/73218b57aadda5261abd7d5bb0b6e5c43d37b4b0" size="44606" type="application/zip"/>
+      <manifest-digest sha256="a62ec0f0546361cf6354f0900622808a85b82c0cec050bce8152b078c8f11b65"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -36,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca7UACgkQxnV5mk56UjG13ACfW5WVwQeXKhWH+gTY3obgZs8EqRQAoIuoLcnm
-2w5fovupk9xvMT4oqgop
+iEYEABECAAYFAk+ddzcACgkQxnV5mk56UjEynwCgjje/yHtmyA6jdqX1y4xtbluXsgsAnApW4aSK
+LB2KQLEFOxLP+WwgtfPg
 
 -->

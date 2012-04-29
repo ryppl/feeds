@@ -43,13 +43,13 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4878831f-e904-412e-868b-920fd568fe6c" released="2012-04-28" stability="testing" version="1.49-post-201204282213">
-      <archive extract="boost-lib-math-ffa0f6a" href="http://nodeload.github.com/boost-lib/math/zipball/ffa0f6a03f942b83b922e8e5a8398cc063cb1a15" size="13027194" type="application/zip"/>
-      <manifest-digest sha256="d0f3a1a554ad5460ba17f4b147e77a2ec10d7a98150f58233e71fad7b97a1b35"/>
+    <implementation arch="*-src" id="72654020-0fc6-4c5a-ad04-2739e6eaf341" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
+      <archive extract="boost-lib-math-bc0afcf" href="http://nodeload.github.com/boost-lib/math/zipball/bc0afcf064963bdd0a5f57ecbe84908e8201e99d" size="13359780" type="application/zip"/>
+      <manifest-digest sha256="81cc8f115a201288f69a6673816333fea297ca25f4970293d35da2a14ee178c8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -135,7 +135,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca6QACgkQxnV5mk56UjHNwACgkUeyYW17mPDgNQCQ8LtCSSnzykEAnji+hoof
-is3EaYWyAyTU4oL+8NTN
+iEYEABECAAYFAk+ddyEACgkQxnV5mk56UjEnqgCfV4lXB6cvOKt4Uf6aIJdN1vm2IGAAnR88fE2O
+ZTSpjdEggQxJUdaC7+Pm
 
 -->

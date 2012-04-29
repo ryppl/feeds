@@ -10,13 +10,13 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="32e627ad-e03d-408f-9c6d-d21fbb9f4ed9" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
-      <archive extract="boost-lib-chrono-bcb5566" href="http://nodeload.github.com/boost-lib/chrono/zipball/bcb556677222caab2626f7a160a74b43a8ba81a3" size="574649" type="application/zip"/>
-      <manifest-digest sha256="5669bd55b8bcfc5cf98dd1f21cb3fc2cf3a09e819a136fce9754d5fe63ce0e17"/>
+    <implementation arch="*-src" id="94e72da0-8e15-4195-828d-53df29fd9310" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
+      <archive extract="boost-lib-chrono-9c09b1b" href="http://nodeload.github.com/boost-lib/chrono/zipball/9c09b1b1ddec88816249e7c371b93715f63d1694" size="574655" type="application/zip"/>
+      <manifest-digest sha256="781e83d841f6b70a1fcef68bacec9629bc7588eeb923fb70e750bdc54febdea1"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -72,7 +72,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca10ACgkQxnV5mk56UjEBcQCglNWrDKx3YuRnF1+8xMDPURjqKkIAnj6Mbm4d
-FwpwXgm5IBl9dQMT7vSg
+iEYEABECAAYFAk+ddu0ACgkQxnV5mk56UjGv/wCcC/U6eD/18Nx/brW/L4BVlCbJwnwAoKTo2ZGK
+h0tUYl9fVkr2vGRCpxri
 
 -->

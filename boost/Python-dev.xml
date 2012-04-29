@@ -13,13 +13,13 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0889fb06-110b-4a87-948a-88fc37d78c19" released="2012-04-28" stability="testing" version="1.49-post-201204282213">
+    <implementation arch="*-src" id="195cbf04-ef19-4157-89d1-71d4358817d8" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha256="6328fd24c93a5a60068249aacef0fc28aa04296e4016cb7a18059851fd402b44"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -87,7 +87,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca6wACgkQxnV5mk56UjENxQCgl5+u0dLM1qbG9g8neGp+otVeXSQAoIdjnQnk
-PDGtGu0NoQn/UA96RFxN
+iEUEABECAAYFAk+ddysACgkQxnV5mk56UjFYEgCYhYVuzuLuld0BFNnFrkZAfDD6tACgneMGMWEU
+DPVOpEGLiTh5Yl+XOWw=
 
 -->

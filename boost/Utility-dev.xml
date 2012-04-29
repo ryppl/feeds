@@ -61,13 +61,13 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6a7801f3-2d24-49ff-a9a8-da975b27e505" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
-      <archive extract="boost-lib-utility-951cd3d" href="http://nodeload.github.com/boost-lib/utility/zipball/951cd3d443071adb4caf3b1a9c4e240a23284b32" size="223222" type="application/zip"/>
-      <manifest-digest sha256="d20ae614ab361cee3ab5262d7b5ad2f90caebeb70d65b6ec1a97b265c9a4a412"/>
+    <implementation arch="*-src" id="947d4d0d-e873-439c-a1a4-9c3c7cbe1e02" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
+      <archive extract="boost-lib-utility-5fc22d6" href="http://nodeload.github.com/boost-lib/utility/zipball/5fc22d66bbd4ad54cf43ac3cf50ffb7ece745b6b" size="223218" type="application/zip"/>
+      <manifest-digest sha256="c8945b4cb27af51eaf0b47edc25ca16635d16775fa469be205885a2e1572bba2"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -79,7 +79,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca8QACgkQxnV5mk56UjEbagCfTSunNEBcYvKOEU3W0Ttutde5MWsAn20/6i0m
-/oyskZnB072vkJrjuFvW
+iEYEABECAAYFAk+dd0QACgkQxnV5mk56UjEvnwCcCpxS6oiRag9TiTyySxEL8d9TTD0AnRhoyBRC
+eV94GGLlzxa0rm3WRoZt
 
 -->

@@ -10,13 +10,13 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d276b150-6069-4338-abd2-7eedc3f0c6b7" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
+    <implementation arch="*-src" id="2405b85f-7398-4a63-b360-005a1a0caa91" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
       <archive extract="boost-lib-test-a3ae1c3" href="http://nodeload.github.com/boost-lib/test/zipball/a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc" size="1004084" type="application/zip"/>
       <manifest-digest sha256="48c064b1a7a6d44f758f14b808611f43b3229d4aedb454226c3081d90e20bee3"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=bin</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -78,7 +78,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca7oACgkQxnV5mk56UjEtkgCfUmhi5iQnOf96h3TrhYI3UdgYTO4AnjjUH6Bt
-bSnXLophBRNghGaz9Mpf
+iEYEABECAAYFAk+ddzoACgkQxnV5mk56UjHjBQCdHZfPtGgLYST0Y28NX5pxqdbcAdoAnjavUExf
+YtXFNyd+BeR8f3WHdxUp
 
 -->

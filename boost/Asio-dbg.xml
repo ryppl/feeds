@@ -11,13 +11,13 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c6bf67e7-1c82-4467-9f10-f1920888a15d" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
+    <implementation arch="*-src" id="c29c3f59-53d9-4d34-9293-ede2a2f8110f" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
       <archive extract="boost-lib-asio-97e13d3" href="http://nodeload.github.com/boost-lib/asio/zipball/97e13d3b006c31acc620716444a778c507e7bcc8" size="1389225" type="application/zip"/>
       <manifest-digest sha256="d051a6807cffd1f46e0bde1fbe9ff653a668a810a496e4a2fc5172375b1d6f42"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca10ACgkQxnV5mk56UjEjWwCfWiQRGZXf8XrMkTT7fXy0V6MmfW8An0HAYdrp
-VEMN5uQqsL+JCZTpJH4r
+iEYEABECAAYFAk+ddu0ACgkQxnV5mk56UjG+KwCfWqwkp6vm/Qi1fc9WUeiOR06jp2sAnAroDFH1
+0Xx5QFhIHD66qf/v7Gmv
 
 -->

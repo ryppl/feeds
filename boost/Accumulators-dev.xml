@@ -9,13 +9,13 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d1a694b0-9264-4a2e-b252-f7020e8d6140" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
+    <implementation arch="*-src" id="289caf96-c794-488d-9c67-7e72558f45ce" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
       <manifest-digest sha256="dd808f9f6447f2e94a34743737c907380c8343840595255d629a92b31a6f6406"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca1gACgkQxnV5mk56UjG2tQCeKELr4p1BktfhwczJ7WkWprkks3wAn2AiMQuZ
-5zZYuT+KgStdrtI1L62Y
+iEYEABECAAYFAk+ddukACgkQxnV5mk56UjGxUQCfcfcflSdHQUEQh9fBH5cGqMegd4MAn0PlLA1o
+ExZ+mgv9g3L8civUZId6
 
 -->

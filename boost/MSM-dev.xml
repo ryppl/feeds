@@ -9,13 +9,13 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d217a7d9-2e03-4be5-bef8-0d771d8f65e2" released="2012-04-28" stability="testing" version="1.49-post-201204282213">
+    <implementation arch="*-src" id="72b66972-ded8-40a1-9ab0-6fc30fd3991a" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
       <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
       <manifest-digest sha256="27eece8fcee3d6aad0bcedd4cdf32dd60150864df25efec038fb811f3e698a3e"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca4MACgkQxnV5mk56UjGqqACZAa70jB6HlM2OXfiM3c3xnAm6dAwAn1nk909r
-cBSJOzHWP+a56XWkFBEc
+iEYEABECAAYFAk+ddxEACgkQxnV5mk56UjGP7ACbBXOADhnlvc144Cn1Miw7fcnXu9AAn2jeIfXO
+eo+RAa/Sq5pOiXJw8ISB
 
 -->

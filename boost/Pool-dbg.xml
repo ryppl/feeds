@@ -9,13 +9,13 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="401e8dd8-f54d-48e4-8ab1-a768dcc51b12" released="2012-04-28" stability="testing" version="1.49-post-201204282213">
+    <implementation arch="*-src" id="eabd70a3-55e2-41bd-bd06-c226d9caee80" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
       <manifest-digest sha256="dce4fe868ce0f03d3fc19d743247c37740f20c1d58d4b318a5a6e15626678039"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca5oACgkQxnV5mk56UjEsnACdFGxnugkBafKCH+isOIMtQcxzvn8An0Cfz6dC
-7l57AHX3GW0C9Bb7q4E3
+iEYEABECAAYFAk+ddyAACgkQxnV5mk56UjFUzwCeMwm3Wu+3t0DdA1tA7tLIRhycM78An1X2EhKL
+B6ee1Y8o1nJ9xj6PrXWr
 
 -->

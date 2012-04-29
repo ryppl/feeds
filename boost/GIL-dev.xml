@@ -14,13 +14,13 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="df2f5144-e6e8-4a15-97bf-1ff5b77410fd" released="2012-04-28" stability="testing" version="1.49-post-201204282212">
+    <implementation arch="*-src" id="67ccf761-83e0-4960-9454-8e587f868dd0" released="2012-04-29" stability="testing" version="1.49-post-201204291714">
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
       <manifest-digest sha256="cdc7edf226e3bb261387cc292e642d6880edb9e471d14dfa53a3e342029079bb"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -32,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca24ACgkQxnV5mk56UjEVkQCfbV5urV1znAiWAFIntIHK31i36xUAnjx3Mko7
-bux2MH7yM0/5OOSoancO
+iEYEABECAAYFAk+ddvsACgkQxnV5mk56UjH43QCdHNjCmfgsJ2bt3yw8dKoUQRtOtt4AnjI1C93p
+uhgHdwgaxrLOvYuRdS0s
 
 -->

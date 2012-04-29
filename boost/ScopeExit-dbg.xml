@@ -9,13 +9,13 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0bb33719-150a-421a-933c-dc55654c8d8d" released="2012-04-28" stability="testing" version="1.49-post-201204282214">
-      <archive extract="boost-lib-scope_exit-5f996f7" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/5f996f7d7ff316556f057d1e99dd188dff0c09b1" size="99753" type="application/zip"/>
-      <manifest-digest sha256="4d3de25b3d7b97ccfa769921d12c9741919b1fa4bd66fe0933cd919d7d9e3151"/>
+    <implementation arch="*-src" id="6f072021-a884-4e1f-9399-316abf2fe504" released="2012-04-29" stability="testing" version="1.49-post-201204291715">
+      <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
+      <manifest-digest sha256="ab10d3b74f54f75fe7b66065e271a62876d0655c9eab445bdd8688517f4eda66"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204281803"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+ca64ACgkQxnV5mk56UjGwvQCdE1xPXA9Ph9HEgnSysu+4TcJWtFYAn1j6Ljfn
-dfHh8mT0tckkL6oZV2sY
+iEYEABECAAYFAk+ddy8ACgkQxnV5mk56UjFWUgCdHGePND/C+xHILxFtJfpXhEZhRhcAoJsCA2SG
+Wwsvs0Y3uTKX9dD9KfIG
 
 -->
