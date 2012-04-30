@@ -26,13 +26,13 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c81efdf-ca61-4465-a0de-1307c518bdad" released="2012-04-29" stability="testing" version="1.49-post-201204291909">
+    <implementation arch="*-src" id="9e171e69-e8c4-40c4-8246-4fe2f9ff0d1e" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-numeric-7098ba6" href="http://nodeload.github.com/boost-lib/numeric/zipball/7098ba6e03f76c16b980bdf58e9e3a9335abf8e7" size="49662654" type="application/zip"/>
       <manifest-digest sha256="37b4a9b6eed3ebf559a3f1ed17dc2dc4331738de5947f9c5d6e759f154d78f9a"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -43,7 +43,7 @@ uBLAS provides matrix and vector classes as well
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dklYACgkQxnV5mk56UjEPQwCePGzK0z/V/kkKxOnqMbOvXdEf2foAoKHkntIS
-cq349BJM0kRvvYD3sNqS
+iEYEABECAAYFAk+elcMACgkQxnV5mk56UjHByACgj/2tSVImzrJpp1BUwLi91mJh31UAnRJLKqPl
+WKDcqDGiLaBu8VBIuKTY
 
 -->

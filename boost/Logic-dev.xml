@@ -9,13 +9,13 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="00667321-5cdb-446f-b04b-683ed1c6120a" released="2012-04-29" stability="testing" version="1.49-post-201204291909">
+    <implementation arch="*-src" id="9aaf3453-e7d1-46a9-a05e-d66bba838e03" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
       <manifest-digest sha256="ef835d407665166f7d8906f53c3aa39aeecd448634830b1395816e0faab56a37"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dke0ACgkQxnV5mk56UjFkPgCdH/wUp1/rt4CfuhcTdp090uLI5/YAn2gInBbM
-cuSgA6/Ul1WJ1x3wyncC
+iEYEABECAAYFAk+elXkACgkQxnV5mk56UjFYIQCfcfozT1Z3TdcIg0iQizvRIa/Tq9sAnAgA4slc
+RzDo3z+PCE3A2kRj4HC/
 
 -->

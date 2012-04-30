@@ -12,13 +12,13 @@
   <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e9db71b8-90e8-49a8-aa4f-799cef205800" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
+    <implementation arch="*-src" id="3047607e-82de-472a-b011-885cdb607553" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
       <manifest-digest sha256="8310b73d4f6dcb0dc1cb75ea2f2639974d3160ba6de74db2eaee800ac6ee3b66"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkjIACgkQxnV5mk56UjGSrQCfdOuPoS6ZF3py5ln9eAaiWzDEVcUAoJucc9LZ
-CD5d/xfjUYU0B2xOg6g2
+iEYEABECAAYFAk+elaQACgkQxnV5mk56UjHrAQCgkP9QWVvmiI+NDIM7bGZax+NnaB8AnRdFZTx3
+vv9ppLtg/YSYaLYBEn+m
 
 -->

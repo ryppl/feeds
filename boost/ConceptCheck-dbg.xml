@@ -11,13 +11,13 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7cfa6bb8-6f11-450a-aa32-220eab7db5da" released="2012-04-29" stability="testing" version="1.49-post-201204291908">
+    <implementation arch="*-src" id="458f655e-cb5c-44f8-ba53-b1b4890dbe21" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha256="f32a5c5e8563c782092791d699dda5da24757638131b0f5e64a7cfb4090ee047"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkb8ACgkQxnV5mk56UjEHEACeN1Yl0+p4OTknav0np0dgNL7zb9IAoIpOai17
-r3T8OWuC3xB4izbiC1Zi
+iEYEABECAAYFAk+elWIACgkQxnV5mk56UjG/OACcDGmcolHQBAoEZlw933MwecnwuwYAnRLg7PBB
+yTo5QoAMBLhehFYuyb39
 
 -->

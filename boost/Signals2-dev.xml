@@ -11,13 +11,13 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c309d4a5-869a-4318-9303-2ca826f2957c" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
+    <implementation arch="*-src" id="96c60a75-52e5-416c-978c-255dbb4d60f0" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha256="3495646fcbad99650be3b9fd822e5004e096d529ece4c932f52b0427b3198e6f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkjAACgkQxnV5mk56UjHKggCfSFzQDF7WUz3fB4lm3XfbzOGjWNAAoJ3B+W9d
-BYiR6llcdGhefS/O6emA
+iEYEABECAAYFAk+elaMACgkQxnV5mk56UjEsmwCdGycWxPZ66rjsHcq8h3xOBoa9g/MAnR7iVZvk
+cgN3YqauDEa/MH1GYhW0
 
 -->

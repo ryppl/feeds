@@ -12,13 +12,13 @@
   <category type="http://boost.org/lib-categories">Correctness</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="641d0e05-b6e2-4c64-8e7a-be5a68061a91" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
+    <implementation arch="*-src" id="95b314d1-6fa3-4c55-8b61-261c01095b0d" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha256="e152891f47403d3eb4dae9a9c82384b0a442e251d8fb0ed42abcb78d0c586fc8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkjIACgkQxnV5mk56UjEvcACcCiRxddi7XL+XzScEdLfexSGySNUAnAwAIjHR
-J8UaBJ85JSvAKDmdHsK3
+iEYEABECAAYFAk+elaUACgkQxnV5mk56UjH5HQCfUHWTlHWAoH77EC2BmP8s1e1/fM0An0erQV8j
+GjaW7+cP/wzZ/Y5HlH7A
 
 -->

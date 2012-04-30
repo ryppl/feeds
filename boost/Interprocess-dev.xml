@@ -10,13 +10,13 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ab285e4e-9ae5-46f6-aeed-83577a1822af" released="2012-04-29" stability="testing" version="1.49-post-201204291909">
+    <implementation arch="*-src" id="cdc75934-6da9-4117-bd08-4274007a42d2" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
       <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
       <manifest-digest sha256="1d84800778268fc219edd36852931b9cb56c1e55f0050d7b6ee8e878aa0598bd"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkeQACgkQxnV5mk56UjEoFACfao2fhS8nBi054jcKTXdY50kNQDMAoJSz5tIa
-gkdgjp7N1uVw5e034n3/
+iEYEABECAAYFAk+elXYACgkQxnV5mk56UjEqCACfcOqmyVz5hj/iyVEkHjMFUEEKfNEAnAso8tGU
+CsJxAy6Vea/Ty7oWB8RZ
 
 -->

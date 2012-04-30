@@ -61,13 +61,13 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c08ba8c-1c73-4cbe-84d7-456da71e9312" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
+    <implementation arch="*-src" id="37eaea76-02e8-4f27-a29b-f788ba309a13" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-utility-5fc22d6" href="http://nodeload.github.com/boost-lib/utility/zipball/5fc22d66bbd4ad54cf43ac3cf50ffb7ece745b6b" size="223218" type="application/zip"/>
       <manifest-digest sha256="c8945b4cb27af51eaf0b47edc25ca16635d16775fa469be205885a2e1572bba2"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -78,7 +78,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkkEACgkQxnV5mk56UjGcFwCfb6UQuzNXTXtNqIPmnir+PhkcB4AAn1tfSxgi
-hJF+TM+OrjuhG/ufIqH7
+iEYEABECAAYFAk+elbYACgkQxnV5mk56UjGGIACfXCBnHeInCEnExLNrdcjj5IgLxQ8An2Vf+r4b
+m1rpTBcH5pZKdpM+zZX1
 
 -->

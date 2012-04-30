@@ -9,13 +9,13 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="91973d93-f4d7-46a3-b2e2-92e8ac5a4600" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
+    <implementation arch="*-src" id="d4e0702a-066a-4072-b416-6ef12ac8630d" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
       <manifest-digest sha256="bd6a1c14fa43df34a8aa8b012076eb39625ed579cb5508320dfaba574389ba85"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dbg</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkhsACgkQxnV5mk56UjHzhACfeGv4aFa1AxqL/ecvDbAS9gINTN4AnR4Vgnya
-zLz/hLLgvY9F6WQ7RQhK
+iEYEABECAAYFAk+elZIACgkQxnV5mk56UjElDgCfdmkX+M+0xZVesrqPCzb+uOz8mpwAn030E92l
+1XGEOwP/zznXgEjhJmBO
 
 -->

@@ -9,13 +9,13 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9e0423ae-2858-4556-ba34-b202d436c3c6" released="2012-04-29" stability="testing" version="1.49-post-201204291910">
+    <implementation arch="*-src" id="b8759ddb-4684-43e9-8458-20ba1ec89c62" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
       <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
       <manifest-digest sha256="79d392afc043358c368ac929525622ebd1a37249ecff815ee397fb9c99c1fb03"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291504"/>
+        <version not-before="0.8-pre-201204291303"/>
         <arg>--component=dev</arg>
         <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dkiwACgkQxnV5mk56UjF01ACfWo79xGyjm+BrbuH4G8H71M9WdhQAniKxHxK0
-iFFv6ZDKRUVWcYWOQUc3
+iEYEABECAAYFAk+elZ0ACgkQxnV5mk56UjGnWwCfQVzHdZv0vpmZmSQg2bnW3Yb+g7cAn0nsm3qv
+G6B6ZtDtHrIEqp4D2ywF
 
 -->
