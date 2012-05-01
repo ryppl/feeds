@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/context.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/context-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Context (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,13 +10,13 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b1498e48-dda8-4e1d-bea6-70740a88bbd8" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="ce26b7d6-74d7-400d-94aa-890e4fede246" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-context-ec05a49" href="http://nodeload.github.com/boost-lib/context/zipball/ec05a49b72c9754107fd3e525ac2de58a2219ed5" size="6106723" type="application/zip"/>
     <manifest-digest sha1new="aa559dd34910d3e6b42a61194d469e439a4f6db7"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRtQACgkQxnV5mk56UjHcPQCdELepFt/9yooNoGSiDNCt2C4ucmcAoIz+sUqp
-qWr6/Tv6eKoHCIxR3C72
+iEYEABECAAYFAk+gTDAACgkQxnV5mk56UjH+pACfZ2Fp4LpoFzQZR8Hl1ud9K549mJQAn3M+TmBG
+8MzD7M1VzDekHyFGOjm0
 
 -->

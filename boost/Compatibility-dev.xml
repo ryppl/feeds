@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/compatibility.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/compatibility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Compatibility (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,7 +11,7 @@
     libraries.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4a285c2e-e465-47be-971c-6a259006b42f" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="30649cd3-84a4-415c-b4d9-3f98ccfa4ade" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrwACgkQxnV5mk56UjGZmQCfTrgNmb7K9C9f7+zIqFyerWWAdzAAoJgHuPXN
-DFikYgYsjeMz3DzgevC1
+iEYEABECAAYFAk+gTBwACgkQxnV5mk56UjHecACaA7mCuiRtx1oP6t+ET+Lst9iyRvcAoICZgP/N
+wXPFdVgqvlgaW64qPAdb
 
 -->

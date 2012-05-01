@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/unordered.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/unordered-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Unordered (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,13 +9,13 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="37dfd3b7-18a8-4e10-9b12-71efbfc7d747" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="18cfeea5-d3e3-4da3-8106-9cc2b9e49f07" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-unordered-3ad250b" href="http://nodeload.github.com/boost-lib/unordered/zipball/3ad250b50ec5de9c51c64bd8a39e20658b12819f" size="192199" type="application/zip"/>
     <manifest-digest sha1new="6b968789d776b9961f5dcc6b1ab2e7373f26b3cc"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrkACgkQxnV5mk56UjEJ7QCffRc7fXlvWabRAU7iw2bAUvgaBeIAn152Nzmo
-XSPMqQW3CYroCe+GVsEA
+iEYEABECAAYFAk+gTBoACgkQxnV5mk56UjGR1ACeOeQ3z01Y/yhnGbxFHYsjyropApUAoJCLQntS
+4+1nOevyM3yuXG4R0yEl
 
 -->

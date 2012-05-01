@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/tr1.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/tr1-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.TR1 (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -15,13 +15,13 @@
     std::tr1.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1574620f-fa6f-4624-892d-9a48e88d3223" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="0d0b7e1f-38f7-41df-9d30-ba4453a438ee" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-tr1-29adf81" href="http://nodeload.github.com/boost-lib/tr1/zipball/29adf81005592df8f64d8084c4e0739f85b4ab18" size="187668" type="application/zip"/>
     <manifest-digest sha1new="6aa8100969483d26d03262385299d4ebc7eb580d"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRsoACgkQxnV5mk56UjH6YACdF4ao2H7gM5xt2VSl48SRgP9XSPkAn1kzLyzE
-eqDZH6FAUQ6C1IBt1ee1
+iEYEABECAAYFAk+gTCoACgkQxnV5mk56UjFFKgCfQpzKWPilUcKTfjoeJxKrAgkCrIoAn3jZyihU
++HXhWiho70ua1w92sjUK
 
 -->

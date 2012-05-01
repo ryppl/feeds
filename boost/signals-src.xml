@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/signals.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/signals-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Signals (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,13 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="5451387b-7b35-40ae-a21b-b819868fbfd1" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="cf0c3962-ebb6-4de5-a092-f9d67f309b66" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
     <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRtYACgkQxnV5mk56UjHp+gCeMjm71KkMESp1WiR692Yi5kmoNNMAoIko6w9M
-ODj/0+7DEGzViYoWqKcx
+iEYEABECAAYFAk+gTDMACgkQxnV5mk56UjEYmgCghgYMhnnRYNz9GUeFR7LZ5/R/vLYAn0HLNFqm
+GB9Vzy2obTTl/pF1DpgY
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/format.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/format-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Format (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -18,7 +18,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="19e25c89-142e-4373-b7c9-800b3013b63a" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="7b18984e-b3eb-4c39-8dd6-eab483a7a8d8" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -32,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrQACgkQxnV5mk56UjH9agCfcrFhctz1ccAD6OC7FF5UHoKlHgAAn10I7Vku
-r9vJnmTPeIFShu/PRKvh
+iEYEABECAAYFAk+gTBUACgkQxnV5mk56UjGbaQCgjlDp3BPirgfuLL4zz/pkZVxAhuYAn1wuly/3
+Q4kLg0JP3nq9jPQ8Eta1
 
 -->

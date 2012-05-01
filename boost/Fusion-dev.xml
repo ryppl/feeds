@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/fusion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/fusion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Fusion (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -13,7 +13,7 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8e23b549-d372-4d91-87d0-b6cd89d5dece" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="e2b115b4-75ff-4f47-b887-480fd8c561e9" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrwACgkQxnV5mk56UjEH0gCfbFu29TY0I6n6bLN6RnZ+eZfQwGgAoJ5kjHEh
-SbyDEkfaYNuOUW+bKKdV
+iEYEABECAAYFAk+gTBwACgkQxnV5mk56UjEfVQCeJpRhQaeuwtbZJgTyV+LJREneBA0An1w9SthU
+WFyLdms498ngrLXWEJiU
 
 -->

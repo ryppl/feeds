@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/utility.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/utility-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Utility (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -61,13 +61,13 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b4896621-2c76-477a-8b72-6fb446370423" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="a2ff9494-2505-4961-b20d-a0e66831bd3f" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-utility-5fc22d6" href="http://nodeload.github.com/boost-lib/utility/zipball/5fc22d66bbd4ad54cf43ac3cf50ffb7ece745b6b" size="223218" type="application/zip"/>
     <manifest-digest sha1new="ce6a288ed19c294d2e8cd35ee40ee8316e8b6827"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRtgACgkQxnV5mk56UjGVdACcDC58mfaf/8zZITePTAH5p7qllq8An2smBjKl
-IgI2wLFWeZS32I5ukMEY
+iEYEABECAAYFAk+gTDUACgkQxnV5mk56UjHEFQCdH8nTPc5037REBDUIJbhbPJJte2oAoIJ2nA1/
+TfF17+Rcn5OMoDcq9eNi
 
 -->

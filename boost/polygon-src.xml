@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/polygon.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/polygon-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Polygon (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,13 +9,13 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="74eec39f-b8dc-412a-b191-e3c4cfdc3f7b" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="7677f61a-70ff-4a4d-9730-371d679ae316" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
     <manifest-digest sha1new="53c2ccaf0766100dd2378f628fbe23b6abe41eca"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRroACgkQxnV5mk56UjE/OACfY5a+pxOfbPOCvoIKiaCEuFRK27wAn3gtLu6q
-WkUZUXoDeqapaBHlPQU+
+iEYEABECAAYFAk+gTBoACgkQxnV5mk56UjGhIACeNS1PsjMQYiINCuKM+CoasKsEttwAn2HTTCW2
+1YfWWN8d0gWTwPp4Cvqi
 
 -->

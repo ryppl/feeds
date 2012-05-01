@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/crc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/crc-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.CRC (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,7 +12,7 @@
     implementations are template-based.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2c6f98f7-f787-4f0e-ba70-9a31809b85b3" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="eb344655-97d7-4bfb-8749-7179be9b0adf" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrQACgkQxnV5mk56UjH/wgCgoTxVBLCOUfC4CKZOlW6nQT2LsbwAni21DE+r
-A8xw29CNSDAyiOk9XkLi
+iEYEABECAAYFAk+gTBUACgkQxnV5mk56UjFYoQCgo/JMwNZrDetesRIbgpoaxDeQKyAAn10gX+5Q
+ciqF/A/XOesOEG07EzJW
 
 -->

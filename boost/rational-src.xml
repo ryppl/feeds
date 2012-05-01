@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/rational.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/rational-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Rational (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,13 +9,13 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d777f708-421f-4357-b194-ab04076e0833" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="15e9da85-39d8-4520-b7ed-1a1bcbc19b5b" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
     <manifest-digest sha1new="b4ff063d9351a4701e62b6fa2c099e9939df8a57"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrgACgkQxnV5mk56UjETDACePVHOznd7wpyG93V3j4fsZaeLCUMAn0Jwt3Zx
-0A1iWr+0XX1M6ALgGB73
+iEYEABECAAYFAk+gTBkACgkQxnV5mk56UjH4WwCeK9bycHskI97TcVgGajh++c+f9vEAnRDYOSCc
+NQMSI48WUcAvK3dw+T2p
 
 -->

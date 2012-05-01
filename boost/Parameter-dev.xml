@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/parameter.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/parameter-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Parameter (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -13,7 +13,7 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c46ddc21-2ee4-4efd-b23f-ee1225e58b42" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="2b81111d-54ca-4657-aa12-bd2cd68bde48" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+gRroACgkQxnV5mk56UjES/QCSA3hgmPvPwau/G7YMoQam6/bGsgCfesws9MYU
-RFXOLIKa+eVL5O/1WpM=
+iEYEABECAAYFAk+gTBsACgkQxnV5mk56UjEKLQCfVDd2lsoXwUkh+HYfBaO3C5gPxJoAnAmjjSFw
++msSjHuZi29tr5/13KTC
 
 -->

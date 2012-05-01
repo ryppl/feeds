@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/gil.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/gil-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.GIL (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -14,7 +14,7 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bf7c1243-16e3-41d4-9625-3571d81747af" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="7ad0e7b0-80c5-41b9-a6e6-b0ddbdaf3de1" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRq4ACgkQxnV5mk56UjGPYQCdFATHaMZRp1H6chAXzPF5bPSnizEAn3CMUdlC
-3v9E18jlB+j6tnJkb0Rt
+iEYEABECAAYFAk+gTA8ACgkQxnV5mk56UjFLmgCcDEwbBiYqIxGIMDNSUiX54LwPA4AAoKSq8ypm
+5xAZ4jkh63XtcbgCA1lQ
 
 -->

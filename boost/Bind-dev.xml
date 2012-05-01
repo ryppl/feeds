@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/bind.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/bind-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Bind (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -26,7 +26,7 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="11efda6c-b13f-4e4c-ab8e-bcc93efa605b" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="a9624641-1397-4268-8213-f919ca1d0004" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -40,7 +40,7 @@ A utility library for passing references to
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrMACgkQxnV5mk56UjE7PwCfS8Ljb3/cee90taWvHYLNtxC4e3AAn1rVTed/
-3C2Gl1220f767nKwtzxk
+iEYEABECAAYFAk+gTBQACgkQxnV5mk56UjHxiwCfYUWaofdksZimFoKZJTP5BNxNFJoAoIhSjgGo
+jmGR8Y6Z8nXNWLpLaIyO
 
 -->

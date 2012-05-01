@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/typeof.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/typeof-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Typeof (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,13 +10,13 @@
   <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6ac1ebad-eeec-4a4e-9989-60eeda36a13a" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="a45d62e6-b36d-4481-9ec6-e754e1939ae3" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
     <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRtcACgkQxnV5mk56UjFNMQCfXEXxMG0YrDmzI80vZta+wHybQHkAoJpKv/VL
-7dm5tVffjoZvg8ZBlxRn
+iEYEABECAAYFAk+gTDQACgkQxnV5mk56UjG6ogCaA3dIzCAkXLhQW2W7Pvl6mQu0xfkAn0cHAVME
+0VEra+DPBnfeqDH2qcKw
 
 -->

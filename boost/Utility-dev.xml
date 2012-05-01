@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/utility.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Utility (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -61,7 +61,7 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c4117790-c4b1-4bcc-8ff1-28bae28c989c" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="102c4ac5-01ff-47f9-b51d-9cbaf702d0fe" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -75,7 +75,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRtgACgkQxnV5mk56UjGEZQCfcXq/2t3NaWpKlit4u3qBlajmRVQAnAueoN6K
-qVUBvmC9Qn6qsnNxiqcN
+iEYEABECAAYFAk+gTDQACgkQxnV5mk56UjFmCgCfS0NOBxxHB+lSsDFN2d0wTu1DqjYAnjyksNw2
+eil+XSEaV3iSXZHmmhko
 
 -->

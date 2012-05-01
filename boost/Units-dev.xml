@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/units.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/units-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Units (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,7 +10,7 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="048b7bab-97f4-4ddb-a0fa-84d9d288cecb" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="65d43086-e2a8-47dc-bd73-7ea2ec762203" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRsgACgkQxnV5mk56UjG2BwCfX10JGrGlcDHnsS5rEwDMxZQgL1wAoIMv/T35
-XhCDuZ03ZoERr86LGhHD
+iEYEABECAAYFAk+gTCYACgkQxnV5mk56UjHsEACfQdEMySG/vvAzS9boyrYbWTSSwOYAoJ1F0v5A
+zrN6ahVJARMl5akNO0R5
 
 -->

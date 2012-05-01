@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/type_traits.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/type_traits-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.TypeTraits (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -13,13 +13,13 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a1682513-234c-4be0-882c-ed62a37d31c2" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="4802bb4c-a7db-4689-bd07-20d794307bbe" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-type_traits-c0e01e2" href="http://nodeload.github.com/boost-lib/type_traits/zipball/c0e01e2d36942936f75738a6d72233da8e9dd568" size="895065" type="application/zip"/>
     <manifest-digest sha1new="2971fdd5d065a4aea0665d0c3e83328ba2f8083c"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrwACgkQxnV5mk56UjFtCwCeNISEc1WvtZjQ7tL5jvqmtpqLMxIAni6n4N9M
-h3KP+RRsYOZB0P2tdANf
+iEYEABECAAYFAk+gTBwACgkQxnV5mk56UjGuZACgoSfbULHHSHqeY8Mc4Za3w+A/jjYAn1usNlv9
+JrYalgExBdyYvw0H28/u
 
 -->

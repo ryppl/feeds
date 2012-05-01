@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/foreach.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/foreach-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Foreach (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -20,13 +20,13 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d86fc0bc-1618-40c9-9249-8510800743da" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="c136a3aa-4e15-4dbc-9784-b5a85652777b" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
     <manifest-digest sha1new="37abb66bae453003ad9989a1fccc0b56f4b5df93"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRsgACgkQxnV5mk56UjGiawCfeosUsHjKAq7HSZxpWohutSlg4cUAoIoToAz9
-hE8S1Rdk0/FQ3H09xJMi
+iEYEABECAAYFAk+gTCcACgkQxnV5mk56UjGBYQCgmqGtP1JPreoi1FB+xFysKuWnqv0AoImxjlhj
+El1Q3dTSJIwdXKrjDM2j
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/algorithm.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/algorithm-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Algorithm (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -20,7 +20,7 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="21a16069-7e92-4309-913c-559e720acf4c" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="cf292821-2d2f-45a2-b8d7-3152f745a650" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -34,7 +34,7 @@ String algorithms library.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRs8ACgkQxnV5mk56UjEO3gCfRJnrBtQdwLp+G8JKWpxccRUhdigAnRgn70d4
-j4zTiT8SW0OJtQNwtFpw
+iEYEABECAAYFAk+gTC0ACgkQxnV5mk56UjHhFgCgibQCrVVLenXuajuZ9g7Fk9UNh3YAn1KF1jpi
+i4GCKF5DNWrK++a0KhvZ
 
 -->

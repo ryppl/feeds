@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/numeric.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/numeric-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Numeric (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -26,7 +26,7 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4a183634-a619-4bae-9534-9f7e2e57872d" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-src" id="f34b3527-59fc-4880-a173-a593b881d354" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -40,7 +40,7 @@ uBLAS provides matrix and vector classes as well
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrgACgkQxnV5mk56UjG4JACglhjeEkfOgMfUySJSfMgQ0C7CxT4Anj+ZoMDz
-84ElC4Gd6wapXy9V1IJ7
+iEYEABECAAYFAk+gTBkACgkQxnV5mk56UjFsQwCfRWcAsqAoS1tJqkiF4KYYdy4uiYMAnAzE8EjO
+/TCmiBE962mF4l7uud4S
 
 -->

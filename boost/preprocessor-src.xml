@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/preprocessor.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/preprocessor-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Preprocessor (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,13 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6dd2871a-6038-4e11-9de9-899cd146a3a3" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="a4fefdcb-a6c0-4526-a0c6-6e96fa4f49b7" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
     <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRtgACgkQxnV5mk56UjFG3QCgmrDdrq5LFOyLek3WdrTMafWEN74An0pX9Bi8
-5XRhYbLj7zmAX4J9hJGR
+iEYEABECAAYFAk+gTDQACgkQxnV5mk56UjGMGACgn9y7EBvUcixFz7aY1/61KA5FyDMAn0YV1C45
+DHyzVmySaGHDWYPFpbXG
 
 -->

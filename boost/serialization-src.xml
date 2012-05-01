@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/serialization.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/serialization-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Serialization (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,13 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2077ea76-a73e-424b-b5fa-76d0d134b00e" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <implementation arch="*-*" id="da48c39d-b7cf-4e53-8cf3-fbd003a87aa1" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
     <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
     <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gRrEACgkQxnV5mk56UjHTzQCgpitOuqF8wSX9ocHOx8AOIJrpDBcAoKQ4V570
-KLQBEDSd9iacnPBZayD7
+iEYEABECAAYFAk+gTBIACgkQxnV5mk56UjGaPwCgpcluoaAcEzMNvVUMoYyVd2USehYAoJxnAMbL
+yPfyj4phSatPRlRwrKXR
 
 -->
