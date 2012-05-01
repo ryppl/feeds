@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Parameter-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostParameter</name>
+<interface uri="http://ryppl.github.com/feeds/boost/parameter.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Parameter (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
@@ -13,15 +13,11 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="113096a6-66e3-4af1-9921-41ab409ccb66" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
-      <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
-      <manifest-digest sha256="6ed0b2bb7e7138353520243cb838ff422a7e5ef18510479ccd798bdd33e52f31"/>
-    </implementation>
+    <implementation arch="*-src" id="c46ddc21-2ee4-4efd-b23f-ee1225e58b42" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="parameter" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -31,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elYUACgkQxnV5mk56UjEqlwCeO/OdQE/xF4wM8Gitpco4mVlycVQAn0z90ZaF
-nqpM+5C0l6HzhAyZD8Vv
+iEUEABECAAYFAk+gRroACgkQxnV5mk56UjES/QCSA3hgmPvPwau/G7YMoQam6/bGsgCfesws9MYU
+RFXOLIKa+eVL5O/1WpM=
 
 -->

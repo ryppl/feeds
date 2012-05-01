@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Functional-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostFunctional</name>
+<interface uri="http://ryppl.github.com/feeds/boost/functional.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Functional (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/functional/</homepage>
@@ -24,15 +24,11 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8fee868a-fa03-4dbf-9cb5-e91299b60c4e" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
-      <archive extract="boost-lib-functional-16d011f" href="http://nodeload.github.com/boost-lib/functional/zipball/16d011feba236755b7632e4a6bfa50090587d4b5" size="169550" type="application/zip"/>
-      <manifest-digest sha256="6332a2e21e676c7302706b7d1dea8f31c08264681c464bc862b2ea2135227ded"/>
-    </implementation>
+    <implementation arch="*-src" id="50969ce6-be43-46a4-a0c4-5f91694ab66b" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="functional" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -42,7 +38,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elWgACgkQxnV5mk56UjGv3ACdGbQcVzcRgBDeihVOLmbW1GEHzu4An2yliC3E
-skNADMkL1NcR/oJZOZW8
+iEYEABECAAYFAk+gRq8ACgkQxnV5mk56UjHkmQCdE4klmxTHXtNe8HmJNu6bKI7fWj8AoImwSrEt
+IRh9fQ++dUS/RJFp48Dl
 
 -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/bind.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Bind (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/bind/</homepage>
+  <dc:author>Peter Dimov</dc:author>
+  <dc:author>Dave Abrahams</dc:author>
+  <dc:author>Doug Gregor</dc:author>
+  <dc:author>Jaako Järvi</dc:author>
+  <description>bind:
+boost::bind is a generalization of the standard
+    functions std::bind1st and std::bind2nd. It supports arbitrary
+    function objects, functions, function pointers, and member
+    function pointers, and is able to bind any argument to a
+    specific value or route input arguments into arbitrary
+    positions.
+
+bind/mem_fn:
+Generalized binders for function/object/pointers
+    and member functions.
+
+bind/ref:
+A utility library for passing references to
+    generic functions.</description>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="297cbb07-b519-4654-abfc-14eabc57871e" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
+    <manifest-digest sha1new="baac374d3b369d48ad3be4475059d8678cff533e"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRrQACgkQxnV5mk56UjEAmQCgjD1FC9C0d+xdNJxktfed+8/yUFgAoJ+heHEo
+z3EgGmjxj6yFmrkbLR1t
+
+-->

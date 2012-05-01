@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Polygon-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostPolygon</name>
+<interface uri="http://ryppl.github.com/feeds/boost/polygon.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Polygon (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/polygon/</homepage>
@@ -9,15 +9,11 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4d16cc09-7489-45f4-8827-50230f9ddf9f" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
-      <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
-      <manifest-digest sha256="bd6a1c14fa43df34a8aa8b012076eb39625ed579cb5508320dfaba574389ba85"/>
-    </implementation>
+    <implementation arch="*-src" id="e628230a-075f-400a-a77c-fbc43c84539c" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="polygon" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -27,7 +23,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elZAACgkQxnV5mk56UjEfQQCgpDGZMSqPHnh9b7kiHmfd/018YhMAoKDwjROb
-Q+NZCJ9TduvvwPfMR+cD
+iEYEABECAAYFAk+gRrcACgkQxnV5mk56UjFoEwCeJXM5yMoshSJaikwgDq5Ipw7nD00AoI+kpwb5
+lc00B10rU05zYufE31uw
 
 -->

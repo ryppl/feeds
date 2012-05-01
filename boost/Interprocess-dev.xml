@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Interprocess-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostInterprocess</name>
+<interface uri="http://ryppl.github.com/feeds/boost/interprocess.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Interprocess (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/interprocess/</homepage>
@@ -10,15 +10,11 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cdc75934-6da9-4117-bd08-4274007a42d2" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
-      <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
-      <manifest-digest sha256="1d84800778268fc219edd36852931b9cb56c1e55f0050d7b6ee8e878aa0598bd"/>
-    </implementation>
+    <implementation arch="*-src" id="b825f8a9-b7ba-4850-b9ec-2c9df7f06bde" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="interprocess" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -28,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elXYACgkQxnV5mk56UjEqCACfcOqmyVz5hj/iyVEkHjMFUEEKfNEAnAso8tGU
-CsJxAy6Vea/Ty7oWB8RZ
+iEYEABECAAYFAk+gRq4ACgkQxnV5mk56UjHXDQCfdzp78dZXM6b9t6jeOXKlmPnQBNgAoKU25d4u
+b52tBjWafFL79lOFgDPg
 
 -->

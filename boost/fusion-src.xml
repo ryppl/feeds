@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/fusion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Fusion (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/fusion/doc/html/</homepage>
+  <dc:author>Joel de Guzman</dc:author>
+  <dc:author>Dan Marsden</dc:author>
+  <dc:author>Tobias Schwinger</dc:author>
+  <description>Library for working with tuples, including various containers,
+	algorithms, etc.</description>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="1cdb035c-c1a6-47a6-84ff-0b2ccb071e14" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-fusion-6d7cae4" href="http://nodeload.github.com/boost-lib/fusion/zipball/6d7cae4f100827ecc27f85b55288374acd9b32ad" size="1208661" type="application/zip"/>
+    <manifest-digest sha1new="88ac1b5491d33f0156b760e4a620c4481a4a6360"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRsAACgkQxnV5mk56UjHZNwCgmX9GXkje4t9FtlsvW0u8DQ9RNRkAn2P2RW9r
+5de1EscQgAgrWRxC+34K
+
+-->

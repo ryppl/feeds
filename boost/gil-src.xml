@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/gil.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.GIL (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/gil/</homepage>
+  <dc:author>Hailin Jin</dc:author>
+  <dc:author>Lubomir Bourdev</dc:author>
+  <description>Generic Image Library</description>
+  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories">Generic</category>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories">Image-processing</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="8d1d0deb-cd3a-497f-a066-9ad9a92e5d27" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
+    <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRrIACgkQxnV5mk56UjHKwQCfetFGD0gmHKyzWln4Cw+xWtv8qmYAnAkrepnj
+Xxbhqg8nHZShlxqp1dD8
+
+-->

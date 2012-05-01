@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Exception-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostException</name>
+<interface uri="http://ryppl.github.com/feeds/boost/exception.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Exception (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/exception/doc/boost-exception.html</homepage>
@@ -11,15 +11,11 @@
     exceptions between threads.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9e562d6b-29b2-4fae-b4ec-19971a87af0f" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
-      <archive extract="boost-lib-exception-8608367" href="http://nodeload.github.com/boost-lib/exception/zipball/860836769ed210a993058c48debcf5ae8f254b24" size="231022" type="application/zip"/>
-      <manifest-digest sha256="effb1ede30f716f76a9c7340e6f3957758756dca19bf3331ab3090dad9a302c5"/>
-    </implementation>
+    <implementation arch="*-src" id="30717a09-411b-45e0-9679-7968129f5c47" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="exception" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -29,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+elWYACgkQxnV5mk56UjGL8wCePpmqASBSQSKlNjq3P4UKnNIbwr0AmKDaOHwb
-XCRIjb7vPIGT4lWN/H0=
+iEYEABECAAYFAk+gRrQACgkQxnV5mk56UjHFCACeMU/hRutFjdmuCfBsjfBVByBz4OgAn2Xa3ifs
+4IosJvfoASDxHAGP1J25
 
 -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Spirit-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostSpirit</name>
+<interface uri="http://ryppl.github.com/feeds/boost/spirit.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Spirit (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/spirit/</homepage>
@@ -13,15 +13,11 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9e1441cb-4ad6-43cb-9d99-9b1786c00b76" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
-      <archive extract="boost-lib-spirit-7023e50" href="http://nodeload.github.com/boost-lib/spirit/zipball/7023e502891a05cda7b40c6e4caff82b15f5a901" size="4519467" type="application/zip"/>
-      <manifest-digest sha256="cf3848421514cccba843861856d427d2492c6822150be93aaceb6e4b2b740dbb"/>
-    </implementation>
+    <implementation arch="*-src" id="68ce0122-3410-46d7-8b49-b44ed52f4bf1" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="spirit" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -31,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elbEACgkQxnV5mk56UjH0DgCdH+QJLyT9D5sF7lVkWJQCAyI+9TwAoKcwoh8a
-HIBQzI2wyVYent6HS+mi
+iEYEABECAAYFAk+gRr4ACgkQxnV5mk56UjHDqwCfV0dxU7Vd0ONRNaq/OP8wVQ/PTAQAn3hYvADO
+y0e0oMykf4iQ7WSf1BcI
 
 -->

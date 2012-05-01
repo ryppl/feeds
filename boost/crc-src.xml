@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/crc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.CRC (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/crc/</homepage>
+  <dc:author>Daryle Walker</dc:author>
+  <description>The Boost CRC Library provides two implementations
+    of CRC (cyclic redundancy code) computation objects and two
+    implementations of CRC computation functions. The
+    implementations are template-based.</description>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="b329027b-2ae4-4c9e-91e6-cd32b6557490" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
+    <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRrUACgkQxnV5mk56UjHwXgCdEH7fG/iHmv1kyOcl3fycZFGcuWoAnjKlUpA8
+mWFViIK53nZFqAONP/yo
+
+-->

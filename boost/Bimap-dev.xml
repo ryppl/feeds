@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Bimap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostBimap</name>
+<interface uri="http://ryppl.github.com/feeds/boost/bimap.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Bimap (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/bimap/</homepage>
@@ -12,15 +12,11 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bb8bfefc-e678-4140-85f9-5a28c1d30967" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
-      <archive extract="boost-lib-bimap-4d74407" href="http://nodeload.github.com/boost-lib/bimap/zipball/4d7440762144f5206869dbe6a2b8557fffaf7a02" size="1312431" type="application/zip"/>
-      <manifest-digest sha256="4cddd77463cea9c0b735d2d86eef6c4d26a05e9e45863951dfb4dc33a23b6cdc"/>
-    </implementation>
+    <implementation arch="*-src" id="b90a9343-03cc-4eb9-905c-8c6d7fa61002" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="bimap" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -30,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elWEACgkQxnV5mk56UjGZywCeMuLKcqyx1RLy5vt0eyQkJYykzCEAn0mw422W
-0/f6/AvMmh0K2W1fGl15
+iEYEABECAAYFAk+gRtUACgkQxnV5mk56UjHhuQCeKNYDKjW+PW5KGrIw+S2lMJ/VdBgAoKUyuE0v
+XfUrl9GfnqDUO8P/WfzH
 
 -->

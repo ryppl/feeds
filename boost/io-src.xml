@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/io.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.IO (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/io/doc/ios_state.html</homepage>
+  <dc:author>Daryle Walker</dc:author>
+  <description>The I/O sub-library of Boost helps segregate the
+    large number of Boost headers. This sub-library should contain
+    various items to use with/for the standard I/O
+    library.</description>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="58b2a701-2868-49eb-a7f2-83507b1e0735" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
+    <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRsUACgkQxnV5mk56UjFtbgCbBTTYE1km995v8kaXwGCqUv9bPfkAmgNJUuDd
+C/oMUdK7ZmgIRYMd0v1q
+
+-->

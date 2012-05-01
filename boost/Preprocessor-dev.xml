@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Preprocessor-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostPreprocessor</name>
+<interface uri="http://ryppl.github.com/feeds/boost/preprocessor.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Preprocessor (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/preprocessor/</homepage>
@@ -11,15 +11,11 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ab1d856d-f7d1-4e79-b5b9-4726f547f9d7" released="2012-04-30" stability="testing" version="1.49-post-201204301337">
-      <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
-      <manifest-digest sha256="1ceae6bbac1c701034133fcba5f0b21c588e9987bd02c7cb4ae1fe04de0bbfc2"/>
-    </implementation>
+    <implementation arch="*-src" id="1dd53766-b334-454b-be25-def54809d2cc" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="preprocessor" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -29,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elZQACgkQxnV5mk56UjGgXACeJrjn5rrP0gl5NSM/ibCfGFCwRpwAnRXKz7zz
-FtFLzIa7UBK1a5HcgBbf
+iEYEABECAAYFAk+gRtUACgkQxnV5mk56UjF4jACdFRiSbngUjI4TqU45KB3a6MLSh3sAnRubny7k
+LG3L+CAYhyJadqV1zebn
 
 -->

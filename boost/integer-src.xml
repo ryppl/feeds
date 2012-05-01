@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/integer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Integer (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/integer/</homepage>
+  <dc:author/>
+  <description>The organization of boost integer headers and
+    classes is designed to take advantage of &lt;stdint.h&gt; types
+    from the 1999 C standard without resorting to undefined
+    behavior in terms of the 1998 C++ standard. The header
+    &lt;boost/cstdint.hpp&gt; makes the standard integer types
+    safely available in namespace boost without placing any names
+    in namespace std.</description>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="adb9cd22-8345-45ab-90c3-9020dd21c41a" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
+    <manifest-digest sha1new="69bc178b5094fe4343b611af8812c9d94367f9d8"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRrcACgkQxnV5mk56UjFjTwCgqThFEXRYNgsgmPk1ZO696chELKoAnivNRmca
+ghiMtcaz3XSE2Ck+DI5F
+
+-->

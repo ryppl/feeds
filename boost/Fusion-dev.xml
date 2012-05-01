@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Fusion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostFusion</name>
+<interface uri="http://ryppl.github.com/feeds/boost/fusion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Fusion (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/fusion/doc/html/</homepage>
@@ -13,15 +13,11 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="150b526a-293d-438c-8bc6-001b067ad670" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
-      <archive extract="boost-lib-fusion-6d7cae4" href="http://nodeload.github.com/boost-lib/fusion/zipball/6d7cae4f100827ecc27f85b55288374acd9b32ad" size="1208661" type="application/zip"/>
-      <manifest-digest sha256="db683c57e571930a0baf782533515a8cb6dc39c57599d80cd92da026da46959c"/>
-    </implementation>
+    <implementation arch="*-src" id="8e23b549-d372-4d91-87d0-b6cd89d5dece" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="fusion" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -31,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elWwACgkQxnV5mk56UjFPNQCfUoXQhsAFPrPlXmNL4KaZtFhERQwAnAmovkN6
-uMRC06Y55jxjXdkOKcol
+iEYEABECAAYFAk+gRrwACgkQxnV5mk56UjEH0gCfbFu29TY0I6n6bLN6RnZ+eZfQwGgAoJ5kjHEh
+SbyDEkfaYNuOUW+bKKdV
 
 -->

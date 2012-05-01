@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/program_options.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.ProgramOptions (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/program_options/</homepage>
+  <dc:author>Vladimir Prus</dc:author>
+  <description>The program_options library allows program
+    developers to obtain program options, that is (name, value)
+    pairs from the user, via conventional methods such as command
+    line and config file.</description>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="21904054-22cc-4d48-bf10-c8190a7ef53a" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-program_options-882c8da" href="http://nodeload.github.com/boost-lib/program_options/zipball/882c8da40f9e0b05e1c414dd7475fe04be15a551" size="159755" type="application/zip"/>
+    <manifest-digest sha1new="1ff9987551d2e5bdfdf564b3d7162dea045e7697"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRrEACgkQxnV5mk56UjHV0wCdFuUB7G4B+1s4owkkbcEPR1HZHhIAn0+7Qqj0
+aK67RmUX/C740BkHpngv
+
+-->

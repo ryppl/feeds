@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/Array-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>BoostArray</name>
+<interface uri="http://ryppl.github.com/feeds/boost/array.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Array (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/array/</homepage>
@@ -10,15 +10,11 @@
     constant size.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="42d2f7a7-4d9b-46d4-8061-7bc319a7a379" released="2012-04-30" stability="testing" version="1.49-post-201204301336">
-      <archive extract="boost-lib-array-8825aa9" href="http://nodeload.github.com/boost-lib/array/zipball/8825aa9b9be1c0e2bb5a0826edd7f28d15795358" size="17039" type="application/zip"/>
-      <manifest-digest sha256="dfd6288a230f8ca22a50d8cc7206ed5965f2c70008414a50b7084fde1b962df3"/>
-    </implementation>
+    <implementation arch="*-src" id="43f7040d-3616-4ee9-adc2-4479a1d481ac" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201204291303"/>
-        <arg>--component=dev</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS_OVERLAY}</arg>
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="array" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
@@ -28,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+elVwACgkQxnV5mk56UjGCIgCcCghA/gTbqUnkEZVP7GJKyv3w3o0AnRyjJPV9
-NhNUtveGgWiU8Np/Qb9V
+iEYEABECAAYFAk+gRr0ACgkQxnV5mk56UjGg7wCeLYiD5njjx5iRGg2c6vJKnGFQvK8AnjsimlMY
+DkqoVfMQwKxke4x3+fe1
 
 -->

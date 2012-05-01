@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/algorithm.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Algorithm (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/algorithm/</homepage>
+  <dc:author>Pavol Droba</dc:author>
+  <dc:author>Marshall Clow</dc:author>
+  <dc:author>Hervé Brönnimann</dc:author>
+  <description>algorithm:
+A collection of useful generic algorithms.
+
+algorithm/minmax:
+Standard library extensions for simultaneous
+    min/max and min/max element computations.
+
+algorithm/string:
+String algorithms library.</description>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">String</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="d10992bc-e1bc-4eef-90b5-4406fd8cb342" released="2012-05-01" stability="testing" version="1.49-post-201205012025"/>
+    <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
+    <manifest-digest sha1new="46f6c5287cb96c13319a47673b4a6d75f578fa3b"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gRtIACgkQxnV5mk56UjEgJgCfTi++2+udn7PTX7oYW+MsD0NGk7wAn3ZrwwOA
+cyauGE5ELtqQk0zi6tGo
+
+-->
