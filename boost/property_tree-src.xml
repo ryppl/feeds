@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/property_tree-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.PropertyTree (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/property_tree/</homepage>
+  <dc:author>Marcin Kalicinski</dc:author>
+  <description>A tree data structure especially suited to storing configuration data.</description>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="c58629f4-fd76-4351-8b9b-656d5f351876" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <archive extract="boost-lib-property_tree-549bbf4" href="http://nodeload.github.com/boost-lib/property_tree/zipball/549bbf48253d95a5aabcf02c5f8e699599cb6519" size="198199" type="application/zip"/>
+    <manifest-digest sha1new="e5918b0ecb4ad454a42aea3547e19b76b4c93330"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTCkACgkQxnV5mk56UjFdTwCfR2fl5XnS/x093zVnswK/rp7P9p8An2wtwQfB
+HyHedB2h1pn/zPoIuwSi
+
+-->

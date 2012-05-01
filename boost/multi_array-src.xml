@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/multi_array-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.MultiArray (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/multi_array/</homepage>
+  <dc:author>Ron Garcia</dc:author>
+  <description>Boost.MultiArray provides a generic N-dimensional
+    array concept definition and common implementations of that
+    interface.</description>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="bda3756b-5fb1-471d-ad6a-06a25bc6b6b7" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <archive extract="boost-lib-multi_array-0ddebd3" href="http://nodeload.github.com/boost-lib/multi_array/zipball/0ddebd3e206e05f3f6c68ad1c8d8eb6aa47de2d3" size="147906" type="application/zip"/>
+    <manifest-digest sha1new="7dce588c6157116d9f7875e87c8d28a7ef4a6924"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTDUACgkQxnV5mk56UjEJGwCeP6mNwhM53ica4myUz2T3KmalsO0Aniph1sbE
+XEi1HHzyd5cSOIXenDh2
+
+-->

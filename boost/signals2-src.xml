@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/signals2-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Signals2 (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/signals2/</homepage>
+  <dc:author>Frank Mori Hess</dc:author>
+  <description>Managed signals &amp; slots callback
+    implementation (thread-safe version 2).</description>
+  <category type="http://boost.org/lib-categories">Patterns</category>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="f9a74c97-8ab8-4b6b-b512-9904a2711056" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
+    <manifest-digest sha1new="3b87be97af14ca1b6c363a80a1b1e2481bc42ab1"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTDEACgkQxnV5mk56UjFvrgCfTiRJQSvW6nGXZWBrbKHZ88blipwAn2dkPfa8
+fFlCGqzmuxQLM8+lMOaO
+
+-->

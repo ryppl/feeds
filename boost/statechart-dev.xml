@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/statechart-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Statechart (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/statechart/</homepage>
+  <dc:author>Andreas Huber Dönni</dc:author>
+  <description>Boost.Statechart - Arbitrarily complex finite
+    state machines can be implemented in easily readable and
+    maintainable C++ code.</description>
+  <category type="http://boost.org/lib-categories">State</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="69235c62-5485-49bf-8409-e898ba4e551a" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="statechart" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTCoACgkQxnV5mk56UjGfYACfb6v8lVFM0KiDU19Gt2SPkzqkBwwAoIJ1xfih
+Lei15gKQYaktk3uSjFxx
+
+-->

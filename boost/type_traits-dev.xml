@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/type_traits-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.TypeTraits (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/type_traits/</homepage>
+  <dc:author>John Maddock</dc:author>
+  <dc:author>et al</dc:author>
+  <dc:author>Steve Cleary</dc:author>
+  <description>Templates for fundamental properties of
+    types.</description>
+  <category type="http://boost.org/lib-categories">Generic</category>
+  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="20f6e98a-b00b-4f33-bfee-1f8cf85eedbc" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="type_traits" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTBoACgkQxnV5mk56UjFDiQCfXNGJd0cEhSCqwwPyXFbmQWqM/8AAn06nh7Du
++bp3xhjUsZvni1xnVLbF
+
+-->

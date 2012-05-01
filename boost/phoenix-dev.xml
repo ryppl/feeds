@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/phoenix-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Phoenix (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/phoenix/</homepage>
+  <dc:author>Joel de Guzman</dc:author>
+  <dc:author>Dan Marsden</dc:author>
+  <dc:author>Thomas Heller</dc:author>
+  <description>Define small unnamed function objects at the actual
+    call site, and more.</description>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="a7a56675-e895-4260-bd9a-2975920d58de" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="phoenix" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTDEACgkQxnV5mk56UjF/mwCeN+YKd2eOahRwgl4T9/qSxWvHQMQAnizIKEEN
+dKIP/1WIMEUYLlRmfB0V
+
+-->

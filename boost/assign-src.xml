@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/assign-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Assign (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/assign/</homepage>
+  <dc:author>Thorsten Ottosen</dc:author>
+  <description>Filling containers with constant or generated data
+    has never been easier.</description>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="f1f9ac74-bd5d-451e-b976-e8ffe0c91f1a" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <archive extract="boost-lib-assign-142ad90" href="http://nodeload.github.com/boost-lib/assign/zipball/142ad90451a0d197a41d950eaadee0d04e6f992a" size="62393" type="application/zip"/>
+    <manifest-digest sha1new="34f27856715b1e35ea611b9a093beb6aa9a21a08"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTC0ACgkQxnV5mk56UjHH6QCgh9Z1+qUpec6NKP73duskCi2HiTQAn3niYkil
+3aWDsaIdBzfliHT6X4k5
+
+-->

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/thread-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Thread (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/thread/</homepage>
+  <dc:author>Anthony Williams (originally William Kempf)</dc:author>
+  <description>Portable C++ multi-threading.</description>
+  <category type="http://boost.org/lib-categories">Concurrent</category>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="76371a17-d81a-4360-8108-6fd1090fc637" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <archive extract="boost-lib-thread-f5c27a6" href="http://nodeload.github.com/boost-lib/thread/zipball/f5c27a64ca71293ac0be42490d1410030a47f21a" size="431788" type="application/zip"/>
+    <manifest-digest sha1new="22252abdd69578b4ce968f2a2c5e7a3af2ee2d6c"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTDIACgkQxnV5mk56UjFddACfbSc2NRHOjfPXNc9OgYyq+4chlBQAoKQVYfYm
+++DCiaBW0TjI0NO9pmBV
+
+-->

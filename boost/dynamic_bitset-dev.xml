@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/dynamic_bitset-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.DynamicBitset (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
+    libs/dynamic_bitset/dynamic_bitset.html</homepage>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>Chuck Allison</dc:author>
+  <description>The dynamic_bitset class represents a set of bits.
+    It provides accesses to the value of individual bits via an
+    operator[] and provides all of the bitwise operators that one
+    can apply to builtin integers, such as operator&amp; and
+    operator&lt;&lt;. The number of bits in the set is specified at
+    runtime via a parameter to the constructor of the
+    dynamic_bitset.</description>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="defeea06-dcf2-41f0-93f1-b025059ae148" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="dynamic_bitset" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTBgACgkQxnV5mk56UjFYPgCcDxa2qgtxVYXEmiIoxOQEpshu3IEAnAs1XN80
+NeDAlUdv4ODZH46TB/MS
+
+-->

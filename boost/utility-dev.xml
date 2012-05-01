@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Utility (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/utility/utility.htm</homepage>
+  <dc:author>Dave Abrahams</dc:author>
+  <dc:author>Fernando Cacciola</dc:author>
+  <dc:author/>
+  <dc:author>Howard Hinnant</dc:author>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>Jaakko Järvi</dc:author>
+  <dc:author>Andrew Lumsdaine</dc:author>
+  <dc:author>others</dc:author>
+  <dc:author>John Maddock</dc:author>
+  <dc:author>Joseph Gauterin</dc:author>
+  <dc:author>Jeremiah Willcock</dc:author>
+  <dc:author>et al</dc:author>
+  <description>utility:
+Class noncopyable plus checked_delete(),
+    checked_array_delete(), next(), prior() function templates,
+    plus base-from-member idiom.
+
+utility/call_traits:
+Defines types for passing
+    parameters.
+
+utility/compressed_pair:
+Empty member optimization.
+
+utility/enable_if:
+Selective inclusion of function template
+    overloads.
+
+utility/in_place_factories:
+Generic in-place construction of contained objects
+    with a variadic argument-list.
+
+utility/operators:
+Templates ease arithmetic classes and
+    iterators.
+
+utility/result_of:
+Determines the type of a function call expression.
+    
+
+utility/swap:
+Enhanced generic swap function.
+
+utility/value_initialized:
+Wrapper for uniform-syntax value initialization,
+    based on the original idea of David Abrahams.</description>
+  <category type="http://boost.org/lib-categories">Generic</category>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories">Patterns</category>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">Memory</category>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="102c4ac5-01ff-47f9-b51d-9cbaf702d0fe" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>headers</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="utility" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTDQACgkQxnV5mk56UjFmCgCfS0NOBxxHB+lSsDFN2d0wTu1DqjYAnjyksNw2
+eil+XSEaV3iSXZHmmhko
+
+-->

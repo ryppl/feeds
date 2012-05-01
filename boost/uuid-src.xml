@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/uuid-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.UUID (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/uuid/</homepage>
+  <dc:author>Andy Tompkins</dc:author>
+  <description>A universally unique identifier.</description>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="db9df5e2-37b6-437b-8b1f-97d3293d0c2c" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <archive extract="boost-lib-uuid-9792b68" href="http://nodeload.github.com/boost-lib/uuid/zipball/9792b6844e27783e0aabf8c368202f4501c5edc0" size="48953" type="application/zip"/>
+    <manifest-digest sha1new="5555e47d765e89672dfa95491c2c0722e120e98b"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+gTBcACgkQxnV5mk56UjEl8ACfZwDOcKkVfG9mjTtn9MKrW4YHFTkAn24I9Mk5
+G8MtQuOzLfLtkqwV7BBT
+
+-->
