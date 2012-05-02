@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="iterator-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/iterator-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Iterator (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -15,7 +15,7 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="258e3aed-933c-4453-a8b2-8e910a467c1a" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
+    <implementation arch="*-src" id="cb9e2f22-a537-4b2b-9696-3ee1108fff17" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -32,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giBsACgkQxnV5mk56UjFtMACffhCG0/W6fZ6YyXZUuYu7i9CqjtMAnjkEohTz
-oZEksKsU5Typmy5hkmi8
+iEYEABECAAYFAk+giVYACgkQxnV5mk56UjFLDQCdGdDoP+ohS4qo8hdjcgSho7GHWYIAn1jHbyLF
+SLnPtwEkoTH1LWmBNJOb
 
 -->

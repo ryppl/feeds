@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="ratio-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/ratio-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Ratio (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,7 +9,7 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0bdf8163-e6a1-4221-be02-258d854afb4b" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
+    <implementation arch="*-src" id="8f815b5f-be03-42a4-a088-6f359541781b" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCIACgkQxnV5mk56UjGTKwCfUQII1U4wu/KmNlHNxDKAKZJtM54AnRGowOID
-WSyaTJz7mkWRv2nppDl8
+iEYEABECAAYFAk+giVwACgkQxnV5mk56UjGb/gCgh5MLw84SuMKO7ATEvS5mN2uVDiEAniX3Wlf5
+U4poAv440qTtfAcgwA7r
 
 -->

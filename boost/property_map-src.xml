@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="property_map-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/property_map-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.PropertyMap (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,14 +11,14 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="64de3131-31e4-4dce-bcc8-5e730dcb2c0a" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="cb01ae79-c620-4ff5-bbe8-1e5e0e01fdb7" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-property_map-0f6365a" href="http://nodeload.github.com/boost-lib/property_map/zipball/0f6365ae92e2c67a21e24daba32ab4ea17b68aba" size="88297" type="application/zip"/>
       <manifest-digest sha1new="3f79efa3264471b62f811d237b2a8390bb52cd74"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCkACgkQxnV5mk56UjFNVgCgn9TnaoTbNZabNlkjZrH4xRD0gqQAnAg1v76O
-N5R/C0LzSOu7wCROqWYq
+iEYEABECAAYFAk+giWMACgkQxnV5mk56UjFhZQCfX9+BrbxUwgmRmwvjTm9VLV8AkakAn2Yk/lsS
+9W/o7Llq6/YQXgKqBruF
 
 -->

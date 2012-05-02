@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="function_types-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/function_types-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.FunctionTypes (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,14 +12,14 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="9f3fb276-1603-4730-b8cd-604e5995229b" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="39ccc93d-a1a5-4f08-809b-257ffdee732c" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
       <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giC8ACgkQxnV5mk56UjFwMACggb3fVUsttE5/ewo4B8TeRCooPN4AnAwCVaLp
-wxmLkBKKxh8pR9GtLv7V
+iEYEABECAAYFAk+giWoACgkQxnV5mk56UjHydACgo9FZH6aP5/XRp6LZq75pt08jSSEAn2NgG/VG
+xO6JMv7NaZ6i5RKF4Po/
 
 -->

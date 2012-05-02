@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="compatibility-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/compatibility-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Compatibility (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,14 +11,14 @@
     libraries.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c44d0538-8bce-4ddc-847f-5383a02471aa" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="db79f7b0-63a5-4713-b166-fefc570e30ab" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-compatibility-c84115b" href="http://nodeload.github.com/boost-lib/compatibility/zipball/c84115ba67fc022ada1e9a725f1da59fa22102f6" size="15071" type="application/zip"/>
       <manifest-digest sha1new="0690cea7e6722e9e5eae4dba3a6d1216b22ac5d0"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCoACgkQxnV5mk56UjH/pQCfVUEkxOZdre0wPBOUJZG2CajHsrkAn1MPa1lh
-R5ADtccfVRjTvadISOqR
+iEYEABECAAYFAk+giWUACgkQxnV5mk56UjGmEwCfUGRoROgaZC37jiVDHHAwgR1s9rsAn0a0lD/P
+W5S0jtNXH5q5dbwihY8D
 
 -->

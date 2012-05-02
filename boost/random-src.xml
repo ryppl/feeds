@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="random-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/random-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Random (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,14 +10,14 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="824dda64-58e9-48cc-8d6d-f1422bc282af" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="9ef9747b-d678-4a56-a152-47ca40402962" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha1new="de645815364acb78b029019be93f30c4932622e4"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giEEACgkQxnV5mk56UjHYvACfcQmy3vZ52p+NqWZBnv5U9p5jJU4An3y5/5wE
-ma3PUadjMhFl3cEM/553
+iEYEABECAAYFAk+giXwACgkQxnV5mk56UjG07QCfXsBBfbo3YUPwmuEV/ElNG2gEHBwAoKZonoQJ
+4/DB9R8PyWCMiT6GkO1q
 
 -->

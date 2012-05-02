@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="bind-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/bind-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Bind (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -26,14 +26,14 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ae52f0a2-8c4b-4327-9d0e-c8ce40590dd1" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="62994fba-60ff-4ce5-8d9c-b7062b411442" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
       <manifest-digest sha1new="baac374d3b369d48ad3be4475059d8678cff533e"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCMACgkQxnV5mk56UjHzVwCcDhfyYOYSEZu7Ncd5p1+5jss4pGkAnRupDFQF
-O15k7ZWF9Ka4FXVKErwP
+iEYEABECAAYFAk+giV0ACgkQxnV5mk56UjH5ngCfbFZcDvRXGVkvyMYOs44k015oQd4An0V6Q89F
+5IwzOHZPWVwexRITWxfU
 
 -->

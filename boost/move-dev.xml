@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="move-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/move-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Move (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,7 +9,7 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ea455b41-d94b-4b15-aa3d-9296e10ba4bc" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
+    <implementation arch="*-src" id="fd7109b0-fb5b-45b8-b762-24a8b68454f7" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCsACgkQxnV5mk56UjHi+ACfQTyWG6W86s8h54LbWNQwhix9DYQAn1xSkuOg
-CO/aIAYiy6udBQ5Wggj/
+iEYEABECAAYFAk+giWYACgkQxnV5mk56UjFaKwCeKgKdZ0TYZh99kuOa0IYzz1Ow/uEAni7tPVXN
+xESezhhOuZ/XLtpEsAVt
 
 -->

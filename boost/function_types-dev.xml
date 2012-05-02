@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="function_types-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/function_types-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.FunctionTypes (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a7ccbdc9-7610-4ad2-943e-d0415ef5dec0" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
+    <implementation arch="*-src" id="634a0499-59c5-41aa-a361-fa45305d6825" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giC8ACgkQxnV5mk56UjGPlgCfSL9jKI5IuDms6J274ZJYyVF3dJ4Ani1Pm1wu
-Qc8MRz6TCfWwesWhNQL7
+iEYEABECAAYFAk+giWoACgkQxnV5mk56UjGfpACggq00Dpe7ikYk3mol6POahKE+ADIAni6wIcDF
+ODhHDgpNkWwk4yNC5bOk
 
 -->

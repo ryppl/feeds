@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="static_assert-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/static_assert-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.StaticAssert (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,14 +12,14 @@
   <category type="http://boost.org/lib-categories">Correctness</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1fcc410e-c86e-4b92-8652-bf53bd4bd6fd" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="af04ae7c-badb-4640-a1b8-7bd83037c742" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha1new="28ef9080ebda7d638f1431807c2b3d2fdb496978"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giDwACgkQxnV5mk56UjEThgCfXIuAEdEpAzcVVbKwz901nCWiRToAn2ofc2eo
-cQ682FNXdCVvrxEsoPpA
+iEYEABECAAYFAk+giXcACgkQxnV5mk56UjE1EgCgmDABsv20om7XjAP3J0mbrYdvOuEAn3VNhO5Y
+aqZmZRWDu7UI/WstZI9K
 
 -->

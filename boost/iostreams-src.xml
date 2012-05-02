@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="iostreams-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/iostreams-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.IOStreams (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,14 +11,14 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="73d14bb2-2746-48ef-8086-f6c4c9c96aad" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="afff3da2-fc9a-4d9c-8bec-df002d88493d" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-iostreams-d5adfb2" href="http://nodeload.github.com/boost-lib/iostreams/zipball/d5adfb2c589122ba78a7dbe7b67fbee861aeb51d" size="700568" type="application/zip"/>
       <manifest-digest sha1new="ca270e71d98a3d8f9cb54b046bb5eca1fed48faa"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCQACgkQxnV5mk56UjGJaQCfZ56YLflACWivuDBSFabc/3Vzpg0Anjh+NSc2
-pAh6ArA8qVMv+kIOKTmA
+iEYEABECAAYFAk+giV0ACgkQxnV5mk56UjHGYgCeN10DlIVDY+dD2PEzHC7VnORT1eIAoKLZPaoL
+OrOG2syk6Um/Qwg3eV6w
 
 -->

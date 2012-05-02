@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="circular_buffer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.CircularBuffer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,14 +10,14 @@
     </description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="44e0ec58-2ebd-4372-b1aa-26b86345d528" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="f4dc117c-4a7c-4155-989f-2494d47f3d36" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha1new="2a913cb1c5b7b9f8db2f66bf8b642206c374b121"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCEACgkQxnV5mk56UjFaiQCglpGQFT0F+w+c2ZEnogrGi+Gtz8IAnRDTb3vy
-TdrZuXdYWhgFfZpBTwER
+iEYEABECAAYFAk+giVoACgkQxnV5mk56UjHR4wCgjllHdtQ3SdnP09KTeMXGvwttwU4AoJmvW7dp
+Is6CrWvaYXd8IrONspEA
 
 -->

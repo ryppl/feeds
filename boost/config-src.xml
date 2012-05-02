@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Config (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,14 +10,14 @@
     idiosyncrasies; not intended for library users.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="30682387-8b2b-4736-9f95-d5a47b1677ba" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="423d1772-3627-4891-8516-0d5617902049" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-config-333f7da" href="http://nodeload.github.com/boost-lib/config/zipball/333f7da336582b42f672d3a2e0122e8272e8cf6a" size="621733" type="application/zip"/>
       <manifest-digest sha1new="9342855953bfeb1aa5764cc0bc8b46cdf63ba00e"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giB8ACgkQxnV5mk56UjESRwCfQzkydQMFVZslbsfWMRfjNhAWm3oAoJPigwP9
-yo7R8WCZWFSYUw3u/AH7
+iEYEABECAAYFAk+giVgACgkQxnV5mk56UjEgbgCgl/vaN8Rg2Ua8dBcKnQbUDcledxcAniStqHaB
+SnQ9hm695QevzkklMmQl
 
 -->

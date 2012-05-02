@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="crc-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/crc-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.CRC (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,14 +12,14 @@
     implementations are template-based.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4ac90bca-9bf6-4fcd-a347-1120acb1d500" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="c320bafe-0cc1-4411-93d6-dbf1cccef5ae" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
       <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCQACgkQxnV5mk56UjGGZQCfYmhRrwmSUPGxB5iO3JrM1CrS3fMAnR6b7He9
-odJkBuo53Jj7KJzkj+h3
+iEYEABECAAYFAk+giV4ACgkQxnV5mk56UjGCogCgiMof/Lnab4sH5xrQQxQVN+h7AscAoKYYzOdF
+fuoNhOvUNzA4zjrgPocC
 
 -->

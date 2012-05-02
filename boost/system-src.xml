@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="system-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/system-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.System (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,14 +10,14 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c8979aa9-2a7c-40fd-8311-68824e6c9ad0" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="3b543014-787b-4704-89f3-40fc92119f3b" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-system-73218b5" href="http://nodeload.github.com/boost-lib/system/zipball/73218b57aadda5261abd7d5bb0b6e5c43d37b4b0" size="44606" type="application/zip"/>
       <manifest-digest sha1new="540cff5ffc5ba68f75283111747ddacc0c2ef165"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giEgACgkQxnV5mk56UjHfdgCcCa3dztKWGdFHR9+aImu1quJmoggAn0swofTv
-m9mT37m/Ea3CzGfZhk8B
+iEYEABECAAYFAk+giYQACgkQxnV5mk56UjGVYgCfcyMX7GcbP4WWoDMCT1hi116k1LMAoKFq85Qs
+eliKN6FhsnA9rOCa4y6a
 
 -->

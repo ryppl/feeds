@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="math-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/math-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Math (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -43,14 +43,14 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="59e27cf7-8aa2-4ea9-bc96-49ede978ed58" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="13e9606d-97a5-4378-96d8-8d2f045f2558" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-math-cebec12" href="http://nodeload.github.com/boost-lib/math/zipball/cebec120db9df372d4d27b37255c3cfc5a4cc01c" size="13359870" type="application/zip"/>
       <manifest-digest sha1new="f8ff4a69efd84b2a5843d7296b458962de51e729"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giEIACgkQxnV5mk56UjEj9wCZAYM4MtlnXGmJ6Vy0b0h0IatuU9gAn1csI1XD
-7m+KZtB/Vf6xIEHUI91a
+iEYEABECAAYFAk+giYQACgkQxnV5mk56UjGy6wCeP2CclC5sLtZLD7NH69cyFr2OQpkAn0h1Vszd
+OkuWUsX6rRQb/9P+U5C1
 
 -->

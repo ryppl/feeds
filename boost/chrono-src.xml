@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="chrono-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/chrono-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Chrono (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,14 +10,14 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4235daab-8f8e-45f7-887c-97a0a8476735" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="8509f62b-17cc-4ac8-bd12-3c7bdcc35903" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-chrono-9c09b1b" href="http://nodeload.github.com/boost-lib/chrono/zipball/9c09b1b1ddec88816249e7c371b93715f63d1694" size="574655" type="application/zip"/>
       <manifest-digest sha1new="c05afc267585108812f44ddd0c7ca243bb5d942f"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giDEACgkQxnV5mk56UjGxcQCgkdhGN9Y411si7lOPospbKGZ7UjQAoIx3a1wv
-H70t9rmXNdQeMSo+x0XI
+iEYEABECAAYFAk+giW0ACgkQxnV5mk56UjEBPACgkMu3jFo/3WO6ya4gT0niWFTZPgoAoKR7Lxcw
+KN6/wYVHFPtanRsm+y9C
 
 -->

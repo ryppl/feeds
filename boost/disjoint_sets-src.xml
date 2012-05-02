@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.DisjointSets (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -13,14 +13,14 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ffd8b8a9-d3e7-443b-93c7-a33f7b0b59af" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="a21a36a4-5015-4d1e-a8f8-62ccbfb7099b" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
       <manifest-digest sha1new="9c4c12c1c4262fd95c482493e9cb4681350c5d7f"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giC4ACgkQxnV5mk56UjGMHACgpKpIujJUSwOsZ6P/SgrjpfUxSDYAmgN/kXxn
-7Vq8ebOf/fXCL1ScYE9T
+iEYEABECAAYFAk+giWgACgkQxnV5mk56UjGfcgCgmkgJzBJHLtWNb9KK819K1bdC98QAn1xfkXlA
+dfkv5Rup2mnjQCgKLmfB
 
 -->

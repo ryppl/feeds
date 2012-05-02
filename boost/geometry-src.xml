@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="geometry-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/geometry-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Geometry (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,14 +12,14 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6f9d677a-32c9-4e34-93a6-593d38ec6eec" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="35560e5d-d6de-41da-85f1-246df287116c" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-geometry-a5e95cc" href="http://nodeload.github.com/boost-lib/geometry/zipball/a5e95cca3fa4439a521a30418f5a691663ddb218" size="5242245" type="application/zip"/>
       <manifest-digest sha1new="3b687fb70a5542547a35d8556c93f0ce4a0561c6"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giC8ACgkQxnV5mk56UjGrZgCdGY79EGZhSHZK0LlrCS402S8/bz8AoIACclkW
-QLvwR30dj0dkOJfThiNe
+iEYEABECAAYFAk+giWwACgkQxnV5mk56UjHknwCfcDeaIiG3PDyxsHACfWI7Et+9B9gAnRFhZSCW
+8UaR7kbgfsmtSCdaOUXt
 
 -->

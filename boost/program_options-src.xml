@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="program_options-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/program_options-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.ProgramOptions (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -13,14 +13,14 @@
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="86d5a848-5f5d-45a9-93e1-0dc8db8f85ea" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="ac38d443-4408-4f75-9eae-fb7f3546cadb" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-program_options-882c8da" href="http://nodeload.github.com/boost-lib/program_options/zipball/882c8da40f9e0b05e1c414dd7475fe04be15a551" size="159755" type="application/zip"/>
       <manifest-digest sha1new="1ff9987551d2e5bdfdf564b3d7162dea045e7697"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giB8ACgkQxnV5mk56UjFBCwCeKF9CnJ3zs2MWxwgWk8CTyMlfRnkAn0wox8AL
-S4YWrz+J2y82vaVRxcdF
+iEYEABECAAYFAk+giVgACgkQxnV5mk56UjGJNwCdHy73sZ1GlP1/ueS7F6NgULWnerYAn05V1SVG
+QB9q+EmnQZzTj79LWche
 
 -->

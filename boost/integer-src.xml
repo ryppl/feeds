@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="integer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/integer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Integer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -15,14 +15,14 @@
     in namespace std.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="29d12f3d-b79a-44eb-a11e-70e9f285baff" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="c372c25b-0094-4877-9dc3-142a63736540" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
       <manifest-digest sha1new="69bc178b5094fe4343b611af8812c9d94367f9d8"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCYACgkQxnV5mk56UjFDTgCdFwKpP3XX1Vh9+uFT1rbdrunCsxkAnAnJg/5D
-mnUjsGSv4BCWw/W02Rio
+iEYEABECAAYFAk+giV8ACgkQxnV5mk56UjE8DACeJgsOq73lO+c1dy3y1Vh6EI8s+NEAn1+44PnI
+XAulXWZH9gyE6TC40Zn/
 
 -->

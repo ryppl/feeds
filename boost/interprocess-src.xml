@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Interprocess (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,14 +10,14 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="755f6621-800b-4b98-bbc4-679f9fb66705" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+    <implementation arch="*-*" id="28de8ba2-0e15-4a76-bbf8-041aa7ce738a" released="2012-05-01" stability="testing" version="1.49-post-201205020109">
       <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
       <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giCAACgkQxnV5mk56UjHW2wCgneZsriL4Qi/Bf/x8gx5WLpcCmTkAn0CCPihX
-cSJTViT5Ikk0CNCY1/Vn
+iEYEABECAAYFAk+giVgACgkQxnV5mk56UjFWbACgmFxKyy67jlCEbPj6sOxdlSkWUz8AnRUwbAbL
+fp6PBGDqXj0CK6WTsqbp
 
 -->
