@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="38fb144f-e7a5-45ca-b796-81dcd92cd0ae" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+    <implementation arch="*-src" id="8c4d1a3d-0b61-48a7-8106-f38c47fa40e1" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -166,9 +166,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/rational-dev.xml">
         <environment insert="." mode="replace" name="BoostRational_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/chrono-dev.xml">
-        <environment insert="." mode="replace" name="BoostChrono_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/thread-dev.xml">
         <environment insert="." mode="replace" name="BoostThread_DIR"/>
       </requires>
@@ -188,7 +185,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hl2gACgkQxnV5mk56UjEXoACgj01POsGsukMIqgVKPl/K8tQvroAAoI2ayrqr
-3SYKxifqYDd0toU7jddI
+iEYEABECAAYFAk+hmgoACgkQxnV5mk56UjEiigCfTy9bWHYAHKt/pcV0Gn676Pj7ofQAnA+y256p
+d8xzwr/upgk9xGZl/1kP
 
 -->

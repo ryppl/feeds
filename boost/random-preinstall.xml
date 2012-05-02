@@ -10,7 +10,7 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9aa95cb7-ffc9-40cb-b1b1-33aab1609dbf" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+    <implementation arch="*-src" id="f44c60a6-f809-4427-96a1-a5463281e024" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -148,9 +148,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/random-dev.xml">
-        <environment insert="." mode="replace" name="BoostRandom_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
@@ -188,7 +185,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hl3cACgkQxnV5mk56UjE7RACgijyXuFBsjdQ0YpS3corHHaX6T14AoJUoGHi3
-HCBHZ+7sctluYEvREVYz
+iEYEABECAAYFAk+hmh8ACgkQxnV5mk56UjH+5QCeJFVQC1bbGKS7IVtl7X8IlPhrklsAn0AEKm1z
+iiTIjhMoSOjLBYLqKa8g
 
 -->

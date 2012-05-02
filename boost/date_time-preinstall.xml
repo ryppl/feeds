@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="24f849a1-5bbf-4fed-896f-c842c23a4fc7" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+    <implementation arch="*-src" id="3e30f7e2-db92-4199-8816-da6bbb981cd9" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -146,9 +146,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/date_time-dev.xml">
-        <environment insert="." mode="replace" name="BoostDateTime_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
       </requires>
@@ -192,7 +189,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hl1wACgkQxnV5mk56UjGvrACeIxZlViBxN0DEJWK3reJ5TfO8KmMAnjYQBewJ
-U8KKDpqOyfc8OvUi+kbS
+iEYEABECAAYFAk+hmgEACgkQxnV5mk56UjHA7QCgpTIXYIK5lWaNhj74NlWFP072Rc4An3fpcKYC
+VaOm4l4eDp4vW1wO38or
 
 -->

@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ddc0f149-2a5e-4671-a8d1-363462b5bd00" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+    <implementation arch="*-src" id="03cb055f-d4eb-4d97-a7e5-261d0e9b5967" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -201,14 +201,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/any-dev.xml">
         <environment insert="." mode="replace" name="BoostAny_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/graph-dev.xml">
-        <environment insert="." mode="replace" name="BoostGraph_DIR"/>
-      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hl1YACgkQxnV5mk56UjE68QCdEFVKyx3TYe727Wc7HcFMAXs9h8UAnjHIHEBA
-ta5DDYBrO35d6hsSKGeQ
+iEYEABECAAYFAk+hmfsACgkQxnV5mk56UjGdRACgisWhcLMHJngYmQm/KHA/zTE7lzwAn0+D8scr
+hWw8js7mAFyuZgEY1OhF
 
 -->

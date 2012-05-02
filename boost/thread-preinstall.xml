@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fa3399ba-71db-4a3c-abd9-20df61c8ac5e" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+    <implementation arch="*-src" id="e530b4e8-1c02-4c82-8e70-4eb2985f3fb7" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -139,9 +139,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/thread-dev.xml">
-        <environment insert="." mode="replace" name="BoostThread_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/xpressive-dev.xml">
         <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
@@ -191,7 +188,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hl3oACgkQxnV5mk56UjFwYQCfQ1S6kMjSQMewjrgKjt8aNogrcbAAnjIVuIx4
-Vdhd5qpl1SnARgZeFqXc
+iEYEABECAAYFAk+hmiMACgkQxnV5mk56UjFiwACgoar8zvhSNJKelDs/nGhF0qD8ZmAAn1xex/l6
+bzs0X2z74NKCtMfxf2GZ
 
 -->
