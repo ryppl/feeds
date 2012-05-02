@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8ee76c92-4f23-4b56-a2ac-17330bd39911" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
+    <implementation arch="*-src" id="85d5d8e6-89f1-4c33-8a47-add22f945581" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -160,9 +160,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/interprocess-dev.xml">
         <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
       </requires>
@@ -191,7 +188,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hmhAACgkQxnV5mk56UjFRCACgnFT7VRWGngX6ph5zh0XYqQSP9TYAoIvf+Nto
-u7Jrsrt7Qasq5cj9JsXe
+iEYEABECAAYFAk+hm08ACgkQxnV5mk56UjHG3wCffgQwlHnvTvgR4lhwDjkca+z4HdAAn2JJ88aN
+7KKZ9QxSJXqBgu7QIrZ2
 
 -->

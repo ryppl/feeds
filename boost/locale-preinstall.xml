@@ -9,7 +9,7 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ccdf11a8-a85a-4345-af43-2a6d5dc3b0b0" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
+    <implementation arch="*-src" id="2d10c4f5-2050-418b-9890-032221d5694f" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -162,9 +162,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/interprocess-dev.xml">
         <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
       </requires>
@@ -193,7 +190,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hmg8ACgkQxnV5mk56UjHoewCeN+OXP0T3dvsE6kL7DMTJpBArAMcAoI253muj
-k8b+KJ/ikJk7RTEQtPfA
+iEYEABECAAYFAk+hm04ACgkQxnV5mk56UjGJ+wCgg8gBC7pQS8fc8VvuKwZyAhLOKYIAmwVbfSsd
+mpBNr/R8qhOVYk8KXN1E
 
 -->

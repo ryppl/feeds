@@ -11,7 +11,7 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5ec245fe-3310-48d6-855b-ad6bc625e5d8" released="2012-05-02" stability="testing" version="1.49-post-201205022032">
+    <implementation arch="*-src" id="479ab665-8603-4e5a-b5ea-5c99bf28c44c" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -155,9 +155,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/interprocess-dev.xml">
         <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
       </requires>
@@ -189,7 +186,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hmhwACgkQxnV5mk56UjFsKQCfYgfFFop0i8YEmhrIg21k78fN+IUAoKk+pX7g
-SoZkcjw+IvTaipbdCnmE
+iEYEABECAAYFAk+hm1gACgkQxnV5mk56UjET+gCdHTiDOZ+V6v/fLZUhjnu3UlZAjMoAn0qefmSZ
+/c4Au1hHOkmMxWS3kcE3
 
 -->
