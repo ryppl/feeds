@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/msm-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="msm-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.MSM (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,12 +9,15 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="603bdf76-dbd3-4e19-a310-01c3a9aeabdb" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <implementation arch="*-src" id="ddfb8d69-68ae-4d56-ab18-ecb1991f4bc5" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>headers</arg>
       </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/msm-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="msm" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
@@ -23,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBEACgkQxnV5mk56UjEc+QCfXoAqNu1hIKXpbnlYkVWBHpqpH3gAnjPsvuzG
-Yr2FmzlaReQ/l6Fec3Fu
+iEYEABECAAYFAk+giB8ACgkQxnV5mk56UjFo0wCeN0FiHhSdw30ZM2fRRZuOJuAfE20AniSMbTw0
+/Tk9h8a6B2VxctGymF0l
 
 -->

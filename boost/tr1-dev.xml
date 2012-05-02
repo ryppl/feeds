@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/tr1-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="tr1-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.TR1 (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -15,12 +15,15 @@
     std::tr1.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="025071db-d369-4e01-a39c-36255aa95f47" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <implementation arch="*-src" id="e5d005ea-33a9-4a70-885b-ef24399ecfc0" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>headers</arg>
       </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/tr1-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="tr1" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
@@ -29,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCkACgkQxnV5mk56UjHY4ACglGFXXqVG6OE4waKCtapS+O+vdhIAn01VZ7M7
-GHSXJrrk3Z4O5R3ifQDG
+iEYEABECAAYFAk+giDgACgkQxnV5mk56UjFxNQCeIrPVOZWeXSu0/LKcM8OH80tHVo0AnR++kFK2
+MvECS8gQhvUj4nXgqpgK
 
 -->

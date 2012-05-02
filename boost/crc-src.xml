@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/crc-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="crc-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.CRC (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,13 +12,14 @@
     implementations are template-based.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d184044d-ce6b-45e8-b98c-2743992d30ff" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
-    <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
+    <implementation arch="*-*" id="4ac90bca-9bf6-4fcd-a347-1120acb1d500" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
+      <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBYACgkQxnV5mk56UjFxwgCfaaG6mHo2tk/KwNkhAZyF+Bq0b2EAnRsoiruL
-owhqUGuA5wF9rMcPdDTG
+iEYEABECAAYFAk+giCQACgkQxnV5mk56UjGGZQCfYmhRrwmSUPGxB5iO3JrM1CrS3fMAnR6b7He9
+odJkBuo53Jj7KJzkj+h3
 
 -->

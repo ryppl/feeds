@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/xpressive-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="xpressive-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Xpressive (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,12 +12,15 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="811abe4b-656d-4d04-853f-163bf049d6ca" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <implementation arch="*-src" id="4180b08b-f94e-46b2-b5a2-899cd6517392" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>headers</arg>
       </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/xpressive-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="xpressive" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
@@ -26,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCgACgkQxnV5mk56UjGVdACfSOg0nK4XT2vCELuFXxy4dc72n6EAnRyPadzK
-FKUd+oDt5njd0q1FK8xz
+iEYEABECAAYFAk+giDcACgkQxnV5mk56UjF3yQCfTOFt0cmggArzdPOGsD5g2Q91PaUAoJt6OOYm
+Uuc7j8Drlc7G7iHm/rwe
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/gil-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="gil-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.GIL (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -14,13 +14,14 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b6bed7e3-a9e9-4871-9054-c85a271777d1" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
-    <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
+    <implementation arch="*-*" id="ec3f818c-f828-4a38-acd2-840019750329" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
+      <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBUACgkQxnV5mk56UjH+OgCfRNDalDqJ3EnYQrIcEqWOH8x/ry4An3WDbxHQ
-MlylxDrA+Ij+Vn+A7pfM
+iEYEABECAAYFAk+giCEACgkQxnV5mk56UjHJLgCeN9wPMtyeZj3c5BAN5n9mOMtxNokAoKQvhRE1
+i9jnK9qycFhyYvt09K0g
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/concept_check-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="concept_check-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.ConceptCheck (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,14 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="806a6148-1590-4af4-a976-6c3d55fe05f8" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
-    <manifest-digest sha1new="85956c1281ba7f7848816c5c522f97148a215acc"/>
+    <implementation arch="*-*" id="d13c4d79-b79b-43c5-985c-ffbacfbc1099" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
+      <manifest-digest sha1new="85956c1281ba7f7848816c5c522f97148a215acc"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCMACgkQxnV5mk56UjFkqACeO/NXzAZQgq6TBQj88j1qeDzb6dYAn3LC5HrE
-1HT5USjM2ZaHEspJl0vl
+iEYEABECAAYFAk+giDAACgkQxnV5mk56UjE7uACfczn28tT2zL3/Gs9a6LBF8/JGBM8Anj9+Il4B
+t50zRR4Hbg21jzOe9tA1
 
 -->

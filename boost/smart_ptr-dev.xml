@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="smart_ptr-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.SmartPtr (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,12 +12,15 @@
   <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="63308514-0428-4609-a2a4-d0c76d428f2d" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <implementation arch="*-src" id="63d882a4-acb2-41e1-baa6-b85c38ba359b" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>headers</arg>
       </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="smart_ptr" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
@@ -26,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCMACgkQxnV5mk56UjHVQgCfUFmFbbCbLDrKvzJSwzuhm7QVbDsAoI113A34
-twHWx8Fu4IVXa2L4jXk2
+iEYEABECAAYFAk+giDIACgkQxnV5mk56UjHoZwCdGBAMs+nBTQ9+MgSW0DGVRvWOMbkAn2Q7EnbC
+PUz1qveNuZC9zxmVNL1R
 
 -->

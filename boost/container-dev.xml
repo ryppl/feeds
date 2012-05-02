@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/container-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="container-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Container (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,12 +10,15 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5e09bd91-8dd9-4abf-90de-76d73ea0ff68" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <implementation arch="*-src" id="283e1fb8-9f6d-43b3-89d3-af7149c1d09c" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>headers</arg>
       </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="container" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
@@ -24,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTDUACgkQxnV5mk56UjFBDQCePAYpqlbhQnx0JOHhNraZmgf1+5QAoJT57nfc
-eLvh0VCN+2doMPKDENgt
+iEYEABECAAYFAk+giEYACgkQxnV5mk56UjG2LACePdz47b627frGdVI5+U6Du1Fsq9oAoI/zymtq
+05IBrqd9KnpmvuSNVJp4
 
 -->

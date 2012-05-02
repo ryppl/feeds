@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/algorithm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="algorithm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Algorithm (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -20,13 +20,14 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b441692d-3869-40eb-a1a4-a8be5faafbdc" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
-    <manifest-digest sha1new="46f6c5287cb96c13319a47673b4a6d75f578fa3b"/>
+    <implementation arch="*-*" id="dda2e8d9-0c22-4111-aad8-715299a6a35f" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
+      <manifest-digest sha1new="46f6c5287cb96c13319a47673b4a6d75f578fa3b"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTDAACgkQxnV5mk56UjHyRQCdGA3scocS4mmfhfdb4g5iLbfd0cUAoIjFEBOB
-XUJzfYBJpe7XnqeKPv5g
+iEYEABECAAYFAk+giEMACgkQxnV5mk56UjHN+wCgkVxtJ3CXkVrDMlG9KkLuBIXA3lIAniDpBpIo
+/88Kl8+PsgTo0548fNkU
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/phoenix-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="phoenix-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Phoenix (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,13 +12,14 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="232610a8-609b-4240-8fb5-3cde76244235" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
-    <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
+    <implementation arch="*-*" id="728dd9bd-0cf7-4f01-81d5-3c54bce7c3bc" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
+      <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTDMACgkQxnV5mk56UjGRQQCfeqnsxEv9fS/RbdiI5Z3LAAq64GkAn24iqZvQ
-5N8W4BH7db/YHiWdWgcE
+iEYEABECAAYFAk+giEQACgkQxnV5mk56UjGTkgCePAifeKcD35FictI7aKMVRLvcSO0An2OvA8d9
+aAMyJb4CxHTg99IGXQ1z
 
 -->

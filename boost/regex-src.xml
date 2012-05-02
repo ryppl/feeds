@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/regex-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="regex-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Regex (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,13 +9,14 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="20aca503-10e3-4b66-9e08-8a565fbf2af6" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-regex-4b6e82d" href="http://nodeload.github.com/boost-lib/regex/zipball/4b6e82d8731859ee71758a2fbc5e432774f7f269" size="818640" type="application/zip"/>
-    <manifest-digest sha1new="886bbc4ab12334759cb646ca70dbcb7a2f574de1"/>
+    <implementation arch="*-*" id="4fb89c1a-4df4-4bae-bbe7-7dcf989369bb" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-regex-4b6e82d" href="http://nodeload.github.com/boost-lib/regex/zipball/4b6e82d8731859ee71758a2fbc5e432774f7f269" size="818640" type="application/zip"/>
+      <manifest-digest sha1new="886bbc4ab12334759cb646ca70dbcb7a2f574de1"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBgACgkQxnV5mk56UjHLfQCfWE0HWileXivMJDDpInqZtJXKxX0AnRfUcxcR
-5WslzgNbBUyMcQidCpMF
+iEYEABECAAYFAk+giCYACgkQxnV5mk56UjGT9ACfRxPB42JfIMww2CqXp9la2yli/DQAn0JbPLpH
+GGJMRMaN8KbYpP8TTI8t
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/numeric-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="numeric-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Numeric (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -26,12 +26,15 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f34b3527-59fc-4880-a173-a593b881d354" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
+    <implementation arch="*-src" id="ffc41079-6273-46bc-ad57-4c19dc9ae8fe" released="2012-05-01" stability="testing" version="1.49-post-201205020104"/>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>headers</arg>
       </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="numeric" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
@@ -40,7 +43,7 @@ uBLAS provides matrix and vector classes as well
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBkACgkQxnV5mk56UjFsQwCfRWcAsqAoS1tJqkiF4KYYdy4uiYMAnAzE8EjO
-/TCmiBE962mF4l7uud4S
+iEYEABECAAYFAk+giCcACgkQxnV5mk56UjHbAwCghHE9NqVCd0J3YqBysBG0qRPqChcAn3r69b4q
+xCmZ3Nz6loU7xUBjyner
 
 -->

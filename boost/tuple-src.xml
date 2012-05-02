@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/tuple-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="tuple-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Tuple (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,13 +10,14 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="5c23462d-f4c8-49c4-98e5-f787deca7f88" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
-    <manifest-digest sha1new="1f6847576867a1454f4d9a2e29f4711242fc0b46"/>
+    <implementation arch="*-*" id="6e0e4525-ec71-4d49-aaf4-b09d62ace4e3" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
+      <manifest-digest sha1new="1f6847576867a1454f4d9a2e29f4711242fc0b46"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTDEACgkQxnV5mk56UjEZgwCeOULBQ3BwKULwXbw8+p7Wme7TDNIAoIHUQRI/
-Hozds9nj9FvDo8esNNus
+iEYEABECAAYFAk+giEEACgkQxnV5mk56UjFwCgCeNu9MfAhBh0/nCst1EVPJmBgRpFwAnRE0Z06x
+PyGkwiY9v7B8EidR0rcB
 
 -->

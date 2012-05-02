@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Function (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,14 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2866307f-ea59-40dc-bd56-a7c41d9795ba" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
-    <manifest-digest sha1new="4599172ced1068c1321231c6d14ed29d63c520eb"/>
+    <implementation arch="*-*" id="4334e2c2-b256-457f-8941-44b8f27db146" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
+      <manifest-digest sha1new="4599172ced1068c1321231c6d14ed29d63c520eb"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTDIACgkQxnV5mk56UjH6+QCffb9NHaldrUJnVeX6L5DOXO0y3qYAnj/QdxEc
-/94XtpfcvzfYGh3DpAnh
+iEYEABECAAYFAk+giEMACgkQxnV5mk56UjEEVACaAvw16GRVEfwgvZ5LGa8epTnZrXoAmwTnCx5e
+JOyHe3xdFWw6EUCBp+fN
 
 -->

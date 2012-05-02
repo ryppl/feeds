@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/range-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="range-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Range (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,14 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="8a44195b-f470-48f2-aed7-ed39e185bca7" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-range-01bafff" href="http://nodeload.github.com/boost-lib/range/zipball/01bafff6db2347c88b192993a9c87d8485a4985c" size="803762" type="application/zip"/>
-    <manifest-digest sha1new="be0f39ff20e4f2069b24a5e96a420884cd9e7f86"/>
+    <implementation arch="*-*" id="d528b2e3-5c85-4f64-b372-cc3e41671056" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-range-01bafff" href="http://nodeload.github.com/boost-lib/range/zipball/01bafff6db2347c88b192993a9c87d8485a4985c" size="803762" type="application/zip"/>
+      <manifest-digest sha1new="be0f39ff20e4f2069b24a5e96a420884cd9e7f86"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBUACgkQxnV5mk56UjGINwCfWuARLAq5oKmsgty0nfoz7Hu311QAn33mDgMU
-AyXL++c5JqB1QQytbwJe
+iEYEABECAAYFAk+giCMACgkQxnV5mk56UjGeewCeKiCmlXq0KrcIkEX00A0DQ/fSPoQAmwd0CVvn
+yIQPUV3Yk/7DJDyLiK9R
 
 -->

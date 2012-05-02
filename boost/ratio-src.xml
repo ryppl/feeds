@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/ratio-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="ratio-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Ratio (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,13 +9,14 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d7a85d00-c354-460a-806f-9c36264ae0b5" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
-    <manifest-digest sha1new="ddd202152dff504f922dfd76e59d11abac88f6f5"/>
+    <implementation arch="*-*" id="acce2378-fe7f-4fc9-a9fc-ca6bee640082" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
+      <manifest-digest sha1new="ddd202152dff504f922dfd76e59d11abac88f6f5"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBQACgkQxnV5mk56UjEI5wCgjQKoYF/MSi8haEG6CFrA8OShT2wAnRAd8k1b
-uux6NEE+1yla7AvA8bv0
+iEYEABECAAYFAk+giCMACgkQxnV5mk56UjEbGACeMZAqMjdYodUbnhmW/oYAz7GWwqkAnji2LbKc
+s5xDQNY4037MieJ40n/E
 
 -->

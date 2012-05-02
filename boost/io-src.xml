@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/io-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="io-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.IO (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,13 +12,14 @@
     library.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2991cd81-39b2-4904-8968-adcebd147a5d" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
-    <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
+    <implementation arch="*-*" id="42de434e-667a-49ca-80ca-a39fc52d2700" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
+      <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCQACgkQxnV5mk56UjF0XACfTVJvgv/X/tWbIhxuii/Eze9Xi/0AoKIzuSL5
-C6QBmaT5gGWdMtemnUi7
+iEYEABECAAYFAk+giDIACgkQxnV5mk56UjFM8QCfb0FWZcCCEEbjQrPCBFvTLQoab7AAn0MbVGLB
+SPsbI2N9Hbzr8X+G+Pdc
 
 -->

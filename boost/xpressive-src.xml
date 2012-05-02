@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/xpressive-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="xpressive-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Xpressive (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -12,13 +12,14 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ceef30e4-b9bb-44d5-bbb3-cbcb865c9a58" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
-    <manifest-digest sha1new="c0f2289efc3c20efbb44d680d8dd2ebced21c0bc"/>
+    <implementation arch="*-*" id="1e3dcc7b-4b0f-4894-808b-32053f3d7772" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
+      <manifest-digest sha1new="c0f2289efc3c20efbb44d680d8dd2ebced21c0bc"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCkACgkQxnV5mk56UjEGGQCfcd6vu5CS6WtrJsbetUYYgSS3QQkAoKfHbGuz
-uZDToiAuk5YASUjS1h6b
+iEYEABECAAYFAk+giDgACgkQxnV5mk56UjHiNwCbBglu8lqjmQy74DsSIPKG/UQyAYMAoKGXxDwA
+i+yF6KGpkCvMerz6xe0G
 
 -->

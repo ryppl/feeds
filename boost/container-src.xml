@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/container-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="container-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Container (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -10,13 +10,14 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f8cab08a-cc9e-40eb-9080-74a9fb6a27f9" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-container-8e42ccb" href="http://nodeload.github.com/boost-lib/container/zipball/8e42ccb6a381e980936452f8714516f8a8609dd1" size="292052" type="application/zip"/>
-    <manifest-digest sha1new="c761b68c9a82af6fdc9a99cefb0e3f3d41a365b7"/>
+    <implementation arch="*-*" id="fcf8d0ab-539c-43b8-b335-b5a67b81e8b0" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-container-8e42ccb" href="http://nodeload.github.com/boost-lib/container/zipball/8e42ccb6a381e980936452f8714516f8a8609dd1" size="292052" type="application/zip"/>
+      <manifest-digest sha1new="c761b68c9a82af6fdc9a99cefb0e3f3d41a365b7"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTDYACgkQxnV5mk56UjH6TwCdELzoqXd7hPpUwDHFPDkXBoguawMAn0B24W+L
-gE5arE/DwGpOUN1rchea
+iEYEABECAAYFAk+giEgACgkQxnV5mk56UjF8RwCeLOQ8Ps3Q8exH7fCWEISrvn5O+BkAn3KDCpwP
+lPucjGWcM5MferwixVXr
 
 -->

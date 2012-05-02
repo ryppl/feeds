@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/msm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="msm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.MSM (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -9,13 +9,14 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1d4e12d5-60d4-44f9-913c-23f73f6ef08a" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
-    <manifest-digest sha1new="f0e161f615c75dfc82a564c6f31615d90ff22c56"/>
+    <implementation arch="*-*" id="d383900e-fc75-4264-8cbb-c6c5d8e3ca68" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
+      <manifest-digest sha1new="f0e161f615c75dfc82a564c6f31615d90ff22c56"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBMACgkQxnV5mk56UjG1pgCbBSw8p/Tbu88J4hZ0w9ecKpqRoQsAnjwuOxZ1
-pEpX5c7O6aZjoMZlVZ9L
+iEYEABECAAYFAk+giCEACgkQxnV5mk56UjFkhwCgjKGK611M3QpPyNhUblXfTKjX0eAAnApr5SPT
+K4RrMeiq8/LlLyw3xiCu
 
 -->

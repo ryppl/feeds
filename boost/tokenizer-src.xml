@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/tokenizer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="tokenizer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Tokenizer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,14 @@
   <category type="http://boost.org/lib-categories">Iterators</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="dc08c00b-58c3-4804-81cf-c88846d091f7" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
-    <manifest-digest sha1new="c8de121c4d64f7f38638acb6a6ba15f2c7338db9"/>
+    <implementation arch="*-*" id="56d38a69-3a90-45fc-b8cf-7aafebc66d5d" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
+      <manifest-digest sha1new="c8de121c4d64f7f38638acb6a6ba15f2c7338db9"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTCIACgkQxnV5mk56UjG3hQCfbd0eA1ocARcpMfQZVk18ugoxy5MAoJqx0CQ6
-qafF5RGcW93okpBjaVfr
+iEYEABECAAYFAk+giDEACgkQxnV5mk56UjFDKACglVVJzTfVo7U1UfzF0rQVzA0vOYgAoJ6zH+/M
+sxrYQTbAlvDADIyQbwWD
 
 -->

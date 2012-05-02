@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/conversion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="conversion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Conversion (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -11,13 +11,14 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f1c02525-91aa-4212-9a46-d914f0d6fd70" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-conversion-403d50c" href="http://nodeload.github.com/boost-lib/conversion/zipball/403d50c612c8524fb53235e134bfadbf25de94ff" size="71700" type="application/zip"/>
-    <manifest-digest sha1new="98ca0b307b263f9dca50e1ed1b9aede594cd8e8c"/>
+    <implementation arch="*-*" id="e6d5f40b-90fa-4bef-abba-36be0cfd12cf" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-conversion-403d50c" href="http://nodeload.github.com/boost-lib/conversion/zipball/403d50c612c8524fb53235e134bfadbf25de94ff" size="71700" type="application/zip"/>
+      <manifest-digest sha1new="98ca0b307b263f9dca50e1ed1b9aede594cd8e8c"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTBkACgkQxnV5mk56UjEaZACeNRUPLX8e0+R8MDdq6uIucT6X104AoJca9QbE
-zQHhUuMdEB6/gE3J3aob
+iEYEABECAAYFAk+giCcACgkQxnV5mk56UjHh8wCfXcwmDaLBe9e6FuAMiA1vxr6uGQoAn2biZelr
+Qwo/yunkFc2hx7/mUHb5
 
 -->

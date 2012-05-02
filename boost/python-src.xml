@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/python-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="python-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>Boost.Python (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <summary>A C++ library from Boost.org</summary>
@@ -13,13 +13,14 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4423eb5a-46e9-4ed6-b2d7-5c90fcb5b51b" released="2012-05-01" stability="testing" version="1.49-post-201205012048"/>
-    <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
-    <manifest-digest sha1new="54edb256de6dd13b71687c36113bd1c027272127"/>
+    <implementation arch="*-*" id="dec604ff-ce99-4d74-bc44-0dc9f93e3f19" released="2012-05-01" stability="testing" version="1.49-post-201205020104">
+      <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
+      <manifest-digest sha1new="54edb256de6dd13b71687c36113bd1c027272127"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gTC8ACgkQxnV5mk56UjF9pwCfQfiQ+iWciyOGQPpCChbFjhecCowAnRnG3HKA
-5L2+gL9gKr2HDb97pA5S
+iEYEABECAAYFAk+giD4ACgkQxnV5mk56UjFcAgCeLRgXgnCDSq10cWFYxt27pCR6JEQAn0nC6ziW
+dWMFotBniSHesDLFnerc
 
 -->
