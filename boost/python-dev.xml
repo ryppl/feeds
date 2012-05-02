@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/python-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Python (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/python/</homepage>
+  <dc:author>Dave Abrahams</dc:author>
+  <description>The Boost Python Library is a framework for
+    interfacing Python and C++. It allows you to quickly and
+    seamlessly expose C++ classes functions and objects to Python,
+    and vice-versa, using no special tools -- just your C++
+    compiler.</description>
+  <category type="http://boost.org/lib-categories">Inter-language</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="9bfb76b3-2dab-44b4-aed6-afeed1c7783e" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>dev</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/python-preinstall.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hl3cACgkQxnV5mk56UjF2NgCaAlrlxDCbzGoYbqC2yKRlIk3zTF0AnjscVezJ
+Nhi2DAD5RGGMGW7S/pCH
+
+-->

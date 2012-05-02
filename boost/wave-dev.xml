@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/wave-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Wave (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/wave/</homepage>
+  <dc:author>Hartmut Kaiser</dc:author>
+  <description>The Boost.Wave library is a Standards conformant,
+    and highly configurable implementation of the mandated C99/C++
+    preprocessor functionality packed behind an easy to use
+    iterator interface.</description>
+  <category type="http://boost.org/lib-categories">String</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="e3b829f4-0c65-42e6-9aa7-fa1e7ce81290" released="2012-05-02" stability="testing" version="1.49-post-201205022021">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>dev</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/wave-preinstall.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hl2EACgkQxnV5mk56UjGwxwCfRgkyfkbjJ/h6GF1q5uyWneMBWZIAn29BjIQh
+xGegqR7q8P8nI39uq0ni
+
+-->
