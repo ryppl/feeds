@@ -9,7 +9,9 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="91deb579-2176-4195-891e-50f49f783722" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="80f545f8-3394-464b-befc-b4c0b181f9d7" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giYEACgkQxnV5mk56UjEvwgCeL/yjvkg1si6g2AELFOPCtRpjE3gAniXTL8Kr
-IWbDUTjXcVf63LjnXhNN
+iEYEABECAAYFAk+gq9gACgkQxnV5mk56UjFUCgCfWqheb/aRWsTGlWMHpFYLAlpl1Q0An0B+dA+o
+gD409XfGexiofVMAbawd
 
 -->

@@ -9,7 +9,9 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d1c0bd00-5858-41e5-bcdb-7d2aa03e893a" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="5fcd9f83-c83b-47e2-9e39-fb7ca7a368d5" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giXkACgkQxnV5mk56UjHLBwCfQBiRNVfweEs/xM47FTVujmVu69sAn1leShL5
-+oj6lELEEQ5iTHjtxo28
+iEYEABECAAYFAk+gq9EACgkQxnV5mk56UjEf+ACfWdQkMW146Tx4kwbaBhJvBP8rp9EAnjOEOs71
+X9tGX8ZqOQfrvXP4HprW
 
 -->

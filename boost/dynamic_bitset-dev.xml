@@ -17,7 +17,9 @@
     dynamic_bitset.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d9549e7e-b803-4da8-8e35-efdfaaf9a38c" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="26298c73-bdd4-4c10-957d-e640c7bcfd4d" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -34,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giWAACgkQxnV5mk56UjFB8ACdEL8tDxcFDt3im2JvQQdcmdUixsAAoKPJ2tmd
-dKIT0Y7rEuzuUx38PbwA
+iEYEABECAAYFAk+gq7oACgkQxnV5mk56UjERWACePGksZq0KQSbFim7HmVPU0jttSUsAnjMfEKiz
+3UxZ6AjMQs3xa6mbWUmF
 
 -->

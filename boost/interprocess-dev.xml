@@ -10,7 +10,9 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a26d4d03-d231-4e40-8272-074378960d1c" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="a7d6af00-ee58-4a5c-a5de-0fe10d619f52" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -27,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giVYACgkQxnV5mk56UjFN+gCeL7sTXMMuTAq+T2TTZEvfmmrwmGkAoJM+JP9W
-w5lHoyh6dPqajO9nmHfC
+iEYEABECAAYFAk+gq68ACgkQxnV5mk56UjF7tACeNzDtY1vHzVsNiWIyOpDT+KeO43EAnRg+apTu
+sv8VIq19Jx6HBKL9JUG8
 
 -->

@@ -9,7 +9,9 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7928160e-56d4-4bee-9240-0d363b3d742e" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="a58e8087-6be6-454f-a6a7-a1eb4b8cd2cd" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giXYACgkQxnV5mk56UjEMmgCfQsLOiL7UYxuNsuEZvyaPyaGgG4cAniwFqIgW
-hLyZirqibsgjh2rgrlo5
+iEYEABECAAYFAk+gq88ACgkQxnV5mk56UjEBBACfXqzDfXcE98XH7goEt0rpCcS54rEAnjwn2G+T
+1/DXHMIMzAHoz7+G2wdP
 
 -->

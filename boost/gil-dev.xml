@@ -14,7 +14,9 @@
   <category type="http://boost.org/lib-categories">Containers</category>
   <category type="http://boost.org/lib-categories">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c962e6dd-3e0a-409c-a7ab-adb9d4c810ca" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="3604f488-c458-44b5-a371-4fa7ab6080a9" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -31,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giVYACgkQxnV5mk56UjHm7gCfY34mmsRGeNga31qH5tuGoce4ZoAAnjCz1NHl
-i7eeGgHfQfhh0cqM9PfJ
+iEYEABECAAYFAk+gq68ACgkQxnV5mk56UjEpAACePgb1JZz7rwzoLUNwob8r9k9SoYgAnRqcPNR1
+D4nIvqkxgODctTQQijDZ
 
 -->

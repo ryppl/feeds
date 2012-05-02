@@ -9,7 +9,9 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3277dfa5-3cd9-4269-9ca0-afa6d8314605" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="1609c563-54e6-4d93-b5a6-a0be15806d67" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giWAACgkQxnV5mk56UjHqGQCgosdlbmDDSapNaLFN+KWByl1106kAn1h56YKp
-qXQodgXXBzSmSmu9UluO
+iEYEABECAAYFAk+gq7kACgkQxnV5mk56UjEvLACfVhd0mDV4M6kqM0WyVrqnIuPWc9wAoIVO1oUX
+JO5BIhXLCiMNllh5wftg
 
 -->

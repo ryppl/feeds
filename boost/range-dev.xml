@@ -11,7 +11,9 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3a105add-e3e4-41c5-b35e-28b78e41d949" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="96a1604f-738a-4aa6-8fda-7ce4929524ee" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -28,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giVkACgkQxnV5mk56UjELVQCggR90+stn+CZyzb5M4f0qiFfxQdEAoJYlraz6
-yEBSMbS6UfT/NBO2NnWB
+iEYEABECAAYFAk+gq7IACgkQxnV5mk56UjGGNACcCTUWYDhtRu4tFQSuyJ1vsKNnMvIAoJ+13xWS
+uZpgXYqvPBISOkkhke0f
 
 -->

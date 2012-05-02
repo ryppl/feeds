@@ -13,7 +13,9 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d90bb47a-b6cc-4b8f-a32d-ac81ebc7a0e6" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="047f49cb-af57-4e23-818b-6345f9968ee0" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -30,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giWgACgkQxnV5mk56UjGulACfVvJKJM+ZtbnS8K2UBu3OhyTTp74AoKapCfWh
-Q54fVnPiIQE2VxasSyui
+iEYEABECAAYFAk+gq8IACgkQxnV5mk56UjHOpwCfXI9c5iKpNW830a5CW7B0pLz0Qs0An2sQ2G29
+b2Z+Ggy2uSveUpOpr90Q
 
 -->

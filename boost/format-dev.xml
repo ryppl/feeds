@@ -18,7 +18,9 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="59607544-b53d-4bd4-b8a7-ee07ae8c9055" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="d62c4a6a-4ec5-430e-b4a5-c080b7a5aa88" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -35,7 +37,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giV0ACgkQxnV5mk56UjFYnACeOhx1QR2/pJokTrkSYodecPcdMGsAmwVAL/ch
-ruDc6nuohtEn5TdqCX8R
+iEYEABECAAYFAk+gq7cACgkQxnV5mk56UjEOCgCfbsnwT2oT/Njnn5qjeQPq1wAU+9wAn0/MAV6n
+hNFR6zKemUKAP0CcddHU
 
 -->

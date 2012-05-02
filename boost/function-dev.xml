@@ -11,7 +11,9 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fe165eab-b909-4185-95e1-f9430dc65f88" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="eba00bf5-a12a-414e-9caa-ac243984a28b" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -28,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giX4ACgkQxnV5mk56UjFhBQCfWb5od4SnFa/b6+MO0kTJ/V4STTcAn1Cf2DiS
-3i5MXO+144EykMEm/l+z
+iEYEABECAAYFAk+gq9YACgkQxnV5mk56UjHLBgCdEk0hJjXfckbVF31DEelgXJevhp8AoJjt5F5o
+nGdCe2mW7D7/XsXYmtYo
 
 -->

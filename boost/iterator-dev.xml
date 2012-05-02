@@ -15,7 +15,9 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cb9e2f22-a537-4b2b-9696-3ee1108fff17" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="2706e991-1af7-4063-bc82-de9305618ca7" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -32,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giVYACgkQxnV5mk56UjFLDQCdGdDoP+ohS4qo8hdjcgSho7GHWYIAn1jHbyLF
-SLnPtwEkoTH1LWmBNJOb
+iEYEABECAAYFAk+gq68ACgkQxnV5mk56UjFpxwCfdxMQtPMxo358UeHaxCgUxBzm7dYAn1O4fx5x
+hrJnSGp/SS+snXuSDaSB
 
 -->

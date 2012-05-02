@@ -61,7 +61,9 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c0b326e7-1bb6-4d3a-9ef1-38e5d845f3e7" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="c0d00ec1-e719-4565-9671-7c579b5a5d58" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -78,7 +80,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giYMACgkQxnV5mk56UjGwKQCffaEcovfbI3vOqpu7WkDVcUFdmF0AoJ3/beHo
-s6xZQR7kth9NmdLKxJ5l
+iEYEABECAAYFAk+gq9oACgkQxnV5mk56UjEI3ACfQA4qeZiaTw8thugQ9G73vSEZ02UAoKbN1mOd
+dsj4LDsyso+jhxEAwQCr
 
 -->

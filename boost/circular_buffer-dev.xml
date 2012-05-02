@@ -10,7 +10,9 @@
     </description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="26fd7f25-f75f-40f1-980d-4450f4c291dc" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="10606b25-f315-4453-8e43-b4551be1438e" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -27,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giVoACgkQxnV5mk56UjE6FQCfXunYIwkW7F3QQoEmuHwqp7ckeZ4An0Ssu6Qa
-icamaFy4zRY2ezDQMzjG
+iEYEABECAAYFAk+gq7MACgkQxnV5mk56UjEn8QCfZdPWjLjKdO0rXQt6yJJizCZUGPIAn2F09CjA
+K8vE1aVBfo6QS+QksoMo
 
 -->

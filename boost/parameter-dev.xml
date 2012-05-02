@@ -13,7 +13,9 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7ea3a938-d7ec-4f70-b9c4-6f8dc82226f6" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="d8191a5d-4b01-4a78-b1b5-58bdfe9f2545" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -30,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giWUACgkQxnV5mk56UjFdCgCgpJ8T3dCqLj7YanCTTHSldoZobVsAn31Q0+1G
-GPazPEU87KmhMYc5POsm
+iEYEABECAAYFAk+gq74ACgkQxnV5mk56UjERmwCdF3k0k07zlVXRZFzx5WHRlOuMb+cAn38LLvYb
+fNc90ZlZBbdsa5HsD9LO
 
 -->

@@ -26,7 +26,9 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="84fd0d7c-eb2b-463f-a67c-dfd6df138c52" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="1019701c-d88a-468c-993d-bc545d143295" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -43,7 +45,7 @@ uBLAS provides matrix and vector classes as well
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giWIACgkQxnV5mk56UjF7vACfTDN7oJdW5/DogEoqEN68prmWm5AAoKP0dTJ8
-tv+kGqcEy48kR2xEriWw
+iEYEABECAAYFAk+gq7wACgkQxnV5mk56UjEyfwCfTzegll1clNUeJIhCcOJp45MzdNIAoIaTeA7/
+M730qleU+8o2gTPmvDzr
 
 -->

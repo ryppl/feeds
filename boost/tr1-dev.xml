@@ -15,7 +15,9 @@
     std::tr1.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ba4e5823-17b9-4be7-8d5b-519674a65a08" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="08ed74aa-77fa-4ed0-83d7-9ebbebbb1fb3" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -32,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giXUACgkQxnV5mk56UjGekwCfX2QYxaZp/zmS/EnjQS9USvqe8yUAn1T+2RGW
-SQMZ1TBErBo7oKlhtXxV
+iEYEABECAAYFAk+gq84ACgkQxnV5mk56UjH07ACeMn6j6C/+Uou5jLM0kuHZisZLso8AnAtEUjl3
+kTb444vzt4yNcCPuT3Wu
 
 -->

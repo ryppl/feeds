@@ -11,7 +11,9 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4ac95eb9-2245-41c7-a88c-4e438d270614" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="e674dc53-94fb-4757-8a61-bea99d77ba3b" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -28,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giX8ACgkQxnV5mk56UjFNeQCfZfW73I25lhCrlLXM8+vSgwABWGkAni7ITVoQ
-jeRu+r1/LrteJL30vEen
+iEYEABECAAYFAk+gq9cACgkQxnV5mk56UjFYAQCdHzqcuI0aqYMuIzgvX4hIh3ztEQoAmQE6J7mW
+TkBg8iifMNeEal9FyL9u
 
 -->

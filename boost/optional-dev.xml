@@ -10,7 +10,9 @@
     values.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fc092c62-0b33-462e-a9c8-34c5dbc70906" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="e311ac68-1652-4cd1-8be8-3c288a2486aa" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -27,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giXwACgkQxnV5mk56UjEY5gCeOnzQOENm3iyghzTRbCdKaFZHaWgAn1mwIPYB
-FhIWoaRetDri98xnyhp3
+iEYEABECAAYFAk+gq9MACgkQxnV5mk56UjFbEACgjEYBw5lVtl7V+3QvISoWwLbqmWIAoJvOuEBf
+zvGtXruQwdOIKCqo/NeL
 
 -->

@@ -9,7 +9,9 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d05740a9-8ec5-446a-80dc-a93790a14c27" released="2012-05-01" stability="testing" version="1.49-post-201205020109"/>
+    <implementation arch="*-src" id="4f7950bb-24e1-4820-b9bf-ef8efe34ee1b" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
+      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
@@ -26,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+giWEACgkQxnV5mk56UjE2JwCfeZcKHddPOYaUPxbGDQ1aB2rRklQAnRBxaAvF
-7Q8r9ADL6kQmEDXnWG3B
+iEYEABECAAYFAk+gq7oACgkQxnV5mk56UjERhwCgklmmGjvY/YnMTfkrreuZF5LWkVkAn2/vxY8o
+L9pIi+bTIk06+yIEl3Go
 
 -->
