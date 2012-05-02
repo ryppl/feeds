@@ -11,8 +11,9 @@
     libraries.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4004e7bd-09e1-46a8-bc84-2120786d62c1" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="f0be8c04-d0c7-4d78-9ec2-90ea27734678" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq78ACgkQxnV5mk56UjGf0QCeKLKaGbuM4gN+mX2LTou3nXI4OJQAmwZC6OKz
-wSUqZMQYiYXNW9JbPryJ
+iEYEABECAAYFAk+grqcACgkQxnV5mk56UjHISACZAU80VO+9NRNrkS/4Zju3wNGpIq4AnimCdFgj
+FyYTKklZQYP1fsdghbNr
 
 -->

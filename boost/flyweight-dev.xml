@@ -10,8 +10,9 @@
     objects.</description>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4fa156a7-f00c-4d7e-95d9-769072691b4a" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="e5ef8a16-ae8b-424a-a16a-2cac670ef200" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq8IACgkQxnV5mk56UjE/SgCgnMAZdmkYrGmqqz5ZPANDanLtiDcAn1pa3mVa
-tEa1v5p4nZIrZzU68OOX
+iEYEABECAAYFAk+grqoACgkQxnV5mk56UjF/IwCfXn51617onWFQjD97kap1QwbveKIAn01fEYL3
+bHQotGY8C7O6cuv8niZ/
 
 -->

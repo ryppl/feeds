@@ -12,8 +12,9 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eacef174-77dd-453a-acc7-eaec43982e55" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="5f4221a6-4a2b-428f-a790-17795218184e" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq9UACgkQxnV5mk56UjGqhgCeNsRbkXkdwEnX+JYOaNBU3bcLz9AAoJMquals
-Fug+N6MoV2fAnAR0yPMR
+iEYEABECAAYFAk+grsMACgkQxnV5mk56UjHmowCgon+20UH3nwmKs2Cz3/aHI89s8QUAoImbFwQj
+5QvHZwPRHGRA8t1T9QbW
 
 -->

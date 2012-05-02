@@ -9,8 +9,9 @@
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="36b09b39-155f-4267-aedb-5ea952944145" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="42b974dd-330f-4e77-8424-75d1011c0338" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq8cACgkQxnV5mk56UjEXiQCfSnY5JiXYG/6KIAGzG3wE2IM/4XUAn35RP4pI
-uTNpvu8fBPhS5Zz0omcK
+iEYEABECAAYFAk+grrEACgkQxnV5mk56UjFp3gCfY0uMdzR7HC4TwVQYpk3gnTFeVToAn3BDpzYw
+gNc2abSzTjqXSAKQw3q8
 
 -->

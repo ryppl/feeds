@@ -15,8 +15,9 @@
     the current language.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1033551d-487a-4bd2-96f8-cdc956a482f8" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="ebee6134-4f19-4f4f-b193-ba34cfe0f52b" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq8EACgkQxnV5mk56UjGDzQCbBH+zV4Z0L1xyuji2evNY2nB8s1AAn3VtZIEp
-0tABh2XsFDPMdcQc4Xwj
+iEYEABECAAYFAk+grqkACgkQxnV5mk56UjH4iQCfbF/zv1f6IsGbk21FFuPRXjwtACgAoJGIU4MT
+ilVLMrW6BwiejQ8K82UR
 
 -->

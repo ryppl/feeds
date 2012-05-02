@@ -9,8 +9,9 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a869415b-d40f-4a06-9960-ce823a70b558" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="eb6833ea-a91e-4123-b2db-4bd373e94aa4" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq80ACgkQxnV5mk56UjH6IgCfWE2p3ce7VU3dpKSPDM31umpYuVAAoKd6BsYT
-UwlQd5zTiA5bVG516z2x
+iEYEABECAAYFAk+grrgACgkQxnV5mk56UjHmoQCfUgu5f/3G7tz0fOGu3QML6y4jkNEAn2gRp0GO
+kPqK+amXUFWgeOQspYI/
 
 -->

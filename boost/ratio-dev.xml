@@ -9,8 +9,9 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3c2ba202-8ab3-4455-94b4-635c68573d08" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="0c966853-8c0e-43ca-af24-2cda04352e51" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq7cACgkQxnV5mk56UjGf1ACeNieEhs5xQXwDsNPeOh7yjvTHQWkAoIYGJeop
-JAeCIbLjU7c4TBRiFvec
+iEYEABECAAYFAk+grqAACgkQxnV5mk56UjHz9ACfd88mwXGzZbrUOGS7JwLOBt23eOMAnjQpmXiY
+nT3KX8ops8ZohYMq5A8Z
 
 -->

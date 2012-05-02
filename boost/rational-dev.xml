@@ -9,8 +9,9 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4f7950bb-24e1-4820-b9bf-ef8efe34ee1b" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="355be4ce-cdcf-46a2-a24b-874b04aa5db2" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq7oACgkQxnV5mk56UjERhwCgklmmGjvY/YnMTfkrreuZF5LWkVkAn2/vxY8o
-L9pIi+bTIk06+yIEl3Go
+iEYEABECAAYFAk+grqMACgkQxnV5mk56UjGjsgCfVOXUvOvhfLku/S37zBwV6Fw0x0QAn2b25R9U
+zKSV9MqGNGIb87k9+nng
 
 -->

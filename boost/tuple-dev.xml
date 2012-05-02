@@ -10,8 +10,9 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6bf9f8f5-0b09-4fea-8987-4cc7d28accb6" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="206463bb-7ee8-493b-9d65-a9eacf70fc36" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq9UACgkQxnV5mk56UjEBtQCfUtgE9Amp6hb3GCfvkrWspDVqDMEAnRaKqIli
-Xo9Q0EisXJXcZw4NFXAn
+iEYEABECAAYFAk+grsIACgkQxnV5mk56UjF6pwCghEzqjkU0G+tgSS+pk/4101008m0An3IN87c3
+Esc9aivJTJX5KOuvdYjX
 
 -->

@@ -10,8 +10,9 @@
   <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7ba9b312-da2b-46b1-84b5-847de0bd98f9" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="294adc77-2ecd-4dab-bc67-7606c00b58dd" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq9cACgkQxnV5mk56UjG3gwCgobsYi732058YMBZUk5CGzCJjQ5wAn1FTrnz9
-WpEmH75FL1U1QBQVgfgw
+iEYEABECAAYFAk+grsgACgkQxnV5mk56UjFVfwCfWemVWvv2xZc2mDzKbVb+ccDJs40An0F8nG9G
+tYxL8LXLvQkF9THQObVD
 
 -->

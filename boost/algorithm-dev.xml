@@ -20,8 +20,9 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7e452c75-634a-43f7-a01e-ef13a0b7cd66" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="e4ee4f7d-9bfd-4994-9eb2-a2b709a53ecc" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -39,7 +40,7 @@ String algorithms library.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq9MACgkQxnV5mk56UjFOFwCghbzn/GbkwOo4wb8T+cVEBL9gcUgAnjkE12Ry
-D6Wu9/qOK2SUPlvOpFkc
+iEYEABECAAYFAk+grr8ACgkQxnV5mk56UjHO2gCfROMPbduuc3zr2Ygn0FiP/YEwLdUAn0nJSow+
+6nE6yR1Epr4SHi4tXgUc
 
 -->

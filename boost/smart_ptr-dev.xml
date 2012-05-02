@@ -12,8 +12,9 @@
   <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f6542a16-37ac-4174-bf6c-320d7f0a7a15" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="08e98684-3090-48a9-949d-c9b4b8c3a74e" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq8YACgkQxnV5mk56UjGNBwCfda7S06sHgk/48u1aSIm4ARP7nsIAni7Wc3P1
-MB4a2UNPQepCQLYuXw1H
+iEYEABECAAYFAk+grrAACgkQxnV5mk56UjFD0wCffxRX/iUS7svc9rh124DpOGO3wCkAn3NVD7Sl
+IotGdcImWaiXwzsuC+5+
 
 -->

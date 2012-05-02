@@ -20,8 +20,9 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="176aca95-c85d-4e1d-8955-9832d353b659" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="43f54f58-b385-4d03-ab11-55b97bdbd5ec" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -39,7 +40,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq8wACgkQxnV5mk56UjEq/ACfXD72r6KrW/S541KiYyeqK3SiarYAn21Uj417
-AzffWHWXY2OfwBn1Ti+8
+iEYEABECAAYFAk+grrcACgkQxnV5mk56UjFREwCbBEwJlIXrldORicPXjuLhJ/oQWq8An1eciq6D
+hjL1kcUUZfxudrKl3/9D
 
 -->

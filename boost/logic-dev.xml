@@ -9,8 +9,9 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="aad5a661-8fb0-4a88-a35d-ee83cca658fe" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="e9c6c5cf-bed3-4818-8494-38df352aef92" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq7wACgkQxnV5mk56UjHpIgCdFXvPJtXwieVRB8P8xBj+N2iIjzoAoJLWT1p4
-He2/q+0+c96lB6peixxT
+iEYEABECAAYFAk+grqQACgkQxnV5mk56UjGTaACeNIXFgHKd1Y6Hkvf7jcFrrEsyRtcAoKjmluCO
+GJFcQMWKxfBHiFvIN67V
 
 -->

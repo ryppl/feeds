@@ -26,8 +26,9 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d54f162e-7d3b-4305-8b3f-36a26670ae8a" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="7a3468c4-539e-470c-994f-f1b5b32c15bd" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -45,7 +46,7 @@ A utility library for passing references to
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq7cACgkQxnV5mk56UjHSSwCggkHZ/dqaGsDLzB8GNGNRh9MvU90AniJbf8zT
-Dqzo8lmCE6cm8bL6mZ6f
+iEYEABECAAYFAk+grqAACgkQxnV5mk56UjGRMwCglqGQalbfxTobrpQGi0WyC/l8yeUAn2Dyecm6
+FD92VfPRomkNeRaMKXek
 
 -->

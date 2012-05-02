@@ -9,8 +9,9 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="95e823ea-560b-40ae-8bf9-11fe924affc1" released="2012-05-01" stability="testing" version="1.49-post-201205020336">
-      <archive extract="_empty" href="http://ryppl.github.com/feeds/empty.zip" size="164" type="application/zip"/>
+    <implementation arch="*-src" id="c5c0d8af-8a92-4137-967c-532bd7f5a308" released="2012-05-01" stability="testing" version="1.49-post-201205020348">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+gq8AACgkQxnV5mk56UjGI3QCfchkPrxa5ljedT2y0PoVZgqIQTuoAn0OAT7Kn
-dmsewo4hh29iroHq+f4A
+iEYEABECAAYFAk+grqgACgkQxnV5mk56UjGJcgCeNChdFOz4082N8QvpzDd2y7731RkAnivusxHL
+bOSE57kzMAheYuouhdln
 
 -->
