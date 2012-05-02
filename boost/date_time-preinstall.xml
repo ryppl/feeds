@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/date_time-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.DateTime (built state)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/date_time/</homepage>
+  <dc:author>Jeff Garland</dc:author>
+  <description>A set of date-time libraries based on generic
+    programming concepts.</description>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="22fa2fa3-ac85-4d04-a12f-53185939bac6" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>preinstall</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="date_time" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tokenizer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hUz8ACgkQxnV5mk56UjGZpgCfR1v5Wa5rDY0FRRIrNS1mOQMhDPAAnj51OqKk
+ilRF6HFw3o6vYRYfUTFO
+
+-->

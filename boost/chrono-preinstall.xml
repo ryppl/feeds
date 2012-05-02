@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/chrono-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Chrono (built state)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/chrono/</homepage>
+  <dc:author>Vicente J. Botet Escribá</dc:author>
+  <description>Useful time utilities.</description>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="d0398e1c-68b4-4ccc-8de5-4303cfa4bee0" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>preinstall</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="chrono" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
+        <environment insert="." mode="replace" name="BoostSystem_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Ratio-dev.xml">
+        <environment insert="." mode="replace" name="BoostRatio_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hU0gACgkQxnV5mk56UjFfGACfTjRaVpIH04LjjsPRTZRITspMbgoAoJf8KkYe
+LaQZ9u5AcOjJZTr+753p
+
+-->

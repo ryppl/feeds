@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/locale-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Locale (built state)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/locale/</homepage>
+  <dc:author>Artyom Beilis</dc:author>
+  <description>Provide localization and Unicode handling tools for C++.</description>
+  <category type="http://boost.org/lib-categories">String</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="4388a9bc-19c9-4958-b30a-1fc372eaa167" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>preinstall</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/locale-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="locale" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+        <environment insert="." mode="replace" name="BoostInteger_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Unordered-dev.xml">
+        <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Thread-dev.xml">
+        <environment insert="." mode="replace" name="BoostThread_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/Iconv-dev.xml">
+        <environment insert="." mode="replace" name="Iconv_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/ICU-dev.xml">
+        <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hU0wACgkQxnV5mk56UjEPSACgmI9wwaZafXAQ/ET3x9GzdKJwhvIAniTNTfcZ
+DmrGRbXL0rurK8odP3lv
+
+-->

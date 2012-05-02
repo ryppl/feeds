@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/system-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.System (built state)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/system/</homepage>
+  <dc:author>Beman Dawes</dc:author>
+  <description>Operating system support, including the diagnostics support
+    that will be part of the C++0x standard library.</description>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="47d288b8-c33b-4389-a0e7-43d25a5f376f" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>preinstall</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="system" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hU2EACgkQxnV5mk56UjGW3QCfXGNyr37kNC5YPCCnVmIu2iCPzh8AoKlUMkMr
+HVZrmKvxfvBcvg5ICkg5
+
+-->

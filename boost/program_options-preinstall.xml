@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/program_options-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.ProgramOptions (built state)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/program_options/</homepage>
+  <dc:author>Vladimir Prus</dc:author>
+  <description>The program_options library allows program
+    developers to obtain program options, that is (name, value)
+    pairs from the user, via conventional methods such as command
+    line and config file.</description>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="137f439d-dca2-448d-b604-9cfc3496ef2c" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+        <version not-before="0.8-pre-201205011504"/>
+        <arg>preinstall</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/program_options-src.xml">
+        <environment insert="." mode="replace" name="SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="program_options" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+        <environment insert="." mode="replace" name="BoostConfig_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+        <environment insert="." mode="replace" name="BoostCore_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+        <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+        <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+        <environment insert="." mode="replace" name="BoostUtility_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Bind-dev.xml">
+        <environment insert="." mode="replace" name="BoostBind_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+        <environment insert="." mode="replace" name="BoostException_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Any-dev.xml">
+        <environment insert="." mode="replace" name="BoostAny_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/Tokenizer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      </requires>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+hUzkACgkQxnV5mk56UjEctwCgkfYtR0L4I2P1UAj+GuqqAsQVum8AoKKXcvrH
+S2rHUA6hvaeh11wilKSX
+
+-->
