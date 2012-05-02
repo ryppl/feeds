@@ -12,7 +12,10 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
   <category>Development</category>
   <icon href="http://www.cmake.org/opensourcelogos/cmakelogo.png" type="image/png"/>
   <group arch="*-src" license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=b79bc9cdd991a96c0bf6fab32f16d5b6903a5bb2" released="2012-05-01" stability="developer" version="1.49-post-201205010343">
+    <implementation id="sha1new=6c55a2e89dd608eba57d69b05173807a154645e6" released="2012-05-02" stability="developer" version="1.49-post-201205021243">
+      <archive extract="ryppl-boost-zero-0383121" href="http://nodeload.github.com/ryppl/boost-zero/zipball/03831218f7aaeb5a6dc23a10e2010e247365d672" size="154595" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=b79bc9cdd991a96c0bf6fab32f16d5b6903a5bb2" released="2012-05-01" stability="buggy" version="1.49-post-201205010343">
       <archive extract="ryppl-boost-zero-fe1d37d" href="http://nodeload.github.com/ryppl/boost-zero/zipball/fe1d37d20f17f43e97660e6e22b111ba160f3522" size="155698" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=05987d2f061fff97441c66c23955baa83a757719" released="2012-04-29" stability="buggy" version="1.49-post-201204291730">
@@ -45,7 +48,7 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+fl5cACgkQxnV5mk56UjGCgwCfTHEsKGEdKMwtvnFV3tIB3l2t3eYAniFJtObK
-unvT0aTE/CA5QU6jOHnB
+iEYEABECAAYFAk+hZH8ACgkQxnV5mk56UjHiPgCfZ6IwbeJu6ER+KXlRXH0Lhb6I2TMAn1E+wquH
+jTJQGqUHrCC7ljcrVdma
 
 -->
