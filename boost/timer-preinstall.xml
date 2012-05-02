@@ -10,7 +10,7 @@
     classes.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7ee4f7d9-3c01-4e20-aeef-4607f0d0a869" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="0aa6c6d8-5d9c-472e-aaf2-d00be0e4464f" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -25,20 +25,20 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="timer" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Chrono-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono-dev.xml">
         <environment insert="." mode="replace" name="BoostChrono_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/system-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hUzgACgkQxnV5mk56UjG4RgCeNTAcYaRDKwHqyVhhAlXgsp5kmdEAoJoh6++d
-U1kuPyGvicFI/wQn9LQ9
+iEYEABECAAYFAk+hXoYACgkQxnV5mk56UjGzPACeO7r6w63UqQD2wJll81BKtqzvH4MAn088EU/V
+P4sP9lmRtdkM7ANNHMwE
 
 -->

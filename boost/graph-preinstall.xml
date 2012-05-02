@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d4c66655-0e62-4717-b00c-f896dc1cc7b2" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="47acad3e-ca2d-4cfc-82a4-6e0ed723fce2" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -30,23 +30,23 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="graph" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Serialization-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/serialization-dev.xml">
         <environment insert="." mode="replace" name="BoostSerialization_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/PropertyMap-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/property_map-dev.xml">
         <environment insert="." mode="replace" name="BoostPropertyMap_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/PropertyTree-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/property_tree-dev.xml">
         <environment insert="." mode="replace" name="BoostPropertyTree_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hUzkACgkQxnV5mk56UjFlRACfUO0693qSPrWekRaqBmilxhXumeUAn21mOYVd
-wGUqiaxQmhI/H8YwZjxH
+iEYEABECAAYFAk+hXocACgkQxnV5mk56UjEq+gCfa/kM9TJsbPqlfQ0bXbdDWFuJ0OQAn0/tneHI
+M3Eov85xU+vY3b27Db6R
 
 -->

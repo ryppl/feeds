@@ -11,7 +11,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7080981e-e9f4-426f-b332-488898338862" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="17af174a-dafa-43ea-913e-9a74383f4820" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -26,68 +26,68 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="mpi" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Core-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/core-dev.xml">
         <environment insert="." mode="replace" name="BoostCore_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPL-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/StaticAssert-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/static_assert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/TypeTraits-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Integer-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/integer-dev.xml">
         <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Iterator-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Optional-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/SmartPtr-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
         <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Exception-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Function-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Conversion-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/conversion-dev.xml">
         <environment insert="." mode="replace" name="BoostConversion_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Graph-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/graph-dev.xml">
         <environment insert="." mode="replace" name="BoostGraph_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Serialization-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/serialization-dev.xml">
         <environment insert="." mode="replace" name="BoostSerialization_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/PropertyMap-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/property_map-dev.xml">
         <environment insert="." mode="replace" name="BoostPropertyMap_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Python-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/python-dev.xml">
         <environment insert="." mode="replace" name="BoostPython_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/MPI-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/mpi-dev.xml">
         <environment insert="." mode="replace" name="MPI_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/PythonLibs-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/pythonlibs-dev.xml">
         <environment insert="." mode="replace" name="PythonLibs_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU0UACgkQxnV5mk56UjHtbQCghKoDaE4+rwGHtNLFLvMdwE9l8NEAoJpVVYLm
-5g8MqelVHGtVwcTfR2pb
+iEYEABECAAYFAk+hXpIACgkQxnV5mk56UjEcxACeK02nlyJ86R5ahke1zAnsTnc7ER0An0bGTcA6
+MQGc7jlCtOp0+S/TOlXu
 
 -->

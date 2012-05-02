@@ -11,7 +11,7 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7330a5bd-737c-4a9f-9322-025b57e00f44" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="e07fb507-0138-445d-8906-6954201a970c" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -26,14 +26,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="serialization" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hUzcACgkQxnV5mk56UjFkyQCfWpoytwnC6IC5aAyQaJZVHMwwA00AnRCzRQ/+
-JjqOzjWzD90IprUtookA
+iEYEABECAAYFAk+hXoYACgkQxnV5mk56UjELpACfWtYXN+2g4UHgi/tmujxKMBVRfPMAnRVSFC40
+qJOh6sxIM7Gjmrx/hliy
 
 -->

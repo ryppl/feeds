@@ -10,7 +10,7 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f1024285-b8ac-4525-83e3-fea6006d1910" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="58fea925-f86d-483a-beb8-26dd00d27eee" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -25,14 +25,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="random" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU1gACgkQxnV5mk56UjGAjwCeNiauGChlvEqWpnjQjqzo2mlnhw4AnjMq+mD0
-U6mYIQd0nIt/C5fxqCOj
+iEYEABECAAYFAk+hXqMACgkQxnV5mk56UjHZYgCfckcWO+WryaQYOC8C30J9728W+0MAn2qIOo8I
+0jCtx1ZbHNN8DlWQugI4
 
 -->

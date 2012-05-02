@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fbcd39e4-555a-4a46-9cfd-e9f2dd91ab52" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="ec6f0c53-d37e-4f00-a38c-98f147a10e4d" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -25,26 +25,26 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="thread" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Chrono-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono-dev.xml">
         <environment insert="." mode="replace" name="BoostChrono_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/system-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/DateTime-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/date_time-dev.xml">
         <environment insert="." mode="replace" name="BoostDateTime_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/Threads-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/threads-dev.xml">
         <environment insert="." mode="replace" name="Threads_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU1sACgkQxnV5mk56UjEBzgCgo5ZAY0TTfEmBzWqEuMHwc81SKkgAnitiE6rT
-8aAqTF6wmD5wV3/LtEWc
+iEYEABECAAYFAk+hXqYACgkQxnV5mk56UjEyTgCgh/fAIsa1IIhpEs90TBkM7Xf2cO8AoICa8z8c
+chFmGqA32d7QdXB/FpSQ
 
 -->

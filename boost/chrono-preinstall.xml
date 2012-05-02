@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d0398e1c-68b4-4ccc-8de5-4303cfa4bee0" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="4e921473-d87a-49c2-917c-e2b7b3ba62d5" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -25,20 +25,20 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="chrono" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/system-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Ratio-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/ratio-dev.xml">
         <environment insert="." mode="replace" name="BoostRatio_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU0gACgkQxnV5mk56UjFfGACfTjRaVpIH04LjjsPRTZRITspMbgoAoJf8KkYe
-LaQZ9u5AcOjJZTr+753p
+iEYEABECAAYFAk+hXpUACgkQxnV5mk56UjGFuACfRgjQPvNqeJU8k/wr1Ep2ATqe570AoKKD5UrU
+qvm1DbiySaE2ksOf15oZ
 
 -->

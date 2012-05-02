@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6b1d47f3-bfbe-4da2-999f-7f2b8fe7da81" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="9d62d070-979c-42fa-b47f-17dea5c78b41" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -24,17 +24,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="regex" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/ICU-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hUz4ACgkQxnV5mk56UjEOnwCggkz6NX0PeI6NVZx8bhHTmRoHJJYAnizAfmfx
-2WGdWozefYKsMpCOzZNx
+iEYEABECAAYFAk+hXowACgkQxnV5mk56UjHbXgCdE4k2bQW3UJtwLMjQDnNtrsxhfnQAn0uHAx7l
+dFD+/65yUTSFsf2+s5y7
 
 -->

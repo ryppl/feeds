@@ -11,7 +11,7 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0b00a169-3efa-4485-906c-349ae2ecb2b4" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="83aab9a6-d94b-40af-8d38-4fe5565f93f2" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -26,14 +26,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="filesystem" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/System-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/system-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU1UACgkQxnV5mk56UjHXCwCcCM3OO9wBFdBQBZ0WciDEpqV4VrIAn1Z3E5/Q
-zSQ7JsbCkBu7s7/IdWur
+iEYEABECAAYFAk+hXqAACgkQxnV5mk56UjEBTACdEIqL3TkFPypGQ6jBSO1sICP3J3wAnA4Dpsn4
+NW5kd+K143HfWwvpuEZ2
 
 -->

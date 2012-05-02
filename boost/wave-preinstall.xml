@@ -12,7 +12,7 @@
     iterator interface.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b3584f46-6c54-44ab-8e57-ee4ee3dde9ed" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="5db93033-5902-4e8d-a41a-79704df90ef2" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -27,17 +27,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="wave" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Thread-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/thread-dev.xml">
         <environment insert="." mode="replace" name="BoostThread_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU0IACgkQxnV5mk56UjGlCACfXuN6iVdwdWi3F4TFOUTuSw5gYTkAnAvU+UyS
-IUGmD5Mej+kKwfj9Zz7n
+iEYEABECAAYFAk+hXpAACgkQxnV5mk56UjG2UQCgh6A6TTlwguJ7RNwliwMVohqyQDwAn1CPhAJE
+2xoKNtpzHNt5f57C55UJ
 
 -->

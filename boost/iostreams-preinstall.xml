@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fb878b19-2aec-4303-96c4-f5fad2b435ab" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="bb038f77-b7e9-4bae-aeb3-971db46a20ce" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -26,20 +26,20 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="iostreams" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/BZip2-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml">
         <environment insert="." mode="replace" name="BZip2_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/ZLIB-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/zlib-dev.xml">
         <environment insert="." mode="replace" name="ZLIB_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hUzoACgkQxnV5mk56UjFhTQCfeS4jWvLW0wqfmF9usnwHAQeT+BUAn1mCMkFZ
-kjfyRm9PE17L8wNQviAC
+iEYEABECAAYFAk+hXogACgkQxnV5mk56UjGe2QCglPzDMjj9M02kV/BtNlEXVSgKYScAoIzvKQwo
+dsgR009ulGKlxZ6y3Wq4
 
 -->

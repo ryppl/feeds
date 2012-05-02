@@ -10,7 +10,7 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="47d288b8-c33b-4389-a0e7-43d25a5f376f" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="88cb3b7e-9860-4944-837e-6b92d21c2f30" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -25,14 +25,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="system" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU2EACgkQxnV5mk56UjGW3QCfXGNyr37kNC5YPCCnVmIu2iCPzh8AoKlUMkMr
-HVZrmKvxfvBcvg5ICkg5
+iEYEABECAAYFAk+hXqoACgkQxnV5mk56UjHAQACgmutp5ppAh4iJ/V65gtuevNhzAQcAoJGdJD/r
+4iLenmCDG7rmigED/90c
 
 -->

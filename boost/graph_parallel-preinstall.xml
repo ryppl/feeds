@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b4c54332-8680-4558-af24-0f096a2092b2" released="2012-05-02" stability="testing" version="1.49-post-201205021531">
+    <implementation arch="*-src" id="f9965df1-e5c1-45f9-8c09-f08471d9a8fc" released="2012-05-02" stability="testing" version="1.49-post-201205021619">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -25,23 +25,23 @@
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="graph_parallel" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Utility-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/Graph-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/graph-dev.xml">
         <environment insert="." mode="replace" name="BoostGraph_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/MPI-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/mpi-dev.xml">
         <environment insert="." mode="replace" name="BoostMPI_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/MPI-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/mpi-dev.xml">
         <environment insert="." mode="replace" name="MPI_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hU04ACgkQxnV5mk56UjGRoACePnzZhNnNo+s4bY/8zETS6OaZPhgAn1VNbxH0
-gs9SjFVkVI8je6HVwnvH
+iEYEABECAAYFAk+hXpoACgkQxnV5mk56UjHVJACfWivJWPZ5yADRRFdchCOYQmKKnEkAoJVE1y5E
+1JqJWZylwCdy7fkUPpGy
 
 -->
