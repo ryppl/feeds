@@ -10,7 +10,10 @@ Supplies the files needed to support Ryppl projects' use of CMake</description>
   <icon href="http://ryppl.github.com/_static/ryppl.png" type="image/png"/>
   <!-- The oddball ID is just to have something unique from other feeds using the same archive -->
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=f22f2d2495f6f407999ce90cb8c1528b4ca6d9f7" released="2012-04-29" stability="developer" version="0.8-pre-201204291344">
+    <implementation id="sha1new=c2fbe4b6d758fbd94a30e9a13dbc669b940974b8" released="2012-05-02" stability="developer" version="0.8-pre-201205021248">
+      <archive extract="ryppl-ryppl-cmake-2b9e809" href="http://nodeload.github.com/ryppl/ryppl-cmake/zipball/2b9e8091ca78d7dd7684a9475c80d5eb755127d9" size="48895" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=f22f2d2495f6f407999ce90cb8c1528b4ca6d9f7" released="2012-04-29" stability="buggy" version="0.8-pre-201204291344">
       <archive extract="ryppl-ryppl-cmake-a9dde90" href="http://nodeload.github.com/ryppl/ryppl-cmake/zipball/a9dde908c9ab28d3c19206dd08c8434cf4072a70" size="41510" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=fc3e17ab80c3243617cde24b4038208c3c250556" released="2012-04-28" stability="buggy" version="0.8-pre-201204281532">
@@ -22,7 +25,7 @@ Supplies the files needed to support Ryppl projects' use of CMake</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+dfiAACgkQxnV5mk56UjHxowCfR50iGdxek4skl3VE0+j6viVMwZcAnRKfYbOe
-a7dhom999PdzniYcQEH9
+iEYEABECAAYFAk+hZYAACgkQxnV5mk56UjHaugCdH/IKLPXsw+zcyBzquFOp6lcgMAoAn0uxBeKP
+5I59PmeBeKeoLAXAgHcT
 
 -->
