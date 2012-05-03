@@ -10,7 +10,7 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="aa45d30b-828b-45db-b01c-ae99e94f7256" released="2012-05-03" stability="testing" version="1.49-post-201205032130">
+    <implementation arch="*-src" id="1054ce35-30bf-4f67-86fc-297a2841087d" released="2012-05-03" stability="testing" version="1.49-post-201205032202">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -31,8 +31,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/interprocess-dev.xml">
         <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml">
+        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
@@ -70,6 +79,12 @@
       <requires interface="http://ryppl.github.com/feeds/boost/rational-dev.xml">
         <environment insert="." mode="replace" name="BoostRational_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/tuple-dev.xml">
+        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
         <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
@@ -83,7 +98,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+i+QgACgkQxnV5mk56UjFXVACfSNOSrALmoMN2VNUHpVDI5nSEu0sAn1NxZfNs
-xzini8i7AeC00uJmbx6Y
+iEYEABECAAYFAk+jAH0ACgkQxnV5mk56UjHCfQCeI0YlVUvUrWd0uYin67+FRquYGxMAn2rABVpV
+CJDikjlLTOR+WDSpPlyc
 
 -->

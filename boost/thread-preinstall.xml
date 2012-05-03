@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8dd261eb-5c92-47cc-91ac-301e37c7732c" released="2012-05-03" stability="testing" version="1.49-post-201205032130">
+    <implementation arch="*-src" id="4c8e80e8-fa8e-4c34-9293-d792802b719a" released="2012-05-03" stability="testing" version="1.49-post-201205032202">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -34,6 +34,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/conversion-dev.xml">
         <environment insert="." mode="replace" name="BoostConversion_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/interprocess-dev.xml">
         <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
       </requires>
@@ -42,6 +45,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/io-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml">
+        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
@@ -85,6 +91,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/rational-dev.xml">
         <environment insert="." mode="replace" name="BoostRational_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/tuple-dev.xml">
+        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/threads-dev.xml">
         <environment insert="." mode="replace" name="Threads_DIR"/>
       </requires>
@@ -104,7 +113,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+i+QkACgkQxnV5mk56UjGWOgCeLN9VoZ6I1mE1bMmZbGahQV5IbFkAn2cj3amT
-sphlALMDw3UwJ8Si9Lrf
+iEYEABECAAYFAk+jAH8ACgkQxnV5mk56UjGAZwCfTwnbWkayPza7g3CoWgY0UWFLDc0AnRse0vFJ
+seTXtsHp8co0GEzU8r9S
 
 -->

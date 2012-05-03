@@ -12,7 +12,7 @@
     iterator interface.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="32d9c297-fc1c-4c1e-8301-17323ae7e7da" released="2012-05-03" stability="testing" version="1.49-post-201205032130">
+    <implementation arch="*-src" id="d8a71c10-6f72-4231-bb1a-d34425c53829" released="2012-05-03" stability="testing" version="1.49-post-201205032202">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -33,17 +33,23 @@
       <requires interface="http://ryppl.github.com/feeds/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/conversion-dev.xml">
-        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/tokenizer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
+        <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/interprocess-dev.xml">
         <environment insert="." mode="replace" name="BoostInterprocess_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
-        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
+        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/io-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml">
+        <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
@@ -87,14 +93,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/rational-dev.xml">
         <environment insert="." mode="replace" name="BoostRational_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/tuple-dev.xml">
+        <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/threads-dev.xml">
         <environment insert="." mode="replace" name="Threads_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/tokenizer-dev.xml">
-        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostConversion_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
-        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/thread-dev.xml">
         <environment insert="." mode="replace" name="BoostThread_DIR"/>
@@ -109,7 +118,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+i+O8ACgkQxnV5mk56UjEsUwCfQKs5lb0CyE0roDyQyfjBtB5hvtQAnRu6vknf
-b+9f/nagEEhPryYfv9Ac
+iEYEABECAAYFAk+jAGcACgkQxnV5mk56UjG3+QCgqGMt4/wnWoBIXOO8bXY33pOtfjEAniqIg/0P
+67z72Dv229F4//9L+8kO
 
 -->
