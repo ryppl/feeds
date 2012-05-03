@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/threads.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>threads-dev</name>
+  <summary>Your platform's native threading support</summary>
+  <description>
+</description>
+  <category>System</category>
+  <implementation id="sha1new=da39a3ee5e6b4b0d3255bfef95601890afd80709" license="WTFPL" released="2012-05-03" stability="testing" version="0.1">
+    <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+iD3MACgkQxnV5mk56UjHzgQCdGD0FaNBtb2CLJ6NwkouJ1lEArNgAoJqY+zK9
+UYRdKhxFJncsKrbW2Ixd
+
+-->
