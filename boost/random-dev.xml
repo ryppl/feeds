@@ -10,7 +10,7 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="977f1356-87b1-4617-8893-e7829aedcf70" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
+    <implementation arch="*-src" id="b3dc9679-e918-449e-b066-d063837fda9d" released="2012-05-03" stability="testing" version="1.49-post-201205030432">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -20,14 +20,14 @@
         <arg>dev</arg>
         <arg>BoostRandom</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/random-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono-date_time-math-random-regex-system-thread-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+iB6UACgkQxnV5mk56UjHEXQCSAqZxFrbAVqOnvmO/A6u1uTN0+QCgkZpLm7jn
-b1ouOLu8QH/C32E2clY=
+iEYEABECAAYFAk+iCnQACgkQxnV5mk56UjEW5wCggfLiyO0EuHUqTq3qANNO7m2JkwIAn1VCh6/m
+h7WwGusszjw1VXX0BFM5
 
 -->

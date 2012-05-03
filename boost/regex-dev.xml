@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9c312731-5582-4ab3-81b8-099949cd93e1" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
+    <implementation arch="*-src" id="7368d8d0-6109-4f3d-baa8-9ab5a1a05b5a" released="2012-05-03" stability="testing" version="1.49-post-201205030432">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -19,14 +19,14 @@
         <arg>dev</arg>
         <arg>BoostRegex</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono-date_time-math-random-regex-system-thread-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+iB4cACgkQxnV5mk56UjHBHwCfadFfFbaocaL24pY6p6mU/OqCLeoAoKDqTL74
-ZjIZBE9hbyrb681If+t3
+iEYEABECAAYFAk+iClgACgkQxnV5mk56UjHgegCghuNwl12L0TPHGuiNqSwyBM4uNiYAnjWVppq8
+g2NQlIVCLd1QYTvOQwVw
 
 -->
