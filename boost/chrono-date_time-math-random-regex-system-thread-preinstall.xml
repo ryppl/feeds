@@ -5,7 +5,7 @@
   <summary>evil build dependency cluster</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="55125f60-abf7-4039-a82a-1bf7d5796c97" released="2012-05-03" stability="testing" version="1.49-post-201205030432">
+    <implementation arch="*-src" id="0771b27e-9682-43e1-94d1-6ce1594b89c2" released="2012-05-03" stability="testing" version="1.49-post-201205030525">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -69,14 +69,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/random-dev.xml">
-        <environment insert="." mode="replace" name="BoostRandom_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
@@ -153,17 +147,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/io-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/date_time-dev.xml">
-        <environment insert="." mode="replace" name="BoostDateTime_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/typeof-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/thread-dev.xml">
-        <environment insert="." mode="replace" name="BoostThread_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
@@ -177,14 +165,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/spirit-dev.xml">
         <environment insert="." mode="replace" name="BoostSpirit_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
-        <environment insert="." mode="replace" name="BoostContainer_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/core-dev.xml">
         <environment insert="." mode="replace" name="BoostCore_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/system-dev.xml">
-        <environment insert="." mode="replace" name="BoostSystem_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
+        <environment insert="." mode="replace" name="BoostContainer_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/accumulators-dev.xml">
         <environment insert="." mode="replace" name="BoostAccumulators_DIR"/>
@@ -201,12 +186,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml">
         <environment insert="." mode="replace" name="BoostPtrContainer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/chrono-dev.xml">
-        <environment insert="." mode="replace" name="BoostChrono_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/static_assert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
@@ -217,7 +196,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+iClAACgkQxnV5mk56UjF9wgCfQGuFtgXvC1Fz+ei/F8iCUbc/b00An0b79mBh
-mKDk635CmibkqIg3cUqx
+iEYEABECAAYFAk+iFrkACgkQxnV5mk56UjEqMwCfWbPILCq04RytnBgBu1j17NRGh5MAnjF1yb3Z
+GgrYPiNV3H2pqwPdTilz
 
 -->
