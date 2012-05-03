@@ -5,7 +5,7 @@
   <summary>evil build dependency cluster</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0771b27e-9682-43e1-94d1-6ce1594b89c2" released="2012-05-03" stability="testing" version="1.49-post-201205030525">
+    <implementation arch="*-src" id="d68cdafe-aa2d-4e42-8e5e-5da33e4cdef7" released="2012-05-03" stability="testing" version="1.49-post-201205030714">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -13,13 +13,13 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>cluster</arg>
-        <arg>BoostChrono</arg>
-        <arg>BoostDateTime</arg>
-        <arg>BoostMath</arg>
-        <arg>BoostRandom</arg>
-        <arg>BoostRegex</arg>
-        <arg>BoostSystem</arg>
-        <arg>BoostThread</arg>
+        <arg>BoostChrono=chrono</arg>
+        <arg>BoostDateTime=date_time</arg>
+        <arg>BoostMath=math</arg>
+        <arg>BoostRandom=random</arg>
+        <arg>BoostRegex=regex</arg>
+        <arg>BoostSystem=system</arg>
+        <arg>BoostThread=thread</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml">
         <environment insert="." mode="replace" name="BoostChrono_SRCDIR"/>
@@ -196,7 +196,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+iFrkACgkQxnV5mk56UjEqMwCfWbPILCq04RytnBgBu1j17NRGh5MAnjF1yb3Z
-GgrYPiNV3H2pqwPdTilz
+iEYEABECAAYFAk+iMFoACgkQxnV5mk56UjGjQgCfTb+HpHQxgtEwXbF0QiU1IFfhVu8Amwf7wS/F
+jVTvXrftUS0xtcmXZF72
 
 -->
