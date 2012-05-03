@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="174cf3e6-1d90-4621-9522-f6ac62f19f4e" released="2012-05-03" stability="testing" version="1.49-post-201205030714">
+    <implementation arch="*-src" id="b57bbf81-5b68-418f-8049-aab321407b81" released="2012-05-03" stability="testing" version="1.49-post-201205032130">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -18,16 +18,15 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
-        <arg>BoostThread</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/chrono-date_time-math-random-regex-system-thread-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/thread-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+iMH8ACgkQxnV5mk56UjGJqwCfY6sm0LRSyDq8OxJjBmVu70LzLK0An16oxNii
-23HExc29XhD3Hf2WTe2z
+iEYEABECAAYFAk+i+QoACgkQxnV5mk56UjE2EACeOxXYPx/ULfx7BohiWzGXeQv2QMcAoIfj0uhs
+4tb0WSAAX5fF66C4FtqP
 
 -->

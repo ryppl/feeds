@@ -10,7 +10,7 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ad47429a-f212-4d95-b5c0-4f7f78c79e01" released="2012-05-03" stability="testing" version="1.49-post-201205030714">
+    <implementation arch="*-src" id="c4231759-619e-4fd7-a122-c6eb69a0a5a0" released="2012-05-03" stability="testing" version="1.49-post-201205032130">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -18,16 +18,15 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
-        <arg>BoostSystem</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/chrono-date_time-math-random-regex-system-thread-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/system-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+iMIMACgkQxnV5mk56UjE5zQCfZSzbv8lRIrLzs6uruSJm58nERXYAn3Et05YX
-/MnaLABbieyZMXoSAPbR
+iEYEABECAAYFAk+i+Q4ACgkQxnV5mk56UjHpCwCeMH7AbZvwcZGRREmsAlptudQr1msAnR5tRByI
+fUbH8mxuq3bOajfof0H+
 
 -->
