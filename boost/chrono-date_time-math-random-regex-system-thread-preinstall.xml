@@ -1,29 +1,46 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/timer-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>Boost.Timer (built state)</name>
+<interface uri="http://ryppl.github.com/feeds/boost/chrono-date_time-math-random-regex-system-thread-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostChrono, BoostDateTime, BoostMath, BoostRandom, BoostRegex, BoostSystem, BoostThread (built state)</name>
+  <summary>evil build dependency cluster</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A C++ library from Boost.org</summary>
-  <homepage>http://www.boost.org/libs/timer/</homepage>
-  <dc:author>Beman Dawes</dc:author>
-  <description>Event timer, progress timer, and progress display
-    classes.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="198a078b-fca4-45da-b65e-20ac5a8ea1ea" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
+    <implementation arch="*-src" id="297c8468-2a69-4394-b564-e837114b90da" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
-        <arg>preinstall</arg>
+        <arg>cluster</arg>
+        <arg>BoostChrono</arg>
+        <arg>BoostDateTime</arg>
+        <arg>BoostMath</arg>
+        <arg>BoostRandom</arg>
+        <arg>BoostRegex</arg>
+        <arg>BoostSystem</arg>
+        <arg>BoostThread</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/timer-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml">
+        <environment insert="." mode="replace" name="BoostChrono_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="timer" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml">
+        <environment insert="." mode="replace" name="BoostDateTime_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml">
+        <environment insert="." mode="replace" name="BoostMath_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random-src.xml">
+        <environment insert="." mode="replace" name="BoostRandom_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml">
+        <environment insert="." mode="replace" name="BoostRegex_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml">
+        <environment insert="." mode="replace" name="BoostSystem_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/thread-src.xml">
+        <environment insert="." mode="replace" name="BoostThread_SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
@@ -34,8 +51,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/functional-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/io-dev.xml">
-        <environment insert="." mode="replace" name="BoostIO_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/lambda-dev.xml">
         <environment insert="." mode="replace" name="BoostLambda_DIR"/>
@@ -79,8 +96,14 @@
       <requires interface="http://ryppl.github.com/feeds/boost/move-dev.xml">
         <environment insert="." mode="replace" name="BoostMove_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/tokenizer-dev.xml">
+        <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/tuple-dev.xml">
         <environment insert="." mode="replace" name="BoostTuple_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/threads-dev.xml">
+        <environment insert="." mode="replace" name="Threads_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
         <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
@@ -124,11 +147,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
+        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/io-dev.xml">
+        <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/date_time-dev.xml">
         <environment insert="." mode="replace" name="BoostDateTime_DIR"/>
@@ -141,6 +164,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/thread-dev.xml">
         <environment insert="." mode="replace" name="BoostThread_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
+        <environment insert="." mode="replace" name="ICU_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
@@ -175,8 +201,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml">
         <environment insert="." mode="replace" name="BoostPtrContainer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
-        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
+        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/chrono-dev.xml">
         <environment insert="." mode="replace" name="BoostChrono_DIR"/>
@@ -185,10 +211,13 @@
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
     </command>
+    <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <environment insert="." mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+    </requires>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+iB4EACgkQxnV5mk56UjFopACeMmUXsVjrJ7HkJqmhRAxX/hbGLccAn2XVew78
-F3Ril8WJzZwJOfV8EoQn
+iEYEABECAAYFAk+iB4AACgkQxnV5mk56UjEU7wCcDAtVa5VvBAFELyq46su5jnQYT08AoIzHlfPD
+PqQWBWVEqMo14sN5YCkF
 
 -->

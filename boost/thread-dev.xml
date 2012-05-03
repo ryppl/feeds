@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c85e515d-dab7-4ea9-88e8-b2412cc0369d" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
+    <implementation arch="*-src" id="2aa589c8-0b19-4574-b5bf-56253d08b5f4" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -18,6 +18,7 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostThread</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/thread-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hm2MACgkQxnV5mk56UjHgdwCeMUaWg/T3SkzWucynZVc46gbAQnsAnRg0ypwP
-gWH3ply89aGAQ+RPMbV8
+iEYEABECAAYFAk+iB6gACgkQxnV5mk56UjHyHwCeLmvW7KB5hZ96EfrxEB99PTSt41wAnR/fAnHe
+iN4rL0ickiuZLKjFLloU
 
 -->

@@ -43,7 +43,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cdf1f589-4ccf-48f5-8ff8-9862e444710d" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
+    <implementation arch="*-src" id="57384902-9438-4cab-9e2a-3a5c4a68a50e" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -51,6 +51,7 @@ A wide selection of univariate statistical distributions and
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostMath</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/math-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
@@ -59,7 +60,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hm0MACgkQxnV5mk56UjG35ACgip98dlB1s6n9soVSzQwM186fUO4An11lAG54
-feFl0DCejRrJkuWnxiHU
+iEYEABECAAYFAk+iB4wACgkQxnV5mk56UjFzOQCfSHD1dFSQSqBNeVO4SuGhkT0/zYMAn3K6/NUN
+gaaOTMo4Hk1ftjsARj4z
 
 -->

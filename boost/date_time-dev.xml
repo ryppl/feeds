@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bef1fcfe-f225-481b-b001-5a2bbff01aec" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
+    <implementation arch="*-src" id="f3ea9cba-f4af-458c-8e26-24f93599cf18" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -19,6 +19,7 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostDateTime</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/date_time-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
@@ -27,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hmz0ACgkQxnV5mk56UjEZTACdFv8jFwskM3LGGOCxUl2zkjzbI+MAnjJD551j
-VAxt1f3dZpgrgyzd7QiC
+iEYEABECAAYFAk+iB4gACgkQxnV5mk56UjHILwCdGFtb6e/Fo+aHJDh5iaSVTbEEEjsAn3cXOPQq
+XqvrKdYwRFS9ztSZOBCP
 
 -->

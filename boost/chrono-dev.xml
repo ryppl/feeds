@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c81d7cff-faa5-42d4-96d8-8a2ce9f8a3a8" released="2012-05-02" stability="testing" version="1.49-post-201205022038">
+    <implementation arch="*-src" id="39e4f26a-2fac-402c-ba0c-c3929d75d632" released="2012-05-03" stability="testing" version="1.49-post-201205030420">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -18,6 +18,7 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostChrono</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/chrono-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+hm0oACgkQxnV5mk56UjGHwgCgktTlHRRx1Ck9qv0RYJ/BLVi0ESkAnRUPadmn
-7TDP6+rYQkvdrrz36MJG
+iEYEABECAAYFAk+iB5UACgkQxnV5mk56UjGu5gCfQyFPhykXvEqsVxu5/Fc/SltulXYAn10TMXzN
+U9M1GfpiR0ZUZf0MKInI
 
 -->
