@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2129e6e5-151e-4fda-a51a-3b5b1315b025" released="2012-05-03" stability="testing" version="1.49-post-201205040020">
+    <implementation arch="*-src" id="2852a91d-92f0-47f5-803b-06dfb8c87f61" released="2012-05-03" stability="testing" version="1.49-post-201205040243">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -17,15 +17,16 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostRegex</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+jIMcACgkQxnV5mk56UjEOpgCdHKDHM8j6P/3K2VzzT57KfPamtHMAn1rnuxY6
-cbBpKArAlVKS3r8odKMk
+iEYEABECAAYFAk+jQlwACgkQxnV5mk56UjE6CACeLNpZqNJqnxR/5SUY1hQq4S/9B+QAn1lOO5hn
+qUaq7uTduxI4iyJ69Qk5
 
 -->

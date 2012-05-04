@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cf129290-1349-4a33-8a2c-304d64f57b16" released="2012-05-03" stability="testing" version="1.49-post-201205040020">
+    <implementation arch="*-src" id="8fc91e13-b5d0-4c4b-92ae-b9fec3fdbba0" released="2012-05-03" stability="testing" version="1.49-post-201205040243">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -19,15 +19,16 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostIOStreams</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+jIMEACgkQxnV5mk56UjGW/gCeJ7NBh4KWLWW6BIfZAtpJethDn6sAn2KPUsqW
-FqIZzi340SwZ7wsKKc+H
+iEYEABECAAYFAk+jQlkACgkQxnV5mk56UjG1GgCfX2K3LMeUUwNC75dQycExeuLeb/cAnimjrwoQ
+VYHTZvITVbMYTorfdR/f
 
 -->

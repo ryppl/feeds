@@ -1,33 +1,37 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/signals-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <name>Boost.Signals (built state)</name>
+<interface uri="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>BoostIOStreams, BoostMath, BoostRandom, BoostRegex (built state)</name>
+  <summary>evil build dependency cluster</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <summary>A C++ library from Boost.org</summary>
-  <homepage>http://www.boost.org/libs/signals/</homepage>
-  <dc:author>Doug Gregor</dc:author>
-  <description>Managed signals &amp; slots callback
-    implementation.</description>
-  <category type="http://boost.org/lib-categories">Patterns</category>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6f903812-0441-420c-8035-3e9961d5e944" released="2012-05-03" stability="testing" version="1.49-post-201205040243">
+    <implementation arch="*-src" id="65fcda1b-331d-44d3-996f-ddfb26356cae" released="2012-05-03" stability="testing" version="1.49-post-201205040243">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
-        <arg>preinstall</arg>
+        <arg>cluster</arg>
+        <arg>BoostIOStreams=iostreams</arg>
+        <arg>BoostMath=math</arg>
+        <arg>BoostRandom=random</arg>
+        <arg>BoostRegex=regex</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/signals-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-src.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="signals" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml">
+        <environment insert="." mode="replace" name="BoostMath_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-dev.xml">
-        <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/random-src.xml">
+        <environment insert="." mode="replace" name="BoostRandom_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml">
+        <environment insert="." mode="replace" name="BoostRegex_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/zlib-dev.xml">
+        <environment insert="." mode="replace" name="ZLIB_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
@@ -59,14 +63,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/random-dev.xml">
-        <environment insert="." mode="replace" name="BoostRandom_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-dev.xml">
-        <environment insert="." mode="replace" name="BoostMath_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
@@ -77,14 +75,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/range-dev.xml">
         <environment insert="." mode="replace" name="BoostRange_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/zlib-dev.xml">
-        <environment insert="." mode="replace" name="ZLIB_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-dev.xml">
+        <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/rational-dev.xml">
-        <environment insert="." mode="replace" name="BoostRational_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-dev.xml">
-        <environment insert="." mode="replace" name="BoostIOStreams_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/fusion-dev.xml">
+        <environment insert="." mode="replace" name="BoostFusion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/move-dev.xml">
         <environment insert="." mode="replace" name="BoostMove_DIR"/>
@@ -95,8 +90,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/phoenix-dev.xml">
         <environment insert="." mode="replace" name="BoostPhoenix_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
-        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
+        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/units-dev.xml">
         <environment insert="." mode="replace" name="BoostUnits_DIR"/>
@@ -116,8 +111,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
-        <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
+        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
@@ -155,9 +150,6 @@
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/any-dev.xml">
-        <environment insert="." mode="replace" name="BoostAny_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml">
         <environment insert="." mode="replace" name="BZip2_DIR"/>
       </requires>
@@ -173,8 +165,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
         <environment insert="." mode="replace" name="BoostContainer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/fusion-dev.xml">
-        <environment insert="." mode="replace" name="BoostFusion_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/rational-dev.xml">
+        <environment insert="." mode="replace" name="BoostRational_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/concept_check-dev.xml">
         <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
@@ -185,9 +177,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml">
         <environment insert="." mode="replace" name="BoostPtrContainer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/static_assert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
@@ -195,10 +184,13 @@
         <environment insert="." mode="replace" name="BoostLogic_DIR"/>
       </requires>
     </command>
+    <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <environment insert="." mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+    </requires>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+jQo0ACgkQxnV5mk56UjFgEACeI7g0FcwUyTMozeH7SeAzvCRm9VoAnAqr4n+t
-kQWW+9DMa/ZuW4f6LARl
+iEYEABECAAYFAk+jQlQACgkQxnV5mk56UjEfKQCeKW+ljuKPli/UU7rDdTUFbwnwkmEAnR+ciT42
+lGQPC7Sxw1AqqE7q3gmr
 
 -->

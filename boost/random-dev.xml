@@ -10,7 +10,7 @@
     generation.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7702b1b2-95ea-4fa0-a82c-6f9ec02d7413" released="2012-05-03" stability="testing" version="1.49-post-201205040020">
+    <implementation arch="*-src" id="d6c63da0-381d-40c9-b710-3700e28ab056" released="2012-05-03" stability="testing" version="1.49-post-201205040243">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -18,15 +18,16 @@
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <version not-before="0.8-pre-201205011504"/>
         <arg>dev</arg>
+        <arg>BoostRandom</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/random-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml">
         <environment insert="." mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+jIP8ACgkQxnV5mk56UjHUjQCeLtOJiDMDMvx8c/ahZ9XNs6SHsjwAnA3Jkydj
-x/5IGwBjiHHFR30HbbzA
+iEYEABECAAYFAk+jQoUACgkQxnV5mk56UjGiAACfcNnX9yVEiTGnHPOtzbxBtp/QlqMAoIxZm5rp
+F+eYPf6VSfRlRVNmmj/P
 
 -->
