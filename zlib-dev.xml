@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>zlib-dev</name>
+  <summary>A Massively Spiffy Yet Delicately Unobtrusive Compression Library</summary>
+  <description>
+zlib is designed to be a free, general-purpose, legally unencumbered -- that is,
+not covered by any patents -- lossless data-compression library for use on
+virtually any computer hardware and operating system. The zlib data format is
+itself portable across platforms. Unlike the LZW compression method used in Unix
+compress(1) and in the GIF image format, the compression method currently used
+in zlib essentially never expands the data. (LZW can double or triple the file
+size in extreme cases.) zlib's memory footprint is also independent of the input
+data and can be reduced, if necessary, at some cost in compression. A more
+precise, technical discussion of both points is available on another page.
+
+zlib was written by Jean-loup Gailly (compression) and Mark Adler
+(decompression). Jean-loup is also the primary author/maintainer of gzip(1), the
+author of the comp.compression FAQ list and the former maintainer of Info-ZIP's
+Zip; Mark is also the author of gzip's and UnZip's main decompression routines
+and was the original author of Zip. Not surprisingly, the compression algorithm
+used in zlib is essentially the same as that in gzip and Zip, namely, the
+`deflate' method that originated in PKWARE's PKZIP 2.x.
+
+The lovely zlib-vise image above was provided courtesy of Bruce Gardner, art
+director of Dr. Dobb's Journal. It appears in Mark Nelson's article in the
+January 1997 issue (see below).</description>
+  <homepage>http://zlib.net</homepage>
+  <category>Development</category>
+  <icon href="http://www.zlib.net/images/zlib_ddj.png" type="image/png"/>
+  <implementation arch="*-src" compile:command="chmod -R +w . &amp;&amp; ./configure --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="sha1new=5e54f57d0ed5fc84307e03b86030bb9451b0a9a1" license="  Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler    This software is provided 'as-is', without any express or implied   warranty.  In no event will the authors be held liable for any damages   arising from the use of this software.    Permission is granted to anyone to use this software for any purpose,   including commercial applications, and to alter it and redistribute it   freely, subject to the following restrictions:    1. The origin of this software must not be misrepresented; you must not      claim that you wrote the original software. If you use this software      in a product, an acknowledgment in the product documentation would be      appreciated but is not required.   2. Altered source versions must be plainly marked as such, and must not be      misrepresented as being the original software.   3. This notice may not be removed or altered from any source distribution.    Jean-loup Gailly        Mark Adler   jloup@gzip.org          madler@alumni.caltech.edu " released="2012-05-03" stability="testing" version="1.2.7">
+    <archive extract="zlib-1.2.7" href="http://zlib.net/zlib127.zip" size="674290" type="application/zip"/>
+  </implementation>
+  <package-implementation distributions="Debian" package="zlib1g-dev"/>
+  <package-implementation distributions="RPM" package="zlib-devel"/>
+  <package-implementation distributions="Cygwin" package="zlib-dev"/>
+  <package-implementation distributions="Ports" package="zlib"/>
+  <package-implementation distributions="MacPorts" package="zlib"/>
+</interface>
