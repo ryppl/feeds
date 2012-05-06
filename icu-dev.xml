@@ -52,7 +52,7 @@ And much more. Refer to the ICU User Guide for details.</description>
   <category>Development</category>
   <group license="ICU License - ICU 1.8.1 and later (http://source.icu-project.org/repos/icu/icu/trunk/license.html)">
     <group released="2012-04-06" version="49.1.1">
-      <implementation arch="Linux-src" compile:command="&quot;$SRCDIR/runConfigureICU&quot; Linux --prefix=&quot;$DISTDIR&quot; --mandir=${DISTDIR}/share/man --enable-static --disable-samples &amp;&amp; make install" id="2E053CE4-F22E-41DA-BEE3-4BDC6F6945E3">
+      <implementation arch="Linux-src" compile:command="&quot;$SRCDIR/source/runConfigureICU&quot; Linux --prefix=&quot;$DISTDIR&quot; --mandir=${DISTDIR}/share/man --enable-static --disable-samples &amp;&amp; make install" id="2E053CE4-F22E-41DA-BEE3-4BDC6F6945E3">
         <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.1/icu4c-49_1_1-src.zip" size="20127144" type="application/zip"/>
         <manifest-digest sha1new="ac1ac95a956bd6d1f875dfbbce30d56426cb3ab5"/>
       </implementation>
