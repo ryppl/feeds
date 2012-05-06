@@ -10,6 +10,10 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="a5a2b10e-522d-4f0e-8186-9318ab66e8a0" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-chrono-9c09b1b" href="http://nodeload.github.com/boost-lib/chrono/zipball/9c09b1b1ddec88816249e7c371b93715f63d1694" size="574655" type="application/zip"/>
+      <manifest-digest sha1new="c05afc267585108812f44ddd0c7ca243bb5d942f"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -196,7 +200,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mruQACgkQxnV5mk56UjGEqACdHu0/iP81ryBh4sQbMpOdrMZFupAAmgMmPLvM
-MPcRLLZr4/pdjUfezbFX
+iEYEABECAAYFAk+m7hEACgkQxnV5mk56UjHIVACePLi8xyHKoxp8DaY/1iv23+TIKtcAniRpq6Fh
+x3P3YyKAAK9RpNZ/nQYZ
 
 -->

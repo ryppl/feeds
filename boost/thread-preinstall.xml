@@ -10,6 +10,10 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="de25afc4-b0bb-491b-8f81-29c14b89b4ee" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-thread-f5c27a6" href="http://nodeload.github.com/boost-lib/thread/zipball/f5c27a64ca71293ac0be42490d1410030a47f21a" size="431788" type="application/zip"/>
+      <manifest-digest sha1new="22252abdd69578b4ce968f2a2c5e7a3af2ee2d6c"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -214,7 +218,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrv4ACgkQxnV5mk56UjFLOQCeLyjqNaS0fUY2xuj1D5PE25ER9iMAn3lR+lpc
-Q4MCD5yzrCKoJyjDqgt2
+iEYEABECAAYFAk+m7jMACgkQxnV5mk56UjF5cgCgpHFHWotZ0LlLFztEY219t9B7mGMAnjz4RZbr
+PRH9hb3z3o73PD2ayLuF
 
 -->

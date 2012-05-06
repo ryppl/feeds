@@ -11,6 +11,10 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="0a035106-fd27-457e-b11e-9a5ded306199" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
+      <manifest-digest sha1new="50a9c89bd38ad54fa8b7e6fdc09c7a1b905d0aa8"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -194,7 +198,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mroAACgkQxnV5mk56UjG3ZQCgi0OqqnBJw4WK+DFZilVOQX/vlxQAn3kX4Gno
-8S75hUn/Rrv0bC//7Twh
+iEYEABECAAYFAk+m7c0ACgkQxnV5mk56UjESbACffOXeLAvsHETLNsglzeJb/Su1cG0An1Cbll0/
+ydOWopiCms5IStZWwO2D
 
 -->

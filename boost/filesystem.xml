@@ -11,6 +11,10 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="6c515d11-e647-4dd0-b3d5-4efdbb2f02f1" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -194,7 +198,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrvUACgkQxnV5mk56UjEzcwCgphNxlDRwDhSKVqk/49Vih+3aBZ8AoI3GFoje
-puiUH6a5FQPUSDPyp7/6
+iEYEABECAAYFAk+m7iYACgkQxnV5mk56UjHTHgCffUfhKitOhcdnvo4mVeZhgOj4P2QAnAsdrszC
+swI1z8ktnltl502X3Kol
 
 -->

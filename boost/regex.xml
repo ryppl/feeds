@@ -9,6 +9,10 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="228857be-5af0-4e57-abc0-66fa70e7d60f" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -189,7 +193,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrn8ACgkQxnV5mk56UjE47ACeL2FrCy9tebkVUGK6SGuZAjR121EAoKMv8VtP
-xcTapLGMj+jeZGL01jwI
+iEYEABECAAYFAk+m7cwACgkQxnV5mk56UjHeMwCfRplBh3hIV1vVsguoGEb1bnEzRecAnAqVCrrG
+0jcmgkbPEXjhs+qNcOoq
 
 -->

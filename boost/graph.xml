@@ -15,6 +15,10 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="4e9e9703-3e6f-4846-b601-c43cf4ee0db9" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -210,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrnkACgkQxnV5mk56UjEjZwCaAgJqy/zwoSVKQIpsTwQNEP+MUAAAn0b9yPPR
-J40642i2b+pX6F+x3Iop
+iEYEABECAAYFAk+m7cYACgkQxnV5mk56UjFvCACfadqCw05ExbZaeUBlCYkASMcYK74AoIBJH6Me
+WSYM5HZatSjhxL6wxX5y
 
 -->

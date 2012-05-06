@@ -13,6 +13,10 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="c87399f7-f6c7-4b64-b996-d823238b13b5" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -214,7 +218,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrvYACgkQxnV5mk56UjFP6ACcDBkgJbx8pXvaBGQwdUIGs9UubKcAnRHldD9M
-EC63h4K2ZwoEUf6s9/Ja
+iEYEABECAAYFAk+m7igACgkQxnV5mk56UjEJUACgiI+n5CEt8f8/jsbleLRqney3D+oAoJEaVqB9
+ACNxdUzlBVUtF6CUqXfM
 
 -->

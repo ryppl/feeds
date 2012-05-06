@@ -11,6 +11,10 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="135a712d-b9fb-4a91-a129-63b565aca8eb" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
+      <manifest-digest sha1new="fcdeacb6bf5e0e970fae330717e65e30aeb64b5f"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -218,7 +222,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrtAACgkQxnV5mk56UjHD8gCfaNollZpCUs3cEzl7r62sv29S20UAn1y6NmXa
-Yr+mId7n/vVpD5TIGCPn
+iEUEABECAAYFAk+m7gEACgkQxnV5mk56UjEmKQCYi1JOg8h1EnmvATymLaFQnUtENgCfSpSo25vX
+VAY7bYThY5OSmiksYgQ=
 
 -->

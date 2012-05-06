@@ -15,6 +15,10 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="c89d67ef-386d-43d0-8460-8bc107f3b947" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-graph-c113431" href="http://nodeload.github.com/boost-lib/graph/zipball/c1134313f5345aa67a580707ee9c78f17f8020c2" size="3659574" type="application/zip"/>
+      <manifest-digest sha1new="d71fcda37b34c51744e85cad470ca6ef212617f8"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -210,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrnkACgkQxnV5mk56UjH9JACgh6zSXf47fq6gbZcS09GcXljv1ukAnA45a1vl
-ObgcRTqzDzwGBOt8roHP
+iEYEABECAAYFAk+m7cYACgkQxnV5mk56UjHdiwCfVTQVJWipXdvlAyWepg3RZm8j2/cAoIa4DnQV
+j/p1Vpk+YnAvBMwEscXe
 
 -->

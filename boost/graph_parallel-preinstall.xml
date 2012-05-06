@@ -10,6 +10,10 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="d3b892d5-ec80-493c-a4f6-5aa761dc95d1" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-graph_parallel-27a217a" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/27a217a48581a4e6582791856bf95c558f167285" size="1100320" type="application/zip"/>
+      <manifest-digest sha1new="5b7f5d326805fd15891575efc8db4404dc826dc7"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -220,7 +224,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrusACgkQxnV5mk56UjGxfQCfZyDpLaApbd/fRQ/21clSW6ggoawAn0LqHsB9
-X90nGN0hgLDunmN2ltA5
+iEYEABECAAYFAk+m7h0ACgkQxnV5mk56UjE5vwCcCilyVRr4nXCpzQaZPjSFDom7uZgAnRXUMcMl
+im11MULdDWfCu0IG/Cpi
 
 -->

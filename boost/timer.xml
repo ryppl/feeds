@@ -10,6 +10,10 @@
     classes.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="31435a93-b5e4-4b3f-bb33-b1e46a453b1e" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -211,7 +215,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrncACgkQxnV5mk56UjHWMgCffGOzY2duENHNZWMXy0lBO7n3eqIAn1+Qj9ak
-vrrvJKDDNknVP1GgeWQ8
+iEYEABECAAYFAk+m7b4ACgkQxnV5mk56UjFgqQCeIMNICIpkVYLoJIwvajXcOFj5PyAAn0q6osNu
+KoAxglaZeObwdULNNXJN
 
 -->

@@ -10,6 +10,10 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="8def17fb-e00a-499a-9326-ab803fe12a6d" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -220,7 +224,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrusACgkQxnV5mk56UjG9lQCeLIdfeMs6+MYnWQnY+uqakQs+FJUAmgPjcuJE
-KMqgsFtX3bmxNuzdKsvW
+iEYEABECAAYFAk+m7h0ACgkQxnV5mk56UjH+8ACfWgfeFnjBhRNh7fx6y/ukIzykfzUAoKZH9mdK
+a7BaLeOHfMRczNrM1gCn
 
 -->

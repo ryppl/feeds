@@ -11,6 +11,10 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="228b143e-57f9-4646-a2b6-1b3ce659d746" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -191,7 +195,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mrm0ACgkQxnV5mk56UjEpFACgilNXWAK10+uavNWVNBaspaRhqzcAnAgemSGd
-P2LVKjcvRL+kT5Wn8CLD
+iEYEABECAAYFAk+m7bYACgkQxnV5mk56UjHnMgCcDQ0JcrZC4aDrkzdepwJmklUgofYAn3gToz1O
+2fxZv1X3Q3eGZFkFcqKg
 
 -->

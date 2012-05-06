@@ -9,6 +9,10 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="c6dcf2c6-c8dc-40f8-972a-9780c5381336" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+      <archive extract="boost-lib-locale-80da8e8" href="http://nodeload.github.com/boost-lib/locale/zipball/80da8e8a128c46b5007671086c4103326c52dee6" size="1178082" type="application/zip"/>
+      <manifest-digest sha1new="f404025d37ced51f2a9b6e29f93fec306dbad7b1"/>
+    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
@@ -219,7 +223,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+mruoACgkQxnV5mk56UjH9ZACdGW/mPzEg0tGXFj5Ytlql6vQBFWkAn2I1rauf
-ghjj1RgPt0gITAt7sSFG
+iEYEABECAAYFAk+m7hYACgkQxnV5mk56UjHEnwCgiixjRroNIYHZFDUONKrwLsgdmooAnjYACrMz
+ZHSsbfWqTL12/5OCGTaq
 
 -->
