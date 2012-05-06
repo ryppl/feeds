@@ -11,27 +11,24 @@
     maintainable C++ code.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="597335c8-da92-4b14-b12b-ea94802d8e7a" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="f41c6bba-8e77-4808-94af-be56135b965b" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-statechart-0e57052" href="http://nodeload.github.com/boost-lib/statechart/zipball/0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f" size="1136040" type="application/zip"/>
+      <manifest-digest sha1new="819e1bb2c9ef2da9b7be6f3ee1e3db004958db81"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/statechart-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="statechart" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="statechart" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNlkACgkQxnV5mk56UjF91gCfaTkMYej1Af4uZ0CuH1s6CjhvE2gAn0eGFSy3
-BVEtGJ0KE+MuVA30gX4G
+iEYEABECAAYFAk+mq0wACgkQxnV5mk56UjFcEACgkEOnecYLhdcZZdNHxqEKwdLM8ccAoIEwz48F
+w1wEjdddOlcrXO5jZDrz
 
 -->

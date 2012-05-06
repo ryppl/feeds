@@ -12,27 +12,24 @@
     library.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e167245c-042c-40fd-9cc8-33afa664daea" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="09631a3b-c7b3-456c-b3a2-67d917bd8a6c" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
+      <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="io" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="io" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNk0ACgkQxnV5mk56UjFi+wCgkAPwQimdKH96omlyiRQh4z1uWQkAmwURvSiO
-bh4pX8sOqEInz5O43mjL
+iEYEABECAAYFAk+mqzkACgkQxnV5mk56UjHjoQCgh79lYJQqQxtp75VlubvbVpUCj8wAn10tHEhk
+yej9UwTXlO5vTmh/aKBK
 
 -->

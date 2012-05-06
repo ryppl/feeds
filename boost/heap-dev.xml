@@ -9,27 +9,24 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d9538139-c0c3-4e5e-bed9-fae6d82613fe" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="4ca72df9-64a8-48c4-989e-3f885d4a0b8f" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-heap-72b0465" href="http://nodeload.github.com/boost-lib/heap/zipball/72b0465ed7619616fbf5b78896e21ce06243a782" size="67510" type="application/zip"/>
+      <manifest-digest sha1new="dc873a677d1f8a15e220148cd6096168051dce78"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/heap-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="heap" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="heap" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNlkACgkQxnV5mk56UjF9IQCdFg1oRv/guw/SpqGB1++csZD7lTIAoJ6/YI6M
-ztaiR5ir57f/bRnKOEbO
+iEYEABECAAYFAk+mq0gACgkQxnV5mk56UjGaVQCfW5qilLahPJ+anXSyPd1NmF1+0doAn02mXkEs
+wIXubrlBq462vApWMMZ1
 
 -->

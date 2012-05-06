@@ -2,33 +2,51 @@
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostIOStreams, BoostMath, BoostRandom, BoostRegex (built state)</name>
-  <summary>evil build dependency cluster</summary>
+  <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8fa12ac9-6db8-429a-9d87-d0d323c1e679" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
+    <implementation arch="*-src" id="51e1c317-4674-4bc7-814b-6cdc0cda23d9" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>cluster</arg>
-        <arg>BoostIOStreams=iostreams</arg>
-        <arg>BoostMath=math</arg>
-        <arg>BoostRandom=random</arg>
-        <arg>BoostRegex=regex</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>--add-subdirectory</arg>
+        <arg>${BoostRegex_SRCDIR}</arg>
+        <arg>regex</arg>
+        <arg>--add-subdirectory</arg>
+        <arg>${BoostRandom_SRCDIR}</arg>
+        <arg>random</arg>
+        <arg>--add-subdirectory</arg>
+        <arg>${BoostMath_SRCDIR}</arg>
+        <arg>math</arg>
+        <arg>--add-subdirectory</arg>
+        <arg>${BoostIOStreams_SRCDIR}</arg>
+        <arg>iostreams</arg>
+        <arg>regex/dev</arg>
+        <arg>random/dev</arg>
+        <arg>math/dev</arg>
+        <arg>iostreams/dev</arg>
+        <arg>regex/bin</arg>
+        <arg>random/bin</arg>
+        <arg>math/bin</arg>
+        <arg>iostreams/bin</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-src.xml">
-        <environment insert="." mode="replace" name="BoostIOStreams_SRCDIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml">
-        <environment insert="." mode="replace" name="BoostMath_SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml">
+        <environment insert="." mode="replace" name="BoostRegex_SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/random-src.xml">
         <environment insert="." mode="replace" name="BoostRandom_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml">
-        <environment insert="." mode="replace" name="BoostRegex_SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml">
+        <environment insert="." mode="replace" name="BoostMath_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-src.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_SRCDIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="." mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/zlib-dev.xml">
         <environment insert="." mode="replace" name="ZLIB_DIR"/>
@@ -184,13 +202,10 @@
         <environment insert="." mode="replace" name="BoostLogic_DIR"/>
       </requires>
     </command>
-    <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-      <environment insert="." mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
-    </requires>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNiIACgkQxnV5mk56UjFKjwCeJpuE9/aanfXEqLtIvhJgx4boPk0AmQHDIMpS
-/a5O+7fSzDdQ/Z/VF0Gf
+iEYEABECAAYFAk+mqtQACgkQxnV5mk56UjEMTACgoYQWY5CVpXDPY/0rwltxGLgHEhYAn0SWnuX4
+sODZO40bdtUJwNNC5CaZ
 
 -->

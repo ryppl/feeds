@@ -11,27 +11,24 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="804f0ba0-b4a3-4a4f-b885-ee43c37ff299" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="27ade196-bdf2-4860-92e6-c467836990ba" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
+      <manifest-digest sha1new="3b87be97af14ca1b6c363a80a1b1e2481bc42ab1"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/signals2-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="signals2" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="signals2" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNmYACgkQxnV5mk56UjEfgwCfQKy+Tp/tKn1aO3OE3lSLVhgprQQAoJaHbg4y
-vDatzEWGCMrDVbQS6gUR
+iEYEABECAAYFAk+mq14ACgkQxnV5mk56UjG99wCfQHNPVqDDKlWXngHbbrzxT97TdYQAoKGZNN97
+TIPPmqFFTbNcbgioPfOa
 
 -->

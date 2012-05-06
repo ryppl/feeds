@@ -12,27 +12,24 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="986841b0-790e-42b0-8f2b-51ce9c1f430b" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="ab11e7a5-c0a6-4b67-b68b-945ebc3ca101" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
+      <manifest-digest sha1new="f4c7dc9504ff16a11d6bdf3818913f13b950fd65"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="ptr_container" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="ptr_container" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNloACgkQxnV5mk56UjHUEwCbBZyrmk6m/bZCgxByFh1qzYFEYC8An29BYxOK
-YC3RrjM8utP0Ys4X0NIY
+iEYEABECAAYFAk+mq04ACgkQxnV5mk56UjHOkQCfYIHwrKJWL2h9QDzYPEGQBVfJvKAAoKNX2RfS
+idLHgrIqxaD84ACNId47
 
 -->

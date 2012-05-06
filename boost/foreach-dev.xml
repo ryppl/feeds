@@ -20,27 +20,24 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b443c325-f2fb-4443-854c-55b9b9bb88ac" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="ebbeffa8-1081-421f-942c-ab5ad542fcb6" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
+      <manifest-digest sha1new="37abb66bae453003ad9989a1fccc0b56f4b5df93"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/foreach-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="foreach" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="foreach" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNlUACgkQxnV5mk56UjHYegCgiuyy0z1iuCRIwpe27pLtaxTD6AoAn2ze90b0
-7uvYI/ZhWvdK0I4UZNIs
+iEYEABECAAYFAk+mqz8ACgkQxnV5mk56UjFU5QCeOX2kZKg5F18+Df53E3uUkMTxUT8An0IfKCOe
+tdRsiEThhwqOkEHEXuCm
 
 -->

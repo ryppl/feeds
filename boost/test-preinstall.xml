@@ -10,20 +10,16 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b7ab3152-b072-4b9d-981b-15d86aceef98" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/test-preinstall.xml">
+        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="test" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="test" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-dev.xml">
         <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
@@ -218,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNmEACgkQxnV5mk56UjHTXwCdFjiu6Q9d+liMRFAxt5yJZfRrfMIAnR49eR+5
-1qWdk0eGL+aZkTGeAnf2
+iEYEABECAAYFAk+mq1oACgkQxnV5mk56UjEKqgCfe00j8gELhXmSjXr4GYDaO8U8yQkAmwT6WOBX
+2pcYIA2uj7Zqf5JDSR1W
 
 -->

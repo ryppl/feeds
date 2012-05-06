@@ -9,27 +9,24 @@
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3643cf18-3525-46a5-8d39-d34678b00518" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="1e219db3-ab8a-4b00-8a2d-e99303d1276a" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-proto-5ec8198" href="http://nodeload.github.com/boost-lib/proto/zipball/5ec81983563dc87db4f61c77c6372003db20a5d0" size="448177" type="application/zip"/>
+      <manifest-digest sha1new="f7d50211ea3a678d3e089d1518ed11aa97716dad"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/proto-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="proto" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="proto" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNk8ACgkQxnV5mk56UjH9YgCggfsTy5hSWU40VhQGpc/U7iMiWKEAmQET8Y+s
-dnw3asmEdq/j9/8vwMg0
+iEYEABECAAYFAk+mqzoACgkQxnV5mk56UjEeLwCeP3Vb/Ay63RgBmfJSFaTuRM7pDysAn3/tpeQA
+qCHdOxyLp21ehkqdVyH3
 
 -->

@@ -11,24 +11,25 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f827769e-34f5-4b17-8ca7-e3bc010a1eb8" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
+    <implementation arch="*-src" id="08b28f34-1f13-458f-a6cc-0f3cb5190e44" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>dev</arg>
-        <arg>BoostIOStreams</arg>
+      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>${DISTDIR}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+        <environment insert="iostreams/dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNigACgkQxnV5mk56UjFt0gCgg0HEq8Vec0TRE5h2/gR+ajs7sHoAoKDF0e/3
-wM6WPDS6GrF4XycWB5Of
+iEYEABECAAYFAk+mquYACgkQxnV5mk56UjFAxgCfbf48mXSe5N7R+T+FT3cj384xXicAnjgCkhtK
+IRM6vL+mHyRhMtSkCRb4
 
 -->

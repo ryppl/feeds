@@ -11,27 +11,24 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ec16d91c-c7be-43c0-894d-475f7f074351" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="ac48c55c-abbd-494f-94dd-4b9a9bd91eee" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-range-01bafff" href="http://nodeload.github.com/boost-lib/range/zipball/01bafff6db2347c88b192993a9c87d8485a4985c" size="803762" type="application/zip"/>
+      <manifest-digest sha1new="be0f39ff20e4f2069b24a5e96a420884cd9e7f86"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="range" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="range" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNicACgkQxnV5mk56UjFntQCfTstxeASu0UctUFeTj3ImDGgafv8An1fe3Rxz
-nL3uj0pm4EEwE/owoh5S
+iEYEABECAAYFAk+mquYACgkQxnV5mk56UjFdswCgjyscnTdpI4ewX2nyPFOesQhWxLIAn0iGMvtg
+nAMHLrMSKu8WkcCfClBv
 
 -->

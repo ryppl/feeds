@@ -26,27 +26,24 @@ uBLAS provides matrix and vector classes as well
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="215db40a-9ea8-42b4-a29a-6a991cd4ad50" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="25f6604f-0090-4270-ab1c-7d51781f38e7" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-numeric-7098ba6" href="http://nodeload.github.com/boost-lib/numeric/zipball/7098ba6e03f76c16b980bdf58e9e3a9335abf8e7" size="49662654" type="application/zip"/>
+      <manifest-digest sha1new="c1e0935b5bffbcd355c4dd163b6aa585181fa6fa"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="numeric" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="numeric" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNjEACgkQxnV5mk56UjE2bwCgh27c4eBBFQ8+ACOeJg7Zk4uL0ygAniOErraX
-TX8SdzCPRL+trSEyajVo
+iEYEABECAAYFAk+mqxwACgkQxnV5mk56UjHyvgCfY5ESTzWBPWKhi8xxbydgNLDZZoMAoKd7vwnk
+GXhFbW0aLtWH1NI8ghv3
 
 -->

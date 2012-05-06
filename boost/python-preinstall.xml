@@ -13,20 +13,16 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9f6e1519-c3b3-4fbc-9e47-2b5bf75a9393" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/python-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/python-preinstall.xml">
+        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="python" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="python" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/pythonlibs-dev.xml">
         <environment insert="." mode="replace" name="PythonLibs_DIR"/>
@@ -218,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNl0ACgkQxnV5mk56UjHEhQCfUHczBP9qLMVfZ+1WEMGMJk+/r7cAn2pE2tiY
-NzP8LN6S3ZaD2dERW1TB
+iEYEABECAAYFAk+mq08ACgkQxnV5mk56UjFsyACfd1cQRJlLxwSP4QHV2kf64T4e5k4AnjYuGvPm
+dSE3zmyPK4AgOsULjSKt
 
 -->

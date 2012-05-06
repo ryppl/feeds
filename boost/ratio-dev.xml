@@ -9,27 +9,24 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="16494261-1494-47fe-a3a0-a57a7c25fae3" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="41321d32-84f4-4268-8e90-cfff6d0945ea" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-ratio-d7c8323" href="http://nodeload.github.com/boost-lib/ratio/zipball/d7c8323f7a6d01f3d785b7a43b864f680cbf309c" size="232399" type="application/zip"/>
+      <manifest-digest sha1new="ddd202152dff504f922dfd76e59d11abac88f6f5"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/ratio-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="ratio" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="ratio" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNikACgkQxnV5mk56UjEcOQCeP49z8IqqaTEQvSgZflc8m/dOv0IAnifSUT/F
-gP8AO2G0j1n4N2FDBqek
+iEYEABECAAYFAk+mqukACgkQxnV5mk56UjG6NwCfe7sTtzRnehzNn99dJA2MBpmIl+EAn1lq5DmF
+LH/3WAPAu9/boL1C5uze
 
 -->

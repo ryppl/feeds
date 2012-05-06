@@ -9,27 +9,24 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fe64e37c-a502-4e4b-8b98-2315e1a4ffef" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="424c5568-13ea-41fc-998d-663367a15722" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
+      <manifest-digest sha1new="b4ff063d9351a4701e62b6fa2c099e9939df8a57"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/rational-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="rational" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="rational" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNi8ACgkQxnV5mk56UjHUcwCfTBXOAntSvWD/xd+bUFbH7C8c6scAoJ8RkvEO
-FKqXilsnGI3Zenghh+Lh
+iEYEABECAAYFAk+mqvEACgkQxnV5mk56UjGYygCgl++iyhPznzQFctmzu9El+++yOgcAn30D696B
+vUj8sqhj1YsV+ZY7x1eO
 
 -->

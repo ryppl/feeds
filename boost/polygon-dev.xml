@@ -9,27 +9,24 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3397d6bc-1648-46f9-9108-b6d474decd08" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="8e71c97a-d9eb-4fbc-815f-132a45b9a496" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-polygon-e469485" href="http://nodeload.github.com/boost-lib/polygon/zipball/e469485069e526d1ebef9819d91a857b0e0ca01e" size="2676843" type="application/zip"/>
+      <manifest-digest sha1new="53c2ccaf0766100dd2378f628fbe23b6abe41eca"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/polygon-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="polygon" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="polygon" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNi8ACgkQxnV5mk56UjHtBwCaAxby4/fpo3Wr44ULjlvRhkVf2CYAnj/NCgNN
-VT5aPYkkUHJBma3CWThI
+iEYEABECAAYFAk+mqvAACgkQxnV5mk56UjELDACfSljQqUOSpKMln3SlVWH5ii6UivIAn0E/FK8Z
+ApPHzlUCOGt0r0mnYoqO
 
 -->

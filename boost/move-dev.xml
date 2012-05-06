@@ -9,27 +9,24 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3761c2c0-0535-4de7-a37e-249a8a720b38" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="f99b3cc2-96b3-4e7c-a36c-1e49917b6379" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-move-85df50e" href="http://nodeload.github.com/boost-lib/move/zipball/85df50ea2368a236d2f2240eb4eb34a39bef870b" size="86190" type="application/zip"/>
+      <manifest-digest sha1new="882a491e77be9be7b97ad0607e8e768a2179f51e"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="move" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="move" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkMACgkQxnV5mk56UjEE+wCeICPQWq0pg/RtSddQZftWtfwfP/IAn1v/3wHY
-HUKE0oEZZbYqzteFGMWq
+iEYEABECAAYFAk+mqyoACgkQxnV5mk56UjH/PgCgpZlZAaU2BifO0A5WRVgy7zQTJ0kAn0uhKzlq
+dPVYfyLy9Gpnd8eNoR7X
 
 -->

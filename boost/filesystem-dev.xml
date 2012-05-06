@@ -11,23 +11,25 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8f587ff7-b6f4-423c-a159-45130b725b92" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
+    <implementation arch="*-src" id="51163edd-44be-4956-9fe2-8ee034adc285" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>dev</arg>
+      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>${DISTDIR}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/filesystem-preinstall.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+        <environment insert="dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNlwACgkQxnV5mk56UjHCUwCfX8loVuk0iIwreMVrMoO29WNihgwAoJqhYdmi
-irNgi/4Pi/eVSuP94qN1
+iEYEABECAAYFAk+mq04ACgkQxnV5mk56UjGEWwCgnVa7GOCtJPwkMp7qV4/wXvIr3gIAoJqSAJGd
+u3rRtJyGJkikMBoaU9YK
 
 -->

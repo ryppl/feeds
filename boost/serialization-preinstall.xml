@@ -11,20 +11,16 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="164b27ba-03cf-49b1-b9d5-4e0a152e88af" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/serialization-preinstall.xml">
+        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="serialization" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="serialization" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-dev.xml">
         <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
@@ -195,7 +191,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNiIACgkQxnV5mk56UjHSGwCaAw1waGWlgAnptLr/cq0mJYK6MuAAnApafoU4
-AIuaBxCF27BGocbikSt8
+iEYEABECAAYFAk+mqtgACgkQxnV5mk56UjEEmgCgoPdepJp0S9xaXUWAzt9jbcnq9NUAn0b2VVIj
+Jnv931xotJCNyA5kegq7
 
 -->

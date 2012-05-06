@@ -9,24 +9,25 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="43e035a4-ac6c-47ae-9e08-48ed6893fd88" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
+    <implementation arch="*-src" id="f485029e-2393-4fef-95b8-4d9cf9bc2fd0" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>dev</arg>
-        <arg>BoostRegex</arg>
+      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
+        <arg>-E</arg>
+        <arg>copy_directory</arg>
+        <arg>${SRCDIR}</arg>
+        <arg>${DISTDIR}</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/iostreams-math-random-regex-preinstall.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+        <environment insert="regex/dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNiwACgkQxnV5mk56UjHdmACdHxRGs5WyU/SnPCYW+0lfHvbnMrAAmgMQ6bUg
-pLmQL2RX7cS8ZbzqnSxg
+iEYEABECAAYFAk+mqusACgkQxnV5mk56UjEtMQCgjwF3C6aVZGfy9UewCfy9qFJPC3oAoI9G/zrv
+YTwKp54IoT7u4P+xFvyd
 
 -->

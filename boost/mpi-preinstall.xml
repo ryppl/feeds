@@ -11,20 +11,16 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="de06ae4c-7e8b-4f62-8443-fe40092d4ca4" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/mpi-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/mpi-preinstall.xml">
+        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="mpi" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="mpi" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/pythonlibs-dev.xml">
         <environment insert="." mode="replace" name="PythonLibs_DIR"/>
@@ -222,7 +218,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkIACgkQxnV5mk56UjHEHACdFHP/kj1dvm5AlprbR7OyGru2BHwAn3k7Zr8J
-cLbzcW1B632C3v2wLiXL
+iEYEABECAAYFAk+mqyYACgkQxnV5mk56UjHQZwCfUh3DcY8bypZ859tF9xcuFSRQF5UAnAo3vuNo
+jP9hSNywAMKa5S+lXVy6
 
 -->

@@ -10,27 +10,24 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1960269c-0b9d-47fa-8f19-d4417c29ae54" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="7a1ac324-68cc-42dd-94b5-425b933bd566" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
+      <manifest-digest sha1new="1f6847576867a1454f4d9a2e29f4711242fc0b46"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="tuple" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="tuple" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNmIACgkQxnV5mk56UjGAxwCdEJEG0yMHig49FPOHNPJcjJeXgCYAnRkaeBYc
-9c0IMltTupmD31I6iPJ1
+iEYEABECAAYFAk+mq1sACgkQxnV5mk56UjG1lACfZunL0AilK6sLbVEJ2iCjppdeUKkAn1SOcc0k
+ejVboNVAU5VVCOqKiqWm
 
 -->

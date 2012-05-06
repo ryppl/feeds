@@ -9,27 +9,24 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ac760052-ee49-474c-ba17-2f441b53b89e" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="e86a970a-a438-4211-b493-c8f8b2d255e8" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
+      <manifest-digest sha1new="55e6864c29485cec6a7f1354a45c28ddbb64f111"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/logic-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="logic" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="logic" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNjAACgkQxnV5mk56UjHpcQCfT28mpN4jklkBMqW3fvjmfxcgyvIAnie28PFE
-z6ITMdnhKrBuo9Aa7yLt
+iEYEABECAAYFAk+mqvIACgkQxnV5mk56UjGo9gCgj3TGUprNCI7SRClcYpmUeLFQ39EAnRRriqEr
+wPghbYi4xaSQgM3ZEaIa
 
 -->

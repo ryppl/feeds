@@ -20,27 +20,24 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1eeb1090-9003-4b13-9e85-41aca9768788" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="a294f5eb-fcc1-4893-866f-cd49c9392886" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-algorithm-d5cea00" href="http://nodeload.github.com/boost-lib/algorithm/zipball/d5cea00374d925112d2e09c7d55cc1683a696828" size="1736583" type="application/zip"/>
+      <manifest-digest sha1new="46f6c5287cb96c13319a47673b4a6d75f578fa3b"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/algorithm-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="algorithm" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="algorithm" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNl4ACgkQxnV5mk56UjGTnwCfRzHwCaR33/xICgHBE2bgmwOfGzsAoKRvZt9D
-dqe24IOo4Ib4PBiXvf7m
+iEYEABECAAYFAk+mq1YACgkQxnV5mk56UjEk1gCgnqmrgAAcRDN8xs6VTYEwfzNhX+gAoI/77/57
+6x2V+/N4xYdkg7Jp9sem
 
 -->

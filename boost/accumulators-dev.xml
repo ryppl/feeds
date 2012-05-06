@@ -9,27 +9,24 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="613e30d5-95dd-4f37-89f7-b34b4afc9890" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="9eeded8a-b111-4a07-97de-a4f8c2cdef78" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
+      <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/accumulators-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="accumulators" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="accumulators" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNjwACgkQxnV5mk56UjHuUwCZAZuSMv06uYqcyXlWO+OI81Bl0CcAniJs/xz6
-Aj9ooM4Jf6qCVG18xR0P
+iEYEABECAAYFAk+mqyUACgkQxnV5mk56UjEhxACbBkaT/UMvSHONOslxV2Xszhwbyi4An15ddrAN
+3lEXBazthLBOpnGORK9H
 
 -->

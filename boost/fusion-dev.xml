@@ -13,27 +13,24 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7c350b6e-2eb5-4b24-b408-cc1ed144db98" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="58f6a4d8-8e30-4193-827f-74240b4fce6d" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-fusion-6d7cae4" href="http://nodeload.github.com/boost-lib/fusion/zipball/6d7cae4f100827ecc27f85b55288374acd9b32ad" size="1208661" type="application/zip"/>
+      <manifest-digest sha1new="88ac1b5491d33f0156b760e4a620c4481a4a6360"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/fusion-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="fusion" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="fusion" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkMACgkQxnV5mk56UjHZ1ACgqCxrYv+gZReF6ZIDMcFTbL7ruXoAnRMDY4V4
-tXFN7M0YqWLWgcmNce6F
+iEYEABECAAYFAk+mqygACgkQxnV5mk56UjF9LACfTnMAGOYradg8p9DRUfZtFz8ZHHgAn2af7FiL
+N14HfzVC3BntOUhAxx9g
 
 -->

@@ -10,27 +10,24 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="09b30bd5-8a11-4e8f-aa1d-6d331e5f6c45" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="1bb612da-276a-40fb-94e6-f046bad9d75b" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-uuid-9792b68" href="http://nodeload.github.com/boost-lib/uuid/zipball/9792b6844e27783e0aabf8c368202f4501c5edc0" size="48953" type="application/zip"/>
+      <manifest-digest sha1new="5555e47d765e89672dfa95491c2c0722e120e98b"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/uuid-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="uuid" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="uuid" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNi4ACgkQxnV5mk56UjHnUQCfeAK1TZgo09TqcgK9dPli/gmVhNYAnRP3aJbj
-zlCuvfIHpcTFaSf77Ef1
+iEYEABECAAYFAk+mqu0ACgkQxnV5mk56UjG9dQCgi+JBddcAAIDftdmfkYwd639pX3oAmwfKTEAf
+9L7quqFegY0g8TMkR3pm
 
 -->

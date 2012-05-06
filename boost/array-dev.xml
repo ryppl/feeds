@@ -10,27 +10,24 @@
     constant size.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8c989a24-af5f-458b-b803-fc0d66b4d80c" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="c1c9cc1f-2fcf-493b-ac05-186da66891af" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-array-8825aa9" href="http://nodeload.github.com/boost-lib/array/zipball/8825aa9b9be1c0e2bb5a0826edd7f28d15795358" size="17039" type="application/zip"/>
+      <manifest-digest sha1new="16fd665694f4eea612cf02a5d901037328d048d5"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/array-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="array" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="array" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkUACgkQxnV5mk56UjG4WwCcC6LiD08F5deqAJxkDVk2m2J07m4AoJ++p+c+
-0pEhM/E6VUMvYZ9+8Ubq
+iEYEABECAAYFAk+mqysACgkQxnV5mk56UjE3vACfTtxlwniUleAxNe0L8nq6baEMHJYAn0NWAnSA
+oJgg39bmYkHtihHK0M4B
 
 -->

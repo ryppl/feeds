@@ -15,27 +15,24 @@
     the current language.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4535ca8d-f6f7-4710-9d2f-f57ff63e6c21" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="174ed401-0061-4902-b5da-92fc313d2f3c" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-mpl-b3eedbc" href="http://nodeload.github.com/boost-lib/mpl/zipball/b3eedbc816942f9d3d9db4017a696e830f93347d" size="2737234" type="application/zip"/>
+      <manifest-digest sha1new="1273b36b1ee56c14efc485a93407743e95009284"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="mpl" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="mpl" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkcACgkQxnV5mk56UjHcaACaAqHw0V0dMTlGZmcvglbTcO2osTQAnRuskYpp
-QhVafBj+uNKEob2/BdYZ
+iEYEABECAAYFAk+mqy4ACgkQxnV5mk56UjHjPgCeID048+bK1YaFQKJ0XAFEMphepoAAoJgJC33l
+ZG2XjKO132lAYPMWlOcv
 
 -->

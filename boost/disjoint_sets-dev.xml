@@ -13,27 +13,24 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="40a3e306-1428-4571-a86c-eb317db85b09" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="5d80562a-da5e-4829-89fe-8d55280a58a2" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-disjoint_sets-5b24ed4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/5b24ed4e21e97fc8a029b3d13ddf78adeb25aac5" size="10386" type="application/zip"/>
+      <manifest-digest sha1new="9c4c12c1c4262fd95c482493e9cb4681350c5d7f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="disjoint_sets" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="disjoint_sets" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkcACgkQxnV5mk56UjHWgwCfWgz/ZP5OAAKMZrN8TfoOElKNxPUAoKFHqmPV
-k/4MxT6d1Ea02xcGu31i
+iEYEABECAAYFAk+mqy8ACgkQxnV5mk56UjGvpACgotLzoH79d83ZP4rcL2Uj3bldhrsAnA4mrKvE
+Qc5YUTeFQ+VZDsEXjAut
 
 -->

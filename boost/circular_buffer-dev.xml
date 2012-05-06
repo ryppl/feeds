@@ -10,27 +10,24 @@
     </description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1af45796-36e4-49d2-b860-a9504dfc28d6" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="6f7c8af0-e921-461f-a672-763fd71c121a" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
+      <manifest-digest sha1new="2a913cb1c5b7b9f8db2f66bf8b642206c374b121"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="circular_buffer" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="circular_buffer" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNigACgkQxnV5mk56UjE/5wCfSyrdEQjfbzC6dMCBFgyv9tsNNiEAniIUv9Nl
-h+mi7+IZX/YM7k7z55Hy
+iEYEABECAAYFAk+mquYACgkQxnV5mk56UjFK2wCePwgG2R4K9H/8cXALbBUw3aHZ2D8An1YPVUOx
+xXOPal7tpXEv3FRaf9+S
 
 -->

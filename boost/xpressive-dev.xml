@@ -12,27 +12,24 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6a812fbb-0c59-4b53-b7ec-6cbe125b0b18" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="b989b657-945c-48e0-9bc9-f6053d75faff" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-xpressive-e654fe4" href="http://nodeload.github.com/boost-lib/xpressive/zipball/e654fe4d9bf9a25356740eb99861a3a33beb70e2" size="367662" type="application/zip"/>
+      <manifest-digest sha1new="c0f2289efc3c20efbb44d680d8dd2ebced21c0bc"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/xpressive-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="xpressive" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="xpressive" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNlUACgkQxnV5mk56UjENCQCfedA96/oSvE/SYwluAxnuT7UXOagAoJd2ula7
-kkUuU+AGknoBYik2uleh
+iEYEABECAAYFAk+mq0AACgkQxnV5mk56UjEA0wCggJu+XqVBSG8XS0/6Q8PJ36aqcWsAn23Zhiqn
+PY9jZ0Dd9yeUEgjpariG
 
 -->

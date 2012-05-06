@@ -10,27 +10,24 @@
     has never been easier.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="76ac8b79-dfcb-4b8a-88a9-afbc5f03e5fa" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="b882c18f-15d0-41a8-a548-17c48d3eee3a" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-assign-142ad90" href="http://nodeload.github.com/boost-lib/assign/zipball/142ad90451a0d197a41d950eaadee0d04e6f992a" size="62393" type="application/zip"/>
+      <manifest-digest sha1new="34f27856715b1e35ea611b9a093beb6aa9a21a08"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/assign-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="assign" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="assign" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNl4ACgkQxnV5mk56UjF8dwCeJTH/tCzzlACAdJs9wMTD4iK+sq8An3c0LJ/d
-17Euc0g1B6hj5oWxfW4s
+iEYEABECAAYFAk+mq1EACgkQxnV5mk56UjF4qQCdH3xf7kf14bFs3cxhu7ppXSpMZSwAnRBboCTQ
+h9khGjycTpkdJuVZLsKg
 
 -->

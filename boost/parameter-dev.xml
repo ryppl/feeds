@@ -13,27 +13,24 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c44d7c59-e59a-45aa-ad0a-fbff7ac83927" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="0880484f-d359-4667-a95f-2089c5a164e8" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
+      <manifest-digest sha1new="f14d8172a5fa047a5abe507fdd8c9acea4c67eb7"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/parameter-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="parameter" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="parameter" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNj4ACgkQxnV5mk56UjE5vgCfbreOCK455iVWlU+fz+060p35xi8An0qTbDtY
-3tGoJD6sSzZLi37c1aUm
+iEYEABECAAYFAk+mqyUACgkQxnV5mk56UjFs4gCcCO/8G+UOqMIqcPeBUp6b20GzxykAn0X1sBHG
+fDFrP2esRwu5tr2o9pcd
 
 -->

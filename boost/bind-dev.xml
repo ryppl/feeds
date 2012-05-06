@@ -26,27 +26,24 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d354e2ac-21dc-40af-a113-54a448912ee1" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="f6c0f247-bd1c-474f-be96-9acaa4cab8ef" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
+      <manifest-digest sha1new="baac374d3b369d48ad3be4475059d8678cff533e"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="bind" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="bind" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNisACgkQxnV5mk56UjGaEgCcDbhlhIuJyIz6K4KeZ7N7gBGiBYEAn0RvvBW4
-5nJv8MtrTnYuTeFfF1eu
+iEYEABECAAYFAk+mqukACgkQxnV5mk56UjEgZQCeJcmWWLRNHV7Q+i02ibCvuf3apD4AnRRoU18G
+jutHSiCNlqFabzNwVOVf
 
 -->

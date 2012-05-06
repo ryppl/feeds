@@ -10,27 +10,24 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a674fb73-bdf8-43cb-9085-d6daf451f6cd" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="2100c219-4888-4eb1-9bcf-55e1efe057af" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
+      <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/interprocess-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="interprocess" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="interprocess" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNiIACgkQxnV5mk56UjEu0QCcCxkdT76pigUuaKqB5A8RwoixfRYAoI0OmpMG
-UTy9rwpiP+lwkkEH8HWs
+iEYEABECAAYFAk+mqtsACgkQxnV5mk56UjGzxACgkG2BsJInOs/kA00dNxVzbtC2YTAAn3iP3B0I
+7PbkvYzHbygavFOVeU8U
 
 -->

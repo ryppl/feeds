@@ -12,27 +12,24 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7c06e1a8-f0fa-41fb-95d2-e1071dcd146e" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="e2e0509c-027b-42ba-a878-f37ee91d160a" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
+      <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/function_types-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="function_types" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="function_types" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNkgACgkQxnV5mk56UjGodQCdF+uNbcON4M7oe2CYctDdhQyC3xgAoIOmyo/n
-SRRZn+WKGFRtQ7orXvww
+iEYEABECAAYFAk+mqzUACgkQxnV5mk56UjFTCACfaU2vfVAI6hQu0D0O3nPOtqqZwEsAmwSsmvgk
+Q5aY5kua8GLQ5QV8TGpI
 
 -->

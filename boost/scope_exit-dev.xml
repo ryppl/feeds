@@ -9,27 +9,24 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fa3cdfe5-08e8-4ce7-ba5f-14f8c1f5e030" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="162abc68-8afd-4f78-a0d5-e2e1081bf6f3" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
+      <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/scope_exit-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="scope_exit" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="scope_exit" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNl0ACgkQxnV5mk56UjE83wCeLzpYyKScgCBbzYLjmNCpoW4ztmgAoJOiQ64i
-ege3BuAeUtTW0rEIClJ8
+iEYEABECAAYFAk+mq08ACgkQxnV5mk56UjGT1ACeKhldiUHJ1dJHrpUluRSmAfmN9m8AnRhx0J8i
+1FqYHzjjx39S1CYzg6Cv
 
 -->

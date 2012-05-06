@@ -10,27 +10,24 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d9b23dd9-48dd-4a36-ba04-fa2955250732" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="b989dab2-5aa2-436a-a238-1bdbbda25430" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
+      <manifest-digest sha1new="65a8e1f717aaaeef6812cee9cd0a07cc219a4dae"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/tti-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="tti" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="tti" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNmAACgkQxnV5mk56UjFiswCeNT/I2XmEPFFMGgLCfBpNe1qSys8AoID2w/1p
-QRMpmu4w2DJrey4886Fe
+iEYEABECAAYFAk+mq1kACgkQxnV5mk56UjF3HgCgnDBtiLj3xlbdx1WwnqB0DyvzXI0An2foHoKV
+vwbn6mFdETt7vnIbEV3F
 
 -->

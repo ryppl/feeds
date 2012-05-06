@@ -61,27 +61,24 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="854fdb7a-88fe-4e37-8afb-85e6f92fed56" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="6e36d040-3f83-458c-b1a5-74ba5a67434b" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-utility-5fc22d6" href="http://nodeload.github.com/boost-lib/utility/zipball/5fc22d66bbd4ad54cf43ac3cf50ffb7ece745b6b" size="223218" type="application/zip"/>
+      <manifest-digest sha1new="ce6a288ed19c294d2e8cd35ee40ee8316e8b6827"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="utility" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="utility" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNnAACgkQxnV5mk56UjGBowCfU4mFTsxRHN3sbFMpdZykb5Def5UAniYFuYkw
-2/Z2KbFMW6bkKc0WLyUJ
+iEYEABECAAYFAk+mq2kACgkQxnV5mk56UjEy0QCeK8Pj9FoKnk/EML99QbAdf4O4Hp0AoIvBn+bx
+nBb71RqbPa67cn4GbTst
 
 -->

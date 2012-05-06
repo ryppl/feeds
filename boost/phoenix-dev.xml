@@ -12,27 +12,24 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c3b11a07-1eb7-4f68-89b6-3ee3314f1aae" released="2012-05-05" stability="testing" version="1.49-post-201205051416">
-      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+    <implementation arch="*-*" id="219b20ef-3ce6-41c7-8b27-d8c0c271bcac" released="2012-05-06" stability="testing" version="1.49-post-201205061646">
+      <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
+      <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
-        <version not-before="0.8-pre-201205011504"/>
-        <arg>headers</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/phoenix-src.xml">
-        <environment insert="." mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
-        <environment insert="phoenix" mode="replace" name="BOOST_CMAKELISTS_OVERLAY"/>
+        <environment insert="phoenix" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+lNmMACgkQxnV5mk56UjFfDQCePP+Wdsab6CTp+tVU8i05lwWx6bUAn2mjk8GQ
-hknwY7amPtdOtGIu/0E8
+iEYEABECAAYFAk+mq10ACgkQxnV5mk56UjHWYgCgqFNcj0KeMzt+M6hoUPxayvS6Mv4AoJXoyC6/
+bfFPY3R9Raoi0WoGwhWd
 
 -->
