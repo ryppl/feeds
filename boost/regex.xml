@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="228857be-5af0-4e57-abc0-66fa70e7d60f" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+    <implementation arch="*-src" id="a02c5019-715e-4106-a6f3-b1da1af1f041" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -180,9 +180,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml">
         <environment insert="." mode="replace" name="BoostPtrContainer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/static_assert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
@@ -193,7 +190,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m7cwACgkQxnV5mk56UjHeMwCfRplBh3hIV1vVsguoGEb1bnEzRecAnAqVCrrG
-0jcmgkbPEXjhs+qNcOoq
+iEYEABECAAYFAk+m9woACgkQxnV5mk56UjEX7wCaA7+YOcA7Wcgy75G/lD53mshSYiAAni1otUx+
+RQUyTIYGK0fXLybgd8dw
 
 -->

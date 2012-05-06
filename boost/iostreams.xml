@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c3923791-6075-4435-9b65-33bd68f6ca3b" released="2012-05-06" stability="testing" version="1.49-post-201205062131">
+    <implementation arch="*-src" id="095703ac-8fbc-4560-99ac-603a51d7f6f7" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -82,9 +82,6 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/fusion-dev.xml">
         <environment insert="." mode="replace" name="BoostFusion_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-dev.xml">
-        <environment insert="." mode="replace" name="BoostIOStreams_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/move-dev.xml">
         <environment insert="." mode="replace" name="BoostMove_DIR"/>
@@ -195,7 +192,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m7cgACgkQxnV5mk56UjEv8gCZAabjnW8sX/vSm0ITXzQTCA0w1/QAniy//wXY
-WbzGqO2qQ9C8w/vws2pm
+iEYEABECAAYFAk+m9wcACgkQxnV5mk56UjGUFACgnbLLPa4OlB2uSMLV8A6SpRoNgDEAnj94D+wE
+zXDPBjy277kgI4bW1N89
 
 -->
