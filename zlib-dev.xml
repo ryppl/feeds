@@ -24,12 +24,13 @@ used in zlib is essentially the same as that in gzip and Zip, namely, the
 
 The lovely zlib-vise image above was provided courtesy of Bruce Gardner, art
 director of Dr. Dobb's Journal. It appears in Mark Nelson's article in the
-January 1997 issue (see below).</description>
+January 1997 issue (see below).
+  </description>
   <homepage>http://zlib.net</homepage>
   <category>Development</category>
   <icon href="http://www.zlib.net/images/zlib_ddj.png" type="image/png"/>
-  <implementation arch="*-src" compile:command="chmod -R +w . &amp;&amp; ./configure --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="sha1new=5e54f57d0ed5fc84307e03b86030bb9451b0a9a1" license="  Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler    This software is provided 'as-is', without any express or implied   warranty.  In no event will the authors be held liable for any damages   arising from the use of this software.    Permission is granted to anyone to use this software for any purpose,   including commercial applications, and to alter it and redistribute it   freely, subject to the following restrictions:    1. The origin of this software must not be misrepresented; you must not      claim that you wrote the original software. If you use this software      in a product, an acknowledgment in the product documentation would be      appreciated but is not required.   2. Altered source versions must be plainly marked as such, and must not be      misrepresented as being the original software.   3. This notice may not be removed or altered from any source distribution.    Jean-loup Gailly        Mark Adler   jloup@gzip.org          madler@alumni.caltech.edu " released="2012-05-03" stability="testing" version="1.2.7">
-    <archive extract="zlib-1.2.7" href="http://zlib.net/zlib127.zip" size="674290" type="application/zip"/>
+  <implementation arch="*-src" compile:command="chmod -R +w . &amp;&amp; ./configure --prefix=&quot;${DISTDIR}&quot; &amp;&amp; make install" compile:dup-src="true" id="sha1new=377bc09c0d2640965251190e77763670f36d7c58" released="2012-05-02" version="1.2.7">
+    <archive extract="zlib-1.2.7" href="http://zlib.net/zlib-1.2.7.tar.bz2" size="505085" type="application/x-bzip-compressed-tar"/>
   </implementation>
   <package-implementation distributions="Debian" package="zlib1g-dev"/>
   <package-implementation distributions="RPM" package="zlib-devel"/>
@@ -38,7 +39,7 @@ January 1997 issue (see below).</description>
   <package-implementation distributions="MacPorts" package="zlib"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+jqzEACgkQxnV5mk56UjF0CACgngWffHYG2MYAEb2sBtpBw4/k4sAAoJnltbCJ
-V2Li4fnclcMZAbqiqqkI
+iEYEABECAAYFAk+nKXYACgkQxnV5mk56UjFfHACfbUJObUQSyOETpq6btPmUqyyqFnEAoJq9C1sm
+EZVZP7vij5WcVu/fKBNX
 
 -->
