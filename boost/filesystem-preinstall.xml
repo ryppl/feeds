@@ -11,7 +11,7 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="331a250c-e368-4255-8e8b-25794851d951" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
+    <implementation arch="*-src" id="24317cdf-08d0-4cb0-b6aa-ba2fd607018b" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
       <archive extract="boost-lib-filesystem-ca208a7" href="http://nodeload.github.com/boost-lib/filesystem/zipball/ca208a787b6d615438be38dac75a656db76ca8cc" size="294828" type="application/zip"/>
       <manifest-digest sha1new="8651dd42f050dbdd98dabdab91a9c79f1b40c507"/>
     </implementation>
@@ -20,9 +20,6 @@
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/filesystem-preinstall.xml">
-        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="filesystem" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
@@ -198,7 +195,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m92IACgkQxnV5mk56UjFdsQCcDRX8cIGFrSFN1KSQAGlqbw+DRmoAniX+8EYM
-5XNEzz3j45Lld3WC8esR
+iEYEABECAAYFAk+oBcQACgkQxnV5mk56UjFi3QCbBIxfLr18VDd3/PNTJkzeg91xcCUAmwTkookP
+JkbJjsHCq+G180DKFT7T
 
 -->

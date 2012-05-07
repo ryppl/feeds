@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8ce5e401-0d55-4a67-9737-51c80d835f08" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
+    <implementation arch="*-src" id="a4ffe4ac-b0aa-4c01-8484-b2eaa5e23980" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
       <archive extract="boost-lib-context-ec05a49" href="http://nodeload.github.com/boost-lib/context/zipball/ec05a49b72c9754107fd3e525ac2de58a2219ed5" size="6106723" type="application/zip"/>
       <manifest-digest sha1new="aa559dd34910d3e6b42a61194d469e439a4f6db7"/>
     </implementation>
@@ -19,9 +19,6 @@
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/context-preinstall.xml">
-        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="context" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
@@ -227,7 +224,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m91gACgkQxnV5mk56UjHcowCgilzRaZBJ5Bc3y0CPZC6BNJ5V0doAn2bWsOX+
-DbjanNR6g+Av9WWlcxZv
+iEYEABECAAYFAk+oBbUACgkQxnV5mk56UjHocQCfRudKelwxKaVD5XU1Lg+hX9QwaroAnRNt9sVX
+nVY9aXGuCWn86/MAQcvS
 
 -->

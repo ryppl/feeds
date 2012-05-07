@@ -10,7 +10,7 @@
     classes.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9cfaa3a0-8af8-419f-9b30-b4d39ea6018b" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
+    <implementation arch="*-src" id="a061ab03-1f15-481b-b911-52cf047bcfb4" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
       <manifest-digest sha1new="e9faecf16545b16ab008911b52ffcfe089447406"/>
     </implementation>
@@ -19,9 +19,6 @@
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/timer-preinstall.xml">
-        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="timer" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
@@ -215,7 +212,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m9v4ACgkQxnV5mk56UjGv4wCeN/W8IowBLwpVHmQK6YZQHV/ob1gAn2GBZDGq
-h/Te1o+Cdp8ceelaC/wW
+iEYEABECAAYFAk+oBUgACgkQxnV5mk56UjGLIwCfW4SfeBfW2w11mpfKXEXiX5JzY7EAnRxh2m9q
+5vPNYpFm3oV6MKKqHmDy
 
 -->

@@ -12,7 +12,7 @@
     iterator interface.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="670c5d6c-0a42-45fc-8e16-41ece3277b5f" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
+    <implementation arch="*-src" id="cc08dc31-a44d-493b-a746-7761a073d0e8" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
       <archive extract="boost-lib-wave-12835c6" href="http://nodeload.github.com/boost-lib/wave/zipball/12835c64e12bb5ebdab418940aed9efcc63f7064" size="858901" type="application/zip"/>
       <manifest-digest sha1new="a7a2ef54b4e1d17cf487764f8ad611f38fedcfe5"/>
     </implementation>
@@ -21,9 +21,6 @@
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/wave-preinstall.xml">
-        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="wave" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
@@ -223,7 +220,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m9zQACgkQxnV5mk56UjGWswCbBfdPbS+kpDGT5cBZh7PXbAfKKDQAn07iJDR3
-j5F7jKgmA5Ofy7vWvCAk
+iEYEABECAAYFAk+oBYUACgkQxnV5mk56UjFYMwCeK6bkl3fKT4RKu+rX6SrwFuuM9bEAniOYGfYV
+2+Rx9LKAMVYhVFcXVK7Z
 
 -->

@@ -11,7 +11,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="33e63f74-058b-41d6-8f99-36722f615213" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
+    <implementation arch="*-src" id="31adc083-b723-48a3-adb9-d405d9c0a588" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
       <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
       <manifest-digest sha1new="fcdeacb6bf5e0e970fae330717e65e30aeb64b5f"/>
     </implementation>
@@ -20,9 +20,6 @@
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/mpi-preinstall.xml">
-        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="mpi" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
@@ -222,7 +219,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m9zwACgkQxnV5mk56UjG2/QCginnLzXWZEJJtWqsz8dJi5HxZF5kAoJQa1vpU
-S2jGymSWVwAKh3+R025x
+iEYEABECAAYFAk+oBZMACgkQxnV5mk56UjFksgCeNHipT2uSo2BWZRe3J1UbyhixtzQAn0qEggYI
+BIHkJyYHxsv5r8AAWgfW
 
 -->

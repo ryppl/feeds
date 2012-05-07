@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c45da09-f2aa-40f0-ae6f-07d82d9da7fc" released="2012-05-06" stability="testing" version="1.49-post-201205062210">
+    <implementation arch="*-src" id="33f4138c-4792-4015-9956-825cd998195c" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
       <archive extract="boost-lib-chrono-9c09b1b" href="http://nodeload.github.com/boost-lib/chrono/zipball/9c09b1b1ddec88816249e7c371b93715f63d1694" size="574655" type="application/zip"/>
       <manifest-digest sha1new="c05afc267585108812f44ddd0c7ca243bb5d942f"/>
     </implementation>
@@ -19,9 +19,6 @@
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>preinstall</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/chrono-preinstall.xml">
-        <environment insert="preinstall" mode="replace" name="SRCDIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="chrono" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
@@ -200,7 +197,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+m904ACgkQxnV5mk56UjETHQCgjCPAvI+f2iVEmb7EGvrqBIl9d3UAn2osnL0I
-+k2wj67BfWadlCIlgUFB
+iEYEABECAAYFAk+oBaQACgkQxnV5mk56UjFKVgCeIc4QXtaRcz99wxAPmI/tFNWJuosAnjXYdpAC
+qOGRgLw1ePI0qQ3aD+2l
 
 -->
