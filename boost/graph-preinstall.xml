@@ -15,14 +15,15 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c4355da2-cc38-4eee-9dc6-0a789ab4951e" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
+    <implementation arch="*-src" id="bcc39f76-a05c-4bd1-be41-3aedf164d949" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
       <archive extract="boost-lib-graph-c113431" href="http://nodeload.github.com/boost-lib/graph/zipball/c1134313f5345aa67a580707ee9c78f17f8020c2" size="3659574" type="application/zip"/>
       <manifest-digest sha1new="d71fcda37b34c51744e85cad470ca6ef212617f8"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
-        <arg>preinstall</arg>
+        <arg>bin</arg>
+        <arg>dev</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="graph" mode="replace" name="BOOST_CMAKELISTS"/>
@@ -211,7 +212,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oBU8ACgkQxnV5mk56UjF1bQCcDeiL4LJBaUH2tgiDW6r12B2Ij44An3JodgxU
-rsbPGu7Y5K9dn5G99CHP
+iEYEABECAAYFAk+oJOAACgkQxnV5mk56UjF8eACeK5fDKqWpgZfy1r1pRnNiUfU0VgcAn0/TPauI
+VHCk2jv3hHs+DQ9fbo5A
 
 -->

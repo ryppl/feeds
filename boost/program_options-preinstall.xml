@@ -13,14 +13,15 @@
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="49e46b09-4460-4d1b-8cee-693804889663" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
+    <implementation arch="*-src" id="08c5da34-a976-4c76-ad1e-8d8db741a1e1" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
       <archive extract="boost-lib-program_options-882c8da" href="http://nodeload.github.com/boost-lib/program_options/zipball/882c8da40f9e0b05e1c414dd7475fe04be15a551" size="159755" type="application/zip"/>
       <manifest-digest sha1new="1ff9987551d2e5bdfdf564b3d7162dea045e7697"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
-        <arg>preinstall</arg>
+        <arg>bin</arg>
+        <arg>dev</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="program_options" mode="replace" name="BOOST_CMAKELISTS"/>
@@ -200,7 +201,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oBUkACgkQxnV5mk56UjH/wgCglS7cEg0SSPXqJnxiwbqNeRAGvLUAoKFr7oZR
-2XnwUoU4jBBSvxhBbl9k
+iEYEABECAAYFAk+oJNoACgkQxnV5mk56UjHhkACdG2OXBFvs42tfFt9Gsr6+m9Y/oFYAn1K8Pfcc
+XhhaOV5cUv2QUp5g3LtR
 
 -->

@@ -10,14 +10,15 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a4ffe4ac-b0aa-4c01-8484-b2eaa5e23980" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
+    <implementation arch="*-src" id="f536392b-279d-4f5d-a48d-6922305cef16" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
       <archive extract="boost-lib-context-ec05a49" href="http://nodeload.github.com/boost-lib/context/zipball/ec05a49b72c9754107fd3e525ac2de58a2219ed5" size="6106723" type="application/zip"/>
       <manifest-digest sha1new="aa559dd34910d3e6b42a61194d469e439a4f6db7"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
-        <arg>preinstall</arg>
+        <arg>bin</arg>
+        <arg>dev</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="context" mode="replace" name="BOOST_CMAKELISTS"/>
@@ -224,7 +225,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oBbUACgkQxnV5mk56UjHocQCfRudKelwxKaVD5XU1Lg+hX9QwaroAnRNt9sVX
-nVY9aXGuCWn86/MAQcvS
+iEYEABECAAYFAk+oJTcACgkQxnV5mk56UjHVzgCbBWuiRgPF7KZ1RPpT15gWJYLExAgAniOXsQxo
+rrKXi043STfol5a5Oxaa
 
 -->

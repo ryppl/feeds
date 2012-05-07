@@ -10,14 +10,15 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bbc1df47-6546-4832-8394-547c8002eae4" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
+    <implementation arch="*-src" id="8bc9bba0-374e-46cb-a15d-7faaea2d36b9" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
       <archive extract="boost-lib-graph_parallel-27a217a" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/27a217a48581a4e6582791856bf95c558f167285" size="1100320" type="application/zip"/>
       <manifest-digest sha1new="5b7f5d326805fd15891575efc8db4404dc826dc7"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
-        <arg>preinstall</arg>
+        <arg>bin</arg>
+        <arg>dev</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="graph_parallel" mode="replace" name="BOOST_CMAKELISTS"/>
@@ -221,7 +222,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oBbcACgkQxnV5mk56UjHFFgCfcRznKEpDtscfMpVIUKko4qu1yF8An24+K9vt
-EltZdeGrVubkVWPld07R
+iEYEABECAAYFAk+oJTgACgkQxnV5mk56UjFg1ACghKyfMYpvjFdrmHOKJuxda/l509MAoJHFbqAD
+ZRP7tDQUSg36KJGJOzBU
 
 -->

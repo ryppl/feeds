@@ -11,14 +11,15 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a9a28158-9bb4-408f-9d1b-14df87b7a351" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
+    <implementation arch="*-src" id="9f7790be-4378-48ae-a2d3-e31d90942e6f" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
       <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
       <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
-        <arg>preinstall</arg>
+        <arg>bin</arg>
+        <arg>dev</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="serialization" mode="replace" name="BOOST_CMAKELISTS"/>
@@ -192,7 +193,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oBTwACgkQxnV5mk56UjH5MwCfQU7ImYvxTls/pjQ8LyaCoAMqipAAnRcscXjP
-aDvZoZ1kT/gArU80TKwz
+iEYEABECAAYFAk+oJNAACgkQxnV5mk56UjEfzACbBDWUhg4VucjLvyTHbALMOFZi2igAn00q2p35
+8TpNBCjrxlP2tAkceFn1
 
 -->

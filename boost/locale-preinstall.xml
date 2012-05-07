@@ -9,14 +9,15 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c8167988-874a-4125-8a13-545d51bd90ce" released="2012-05-07" stability="testing" version="1.49-post-201205071724">
+    <implementation arch="*-src" id="c47f17c0-b28b-4be2-9095-716e71777fc5" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
       <archive extract="boost-lib-locale-80da8e8" href="http://nodeload.github.com/boost-lib/locale/zipball/80da8e8a128c46b5007671086c4103326c52dee6" size="1178082" type="application/zip"/>
       <manifest-digest sha1new="f404025d37ced51f2a9b6e29f93fec306dbad7b1"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
-        <arg>preinstall</arg>
+        <arg>bin</arg>
+        <arg>dev</arg>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
         <environment insert="locale" mode="replace" name="BOOST_CMAKELISTS"/>
@@ -220,7 +221,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oBaoACgkQxnV5mk56UjH+IwCfbkLekchSUuQC4j+fuALuW2aV6w8AoJpBEBSR
-19SFVnIQqx1FFfBzscKO
+iEYEABECAAYFAk+oJTEACgkQxnV5mk56UjEiOgCZAdD/MHH+3lKwuN5hTEIgX/d8O1oAoJkXg/+Y
+y/jz7gKgJhxYvNpc4+cU
 
 -->
