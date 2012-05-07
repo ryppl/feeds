@@ -7,6 +7,7 @@
 </description>
   <implementation arch="*-src" id="AEA7B796-11AC-457F-A015-32853F23B2C0" license="Public Domain" released="2012-05-06" version="0.1">
     <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
+    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     <command name="compile">
       <runner interface="http://repo.roscidus.com/python/python">
         <arg>-c</arg>
@@ -20,7 +21,7 @@
   </implementation>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+nO6YACgkQxnV5mk56UjH7+ACggcbop4iWUS3tX/zjh2mZE4jBv1sAnjniJcPU
-vzzrfZk47NRP+51V7C3Z
+iEYEABECAAYFAk+nPKoACgkQxnV5mk56UjFiUwCeLA1sETY2ulWWhNztoB/JclQH7mgAn3J8FECF
+bItCUFWKxG4qlzlEwkDy
 
 -->
