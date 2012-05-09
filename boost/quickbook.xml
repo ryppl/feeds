@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d16d7e42-2945-485b-9ebf-d405b01c6bd4" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
+    <implementation arch="*-src" id="f077fa03-d898-4037-a2f5-b6d7fff0edc4" released="2012-05-09" stability="testing" version="1.49-post-201205092250">
       <archive extract="boost-lib-quickbook-83b29d7" href="http://nodeload.github.com/boost-lib/quickbook/zipball/83b29d7724222628781e71a4b4b42cc9ac77d4ab" size="436928" type="application/zip"/>
       <manifest-digest sha1new="27846dd16a4f3f9180f23efc0bbc2798a9912713"/>
     </implementation>
@@ -225,13 +225,48 @@
         <environment insert="." mode="replace" name="BoostFilesystem_BIN_DIR"/>
       </requires>
       <compile:implementation>
-        <command name="run" path="quickbook"/>
+        <command name="run" path="bin/quickbook"/>
+        <requires interface="http://ryppl.github.com/feeds/boost/program_options.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/filesystem.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
       </compile:implementation>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+qsccACgkQxnV5mk56UjGYbgCfXMOVeCl/SZHRZ5bWkOQKK//82pIAoJ4XUoFC
-2z4GC2zqGtYOZ4jwuAEg
+iEYEABECAAYFAk+q9N8ACgkQxnV5mk56UjHlqwCgqQtTZquaXgMMa5apcLYp3fOgnhUAn0tuymcB
+OgaBK/nrsTP9ZOTK2hVP
 
 -->

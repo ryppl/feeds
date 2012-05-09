@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6d88d118-7f7e-425d-97cb-c56fab12d209" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
+    <implementation arch="*-src" id="997bb4c3-76f0-43df-bc2b-ac6179c1195f" released="2012-05-09" stability="testing" version="1.49-post-201205092250">
       <archive extract="boost-lib-inspect-7ba03cd" href="http://nodeload.github.com/boost-lib/inspect/zipball/7ba03cda1510b8535f3d727e21803c4996dc55ec" size="42009" type="application/zip"/>
       <manifest-digest sha1new="efdd9be6e994a3db181314e34db04ad5285c0af8"/>
     </implementation>
@@ -249,13 +249,63 @@
         <environment insert="." mode="replace" name="BoostSystem_BIN_DIR"/>
       </requires>
       <compile:implementation>
-        <command name="run" path="inspect"/>
+        <command name="run" path="bin/inspect"/>
+        <requires interface="http://ryppl.github.com/feeds/boost/timer.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/date_time.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/filesystem.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/test.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/chrono.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
       </compile:implementation>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+qsmoACgkQxnV5mk56UjE7UgCePfDOBUHAWsSFBjPL5UVI/OV8tbEAn3q76sgx
-jTwE1+VCv46gfjlMUucI
+iEYEABECAAYFAk+q9VYACgkQxnV5mk56UjEOLQCfXaOd2BqIvilLBqWxCW7LToqK96oAn2+tPm1x
+TBjOW/YTozYw3aABnDnz
 
 -->
