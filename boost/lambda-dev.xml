@@ -11,12 +11,13 @@
     actual call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="98140a77-e7e4-4b5b-a8d1-8a901ad0adc3" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="3e1487e6-c78b-456b-9006-13ae1d4acbe3" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-lambda-9140145" href="http://nodeload.github.com/boost-lib/lambda/zipball/914014514c7cdee429f9c095174533abc69b4934" size="166956" type="application/zip"/>
       <manifest-digest sha1new="85619d77921ec92d4f10fdfa075f2374f612e07d"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJRAACgkQxnV5mk56UjFAzACgou01PMLL6xf0YJUbSrlRF4alg2EAnj3LtU/n
-IwlI4Q8wMiE1LZtM1A/5
+iEYEABECAAYFAk+qsf8ACgkQxnV5mk56UjHxLQCfcXgihSYNGCed8FH92y0EQXRQx6sAnjv+zNP/
+PU3Zrgd1Yc6H41G8SEAe
 
 -->

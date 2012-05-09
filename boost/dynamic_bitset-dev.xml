@@ -17,12 +17,13 @@
     dynamic_bitset.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="73cf7cef-5f30-4a6a-995c-bef23bdc1e07" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="d9188902-ae94-4d2d-b853-e6ed72713005" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-dynamic_bitset-2f5e9b9" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" size="53595" type="application/zip"/>
       <manifest-digest sha1new="937c502cc09795474b36d917e423cd5a26584b55"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJOsACgkQxnV5mk56UjFIcACfaUILrT4yuERgAi8cbpEw1SK72C0An0+CuJ6A
-HP4lZNpuiPZZOGfP5w7h
+iEYEABECAAYFAk+qsdIACgkQxnV5mk56UjF5sQCdFOS5/79tR8CBUjmjasJJQ+FqM/YAnAgSl4M6
+qc6qPvxsC5pljkNS4ca3
 
 -->

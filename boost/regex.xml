@@ -9,14 +9,13 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="33f87649-b58e-45e7-8b1a-fe1c505b10da" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="e13aec3f-7771-4e76-87ce-96853855f658" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -27,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJOUACgkQxnV5mk56UjH+agCgls2OhzLOVL8a6YEaDI3C2MVJx+wAn1SeGCjp
-HC558UZjvdv6VjnpAA1J
+iEYEABECAAYFAk+qscsACgkQxnV5mk56UjG9NwCeOU1JxjWo/NY3VKCQV1eT8vsvQLYAoJ5mcJUG
+13S/3mT5jAn+va+ZH2Wq
 
 -->

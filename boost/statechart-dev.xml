@@ -11,12 +11,13 @@
     maintainable C++ code.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="696664d5-83c3-4107-81af-d978f94c626c" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="2f0ce3c6-374d-4f67-9008-0486ee891682" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-statechart-0e57052" href="http://nodeload.github.com/boost-lib/statechart/zipball/0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f" size="1136040" type="application/zip"/>
       <manifest-digest sha1new="819e1bb2c9ef2da9b7be6f3ee1e3db004958db81"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJT8ACgkQxnV5mk56UjEQvgCgpFO3CcOrv1TGME4N1u3AKwKktC8AnRT/fpuM
-mCWP3B+ea0gSo1vpZq6I
+iEYEABECAAYFAk+qsksACgkQxnV5mk56UjGPYwCfQnyc5nL4Ku1LWUlbcEdZtraPuR8Anjhz0gYV
+YhHvKBybHsQhdmVFYCiu
 
 -->

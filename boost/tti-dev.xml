@@ -10,12 +10,13 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3d78110c-43ff-4587-b432-ea57501f1084" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="6586a3a5-2374-4729-acf7-047490125863" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
       <manifest-digest sha1new="65a8e1f717aaaeef6812cee9cd0a07cc219a4dae"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -27,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJUYACgkQxnV5mk56UjFW3ACfe5VpFapNCRhMWDZo2pHRlo66thgAn2zWefyw
-HBWZY03r8hfMk3Ts9tw2
+iEYEABECAAYFAk+qslUACgkQxnV5mk56UjGWNACfXobXZ5pLp4cMqbEKRlYIJoVYzpMAn06wPKMI
+zalHwoWX1v3QJY4Hd/Pl
 
 -->

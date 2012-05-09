@@ -15,12 +15,13 @@
     in namespace std.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8d482834-d05e-489a-934c-3ca8672d0a54" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="4ebfb41b-3b16-4e83-8212-678b5d869d2f" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-integer-03cfa45" href="http://nodeload.github.com/boost-lib/integer/zipball/03cfa4535fca1829595aa70abf91497c306e71a1" size="64272" type="application/zip"/>
       <manifest-digest sha1new="69bc178b5094fe4343b611af8812c9d94367f9d8"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJOgACgkQxnV5mk56UjHg4wCfbR9ukOTut3dAgIlifw5uzH6RoygAnA18XvPG
-PW1MV51dIa5o1b/AbUQ4
+iEYEABECAAYFAk+qsc8ACgkQxnV5mk56UjEQUACeJDCOniYN2lp9ExEztBTtKLTxDhUAoJxakRGw
+jNFIxXPqgcl+8odBwh9g
 
 -->

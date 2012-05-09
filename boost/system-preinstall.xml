@@ -10,12 +10,13 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a79b35a7-5a2c-42db-b469-03ccaab0bc6a" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="9a760ccb-7cf6-43f3-8a21-a95dc16dbe6c" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-system-73218b5" href="http://nodeload.github.com/boost-lib/system/zipball/73218b57aadda5261abd7d5bb0b6e5c43d37b4b0" size="44606" type="application/zip"/>
       <manifest-digest sha1new="540cff5ffc5ba68f75283111747ddacc0c2ef165"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
@@ -188,11 +189,23 @@
       <requires interface="http://ryppl.github.com/feeds/boost/logic-dev.xml">
         <environment insert="." mode="replace" name="BoostLogic_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+        <environment insert="." mode="replace" name="BoostRandom_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+        <environment insert="." mode="replace" name="BoostMath_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJVUACgkQxnV5mk56UjFSugCfefUagaA9y85q4+8G4GJIheMT2XcAnAwxzN5s
-dcvgRh3EnqefoYOnDS5m
+iEYEABECAAYFAk+qsnEACgkQxnV5mk56UjFQOACfSH2/2lRte9UvIcdDCyCG6fV6i/8An1dKWLrW
+hS+1LyhvYOcYlUlCCCeQ
 
 -->

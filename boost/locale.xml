@@ -9,14 +9,13 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9ac9e4f4-9b1f-4a0c-9308-612f937c1b1b" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="49bfbb2d-d2d3-4647-9b7d-cb643a3a30a4" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -27,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJTEACgkQxnV5mk56UjEySQCfXNu+Jtquu678A+enqor8BX6NickAmwbtULhV
-xSO/lnqlYvIBphn7AAre
+iEYEABECAAYFAk+qsi8ACgkQxnV5mk56UjFTLgCePvixg9POTVYxHiD9DCZeXU+/FU4Anj+nQ/iw
+LFDmtD985U2znUdUem+Z
 
 -->

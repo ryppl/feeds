@@ -11,14 +11,13 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="37bf2dd7-c4b7-48e9-886d-638541950089" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="b859e7fb-1375-4fcb-9274-e3b115925ac7" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -29,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJOYACgkQxnV5mk56UjFWMQCfSH8v1N3ljcwnbFuFoYF0e1jxMg4An1P3EwC0
-QMOYaeFaFUfgpAGGdb85
+iEYEABECAAYFAk+qscwACgkQxnV5mk56UjH1lQCeJD9td8+lpgnsugsBnu0a14sOrAwAn0jBFLCt
+y1vIn8G/KPptCzTKR41Z
 
 -->

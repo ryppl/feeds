@@ -9,12 +9,13 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1c4596a0-6beb-405f-82ce-fffeb9d2697b" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="a7adefe4-6ce5-4d3e-8377-ed6391f10fee" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
       <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJUMACgkQxnV5mk56UjFTTgCfRdm4VBHWAx1kDpuGRhggpIuTeEgAn323HKRW
-OxSbhsHXqTBLdRemt7LR
+iEYEABECAAYFAk+qslEACgkQxnV5mk56UjGaQQCfXO3swqvdK4Annbwd5wlriOQ5KM4An0gAdj/A
+q+JrnSdScPkHWJFbnS/F
 
 -->

@@ -11,12 +11,13 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9f7790be-4378-48ae-a2d3-e31d90942e6f" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="4961906a-b021-4c93-ae8e-317c4c3c38f6" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
       <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
@@ -189,11 +190,23 @@
       <requires interface="http://ryppl.github.com/feeds/boost/logic-dev.xml">
         <environment insert="." mode="replace" name="BoostLogic_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+        <environment insert="." mode="replace" name="BoostRandom_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+        <environment insert="." mode="replace" name="BoostMath_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJNAACgkQxnV5mk56UjEfzACbBDWUhg4VucjLvyTHbALMOFZi2igAn00q2p35
-8TpNBCjrxlP2tAkceFn1
+iEYEABECAAYFAk+qsawACgkQxnV5mk56UjHqgACfXoPWdNkAj3u3iRHfmJWmzvGQeQYAnifjKX1L
+SzKyp6YTlbSjRjGxN12e
 
 -->

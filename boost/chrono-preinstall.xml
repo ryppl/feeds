@@ -10,12 +10,13 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="757d65bd-cd32-403e-918c-b2f7c9c7e5de" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="baf65841-7909-46e7-8ecf-e0bab9110582" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-chrono-9c09b1b" href="http://nodeload.github.com/boost-lib/chrono/zipball/9c09b1b1ddec88816249e7c371b93715f63d1694" size="574655" type="application/zip"/>
       <manifest-digest sha1new="c05afc267585108812f44ddd0c7ca243bb5d942f"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
@@ -194,11 +195,26 @@
       <requires interface="http://ryppl.github.com/feeds/boost/logic-dev.xml">
         <environment insert="." mode="replace" name="BoostLogic_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+        <environment insert="." mode="replace" name="BoostRandom_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+        <environment insert="." mode="replace" name="BoostMath_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
+        <environment insert="." mode="replace" name="BoostSystem_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJS0ACgkQxnV5mk56UjG6HQCfeyzb7iw2m2jbZVlFw6lX+59JoF4AoIGr/7/E
-FtCLkNBr9Ox0lGI9jbjK
+iEYEABECAAYFAk+qsiYACgkQxnV5mk56UjHKPQCffdYuZdBRrXZXY/KPGEJwL2imnhgAni6OJ05u
+HDt9nPOy1/TaCmKfsy6X
 
 -->

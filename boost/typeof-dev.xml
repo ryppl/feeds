@@ -10,12 +10,13 @@
   <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d41aa9c3-cb0a-49d4-8b32-f4b7880114ef" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="620f4e12-9feb-4d0f-8a00-831b042505bc" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
       <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -27,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJVAACgkQxnV5mk56UjH2JACgiWsvTGoXqoodHei9gM7z149ohDAAoKbjs1oS
-hNPtuZ0MtKI2zxQOtX77
+iEYEABECAAYFAk+qsmYACgkQxnV5mk56UjEQCgCcDpDjV8D2l0EONmaBcplhEAG2qrAAoKju2tgL
+J4QLfhrGWv0brhNXayVB
 
 -->

@@ -13,14 +13,13 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b6b2b71c-a2b3-4c1e-8ab7-4b2282e07276" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="7942366c-eef7-44f2-a955-618a298d445d" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -31,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+oJUIACgkQxnV5mk56UjEdQwCgjNh3/r5VPEhFd8lNRl4gzYGCRksAljjVK9ew
-Tsut/Iynt0CLRLylzas=
+iEYEABECAAYFAk+qslAACgkQxnV5mk56UjGHLwCfW/nx4LJUOh/iHbctn389lAtJbh8AoJcL+IHB
+qWKDmgBbhDe57qYSsjQG
 
 -->

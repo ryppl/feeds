@@ -10,12 +10,13 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c5c3bbec-74b7-472f-8367-67174c01baa9" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="6d88d118-7f7e-425d-97cb-c56fab12d209" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-inspect-7ba03cd" href="http://nodeload.github.com/boost-lib/inspect/zipball/7ba03cda1510b8535f3d727e21803c4996dc55ec" size="42009" type="application/zip"/>
       <manifest-digest sha1new="efdd9be6e994a3db181314e34db04ad5285c0af8"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
       </runner>
@@ -217,6 +218,36 @@
       <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
         <environment insert="." mode="replace" name="BoostContainer_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/timer.xml">
+        <environment insert="." mode="replace" name="BoostTimer_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/date_time.xml">
+        <environment insert="." mode="replace" name="BoostDateTime_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/filesystem.xml">
+        <environment insert="." mode="replace" name="BoostFilesystem_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+        <environment insert="." mode="replace" name="BoostRandom_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+        <environment insert="." mode="replace" name="BoostMath_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/test.xml">
+        <environment insert="." mode="replace" name="BoostTest_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/chrono.xml">
+        <environment insert="." mode="replace" name="BoostChrono_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
+        <environment insert="." mode="replace" name="BoostSystem_BIN_DIR"/>
+      </requires>
       <compile:implementation>
         <command name="run" path="inspect"/>
       </compile:implementation>
@@ -224,7 +255,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJVIACgkQxnV5mk56UjGJeQCfZZ53KEb77OKj4M8bl0wK1EBgC14An2p2+0sN
-UtT+gsd8pOOQ0NLBSHyx
+iEYEABECAAYFAk+qsmoACgkQxnV5mk56UjE7UgCePfDOBUHAWsSFBjPL5UVI/OV8tbEAn3q76sgx
+jTwE1+VCv46gfjlMUucI
 
 -->

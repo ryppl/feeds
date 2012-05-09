@@ -13,14 +13,13 @@
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ed1adb42-941f-4bbe-972d-4f0fbfb299fd" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="c1a35275-9a69-4f48-907c-a5d1e98a2c81" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -31,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJNoACgkQxnV5mk56UjE9KQCfbba4CFHpSWdIPURqHXqxMnz0zW0An0RRE3WU
-jOtovkdbtfPEAUq1fxr8
+iEYEABECAAYFAk+qsbsACgkQxnV5mk56UjG/iACgpGgv0XbPexroKfZUIZj2ixVNitgAniAdz+L5
+mYXJoCXv8FEJMPiLAKsO
 
 -->

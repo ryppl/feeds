@@ -11,12 +11,13 @@
     libraries.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="94dbfff2-26ef-4952-a126-e021f7fa0f1c" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="513013ef-62b7-4320-a783-166e34d36eee" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-compatibility-c84115b" href="http://nodeload.github.com/boost-lib/compatibility/zipball/c84115ba67fc022ada1e9a725f1da59fa22102f6" size="15071" type="application/zip"/>
       <manifest-digest sha1new="0690cea7e6722e9e5eae4dba3a6d1216b22ac5d0"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJR4ACgkQxnV5mk56UjHwXgCghaCsYy7T2AKsbnQ4GRM3LU6sdxkAoIqDikor
-qgsS5OtIkp4LutorGxgA
+iEYEABECAAYFAk+qsg8ACgkQxnV5mk56UjGMxACePuQatZsrJdXSHDEi0tnZK2AemlwAn1RU+kQ9
++6A/55LEcLIEnTbRYY2I
 
 -->

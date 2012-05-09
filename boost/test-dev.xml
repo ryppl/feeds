@@ -10,14 +10,13 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ea1169a0-580c-4e9f-8c7e-450c0de1abe7" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="2a72ec37-3998-4a8a-ad05-509e8b9d063d" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -28,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJUgACgkQxnV5mk56UjHOUgCfWoRDrczje3DPYg326cKFgtv6VawAn2UIg8NX
-m9wZ+qQ3c3a1RyjZb9uQ
+iEYEABECAAYFAk+qslkACgkQxnV5mk56UjGZQwCdEnAoJJFAy2qhNV2X6R/a6yNteFsAn3E7r4RX
+At90yrzfHLPBXdF+cD9D
 
 -->

@@ -10,12 +10,13 @@
     objects.</description>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="144146be-f36b-4951-a8e8-ebe5fe0049bc" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="a7cc9b79-0701-4a85-9047-8807e9f28e99" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
       <manifest-digest sha1new="afba6328cca18f79933c14b5e2fcafecf6b9225e"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -27,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJSwACgkQxnV5mk56UjGSuACghaj1efTBVM9uPnUouyQUx7cDcmoAnRLkmURf
-HQQGvbYeZ+FjwjjJ7bLC
+iEYEABECAAYFAk+qsiQACgkQxnV5mk56UjEv+wCfcHzKonTJqQNZFfbnbH37ysIFns4AoJDWnoTp
+RFFgEFYx0FAj8P/KtyMV
 
 -->

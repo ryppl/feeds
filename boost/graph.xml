@@ -15,14 +15,13 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f993d13a-b75c-46a3-94e6-b21fa33dfd97" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="6a861133-f387-4cba-b2fc-9f3cb7c7c95c" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -33,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJOAACgkQxnV5mk56UjG+fQCghJt7YGRxP3mcVLkk48JKtX0zXO8Anj0yu0x8
-1J/osr7dPRO3Y1pnmbYk
+iEYEABECAAYFAk+qscIACgkQxnV5mk56UjEIuwCfe5WH05MnHrHpOpttCHb/ES6cPQMAn14ElZOz
+yUrQg/8K0yQkyg6pz5lr
 
 -->

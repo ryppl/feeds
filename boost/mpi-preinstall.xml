@@ -11,12 +11,13 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ba5e3329-59c0-4776-a3e0-81e98e5aa8ac" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="375f33b1-f606-45e8-bcc6-abd43278eb02" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
       <manifest-digest sha1new="fcdeacb6bf5e0e970fae330717e65e30aeb64b5f"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
@@ -216,11 +217,32 @@
       <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
         <environment insert="." mode="replace" name="BoostContainer_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/serialization.xml">
+        <environment insert="." mode="replace" name="BoostSerialization_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/graph.xml">
+        <environment insert="." mode="replace" name="BoostGraph_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/python.xml">
+        <environment insert="." mode="replace" name="BoostPython_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+        <environment insert="." mode="replace" name="BoostRandom_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+        <environment insert="." mode="replace" name="BoostMath_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJR8ACgkQxnV5mk56UjER3gCgksw7SZZMtTj3U155dOswqbdXn9sAmwcB+G7V
-tweUdiFZKlG5nCSCjuNH
+iEYEABECAAYFAk+qshAACgkQxnV5mk56UjEZwgCgkyQEMhK7CHHzICmFCEc3UlL4uW8AnRhr38a6
+rHaWp2CTOkhVwFRtUtRH
 
 -->

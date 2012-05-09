@@ -11,12 +11,13 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="23e533ef-b332-4927-8537-648e5ab217da" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="54d22a61-5f76-4e4f-843f-bd2972cb2a2b" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
       <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
@@ -192,11 +193,23 @@
       <requires interface="http://ryppl.github.com/feeds/boost/logic-dev.xml">
         <environment insert="." mode="replace" name="BoostLogic_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/random.xml">
+        <environment insert="." mode="replace" name="BoostRandom_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/math.xml">
+        <environment insert="." mode="replace" name="BoostMath_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
+        <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJVAACgkQxnV5mk56UjHsWACcC8k2y/NKiHRdt/uQ6ZckkD8M5XIAnifLL7dY
-kBIR8WiNMJLCS3Hwv04I
+iEYEABECAAYFAk+qsmUACgkQxnV5mk56UjEwWQCgl6J0yg+eZciqeZRZ4iqztD07MS0AoKRlhI0T
+ZieNVzZFbozf1ZPpF7g/
 
 -->

@@ -12,14 +12,13 @@
     iterator interface.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="55c9bbf5-f284-4640-ac06-1103f56a05c1" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="5d7c2459-1c7f-453c-a5a9-b237357480b2" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
-        <arg>-E</arg>
-        <arg>copy_directory</arg>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
@@ -30,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJREACgkQxnV5mk56UjHTLQCeIIa2gGifDrmQ/Y1GFrj7Vx3ZJ2wAnjP/Eu3+
-WtePm2Tpd1LCav3wtrFM
+iEYEABECAAYFAk+qsgEACgkQxnV5mk56UjFwAgCgny/Som5moD4rsMxKeXzYu/+4cyYAnjoH8a+9
+0IHG12X/bKIvAmGYMBpK
 
 -->

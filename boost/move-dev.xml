@@ -9,12 +9,13 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="92869b32-1442-4c9b-bde3-7aa693050854" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="5da67c99-71ab-414a-a9fb-faeb24cdee44" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-move-85df50e" href="http://nodeload.github.com/boost-lib/move/zipball/85df50ea2368a236d2f2240eb4eb34a39bef870b" size="86190" type="application/zip"/>
       <manifest-digest sha1new="882a491e77be9be7b97ad0607e8e768a2179f51e"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJSIACgkQxnV5mk56UjFSAACgm2b1rpyt/QbqYh+xxbaXsjnjQ1QAoIRB2J7+
-N/70Ydv+2UZIRJbs07Ep
+iEYEABECAAYFAk+qshUACgkQxnV5mk56UjFgLQCeNNFxhcFNIdWC4zoEPnTkxX+iUNcAnRNJozZy
+cvBgKTObprfSsqwRhkB6
 
 -->

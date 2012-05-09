@@ -5,12 +5,13 @@
   <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fd77500f-6dfa-41e8-9cc2-41e55d8e3bc6" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="4b841ad0-61fa-48c7-850e-608e888ef65c" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>--add-subdirectory</arg>
         <arg>${BoostRegex_SRCDIR}</arg>
@@ -205,7 +206,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJMsACgkQxnV5mk56UjEWvgCgmYCJ09ADLTF4HQ4xa0LQ1iTXCDoAoIzrKccI
-gT2iPYqnVUiIgwGwZjzj
+iEYEABECAAYFAk+qsakACgkQxnV5mk56UjGdtQCglCejuDvfRmOLu6vxWvG2EufxISwAn3umWTTZ
+p0F7zz0aLhcN6/cL22iL
 
 -->

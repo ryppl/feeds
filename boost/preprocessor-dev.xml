@@ -11,12 +11,13 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="15facbab-cbdb-4b6c-8f75-4332e3ff4661" released="2012-05-07" stability="testing" version="1.49-post-201205071938">
+    <implementation arch="*-src" id="c8704ce6-75e9-44ae-a950-0d968959da01" released="2012-05-09" stability="testing" version="1.49-post-201205091804">
       <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
       <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/0cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+oJU8ACgkQxnV5mk56UjE+tQCfZzgzOurgNEoZO7EPEBqwrqoYDDEAnA/HG7z3
-/12fOYGMv8X0afvBN1rF
+iEYEABECAAYFAk+qsmQACgkQxnV5mk56UjGqeACfXDb1Ylr/YFEnZkI/eRwhwySTERAAnjVvkHyE
+lxrvy536ylsRMR+XPhDf
 
 -->
