@@ -15,7 +15,10 @@ user-level commands.</description>
   <dc:author>Dave Abrahams &lt;dave@boostpro.com&gt;</dc:author>
 
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=be5214be0c34351078a9093495358632befe5b71" released="2012-05-09" stability="testing" version="0.8-pre-201205081355">
+    <implementation id="sha1new=8d203cca69e4242373c59f17d6f0c695fbf34ad4" released="2012-05-09" stability="developer" version="0.8-pre-201205092010">
+      <archive extract="ryppl-ryppl-e543dc6" href="http://nodeload.github.com/ryppl/ryppl/zipball/e543dc6aefc1d98dc31d292256bd89797ee9e665" size="8907" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=be5214be0c34351078a9093495358632befe5b71" released="2012-05-09" stability="buggy" version="0.8-pre-201205081355">
       <archive extract="ryppl-ryppl-e95a8f1" href="http://nodeload.github.com/ryppl/ryppl/zipball/e95a8f19504fe2bb9a527be94d19312ef4071a00" size="8898" type="application/zip"/>
     </implementation>
     <command name="run" path="bin/ryppl">
@@ -30,7 +33,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+qr98ACgkQxnV5mk56UjEqOQCglyyOE4R/zKuaNs93grmaUy1xTwMAoJ+V1A5q
-kLFURV9n3FoP/xu+eoMi
+iEYEABECAAYFAk+rB7EACgkQxnV5mk56UjGsRwCgpxhtmFWXmyAlqNy2RygJrn3hpAMAn2xJj1l1
+jxtzcteM1nLWlvabCFk/
 
 -->
