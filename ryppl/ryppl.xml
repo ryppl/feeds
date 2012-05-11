@@ -25,15 +25,14 @@ user-level commands.</description>
       <runner interface="http://repo.roscidus.com/python/python">
         <version before="3"/>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/ryppl/CMakeSupport.xml">
-        <version not-before="0.8-pre-201205050948"/>
-        <environment insert="Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
+      <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <environment insert="cmake/Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+rB7EACgkQxnV5mk56UjGsRwCgpxhtmFWXmyAlqNy2RygJrn3hpAMAn2xJj1l1
-jxtzcteM1nLWlvabCFk/
+iEYEABECAAYFAk+te/AACgkQxnV5mk56UjGSLQCgp4/vzcWZOlIdlPaaV0K2JRHE46UAnjl7f5RM
+KzcnF6yfbcxBmHD0ZlWB
 
 -->
