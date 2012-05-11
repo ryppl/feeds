@@ -43,7 +43,7 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
     </implementation>
 
     <command name="compile">
-      <runner interface="http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml">
+      <runner interface="http://ryppl.github.com/feeds/cmake.xml">
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}/cmake</arg>
@@ -54,7 +54,7 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tFKUACgkQxnV5mk56UjG4vACeIERXTw1hpIfjRfdGtTkgFJA3oL8An2P6kOsP
-lkUuJK/CiRPczfSEYujF
+iEYEABECAAYFAk+tHKoACgkQxnV5mk56UjFYkwCggccLQTLnkUO5UAbLnlw1n8PQgO4An0aSOJyS
+coeLelvomgi3pOhGDP/e
 
 -->

@@ -10,10 +10,10 @@ example, the following snippet issues two cmake commands in sequence:
 
   &lt;command name='compile'&gt;
    &lt;runner interface='http://ryppl.github.com/feeds/ryppl/0runner.xml'/&gt;
-     &lt;arg&gt;http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml&lt;/arg&gt;
+     &lt;arg&gt;http://ryppl.github.com/feeds/cmake.xml&lt;/arg&gt;
          &lt;arg&gt;-D&lt;/arg&gt; &lt;arg&gt;CMAKE_INSTALL_PREFIX=${DISTDIR}&lt;/arg&gt; &lt;arg&gt;${SRCDIR}&lt;/arg&gt;
      &lt;arg&gt;;&lt;/arg&gt;
-     &lt;arg&gt;http://afb.users.sourceforge.net/zero-install/interfaces/cmake.xml&lt;/arg&gt;
+     &lt;arg&gt;http://ryppl.github.com/feeds/cmake.xml&lt;/arg&gt;
          &lt;arg&gt;--build&lt;/arg&gt; &lt;arg&gt;.&lt;/arg&gt; &lt;arg&gt;--target&lt;/arg&gt; &lt;arg&gt;install&lt;/arg&gt;
    &lt;/runner&gt;
   &lt;/command&gt;
@@ -33,7 +33,7 @@ example, the following snippet issues two cmake commands in sequence:
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+IZ0cACgkQxnV5mk56UjGS9ACgk4M/yr2NraF1zLuIPMB44DLpkuUAoIxtV+Ty
-vy3xUygphGaoPjd70Z5p
+iEYEABECAAYFAk+tHP8ACgkQxnV5mk56UjECLwCeINQ/9cWb7ecort4gDt+QvLRxsGwAoKkhaoaG
+uSezgGkOibshI3t0/Sld
 
 -->
