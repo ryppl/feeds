@@ -30,12 +30,13 @@ user-level commands.</description>
       </runner>
       <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <environment insert="cmake/Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
+        <environment insert="." mode="replace" name="PYTHONPATH"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tfhEACgkQxnV5mk56UjEtugCgj8S7I4o9GtI8lQOH/GV+q9RErF4An2q/QDM7
-cV5GMH13w3e/dN/aqQFH
+iEYEABECAAYFAk+v91MACgkQxnV5mk56UjEe5gCfcpOdQLPlqzwOOa+R5MoSqBh39dIAnjDYmV93
+Sbnp5C0m3MfPFHWoXP5E
 
 -->
