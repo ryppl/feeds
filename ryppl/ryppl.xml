@@ -15,14 +15,11 @@ user-level commands.</description>
   <dc:author>Dave Abrahams &lt;dave@boostpro.com&gt;</dc:author>
 
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=900c89ab44285ff865ad9d515eaee4aa5376daab" released="2012-05-11" stability="developer" version="0.8-pre-2012.05.11.1500">
+    <implementation id="sha1new=6e26fa3421599b10bb0c7570ebaafa7bffe8c5a8" stability="developer" version="0.8-pre-2012.05.13.1221">
+      <archive extract="ryppl-ryppl-2d9fdc0" href="http://nodeload.github.com/ryppl/ryppl/zipball/2d9fdc09917f96b72cb07308583912cbca733779" size="62532" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=900c89ab44285ff865ad9d515eaee4aa5376daab" stability="developer" version="0.8-pre-2012.05.11.1500">
       <archive extract="ryppl-ryppl-4efd0d8" href="http://nodeload.github.com/ryppl/ryppl/zipball/4efd0d883fa87921498d3f72f00889229e84a647" size="62443" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=8d203cca69e4242373c59f17d6f0c695fbf34ad4" released="2012-05-09" stability="buggy" version="0.8-pre-201205092010">
-      <archive extract="ryppl-ryppl-e543dc6" href="http://nodeload.github.com/ryppl/ryppl/zipball/e543dc6aefc1d98dc31d292256bd89797ee9e665" size="8907" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=be5214be0c34351078a9093495358632befe5b71" released="2012-05-09" stability="buggy" version="0.8-pre-201205081355">
-      <archive extract="ryppl-ryppl-e95a8f1" href="http://nodeload.github.com/ryppl/ryppl/zipball/e95a8f19504fe2bb9a527be94d19312ef4071a00" size="8898" type="application/zip"/>
     </implementation>
     <command name="run" path="bin/ryppl">
       <runner interface="http://repo.roscidus.com/python/python">
@@ -36,7 +33,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+v91MACgkQxnV5mk56UjEe5gCfcpOdQLPlqzwOOa+R5MoSqBh39dIAnjDYmV93
-Sbnp5C0m3MfPFHWoXP5E
+iEYEABECAAYFAk+v+9EACgkQxnV5mk56UjH0uACfV2C2CQQs1XZMsMgi5dz4elHddMYAn2CRE9fN
+ygHX3hOtiNHJOpbISSju
 
 -->
