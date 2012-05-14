@@ -10,14 +10,31 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ad365924-35ee-4579-a444-1e0e3e691d1a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="bd2ea8c0-8236-421d-829d-280c5cd4dcc9" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
       <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/unordered-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/intrusive-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wymEACgkQxnV5mk56UjHYhACfbeeB3AJ0bzPWf1Lmf30g/fWO6PQAoI4Ylzi6
-aCFVP7yE+sFqodWO9QK/
+iEYEABECAAYFAk+xMgMACgkQxnV5mk56UjHvZACeOMRawe/39YZZLni0q1sEpUA3YtoAnjPyrFSi
+3Mf/96mrcR0zsQXN9QvL
 
 -->

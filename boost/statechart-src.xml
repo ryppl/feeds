@@ -11,14 +11,26 @@
     maintainable C++ code.</description>
   <category type="http://boost.org/lib-categories">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e0f04e40-bf33-4349-b361-86082f3cab82" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="7681aae8-c2da-47c1-a0e3-07745f12ba8e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-statechart-0e57052" href="http://nodeload.github.com/boost-lib/statechart/zipball/0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f" size="1136040" type="application/zip"/>
       <manifest-digest sha1new="819e1bb2c9ef2da9b7be6f3ee1e3db004958db81"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyy4ACgkQxnV5mk56UjGmMQCeL0Q7sVUUQc7dpCHcHjfWNx3L/u0An0bPYG1S
-PV0yp6SdrI3BkDwctsU2
+iEYEABECAAYFAk+xMw8ACgkQxnV5mk56UjFwKACfcjxI8KQ/7qCykX++pWH7sfzxKl0Anj7SI3F3
+iwH6AVXBTx3jnnjavD1P
 
 -->

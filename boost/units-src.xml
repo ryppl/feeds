@@ -10,14 +10,28 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="32cbc4be-5a5c-4280-a49e-1a055cce7951" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="14842795-54da-4ebf-af41-7766c6d30ed7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
       <manifest-digest sha1new="5a0da961c4efc441cad30011fa3bcab5d2cd9c99"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/lambda-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/algorithm-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyyEACgkQxnV5mk56UjF3JACfdbSQJOvJ/rkcybdZwxjnDbfZS+MAn1y73wWK
-DaVICj1TV5P2NvXsilaZ
+iEYEABECAAYFAk+xMwEACgkQxnV5mk56UjEBJwCfa8UkWc4tU8PpMNUoLL2+EC/09q8An1usCAJj
+evaNJmcolr44fqmscEE5
 
 -->

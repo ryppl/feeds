@@ -9,14 +9,22 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="8c272915-978f-493d-80a3-a0f848bed248" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="a5f2c4cc-9a0f-4245-9c0a-dfea169c58b6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
       <manifest-digest sha1new="1a8bfcefb84ea3d0fb24a2886f7afb9ccbf07aaf"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wy1kACgkQxnV5mk56UjGvrACgjgYflBvP+2XWUZPPFYfx9xqrTE8An3Rzkq0c
-lyrJDBaNU9mXWsbaTcqE
+iEYEABECAAYFAk+xMzoACgkQxnV5mk56UjFuhgCgntJgLM/8vmkiuT2wenZxowQzhpQAn094bTTD
+EuU9lazlaw5N0ooZnFsq
 
 -->

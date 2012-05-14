@@ -10,14 +10,28 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="029e5b4d-ff14-481a-8d05-46145d91efea" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="996b292c-8399-42d4-be6f-ccc1da16d40f" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-functional_hash-8d53c37" href="http://nodeload.github.com/boost-lib/functional_hash/zipball/8d53c3711dbc853429696a4b490ae258e4361a49" size="70030" type="application/zip"/>
       <manifest-digest sha1new="9cafc178096825848e04dfe63ec0f7a58417a7e6"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wy1IACgkQxnV5mk56UjFI+wCeP80KT5StdyQO0srXcufFMgkA4XcAmwU5W2wc
-xluLyJ3zYIrM0Y4VqU4w
+iEYEABECAAYFAk+xMzAACgkQxnV5mk56UjHCfgCffMl12161xvE9tkyl1QWI2gGfY08An1KtElZ9
+TWqzzv/JfNbLbLeOCGHF
 
 -->

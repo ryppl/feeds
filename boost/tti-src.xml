@@ -10,14 +10,22 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="43c4cdb5-c6c6-410d-8055-ae8628594859" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="714b49d9-8d3b-4904-b19d-a9c967042aea" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
       <manifest-digest sha1new="65a8e1f717aaaeef6812cee9cd0a07cc219a4dae"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function_types-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wy0AACgkQxnV5mk56UjHv8QCeLbq4mwywK02pgAxhIZFNdZO67eUAoJvx5Fka
-1DlXIMg/oU2KejcjJn73
+iEYEABECAAYFAk+xMyAACgkQxnV5mk56UjG56gCfXe59ZAOWizVtuxr6Y5rnS+HtNNsAn1Iwrv2N
+lj7OIGCuSqhNaSrzAwPB
 
 -->

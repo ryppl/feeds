@@ -61,14 +61,28 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6ca17adf-f840-4104-8f64-b32bbb2dce6e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="7b9a7f87-c4dd-42dd-8014-de8d49d694b7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-utility-1bdfe57" href="http://nodeload.github.com/boost-lib/utility/zipball/1bdfe57dcb74563a90186e23ef212852a33d77f4" size="223247" type="application/zip"/>
       <manifest-digest sha1new="2b954b4353b864ec722035bec32725e15a71b861"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wy10ACgkQxnV5mk56UjHZ5ACeN57jyt2xsqlJhL8pUH2tu4vMBd8AoITonqDy
-5XrpmbLtZsTq2tNhqX0/
+iEYEABECAAYFAk+xMzwACgkQxnV5mk56UjF/ewCfe33LAQCa61fhUisax7YwuxEpmMoAniVIpwdh
+n4Pj4qPeFzQNZBcvOziP
 
 -->

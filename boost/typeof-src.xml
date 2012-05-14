@@ -10,14 +10,22 @@
   <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d2a3c795-fb5e-445d-a95a-c92f0d08ca6c" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="0dcf6d73-c713-40f3-97ce-2ac6851d6362" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
       <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wy1YACgkQxnV5mk56UjE8sACeO1EyDrKB+eHnF/SrjePQeRsdlpgAn1cw5Z6N
-igjopI5wmLFINzPgLgyI
+iEYEABECAAYFAk+xMzYACgkQxnV5mk56UjFenwCgheDn4YZTOX5BXvEdusuqfvr89kcAn26igVkt
+1AOrSAo8gqiRFZeun0Lk
 
 -->

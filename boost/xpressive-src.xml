@@ -12,14 +12,34 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4c6d2e62-df0c-4db8-b9e6-7617eed9be19" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="df4312e4-c170-4fa2-9b04-0318f1a213e0" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-xpressive-d3dc4e3" href="http://nodeload.github.com/boost-lib/xpressive/zipball/d3dc4e3998db9f7f8f2bacaaaabf244b68af3dcb" size="367670" type="application/zip"/>
       <manifest-digest sha1new="fc4f662f594e67221ad2ec254c7c167c924379cd"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/fusion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/spirit-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/proto-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyyMACgkQxnV5mk56UjE+gwCgjWjLbs1dQJiQVJtjRpja6wYTK/kAn2PGwZgN
-IsqpRUvJYjZWj/WEzOnd
+iEYEABECAAYFAk+xMwMACgkQxnV5mk56UjETHgCfbaW+VebhZpR08elUwsUPznSulq4An2M4XlS5
+eay9/q5Sp2agL6ZgwR8L
 
 -->

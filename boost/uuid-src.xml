@@ -10,14 +10,27 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="cdd33514-fe8d-435a-9202-152193a57974" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="f52a518f-9ebc-4ab4-95b3-3b8d96ad5c14" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-uuid-9792b68" href="http://nodeload.github.com/boost-lib/uuid/zipball/9792b6844e27783e0aabf8c368202f4501c5edc0" size="48953" type="application/zip"/>
       <manifest-digest sha1new="5555e47d765e89672dfa95491c2c0722e120e98b"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/random-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyssACgkQxnV5mk56UjEN7ACgnEd4bDLdQRc3/R/mK57CPJcstX8AoKIfQvf6
-Mt68AxY4aUbcJdib1ZQ/
+iEYEABECAAYFAk+xMpYACgkQxnV5mk56UjGbwACfc9bAvJTG28S4kFNtx8h2dPnWftQAn1R/bE24
+rWkh1wv/2hMh9poqpVRU
 
 -->

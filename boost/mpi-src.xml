@@ -11,74 +11,36 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="5907e282-ab8d-433c-98ed-5ef177a65c3a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="4fa616a7-c8bc-456f-a30d-f8541a0400c7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
       <manifest-digest sha1new="fcdeacb6bf5e0e970fae330717e65e30aeb64b5f"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/pythonlibs-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/property_map-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/python-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/variant-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/unordered-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/functional-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/lambda-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/algorithm-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/proto-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/random-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/parameter-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/graph-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/rational-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/iostreams-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/phoenix-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/format-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/units-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/array-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/foreach-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/xpressive-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/any-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/intrusive-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/assign-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/multi_index-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/tr1-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/pool-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/uuid-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/function_types-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/spirit-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/mpi-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/fusion-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/python-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/logic-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyuoACgkQxnV5mk56UjGr7QCeIC93iBweUYanluB4JhZvbpOL8vkAoKEFjpMq
-/wu2oxA0KyjbwPjIIL90
+iEYEABECAAYFAk+xMrgACgkQxnV5mk56UjFOMwCfeJUpQeFH/rBKp3gkF8P1Bc4h+B4AmwQKLLBw
+yjpcO1F3ui+PO6JD30fQ
 
 -->

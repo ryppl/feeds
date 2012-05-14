@@ -12,14 +12,20 @@
   <category type="http://boost.org/lib-categories">Correctness</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="51e1dc79-2f1a-45a2-8407-3df96170b6f1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="ad27110d-ebc3-4069-9c78-61f04cac4ff4" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha1new="28ef9080ebda7d638f1431807c2b3d2fdb496978"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyzIACgkQxnV5mk56UjGqNACeIK4iEWah54oXEn9xjcUUBVbZW14AnA5SO3al
-KrjYRpJiJ1xjt72vUOxV
+iEYEABECAAYFAk+xMxIACgkQxnV5mk56UjGVGgCcDSzT1ysx9tdVw99kG4k27J4rkr8An0R4LOeC
+0OCzcCb5vcDnXf8sN57Y
 
 -->

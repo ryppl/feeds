@@ -11,14 +11,29 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f3928b9c-1edd-425d-91e8-653f39ad1ec1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="6e941ede-3e19-436f-b727-17cdf8025096" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-icl-03c68cd" href="http://nodeload.github.com/boost-lib/icl/zipball/03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c" size="4147046" type="application/zip"/>
       <manifest-digest sha1new="2edebeef171218bb7e76d43d49e0c262d0962d36"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/interprocess-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/rational-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wymkACgkQxnV5mk56UjFcVACgmWz8UWoWcRoXzCSbz9TKmpKJcLYAmgKi1I6z
-foJwh2Fed35dQ/wTdT0b
+iEYEABECAAYFAk+xMg0ACgkQxnV5mk56UjHM2ACfRAL4urSxVUwMaw3H4VPO3jmajH8AniLxKkhJ
+2BFCls+zKmaL7Ys9gdom
 
 -->

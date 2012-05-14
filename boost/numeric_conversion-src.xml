@@ -10,14 +10,31 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="498004bd-1509-4947-9675-ed11cf0f3559" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="713ff313-9a28-42a5-883b-670034586127" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-numeric_conversion-805a8be" href="http://nodeload.github.com/boost-lib/numeric_conversion/zipball/805a8bef18dd4e09333c6ec53144af7c7b2df830" size="129800" type="application/zip"/>
       <manifest-digest sha1new="8ba3f397604e581f6150d714f6f3503a5dfdff68"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/rational-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/logic-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wysYACgkQxnV5mk56UjGcHQCeJGtmoRaAeuE7nKC6FecM7LpT+ssAn2Pc3TrS
-ptHi+VXsJCyrXIB9vDSO
+iEYEABECAAYFAk+xMo8ACgkQxnV5mk56UjGkzQCeI1UT1GKnhJ0AbadaY3+9+D8iMNQAn2F1I6rT
+6dRfZffhae6DhCsmMc74
 
 -->

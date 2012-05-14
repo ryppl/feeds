@@ -13,14 +13,23 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ff636982-616a-43c7-90de-828d7e098212" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
+    <implementation arch="*-*" id="6d9977ac-c559-451f-a5df-b98e8ead07a8" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
       <archive extract="boost-lib-type_traits-1875228" href="http://nodeload.github.com/boost-lib/type_traits/zipball/187522811bb5e2ea7f8389fe0b06b741201a3620" size="895087" type="application/zip"/>
       <manifest-digest sha1new="da8017089dc4caa9d99cf27c71bddb1a3d63f5bd"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <command name="develop">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+    </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wyuUACgkQxnV5mk56UjGzKgCfZBs8ilpUvSBupQ2RdPzQ5TfJqfEAnA8uR49Q
-aZpPGtCBPbZy2tNfdBfK
+iEYEABECAAYFAk+xMrMACgkQxnV5mk56UjHyTgCgnhiIAqZJCWdjO75lHYp1pWkojGwAn3XIn9jW
+CKernmgABr/w6iPfEj/u
 
 -->
