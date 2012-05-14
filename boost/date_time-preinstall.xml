@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Domain</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dd73129c-6141-42e2-a0e4-1074cb5c631f" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="455ac487-e8b4-432d-8adb-2316848a3d48" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
       <manifest-digest sha1new="50a9c89bd38ad54fa8b7e6fdc09c7a1b905d0aa8"/>
     </implementation>
@@ -142,9 +142,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -156,6 +153,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml">
         <environment insert="." mode="replace" name="BZip2_DIR"/>
@@ -209,7 +209,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbnsACgkQxnV5mk56UjGQJgCeMN3TVg9sECjMU/qOqjnJ5IeLYb4AmwaaMLqF
-Cd82Z4kb0gfcda6pb4/7
+iEYEABECAAYFAk+wv3sACgkQxnV5mk56UjEyKgCaAsKTPyRNAZT7uSk1oQN4FpnARs0AnRh9Qdu7
+8Ka8IJKyG8BEtwuBbvSz
 
 -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.LocalFunction (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="8778a5cb-d92b-437e-8537-54212dd16689" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-local_function-4b7839e" href="http://nodeload.github.com/boost-lib/local_function/zipball/4b7839e119a32e42fa0935d06feff9ea3636185f" size="601092" type="application/zip"/>
+      <manifest-digest sha1new="6708dc55a3f4ebf9a251af115d903fe97ad5bd42"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv98ACgkQxnV5mk56UjH3mACfarHtI7qXA3w4vzyt1OXUAnNcxz8An1dghv92
+Vi3yYlSHjJ1mRQ/aIgYW
+
+-->

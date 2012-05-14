@@ -13,7 +13,7 @@
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="52772182-e793-4ff0-bff1-b3b9a921b171" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="ffc1490f-e99b-4e55-a42c-d1c9fcac38ab" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-program_options-7bdd400" href="http://nodeload.github.com/boost-lib/program_options/zipball/7bdd400744aed5658d2dc43602705aac5a37bb0c" size="159732" type="application/zip"/>
       <manifest-digest sha1new="7611fa846ffe51a9bbc87f2f369f04603f4aaa03"/>
     </implementation>
@@ -144,9 +144,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -158,6 +155,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/any-dev.xml">
         <environment insert="." mode="replace" name="BoostAny_DIR"/>
@@ -214,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbmoACgkQxnV5mk56UjES/ACfQe/ymd1zePqGzQuMLcV/rQgP970An1cyZW+4
-vu8MDJRGzJeS3OdYoRsr
+iEYEABECAAYFAk+wvxoACgkQxnV5mk56UjH2lQCdGD9dV1VISW+9bKQ0Ze5CYffQ32UAn3Cd78N0
+OYXdbW85bAMRWI98uOdi
 
 -->

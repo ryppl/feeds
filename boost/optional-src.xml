@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/optional-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Optional (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/optional/</homepage>
+  <dc:author>Fernando Cacciola</dc:author>
+  <description>Discriminated-union wrapper for optional
+    values.</description>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="4ad21f58-6a2d-4a6f-97a7-0cc6c13fe2cd" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-optional-b0f724d" href="http://nodeload.github.com/boost-lib/optional/zipball/b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7" size="100931" type="application/zip"/>
+      <manifest-digest sha1new="1a74efbcedb71ee0e5f38a4932140d3d4323d8af"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv/AACgkQxnV5mk56UjFWkgCdFY1/wWiUbfxyRdqAv6MJYnozNUMAoKNR3EOb
+CQdkeV4z0YKmETYRtd9r
+
+-->

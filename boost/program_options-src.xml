@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/program_options-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.ProgramOptions (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/program_options/</homepage>
+  <dc:author>Vladimir Prus</dc:author>
+  <description>The program_options library allows program
+    developers to obtain program options, that is (name, value)
+    pairs from the user, via conventional methods such as command
+    line and config file.</description>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="3f41bfd8-fc24-4a02-94b2-23d087d026bd" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-program_options-7bdd400" href="http://nodeload.github.com/boost-lib/program_options/zipball/7bdd400744aed5658d2dc43602705aac5a37bb0c" size="159732" type="application/zip"/>
+      <manifest-digest sha1new="7611fa846ffe51a9bbc87f2f369f04603f4aaa03"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/any-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/tokenizer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvxoACgkQxnV5mk56UjEcbQCgj6IGLwTw4yLn9T7Mc676Jadpy7wAnRwIzcxb
+39m9OP4hZX5M5mQ0QLOe
+
+-->

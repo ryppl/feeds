@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/function_types-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.FunctionTypes (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/function_types/</homepage>
+  <dc:author>Tobias Schwinger</dc:author>
+  <description>Boost.FunctionTypes provides functionality to classify,
+    decompose and synthesize function, function pointer, function reference and
+    pointer to member types.</description>
+  <category type="http://boost.org/lib-categories">Generic</category>
+  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="1784e5db-319a-49af-b63e-97060ea30d61" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
+      <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv7wACgkQxnV5mk56UjEt3gCfYyufXNHntgit90VLczj2deKYrSUAn3iRfOCv
+l6p/a+lvxq4EP92rvGW6
+
+-->

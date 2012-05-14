@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/serialization-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Serialization (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
+    libs/serialization/</homepage>
+  <dc:author>Robert Ramey</dc:author>
+  <description>Serialization for persistence and
+    marshalling.</description>
+  <category type="http://boost.org/lib-categories">IO</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="373f5358-7c56-43c9-b3d5-c5f0f5cf452a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
+      <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/variant-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/functional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/spirit-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/uuid-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/array-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvwcACgkQxnV5mk56UjEO+QCdFtRihnDFXdrxmwanYE/zgVOlqy8AoIXFMY3I
+n5kHbtQqgDokRg7h3RdD
+
+-->

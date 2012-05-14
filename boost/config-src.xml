@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Config (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/config/config.htm</homepage>
+  <dc:author/>
+  <description>Helps Boost library developers adapt to compiler
+    idiosyncrasies; not intended for library users.</description>
+  <category type="http://boost.org/lib-categories">workarounds</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="745ed6f6-1fd5-42a9-8814-6a1f228091ef" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-config-b5527f1" href="http://nodeload.github.com/boost-lib/config/zipball/b5527f100decdceb40d70b9ae194f5d2b3f2f3ac" size="621736" type="application/zip"/>
+      <manifest-digest sha1new="9ce161c3c5d55fcc153303be8e00d74f0e8d0133"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvxgACgkQxnV5mk56UjE2tQCggg5nCfVh33fTs0rxPF3sXV4EfaYAoKfWcvWr
+lrAsEGiMG47hyiORAg8E
+
+-->

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/utility-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Utility (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/utility/utility.htm</homepage>
+  <dc:author>Dave Abrahams</dc:author>
+  <dc:author>Fernando Cacciola</dc:author>
+  <dc:author/>
+  <dc:author>Howard Hinnant</dc:author>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>Jaakko Järvi</dc:author>
+  <dc:author>Andrew Lumsdaine</dc:author>
+  <dc:author>others</dc:author>
+  <dc:author>John Maddock</dc:author>
+  <dc:author>Joseph Gauterin</dc:author>
+  <dc:author>Jeremiah Willcock</dc:author>
+  <dc:author>et al</dc:author>
+  <description>utility:
+Class noncopyable plus checked_delete(),
+    checked_array_delete(), next(), prior() function templates,
+    plus base-from-member idiom.
+
+utility/call_traits:
+Defines types for passing
+    parameters.
+
+utility/compressed_pair:
+Empty member optimization.
+
+utility/enable_if:
+Selective inclusion of function template
+    overloads.
+
+utility/in_place_factories:
+Generic in-place construction of contained objects
+    with a variadic argument-list.
+
+utility/operators:
+Templates ease arithmetic classes and
+    iterators.
+
+utility/result_of:
+Determines the type of a function call expression.
+    
+
+utility/swap:
+Enhanced generic swap function.
+
+utility/value_initialized:
+Wrapper for uniform-syntax value initialization,
+    based on the original idea of David Abrahams.</description>
+  <category type="http://boost.org/lib-categories">Generic</category>
+  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories">Patterns</category>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">Memory</category>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="fc899ecb-d8e0-4325-9ac2-b3d45a2dc836" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-utility-1bdfe57" href="http://nodeload.github.com/boost-lib/utility/zipball/1bdfe57dcb74563a90186e23ef212852a33d77f4" size="223247" type="application/zip"/>
+      <manifest-digest sha1new="2b954b4353b864ec722035bec32725e15a71b861"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wwAsACgkQxnV5mk56UjG7JQCfXdZmMr3HOWs0LDeqhdDswQBSOV8AoJ0Jc6Wk
+7J0oKHg/F/gVc7JSQOb2
+
+-->

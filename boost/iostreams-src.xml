@@ -11,14 +11,29 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a24d1047-5c2d-44a5-b77f-aba8b19b2ff1" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-*" id="5cce8b10-dbab-454d-94b7-46ef078cc405" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-iostreams-ff3fc33" href="http://nodeload.github.com/boost-lib/iostreams/zipball/ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" size="700583" type="application/zip"/>
       <manifest-digest sha1new="ec0f90e558ae4c0fdc21f3c96c435177c8c186ae"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/bzip2-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/zlib-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbnYACgkQxnV5mk56UjH44wCeIN1TTynRYmpc+jUDvA31O2K+bUYAn06iyLWk
-9cEji+YkN18+K635zEWm
+iEYEABECAAYFAk+wvyoACgkQxnV5mk56UjE5PACfSAWvG56lDS82yPFJ7mtM+Lg3TuEAniV0vv0t
+Vpi1uIXiwwk62mOS2g/p
 
 -->

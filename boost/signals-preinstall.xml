@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="da3ebbf6-9825-41dc-816e-a544e8f343e7" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="9522e946-8289-40e3-83ef-d54b196527e8" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
       <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
     </implementation>
@@ -139,9 +139,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -153,6 +150,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/any-dev.xml">
         <environment insert="." mode="replace" name="BoostAny_DIR"/>
@@ -209,7 +209,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbwEACgkQxnV5mk56UjE9+wCdEyVbadopWspQHfqXY51fPIk874gAnRdSYUuA
-o7rtSjpPb/hqmzMHHbQi
+iEYEABECAAYFAk+wwAQACgkQxnV5mk56UjEfwgCdEsCb/kaAzdYzcKN5Rxlehe89fgIAnjUfLhzs
+EvsznkOKeydAcbYQInfL
 
 -->

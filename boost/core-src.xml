@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/core-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Core (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="8f9fb56a-0e10-4b2d-91a4-2eaa384d5b21" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-core-df192ef" href="http://nodeload.github.com/boost-lib/core/zipball/df192efb4260e6cb9e16834ce9f3daece9e6c784" size="82542" type="application/zip"/>
+      <manifest-digest sha1new="2ea79af8b5334c5616d34f3f31f229d70258ac2a"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv8EACgkQxnV5mk56UjE6HwCbBbq07trzY5ieForzaoDvfBzfLMcAnjiBbrPJ
+z+PB41gb9cx50GRWRlkS
+
+-->

@@ -5,7 +5,7 @@
   <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7f32ecb6-0c23-4c14-8191-1790b26b0001" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="5e943282-671d-44f9-9c1a-6a838b90751e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -34,16 +34,16 @@
         <arg>math/bin</arg>
         <arg>iostreams/bin</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-rawsrc.xml">
         <environment insert="." mode="replace" name="BoostRegex_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/random-src.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/random-rawsrc.xml">
         <environment insert="." mode="replace" name="BoostRandom_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/math-rawsrc.xml">
         <environment insert="." mode="replace" name="BoostMath_SRCDIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-src.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/iostreams-rawsrc.xml">
         <environment insert="." mode="replace" name="BoostIOStreams_SRCDIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
@@ -154,9 +154,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -196,6 +193,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml">
         <environment insert="." mode="replace" name="BoostPtrContainer_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/static_assert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
@@ -206,7 +206,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tblcACgkQxnV5mk56UjGXhQCffQltwl9xp9fpPXLXjeCfOpmzQa0An2DtxXli
-maNjbmQ5qzqWRDIergV6
+iEYEABECAAYFAk+wvwEACgkQxnV5mk56UjEKEgCeL6hUA3NGb2EoSbpP1aAVQmj4fG0AnRS1qRFD
+JJ9OxgnbJaLDq9i6qvXU
 
 -->

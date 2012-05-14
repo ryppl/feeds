@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="27b1c447-f396-4b17-982c-eb82831172a6" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="675f5da7-01e0-4453-a748-062d2d724ba1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-quickbook-83b29d7" href="http://nodeload.github.com/boost-lib/quickbook/zipball/83b29d7724222628781e71a4b4b42cc9ac77d4ab" size="436928" type="application/zip"/>
       <manifest-digest sha1new="27846dd16a4f3f9180f23efc0bbc2798a9912713"/>
     </implementation>
@@ -140,11 +140,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
+        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
@@ -157,6 +154,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/any-dev.xml">
         <environment insert="." mode="replace" name="BoostAny_DIR"/>
@@ -191,8 +191,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml">
         <environment insert="." mode="replace" name="BoostPtrContainer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
-        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
+        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/filesystem-dev.xml">
         <environment insert="." mode="replace" name="BoostFilesystem_DIR"/>
@@ -215,11 +215,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
         <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
-        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
         <environment insert="." mode="replace" name="BoostSystem_BIN_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/filesystem.xml">
         <environment insert="." mode="replace" name="BoostFilesystem_BIN_DIR"/>
@@ -246,12 +246,12 @@
           <environment insert="lib" name="LD_LIBRARY_PATH"/>
           <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
         </requires>
-        <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
           <environment insert="bin" name="PATH"/>
           <environment insert="lib" name="LD_LIBRARY_PATH"/>
           <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
         </requires>
-        <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
+        <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
           <environment insert="bin" name="PATH"/>
           <environment insert="lib" name="LD_LIBRARY_PATH"/>
           <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
@@ -266,7 +266,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbnYACgkQxnV5mk56UjEnRQCeM2yPKBufZQqsIvY4A1Rsk9Tw0kkAn3kUSnmo
-XHqCtGEOumYqlURSo+LY
+iEYEABECAAYFAk+wvyoACgkQxnV5mk56UjHNogCePJZNNZO0lKqOQ4bEy3sIoNgHFu8AnRks28sK
+zE5NNKKvcUJLtQNEkLjB
 
 -->

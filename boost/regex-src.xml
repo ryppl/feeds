@@ -9,14 +9,28 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="7061091e-e601-4d62-99d9-e53dbfd2f7c6" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-*" id="bbf47b2f-26bd-44b1-97c4-edad042f3ffc" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-regex-4b6e82d" href="http://nodeload.github.com/boost-lib/regex/zipball/4b6e82d8731859ee71758a2fbc5e432774f7f269" size="818640" type="application/zip"/>
       <manifest-digest sha1new="886bbc4ab12334759cb646ca70dbcb7a2f574de1"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/xpressive-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/functional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/icu-src.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbnsACgkQxnV5mk56UjGQoACfY6UI7bZx2f5idpTC6vysqWe7i7kAoKEkeezp
-iVCbPj9Y9An9/0pWmWN0
+iEUEABECAAYFAk+wwBUACgkQxnV5mk56UjGwlQCdEDWYq+xuuJoZ6QeldzUhAlNM6OUAmIqePODr
+1TQZ+62EdNi0lb49akw=
 
 -->

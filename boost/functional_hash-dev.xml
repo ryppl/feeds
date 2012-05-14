@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.FunctionalHash (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="31eee659-5e54-423c-8f07-8d3492994283" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-functional_hash-8d53c37" href="http://nodeload.github.com/boost-lib/functional_hash/zipball/8d53c3711dbc853429696a4b490ae258e4361a49" size="70030" type="application/zip"/>
+      <manifest-digest sha1new="9cafc178096825848e04dfe63ec0f7a58417a7e6"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="functional_hash" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv/8ACgkQxnV5mk56UjGEDACggVAQzjfzyMLv3KC1iYvf0n9ylgMAn0R88fe7
+WGSfD6n2ZUduNVLgYKmy
+
+-->

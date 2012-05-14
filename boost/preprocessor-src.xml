@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/preprocessor-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Preprocessor (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/preprocessor/</homepage>
+  <dc:author>Paul Mensonides</dc:author>
+  <dc:author>Vesa Karvonen</dc:author>
+  <description>Preprocessor metaprogramming tools including
+    repetition and recursion.</description>
+  <category type="http://boost.org/lib-categories">Preprocessor</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="79bf8664-e0cb-4874-9f94-647cd464d2b4" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
+      <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wwAIACgkQxnV5mk56UjGGjQCePe0guSb/naxZIeydP1LHGQJZT1MAoKdlV6zc
+fJXH0FeM4Ww9jHydlw/4
+
+-->

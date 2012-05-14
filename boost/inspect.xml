@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f05650d5-5b50-4b54-bbf0-4659306e350d" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="28eaa38a-bb0f-4cc0-b304-cf8258f7937e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-inspect-7ba03cd" href="http://nodeload.github.com/boost-lib/inspect/zipball/7ba03cda1510b8535f3d727e21803c4996dc55ec" size="42009" type="application/zip"/>
       <manifest-digest sha1new="efdd9be6e994a3db181314e34db04ad5285c0af8"/>
     </implementation>
@@ -62,6 +62,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/foreach-dev.xml">
         <environment insert="." mode="replace" name="BoostForeach_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/ublas-dev.xml">
+        <environment insert="." mode="replace" name="BoostUBLAS_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/ratio-dev.xml">
         <environment insert="." mode="replace" name="BoostRatio_DIR"/>
       </requires>
@@ -80,8 +83,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
+        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/date_time-dev.xml">
         <environment insert="." mode="replace" name="BoostDateTime_DIR"/>
@@ -121,9 +124,6 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/assign-dev.xml">
         <environment insert="." mode="replace" name="BoostAssign_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/lambda-dev.xml">
         <environment insert="." mode="replace" name="BoostLambda_DIR"/>
@@ -206,14 +206,17 @@
       <requires interface="http://ryppl.github.com/feeds/boost/system-dev.xml">
         <environment insert="." mode="replace" name="BoostSystem_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
+        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/concept_check-dev.xml">
         <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/tokenizer-dev.xml">
         <environment insert="." mode="replace" name="BoostTokenizer_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
-        <environment insert="." mode="replace" name="BoostTR1_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
         <environment insert="." mode="replace" name="BoostContainer_DIR"/>
@@ -223,9 +226,6 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
         <environment insert="." mode="replace" name="BoostIOStreams_BIN_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
-        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/date_time.xml">
         <environment insert="." mode="replace" name="BoostDateTime_BIN_DIR"/>
@@ -248,6 +248,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/system.xml">
         <environment insert="." mode="replace" name="BoostSystem_BIN_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+        <environment insert="." mode="replace" name="BoostRegex_BIN_DIR"/>
+      </requires>
       <compile:implementation>
         <command name="run" path="bin/inspect"/>
         <requires interface="http://ryppl.github.com/feeds/boost/timer.xml">
@@ -256,11 +259,6 @@
           <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
         </requires>
         <requires interface="http://ryppl.github.com/feeds/boost/iostreams.xml">
-          <environment insert="bin" name="PATH"/>
-          <environment insert="lib" name="LD_LIBRARY_PATH"/>
-          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
-        </requires>
-        <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
           <environment insert="bin" name="PATH"/>
           <environment insert="lib" name="LD_LIBRARY_PATH"/>
           <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
@@ -300,12 +298,17 @@
           <environment insert="lib" name="LD_LIBRARY_PATH"/>
           <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
         </requires>
+        <requires interface="http://ryppl.github.com/feeds/boost/regex.xml">
+          <environment insert="bin" name="PATH"/>
+          <environment insert="lib" name="LD_LIBRARY_PATH"/>
+          <environment insert="lib" name="DYLD_LIBRARY_PATH"/>
+        </requires>
       </compile:implementation>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbwQACgkQxnV5mk56UjEfwQCfcIzv/PbT4f8VUpXejoahwv6bvq4An07XEipa
-HGQ9duvlByJ2bMtfJ4Mb
+iEYEABECAAYFAk+wwAkACgkQxnV5mk56UjHF9wCfTSQxkhZYpbWPaAJ6HmwCnlntBCEAoKLOg0K0
+YWrgK06PjxL5frp0+BXc
 
 -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/scope_exit-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.ScopeExit (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/scope_exit/</homepage>
+  <dc:author>Alexander Nasonov</dc:author>
+  <description>Execute arbitrary code at scope exit.</description>
+  <category type="http://boost.org/lib-categories">Emulation</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="aeff7a0f-07a7-4959-bcd0-e5106f56cc94" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
+      <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv+gACgkQxnV5mk56UjGhIQCgjFU6QWdJwlokYWhy0VaMqa487B8AnjrqVzmJ
+fj2s80B8pbkqHgIukVCd
+
+-->

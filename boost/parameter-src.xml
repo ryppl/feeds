@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/parameter-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Parameter (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/
+    libs/parameter/</homepage>
+  <dc:author>Daniel Wallin</dc:author>
+  <dc:author>David Abrahams</dc:author>
+  <description>Boost.Parameter Library - Write functions that
+    accept arguments by name.</description>
+  <category type="http://boost.org/lib-categories">Programming</category>
+  <category type="http://boost.org/lib-categories">Emulation</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="a0d628db-33f7-4de5-8ce1-8db1a2b13d33" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
+      <manifest-digest sha1new="f14d8172a5fa047a5abe507fdd8c9acea4c67eb7"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/python-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv58ACgkQxnV5mk56UjEfVQCfd7dH5CeECGSBxspI3xt/E9EbNlkAn0OeBuCW
+6piTFO60WBypBbEGbrrn
+
+-->

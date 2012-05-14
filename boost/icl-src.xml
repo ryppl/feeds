@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/icl-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.ICL (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/icl/</homepage>
+  <dc:author>Joachim Faulhaber</dc:author>
+  <description>Interval Container Library, interval sets and maps and
+    aggregation of associated values</description>
+  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="41700f95-c0d2-4af4-b052-e55e5381fef5" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-icl-03c68cd" href="http://nodeload.github.com/boost-lib/icl/zipball/03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c" size="4147046" type="application/zip"/>
+      <manifest-digest sha1new="2edebeef171218bb7e76d43d49e0c262d0962d36"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/interprocess-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/rational-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvxUACgkQxnV5mk56UjEmKwCdFxe4keDdRI/+FpCTOYi8H8ekLtQAn363DrxU
+eMvsplHKVhTXp8dKm1sb
+
+-->

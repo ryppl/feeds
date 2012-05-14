@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/ublas-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.UBLAS (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="b9f0ca02-bb46-4e8d-847c-aa553b361af6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-ublas-cb743a6" href="http://nodeload.github.com/boost-lib/ublas/zipball/cb743a6d83ae498f598277bc68c071206d6a8f8b" size="49366389" type="application/zip"/>
+      <manifest-digest sha1new="447d5fec58f27b9937743d1608de19014e4db8f5"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="ublas" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv3MACgkQxnV5mk56UjFE/wCfY9E7eWXD2fQiLW8O/wQIdFKk8nsAnRv7FJde
+NnlsR1cezDl9e6/5PLoh
+
+-->

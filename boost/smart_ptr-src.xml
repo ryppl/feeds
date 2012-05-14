@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.SmartPtr (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/smart_ptr/smart_ptr.htm</homepage>
+  <dc:author>Peter Dimov</dc:author>
+  <dc:author>Greg Colvin</dc:author>
+  <dc:author>Beman Dawes</dc:author>
+  <dc:author>Darin Adler</dc:author>
+  <description>Smart pointer class templates.</description>
+  <category type="http://boost.org/lib-categories">Memory</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="6fb5d045-b7f1-4079-a2f3-d44a3544c3bb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
+      <manifest-digest sha1new="f2ece99274cbce8c8f670882da5273a33181266f"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv8QACgkQxnV5mk56UjHE4gCgp/mzhuP8yQn6+is7CRrFOSDy7LAAnR+mDJt5
+FSfY+/I/H877+BI+wNHE
+
+-->

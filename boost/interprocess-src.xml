@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Interprocess (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/interprocess/</homepage>
+  <dc:author>Ion Gaztañaga</dc:author>
+  <description>Shared memory, memory mapped files, process-shared mutexes,
+    condition variables, containers and allocators.</description>
+  <category type="http://boost.org/lib-categories">Concurrent</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="504d31dd-3bb8-4246-a426-e02f2a1bfcb8" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
+      <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/unordered-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/intrusive-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvw0ACgkQxnV5mk56UjH0tACfe9Kq1hPBneZrxz+6/mtyTTYgEMYAn1FPC0d8
+cHLHXmMi9F1m8CKqf/Hp
+
+-->

@@ -11,7 +11,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eef609ea-4107-4aed-8cab-166307bbd5ce" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="2eb19158-e917-434a-b564-b2cca421c93d" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
       <manifest-digest sha1new="fcdeacb6bf5e0e970fae330717e65e30aeb64b5f"/>
     </implementation>
@@ -124,9 +124,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/assign-dev.xml">
         <environment insert="." mode="replace" name="BoostAssign_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/lambda-dev.xml">
         <environment insert="." mode="replace" name="BoostLambda_DIR"/>
       </requires>
@@ -208,11 +205,14 @@
       <requires interface="http://ryppl.github.com/feeds/mpi-dev.xml">
         <environment insert="." mode="replace" name="MPI_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
+        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/concept_check-dev.xml">
         <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/regex-dev.xml">
-        <environment insert="." mode="replace" name="BoostRegex_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
         <environment insert="." mode="replace" name="BoostContainer_DIR"/>
@@ -242,7 +242,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbr8ACgkQxnV5mk56UjHVNwCcD12G+s7zWLTM9WtNGSzRf7CuPPcAoJkg140C
-WgeTw4CPfqhaQMRqWau7
+iEYEABECAAYFAk+wv6EACgkQxnV5mk56UjHpfACfbmkG1eNc6kQEQIUashlGmpBFi64An3Fhp0Oq
+EyF1AgW9a+DLBO7XVAPd
 
 -->

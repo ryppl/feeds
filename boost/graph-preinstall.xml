@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cd093341-0937-4609-8c96-ef8fe2380fef" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="303fcfaa-db1c-41fb-a1f4-ab93a20297d1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-graph-a6b4566" href="http://nodeload.github.com/boost-lib/graph/zipball/a6b4566073fd62c5de99d6f394b71476a3fb04c7" size="3672784" type="application/zip"/>
       <manifest-digest sha1new="bd34e69b10781e1fe8f59f63a6a1a9cc458a7ffc"/>
     </implementation>
@@ -152,8 +152,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
+        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
@@ -164,11 +164,11 @@
       <requires interface="http://ryppl.github.com/feeds/boost/pool-dev.xml">
         <environment insert="." mode="replace" name="BoostPool_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
-        <environment insert="." mode="replace" name="BoostFormat_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/uuid-dev.xml">
         <environment insert="." mode="replace" name="BoostUUID_DIR"/>
@@ -228,7 +228,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbnIACgkQxnV5mk56UjEW0ACeLTutieAlUrdvPQru64PJNVTQsjYAn30M+JPl
-uMHbcxRK5GhPuqtVHccX
+iEYEABECAAYFAk+wvyUACgkQxnV5mk56UjGubQCfWH+Ibowem0pKXnOfiLRJyzzMVkoAn1DKYJ49
+NXSChdW95dLScQ+QG2MW
 
 -->

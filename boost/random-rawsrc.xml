@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/random-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Random (raw source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/random/</homepage>
+  <dc:author>Jens Maurer</dc:author>
+  <description>A complete system for random number
+    generation.</description>
+  <category type="http://boost.org/lib-categories">Math</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="731b7920-3372-4a62-8be4-bf453b191fbb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
+      <manifest-digest sha1new="de645815364acb78b029019be93f30c4932622e4"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv/IACgkQxnV5mk56UjElgQCfRmbc3afm9Yy7zxv9mS6mqBZkYoAAmwQiY37e
+OkgGtNhYQN5/Nwao4xdb
+
+-->

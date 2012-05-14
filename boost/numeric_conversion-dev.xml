@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.NumericConversion (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="63bbf98d-8caa-453e-93a8-872c35882b5d" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-numeric_conversion-805a8be" href="http://nodeload.github.com/boost-lib/numeric_conversion/zipball/805a8bef18dd4e09333c6ec53144af7c7b2df830" size="129800" type="application/zip"/>
+      <manifest-digest sha1new="8ba3f397604e581f6150d714f6f3503a5dfdff68"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="numeric_conversion" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv3gACgkQxnV5mk56UjFAxACfZif0DdKtXCl6ZWsyBIudQpRWHXAAnieaaB2X
+VxeIswcS4Gkvx3pZeQc2
+
+-->

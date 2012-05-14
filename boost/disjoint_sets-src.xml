@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.DisjointSets (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/disjoint_sets/disjoint_sets.html</homepage>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>Andrew Lumsdaine</dc:author>
+  <dc:author>Lie-Quan Lee</dc:author>
+  <description>Boost.DisjointSets provides disjoint sets
+    operations with union by rank and path
+    compression.</description>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="34efb302-9bcf-4eb9-83cd-e44f928cca7a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-disjoint_sets-01725e4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/01725e43f9f33eef93a295a0f0bf188433c152e6" size="10385" type="application/zip"/>
+      <manifest-digest sha1new="9756e5dd44d12f7715731fe213467030909c4d87"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/graph-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv7EACgkQxnV5mk56UjGyUgCfaN3WgEWyWzlbo4MI7SZ+uPazx5YAoKjGLACD
+psjSmSUeOJVFflx4cvMs
+
+-->

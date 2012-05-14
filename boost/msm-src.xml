@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/msm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.MSM (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/msm/</homepage>
+  <dc:author>Christophe Henry</dc:author>
+  <description>A very high-performance library for expressive UML2 finite state machines.</description>
+  <category type="http://boost.org/lib-categories">State</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="5bb840c7-71fb-461e-92eb-2cd7eecd3e3b" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
+      <manifest-digest sha1new="f0e161f615c75dfc82a564c6f31615d90ff22c56"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/proto-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/any-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/parameter-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/fusion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/statechart-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/phoenix-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvx4ACgkQxnV5mk56UjEjSQCggnC0JLIX30FJn7mmMGIEjTuwmXYAn2Ag0aOo
+gfwKnd1e4ErOESQp+2ZR
+
+-->

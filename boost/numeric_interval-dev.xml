@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/numeric_interval-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.NumericInterval (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="f02d1c25-fa9f-4069-a33b-fd46865f7f78" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-numeric_interval-cbd7821" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/cbd7821cf49b450ab0e1e40a02a3001f1153dd30" size="120472" type="application/zip"/>
+      <manifest-digest sha1new="1be594e80315511862a0d1b82a3288775eb7b7f7"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
+        <arg>dev</arg>
+      </runner>
+      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+        <environment insert="numeric_interval" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv+oACgkQxnV5mk56UjHGKACffEbbdviKisrg0FglH+OxcwiGM1gAn1DCAM8/
+2d1DinR3/fOpl19ggeoI
+
+-->

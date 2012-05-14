@@ -9,7 +9,7 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ae0de299-bf49-42c1-a5d4-0dd983b302e7" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="3c70b9d5-d661-44f2-a883-d5e5f20e9f89" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-locale-52eb1b7" href="http://nodeload.github.com/boost-lib/locale/zipball/52eb1b72ad50e904f6a5e95d0f39538c5a190db8" size="1178107" type="application/zip"/>
       <manifest-digest sha1new="3a68febf2242f277799d86bf4107b7e6dcffb519"/>
     </implementation>
@@ -62,6 +62,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/foreach-dev.xml">
         <environment insert="." mode="replace" name="BoostForeach_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/ublas-dev.xml">
+        <environment insert="." mode="replace" name="BoostUBLAS_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/ratio-dev.xml">
         <environment insert="." mode="replace" name="BoostRatio_DIR"/>
       </requires>
@@ -91,6 +94,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/array-dev.xml">
         <environment insert="." mode="replace" name="BoostArray_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml">
         <environment insert="." mode="replace" name="BZip2_DIR"/>
@@ -124,9 +130,6 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/assign-dev.xml">
         <environment insert="." mode="replace" name="BoostAssign_DIR"/>
-      </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/lambda-dev.xml">
         <environment insert="." mode="replace" name="BoostLambda_DIR"/>
@@ -246,7 +249,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbtYACgkQxnV5mk56UjFcYwCcC2KUpvaBHVPdu5srNv7aEKmYthYAn3lVy4Ja
-z5wu2QR15qFO3R0YbUXU
+iEUEABECAAYFAk+wv8cACgkQxnV5mk56UjHQfQCeJmDHyYi7n1AJCKrDNyjvWPxHIiYAlAg/236G
+wFCUy3pGzhd5s5LH+B0=
 
 -->

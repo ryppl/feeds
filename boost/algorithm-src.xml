@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/algorithm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Algorithm (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/algorithm/</homepage>
+  <dc:author>Pavol Droba</dc:author>
+  <dc:author>Marshall Clow</dc:author>
+  <dc:author>Hervé Brönnimann</dc:author>
+  <description>algorithm:
+A collection of useful generic algorithms.
+
+algorithm/minmax:
+Standard library extensions for simultaneous
+    min/max and min/max element computations.
+
+algorithm/string:
+String algorithms library.</description>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">String</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="1572b10e-ab1f-4b55-9cf4-b872235c3ec7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-algorithm-27bc49f" href="http://nodeload.github.com/boost-lib/algorithm/zipball/27bc49f402230459e213028c63c153a6457f3139" size="1736656" type="application/zip"/>
+      <manifest-digest sha1new="496ab88d66664aa5a578a963979a3e06cc8ac971"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/timer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv+0ACgkQxnV5mk56UjGc3gCeP+ExonggH34LOYV+l04zPw3X5SEAn2RSkHmw
+M7QF6wKhEFPXVz4iOO93
+
+-->

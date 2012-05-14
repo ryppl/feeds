@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/quickbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Quickbook (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="e5e1a06c-5287-406f-b104-a695ad8b3cce" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-quickbook-83b29d7" href="http://nodeload.github.com/boost-lib/quickbook/zipball/83b29d7724222628781e71a4b4b42cc9ac77d4ab" size="436928" type="application/zip"/>
+      <manifest-digest sha1new="27846dd16a4f3f9180f23efc0bbc2798a9912713"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/spirit-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/filesystem-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/program_options-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvyoACgkQxnV5mk56UjErUQCggIivYVSOo5tSVdLhwxcw+QkTp7kAoKDrdcDe
+ITXX5ZSUL7CJr3Rhn2kg
+
+-->

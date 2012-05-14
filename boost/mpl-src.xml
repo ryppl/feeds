@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/mpl-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.MPL (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/mpl/</homepage>
+  <dc:author>Aleksey Gurtovoy</dc:author>
+  <description>The Boost.MPL library is a general-purpose,
+    high-level C++ template metaprogramming framework of
+    compile-time algorithms, sequences and metafunctions. It
+    provides a conceptual foundation and an extensive set of
+    powerful and coherent tools that make doing explict
+    metaprogramming in C++ as easy and enjoyable as possible within
+    the current language.</description>
+  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="c095961d-ea17-422d-982e-c062401cef70" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-mpl-b3eedbc" href="http://nodeload.github.com/boost-lib/mpl/zipball/b3eedbc816942f9d3d9db4017a696e830f93347d" size="2737234" type="application/zip"/>
+      <manifest-digest sha1new="1273b36b1ee56c14efc485a93407743e95009284"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wv7EACgkQxnV5mk56UjGOnwCeLwReqUpJJA6Qie1fkic3GCinPmQAnRbUera5
+PQ+ykP9BvVZUsdBszebk
+
+-->

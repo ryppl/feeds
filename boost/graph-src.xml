@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/graph-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Graph (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/graph/</homepage>
+  <dc:author>Jeremy Siek</dc:author>
+  <dc:author>a University of Notre Dame team; now maintained by Andrew Sutton</dc:author>
+  <dc:author>Jeremiah Willcock.</dc:author>
+  <description>The BGL graph interface and graph components are
+    generic, in the same sense as the the Standard Template Library
+    (STL).</description>
+  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories">Containers</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="b3c83b05-f261-468a-98af-a5b0a3746606" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-graph-a6b4566" href="http://nodeload.github.com/boost-lib/graph/zipball/a6b4566073fd62c5de99d6f394b71476a3fb04c7" size="3672784" type="application/zip"/>
+      <manifest-digest sha1new="bd34e69b10781e1fe8f59f63a6a1a9cc458a7ffc"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/property_tree-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/property_map-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvyYACgkQxnV5mk56UjF8yACeMLr4YbBBHjEs5QggVAwkUzVVgm4AoJqKRtKo
+PIDcWO3+P8Rb8ydl74BN
+
+-->

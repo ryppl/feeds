@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/chrono-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Chrono (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/chrono/</homepage>
+  <dc:author>Vicente J. Botet Escribá</dc:author>
+  <description>Useful time utilities.</description>
+  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="ec9177c6-a3c1-4cbd-a784-93bc95610390" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-chrono-f637499" href="http://nodeload.github.com/boost-lib/chrono/zipball/f637499259969da2f906c135462eb125626a08cf" size="574656" type="application/zip"/>
+      <manifest-digest sha1new="eea064e3e479860ab1bc91376f2e67601e4d26f1"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/ratio-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/interprocess-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/accumulators-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/format-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEUEABECAAYFAk+wv78ACgkQxnV5mk56UjGxRgCfRu6am+t4pXQDc7JRubzdCcBW+F4AmP9j2qqf
+zAni1da/Zd/hK6ZeAsA=
+
+-->

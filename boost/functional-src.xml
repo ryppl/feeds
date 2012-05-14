@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://ryppl.github.com/feeds/boost/functional-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <name>Boost.Functional (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/functional/</homepage>
+  <dc:author>Mark Rodgers</dc:author>
+  <dc:author>Daniel James</dc:author>
+  <dc:author>Tobias Schwinger</dc:author>
+  <description>functional:
+The Boost.Function library contains a family of
+    class templates that are function object
+    wrappers.
+
+functional/hash:
+A TR1 hash function object that can be extended to
+    hash user defined types.
+
+functional/factory:
+Function object templates for dynamic and static object creation
+
+functional/forward:
+Adapters to allow generic function objects to accept arbitrary arguments</description>
+  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="6bcfcfe7-5904-4c8f-9ece-00ce0605bc89" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+      <archive extract="boost-lib-functional-642fe65" href="http://nodeload.github.com/boost-lib/functional/zipball/642fe65ab7465c2e6ffa2a0af867fdb3b7046451" size="170759" type="application/zip"/>
+      <manifest-digest sha1new="09e987873156aaf196b6dabe3adb25fa641119e3"/>
+    </implementation>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+wvxYACgkQxnV5mk56UjHLYwCgo9V494cI9bejsJcr9NRp2pWONJcAn1o0JfHh
+EUV4qYwD+Ym2P1EPJpDy
+
+-->

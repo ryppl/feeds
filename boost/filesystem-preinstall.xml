@@ -11,7 +11,7 @@
     directories.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8849f6c1-d7cb-4913-824e-c0ee386f3e9f" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="55775ce0-b15a-4a04-8fa1-225e2719f2d9" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-filesystem-1a13710" href="http://nodeload.github.com/boost-lib/filesystem/zipball/1a13710c53ee6c65d4597ee620321134cea777a4" size="296985" type="application/zip"/>
       <manifest-digest sha1new="f3e79a5b9dc173bac7834e6b4b0cec8bdbeb1a0b"/>
     </implementation>
@@ -139,9 +139,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -153,6 +150,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml">
         <environment insert="." mode="replace" name="BZip2_DIR"/>
@@ -212,7 +212,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tbu0ACgkQxnV5mk56UjGQWQCgnaLf7lUo+mBHk3+gdRN9tJaTncAAn2d3036/
-0QlSUYL7pcQ/bwPBubCY
+iEYEABECAAYFAk+wv+QACgkQxnV5mk56UjEK4gCeKDdlVNSFXFhCggWlQpT6wh8wIHQAn3iQWcm2
+4Zh8cMkOi73iwPpOWg40
 
 -->

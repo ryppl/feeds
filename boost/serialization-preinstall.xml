@@ -11,7 +11,7 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e63cfdc4-288b-41a5-b49f-226282652f46" released="2012-05-11" stability="testing" version="1.49-post-2012.05.11.1953">
+    <implementation arch="*-src" id="1114a817-bfc4-4851-a551-fc60feb53651" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
       <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
       <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
     </implementation>
@@ -139,9 +139,6 @@
       <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/numeric-dev.xml">
-        <environment insert="." mode="replace" name="BoostNumeric_DIR"/>
-      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
@@ -153,6 +150,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
+        <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml">
         <environment insert="." mode="replace" name="BZip2_DIR"/>
@@ -206,7 +206,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+tblwACgkQxnV5mk56UjE/6ACeP2D6u0jJDFW99Z4V5AKAff69PHoAniE8F5LK
-JDbw3Bs1bNcyyLgLdKXG
+iEYEABECAAYFAk+wvwcACgkQxnV5mk56UjExMgCfWMgD5iIzgircbKfButjIeU/tSZgAn0qog9He
+AxKqagkQyh3TXRBZFK5z
 
 -->
