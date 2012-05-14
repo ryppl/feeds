@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0014953a-f5d2-42a1-b18d-431156562f86" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="b596c95e-c453-4bed-a608-9a71d27e40d1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-context-f02a3b8" href="http://nodeload.github.com/boost-lib/context/zipball/f02a3b84f6fd36e2dfb1f5dd517657bfa2dc27a7" size="6106717" type="application/zip"/>
       <manifest-digest sha1new="dccdf3c53504a7e5bcadc72acda9cb954898e11b"/>
     </implementation>
@@ -183,6 +183,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
@@ -256,7 +259,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xdDIACgkQxnV5mk56UjEmHQCggdm8vnUrpIYTEmC1UZobOWybbigAoJ0nMQ9p
-7ceYMtxm0QB7JTotW5rW
+iEYEABECAAYFAk+xg/sACgkQxnV5mk56UjF0YwCeIsOpjHdr+4oEIcR1M7rXf7pGIt0AnivqdNOq
+4H8zoBLQRdlS0PRYEbpw
 
 -->

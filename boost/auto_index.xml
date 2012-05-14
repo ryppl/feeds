@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cdee5e22-dad0-47ce-b7c7-e7060fb8747d" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="a8028b18-a8ba-4ba3-a35f-11cfef432392" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-auto_index-5b3acdc" href="http://nodeload.github.com/boost-lib/auto_index/zipball/5b3acdce9b6cd6a3c0c0b0093e71fadf012f6a45" size="305921" type="application/zip"/>
       <manifest-digest sha1new="ac9ab4fc7d836e06a79b78bc4f5b16ebbf62d27e"/>
     </implementation>
@@ -34,6 +34,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/unordered-dev.xml">
         <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/functional-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
@@ -122,8 +125,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
         <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
@@ -266,7 +269,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc/gACgkQxnV5mk56UjFbHwCfU2VrxG1DhS3N/C9KT3mZDXwhNeYAnjaeCCgs
-rlWJ7NLpTnhdW7KWOzuq
+iEYEABECAAYFAk+xhB8ACgkQxnV5mk56UjFqpQCcDX0i4FGCkk0FMrsEdoVv5qDwMPMAoKaMcZWY
+QWpJxCQJEifrglZmIQ33
 
 -->

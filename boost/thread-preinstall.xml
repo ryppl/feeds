@@ -10,7 +10,7 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eca9eee2-042c-4ef0-bbe5-bdee077af193" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="a1edb669-da8e-4d5f-9bf1-18c733cab102" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-thread-f0ee580" href="http://nodeload.github.com/boost-lib/thread/zipball/f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10" size="430892" type="application/zip"/>
       <manifest-digest sha1new="ed4133df1d33d1cfdb06985fac68d1109284f83d"/>
     </implementation>
@@ -177,6 +177,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
@@ -241,7 +244,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc/8ACgkQxnV5mk56UjG7FgCfTl7CzeeLvg8RmAE3mYUUwTnByIMAn2lwI6mE
-czKiyOy6Epj9aupEKF8F
+iEYEABECAAYFAk+xg7sACgkQxnV5mk56UjEMOQCffIXa72tZBa4RGmPD9e04iZUPf9oAnRj9g+Lv
+mZeDz9PIu5/sfbKmVSau
 
 -->

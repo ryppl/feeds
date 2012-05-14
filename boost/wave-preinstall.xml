@@ -12,7 +12,7 @@
     iterator interface.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9a94ffcf-5f51-4c7e-b5f4-4eaa6e679ae0" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="5bd61b87-6977-452f-87b4-5f8248b3d9c1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-wave-12835c6" href="http://nodeload.github.com/boost-lib/wave/zipball/12835c64e12bb5ebdab418940aed9efcc63f7064" size="858901" type="application/zip"/>
       <manifest-digest sha1new="a7a2ef54b4e1d17cf487764f8ad611f38fedcfe5"/>
     </implementation>
@@ -179,6 +179,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
@@ -249,7 +252,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc/wACgkQxnV5mk56UjGeHgCfbFkmamal1ONjrpS+8I/pEuyvKPUAoIpR7D23
-w18qut0p1qUpvb5+y4/D
+iEYEABECAAYFAk+xg8gACgkQxnV5mk56UjFDbACfWBGkWZ+0vwK4PzaPbhQ/sNRrhz8Anjk5ODtz
+GnzH8MFU/32AIBK46SqN
 
 -->

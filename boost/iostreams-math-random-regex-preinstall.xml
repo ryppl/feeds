@@ -5,7 +5,7 @@
   <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ff9493f6-84ba-4e77-a266-d40acc5ed02e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="6fb485b2-44bd-4439-9b8e-be4a64a43b2c" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -60,6 +60,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/unordered-dev.xml">
         <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/functional-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
@@ -133,8 +136,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
         <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
@@ -206,7 +209,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc9wACgkQxnV5mk56UjEAWwCfdmJw5c/j2Dx26/byIUQP7zGBY1sAoKQf7TZg
-FkMc/T0Ix0auup8BmUg/
+iEYEABECAAYFAk+xg2oACgkQxnV5mk56UjFYKwCfZXDv5VnYzxXSvSywcsEGiRh/pqcAnRSNiMHd
+pPAJ8eH7X+eLt5kzaOJC
 
 -->

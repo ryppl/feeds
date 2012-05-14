@@ -9,7 +9,7 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="14ff131a-b66c-4453-8ed1-daa63e2e92b9" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-*" id="b93e4ea8-f9f2-4b55-b274-96b40387a5f6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
       <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
     </implementation>
@@ -33,14 +33,13 @@
     <requires interface="http://ryppl.github.com/feeds/boost/ublas-src.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/accumulators-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc+YACgkQxnV5mk56UjGLRQCfV05y16PXsHBPW7SlFjS0cDPXamcAoJpWLeNQ
-SD++fDrUzhBJNxQF4rlP
+iEYEABECAAYFAk+xg9MACgkQxnV5mk56UjF8DQCcCSf5SiKxF1TUvLyV1ZbPKZIWdHgAn1zZHp2Q
+6RnIXiMIEkRg59S3yAEB
 
 -->

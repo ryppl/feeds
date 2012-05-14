@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="71b0b164-39b8-4fe6-acb9-c4c68f42991d" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-*" id="7a6a0d73-ce9b-489d-bdff-8b1b6a59907b" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-bimap-4d74407" href="http://nodeload.github.com/boost-lib/bimap/zipball/4d7440762144f5206869dbe6a2b8557fffaf7a02" size="1312431" type="application/zip"/>
       <manifest-digest sha1new="040dae54aafc508c80fe3e20a18ce42ceb56b106"/>
     </implementation>
@@ -31,14 +31,13 @@
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/bimap-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/assign-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc/YACgkQxnV5mk56UjG4XgCglrHBsW04pR716Ejy95DV4SAvTi0Anj6DvG6H
-Usa70AX6hjMXewYSKfSh
+iEYEABECAAYFAk+xhCEACgkQxnV5mk56UjFgPQCfascpBfhtW9V6Kwlzg9wzsd24wE4AoI5JfKUW
+z1DMs8EcKnqUaM4zm+cO
 
 -->

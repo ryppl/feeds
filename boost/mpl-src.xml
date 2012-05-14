@@ -15,7 +15,7 @@
     the current language.</description>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c0df4026-385b-4194-82ee-72caefb2afbb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-*" id="c7ba9edb-fbfa-4a92-8bbe-2bdf18da7abb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-mpl-b3eedbc" href="http://nodeload.github.com/boost-lib/mpl/zipball/b3eedbc816942f9d3d9db4017a696e830f93347d" size="2737234" type="application/zip"/>
       <manifest-digest sha1new="1273b36b1ee56c14efc485a93407743e95009284"/>
     </implementation>
@@ -23,14 +23,13 @@
     <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xdAkACgkQxnV5mk56UjE7mACglW6PL4BBGB/WFnIkrgrNRuZdWKQAoI+bW9lw
-trC5OYz7cOuigtWYrPrn
+iEYEABECAAYFAk+xg+YACgkQxnV5mk56UjHrIACgn3yyVNOKJ14iBEP2i1aBh2691C0AmwXzJFku
+Sov2xvxnDdaJtVpsmN26
 
 -->

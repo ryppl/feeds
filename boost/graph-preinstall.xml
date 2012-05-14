@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="85b2b172-7a9b-4cc7-ad84-181ad63b5019" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="cd95a462-b095-4358-80c3-c3427e6198bb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-graph-ddaf2bb" href="http://nodeload.github.com/boost-lib/graph/zipball/ddaf2bb88975fdd6ca34672f05946fbc464999f8" size="3672631" type="application/zip"/>
       <manifest-digest sha1new="84fab9e63b222cdc9f1c94a0e1027baaf6eb3492"/>
     </implementation>
@@ -43,6 +43,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/unordered-dev.xml">
         <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/functional-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
@@ -131,8 +134,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/property_tree-dev.xml">
         <environment insert="." mode="replace" name="BoostPropertyTree_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
@@ -228,7 +231,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xdCIACgkQxnV5mk56UjHlWwCaAoLmC7i8jmS2UMgklhUBPpe8FqQAmwcH6Trt
-NnE6gew4Kdf5dhzIOmDX
+iEYEABECAAYFAk+xg4EACgkQxnV5mk56UjGHzwCfY1bQIwLUt/twN0/12Mes21t5uTgAni7L2xxo
+3i2xx0DxHmq3bpv0jBXv
 
 -->

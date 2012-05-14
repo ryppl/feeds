@@ -10,7 +10,7 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="48fc4331-e312-49fe-b8b0-8004be855235" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="02f9278d-01af-4059-b878-5f0466d2b2d6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-test-a3ae1c3" href="http://nodeload.github.com/boost-lib/test/zipball/a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc" size="1004084" type="application/zip"/>
       <manifest-digest sha1new="30463f4102cd7be48dfa6949a432fd6297e83b81"/>
     </implementation>
@@ -177,6 +177,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
@@ -244,7 +247,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xdAEACgkQxnV5mk56UjGEqgCfcJW/ZRV2prCGKGNUd5V7mM+oFBQAnjHynmQt
-AbZo8oJCtDOwekHQTW5I
+iEYEABECAAYFAk+xhBYACgkQxnV5mk56UjEZtACeIWu9+/zarKBYpqt/ySwmi+bnwekAn12iM8aX
+vw+2AiJ9GY6mljrgkEKu
 
 -->

@@ -10,7 +10,7 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ee2fc3dd-ea65-4f0d-88c5-d50ec993ee4c" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="c2ab5996-fbc9-4bd9-bf9f-8bcc4219531e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-system-761d96d" href="http://nodeload.github.com/boost-lib/system/zipball/761d96d62064f4892373468f704cda54905f5df0" size="44516" type="application/zip"/>
       <manifest-digest sha1new="f440740124af23d80bf3abe26ef0bf1597d28023"/>
     </implementation>
@@ -35,6 +35,9 @@
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/unordered-dev.xml">
         <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
+      </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/functional-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctional_DIR"/>
@@ -117,8 +120,8 @@
       <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
         <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
-      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
@@ -205,7 +208,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc+0ACgkQxnV5mk56UjFDhQCfUX3Bc6OzxXMqIz3qbncr1G6pz2UAoJI8YtLz
-L39B/H2z3i5nklU9/XKK
+iEYEABECAAYFAk+xhC4ACgkQxnV5mk56UjE3wQCfYSwAOTr1FouieDWS9zhRSxDy2RUAn3CE6SLp
+7J1A6cxmA0QRWK8RD0dh
 
 -->

@@ -10,7 +10,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="269b23b4-ca8c-4fdf-a518-4e8c5fdca048" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="2ba70fbb-84c9-4e48-8a89-af4fd379070b" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-graph_parallel-27a217a" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/27a217a48581a4e6582791856bf95c558f167285" size="1100320" type="application/zip"/>
       <manifest-digest sha1new="5b7f5d326805fd15891575efc8db4404dc826dc7"/>
     </implementation>
@@ -177,6 +177,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/mpi-dev.xml">
         <environment insert="." mode="replace" name="BoostMPI_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml">
         <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
       </requires>
@@ -247,7 +250,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xdAcACgkQxnV5mk56UjE3bACfZmgrECSi7r31eZU9n4N4HXohEQAAnRqhqb9n
-Mj1tgBvUASNZH7N9lrlN
+iEYEABECAAYFAk+xg/0ACgkQxnV5mk56UjEAzQCfXZVpG3qRNm6g84KqaUc9ytdilB8An0nmVNlF
+zCztoZJrNu+PrLGFxdF5
 
 -->

@@ -9,7 +9,7 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5a4fdccc-d632-4181-81df-c6c13c6fdf80" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-src" id="a1fd9c12-e31e-4335-bf44-3298bf6f1cea" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-locale-52eb1b7" href="http://nodeload.github.com/boost-lib/locale/zipball/52eb1b72ad50e904f6a5e95d0f39538c5a190db8" size="1178107" type="application/zip"/>
       <manifest-digest sha1new="3a68febf2242f277799d86bf4107b7e6dcffb519"/>
     </implementation>
@@ -182,6 +182,9 @@
       <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
+      </requires>
       <requires interface="http://ryppl.github.com/feeds/boost/multi_index-dev.xml">
         <environment insert="." mode="replace" name="BoostMultiIndex_DIR"/>
       </requires>
@@ -249,7 +252,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xdAQACgkQxnV5mk56UjHw3QCgjLJOk0yzMT7SWrv6wmbydLQMrEAAnRZGet3S
-ARJdvE9//uUcFjq3/XU8
+iEYEABECAAYFAk+xg/UACgkQxnV5mk56UjGZZACdFzBwDizmAybhcB+c+s9fS6X6poMAoJJHxMP0
+4TrB8kMf3Iibz5I+GO23
 
 -->

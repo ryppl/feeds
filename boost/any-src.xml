@@ -10,7 +10,7 @@
     different value types.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="0baf90d5-18fa-4376-ab11-dc7b23b4aeed" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-*" id="d400e6e5-affc-4f07-b966-77eb39e19c70" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
       <manifest-digest sha1new="f95407f950adad3f9dbe63552063558bfc538b54"/>
     </implementation>
@@ -20,13 +20,12 @@
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/any-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boostbook-dev.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc+MACgkQxnV5mk56UjENAwCfQqgwXg6dy5IuSjNeawaLbpqDV/AAn2aHMggG
-3KgpC1vknJO/v6ieGgDF
+iEYEABECAAYFAk+xhCoACgkQxnV5mk56UjGPpgCePptESse4nVGeAP9WZRqHP9EURkYAn1NJuylS
+O/U3MTAqgRJBKZrSyGcR
 
 -->

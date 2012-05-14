@@ -9,14 +9,14 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="92751fc7-d217-468b-8eee-d0af8917c95e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-*" id="a2bf4c3a-44fb-40e7-b70f-ee43f493b071" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-unordered-9a66f2d" href="http://nodeload.github.com/boost-lib/unordered/zipball/9a66f2df2bca5e691a319314b0b583f69866a2a1" size="194403" type="application/zip"/>
       <manifest-digest sha1new="a9c3293dd75d1417124f694678bfe2daddb3da6b"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/functional-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
@@ -32,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc+8ACgkQxnV5mk56UjHVSQCgpZP5o/n9MjS2kqrB4JtmbkEi58YAoINIq980
-IuTwtCkNYnWmcKQ3HXOm
+iEYEABECAAYFAk+xg8QACgkQxnV5mk56UjGHOACeNuzKdEfeO0vdAKZKEpcguIqb3KAAnRQvt3Ba
+srRykDvglMb8szn0a/wX
 
 -->

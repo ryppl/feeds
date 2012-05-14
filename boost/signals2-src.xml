@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4605ca7c-3769-49cb-9ef5-f927776264c7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+    <implementation arch="*-*" id="d53a3fa6-599d-4fc2-8254-a90793a5422e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha1new="3b87be97af14ca1b6c363a80a1b1e2481bc42ab1"/>
     </implementation>
@@ -34,12 +34,11 @@
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/thread-src.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/signals2-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xc+4ACgkQxnV5mk56UjElkwCeISlsyHwBGsoF65ls21N0grBpX3sAnj8tdYva
-B1ZSSHHbU5btJkyUj3b6
+iEYEABECAAYFAk+xhB4ACgkQxnV5mk56UjHvlACfc8x9R3db+hP2i+1oSdAG6Ld2h7sAnjvPPon7
+JllQT8HvGOzIlkdtZFgl
 
 -->
