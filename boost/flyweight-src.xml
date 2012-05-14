@@ -10,7 +10,7 @@
     objects.</description>
   <category type="http://boost.org/lib-categories">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e636d104-337d-407c-ad91-909be4415f73" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
+    <implementation arch="*-*" id="f052f441-1692-40be-8f8f-af98cdbd551d" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
       <manifest-digest sha1new="afba6328cca18f79933c14b5e2fcafecf6b9225e"/>
     </implementation>
@@ -25,14 +25,13 @@
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/threads-dev.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSy4ACgkQxnV5mk56UjHgrACfUYTqRnwa2N354JZZ+0oUk1tMtJ0AniQbfwV4
-PmM0SO7njhi/Zv/HfBDc
+iEUEABECAAYFAk+xc+cACgkQxnV5mk56UjFaigCY+MmpTgNxZfvZJDIO/SNQ6AXCwQCbBk2QIrMl
+MHNbnWiu+/8Sg0FULV4=
 
 -->

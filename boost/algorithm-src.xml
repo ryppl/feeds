@@ -20,9 +20,9 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b1a0c856-9561-4293-be36-17c35e882f7a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
-      <archive extract="boost-lib-algorithm-27bc49f" href="http://nodeload.github.com/boost-lib/algorithm/zipball/27bc49f402230459e213028c63c153a6457f3139" size="1736656" type="application/zip"/>
-      <manifest-digest sha1new="496ab88d66664aa5a578a963979a3e06cc8ac971"/>
+    <implementation arch="*-*" id="0c1be0fb-dfc4-4e09-af9b-accf928e96dd" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+      <archive extract="boost-lib-algorithm-5d1155b" href="http://nodeload.github.com/boost-lib/algorithm/zipball/5d1155b55cd05273003fb641147aa9db044e05e1" size="1736724" type="application/zip"/>
+      <manifest-digest sha1new="0e2c7e509caddc29f620046b2cb7c02c56f71b32"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
@@ -39,12 +39,11 @@ String algorithms library.</description>
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/timer-src.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSzYACgkQxnV5mk56UjHdewCfa4JmOW+8tBvoiS4c8WUmG+/eB0YAni6qbP8R
-TJrpncRmfthYPy/lzQFb
+iEYEABECAAYFAk+xdBQACgkQxnV5mk56UjErLgCeIBSPlRe5NcVlxmNAIG/kbI5dth8Anim0O5sk
+8aJgX24GaVvepYZKQz88
 
 -->

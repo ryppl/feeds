@@ -11,7 +11,7 @@
     actual call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4137bb60-f17e-48c8-9383-76e20dc8bc58" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
+    <implementation arch="*-*" id="0c929d8f-ba66-48ef-8350-c5ca4069f957" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
       <archive extract="boost-lib-lambda-9140145" href="http://nodeload.github.com/boost-lib/lambda/zipball/914014514c7cdee429f9c095174533abc69b4934" size="166956" type="application/zip"/>
       <manifest-digest sha1new="85619d77921ec92d4f10fdfa075f2374f612e07d"/>
     </implementation>
@@ -26,12 +26,11 @@
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/any-src.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSyoACgkQxnV5mk56UjEmFACgg/8PeySZ7XyMYNO51tiStcW4DOwAnjON1aK8
-lWKM/Z3g7K6ZNHnlRKL/
+iEYEABECAAYFAk+xc+kACgkQxnV5mk56UjHNwgCeMgvV315WqxwhEBKcPO+5qFcJhH0Anig9ZHSJ
+SDy90RBgACrAmtS5zmDD
 
 -->

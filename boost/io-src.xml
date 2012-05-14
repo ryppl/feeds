@@ -12,19 +12,18 @@
     library.</description>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e70a90c7-1773-4595-99fb-f8b2707d502a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
+    <implementation arch="*-*" id="e586f5e9-dfa9-4daf-9fa3-c86f0269907e" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
       <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
       <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
     </implementation>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSzAACgkQxnV5mk56UjG89ACcDbVO8FzsKiXCu5PI2CS74swM3KAAnA3VfTAI
-6bzNsV+JJyBCuWKSOilF
+iEYEABECAAYFAk+xc+EACgkQxnV5mk56UjF2BwCeKwnnHjvSnuAh9AIl4MREtIRuqwoAn1RNw114
+yRsqEJoPuyN3NBY1PrS+
 
 -->

@@ -10,13 +10,12 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2c17ad80-3f0f-4f8a-b439-3cfa3179ccc4" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
+    <implementation arch="*-*" id="51def1e4-7419-4d04-ab00-a439a5419996" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
       <archive extract="boost-lib-inspect-7ba03cd" href="http://nodeload.github.com/boost-lib/inspect/zipball/7ba03cda1510b8535f3d727e21803c4996dc55ec" size="42009" type="application/zip"/>
       <manifest-digest sha1new="efdd9be6e994a3db181314e34db04ad5285c0af8"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/algorithm-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
@@ -28,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSzcACgkQxnV5mk56UjHKggCgh5vhcnXdjDDcvl8NXzGGNLYOW10AnjwDu026
-b/8YeFHOrVa+QV2VRJpq
+iEYEABECAAYFAk+xc+gACgkQxnV5mk56UjHNCwCdFwllItH7Kh0Ko3h8k+SwqGych7oAnjCVCaNp
+kT0oPqQYM5Vst+LKVYkP
 
 -->

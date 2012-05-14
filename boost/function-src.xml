@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">Programming</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="326fec23-5b71-4eb4-b329-bd9cab3344cc" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
+    <implementation arch="*-*" id="48b29147-558c-49d0-9a74-06c352a74347" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
       <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
       <manifest-digest sha1new="4599172ced1068c1321231c6d14ed29d63c520eb"/>
     </implementation>
@@ -27,12 +27,11 @@
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSzYACgkQxnV5mk56UjF+MgCggh7+A0uudQh24pJ6xyHeheXspvgAnRgS+EFD
-CE/twx7iE+1nEoONFg7a
+iEYEABECAAYFAk+xc+oACgkQxnV5mk56UjGUngCeMn2poAugd2hdS59MB2slu4nqJyUAnRwywhPu
+rz/zfXfnIB8NxTjUBYk9
 
 -->

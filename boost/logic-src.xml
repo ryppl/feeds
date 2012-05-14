@@ -9,7 +9,7 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="928af7b0-57bf-44c4-8075-235ce13ddf39" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
+    <implementation arch="*-*" id="e5dcecd5-43cb-4faa-b9fc-ee7c6c516d06" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
       <archive extract="boost-lib-logic-cec66fc" href="http://nodeload.github.com/boost-lib/logic/zipball/cec66fcea75476f9655302e11d2a34d7f5d809bb" size="14317" type="application/zip"/>
       <manifest-digest sha1new="55e6864c29485cec6a7f1354a45c28ddbb64f111"/>
     </implementation>
@@ -17,12 +17,11 @@
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSygACgkQxnV5mk56UjFxyQCeNGvmav39X5Ub2qi5JNHAQ0A513MAn2xRBahF
-MSbe70wUW6mP3gj9px+W
+iEYEABECAAYFAk+xc+UACgkQxnV5mk56UjHNYwCdERu6JBAbxzEZ7JQr18nz0A5ecHAAnjJHg+G3
+w5SR8lYAJCYBkbFtda3I
 
 -->

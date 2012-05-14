@@ -10,9 +10,9 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="9d21dbea-f8be-4414-a1f4-70474621e067" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
-      <archive extract="boost-lib-core-df192ef" href="http://nodeload.github.com/boost-lib/core/zipball/df192efb4260e6cb9e16834ce9f3daece9e6c784" size="82542" type="application/zip"/>
-      <manifest-digest sha1new="2ea79af8b5334c5616d34f3f31f229d70258ac2a"/>
+    <implementation arch="*-*" id="5a5153ea-7392-4c47-812c-ebd0bea1d14f" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2106">
+      <archive extract="boost-lib-core-21b65a0" href="http://nodeload.github.com/boost-lib/core/zipball/21b65a00dac57c12b156ceeca600195b15fe4a32" size="84470" type="application/zip"/>
+      <manifest-digest sha1new="c078fbdece1563dd640dee1a38361d56878a4ab9"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
@@ -20,12 +20,11 @@
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
-      <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xSy8ACgkQxnV5mk56UjG5MACfZR21z44kKZTwz7aeMrXw1XV6Iv8AniSjTZsH
-aWIQc0+ztxveymFd00KQ
+iEYEABECAAYFAk+xc+0ACgkQxnV5mk56UjFOVwCfTTVs4dYZNK7NdQhBeTCVNdSUJzoAnAywimG7
+NNX+oeiPgR0YsFG87omI
 
 -->
