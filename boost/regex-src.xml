@@ -9,7 +9,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d423f531-b5cc-43ef-925c-b06fd40ef46b" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
+    <implementation arch="*-*" id="da53ca8f-dd00-4c4e-b5a0-033961546f2a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
       <archive extract="boost-lib-regex-4b6e82d" href="http://nodeload.github.com/boost-lib/regex/zipball/4b6e82d8731859ee71758a2fbc5e432774f7f269" size="818640" type="application/zip"/>
       <manifest-digest sha1new="886bbc4ab12334759cb646ca70dbcb7a2f574de1"/>
     </implementation>
@@ -26,14 +26,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/icu-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/icu-dev.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xM0YACgkQxnV5mk56UjH7NgCgobqCzUpLLvX9coT90N2WxHJa5xEAnir8IlHe
-HxVQB/3aLgNPTWtGpT/d
+iEYEABECAAYFAk+xSzkACgkQxnV5mk56UjES5wCfdoP1kw0m1cTAGhUTLTwRio7aNVoAnj8Ha9re
+1QEIJM6T0bqyapMX8Z5Z
 
 -->

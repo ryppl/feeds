@@ -9,11 +9,11 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="69267b49-3551-4597-8693-d80513ac7ab7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
+    <implementation arch="*-*" id="3ac120a4-f6c4-4c68-813e-e378cd574daa" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
       <archive extract="boost-lib-locale-52eb1b7" href="http://nodeload.github.com/boost-lib/locale/zipball/52eb1b72ad50e904f6a5e95d0f39538c5a190db8" size="1178107" type="application/zip"/>
       <manifest-digest sha1new="3a68febf2242f277799d86bf4107b7e6dcffb519"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/iconv-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/iconv-dev.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
@@ -23,7 +23,7 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/thread-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/icu-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/icu-dev.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
       <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
@@ -31,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xMuoACgkQxnV5mk56UjGV6gCfbigic59MqWJZO2fikmeewgr81AkAn2beFRPr
-hV0q/eknrzcr3RQv32kI
+iEYEABECAAYFAk+xSzEACgkQxnV5mk56UjEdKQCfekBj0rt9Q1L35qUSM8jKmynDK/UAoIvBzhty
+VjLuXh43VLk81/nPRbtw
 
 -->

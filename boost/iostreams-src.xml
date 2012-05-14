@@ -11,7 +11,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="bd3694ac-2699-41f5-80ad-87749e10c313" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
+    <implementation arch="*-*" id="2aafefb6-5f54-48cd-882b-ac4cb450c5c0" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
       <archive extract="boost-lib-iostreams-ff3fc33" href="http://nodeload.github.com/boost-lib/iostreams/zipball/ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" size="700583" type="application/zip"/>
       <manifest-digest sha1new="ec0f90e558ae4c0fdc21f3c96c435177c8c186ae"/>
     </implementation>
@@ -21,8 +21,8 @@
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/zlib-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/bzip2-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/zlib-dev.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/bzip2-dev.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
@@ -36,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xMiUACgkQxnV5mk56UjHuVACgli/eUXKyNbvL+f+Y60CoZJovo4YAnjc6KYgF
-PoFpUjieadvspIHGemzo
+iEYEABECAAYFAk+xSyYACgkQxnV5mk56UjH8KgCeOMT+SO4h95GUwdROdvN2nNUsfO4AoI3bJGCW
+hrbL44C1iYWYSZEQWB58
 
 -->

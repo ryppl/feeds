@@ -13,11 +13,11 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="548685b3-6de9-4432-8687-f859d67088f6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
+    <implementation arch="*-*" id="04f04ca7-e769-4f5f-ba2e-564efa1506bf" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
       <archive extract="boost-lib-python-67011d6" href="http://nodeload.github.com/boost-lib/python/zipball/67011d6d20b80f96045c1c82192872c8e1f59aed" size="1217438" type="application/zip"/>
       <manifest-digest sha1new="54edb256de6dd13b71687c36113bd1c027272127"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/pythonlibs-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/pythonlibs-dev.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
@@ -42,7 +42,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xMxUACgkQxnV5mk56UjEHUACeMg0TseoHDW+vj8XTIQUdHuouJ5YAoIUcdGxf
-g3WGo6xQMLLV/9ACNXsb
+iEYEABECAAYFAk+xSzUACgkQxnV5mk56UjGo7gCfWsRj2qYUo9C5VWi5dbF+mbckDYkAnidn3afh
+geZruEIgsfOJXZLS1zyi
 
 -->

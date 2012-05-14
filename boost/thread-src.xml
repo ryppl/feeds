@@ -10,13 +10,13 @@
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <category type="http://boost.org/lib-categories">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d101d882-5d75-4873-9d38-e83b59e9419f" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
+    <implementation arch="*-*" id="a5863267-1c98-4aa3-a745-7c2aa83ad51d" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
       <archive extract="boost-lib-thread-d59b4fc" href="http://nodeload.github.com/boost-lib/thread/zipball/d59b4fc76e080c3d28014738a450dbbfd89c444b" size="431858" type="application/zip"/>
       <manifest-digest sha1new="198c06d855983487c4bc8982b8bfd3d8841d6ec9"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/threads-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/threads-dev.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
     <command name="develop">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xMpQACgkQxnV5mk56UjGozACfepj9mhqzfDrFe6OX9gwqgXpQOUEAn12UwWC7
-cm65XEGjIKdyeHm5Galb
+iEYEABECAAYFAk+xSyYACgkQxnV5mk56UjEzAwCfRBcs4DZteO74COZ678KfUoU2an4AniQy2vVs
+euZDsqnqVJKjPsYz3BYA
 
 -->

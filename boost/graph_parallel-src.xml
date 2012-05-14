@@ -10,21 +10,21 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3a8fcc7a-c789-4f1d-9ece-3364b5db20c6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1625">
+    <implementation arch="*-*" id="195a24e3-d20d-4c99-b655-0573084ca311" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.1811">
       <archive extract="boost-lib-graph_parallel-27a217a" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/27a217a48581a4e6582791856bf95c558f167285" size="1100320" type="application/zip"/>
       <manifest-digest sha1new="5b7f5d326805fd15891575efc8db4404dc826dc7"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/graph-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/mpi-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/mpi-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/mpi-dev.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xMvsACgkQxnV5mk56UjEtyQCgiZV3NxxAlJcKJw75yqmJih3jue0AoJAMPF9+
-sAILaUenO5FTlzTWMOn7
+iEYEABECAAYFAk+xSzEACgkQxnV5mk56UjHlSQCdEvANh6N2N3seh3/CBaF09Jj83UAAmwYS/ZmL
+nIvayOBYVMJi3/mneu02
 
 -->
