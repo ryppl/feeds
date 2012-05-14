@@ -10,18 +10,14 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c39fd269-b1dd-4cff-b594-ba93c1c0aaf4" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+    <implementation arch="*-*" id="65c04d78-20df-4b17-813c-251931993336" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
       <manifest-digest sha1new="1f6847576867a1454f4d9a2e29f4711242fc0b46"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wv/QACgkQxnV5mk56UjFBtQCePFk8QuPbn87n4jo/YRz2DRX7QJ4AnjkqhP61
-f0+lJlPYELyohj5nZuoi
+iEYEABECAAYFAk+wy0YACgkQxnV5mk56UjGcKQCfdWOu/mLLOzhd3xdj05uDbeMYcJQAn1+bnx6m
+XeA8upm5XTxRUUpJjfD3
 
 -->

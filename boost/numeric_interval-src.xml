@@ -10,28 +10,14 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ed791f11-0a5e-4e66-9a58-c28c97901374" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+    <implementation arch="*-*" id="ebbe8486-ccbd-42a5-b902-adec66312635" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
       <archive extract="boost-lib-numeric_interval-cbd7821" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/cbd7821cf49b450ab0e1e40a02a3001f1153dd30" size="120472" type="application/zip"/>
       <manifest-digest sha1new="1be594e80315511862a0d1b82a3288775eb7b7f7"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/io-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/rational-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/logic-src.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wv+oACgkQxnV5mk56UjH6twCdGvN0ps3WHibOUYwxnucG/G5MOP4An0V0KiIU
-08lPOvwZIfeMUckYPAXW
+iEYEABECAAYFAk+wyzkACgkQxnV5mk56UjGnagCdE8VQ/F4ua2AoClBk8rictZVHm+IAn2wCSBWB
+qJBho7md0HrXkfo9V413
 
 -->

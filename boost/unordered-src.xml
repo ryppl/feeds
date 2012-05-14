@@ -9,27 +9,14 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b37f48c0-0160-44b1-9ab0-80447420b152" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0814">
+    <implementation arch="*-*" id="dbde8a27-300d-4f48-8714-6db2e7f6e997" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.0903">
       <archive extract="boost-lib-unordered-fb921b4" href="http://nodeload.github.com/boost-lib/unordered/zipball/fb921b4497145460d67c57eaace921dedefa80bf" size="194396" type="application/zip"/>
       <manifest-digest sha1new="b09604c32a0dc4eba6906e590572b481899653de"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/functional-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/foreach-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/algorithm-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+wv4kACgkQxnV5mk56UjFAhQCfWhGOaVabyDC4XSu5WvKR9iix/EsAnjBSxn+6
-ZUbwWc+C6c1sPp2QlLIM
+iEYEABECAAYFAk+wytYACgkQxnV5mk56UjEmgACeIoibhHfWvv4GzcYkEydo3tsEBHEAnjt81ZhK
+c9U0X7lk88H2W9WF2tIj
 
 -->
