@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/graph-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/graph-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Graph (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/graph.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/graph/</homepage>
   <dc:author>Jeremy Siek</dc:author>
@@ -15,7 +16,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cd95a462-b095-4358-80c3-c3427e6198bb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="dc069edc-1d99-4143-a3bb-47107b3483e7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-graph-ddaf2bb" href="http://nodeload.github.com/boost-lib/graph/zipball/ddaf2bb88975fdd6ca34672f05946fbc464999f8" size="3672631" type="application/zip"/>
       <manifest-digest sha1new="84fab9e63b222cdc9f1c94a0e1027baaf6eb3492"/>
     </implementation>
@@ -231,7 +232,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg4EACgkQxnV5mk56UjGHzwCfY1bQIwLUt/twN0/12Mes21t5uTgAni7L2xxo
-3i2xx0DxHmq3bpv0jBXv
+iEYEABECAAYFAk+y56sACgkQxnV5mk56UjEUTQCgjLRHYHj9/VbsmtShSl9CK/CAjysAnRhkOfHq
+Px8hEU1SHL1F28HxZpDc
 
 -->

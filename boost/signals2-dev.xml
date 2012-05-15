@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/signals2-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/signals2-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Signals2 (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/signals2.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/signals2/</homepage>
   <dc:author>Frank Mori Hess</dc:author>
@@ -11,7 +12,7 @@
   <category type="http://boost.org/lib-categories">Patterns</category>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="434ce68c-ff9b-414b-bc4e-e3772d3ce3fe" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="44700738-5cb9-449a-bca6-b2677ac8058a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-signals2-fc6832a" href="http://nodeload.github.com/boost-lib/signals2/zipball/fc6832acd9922a2a2da83420e0cd809ebec426e7" size="150649" type="application/zip"/>
       <manifest-digest sha1new="3b87be97af14ca1b6c363a80a1b1e2481bc42ab1"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhB4ACgkQxnV5mk56UjG/4QCfdZhyI7ADRd+yscF057AW16/GolsAnR0hnEjc
-i8OF3iXYqk34SIsNJcHM
+iEYEABECAAYFAk+y6ycACgkQxnV5mk56UjHMHACglwnU9qAq+SxBuv0ZY+exkQUQAtcAnjAerb9U
+ZVbP/lmfuDqhxztNS0si
 
 -->

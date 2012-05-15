@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/mpi-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/mpi-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MPI (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/mpi.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/mpi/</homepage>
   <dc:author>Douglas Gregor</dc:author>
@@ -11,7 +12,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fa21bb4c-c34e-44a5-b0c6-cbc4f4b12d8a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="1febb469-bbc2-42cd-a5de-66c9024ec94d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg9UACgkQxnV5mk56UjG/EACfScmaG9WwAsKEjEvfoNwopSD11UEAn3OV2Fpx
-KAcPC0fnALRjrTCeSsbH
+iEYEABECAAYFAk+y6Z4ACgkQxnV5mk56UjFeZwCgqGDk0wZZ9m+lggteoTZHIjb4SFcAn3Kscr/P
+EASMYX2lje7OSI1hFTRY
 
 -->

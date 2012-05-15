@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/geometry-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/geometry-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Geometry (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/geometry.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/geometry/</homepage>
   <dc:author>Barend Gehrels</dc:author>
@@ -12,7 +13,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8a1c7eb7-8c7d-4b88-8dcb-86fc2376c993" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="4e80843a-a05d-4df6-b4ee-5e3add638e7b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-geometry-a5e95cc" href="http://nodeload.github.com/boost-lib/geometry/zipball/a5e95cca3fa4439a521a30418f5a691663ddb218" size="5242245" type="application/zip"/>
       <manifest-digest sha1new="3b687fb70a5542547a35d8556c93f0ce4a0561c6"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg84ACgkQxnV5mk56UjFBRgCfXm9xJSTZH2ryN8MVv3yMX0+mAEQAn0Yz7bxy
-bWyssOp7ERaFxW/aJqy9
+iEYEABECAAYFAk+y6YIACgkQxnV5mk56UjG1AwCfUI2Ck5RwWmzaavXq/8rlEKYm/MUAn0MK/UkP
++6xhk7xJM4Uz2aMxTK3+
 
 -->

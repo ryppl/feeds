@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/foreach-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/foreach-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Foreach (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/foreach.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/foreach/</homepage>
   <dc:author>Eric Niebler</dc:author>
@@ -20,7 +21,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a405317f-7d9f-4969-acd1-c31b3f3bb8f7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="07272302-6d91-4417-92ba-305ff3060c32" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
       <manifest-digest sha1new="37abb66bae453003ad9989a1fccc0b56f4b5df93"/>
     </implementation>
@@ -38,7 +39,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhAAACgkQxnV5mk56UjHNtQCgj5gTAzUMpyrvVujZ0HqnczXhgR4AnjR2p4pL
-S3wvgFm08Ha7HYEKQU7A
+iEYEABECAAYFAk+y6nwACgkQxnV5mk56UjHmwwCdEBjgeMD942y3MbiCb0Gb0WbrOpwAnRv1QZh0
+Z1viK12L0UGl6NGWyHLN
 
 -->

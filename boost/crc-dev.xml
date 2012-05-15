@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/crc-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/crc-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.CRC (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/crc.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/crc/</homepage>
   <dc:author>Daryle Walker</dc:author>
@@ -12,7 +13,7 @@
     implementations are template-based.</description>
   <category type="http://boost.org/lib-categories">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ec087deb-75a2-4c97-af9d-d0d026074d8b" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="3168f984-33da-42ca-8ced-96d0fe52d6de" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
       <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg7gACgkQxnV5mk56UjEQ4wCeMdIG+A0OOMXbJXgWKc09HhYjcfAAn2zt3GS2
-3KRdgHPIXOO36eWWP7tg
+iEYEABECAAYFAk+y6QkACgkQxnV5mk56UjGS0QCfZLx67Nqx51pFiFEEXDesfVhfVY8An0mM7KWm
+SEuwz0isaQYK1FRpfKwd
 
 -->

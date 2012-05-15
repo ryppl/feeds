@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Interprocess (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/interprocess.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/interprocess/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
@@ -10,7 +11,7 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="cde4e7b0-ac3f-4c0e-a7fe-fbf0fd977314" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="f6bfcfd0-8cc3-4c72-bb91-6e6693025708" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
       <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
     </implementation>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg3IACgkQxnV5mk56UjFvIgCgoSJtNh/OSnAlALSAyb/zJ+AXxMIAoKS89oiV
-iJvGRjcLg0oxhENmZ/Tj
+iEYEABECAAYFAk+y50oACgkQxnV5mk56UjGauwCfeOC16fu+vuUmR/0xg5+o07AULSkAnimgJ3q1
+goqiItkQFbveCHKGXZEN
 
 -->

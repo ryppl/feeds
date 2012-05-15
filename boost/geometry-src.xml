@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/geometry-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/geometry-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Geometry (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/geometry.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/geometry/</homepage>
   <dc:author>Barend Gehrels</dc:author>
@@ -12,7 +13,7 @@
   <category type="http://boost.org/lib-categories">Algorithms</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="961b91c7-576c-45b2-8d37-a3b630f94277" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="346c39c5-2cae-4dc4-bb27-2cce9ca51902" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-geometry-a5e95cc" href="http://nodeload.github.com/boost-lib/geometry/zipball/a5e95cca3fa4439a521a30418f5a691663ddb218" size="5242245" type="application/zip"/>
       <manifest-digest sha1new="3b687fb70a5542547a35d8556c93f0ce4a0561c6"/>
     </implementation>
@@ -51,7 +52,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg84ACgkQxnV5mk56UjE4pACeNcM9bXNoaIrAWtk9H2HsVoxNEWUAoJDVm1Kl
-4NnFCnMxfcqNEjAUEM1O
+iEYEABECAAYFAk+y6YIACgkQxnV5mk56UjEIwgCgkzQW77dc5C58C+l53vCHFuDaFRMAoI5icxqS
+tCTtmRsXlJJM0UomMY6u
 
 -->

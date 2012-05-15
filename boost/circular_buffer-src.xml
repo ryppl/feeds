@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.CircularBuffer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/circular_buffer.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/circular_buffer/</homepage>
   <dc:author>Jan Gaspar</dc:author>
@@ -10,7 +11,7 @@
     </description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="7d900c01-f7b3-4b96-9c48-c8f7e82416bb" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="ad3cc7f4-b2aa-454f-8787-65596da6ebdb" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha1new="2a913cb1c5b7b9f8db2f66bf8b642206c374b121"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg4QACgkQxnV5mk56UjH0fQCgn7kZPisSgHcCLFOnIvfk1DIAE1cAnRhcYdJ/
-6dJVqQyyE1urXw/LL5Rt
+iEYEABECAAYFAk+y57UACgkQxnV5mk56UjH9EgCdH38yJBNjHvOz1NIIC/hzXu3DOZEAn2QxWOrJ
+fa6kTl6KH3AsuOZaQGpj
 
 -->

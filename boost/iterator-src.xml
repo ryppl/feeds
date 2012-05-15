@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/iterator-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/iterator-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Iterator (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/iterator.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/iterator/</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -15,7 +16,7 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3dbe6977-a131-4233-b3a0-039466f5bd39" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="6ed77da7-c0b1-4b19-ab34-f9513ba822ff" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-iterator-9091159" href="http://nodeload.github.com/boost-lib/iterator/zipball/909115965b4bfdf95145aaeb21a42bf336ac5102" size="1591731" type="application/zip"/>
       <manifest-digest sha1new="a699c64679753d861660fdbc628ac2d25a7c7b81"/>
     </implementation>
@@ -36,7 +37,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg3AACgkQxnV5mk56UjG4dwCfQmZE+C4uSkLeYb2y6wsRSq1QX/QAoKS+xUNI
-ztrt47NRUdGfeS1XE8W7
+iEYEABECAAYFAk+y5z0ACgkQxnV5mk56UjFTXACghHw6a9ZOHxDC6IRjd/IPAplmoQcAnj79V2fd
+9s+1Hwuxae1pxJZjOBrH
 
 -->

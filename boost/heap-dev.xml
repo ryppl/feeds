@@ -1,15 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/heap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/heap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Heap (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/heap.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/heap/</homepage>
   <dc:author>Tim Blechmann</dc:author>
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="519f5e00-78f8-499c-b2af-0b942d9a40de" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="41f50bd7-2e30-460f-81ee-c38e3e4653f4" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-heap-78b6a28" href="http://nodeload.github.com/boost-lib/heap/zipball/78b6a28bd5fc79367a00346751381ab4c3397947" size="67855" type="application/zip"/>
       <manifest-digest sha1new="9617c786255ced1147d4fee46b66ecff043b7760"/>
     </implementation>
@@ -27,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhAUACgkQxnV5mk56UjFw3ACeNH5ZgVPEnLNIdgen4D6kspg8ZJ8AoKVzpEaV
-xnZvpGLLb41eJaPJ527P
+iEYEABECAAYFAk+y6pMACgkQxnV5mk56UjECQwCghO4cuhgP5OzP1hPRP8Ynh713y4wAn04hZsnv
+TMtzGPy01+/OjsRkoFTZ
 
 -->

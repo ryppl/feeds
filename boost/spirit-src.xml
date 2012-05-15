@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/spirit-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/spirit-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Spirit (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/spirit.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/spirit/</homepage>
   <dc:author>Joel de Guzman</dc:author>
@@ -13,7 +14,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="fbc45fef-89f4-4a00-92ad-dde8e05a00d2" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="203904b1-825f-44e5-bc13-0c3c531e374d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-spirit-a3b48cc" href="http://nodeload.github.com/boost-lib/spirit/zipball/a3b48cc9cebc73d6293fd469f442d1ed46fb771c" size="4519465" type="application/zip"/>
       <manifest-digest sha1new="cbd47ac6a45a0c1f4f6774f32f513169bcb17827"/>
     </implementation>
@@ -55,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg+wACgkQxnV5mk56UjHxlwCgmFnDGYxW4KvXdP/+b9vA5CKEeEIAnRo9Hlg9
-tGHIkTlv/ImeaXCXaej7
+iEYEABECAAYFAk+y6hUACgkQxnV5mk56UjH1TwCgg6/uKfnTrbFAObyMXGOIof2RI4IAoKGe4jQP
+W4+3Rzqn9tilwf1Rg/CS
 
 -->

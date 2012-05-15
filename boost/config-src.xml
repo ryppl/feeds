@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Config (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/config.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/config/config.htm</homepage>
   <dc:author/>
@@ -10,7 +11,7 @@
     idiosyncrasies; not intended for library users.</description>
   <category type="http://boost.org/lib-categories">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="631f3be5-95bc-4916-b77d-c039729a6905" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="31d261a3-0c06-4c8b-9c67-c9bfbcc2b8ff" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-config-0fe0c8e" href="http://nodeload.github.com/boost-lib/config/zipball/0fe0c8e662cff508124b340372bce1e5d2a5aa75" size="621733" type="application/zip"/>
       <manifest-digest sha1new="7e6adbdea2fdf447a38262f4254e56bff5ac1d52"/>
     </implementation>
@@ -21,7 +22,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg3oACgkQxnV5mk56UjHxTACfb0vWWOHZJ2WmMs8vJ+oG2hIUc0gAn18doLDQ
-jlltG7yZV6nvSsHXl0NR
+iEYEABECAAYFAk+y54UACgkQxnV5mk56UjHc2wCdE/Xmp6CoWt/Q9M3O2bWkbqnIHy4AoJ5tQ238
+fR0qAy/YVZ7SRzC9U/Tq
 
 -->

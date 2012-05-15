@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/iostreams-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/iostreams-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.IOStreams (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/iostreams.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/iostreams/</homepage>
   <dc:author>Jonathan Turkanis</dc:author>
@@ -11,7 +12,7 @@
   <category type="http://boost.org/lib-categories">String</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1cf7d4ea-b120-4022-b721-78b8e519e0a7" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="468bd302-ff1a-4199-92d4-c25b0de62ed6" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-iostreams-ff3fc33" href="http://nodeload.github.com/boost-lib/iostreams/zipball/ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" size="700583" type="application/zip"/>
       <manifest-digest sha1new="ec0f90e558ae4c0fdc21f3c96c435177c8c186ae"/>
     </implementation>
@@ -36,7 +37,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg4YACgkQxnV5mk56UjHtxgCfWQDZ3+zAbmuNU39KqU5J8ElwHI0AniPN9dWt
-/YSHRXDrg0qVLjUjIdze
+iEYEABECAAYFAk+y570ACgkQxnV5mk56UjHdkgCbBE+bmYpB3l0vkZcRlWEZWD1pHDoAnjqFvDCa
+40hEHp83WY3JmtIgf8nb
 
 -->

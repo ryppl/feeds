@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/math-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/math-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Math (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/math.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/math/</homepage>
   <dc:author>Paul Bristow</dc:author>
@@ -43,14 +44,14 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="adcb1200-098c-42ab-9e89-678b38436ed6" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="b75a5467-0b6e-4157-88ea-51a1f5513a2b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-math-f8e6183" href="http://nodeload.github.com/boost-lib/math/zipball/f8e6183f9a335c19b0d4869502e4a63b35364da3" size="13359860" type="application/zip"/>
       <manifest-digest sha1new="c99768c8f08d2b7ee47162666daaeebadb26c024"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg+YACgkQxnV5mk56UjHNkQCfXu1yP2vdLaYM3/QRLYxYa0dREHoAn0+s8mRy
-6gv4zIguXheoytJN1JUk
+iEYEABECAAYFAk+y6foACgkQxnV5mk56UjFlEACfQtqBsbMRKeimynPhScvXBu0XijIAn1tbOjkw
+7cjvtl5HBxsBBnaHFB1m
 
 -->

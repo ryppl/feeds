@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DisjointSets (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/disjoint_sets/disjoint_sets.html</homepage>
   <dc:author>Jeremy Siek</dc:author>
@@ -13,7 +14,7 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="adec6dfa-ee68-4215-8311-b7a0a48389e3" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="4bbf537f-d744-4c54-a978-a05ca06563c7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-disjoint_sets-01725e4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/01725e43f9f33eef93a295a0f0bf188433c152e6" size="10385" type="application/zip"/>
       <manifest-digest sha1new="9756e5dd44d12f7715731fe213467030909c4d87"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg+YACgkQxnV5mk56UjFYPgCdH5le81eoHxTnUq1IvDv6Cu+TDNIAoJ7TUy7g
-PphKHZbpY4XQTjMPhm7l
+iEYEABECAAYFAk+y6eMACgkQxnV5mk56UjHs/QCePtjM8spBA53mSYiSHISnkciVALsAnir5JYKU
+zimyKsg9itZJTAyVL4+g
 
 -->

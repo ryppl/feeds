@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/utility-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/utility-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Utility (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/utility.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/utility/utility.htm</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -61,7 +62,7 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6c7fb4e0-3c39-4c4a-9f2d-34c059287343" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="f8c7839e-314d-483b-a242-d51c1d869a52" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-utility-1bdfe57" href="http://nodeload.github.com/boost-lib/utility/zipball/1bdfe57dcb74563a90186e23ef212852a33d77f4" size="223247" type="application/zip"/>
       <manifest-digest sha1new="2b954b4353b864ec722035bec32725e15a71b861"/>
     </implementation>
@@ -82,7 +83,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhCsACgkQxnV5mk56UjFfywCgjjeDXsaV2h6hS+19yE816s9G7xkAn3xlk6Q4
-wSAHOKAGY+LzcogHotYq
+iEYEABECAAYFAk+y61wACgkQxnV5mk56UjF8jwCfWM6aqe+7dRRBHgo2KKQtpocoBqsAn0V9Jnwy
+FdbN9PXvjr6ACnBVvlMB
 
 -->

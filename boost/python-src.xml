@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/python-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/python-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Python (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/python.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/python/</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -13,7 +14,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e96140ee-a71e-46d8-b01b-628cdae6a99a" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="d186978f-0848-4fe3-955e-a1f31495704a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-python-62b3df4" href="http://nodeload.github.com/boost-lib/python/zipball/62b3df4e3ee4fd53ee3244f332274d262b507611" size="1217441" type="application/zip"/>
       <manifest-digest sha1new="d80afaa02f03c09820f5e336974e2b77f4f3d4f3"/>
     </implementation>
@@ -42,7 +43,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhA4ACgkQxnV5mk56UjEa1QCdHR2hhGj1T1aNh6MDDZfAcjFslCUAoKHjx4I3
-OoHXdda8Gzh/00O9wToR
+iEYEABECAAYFAk+y6ssACgkQxnV5mk56UjGnHwCeOjjxLvUwXcha4Eppzivi+QlmuYwAoIHCetWc
+0/7IV4qBVjK9uyoAIpuB
 
 -->

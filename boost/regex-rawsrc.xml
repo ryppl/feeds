@@ -1,22 +1,23 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/regex-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/regex-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Regex (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/regex.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/regex/</homepage>
   <dc:author>John Maddock</dc:author>
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a8a2b4a7-deec-4437-a3e2-6e35c273ee21" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="20a84179-bda9-41e2-8775-06c86202a54d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-regex-82db62b" href="http://nodeload.github.com/boost-lib/regex/zipball/82db62b2d282e4768bde2e2363d0e0f5bf50939e" size="818655" type="application/zip"/>
       <manifest-digest sha1new="8545addc504bd9164b49f9a9c6aae2feccc42eb3"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhDEACgkQxnV5mk56UjFIUACgkqZHtYaTMR+dWQaIH3NC06aK3QUAniMGBodh
-IPLOa9YCUi30b9kwiSY4
+iEYEABECAAYFAk+y63cACgkQxnV5mk56UjGYJgCfWxDLpVhyrh9WMqp4Mig3QeqjFq8Anj1GvfLp
+Xrg7jkVbUq9Z8feLzZV5
 
 -->

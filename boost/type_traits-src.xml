@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/type_traits-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/type_traits-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.TypeTraits (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/type_traits.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/type_traits/</homepage>
   <dc:author>John Maddock</dc:author>
@@ -13,7 +14,7 @@
   <category type="http://boost.org/lib-categories">Generic</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="39814798-a226-4627-84fc-721bb3596996" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="6a2d1af3-1da4-40c8-a5b6-42d44065d957" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-type_traits-d80b3ad" href="http://nodeload.github.com/boost-lib/type_traits/zipball/d80b3ad2994db8debbab83337f01fb2e6dbd7012" size="895089" type="application/zip"/>
       <manifest-digest sha1new="0f3cc2f1044f6d7a69a2d255145143e54c55e245"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg9AACgkQxnV5mk56UjFffgCdEjnH2YO9kB1C4CdxyZcMRCPqYrsAoJ+U6hnF
-2AVaB6cCLQ3eGAecMVAv
+iEYEABECAAYFAk+y6Y0ACgkQxnV5mk56UjEApwCcDPPvBvnxc+bzCLbx8ZzYheseDGQAn27gl/Hc
+3Z1LrGF2mzbRbaat2LlF
 
 -->

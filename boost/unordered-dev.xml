@@ -1,15 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/unordered-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/unordered-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Unordered (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/unordered.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/unordered/</homepage>
   <dc:author>Daniel James</dc:author>
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0c74bdec-ea9d-4326-8799-3ca43040fe69" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="afe38743-c553-4059-b9e1-317f1e588ce1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-unordered-9a66f2d" href="http://nodeload.github.com/boost-lib/unordered/zipball/9a66f2df2bca5e691a319314b0b583f69866a2a1" size="194403" type="application/zip"/>
       <manifest-digest sha1new="a9c3293dd75d1417124f694678bfe2daddb3da6b"/>
     </implementation>
@@ -27,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg8QACgkQxnV5mk56UjG7vwCfYKjuoBCNsSZBbwE2aLrWPtlTm9MAn2CowOtc
-dcCympY3pLNbCtw84IJx
+iEYEABECAAYFAk+y6UoACgkQxnV5mk56UjGVoQCfWOv5Olf97QmRzBuryZv/8UKR+6wAmgMoMdhD
+zq6AlImr4c1tOYbmEgCf
 
 -->

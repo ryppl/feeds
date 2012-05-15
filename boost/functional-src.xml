@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/functional-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/functional-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Functional (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/functional.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/functional/</homepage>
   <dc:author>Mark Rodgers</dc:author>
@@ -24,7 +25,7 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c00d4a20-daf5-4b75-b696-0b06195b2c39" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="ad602d96-c14d-4946-b421-3dc80b2834cd" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-functional-b639014" href="http://nodeload.github.com/boost-lib/functional/zipball/b639014c3962af5c341a3eb4b092b231c2b33339" size="101447" type="application/zip"/>
       <manifest-digest sha1new="3fc96422dd2fd7ffb1d0794885c7eb2a8627727e"/>
     </implementation>
@@ -45,7 +46,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg3kACgkQxnV5mk56UjHB/QCgl2f+6X1NuM6sIKSuI5gTI9zEfVUAnRq6KxTE
-aNeV2iBZxEoXUJ4bA35y
+iEYEABECAAYFAk+y54EACgkQxnV5mk56UjEZZwCfWSVGFFJlFNLLC5eAjaZa/qN3mH4An1S3tjjs
+M1VyCF2UXhzzLpDiAyxl
 
 -->

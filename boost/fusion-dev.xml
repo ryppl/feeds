@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/fusion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/fusion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Fusion (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/fusion.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/fusion/doc/html/</homepage>
   <dc:author>Joel de Guzman</dc:author>
@@ -13,7 +14,7 @@
   <category type="http://boost.org/lib-categories">Data</category>
   <category type="http://boost.org/lib-categories">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c596f5c6-59b8-47bc-8714-d0512cae3545" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="24c7478b-7d61-44ff-a59e-f16cf75910a5" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-fusion-cc2dd84" href="http://nodeload.github.com/boost-lib/fusion/zipball/cc2dd84632c97f1f8e535ae256c4c25de5159052" size="1209623" type="application/zip"/>
       <manifest-digest sha1new="5cc643bcf37e5e8425cd84c3fa6e7c8c61af410b"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg9kACgkQxnV5mk56UjHY1wCeJO/HhvJp+2UiyobHbMRcPCxpr9sAn2xLyHRf
-KuSejh6SI1+oNrcTmZnW
+iEYEABECAAYFAk+y6a0ACgkQxnV5mk56UjHEVgCdGDAd3JbdW79NF58RNi0nFPlqP0QAoI9weu9s
+I40h2M3nqg51VcyBu2G7
 
 -->

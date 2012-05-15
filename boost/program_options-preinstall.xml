@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/program_options-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/program_options-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ProgramOptions (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/program_options.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/program_options/</homepage>
   <dc:author>Vladimir Prus</dc:author>
@@ -13,7 +14,7 @@
   <category type="http://boost.org/lib-categories">Miscellaneous</category>
   <category type="http://boost.org/lib-categories">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a92bcf2e-9c63-4d4f-b61a-7ee313c1e16c" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="00cbd27e-4046-4b10-8ad6-614d70f05fb0" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-program_options-7bdd400" href="http://nodeload.github.com/boost-lib/program_options/zipball/7bdd400744aed5658d2dc43602705aac5a37bb0c" size="159732" type="application/zip"/>
       <manifest-digest sha1new="7611fa846ffe51a9bbc87f2f369f04603f4aaa03"/>
     </implementation>
@@ -217,7 +218,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg3sACgkQxnV5mk56UjFbBACgmxfzBBiOP5N0S3SHysHSbpT3h+kAoILjcWYT
-hrEVX5izQi2UlNOkdTtl
+iEYEABECAAYFAk+y54oACgkQxnV5mk56UjHGxACeJXTEKs4FW6M0n9CDsGzJkuIgEiUAn1LsmV7d
+VKP2hXvScY9iaubslugA
 
 -->

@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/python-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/python-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Python (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/python.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/python/</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -13,7 +14,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9da5e62a-e323-4be9-9496-56707bd198c1" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="323e4171-4d28-41de-80f3-813f1ae08040" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-python-62b3df4" href="http://nodeload.github.com/boost-lib/python/zipball/62b3df4e3ee4fd53ee3244f332274d262b507611" size="1217441" type="application/zip"/>
       <manifest-digest sha1new="d80afaa02f03c09820f5e336974e2b77f4f3d4f3"/>
     </implementation>
@@ -238,7 +239,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhA4ACgkQxnV5mk56UjFNWQCgkmtDnuemMpwDg6CaKZ2Y4B8mICIAoKHzWOq0
-9aU6pWmFTapT+TrEf9wx
+iEYEABECAAYFAk+y6s4ACgkQxnV5mk56UjGawACcCbJOQ5kp6ohB99QNO3ZUnDeB2fUAoJDjTU7s
+67Uud2azkCOLvij5urDY
 
 -->

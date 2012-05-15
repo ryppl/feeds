@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.LocalFunction (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/local_function.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -10,7 +11,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d5a287d4-4a44-4883-86dd-e718c8690330" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="71ff24c8-300f-4d0a-a4ff-aa5e42cff51a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-local_function-d13256b" href="http://nodeload.github.com/boost-lib/local_function/zipball/d13256bcd9a83368645812cbe43680336fb72aa0" size="601039" type="application/zip"/>
       <manifest-digest sha1new="8e63d5343dd4061db2745c366481fa0ba591b96e"/>
     </implementation>
@@ -20,7 +21,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhAYACgkQxnV5mk56UjE+BgCfSM+uCYrmwoQtNSWAw/lgsktj+p4AoIYsrkKz
-gdqb3yWHUaMksC/T+auE
+iEYEABECAAYFAk+y6pwACgkQxnV5mk56UjGn4gCeOu2nPJZklUPitbzzeyIXffLhFfgAoJ1Iq5qR
+OsjkSCczjuJzhBpoaB97
 
 -->

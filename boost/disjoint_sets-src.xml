@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DisjointSets (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/disjoint_sets/disjoint_sets.html</homepage>
   <dc:author>Jeremy Siek</dc:author>
@@ -13,7 +14,7 @@
     compression.</description>
   <category type="http://boost.org/lib-categories">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="759f9796-21bf-4faa-bfaf-6e1691c1ea7f" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="4f853009-eb0f-4519-9382-b9f63818a558" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-disjoint_sets-01725e4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/01725e43f9f33eef93a295a0f0bf188433c152e6" size="10385" type="application/zip"/>
       <manifest-digest sha1new="9756e5dd44d12f7715731fe213467030909c4d87"/>
     </implementation>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg+YACgkQxnV5mk56UjFSfwCfYcoEiQYZzbS0VWevHwGQArHAwIgAn2o7BBsT
-VrXB67lIjb2kIQkPwm2T
+iEYEABECAAYFAk+y6eMACgkQxnV5mk56UjHcSgCeNr67ggYqpWf72W+3Mms4kpFYrDgAn2lVUCtl
+vNrs5vxg94pBAdg1n+ZA
 
 -->

@@ -1,15 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/locale-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/locale-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Locale (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/locale.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/locale/</homepage>
   <dc:author>Artyom Beilis</dc:author>
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a1fd9c12-e31e-4335-bf44-3298bf6f1cea" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="182e0340-45f1-414a-b423-118e183edcef" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-locale-52eb1b7" href="http://nodeload.github.com/boost-lib/locale/zipball/52eb1b72ad50e904f6a5e95d0f39538c5a190db8" size="1178107" type="application/zip"/>
       <manifest-digest sha1new="3a68febf2242f277799d86bf4107b7e6dcffb519"/>
     </implementation>
@@ -252,7 +253,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg/UACgkQxnV5mk56UjGZZACdFzBwDizmAybhcB+c+s9fS6X6poMAoJJHxMP0
-4TrB8kMf3Iibz5I+GO23
+iEYEABECAAYFAk+y6jcACgkQxnV5mk56UjGq5ACgk46VcSI2+kC5O/NoNNYfYioayu4An2OanB6q
+GJwuwa+xgPFtkPe3KJ37
 
 -->

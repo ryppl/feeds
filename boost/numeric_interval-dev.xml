@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/numeric_interval-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/numeric_interval-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.NumericInterval (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/numeric_interval.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -10,7 +11,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="95df6578-f033-4f15-9a79-9e3f9e4b86f3" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="2197801f-dc0c-4312-8c5e-7818be38925a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-numeric_interval-cbd7821" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/cbd7821cf49b450ab0e1e40a02a3001f1153dd30" size="120472" type="application/zip"/>
       <manifest-digest sha1new="1be594e80315511862a0d1b82a3288775eb7b7f7"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhBAACgkQxnV5mk56UjE2vgCgmrW/Mff7Knrc2eY+iF6xA/QcIx4AoJNOnWhv
-0VP3H+nbIm615jT/00My
+iEYEABECAAYFAk+y6tUACgkQxnV5mk56UjEu5wCgnT04NR/sGjZfARzkE0sgAnBDMSAAnj5QQST1
+EV7d46WGZ3VKONPGHG4i
 
 -->

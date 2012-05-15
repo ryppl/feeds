@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/phoenix-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/phoenix-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Phoenix (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/phoenix.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/phoenix/</homepage>
   <dc:author>Joel de Guzman</dc:author>
@@ -12,7 +13,7 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f2d56642-f481-49c0-8a08-2021c2ab7430" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="462ab409-4de8-45c7-ab20-bc8e289b5eac" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
       <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
     </implementation>
@@ -37,7 +38,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xhB0ACgkQxnV5mk56UjEPTwCfQ2U58noLplcpImOQHt1Nca86hzUAn3j8QOUL
-TWuBDz8+dur4azIEpBqO
+iEYEABECAAYFAk+y6yEACgkQxnV5mk56UjFczgCeJloAtesU9vrboHj+j7d+L7NJ9xgAnRBprJCf
+UTKR0wgRHjAZIdrTN0qj
 
 -->

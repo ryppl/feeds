@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/core-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/core-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Core (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/core.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -10,7 +11,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4a924766-724d-44fd-b3a5-2190276c8a24" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-src" id="9fdc119d-6225-488c-a9d9-d7f7b48a1db1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-core-21b65a0" href="http://nodeload.github.com/boost-lib/core/zipball/21b65a00dac57c12b156ceeca600195b15fe4a32" size="84470" type="application/zip"/>
       <manifest-digest sha1new="c078fbdece1563dd640dee1a38361d56878a4ab9"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg/AACgkQxnV5mk56UjEjfQCfVsCJKFKyFVdCQitgpHGR/0A/DFIAnRgwl4Cm
-CQA1TXGHIWDb8E7OOz+3
+iEYEABECAAYFAk+y6iAACgkQxnV5mk56UjGghACfbETcl9iwy3ATRJcNwdatZk0U8GUAnRDM0SY0
+TM7gEZG/iMm5l498omS3
 
 -->

@@ -1,15 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/locale-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/locale-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Locale (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:repository href="http://github.com/boost-lib/locale.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/locale/</homepage>
   <dc:author>Artyom Beilis</dc:author>
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="98f2115c-ba02-4bda-b59c-3d67f878fdad" released="2012-05-14" stability="testing" version="1.49-post-2012.05.14.2212">
+    <implementation arch="*-*" id="4646ffa2-42a0-4d11-a098-9ab974eac2ef" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
       <archive extract="boost-lib-locale-52eb1b7" href="http://nodeload.github.com/boost-lib/locale/zipball/52eb1b72ad50e904f6a5e95d0f39538c5a190db8" size="1178107" type="application/zip"/>
       <manifest-digest sha1new="3a68febf2242f277799d86bf4107b7e6dcffb519"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+xg/UACgkQxnV5mk56UjHDtwCdFL9zmqNtZ7CbXlXvsaxEQKjeh5kAn06q47Zx
-cinQ9nX3A9t9EmnSdfoN
+iEYEABECAAYFAk+y6jYACgkQxnV5mk56UjEDdgCfbg/kLOlin+I9KQvHFHUtqIABBQcAnjtaIjzs
+rIfg3BQ4T8HlA6L0xO4l
 
 -->
