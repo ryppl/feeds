@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.SmartPtr (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/smart_ptr.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/smart_ptr.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/smart_ptr/smart_ptr.htm</homepage>
   <dc:author>Peter Dimov</dc:author>
@@ -11,9 +11,10 @@
   <dc:author>Beman Dawes</dc:author>
   <dc:author>Darin Adler</dc:author>
   <description>Smart pointer class templates.</description>
-  <category type="http://boost.org/lib-categories">Memory</category>
+  <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="dd473692-f169-479b-9f91-5557d2864446" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="9a8470f6-a650-4175-83db-24c2a843c9a1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>aff6ecf5b379e994538fe1db559fcdc7aa286f45</ryppl:vcs-revision>
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
       <manifest-digest sha1new="f2ece99274cbce8c8f670882da5273a33181266f"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6ioACgkQxnV5mk56UjH0HgCeIa/cUSKF0JWpRO8gG0gZr8n6VNwAoJGsrWuQ
-4gJ9p20kK3HPq/AXMMS9
+iEYEABECAAYFAk+zIDgACgkQxnV5mk56UjE3iQCfRQKsRbNX0W530DRmS9tLMlcAsacAnj1Pn9UQ
+nIkE4Bka6ZVx/+GJyI6+
 
 -->

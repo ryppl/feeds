@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/exception-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Exception (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/exception.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/exception.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/exception/doc/boost-exception.html</homepage>
   <dc:author>Emil Dotchevski</dc:author>
   <description>The Boost Exception library supports transporting
     of arbitrary data in exception objects, and transporting of
     exceptions between threads.</description>
-  <category type="http://boost.org/lib-categories">Emulation</category>
+  <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c835d464-6872-41c5-a9ec-279955fc724e" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="053cbe8d-2c6a-4bd9-98b5-209e9c40e233" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>860836769ed210a993058c48debcf5ae8f254b24</ryppl:vcs-revision>
       <archive extract="boost-lib-exception-8608367" href="http://nodeload.github.com/boost-lib/exception/zipball/860836769ed210a993058c48debcf5ae8f254b24" size="231022" type="application/zip"/>
       <manifest-digest sha1new="835dfed2866c4f535d973843f098d001f5da91a1"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6QUACgkQxnV5mk56UjG04wCfYqgpHutV871ZC+mnUKxXdJcx07QAoJyYcVUm
-zUW25Pb97FbksY4l3cZI
+iEYEABECAAYFAk+zH/cACgkQxnV5mk56UjHatQCggNFxS0F9B+6x/UNv7Hh2A6OM3jwAnAn5hox2
+p2+9CW4rrMdmcbcx3EY+
 
 -->

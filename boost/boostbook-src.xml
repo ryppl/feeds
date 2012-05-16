@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/boostbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boostbook (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/boostbook.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/boostbook.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="810137bf-a780-4d60-b6a2-7156f29145ff" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="9c51ba85-e3da-425d-9180-0bf41f342386" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab</ryppl:vcs-revision>
       <archive extract="boost-lib-boostbook-3213c0a" href="http://nodeload.github.com/boost-lib/boostbook/zipball/3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab" size="212674" type="application/zip"/>
       <manifest-digest sha1new="652b31d0ebb66ce65d9fd586cbe106debf7c5f49"/>
     </implementation>
@@ -21,7 +22,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6nwACgkQxnV5mk56UjHr5ACgoG+kjwpR+AK1s9Mi9q5xAVz/MvwAnAm+bBYc
-9bgNuivzXcGuETMfXBQF
+iEYEABECAAYFAk+zIEcACgkQxnV5mk56UjH83gCghv43H6f9koh/G+/W3OmL/5fiiJoAn3hyC+Ey
+cK6hOj8b+scmxG2Bsj4c
 
 -->

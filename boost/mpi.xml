@@ -3,16 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/mpi.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MPI (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/mpi.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/mpi.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/mpi/</homepage>
   <dc:author>Douglas Gregor</dc:author>
   <dc:author>Matthias Troyer</dc:author>
   <description>Message Passing Interface library, for use in distributed-memory
     parallel application programming.</description>
-  <category type="http://boost.org/lib-categories">Concurrent</category>
+  <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="442e3bbd-17fc-46e6-90fe-9b0f15e29848" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="50ae41ef-95c8-43ee-99f7-a17abfc9dfae" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6Z4ACgkQxnV5mk56UjHhAgCfWNowaa2kY1XzAJ66jRXTrJQV3JEAn0ZRKbQL
-Yimu3Vf+aIaRZ1lB11xc
+iEYEABECAAYFAk+zIBQACgkQxnV5mk56UjERyQCfX9iolsLMzrEbsdEdtraEO6+/ibIAn1fQWhd5
+ufcKd5g2Wb+8MS9PvVZr
 
 -->

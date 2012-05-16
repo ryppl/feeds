@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/chrono-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Chrono (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/chrono.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/chrono.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/chrono/</homepage>
   <dc:author>Vicente J. Botet Escribá</dc:author>
   <description>Useful time utilities.</description>
-  <category type="http://boost.org/lib-categories">Domain</category>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2a8fc3e3-cbaf-4a63-a548-2375b524507d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="6594a519-ac72-402e-9ab1-9962f6dff1f0" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>1e5d16424fe4fcf4807f203379f98833ecc08a75</ryppl:vcs-revision>
       <archive extract="boost-lib-chrono-1e5d164" href="http://nodeload.github.com/boost-lib/chrono/zipball/1e5d16424fe4fcf4807f203379f98833ecc08a75" size="574926" type="application/zip"/>
       <manifest-digest sha1new="69f4b194da25e5ca7566e09e831df35532b40d5b"/>
     </implementation>
@@ -36,7 +37,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6h8ACgkQxnV5mk56UjHg8gCfarE0ON4ZE6M8EwXgOyJFSyQCzIoAoKNQBt/I
-njLg2MDvk8i/4ZzCVYLU
+iEYEABECAAYFAk+zIDUACgkQxnV5mk56UjF4GACfT1LpSe4qlstONPwBJPPHS4Tgqp4An0IK1XB0
+sxcehxQkYZJE4s1cnsw+
 
 -->

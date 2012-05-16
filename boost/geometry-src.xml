@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/geometry-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Geometry (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/geometry.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/geometry.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/geometry/</homepage>
   <dc:author>Barend Gehrels</dc:author>
   <dc:author>Bruno Lalande</dc:author>
   <dc:author>Mateusz Loskot</dc:author>
   <description>Geometry Library.</description>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
-  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="346c39c5-2cae-4dc4-bb27-2cce9ca51902" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="40e88bc5-78b0-4bfe-ae0b-812f12abc3b9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>a5e95cca3fa4439a521a30418f5a691663ddb218</ryppl:vcs-revision>
       <archive extract="boost-lib-geometry-a5e95cc" href="http://nodeload.github.com/boost-lib/geometry/zipball/a5e95cca3fa4439a521a30418f5a691663ddb218" size="5242245" type="application/zip"/>
       <manifest-digest sha1new="3b687fb70a5542547a35d8556c93f0ce4a0561c6"/>
     </implementation>
@@ -52,7 +53,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6YIACgkQxnV5mk56UjEIwgCgkzQW77dc5C58C+l53vCHFuDaFRMAoI5icxqS
-tCTtmRsXlJJM0UomMY6u
+iEYEABECAAYFAk+zIA4ACgkQxnV5mk56UjGX1gCfTQeVj1oKxQWdxjPU4SQize7yDJkAn1WHRkwO
+U3s8fSytiqcS6w3eYhwA
 
 -->

@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/asio-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Asio (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/asio.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/asio.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/asio/</homepage>
   <dc:author>Chris Kohlhoff</dc:author>
   <description>Portable networking, including sockets, timers,
     hostname resolution and socket iostreams.</description>
-  <category type="http://boost.org/lib-categories">Concurrent</category>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">Concurrent</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2fa58d9a-ff79-4c8e-b287-c8fc5ef0e1f2" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="ccb02694-10f9-469a-b937-f3a046ef6185" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>97e13d3b006c31acc620716444a778c507e7bcc8</ryppl:vcs-revision>
       <archive extract="boost-lib-asio-97e13d3" href="http://nodeload.github.com/boost-lib/asio/zipball/97e13d3b006c31acc620716444a778c507e7bcc8" size="1389225" type="application/zip"/>
       <manifest-digest sha1new="ed82411c8902af3c945a3fb3036da8f770f6f97f"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y62cACgkQxnV5mk56UjFTgwCbBLDNAz0YLOdK8KH5aDCFvH+ZoOcAniUs/X/y
-M5kQ5LCW4NPPwbJeJKxV
+iEYEABECAAYFAk+zIHgACgkQxnV5mk56UjG1DACfS95hwNKS6Nt7BTfDD/x0iPAaDh4AnjuaM1fu
+/XxcyEf8iRjOpKIc6YYi
 
 -->

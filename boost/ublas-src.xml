@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/ublas-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.UBLAS (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/ublas.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/ublas.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d5978615-2596-410f-a157-026aa8591131" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="61903932-9334-4f81-9c08-fe49669bf9bd" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cb743a6d83ae498f598277bc68c071206d6a8f8b</ryppl:vcs-revision>
       <archive extract="boost-lib-ublas-cb743a6" href="http://nodeload.github.com/boost-lib/ublas/zipball/cb743a6d83ae498f598277bc68c071206d6a8f8b" size="49366389" type="application/zip"/>
       <manifest-digest sha1new="447d5fec58f27b9937743d1608de19014e4db8f5"/>
     </implementation>
@@ -35,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6PwACgkQxnV5mk56UjFTGACdFB/TvIeeHgVHSqMEo0xUFETMYnMAnjVJlYiz
-ctu4skFS+b7n2H9uXNwp
+iEYEABECAAYFAk+zH/IACgkQxnV5mk56UjFifwCeM1aFBX/g93bsCh+e8PxqgOkrTRcAn1F2H8fS
+91snVFt184Xni82VeiTr
 
 -->

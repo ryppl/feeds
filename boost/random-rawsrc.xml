@@ -3,22 +3,23 @@
 <interface uri="http://ryppl.github.com/feeds/boost/random-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Random (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/random.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/random.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/random/</homepage>
   <dc:author>Jens Maurer</dc:author>
   <description>A complete system for random number
     generation.</description>
-  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f4fed0b4-a343-404a-95ce-b5bcd40942a8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="b9844858-e57d-413b-814d-7a935e91b7ed" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>c391cf1ed1cf2d43ad80655af375091dbe5cc952</ryppl:vcs-revision>
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha1new="de645815364acb78b029019be93f30c4932622e4"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6wcACgkQxnV5mk56UjE9BACffeFZY8vXgeMudjoUr1M7QizDu+oAmwd12HhD
-XtZ4s2AQ15yaXlste+I0
+iEYEABECAAYFAk+zIGAACgkQxnV5mk56UjHd+ACdHndFqAi03JboRl7j1Y+g3FNYlnYAnRV5q7T0
+WSgcA+f7q5VQBrd+DvrS
 
 -->

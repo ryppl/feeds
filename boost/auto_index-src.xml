@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/auto_index-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.AutoIndex (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/auto_index.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/auto_index.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="bd0293a3-1c50-47f0-81ce-170c35a99842" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="c45e9cc3-f59d-4fca-a962-e83d59a85769" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>5b3acdce9b6cd6a3c0c0b0093e71fadf012f6a45</ryppl:vcs-revision>
       <archive extract="boost-lib-auto_index-5b3acdc" href="http://nodeload.github.com/boost-lib/auto_index/zipball/5b3acdce9b6cd6a3c0c0b0093e71fadf012f6a45" size="305921" type="application/zip"/>
       <manifest-digest sha1new="ac9ab4fc7d836e06a79b78bc4f5b16ebbf62d27e"/>
     </implementation>
@@ -24,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6y0ACgkQxnV5mk56UjFcPQCeJXFQKYKt4E4Gp1xU+hwtf1aPeekAoJJOrRfC
-mzLILwkyLKBC4/e/PbvR
+iEYEABECAAYFAk+zIGYACgkQxnV5mk56UjE4mQCff0oG12GP6w2zJjdECDldMFQrSXYAn3trdQ6s
+y8aEeCnJ1yRBH6AAq+WS
 
 -->

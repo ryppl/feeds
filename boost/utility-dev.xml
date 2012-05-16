@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Utility (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/utility.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/utility.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/utility/utility.htm</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -52,17 +52,18 @@ Enhanced generic swap function.
 utility/value_initialized:
 Wrapper for uniform-syntax value initialization,
     based on the original idea of David Abrahams.</description>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
-  <category type="http://boost.org/lib-categories">Iterators</category>
-  <category type="http://boost.org/lib-categories">Patterns</category>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
-  <category type="http://boost.org/lib-categories">Memory</category>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">Function-objects</category>
+  <category type="http://boost.org/lib-categories/2012">Iterators</category>
+  <category type="http://boost.org/lib-categories/2012">Patterns</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Memory</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2905ed6f-7151-4a23-ad4b-be8691979ff9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="7ff72424-0cb1-4e14-859e-cb129426a65d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>1bdfe57dcb74563a90186e23ef212852a33d77f4</ryppl:vcs-revision>
       <archive extract="boost-lib-utility-1bdfe57" href="http://nodeload.github.com/boost-lib/utility/zipball/1bdfe57dcb74563a90186e23ef212852a33d77f4" size="223247" type="application/zip"/>
       <manifest-digest sha1new="2b954b4353b864ec722035bec32725e15a71b861"/>
     </implementation>
@@ -80,7 +81,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y61wACgkQxnV5mk56UjGcbACgocjQcjeeyEZg2z65ZrsS1G9gyoIAn3JHLRyG
-b1jD8MeO7/4W0knCcqfm
+iEYEABECAAYFAk+zIHUACgkQxnV5mk56UjEePgCffqB/pSDVIGQAHJeVLlg7d/e901UAn07otBhM
+igNsjB1C3dm0pRdI0uSL
 
 -->

@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/rational-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Rational (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/rational.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/rational.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/rational/</homepage>
   <dc:author>Paul Moore</dc:author>
   <description>A rational number class.</description>
-  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="38940233-fe2e-496d-ad64-0567af8dc6c3" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="f39dd00d-8244-4b22-8e56-1c2f655df243" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>d527701f2921b77c57246ade60a88c42155bf45b</ryppl:vcs-revision>
       <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
       <manifest-digest sha1new="b4ff063d9351a4701e62b6fa2c099e9939df8a57"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6UQACgkQxnV5mk56UjEXVQCeOtlVb1KNvldogZVbo4hgRATbnR4AnjzSit+T
-peBsoT1rIUIELOcQFJiD
+iEYEABECAAYFAk+zIAIACgkQxnV5mk56UjFJxwCgpERvzsU/ZUVYk2R4kwrS68ne7GUAn2we2Ou2
+B8PfcQ7dPOjRybKMV7wR
 
 -->

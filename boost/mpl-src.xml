@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/mpl-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MPL (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/mpl.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/mpl.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/mpl/</homepage>
   <dc:author>Aleksey Gurtovoy</dc:author>
@@ -14,9 +14,10 @@
     powerful and coherent tools that make doing explict
     metaprogramming in C++ as easy and enjoyable as possible within
     the current language.</description>
-  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d54dee65-a006-48aa-9ffd-e05c3240d23b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="ecc9e1e4-82b3-40a4-8199-3479130042a0" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>b3eedbc816942f9d3d9db4017a696e830f93347d</ryppl:vcs-revision>
       <archive extract="boost-lib-mpl-b3eedbc" href="http://nodeload.github.com/boost-lib/mpl/zipball/b3eedbc816942f9d3d9db4017a696e830f93347d" size="2737234" type="application/zip"/>
       <manifest-digest sha1new="1273b36b1ee56c14efc485a93407743e95009284"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6eEACgkQxnV5mk56UjHkNwCeNpwX3n1QHc62Ji437MfAudGABz8AmQGY6CwU
-MaypXdOxbw5LgVv06fpo
+iEYEABECAAYFAk+zICkACgkQxnV5mk56UjG0ZgCfRtiXOpoyn49PkOCFJVxCtdKymUgAn0ByJO2m
+ai6AQP9buNPJUkXaZh3E
 
 -->

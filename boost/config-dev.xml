@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/config-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Config (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/config.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/config.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/config/config.htm</homepage>
   <dc:author/>
   <description>Helps Boost library developers adapt to compiler
     idiosyncrasies; not intended for library users.</description>
-  <category type="http://boost.org/lib-categories">workarounds</category>
+  <category type="http://boost.org/lib-categories/2012">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3059f211-ad42-4498-9c3c-dd7a15c8333d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="62e4492c-51d0-4b52-8368-b982d5059f96" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>0fe0c8e662cff508124b340372bce1e5d2a5aa75</ryppl:vcs-revision>
       <archive extract="boost-lib-config-0fe0c8e" href="http://nodeload.github.com/boost-lib/config/zipball/0fe0c8e662cff508124b340372bce1e5d2a5aa75" size="621733" type="application/zip"/>
       <manifest-digest sha1new="7e6adbdea2fdf447a38262f4254e56bff5ac1d52"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y54UACgkQxnV5mk56UjEdJACcC85/C0kyOYsc1KE3SFKh/MpSSrkAnAq27wdt
-puKUntPO4J8+hASA7JrC
+iEYEABECAAYFAk+zH6wACgkQxnV5mk56UjHZzwCcDu4ubxBj1FSn2wTXut4s7vw84OMAoIoUZFLt
+jE4v5L/3JNvirQGP3Dv6
 
 -->

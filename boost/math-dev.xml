@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/math-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Math (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/math.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/math.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/math/</homepage>
   <dc:author>Paul Bristow</dc:author>
@@ -42,9 +42,9 @@ A wide selection of mathematical special functions.
 math/statistical_distributions:
 A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
-  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fd7b6c1b-2c6b-437e-ad3b-1687cd628de0" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="35a84740-211e-4afc-a8b1-9292f0ccea88" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -61,7 +61,7 @@ A wide selection of univariate statistical distributions and
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6Y4ACgkQxnV5mk56UjG4JACeI6Kejj4fypUJ9wGAjQ9e7rMk7jwAn0kZuGmD
-5icNnKodcVzJnyLfk3JT
+iEYEABECAAYFAk+zIBAACgkQxnV5mk56UjGEtwCgqOEhGd2yMibXS+Wpthx1gx+2CQoAn2b4jVSD
+8f+ldlR7T0QXryb0i001
 
 -->

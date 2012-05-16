@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/any-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Any (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/any.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/any.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/any/</homepage>
   <dc:author>Kevlin Henney</dc:author>
   <description>Safe, generic container for single values of
     different value types.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4154c1e7-0c7f-4acd-9422-7b588bea662c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="433945c4-ffc0-43e6-a5a6-bbee7f7e894c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>757512f84cae08d9ecd00faa81ed60521b313cc9</ryppl:vcs-revision>
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
       <manifest-digest sha1new="f95407f950adad3f9dbe63552063558bfc538b54"/>
     </implementation>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y61kACgkQxnV5mk56UjHiqgCfaAfPeF0zztu6CF1g18TY7Mhwe8YAniA8hnHU
-371/Wh/K5R4IFAPfEX0H
+iEYEABECAAYFAk+zIHMACgkQxnV5mk56UjHw+ACcDqGRyIITwIpF+otDdScvSKOfG9oAn2poRJZ+
+L0vdscT2ueVHOkq7pnvo
 
 -->

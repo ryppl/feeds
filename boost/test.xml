@@ -3,15 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/test.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Test (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/test.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/test.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/test/</homepage>
   <dc:author>Gennadiy Rozental</dc:author>
   <description>Support for simple program testing, full unit
     testing, and for program execution monitoring.</description>
-  <category type="http://boost.org/lib-categories">Correctness</category>
+  <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="01537439-d793-47e9-9533-8ecea94cff37" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="2c23e61a-1805-4de6-b018-d0fbcc1a4b08" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+y6xEACgkQxnV5mk56UjERTQCgirf3Wyx51KQglqo3KAqyzn7ML9EAl1d0e1n8
-8GRK72drp7D9U4e66Ms=
+iEYEABECAAYFAk+zIGAACgkQxnV5mk56UjGXhgCfW378KEdUQcYy4wuh02m5gCC+66IAn2W/7RtY
+AYjIguUv5qOKzXYRNKsg
 
 -->

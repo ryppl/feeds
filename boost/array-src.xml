@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/array-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Array (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/array.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/array.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/array/</homepage>
   <dc:author>Nicolai Josuttis</dc:author>
   <description>STL compliant container wrapper for arrays of
     constant size.</description>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="85c96c73-ccca-48f3-84a7-508ee4096f2a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="0b41b1a6-41af-41ea-ac26-eca8c0463500" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>8825aa9b9be1c0e2bb5a0826edd7f28d15795358</ryppl:vcs-revision>
       <archive extract="boost-lib-array-8825aa9" href="http://nodeload.github.com/boost-lib/array/zipball/8825aa9b9be1c0e2bb5a0826edd7f28d15795358" size="17039" type="application/zip"/>
       <manifest-digest sha1new="16fd665694f4eea612cf02a5d901037328d048d5"/>
     </implementation>
@@ -24,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6boACgkQxnV5mk56UjHeSwCgkHF6RtXMSBpHJn0N0AvHWYN5Rl8AmQELUNQJ
-2gbR/Wn9FLp5FjLpCRuE
+iEYEABECAAYFAk+zIBwACgkQxnV5mk56UjF7LACeLmRPJON1tweT387U1nzbojkvN+AAniOw6t5P
+j+2HAMyHiApjVn/bjQ+1
 
 -->

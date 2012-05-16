@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/concept_check-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ConceptCheck (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/concept_check.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/concept_check.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
     libs/concept_check/</homepage>
   <dc:author>Jeremy Siek</dc:author>
   <description>Tools for generic programming.</description>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Correctness</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c84c3bce-d4f1-453c-9d2c-74797fb4857f" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="80824f9d-43c0-4324-95a7-fca718768ab3" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cde285a6a5e3789933ef9cbe773dd130d5d6c643</ryppl:vcs-revision>
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha1new="85956c1281ba7f7848816c5c522f97148a215acc"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6iIACgkQxnV5mk56UjGoWACfYOyZJxUKqWayK+plXuk9PKjb8c8AnR4sU/lV
-uj7J8Q3V55ct970wCmDs
+iEYEABECAAYFAk+zIDYACgkQxnV5mk56UjFjbACfSpOn99VWZRAneJkMoMcnQIoDPqEAnRD/XAs1
+xlnAa8G3J5HFMVDz940C
 
 -->

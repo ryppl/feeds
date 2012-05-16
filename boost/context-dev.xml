@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/context-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Context (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/context.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/context.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,7 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f0587c1e-6862-41fb-8597-74ea95ea962c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="6a71dede-8b5f-43a1-b8ba-d9be55c36bd3" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6m0ACgkQxnV5mk56UjGtqACeOc+ulMKxiR3yhX/th40rWVa/TB0AoIL9yLQf
-tsq/kd675gO2ofQc72fM
+iEYEABECAAYFAk+zIEQACgkQxnV5mk56UjESeQCgj3vr7eA5BZdd0MjRr2uOsYoer+wAn21SM4/X
+DoIwT2H50a0EM+XhAUMu
 
 -->

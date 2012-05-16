@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/range-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Range (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/range.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/range.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/range/</homepage>
   <dc:author>Thorsten Ottosen</dc:author>
   <dc:author>Niel Groves</dc:author>
   <description>A new infrastructure for generic algorithms that
     builds on top of the new iterator concepts.</description>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d8029f0b-f915-4e74-b247-d2f1f4d3a791" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="786882dd-fdc2-451a-8830-e96f42bdda26" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>01bafff6db2347c88b192993a9c87d8485a4985c</ryppl:vcs-revision>
       <archive extract="boost-lib-range-01bafff" href="http://nodeload.github.com/boost-lib/range/zipball/01bafff6db2347c88b192993a9c87d8485a4985c" size="803762" type="application/zip"/>
       <manifest-digest sha1new="be0f39ff20e4f2069b24a5e96a420884cd9e7f86"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y57IACgkQxnV5mk56UjFnggCgh6CJm+wgZI4URKhUA/S+919iYtUAn3Zi7Sqo
-pbWTfNQk0tlwOu8iQIs8
+iEYEABECAAYFAk+zH7cACgkQxnV5mk56UjHqtQCgpDnuFV0q0/sQN1c0xjG1EktkhRIAni5Rehva
+sDW2P2qJe2HgZraO3ocD
 
 -->

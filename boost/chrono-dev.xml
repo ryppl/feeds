@@ -3,15 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/chrono-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Chrono (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/chrono.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/chrono.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/chrono/</homepage>
   <dc:author>Vicente J. Botet Escribá</dc:author>
   <description>Useful time utilities.</description>
-  <category type="http://boost.org/lib-categories">Domain</category>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2b971cba-cba2-427c-9926-ace9a4d964b6" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="f414baeb-3383-42bf-8565-bbb0fff46c16" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6h8ACgkQxnV5mk56UjGMbQCdHQd5eM7c7q5FVQrdr4z25FIQ0icAmgNyV6qL
-x08UqdQGtiRU6CyjeRDE
+iEYEABECAAYFAk+zIDUACgkQxnV5mk56UjHBYQCggZ/6lg/uYAFeq0e4dMOyS7jHC6gAniy+zBM/
+lt4cOqB/ZHKu0SCRpJ3r
 
 -->

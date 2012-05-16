@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/circular_buffer-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.CircularBuffer (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/circular_buffer.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/circular_buffer.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/circular_buffer/</homepage>
   <dc:author>Jan Gaspar</dc:author>
   <description>A STL compliant container also known as ring or cyclic buffer.
     </description>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="10df69a9-4f22-4b5d-8c9e-1f8a9e4df746" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="a0c76e02-1a98-4775-956d-6250756ebdb7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>d39a26f8e1363d4d18a9b6579728626ffe83124f</ryppl:vcs-revision>
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha1new="2a913cb1c5b7b9f8db2f66bf8b642206c374b121"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y57UACgkQxnV5mk56UjFbXwCeKHv5KdiXPC3XopuoHtk6sipGGnAAnRfksh4V
-dnmdHUC3kKslNAhI9iIq
+iEUEABECAAYFAk+zH7cACgkQxnV5mk56UjFwfQCUCRc5hoJ5LhDciKsF8b6OdbJw7wCgl8b30PVV
+f5qa7WfaEjN4hZw/kxY=
 
 -->

@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/multi_array-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MultiArray (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/multi_array.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/multi_array.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/multi_array/</homepage>
   <dc:author>Ron Garcia</dc:author>
   <description>Boost.MultiArray provides a generic N-dimensional
     array concept definition and common implementations of that
     interface.</description>
-  <category type="http://boost.org/lib-categories">Math</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="611cddad-76fd-40fb-b36f-65bbe964e58b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="fd11dd38-0458-4e96-a1f3-35880a68cb11" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>0ddebd3e206e05f3f6c68ad1c8d8eb6aa47de2d3</ryppl:vcs-revision>
       <archive extract="boost-lib-multi_array-0ddebd3" href="http://nodeload.github.com/boost-lib/multi_array/zipball/0ddebd3e206e05f3f6c68ad1c8d8eb6aa47de2d3" size="147906" type="application/zip"/>
       <manifest-digest sha1new="7dce588c6157116d9f7875e87c8d28a7ef4a6924"/>
     </implementation>
@@ -33,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y620ACgkQxnV5mk56UjEvVACeLgRy3HsNPyTwGJi7opBayuNz1VEAn3ULex4L
-YiiWTOE6pngzUBdHsLSy
+iEYEABECAAYFAk+zIHsACgkQxnV5mk56UjEqCQCcDrgKVmwAZzQU3j5PWtOJWzyZND8AnAz7pyWO
+z3btbiTEz7nJ+ArJIBWs
 
 -->

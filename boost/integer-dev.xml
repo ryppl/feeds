@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/integer-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Integer (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/integer.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/integer.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/integer/</homepage>
   <dc:author/>
@@ -14,9 +14,10 @@
     &lt;boost/cstdint.hpp&gt; makes the standard integer types
     safely available in namespace boost without placing any names
     in namespace std.</description>
-  <category type="http://boost.org/lib-categories">Math</category>
+  <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7b0e9c91-18c8-4196-8522-267739160676" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="e487c99b-592a-4702-88f6-841daff755d5" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>a5560a05991b48e575824f17edaee3523a33264d</ryppl:vcs-revision>
       <archive extract="boost-lib-integer-a5560a0" href="http://nodeload.github.com/boost-lib/integer/zipball/a5560a05991b48e575824f17edaee3523a33264d" size="66835" type="application/zip"/>
       <manifest-digest sha1new="9a503e46d1f55194d12864de14c1c9f92ccacfc3"/>
     </implementation>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6RcACgkQxnV5mk56UjF5/wCdHBuJBjYDAOcLn5e5EpaWr7Atz1UAn2HhUthT
-/Pgj5Bq8sDf4i3AMocsO
+iEYEABECAAYFAk+zH/sACgkQxnV5mk56UjFKxwCdHUTd5MTCXl4tW6NgQq7X/wptyx4AnA7S5/Rz
+u5RhdWn6sYu/71sQ/7/C
 
 -->

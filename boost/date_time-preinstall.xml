@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/date_time-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DateTime (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/date_time.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/date_time.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/date_time/</homepage>
   <dc:author>Jeff Garland</dc:author>
   <description>A set of date-time libraries based on generic
     programming concepts.</description>
-  <category type="http://boost.org/lib-categories">Domain</category>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cbfaf230-079e-429a-bda3-64b8a775f04c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="9dc379dd-80a6-493a-bb3a-f2527fab91d8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8</ryppl:vcs-revision>
       <archive extract="boost-lib-date_time-04a1d42" href="http://nodeload.github.com/boost-lib/date_time/zipball/04a1d42b5f1bd46a2eba803a2ecd1720ac5313e8" size="495111" type="application/zip"/>
       <manifest-digest sha1new="50a9c89bd38ad54fa8b7e6fdc09c7a1b905d0aa8"/>
     </implementation>
@@ -213,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6Q8ACgkQxnV5mk56UjHcwACfcZiAZEr9Tgq61jFCHRmkm4JZuisAni3hD1jl
-6ahuUTUroAgg+I4irhyQ
+iEYEABECAAYFAk+zH/kACgkQxnV5mk56UjFH7QCfb3MyaOaIiyTysb0nSiEKwn5A9MkAn12WiwQg
+oLpDIRZYMvPTJ9IFPyHx
 
 -->

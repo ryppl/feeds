@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/algorithm-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Algorithm (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/algorithm.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/algorithm.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/algorithm/</homepage>
   <dc:author>Pavol Droba</dc:author>
@@ -18,10 +18,11 @@ Standard library extensions for simultaneous
 
 algorithm/string:
 String algorithms library.</description>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
-  <category type="http://boost.org/lib-categories">String</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5de5dd58-0f79-4a0a-b79c-69c85cfbc8c2" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="1bb92dd3-8a44-46f5-ab16-8903c9275664" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>5d1155b55cd05273003fb641147aa9db044e05e1</ryppl:vcs-revision>
       <archive extract="boost-lib-algorithm-5d1155b" href="http://nodeload.github.com/boost-lib/algorithm/zipball/5d1155b55cd05273003fb641147aa9db044e05e1" size="1736724" type="application/zip"/>
       <manifest-digest sha1new="0e2c7e509caddc29f620046b2cb7c02c56f71b32"/>
     </implementation>
@@ -39,7 +40,7 @@ String algorithms library.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6u4ACgkQxnV5mk56UjGQigCfZZau1beofcfzMyv6VwnhQHtkvyYAoKMVc/EQ
-G6SepOShJN7LSpwNit//
+iEYEABECAAYFAk+zIFoACgkQxnV5mk56UjG86wCfUj5SH6F9Afu4KuOnBviTyorERB8AnRrsKtSn
+Mshz1NLLJRmw0ysaAGIO
 
 -->

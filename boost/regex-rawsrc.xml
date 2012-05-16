@@ -3,21 +3,22 @@
 <interface uri="http://ryppl.github.com/feeds/boost/regex-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Regex (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/regex.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/regex.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/regex/</homepage>
   <dc:author>John Maddock</dc:author>
   <description>Regular expression library.</description>
-  <category type="http://boost.org/lib-categories">String</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="20a84179-bda9-41e2-8775-06c86202a54d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="d7da4dd2-bbcc-46d8-9d27-979336d41335" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>82db62b2d282e4768bde2e2363d0e0f5bf50939e</ryppl:vcs-revision>
       <archive extract="boost-lib-regex-82db62b" href="http://nodeload.github.com/boost-lib/regex/zipball/82db62b2d282e4768bde2e2363d0e0f5bf50939e" size="818655" type="application/zip"/>
       <manifest-digest sha1new="8545addc504bd9164b49f9a9c6aae2feccc42eb3"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y63cACgkQxnV5mk56UjGYJgCfWxDLpVhyrh9WMqp4Mig3QeqjFq8Anj1GvfLp
-Xrg7jkVbUq9Z8feLzZV5
+iEYEABECAAYFAk+zIH0ACgkQxnV5mk56UjGayACbBOV2NbwNestyIrqWoS6rKodqfJgAnjnHt+E0
+MiHLgGoZCqB2VDXsY8Gp
 
 -->

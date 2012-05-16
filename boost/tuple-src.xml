@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/tuple-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Tuple (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/tuple.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/tuple.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/tuple/</homepage>
   <dc:author>Jaakko Järvi</dc:author>
   <description>Ease definition of functions returning multiple
     values, and more.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="63c003a7-fd53-49e3-9ee3-124d52e8814a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="39abd230-08df-490d-b2c8-61de6cb69bad" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>e9c1b2c0f5c65ca21dca2033d140630ca70afc04</ryppl:vcs-revision>
       <archive extract="boost-lib-tuple-e9c1b2c" href="http://nodeload.github.com/boost-lib/tuple/zipball/e9c1b2c0f5c65ca21dca2033d140630ca70afc04" size="38489" type="application/zip"/>
       <manifest-digest sha1new="1f6847576867a1454f4d9a2e29f4711242fc0b46"/>
     </implementation>
@@ -25,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6xMACgkQxnV5mk56UjGAsgCgmutJ+8CBkBEH+KYzHaoATTnskEYAn3qkEzoL
-bd3yh8JE7BWpqQ03+cAd
+iEYEABECAAYFAk+zIGAACgkQxnV5mk56UjHp8wCcCbkEB5Lbt1/kvAwuHUd3CFmY3vkAn2Fu2Qug
+fCwbUyxMATvWWks6jc/p
 
 -->

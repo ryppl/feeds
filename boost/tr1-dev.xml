@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/tr1-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.TR1 (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/tr1.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/tr1.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/tr1/</homepage>
   <dc:author>John Maddock</dc:author>
@@ -14,9 +14,10 @@
     TR1 implementation (if it has one), otherwise it will include
     the Boost Library equivalents, and import them into namespace
     std::tr1.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6ff56123-6714-4bb7-af7b-571e31958a34" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="5c40a5c1-ef99-4341-8b1b-fd3d6fc9cc20" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>4ef7e95f49ad7adfc1a38591d12192b5c0024574</ryppl:vcs-revision>
       <archive extract="boost-lib-tr1-4ef7e95" href="http://nodeload.github.com/boost-lib/tr1/zipball/4ef7e95f49ad7adfc1a38591d12192b5c0024574" size="187677" type="application/zip"/>
       <manifest-digest sha1new="c9d66128a3de962b738898dbd50795d2484fa50e"/>
     </implementation>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6pAACgkQxnV5mk56UjHblgCfQjB49zvsvnpFJDq8dxN09A+1qB8An3lnGThJ
-Lz1cD0s3e8/WgKC9OkNv
+iEYEABECAAYFAk+zIEwACgkQxnV5mk56UjFU5wCffWqMNbHM/Gd4WxbB/PcOp2X3iOoAnjzf9Y0T
+x9BsbIVdo1G+J1acZm/P
 
 -->

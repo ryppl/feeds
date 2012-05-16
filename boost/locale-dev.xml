@@ -3,14 +3,14 @@
 <interface uri="http://ryppl.github.com/feeds/boost/locale-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Locale (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/locale.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/locale.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/locale/</homepage>
   <dc:author>Artyom Beilis</dc:author>
   <description>Provide localization and Unicode handling tools for C++.</description>
-  <category type="http://boost.org/lib-categories">String</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eabcecd5-4381-44c5-abd3-84038676ad02" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="252bbb7c-7124-493c-a3b0-740d81262a1c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6jcACgkQxnV5mk56UjGh5ACeOlzkMyw2vrIKaBRX4Mm2P48Ou74AnR4K5wyR
-3TsiYEz+QT2T9BifC2YB
+iEYEABECAAYFAk+zIDwACgkQxnV5mk56UjFtXACePI/a5QchOxmWFko75ZOCC6MV7cEAoJTw2/vI
+M4/CLEi8y9z+PheGuvPp
 
 -->

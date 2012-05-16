@@ -3,16 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/filesystem-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Filesystem (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/filesystem.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/filesystem.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/filesystem/</homepage>
   <dc:author>Beman Dawes</dc:author>
   <description>The Boost Filesystem Library provides portable
     facilities to query and manipulate paths, files, and
     directories.</description>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="652d1702-af5b-4d0b-861d-5ff68edc83d9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="6cb426fc-217b-40ff-a9f9-46271ff75ae7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6rQACgkQxnV5mk56UjGTwgCffwOt/JtZM6nljfMe5jbSB5W2IT0AoJPAitTt
-QpH/9W068hh2spcpPY+S
+iEYEABECAAYFAk+zIFMACgkQxnV5mk56UjE2IQCePOve6m7v7wuMnsWuvBBQmFUjuEIAn2Sodrgz
+u4v3ah1IPkRDJqD2jkYg
 
 -->

@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/scope_exit-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ScopeExit (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/scope_exit.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/scope_exit.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/scope_exit/</homepage>
   <dc:author>Alexander Nasonov</dc:author>
   <description>Execute arbitrary code at scope exit.</description>
-  <category type="http://boost.org/lib-categories">Emulation</category>
+  <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="806d5e9d-f9eb-40a0-8e6b-34081ace215d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="3093997d-3861-44c4-a55a-5c5cec3980ac" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>aa3a9480edc302422dba4032037a33657d7397b9</ryppl:vcs-revision>
       <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
       <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
     </implementation>
@@ -23,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6s8ACgkQxnV5mk56UjFlOACeLo5r0i4VObwmVtIQYhceswLYY+YAn0M3r7EM
-o8w/9xJLYJdl6sY9Ig8F
+iEYEABECAAYFAk+zIFcACgkQxnV5mk56UjH+0QCfVxcuplMuXBMVvCGhCDJ+dNnwzuIAnA9IeqH3
++eIuV38wuee73J790LcO
 
 -->

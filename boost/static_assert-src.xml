@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/static_assert-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.StaticAssert (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/static_assert.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/static_assert.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/static_assert/</homepage>
   <dc:author>John Maddock</dc:author>
   <description>Static assertions (compile time
     assertions).</description>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Correctness</category>
-  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Correctness</category>
+  <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="057f35b1-f4cb-4d65-8afb-b88d6c9e1b46" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="de87efcb-e9bf-453e-b0cf-5e213450796b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>79959cb0262d59df2fdf7ecc3feb4de03a7b048f</ryppl:vcs-revision>
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha1new="28ef9080ebda7d638f1431807c2b3d2fdb496978"/>
     </implementation>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6rYACgkQxnV5mk56UjGiswCbBFqr9wQgrJMAPfUx+g5piOgDy48AoIKMNE/x
-GVBUaZQibNXvqTnE2p+b
+iEYEABECAAYFAk+zIFQACgkQxnV5mk56UjEePACfcyXw2sxdWGVaVEEk4e/kAfYIsOoAn1UKZY8T
+UeeAGPsexIDB1mJS8dfZ
 
 -->

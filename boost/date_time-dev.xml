@@ -3,16 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/date_time-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DateTime (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/date_time.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/date_time.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/date_time/</homepage>
   <dc:author>Jeff Garland</dc:author>
   <description>A set of date-time libraries based on generic
     programming concepts.</description>
-  <category type="http://boost.org/lib-categories">Domain</category>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e7889298-f67e-4f4e-ba39-ea1cbaaf3be2" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="b159cced-3a4f-4602-adf4-4ab3257f3050" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6Q8ACgkQxnV5mk56UjFXtACgo01pmPImD/+qw0mMKImMF2ust1cAnRv1wnSz
-VRgF1bly4NvDkuF7imRB
+iEUEABECAAYFAk+zH/kACgkQxnV5mk56UjEfEgCbBG6uNLGZiqfrHNVj0x5YPCGxTboAmIghEbJU
+QP2HpLx7ADasmtwh9PQ=
 
 -->

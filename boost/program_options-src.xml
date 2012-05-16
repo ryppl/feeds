@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/program_options-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ProgramOptions (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/program_options.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/program_options.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/program_options/</homepage>
   <dc:author>Vladimir Prus</dc:author>
@@ -11,10 +11,11 @@
     developers to obtain program options, that is (name, value)
     pairs from the user, via conventional methods such as command
     line and config file.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e315d762-da23-48a9-b56e-cc8eeaa2c574" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="66625627-f20c-4db9-9bed-6c6037bf01a1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>7bdd400744aed5658d2dc43602705aac5a37bb0c</ryppl:vcs-revision>
       <archive extract="boost-lib-program_options-7bdd400" href="http://nodeload.github.com/boost-lib/program_options/zipball/7bdd400744aed5658d2dc43602705aac5a37bb0c" size="159732" type="application/zip"/>
       <manifest-digest sha1new="7611fa846ffe51a9bbc87f2f369f04603f4aaa03"/>
     </implementation>
@@ -37,7 +38,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y54oACgkQxnV5mk56UjFIOgCdFT4vDh6Ny8k3MeCLnf8jVoj+nu4An2b7Vz3O
-YPTTxLdYvESgQrWh/0u8
+iEYEABECAAYFAk+zH60ACgkQxnV5mk56UjFOxwCfZFIEI3U1OZJxa4qDFhvA9YY+69gAmgKCOc/8
+hgIqtXpluSxOi4TxU1jS
 
 -->

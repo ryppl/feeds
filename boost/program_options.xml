@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/program_options.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ProgramOptions (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/program_options.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/program_options.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/program_options/</homepage>
   <dc:author>Vladimir Prus</dc:author>
@@ -11,10 +11,10 @@
     developers to obtain program options, that is (name, value)
     pairs from the user, via conventional methods such as command
     line and config file.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="71fd1856-a442-4f99-89a7-c5d80027c618" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="bc13e64f-0e7e-435c-84b2-e16bdcaedaad" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -31,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y54oACgkQxnV5mk56UjFFLACfeF549+8jes9CjTC//fyKf11cyjYAoKGBE1lc
-zEV8jti+Fbs49LjmnN1/
+iEYEABECAAYFAk+zH60ACgkQxnV5mk56UjEgwgCdFF2hD16Qavt0vEerMLlfh4lzvnYAnjHPCtVh
+HT94OmFwfjdpCNg9mo0s
 
 -->

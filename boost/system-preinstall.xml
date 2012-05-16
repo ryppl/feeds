@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/system-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.System (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/system.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/system.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/system/</homepage>
   <dc:author>Beman Dawes</dc:author>
   <description>Operating system support, including the diagnostics support
     that will be part of the C++0x standard library.</description>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="036ef55a-a6d2-4e29-9172-e76c61356816" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="c40e57eb-fc8c-4046-bb4e-9a4918054daa" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>761d96d62064f4892373468f704cda54905f5df0</ryppl:vcs-revision>
       <archive extract="boost-lib-system-761d96d" href="http://nodeload.github.com/boost-lib/system/zipball/761d96d62064f4892373468f704cda54905f5df0" size="44516" type="application/zip"/>
       <manifest-digest sha1new="f440740124af23d80bf3abe26ef0bf1597d28023"/>
     </implementation>
@@ -209,7 +210,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y62sACgkQxnV5mk56UjGN2wCfanzNlgHiqPNvSJukh4Akbef3rWsAoJib0VXA
-tjJBhI7vHJHTwBEYz6Hn
+iEYEABECAAYFAk+zIHkACgkQxnV5mk56UjFYMACgi+InyLs7j2F/QSA1bYKejw74gmwAoI3vvYrT
+ciLvyGytGnbIChcxpZFo
 
 -->

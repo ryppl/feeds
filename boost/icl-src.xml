@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/icl-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ICL (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/icl.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/icl.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/icl/</homepage>
   <dc:author>Joachim Faulhaber</dc:author>
   <description>Interval Container Library, interval sets and maps and
     aggregation of associated values</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d402282a-5c11-4971-9ec5-27bd64051e57" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="f78479ad-b079-4980-9b73-fc27469839b7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c</ryppl:vcs-revision>
       <archive extract="boost-lib-icl-03c68cd" href="http://nodeload.github.com/boost-lib/icl/zipball/03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c" size="4147046" type="application/zip"/>
       <manifest-digest sha1new="2edebeef171218bb7e76d43d49e0c262d0962d36"/>
     </implementation>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y534ACgkQxnV5mk56UjFbyACeLFOmJcEiBPNX3wULNLj/TNHofUQAn389tqcN
-Je1clvGgr7pmwMNoapWW
+iEYEABECAAYFAk+zH6kACgkQxnV5mk56UjGpQwCfUis/JGzW6eLEYISJwdFPlALzIbcAn1MOBstD
+aBGxYJXDgDBXvvst2gpC
 
 -->

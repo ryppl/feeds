@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/container-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Container (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/container.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/container.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/container/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
   <description>Standard library containers and extensions.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3cc0f8a9-f7a4-47dc-b3a9-1852c6dabf98" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="f6d99693-3298-43f1-990e-c42872c29403" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>8e42ccb6a381e980936452f8714516f8a8609dd1</ryppl:vcs-revision>
       <archive extract="boost-lib-container-8e42ccb" href="http://nodeload.github.com/boost-lib/container/zipball/8e42ccb6a381e980936452f8714516f8a8609dd1" size="292052" type="application/zip"/>
       <manifest-digest sha1new="c761b68c9a82af6fdc9a99cefb0e3f3d41a365b7"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y63QACgkQxnV5mk56UjGx3ACfeIw3H8GltBaP6ub39B+hwnGS6IgAoIx0MYZh
-BAOGe4TKb/iGROy8BcVW
+iEYEABECAAYFAk+zIHwACgkQxnV5mk56UjGP8QCgj3z9cnZeFBlgN1WxTih0sHmujrIAn1mAg4ID
+DR+Zu9rmohoCalc/AfUd
 
 -->

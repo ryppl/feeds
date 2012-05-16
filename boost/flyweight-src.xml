@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/flyweight-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Flyweight (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/flyweight.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/flyweight.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/flyweight/</homepage>
   <dc:author>Joaquín M López Muñoz</dc:author>
   <description>Design pattern to manage large quantities of highly redundant
     objects.</description>
-  <category type="http://boost.org/lib-categories">Patterns</category>
+  <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1fb475ea-f9c0-468f-ae6f-18930068fe95" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="0c6d15a7-efc1-4d73-aef5-9f7fdae0898a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b</ryppl:vcs-revision>
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
       <manifest-digest sha1new="afba6328cca18f79933c14b5e2fcafecf6b9225e"/>
     </implementation>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6hgACgkQxnV5mk56UjH/1gCbB+f4jL1Fdo6AUbEqyE5rJcZuA1sAn0SOEEKu
-hMx8KH5K9/vCwNcz6F6H
+iEYEABECAAYFAk+zIDMACgkQxnV5mk56UjE6vACeNwG7sK1vrlb2qPaYNk1fSRxNONAAnRzhhowQ
+GkMZg73EzdPQtJmxSTEQ
 
 -->

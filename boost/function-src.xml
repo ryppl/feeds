@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Function (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/function.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/function.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/function/</homepage>
   <dc:author>Doug Gregor</dc:author>
   <description>Function object wrappers for deferred calls or
     callbacks.</description>
-  <category type="http://boost.org/lib-categories">Programming</category>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories/2012">Programming</category>
+  <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="033cbe50-2577-490a-acfc-a59be88a0ba7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="73013b60-0530-499d-9a15-829ddb5cd76e" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>0d0643c8d42c295bc3d1864c43ce701fbb384f23</ryppl:vcs-revision>
       <archive extract="boost-lib-function-0d0643c" href="http://nodeload.github.com/boost-lib/function/zipball/0d0643c8d42c295bc3d1864c43ce701fbb384f23" size="66908" type="application/zip"/>
       <manifest-digest sha1new="4599172ced1068c1321231c6d14ed29d63c520eb"/>
     </implementation>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6y8ACgkQxnV5mk56UjGgegCgqFBEEfwKOLXAVNudC7sSN9mYC5oAnRLxOSgJ
-qJwJFxjPmYqIyCDq9DXN
+iEYEABECAAYFAk+zIGcACgkQxnV5mk56UjHxJQCfe9VTDuw5ZX3uxVzufqke/87m3cIAoJE02Z0U
+uyLlUxFnLtljEy0M/QCJ
 
 -->

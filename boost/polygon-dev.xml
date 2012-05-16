@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/polygon-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Polygon (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/polygon.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/polygon.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/polygon/</homepage>
   <dc:author>Lucanus Simonson</dc:author>
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6abed342-b65d-4ac6-933f-21deb7712dc3" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="d0fcce02-a35f-41a5-99a2-2a3ca9190fa7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>fb7c4500aed909fd2c2769efa3b400c4203bf793</ryppl:vcs-revision>
       <archive extract="boost-lib-polygon-fb7c450" href="http://nodeload.github.com/boost-lib/polygon/zipball/fb7c4500aed909fd2c2769efa3b400c4203bf793" size="5029205" type="application/zip"/>
       <manifest-digest sha1new="9258590134d38f7666be6787e20a0eeba6a61297"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6UEACgkQxnV5mk56UjEbqQCeP62U0vGzU2NJ85JlOAgbtqb5D0kAnRmMfOO4
-4gNP6KgpEUpkjhvK9A2h
+iEYEABECAAYFAk+zIAEACgkQxnV5mk56UjH2IgCeJ78Ne7Fk+9JpXCNpcbC7xk+0XhQAnAsnPzu+
+JlduCs+BvEOZBlamEaWt
 
 -->

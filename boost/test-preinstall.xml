@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/test-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Test (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/test.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/test.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/test/</homepage>
   <dc:author>Gennadiy Rozental</dc:author>
   <description>Support for simple program testing, full unit
     testing, and for program execution monitoring.</description>
-  <category type="http://boost.org/lib-categories">Correctness</category>
+  <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ee3070ec-8f28-4c2f-909e-21bca9cea87a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="4adb9b37-ba6c-4580-b14b-3b06e15cfc2d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc</ryppl:vcs-revision>
       <archive extract="boost-lib-test-a3ae1c3" href="http://nodeload.github.com/boost-lib/test/zipball/a3ae1c30aa2286a7f7e2bb37aa154059e544f3cc" size="1004084" type="application/zip"/>
       <manifest-digest sha1new="30463f4102cd7be48dfa6949a432fd6297e83b81"/>
     </implementation>
@@ -248,7 +249,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6xEACgkQxnV5mk56UjG50QCfZMKQidaCT3aA1MB+fCJ9g5TEVnQAoJZaXax3
-C9a2o3aTeCjcHSF5QqL3
+iEYEABECAAYFAk+zIGAACgkQxnV5mk56UjFcHQCeJugJVjwugzNFHC3XFuy3EaPkOUQAoJH9Gqmn
+3k72XVbd4A4vE4LcCMFF
 
 -->

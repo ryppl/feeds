@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/numeric_conversion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.NumericConversion (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/numeric_conversion.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/numeric_conversion.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2f00f273-6f00-4d20-8289-a8cf096bcfd1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="6a540034-922f-4a77-8f2a-184d7f18a269" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>805a8bef18dd4e09333c6ec53144af7c7b2df830</ryppl:vcs-revision>
       <archive extract="boost-lib-numeric_conversion-805a8be" href="http://nodeload.github.com/boost-lib/numeric_conversion/zipball/805a8bef18dd4e09333c6ec53144af7c7b2df830" size="129800" type="application/zip"/>
       <manifest-digest sha1new="8ba3f397604e581f6150d714f6f3503a5dfdff68"/>
     </implementation>
@@ -35,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6QcACgkQxnV5mk56UjGpyACglTT1kLe8dWsiaLlz75LOPGN5MeIAoISIGS96
-10by/234wh+5cGuKW7fi
+iEYEABECAAYFAk+zH/gACgkQxnV5mk56UjGc8wCdGyg7GsDG0+46giHX4iEmwHqEhRoAn3t3gGqK
+WD6m6UvROo30kq/tUelj
 
 -->

@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/icl-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ICL (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/icl.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/icl.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/icl/</homepage>
   <dc:author>Joachim Faulhaber</dc:author>
   <description>Interval Container Library, interval sets and maps and
     aggregation of associated values</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1c7ddf56-c284-4e5a-83ea-900ee5821db7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="fd28d0bf-945b-4caf-9388-5ef797492f8a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c</ryppl:vcs-revision>
       <archive extract="boost-lib-icl-03c68cd" href="http://nodeload.github.com/boost-lib/icl/zipball/03c68cd1b07b1f7bcc2a83d7c1c78d257ca3167c" size="4147046" type="application/zip"/>
       <manifest-digest sha1new="2edebeef171218bb7e76d43d49e0c262d0962d36"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y538ACgkQxnV5mk56UjHL5wCeNcc+d9eRhtekeLiDMyYTgvAGWVIAnA3Qz1CF
-CP58a9ymwU272DoHB1zs
+iEYEABECAAYFAk+zH6kACgkQxnV5mk56UjGwZQCeIUrnIcl1FlTqHFAj9mjhoq1s3L8An2k84H2B
+u5T3pncUUDJAIFvLbfKI
 
 -->

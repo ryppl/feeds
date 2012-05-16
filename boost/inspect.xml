@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/inspect.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Inspect (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/inspect.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/inspect.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b3e3517e-b456-470e-9007-807594f61cbe" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="b4a9dd62-06d4-4444-92b9-4d9970de25b8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>7ba03cda1510b8535f3d727e21803c4996dc55ec</ryppl:vcs-revision>
       <archive extract="boost-lib-inspect-7ba03cd" href="http://nodeload.github.com/boost-lib/inspect/zipball/7ba03cda1510b8535f3d727e21803c4996dc55ec" size="42009" type="application/zip"/>
       <manifest-digest sha1new="efdd9be6e994a3db181314e34db04ad5285c0af8"/>
     </implementation>
@@ -253,7 +254,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y61gACgkQxnV5mk56UjH/9gCfU03FeL8PgHHIm6PmmEjvm0fVFDYAn0zpDdyz
-TGHGNyYurLSdHnsjRLlH
+iEYEABECAAYFAk+zIHIACgkQxnV5mk56UjH0TQCfQszdY0seW1TzHgR4VHprxtgWnFAAn3Hjljh5
+6aVvfHcUi3saD44ICXrV
 
 -->

@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Preprocessor (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/preprocessor.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/preprocessor.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/preprocessor/</homepage>
   <dc:author>Paul Mensonides</dc:author>
   <dc:author>Vesa Karvonen</dc:author>
   <description>Preprocessor metaprogramming tools including
     repetition and recursion.</description>
-  <category type="http://boost.org/lib-categories">Preprocessor</category>
+  <category type="http://boost.org/lib-categories/2012">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="19f7a666-64be-437d-91be-0cfdad356b72" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="0dae06df-0b3f-4307-bb8e-5297a7b30ab5" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>ac4970c340d8ba2deebd685cea170d24e688be0f</ryppl:vcs-revision>
       <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
       <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y60gACgkQxnV5mk56UjE1qgCggJHgVx8jK9hHrq3zCuaL5cjMymIAn0VwtXHb
-l+AP4hc6lQLN3fPMZeLo
+iEYEABECAAYFAk+zIG0ACgkQxnV5mk56UjGrzgCeJOVQRuLSyr/v4u3qg6fJ7vxYC/UAn3juNNXS
+PnA9FAVbrTe8ywpPMywa
 
 -->

@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/graph-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Graph (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/graph.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/graph.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/graph/</homepage>
   <dc:author>Jeremy Siek</dc:author>
@@ -12,11 +12,12 @@
   <description>The BGL graph interface and graph components are
     generic, in the same sense as the the Standard Template Library
     (STL).</description>
-  <category type="http://boost.org/lib-categories">Iterators</category>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Iterators</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dc069edc-1d99-4143-a3bb-47107b3483e7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="35cbeb63-ca92-46ce-8db5-4a33f851e67a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>ddaf2bb88975fdd6ca34672f05946fbc464999f8</ryppl:vcs-revision>
       <archive extract="boost-lib-graph-ddaf2bb" href="http://nodeload.github.com/boost-lib/graph/zipball/ddaf2bb88975fdd6ca34672f05946fbc464999f8" size="3672631" type="application/zip"/>
       <manifest-digest sha1new="84fab9e63b222cdc9f1c94a0e1027baaf6eb3492"/>
     </implementation>
@@ -232,7 +233,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y56sACgkQxnV5mk56UjEUTQCgjLRHYHj9/VbsmtShSl9CK/CAjysAnRhkOfHq
-Px8hEU1SHL1F28HxZpDc
+iEYEABECAAYFAk+zH7UACgkQxnV5mk56UjFowACbBsS5wEek0vOYwW+Qf7YeM14m3MMAnA5GKoc4
+j//zNr4LnpDog1aMkugE
 
 -->

@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/graph_parallel-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.GraphParallel (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/graph_parallel.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/graph_parallel.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="58225004-fed3-41e2-8436-9ceb5fc90495" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="77b2b9ca-34a4-4ddb-a631-23447da09bd8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>27a217a48581a4e6582791856bf95c558f167285</ryppl:vcs-revision>
       <archive extract="boost-lib-graph_parallel-27a217a" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/27a217a48581a4e6582791856bf95c558f167285" size="1100320" type="application/zip"/>
       <manifest-digest sha1new="5b7f5d326805fd15891575efc8db4404dc826dc7"/>
     </implementation>
@@ -25,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6ncACgkQxnV5mk56UjFVoACePLqjGziO13NRJCOY3Lq5gyQT2o0Anj1Z3M6C
-j0FAFbwWTNMJZdh2UB7l
+iEYEABECAAYFAk+zIEYACgkQxnV5mk56UjGn6gCcCChBxdId8Vs2c6xwKKaK79LTZyoAoI1B3mlG
+vXK3FDA1pHSEDkLoo/L+
 
 -->

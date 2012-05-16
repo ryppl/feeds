@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/python-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Python (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/python.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/python.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/python/</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -12,9 +12,10 @@
     seamlessly expose C++ classes functions and objects to Python,
     and vice-versa, using no special tools -- just your C++
     compiler.</description>
-  <category type="http://boost.org/lib-categories">Inter-language</category>
+  <category type="http://boost.org/lib-categories/2012">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="323e4171-4d28-41de-80f3-813f1ae08040" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="61a377c5-aaa4-49cb-95b7-7b6e71f30062" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>62b3df4e3ee4fd53ee3244f332274d262b507611</ryppl:vcs-revision>
       <archive extract="boost-lib-python-62b3df4" href="http://nodeload.github.com/boost-lib/python/zipball/62b3df4e3ee4fd53ee3244f332274d262b507611" size="1217441" type="application/zip"/>
       <manifest-digest sha1new="d80afaa02f03c09820f5e336974e2b77f4f3d4f3"/>
     </implementation>
@@ -239,7 +240,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6s4ACgkQxnV5mk56UjGawACcCbJOQ5kp6ohB99QNO3ZUnDeB2fUAoJDjTU7s
-67Uud2azkCOLvij5urDY
+iEYEABECAAYFAk+zIFcACgkQxnV5mk56UjH+cgCfeH8s5NXHkeGis/Xb6qEbrJZZMBIAn2s8sfg3
+JxYgd+r4uDD3WLGyk0By
 
 -->

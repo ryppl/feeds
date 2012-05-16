@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/signals-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Signals (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/signals.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/signals.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/signals/</homepage>
   <dc:author>Doug Gregor</dc:author>
   <description>Managed signals &amp; slots callback
     implementation.</description>
-  <category type="http://boost.org/lib-categories">Patterns</category>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories/2012">Patterns</category>
+  <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a6f448df-c0da-48f2-a3ff-3ac10d9afcc5" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="85ed80c5-c078-4f71-b972-7cc8355e543f" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8</ryppl:vcs-revision>
       <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
       <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
     </implementation>
@@ -213,7 +214,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y60kACgkQxnV5mk56UjFzEgCbBCnN/CmAhKh59vg0WQuDt6nuA2QAn2/L/oLv
-Hb9xYUgGx0LKb0C7eoqf
+iEYEABECAAYFAk+zIG4ACgkQxnV5mk56UjHETQCeKYXeaYObLOXORipmboh6lD+k3f8AniuX10rl
+TL2X0zOLLac8abwGSly8
 
 -->

@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.FunctionalHash (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/functional_hash.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/functional_hash.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0b86d6bb-a67c-4dbe-b7f8-076f3e8e9182" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="503c437c-e883-4560-a2a4-7b45a00fca8b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>8d53c3711dbc853429696a4b490ae258e4361a49</ryppl:vcs-revision>
       <archive extract="boost-lib-functional_hash-8d53c37" href="http://nodeload.github.com/boost-lib/functional_hash/zipball/8d53c3711dbc853429696a4b490ae258e4361a49" size="70030" type="application/zip"/>
       <manifest-digest sha1new="9cafc178096825848e04dfe63ec0f7a58417a7e6"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6z0ACgkQxnV5mk56UjFKzwCfaoQaqsfA54XRRlIHdbaIWLeEZ3EAn2h9RxHv
-8/w0FrulsnEVwM90CyMQ
+iEYEABECAAYFAk+zIGoACgkQxnV5mk56UjGErACfWJTuwxuuF/R9735ygDenErcJISwAni3pCnoz
+RxbSLccHc40nelQGAG0Z
 
 -->

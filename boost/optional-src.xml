@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/optional-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Optional (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/optional.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/optional.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/optional/</homepage>
   <dc:author>Fernando Cacciola</dc:author>
   <description>Discriminated-union wrapper for optional
     values.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="87b6105a-4636-404d-9ed7-486866a38f69" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="29d010bf-d255-4f70-986a-a61f75df1d45" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7</ryppl:vcs-revision>
       <archive extract="boost-lib-optional-b0f724d" href="http://nodeload.github.com/boost-lib/optional/zipball/b0f724d902d2101bfcbb2a83c6572b7fbc50f0c7" size="100931" type="application/zip"/>
       <manifest-digest sha1new="1a74efbcedb71ee0e5f38a4932140d3d4323d8af"/>
     </implementation>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6v8ACgkQxnV5mk56UjFlsQCdEQp810n6kDCB6WETC9vfFjU0AbQAn19nGo3X
-fV7AcUXeaW/pI2IDo2W+
+iEYEABECAAYFAk+zIF0ACgkQxnV5mk56UjGv5gCeLNG8z10ejk2y8VTRVyUS7vQy9dAAnRXUxr9C
+7tx1VeyPM0b9eRMRrWgL
 
 -->

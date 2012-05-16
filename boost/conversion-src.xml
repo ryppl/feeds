@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/conversion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Conversion (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/conversion.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/conversion.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/conversion/</homepage>
   <dc:author>Dave Abrahams</dc:author>
   <dc:author>Kevlin Henney</dc:author>
   <description>Polymorphic and lexical casts.</description>
-  <category type="http://boost.org/lib-categories">String</category>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e2b21cfa-ac90-48d4-b079-e5df75c7f751" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="d8fdf00c-fd25-49b0-bee9-82b51e88ef4c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>a2f947bee28f839e183baa45c488fc457388e4a8</ryppl:vcs-revision>
       <archive extract="boost-lib-conversion-a2f947b" href="http://nodeload.github.com/boost-lib/conversion/zipball/a2f947bee28f839e183baa45c488fc457388e4a8" size="71738" type="application/zip"/>
       <manifest-digest sha1new="ddef432602030160573758c28941c046f4fcda0e"/>
     </implementation>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6UYACgkQxnV5mk56UjHVRwCfb1KWHqRII0GuMbLWDyHlrcdZSMUAnipWtmD1
-BCKRVQ0xV07neXTtajbu
+iEYEABECAAYFAk+zIAIACgkQxnV5mk56UjH7gACgooPpN0RU0/BYT9bqoJdo0mi5ga4AoJmpWYOR
+sbSwdbRZFsKGSarDVab2
 
 -->

@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/spirit-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Spirit (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/spirit.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/spirit.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/spirit/</homepage>
   <dc:author>Joel de Guzman</dc:author>
@@ -11,10 +11,11 @@
   <dc:author>Dan Nuffer</dc:author>
   <description>LL parser framework represents parsers directly as
     EBNF grammars in inlined C++.</description>
-  <category type="http://boost.org/lib-categories">String</category>
-  <category type="http://boost.org/lib-categories">Parsing</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
+  <category type="http://boost.org/lib-categories/2012">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="203904b1-825f-44e5-bc13-0c3c531e374d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="c440b7c6-1a9e-41cc-91fd-eef39ac83c53" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>a3b48cc9cebc73d6293fd469f442d1ed46fb771c</ryppl:vcs-revision>
       <archive extract="boost-lib-spirit-a3b48cc" href="http://nodeload.github.com/boost-lib/spirit/zipball/a3b48cc9cebc73d6293fd469f442d1ed46fb771c" size="4519465" type="application/zip"/>
       <manifest-digest sha1new="cbd47ac6a45a0c1f4f6774f32f513169bcb17827"/>
     </implementation>
@@ -56,7 +57,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6hUACgkQxnV5mk56UjH1TwCgg6/uKfnTrbFAObyMXGOIof2RI4IAoKGe4jQP
-W4+3Rzqn9tilwf1Rg/CS
+iEYEABECAAYFAk+zIDIACgkQxnV5mk56UjGFpQCgmQUUBeYvqAOYruEunQTEo6DZswsAnjSPlTmR
+rDIqSmPGbdgljsz3wLB6
 
 -->

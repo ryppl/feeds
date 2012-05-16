@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/numeric_interval-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.NumericInterval (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/numeric_interval.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/numeric_interval.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="252ac488-70a4-404e-9828-0a53b067ecf0" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="0d3e5ca8-ac33-4537-87e7-35ad1e086da9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cbd7821cf49b450ab0e1e40a02a3001f1153dd30</ryppl:vcs-revision>
       <archive extract="boost-lib-numeric_interval-cbd7821" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/cbd7821cf49b450ab0e1e40a02a3001f1153dd30" size="120472" type="application/zip"/>
       <manifest-digest sha1new="1be594e80315511862a0d1b82a3288775eb7b7f7"/>
     </implementation>
@@ -35,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6tYACgkQxnV5mk56UjGWpQCghLgv97J+XLsdoyj7npB7o1sgFgYAn03Lb7RZ
-mpmehqJdSTvaODySCx/w
+iEYEABECAAYFAk+zIFgACgkQxnV5mk56UjElwQCgqCEVlzDK33iQmnolc8djyFx9ZYoAni3b0C7I
+Xh9RhN2eAY9p3LnxzjOE
 
 -->

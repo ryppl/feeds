@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/filesystem-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Filesystem (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/filesystem.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/filesystem.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/filesystem/</homepage>
   <dc:author>Beman Dawes</dc:author>
   <description>The Boost Filesystem Library provides portable
     facilities to query and manipulate paths, files, and
     directories.</description>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a3aaf283-d5a7-4283-9464-6195bcddfc4e" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="65353f30-26b1-40c8-81c1-16c1ba654211" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>1a13710c53ee6c65d4597ee620321134cea777a4</ryppl:vcs-revision>
       <archive extract="boost-lib-filesystem-1a13710" href="http://nodeload.github.com/boost-lib/filesystem/zipball/1a13710c53ee6c65d4597ee620321134cea777a4" size="296985" type="application/zip"/>
       <manifest-digest sha1new="f3e79a5b9dc173bac7834e6b4b0cec8bdbeb1a0b"/>
     </implementation>
@@ -216,7 +217,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6rQACgkQxnV5mk56UjEzaQCfWm36o9rkS9qxoCcK+duMgASGvYgAoJfxINp1
-edQwVR/inmSVfaUi76CU
+iEYEABECAAYFAk+zIFMACgkQxnV5mk56UjFGJQCeL/9q92w/jNerKG6VjPoy8B4sRdUAoISDWFmm
+nBm8QzONaXJZ0EZ48zNk
 
 -->

@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/proto-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Proto (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/proto.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/proto.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/proto/</homepage>
   <dc:author>Eric Niebler</dc:author>
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
-  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d10f62fd-84a9-4865-869e-64073c1e2f97" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="6075faa9-9174-43d9-bc7a-5446a98d22b4" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>5ec81983563dc87db4f61c77c6372003db20a5d0</ryppl:vcs-revision>
       <archive extract="boost-lib-proto-5ec8198" href="http://nodeload.github.com/boost-lib/proto/zipball/5ec81983563dc87db4f61c77c6372003db20a5d0" size="448177" type="application/zip"/>
       <manifest-digest sha1new="f7d50211ea3a678d3e089d1518ed11aa97716dad"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6jwACgkQxnV5mk56UjFfpQCdGZvqZH6OO+Nlk6TdpynkuwMGdvEAn21Mv3cR
-01ecgLF+qTqY/eDsnDtY
+iEYEABECAAYFAk+zID0ACgkQxnV5mk56UjEtzwCfWjjrC4taj2XoZayX3oY8l7c0uOgAn2n8FjGK
+8rn5zmFyFxT3TsQd3ZrQ
 
 -->

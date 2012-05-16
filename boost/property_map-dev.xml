@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/property_map-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.PropertyMap (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/property_map.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/property_map.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/property_map/</homepage>
   <dc:author>Jeremy Siek</dc:author>
   <description>Concepts defining interfaces which map key objects
     to value objects.</description>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="002b4795-f2f6-4042-92df-05d642ea3a35" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="46fa9444-7e9b-41ea-9945-76fbe1db2d3c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>b360d315958ddd8702f2231e602170011f1086ca</ryppl:vcs-revision>
       <archive extract="boost-lib-property_map-b360d31" href="http://nodeload.github.com/boost-lib/property_map/zipball/b360d315958ddd8702f2231e602170011f1086ca" size="74447" type="application/zip"/>
       <manifest-digest sha1new="5d98ee43a3526e316e889fd970accd45742a5df6"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+y6Y4ACgkQxnV5mk56UjETgQCdG+E5EJEF0niTx6+XI0pkWjVoHkQAlRk0bAKO
-MA/AilNsGaECAT7265M=
+iEYEABECAAYFAk+zIA8ACgkQxnV5mk56UjHcvACglhjw1XVh2glyEcfbZsNOYCvZZrQAnAtm4sOr
+Y/KlohojgoT8bTR/Jm2M
 
 -->

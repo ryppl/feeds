@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/assign-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Assign (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/assign.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/assign.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/assign/</homepage>
   <dc:author>Thorsten Ottosen</dc:author>
   <description>Filling containers with constant or generated data
     has never been easier.</description>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f9ae9906-f940-41a5-b755-b73076ccca0c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="ba11e2af-7155-46c7-9d89-6c44fa1b2a54" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>142ad90451a0d197a41d950eaadee0d04e6f992a</ryppl:vcs-revision>
       <archive extract="boost-lib-assign-142ad90" href="http://nodeload.github.com/boost-lib/assign/zipball/142ad90451a0d197a41d950eaadee0d04e6f992a" size="62393" type="application/zip"/>
       <manifest-digest sha1new="34f27856715b1e35ea611b9a093beb6aa9a21a08"/>
     </implementation>
@@ -33,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6tIACgkQxnV5mk56UjHSwQCdHOEBJmY4IznCrUO4DgALKXos76MAnRVIAiEx
-7oMSgglBwPV9KYhQ9pRY
+iEYEABECAAYFAk+zIFcACgkQxnV5mk56UjHvCQCfYS78mD/YEprw5djVz2uux2hPuIMAnjvY8ne4
+YZQ6pPEV0+blalZPqFQo
 
 -->

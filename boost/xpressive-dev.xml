@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/xpressive-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Xpressive (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/xpressive.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/xpressive.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/xpressive/</homepage>
   <dc:author>Eric Niebler</dc:author>
@@ -11,9 +11,10 @@
     or as expression templates, and which can refer to each other
     and themselves recursively with the power of context-free
     grammars.</description>
-  <category type="http://boost.org/lib-categories">String</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="77d25cdd-7371-48ae-82ca-8d8fb2fbd682" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="8c1f0481-f720-45fa-bb21-8b3e9c52762a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>d3dc4e3998db9f7f8f2bacaaaabf244b68af3dcb</ryppl:vcs-revision>
       <archive extract="boost-lib-xpressive-d3dc4e3" href="http://nodeload.github.com/boost-lib/xpressive/zipball/d3dc4e3998db9f7f8f2bacaaaabf244b68af3dcb" size="367670" type="application/zip"/>
       <manifest-digest sha1new="fc4f662f594e67221ad2ec254c7c167c924379cd"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6oIACgkQxnV5mk56UjFuwACcCMydghWnWtGYdKQ0miYr/RphuMgAn0fa87SP
-n4sV8gb1ZsLN5MNImMxX
+iEYEABECAAYFAk+zIEoACgkQxnV5mk56UjErOwCfXEhva6hwWn/qKoWyAXtSh2zNx9EAni1WoMr6
+Fym5wP2JGQdNt9/0Pj8q
 
 -->

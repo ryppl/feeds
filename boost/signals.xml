@@ -3,16 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/signals.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Signals (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/signals.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/signals.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/signals/</homepage>
   <dc:author>Doug Gregor</dc:author>
   <description>Managed signals &amp; slots callback
     implementation.</description>
-  <category type="http://boost.org/lib-categories">Patterns</category>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories/2012">Patterns</category>
+  <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="21161263-b1c3-4eb5-b766-dc0b2940d991" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="21e006b9-7d69-4075-a5f1-ad1c1442e114" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y60kACgkQxnV5mk56UjEBmACfSRYPQ3vROA33YntLRkuXbjKWHrIAnR2p5tzM
-WTyGDSirIQ7quVfcYwvT
+iEYEABECAAYFAk+zIG4ACgkQxnV5mk56UjHbrQCfSKqrIf5uVuQSsyepT24Rq0Vtmz4AnipuQANG
+MXbPdUEhgi9DoCGvrrSs
 
 -->

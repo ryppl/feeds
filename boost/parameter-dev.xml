@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/parameter-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Parameter (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/parameter.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/parameter.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
     libs/parameter/</homepage>
@@ -11,10 +11,11 @@
   <dc:author>David Abrahams</dc:author>
   <description>Boost.Parameter Library - Write functions that
     accept arguments by name.</description>
-  <category type="http://boost.org/lib-categories">Programming</category>
-  <category type="http://boost.org/lib-categories">Emulation</category>
+  <category type="http://boost.org/lib-categories/2012">Programming</category>
+  <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2c47fd8e-b021-48b3-89e8-44216e94791d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="b74aa969-0942-470a-8551-428ff6396a7a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>5a72da5a8ce632915588fb208de0fd82a7e6da60</ryppl:vcs-revision>
       <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
       <manifest-digest sha1new="f14d8172a5fa047a5abe507fdd8c9acea4c67eb7"/>
     </implementation>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+y6ZcACgkQxnV5mk56UjGw+QCdH2kP+d5ZFOhlG9EA5E7X+33i6T0Al1nEVlp/
-PNkyoN0HAKbK32fNQbQ=
+iEYEABECAAYFAk+zIBIACgkQxnV5mk56UjGnewCfcbyJyDc/AONEc6QeyPwTrYCV/HgAn0U2qIek
+oMLTj7etCEd5NzbGwr1+
 
 -->

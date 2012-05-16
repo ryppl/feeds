@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/ptr_container-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.PtrContainer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/ptr_container.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/ptr_container.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
     libs/ptr_container/</homepage>
   <dc:author>Thorsten Ottosen</dc:author>
   <description>Containers for storing heap-allocated polymorphic
     objects to ease OO-programming.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b5863b21-f83e-413d-bb9b-794e09c2fb8d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="1ab3eb7b-d35b-43bd-89d5-f3516143d111" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>503c2e740a28a9e4056eb286e44b6b35b4f41683</ryppl:vcs-revision>
       <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
       <manifest-digest sha1new="f4c7dc9504ff16a11d6bdf3818913f13b950fd65"/>
     </implementation>
@@ -37,7 +38,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6rAACgkQxnV5mk56UjEWJACgn8jfQrry143ttL7ko1VeMNvq8xwAnAku3bny
-l+O39yNs2ojkVobsndD5
+iEYEABECAAYFAk+zIFIACgkQxnV5mk56UjHkSACfUW6XB2ZWNjqAdl/ZWzXuxB/9rLMAnA1c5IR3
+CV0af2JXJ95tfNaWWCD0
 
 -->

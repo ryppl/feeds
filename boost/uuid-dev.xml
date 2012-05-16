@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/uuid-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.UUID (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/uuid.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/uuid.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/uuid/</homepage>
   <dc:author>Andy Tompkins</dc:author>
   <description>A universally unique identifier.</description>
-  <category type="http://boost.org/lib-categories">Domain</category>
-  <category type="http://boost.org/lib-categories">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ea673429-d3cb-4b43-8bf3-30f95881a3a9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="9658cf0b-632d-4b1f-9761-b923a72123a1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>9792b6844e27783e0aabf8c368202f4501c5edc0</ryppl:vcs-revision>
       <archive extract="boost-lib-uuid-9792b68" href="http://nodeload.github.com/boost-lib/uuid/zipball/9792b6844e27783e0aabf8c368202f4501c5edc0" size="48953" type="application/zip"/>
       <manifest-digest sha1new="5555e47d765e89672dfa95491c2c0722e120e98b"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6RgACgkQxnV5mk56UjHnZQCfdvfKJQv52Mv3w/Wh+srEnGAm954An0QW+4GO
-z24rVMWICd8Lgm6tgFnT
+iEYEABECAAYFAk+zH/sACgkQxnV5mk56UjFyTgCfYN/Yv6SwNAhmWGSTsRI5+R+CAUkAn3t2ddCM
+goabOAUN5WuL5fx86WLJ
 
 -->

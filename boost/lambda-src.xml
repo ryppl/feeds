@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/lambda-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Lambda (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/lambda.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/lambda.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/lambda/</homepage>
   <dc:author>Gary Powell</dc:author>
   <dc:author>Jaakko Järvi</dc:author>
   <description>Define small unnamed function objects at the
     actual call site, and more.</description>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ff0b09c7-04c7-4daf-af16-f910f2ddf963" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="fb9730f5-d163-4905-98b4-6f82298bfc90" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>914014514c7cdee429f9c095174533abc69b4934</ryppl:vcs-revision>
       <archive extract="boost-lib-lambda-9140145" href="http://nodeload.github.com/boost-lib/lambda/zipball/914014514c7cdee429f9c095174533abc69b4934" size="166956" type="application/zip"/>
       <manifest-digest sha1new="85619d77921ec92d4f10fdfa075f2374f612e07d"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6UwACgkQxnV5mk56UjEtqACgiI1QQFVLHFVHU/GHtb34NH0Iu1MAnRvmBHDx
-m8mqMLN69eZt9N8aoLy5
+iEYEABECAAYFAk+zIAQACgkQxnV5mk56UjFOjQCeMLP7Hsd0Y+kzdWDLXr+NNRf2cW0An0dQI5qq
+AKmQXEpDTrR9PhM46Z3h
 
 -->

@@ -3,15 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/system-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.System (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/system.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/system.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/system/</homepage>
   <dc:author>Beman Dawes</dc:author>
   <description>Operating system support, including the diagnostics support
     that will be part of the C++0x standard library.</description>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e009dc3d-ca42-4abe-9559-74e36aad0139" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="123dfa66-e381-4928-8f06-82d4ce8857c9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y62sACgkQxnV5mk56UjFkigCfSi7vB0fHOm4JzDb2JWSgEL5GthoAniRmp8Vw
-6dmNugu83vy+UFuglQuu
+iEYEABECAAYFAk+zIHkACgkQxnV5mk56UjHEbACaA3xXt5/xU5F5hJwk6oJUK84E++kAn3Tu5goo
+5uWAQ/SJKr1hC6ZovcRj
 
 -->

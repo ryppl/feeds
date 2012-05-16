@@ -3,19 +3,20 @@
 <interface uri="http://ryppl.github.com/feeds/boost/gil-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.GIL (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/gil.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/gil.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/gil/</homepage>
   <dc:author>Hailin Jin</dc:author>
   <dc:author>Lubomir Bourdev</dc:author>
   <description>Generic Image Library</description>
-  <category type="http://boost.org/lib-categories">Iterators</category>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
-  <category type="http://boost.org/lib-categories">Image-processing</category>
+  <category type="http://boost.org/lib-categories/2012">Iterators</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2123dbef-e7f9-4eca-b60b-ff7aa892eeec" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="e198e53d-ec51-4af2-a660-28f143619d94" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cb807da3b16ddb4fc81fd5b3c2966501fbf7014a</ryppl:vcs-revision>
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
       <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
     </implementation>
@@ -33,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y5x4ACgkQxnV5mk56UjHwwwCgnT+vcpo2WpZOHG3puS14DxgNtJoAnRBIJtJz
-hG6tQOrwSEVAtdsLYvPP
+iEYEABECAAYFAk+zH5wACgkQxnV5mk56UjGLtACff0CflXfxnyFXTHyL/N80pyA1CWAAniVVjHiy
+x9veFmX+Dfh3qDqxxevX
 
 -->

@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/serialization-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Serialization (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/serialization.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/serialization.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
     libs/serialization/</homepage>
   <dc:author>Robert Ramey</dc:author>
   <description>Serialization for persistence and
     marshalling.</description>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="81d8df58-bd6c-46d8-bf96-e5f5a4277921" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="b9729a42-5143-4155-85d0-d50d419c3fea" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>d9b4e78a1469ef14b4c53064b460ed9611a7c8b0</ryppl:vcs-revision>
       <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
       <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
     </implementation>
@@ -41,7 +42,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y5yYACgkQxnV5mk56UjFYogCfemV6VU3BoV7sXsZHJljCx0JE3tgAn1sEKYst
-K/FHbSb4nYmm6CiEo7SA
+iEYEABECAAYFAk+zH54ACgkQxnV5mk56UjHZmQCdGBzhOFEoumWE5uSNmZ5JbKr0s0AAn1Q2rC+r
+TXc9rMaudn+9DjzPqPdh
 
 -->

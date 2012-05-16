@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/function_types-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.FunctionTypes (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/function_types.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/function_types.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/function_types/</homepage>
   <dc:author>Tobias Schwinger</dc:author>
   <description>Boost.FunctionTypes provides functionality to classify,
     decompose and synthesize function, function pointer, function reference and
     pointer to member types.</description>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e3e16496-026b-478f-a679-504a9578a093" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="be350db0-8b4a-4ce7-9ec3-ab882865784c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>6f06476f120ff2eb70d68bc435ccda79cc88720b</ryppl:vcs-revision>
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
       <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6hoACgkQxnV5mk56UjGUoACfdN2vtylGUoNfVEq85GFWpiyc7cEAnjZ8Pq9Y
-D6tYfi6qW9pESzx8XdLG
+iEYEABECAAYFAk+zIDMACgkQxnV5mk56UjERUgCgg2908Ony4OHlVeyecSnWv0vBarwAoJer/vH1
+tI1jZMt495krf8k2QxG9
 
 -->

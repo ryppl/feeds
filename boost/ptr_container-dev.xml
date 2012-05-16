@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/ptr_container-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.PtrContainer (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/ptr_container.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/ptr_container.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
     libs/ptr_container/</homepage>
   <dc:author>Thorsten Ottosen</dc:author>
   <description>Containers for storing heap-allocated polymorphic
     objects to ease OO-programming.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="42512fc4-f856-40ae-a3a8-7b3887a2f87e" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="96db48db-46c6-41dc-b327-1a3db7fff5dd" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>503c2e740a28a9e4056eb286e44b6b35b4f41683</ryppl:vcs-revision>
       <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
       <manifest-digest sha1new="f4c7dc9504ff16a11d6bdf3818913f13b950fd65"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6rAACgkQxnV5mk56UjGHKwCfejDkGvByV2lRFePhg/erFWergpwAoJo0u9Ow
-VDXyYYs/hM2AD4HzGMQm
+iEYEABECAAYFAk+zIFIACgkQxnV5mk56UjH0ogCfcSdWMVmz4ZLYIO+r26K6vCsB9fsAn3DIO5C8
+Ft6ntWunTg8e2eCkFwMf
 
 -->

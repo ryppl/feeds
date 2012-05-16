@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/statechart-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Statechart (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/statechart.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/statechart.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/statechart/</homepage>
   <dc:author>Andreas Huber Dönni</dc:author>
   <description>Boost.Statechart - Arbitrarily complex finite
     state machines can be implemented in easily readable and
     maintainable C++ code.</description>
-  <category type="http://boost.org/lib-categories">State</category>
+  <category type="http://boost.org/lib-categories/2012">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a2d05bcd-f1e8-4c81-a2e2-fcd954400a14" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="e45b6e5a-bcc4-43cc-a470-85c2f78e0baa" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f</ryppl:vcs-revision>
       <archive extract="boost-lib-statechart-0e57052" href="http://nodeload.github.com/boost-lib/statechart/zipball/0e57052b9c693bf4bd3e88ac0283bb0a159c1d6f" size="1136040" type="application/zip"/>
       <manifest-digest sha1new="819e1bb2c9ef2da9b7be6f3ee1e3db004958db81"/>
     </implementation>
@@ -30,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6qoACgkQxnV5mk56UjHdagCfcxlmFvM+adPgS8r0V6QtLioPfswAoJQJDnBQ
-NcYkOotGRpIEc9wwZrnV
+iEYEABECAAYFAk+zIFAACgkQxnV5mk56UjFD2ACeMJIaXHKiQiXH9Df67Fn5HnJOQ2UAnAsSJzw1
+IZmCJXs5q473OFw35KuE
 
 -->

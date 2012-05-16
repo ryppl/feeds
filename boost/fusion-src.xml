@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/fusion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Fusion (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/fusion.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/fusion.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/fusion/doc/html/</homepage>
   <dc:author>Joel de Guzman</dc:author>
@@ -11,10 +11,11 @@
   <dc:author>Tobias Schwinger</dc:author>
   <description>Library for working with tuples, including various containers,
 	algorithms, etc.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d766d19e-b878-438d-bf63-6ab72082ec38" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="89b0e149-2bb1-42c8-b311-2f80e2e6d51b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cc2dd84632c97f1f8e535ae256c4c25de5159052</ryppl:vcs-revision>
       <archive extract="boost-lib-fusion-cc2dd84" href="http://nodeload.github.com/boost-lib/fusion/zipball/cc2dd84632c97f1f8e535ae256c4c25de5159052" size="1209623" type="application/zip"/>
       <manifest-digest sha1new="5cc643bcf37e5e8425cd84c3fa6e7c8c61af410b"/>
     </implementation>
@@ -35,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6awACgkQxnV5mk56UjE2qwCeJpgXT0TosnxM72X9BxU9nO05wmQAn0+dwwze
-QzlzHJ70Q3jfosUffcIc
+iEYEABECAAYFAk+zIBgACgkQxnV5mk56UjEtUgCfaLPyJxJHMTWQH/GHh9qucr3j3SgAn0oLQAa7
+/7dt6oG7pJ5blXASZx6L
 
 -->

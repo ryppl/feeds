@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DisjointSets (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/disjoint_sets/disjoint_sets.html</homepage>
   <dc:author>Jeremy Siek</dc:author>
@@ -12,9 +12,10 @@
   <description>Boost.DisjointSets provides disjoint sets
     operations with union by rank and path
     compression.</description>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4bbf537f-d744-4c54-a978-a05ca06563c7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="aa5083aa-c6fb-4020-a952-100a185e3b44" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>01725e43f9f33eef93a295a0f0bf188433c152e6</ryppl:vcs-revision>
       <archive extract="boost-lib-disjoint_sets-01725e4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/01725e43f9f33eef93a295a0f0bf188433c152e6" size="10385" type="application/zip"/>
       <manifest-digest sha1new="9756e5dd44d12f7715731fe213467030909c4d87"/>
     </implementation>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6eMACgkQxnV5mk56UjHs/QCePtjM8spBA53mSYiSHISnkciVALsAnir5JYKU
-zimyKsg9itZJTAyVL4+g
+iEYEABECAAYFAk+zICgACgkQxnV5mk56UjE4vwCfV/qMKyqSo7uHJedXpYeCAYXCZH4An38aKdu5
+u0jOQ3He3qLxkU5t7+qP
 
 -->

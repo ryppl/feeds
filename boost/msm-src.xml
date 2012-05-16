@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/msm-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MSM (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/msm.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/msm.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/msm/</homepage>
   <dc:author>Christophe Henry</dc:author>
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
-  <category type="http://boost.org/lib-categories">State</category>
+  <category type="http://boost.org/lib-categories/2012">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f49ebae6-e494-4022-9beb-4b924c648d80" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="ff1e7a25-beb9-44e6-822f-1a8e06619c0b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cc272deb18b1c31cb71c56567c0bf52967f6c986</ryppl:vcs-revision>
       <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
       <manifest-digest sha1new="f0e161f615c75dfc82a564c6f31615d90ff22c56"/>
     </implementation>
@@ -39,7 +40,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y55YACgkQxnV5mk56UjHBGQCcC5GOHC9Tl+Q64KYKpPiPIZmo6/kAni0YqGHZ
-GL/zCEwQlsXZFaxtvSHr
+iEYEABECAAYFAk+zH68ACgkQxnV5mk56UjHTuACdFYir2xChQME+iuWmqW3fKJlDdqYAoKT+n/Jz
+yMKQfcKcYXnti6fbBO+F
 
 -->

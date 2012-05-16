@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Config (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/config.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/config.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/config/config.htm</homepage>
   <dc:author/>
   <description>Helps Boost library developers adapt to compiler
     idiosyncrasies; not intended for library users.</description>
-  <category type="http://boost.org/lib-categories">workarounds</category>
+  <category type="http://boost.org/lib-categories/2012">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="31d261a3-0c06-4c8b-9c67-c9bfbcc2b8ff" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="befe0b2d-181d-492e-b868-0e5981642e4f" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>0fe0c8e662cff508124b340372bce1e5d2a5aa75</ryppl:vcs-revision>
       <archive extract="boost-lib-config-0fe0c8e" href="http://nodeload.github.com/boost-lib/config/zipball/0fe0c8e662cff508124b340372bce1e5d2a5aa75" size="621733" type="application/zip"/>
       <manifest-digest sha1new="7e6adbdea2fdf447a38262f4254e56bff5ac1d52"/>
     </implementation>
@@ -22,7 +23,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y54UACgkQxnV5mk56UjHc2wCdE/Xmp6CoWt/Q9M3O2bWkbqnIHy4AoJ5tQ238
-fR0qAy/YVZ7SRzC9U/Tq
+iEYEABECAAYFAk+zH6wACgkQxnV5mk56UjEp5gCfWHLeTG5iKGFcfn90iEgJ7cJAlaIAnRY7wVk6
++4z0ZzBSUFsger3rKukd
 
 -->

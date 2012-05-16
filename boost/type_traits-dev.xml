@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/type_traits-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.TypeTraits (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/type_traits.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/type_traits.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/type_traits/</homepage>
   <dc:author>John Maddock</dc:author>
@@ -11,10 +11,11 @@
   <dc:author>Steve Cleary</dc:author>
   <description>Templates for fundamental properties of
     types.</description>
-  <category type="http://boost.org/lib-categories">Generic</category>
-  <category type="http://boost.org/lib-categories">Metaprogramming</category>
+  <category type="http://boost.org/lib-categories/2012">Generic</category>
+  <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4da0a6ac-1bf6-47b9-a5d2-70bde22f1b5f" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="6aacb456-1b5f-4653-9b75-31c50ed4440b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>d80b3ad2994db8debbab83337f01fb2e6dbd7012</ryppl:vcs-revision>
       <archive extract="boost-lib-type_traits-d80b3ad" href="http://nodeload.github.com/boost-lib/type_traits/zipball/d80b3ad2994db8debbab83337f01fb2e6dbd7012" size="895089" type="application/zip"/>
       <manifest-digest sha1new="0f3cc2f1044f6d7a69a2d255145143e54c55e245"/>
     </implementation>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6Y0ACgkQxnV5mk56UjHBOwCgi+Bfprt66kHDE29DUeTsjoEUEPoAnRngjfLp
-NB/OaG+clZjPPW7Je/6S
+iEYEABECAAYFAk+zIA8ACgkQxnV5mk56UjEjqwCffQZJUl/teJZU54nwHNVJC9J0tV8An2yR0Wab
+O/dG6SOrFLhGcpqRdkPt
 
 -->

@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/phoenix-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Phoenix (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/phoenix.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/phoenix.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/phoenix/</homepage>
   <dc:author>Joel de Guzman</dc:author>
@@ -11,9 +11,10 @@
   <dc:author>Thomas Heller</dc:author>
   <description>Define small unnamed function objects at the actual
     call site, and more.</description>
-  <category type="http://boost.org/lib-categories">Function-objects</category>
+  <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b6eb974d-2d10-4754-9dc3-be322647846e" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="45b9fa2b-f25b-4e69-8d66-21c64d781af6" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>dfe2f0e12fa81def09ec851d0e210cb69c5ecd03</ryppl:vcs-revision>
       <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
       <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6yQACgkQxnV5mk56UjEiuwCfYKOlnxJ8W1dldi6nzW+wsCd3cvUAnA9j9rdP
-dmzFE16rwsXD4AD+rBTj
+iEYEABECAAYFAk+zIGQACgkQxnV5mk56UjGjTACfdEnM4gbsW+xBPMq7U0jL6kDPIT4An0Tubc/C
+qs2i/B6jRZVBbmkx72sB
 
 -->

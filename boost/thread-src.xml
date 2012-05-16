@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/thread-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Thread (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/thread.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/thread.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/thread/</homepage>
   <dc:author>Anthony Williams (originally William Kempf)</dc:author>
   <description>Portable C++ multi-threading.</description>
-  <category type="http://boost.org/lib-categories">Concurrent</category>
-  <category type="http://boost.org/lib-categories">System</category>
+  <category type="http://boost.org/lib-categories/2012">Concurrent</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="58357099-cc6b-4df0-b033-3523f1e1939e" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="598993b8-4b3c-45ef-868a-d21e1751f403" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10</ryppl:vcs-revision>
       <archive extract="boost-lib-thread-f0ee580" href="http://nodeload.github.com/boost-lib/thread/zipball/f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10" size="430892" type="application/zip"/>
       <manifest-digest sha1new="ed4133df1d33d1cfdb06985fac68d1109284f83d"/>
     </implementation>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6RUACgkQxnV5mk56UjH2HQCaAsklPGXqCTxwF37Gft302HqSEykAnRaQ2bed
-ZlM90ln5yDt0uelKuD0C
+iEYEABECAAYFAk+zH/oACgkQxnV5mk56UjF7/QCfX4kT1/GOFn2KfMVu4vkZB53jSFkAniHr8GqG
+H4CykSVhM1ykTUveP2Xi
 
 -->

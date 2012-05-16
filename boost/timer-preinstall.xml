@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/timer-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Timer (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/timer.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/timer.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/timer/</homepage>
   <dc:author>Beman Dawes</dc:author>
   <description>Event timer, progress timer, and progress display
     classes.</description>
-  <category type="http://boost.org/lib-categories">Miscellaneous</category>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="45f5d85c-2bf2-4f61-bb98-b59f91499f9b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="b7261b47-8731-4615-b20f-74b47b0f1581" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>2a05e6539be22c036f16d069af7f40ae1e120c18</ryppl:vcs-revision>
       <archive extract="boost-lib-timer-2a05e65" href="http://nodeload.github.com/boost-lib/timer/zipball/2a05e6539be22c036f16d069af7f40ae1e120c18" size="39539" type="application/zip"/>
       <manifest-digest sha1new="e9faecf16545b16ab008911b52ffcfe089447406"/>
     </implementation>
@@ -242,7 +243,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y54YACgkQxnV5mk56UjGzVwCdHvNCWdTTaCpruSLlO7xv4xi3lygAnRp4GkzO
-Xg+i+/EOkQqW8iF/TUth
+iEYEABECAAYFAk+zH6wACgkQxnV5mk56UjGRfQCfW8plabvpOgD4UYc/uaQxiOEVgRQAnjOBYkA0
+X/r6lpcHsTudTv6EE5Y/
 
 -->

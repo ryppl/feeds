@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/serialization-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Serialization (built state)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/serialization.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/serialization.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/
     libs/serialization/</homepage>
   <dc:author>Robert Ramey</dc:author>
   <description>Serialization for persistence and
     marshalling.</description>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d04ab03b-a685-44e7-b802-ffe6562baa5c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="230a7f57-8554-416e-ae5d-83b22116575c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>d9b4e78a1469ef14b4c53064b460ed9611a7c8b0</ryppl:vcs-revision>
       <archive extract="boost-lib-serialization-d9b4e78" href="http://nodeload.github.com/boost-lib/serialization/zipball/d9b4e78a1469ef14b4c53064b460ed9611a7c8b0" size="843971" type="application/zip"/>
       <manifest-digest sha1new="455eebdd82c9c69e419db1322d988eaba401af3f"/>
     </implementation>
@@ -210,7 +211,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+y5ycACgkQxnV5mk56UjGY6QCggh13iN0nx8bRRj59SkRrKsDRiUYAmKv/iTJI
-HIEbLgSIkb1/ecBBX6E=
+iEYEABECAAYFAk+zH54ACgkQxnV5mk56UjERZQCfQLUiStTXTs4CBzz655VtpedEs1gAmQG1SB59
+rSzCOWjeewYCjwFzcu8s
 
 -->

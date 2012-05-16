@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/bimap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Bimap (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/bimap.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/bimap.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/bimap/</homepage>
   <dc:author>Matias Capeletto</dc:author>
   <description>Bidirectional maps library for C++. With Boost.Bimap you
     can create associative containers in which both types can be used
     as key.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6520d1c2-02e8-4b05-ac01-e32b7d17af79" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="ed184639-321d-4637-be56-41e4222a0003" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>4d7440762144f5206869dbe6a2b8557fffaf7a02</ryppl:vcs-revision>
       <archive extract="boost-lib-bimap-4d74407" href="http://nodeload.github.com/boost-lib/bimap/zipball/4d7440762144f5206869dbe6a2b8557fffaf7a02" size="1312431" type="application/zip"/>
       <manifest-digest sha1new="040dae54aafc508c80fe3e20a18ce42ceb56b106"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6zsACgkQxnV5mk56UjHJsACeKWxbBsspljYWuC/p/W7FkNITlnEAniXc4ltX
-+JKSPnE5h/75LKTDAL/z
+iEYEABECAAYFAk+zIGkACgkQxnV5mk56UjF6AQCeNkqI3BxBxEx3EOMPtSyKpdB0ScsAn2WndQlr
+Nfs9uP2YNJxUg/F1D7IC
 
 -->

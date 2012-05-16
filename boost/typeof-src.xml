@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/typeof-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Typeof (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/typeof.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/typeof.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/typeof/</homepage>
   <dc:author>Arkadiy Vertleyb</dc:author>
   <dc:author>Peder Holt</dc:author>
   <description>Typeof operator emulation.</description>
-  <category type="http://boost.org/lib-categories">Emulation</category>
+  <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="49879498-1082-40e8-ba94-6428664e7203" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="3555a998-e7d1-4b5d-b07c-70ae26d8c9fd" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>144d8e42ed0405d54eddd409e1822ae4ce87e3f3</ryppl:vcs-revision>
       <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
       <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
     </implementation>
@@ -26,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y60wACgkQxnV5mk56UjEcawCePs3SBViNYg/dMaTlcsVyArpYDywAn0+92zpn
-QWUmowz/tUBhiaxGd5xL
+iEYEABECAAYFAk+zIG8ACgkQxnV5mk56UjEdXgCgkhNa++D7Ta56cJctx0IaADa7b+UAnjGojzYa
+UDDtI1dKZsmrKukOsAGB
 
 -->

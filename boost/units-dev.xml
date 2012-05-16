@@ -3,15 +3,16 @@
 <interface uri="http://ryppl.github.com/feeds/boost/units-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Units (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/units.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/units.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/units/</homepage>
   <dc:author>Matthias Schabel</dc:author>
   <dc:author>Steven Watanabe</dc:author>
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
-  <category type="http://boost.org/lib-categories">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b356c7cf-70e2-47a6-9b51-b0ad3c0bc1e4" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="48ac0be4-5f4f-4744-909a-d535a44cb912" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>7970215134cc2a8dcbbd1a5172be34d872d6b57d</ryppl:vcs-revision>
       <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
       <manifest-digest sha1new="5a0da961c4efc441cad30011fa3bcab5d2cd9c99"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6nsACgkQxnV5mk56UjHOMgCfepZZ0LZGMJK/DvcbHMkINQ/ATawAnj4So7Tk
-1SC3RPLOZy0V5EF9zgKG
+iEYEABECAAYFAk+zIEgACgkQxnV5mk56UjGVTwCfTB7s996CxCqJKL2TNdqKhO9KjIoAn1st2IlN
+YNmEVYnLxb+SIqTcS3X2
 
 -->

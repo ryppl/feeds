@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/graph.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Graph (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/graph.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/graph.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/graph/</homepage>
   <dc:author>Jeremy Siek</dc:author>
@@ -12,11 +12,11 @@
   <description>The BGL graph interface and graph components are
     generic, in the same sense as the the Standard Template Library
     (STL).</description>
-  <category type="http://boost.org/lib-categories">Iterators</category>
-  <category type="http://boost.org/lib-categories">Algorithms</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Iterators</category>
+  <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bed92509-0a5b-42d0-afc4-b892798c730c" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="8cca1b4d-0bcb-458e-bd26-65c775373ea1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -33,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y56sACgkQxnV5mk56UjGr2ACffHPH9k4LllyGV2CN5YsYeDxSA2YAn0WEoIP1
-L3iZMZ/8xJ9DjQvoood+
+iEYEABECAAYFAk+zH7UACgkQxnV5mk56UjHqFQCfaYc9O184ykL0frpULKMA1CakoAAAniNexomR
+HNMbzhnC5q0FSrK/UAtG
 
 -->

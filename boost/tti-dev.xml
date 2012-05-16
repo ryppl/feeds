@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/tti-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.TTI (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/tti.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/tti.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b0bf4638-ddab-4adf-9d68-b6255f2523c7" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="5623cd13-644d-408f-95fb-ce2217ac20a8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>99cb13e7721cfdf8b55343f95194e4e67714a50f</ryppl:vcs-revision>
       <archive extract="boost-lib-tti-99cb13e" href="http://nodeload.github.com/boost-lib/tti/zipball/99cb13e7721cfdf8b55343f95194e4e67714a50f" size="653320" type="application/zip"/>
       <manifest-digest sha1new="65a8e1f717aaaeef6812cee9cd0a07cc219a4dae"/>
     </implementation>
@@ -29,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6vwACgkQxnV5mk56UjEyiQCgoXRnFp0msN+GlqGy9PHh6cSLci0AniPjQyjR
-V+1KEVl26bi3/uBX3/9i
+iEYEABECAAYFAk+zIFwACgkQxnV5mk56UjH2GgCeK0AcUOngYvZaEQ+V5kjH4RCjYSUAoJ8Xansz
+M0VjIyYHa5tCzuY4gpU9
 
 -->

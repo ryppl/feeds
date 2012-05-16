@@ -3,23 +3,24 @@
 <interface uri="http://ryppl.github.com/feeds/boost/iostreams-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.IOStreams (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/iostreams.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/iostreams.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/iostreams/</homepage>
   <dc:author>Jonathan Turkanis</dc:author>
   <description>Boost.IOStreams provides a framework for defining
     streams, stream buffers and i/o filters.</description>
-  <category type="http://boost.org/lib-categories">String</category>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="7d7a1e82-2ed6-4fa9-866b-9b11b941902b" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="6ed7cfad-da65-4abc-8f07-80df27968767" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2</ryppl:vcs-revision>
       <archive extract="boost-lib-iostreams-ff3fc33" href="http://nodeload.github.com/boost-lib/iostreams/zipball/ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" size="700583" type="application/zip"/>
       <manifest-digest sha1new="ec0f90e558ae4c0fdc21f3c96c435177c8c186ae"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y570ACgkQxnV5mk56UjFmdACfRcnOo4avlBluXr8McKeaL41NCFcAn1OIM3Xp
-1z/qvCCfqHAAhczF7aGd
+iEYEABECAAYFAk+zH7oACgkQxnV5mk56UjGOzgCfePGQGRx2eU3FEL28oYPeJ/nX65UAoKJJy4Vz
+Fd/bt+AcSNvSNURSf5qt
 
 -->

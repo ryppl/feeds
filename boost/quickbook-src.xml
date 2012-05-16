@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/quickbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Quickbook (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/quickbook.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/quickbook.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/</homepage>
   <description>Regular expressions that can be written as strings
@@ -11,7 +11,8 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="44e1b391-8692-4916-ae78-0943b5af5e69" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="3b58a69a-c02d-4690-9381-1dab8224afa1" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>83b29d7724222628781e71a4b4b42cc9ac77d4ab</ryppl:vcs-revision>
       <archive extract="boost-lib-quickbook-83b29d7" href="http://nodeload.github.com/boost-lib/quickbook/zipball/83b29d7724222628781e71a4b4b42cc9ac77d4ab" size="436928" type="application/zip"/>
       <manifest-digest sha1new="27846dd16a4f3f9180f23efc0bbc2798a9912713"/>
     </implementation>
@@ -24,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y57kACgkQxnV5mk56UjF8dACfUpQiiQzE0/BWzT26ABQsI5Z7xRwAoIepyT6/
-/6h6A2PgLk5aFo/BLqUm
+iEYEABECAAYFAk+zH7oACgkQxnV5mk56UjHkowCgg1Ehu6PJ/lCrq0dv8y9dOxivwUcAoJkjG8to
+Uhdyi3qq6lGleyvYBetO
 
 -->

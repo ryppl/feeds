@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/io-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.IO (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/io.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/io.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/io/doc/ios_state.html</homepage>
   <dc:author>Daryle Walker</dc:author>
@@ -11,9 +11,10 @@
     large number of Boost headers. This sub-library should contain
     various items to use with/for the standard I/O
     library.</description>
-  <category type="http://boost.org/lib-categories">IO</category>
+  <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="59326392-7cb1-44a2-833b-e3deb2891ac5" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="7a374caa-4bbb-43cd-9a4f-6f0d25aa7da3" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>6fa1b9469e60bcb98e7989cd6491fa9c336e533f</ryppl:vcs-revision>
       <archive extract="boost-lib-io-6fa1b94" href="http://nodeload.github.com/boost-lib/io/zipball/6fa1b9469e60bcb98e7989cd6491fa9c336e533f" size="20430" type="application/zip"/>
       <manifest-digest sha1new="a82a1eeff3a6d241dc297346ba3e36e57a60b772"/>
     </implementation>
@@ -24,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6isACgkQxnV5mk56UjEptACeMgBOh3mr/x8HcFSXEBHOe/bvleYAniuhvhrR
-ZUViOJ9rQR+F6wCPtBzL
+iEYEABECAAYFAk+zIDgACgkQxnV5mk56UjH9XgCeKJU9ECQjwp6avi/cLOvlXjc6DsQAoIEk4Mqp
+TWFh7D4aGWmLaCMQcLpp
 
 -->

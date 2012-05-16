@@ -3,16 +3,17 @@
 <interface uri="http://ryppl.github.com/feeds/boost/tokenizer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Tokenizer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/tokenizer.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/tokenizer.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/tokenizer/</homepage>
   <dc:author>John Bandela</dc:author>
   <description>Break of a string or other character sequence into
     a series of tokens.</description>
-  <category type="http://boost.org/lib-categories">Iterators</category>
-  <category type="http://boost.org/lib-categories">String</category>
+  <category type="http://boost.org/lib-categories/2012">Iterators</category>
+  <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a3e7ce1d-b0fb-48b8-b347-f6305aa17361" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="81d36b96-4a54-468e-84dd-36390e936638" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>a3421768e2e9c97986b906b72b25c516a6ded07e</ryppl:vcs-revision>
       <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
       <manifest-digest sha1new="c8de121c4d64f7f38638acb6a6ba15f2c7338db9"/>
     </implementation>
@@ -25,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6iMACgkQxnV5mk56UjE91gCfffz/Le6c8mrTfthzr03zlsvlVtoAn1GkNC87
-2BPhhLNqcAugJVQrnloZ
+iEYEABECAAYFAk+zIDYACgkQxnV5mk56UjEdowCgjHOyvhW+t2H/Knqgp73ixNxlAnYAmweXPFQf
+FN5fdT0z3QUglMol7BOw
 
 -->

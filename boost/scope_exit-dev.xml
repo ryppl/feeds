@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/scope_exit-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ScopeExit (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/scope_exit.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/scope_exit.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/scope_exit/</homepage>
   <dc:author>Alexander Nasonov</dc:author>
   <description>Execute arbitrary code at scope exit.</description>
-  <category type="http://boost.org/lib-categories">Emulation</category>
+  <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2809554d-2f15-4fb4-9279-a3fd6ec0ff60" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="c5a58ec7-d62d-44a7-96c7-177928c9bf76" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>aa3a9480edc302422dba4032037a33657d7397b9</ryppl:vcs-revision>
       <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
       <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6s8ACgkQxnV5mk56UjHM3wCaAzIEQ/GxtGpD2yEpHaBF+8/7glYAoJztd55n
-itUd5LFZFwMOpnnDS9aF
+iEYEABECAAYFAk+zIFcACgkQxnV5mk56UjG83wCeJZK6CFMamZYx+rbYihMGRhQj1VYAoIfDqGRG
+IUwvFqYEgWsS/GEbREKR
 
 -->

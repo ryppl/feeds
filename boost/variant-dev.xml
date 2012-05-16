@@ -3,17 +3,18 @@
 <interface uri="http://ryppl.github.com/feeds/boost/variant-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Variant (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/variant.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/variant.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/variant/</homepage>
   <dc:author>Eric Friedman</dc:author>
   <dc:author>Itay Maman</dc:author>
   <description>Safe, generic, stack-based discriminated union
     container.</description>
-  <category type="http://boost.org/lib-categories">Data</category>
-  <category type="http://boost.org/lib-categories">Containers</category>
+  <category type="http://boost.org/lib-categories/2012">Data</category>
+  <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="99913d06-04ff-413e-8476-e5cb793eb940" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="71cff1fe-6f32-481f-b7af-32a99cafa59d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>cd8c6fef77ce8bccba56dbac36f800cd47bbd889</ryppl:vcs-revision>
       <archive extract="boost-lib-variant-cd8c6fe" href="http://nodeload.github.com/boost-lib/variant/zipball/cd8c6fef77ce8bccba56dbac36f800cd47bbd889" size="106727" type="application/zip"/>
       <manifest-digest sha1new="b63a9b352ec3d2d89ccfe67094919526bbef9bfd"/>
     </implementation>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6iYACgkQxnV5mk56UjE+iACfU0gNg5z5QengaEW+fSqLBBg4+GQAoKLc/7ZM
-caJgm0Gk9ktAOAQ0XOTO
+iEYEABECAAYFAk+zIDcACgkQxnV5mk56UjEGWgCfSRXQpTVWqcylcIT3iz9Ml9AnwesAnisjbsMU
++f32FmMp015ZdXrqxUdH
 
 -->

@@ -3,14 +3,15 @@
 <interface uri="http://ryppl.github.com/feeds/boost/move-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Move (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/move.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/move.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/move/</homepage>
   <dc:author>Ion Gaztañaga</dc:author>
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
-  <category type="http://boost.org/lib-categories">Emulation</category>
+  <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e648b956-de6f-4421-a1bd-4a02edb8c42a" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-src" id="430881f0-43da-4e98-a0f5-b4974eb871f8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>85df50ea2368a236d2f2240eb4eb34a39bef870b</ryppl:vcs-revision>
       <archive extract="boost-lib-move-85df50e" href="http://nodeload.github.com/boost-lib/move/zipball/85df50ea2368a236d2f2240eb4eb34a39bef870b" size="86190" type="application/zip"/>
       <manifest-digest sha1new="882a491e77be9be7b97ad0607e8e768a2179f51e"/>
     </implementation>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y6bAACgkQxnV5mk56UjGoggCeLvRMU5B/ovTPsG1n5eMKYQVQoJkAn3YS35Yy
-CeTJxpjqVQgQlp0J9IqA
+iEYEABECAAYFAk+zIBkACgkQxnV5mk56UjFZNQCeIl2c/U2JcU7dbUZ4h4Wk+/xCcnEAniTpclCL
+Xi2Nr+9WG5tbHR/ynh7p
 
 -->

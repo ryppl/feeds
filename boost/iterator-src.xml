@@ -3,7 +3,7 @@
 <interface uri="http://ryppl.github.com/feeds/boost/iterator-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Iterator (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
-  <ryppl:repository href="http://github.com/boost-lib/iterator.git" type="git"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/iterator.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/iterator/</homepage>
   <dc:author>Dave Abrahams</dc:author>
@@ -14,9 +14,10 @@
     iterator requirements. The second is a framework of components
     for building iterators based on these extended concepts and
     includes several useful iterator adaptors.</description>
-  <category type="http://boost.org/lib-categories">Iterators</category>
+  <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6ed77da7-c0b1-4b19-ab34-f9513ba822ff" released="2012-05-15" stability="testing" version="1.49-post-2012.05.15.2329">
+    <implementation arch="*-*" id="a937c4d7-cbe6-4432-85bc-bfaa83353c17" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0331">
+      <ryppl:vcs-revision>909115965b4bfdf95145aaeb21a42bf336ac5102</ryppl:vcs-revision>
       <archive extract="boost-lib-iterator-9091159" href="http://nodeload.github.com/boost-lib/iterator/zipball/909115965b4bfdf95145aaeb21a42bf336ac5102" size="1591731" type="application/zip"/>
       <manifest-digest sha1new="a699c64679753d861660fdbc628ac2d25a7c7b81"/>
     </implementation>
@@ -37,7 +38,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+y5z0ACgkQxnV5mk56UjFTXACghHw6a9ZOHxDC6IRjd/IPAplmoQcAnj79V2fd
-9s+1Hwuxae1pxJZjOBrH
+iEYEABECAAYFAk+zH6EACgkQxnV5mk56UjHdNwCcDUXBl4u+OxNYlrYqJ2mEPAskIwQAnRJMto3O
+ZBf1LaBgMDTq8pJo/dvb
 
 -->
