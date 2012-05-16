@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Utility (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/utility.git" type="git"/>
@@ -62,17 +62,17 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b47d75ac-4e5d-4a7c-abff-a4fd206cd75c" released="2012-05-15" ryppl:vcs-revision="1bdfe57dcb74563a90186e23ef212852a33d77f4" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="487e9ecd-a437-4f3f-b57c-4e7f6c137b68" released="2012-05-15" ryppl:vcs-revision="1bdfe57dcb74563a90186e23ef212852a33d77f4" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-utility-1bdfe57" href="http://nodeload.github.com/boost-lib/utility/zipball/1bdfe57dcb74563a90186e23ef212852a33d77f4" size="223247" type="application/zip"/>
       <manifest-digest sha1new="2b954b4353b864ec722035bec32725e15a71b861"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="utility" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -80,7 +80,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMKEACgkQxnV5mk56UjFbcQCfRL0RxYykkSneg7EIFdz3AV3y4dYAoKN9NDGu
-vpy48zIlNWl4lpQuar5n
+iEYEABECAAYFAk+zObEACgkQxnV5mk56UjEN3gCfcLPeRe5UJKssh5kiAW5RODzQxBwAn0ED1FQa
+avy11bJ8FdKKBMoUg3WW
 
 -->

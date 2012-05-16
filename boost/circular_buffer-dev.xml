@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/circular_buffer-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/circular_buffer-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.CircularBuffer (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/circular_buffer.git" type="git"/>
@@ -11,17 +11,17 @@
     </description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c0b6476-1d0c-42d3-9982-d812eeff5f00" released="2012-05-15" ryppl:vcs-revision="d39a26f8e1363d4d18a9b6579728626ffe83124f" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="0e223d10-1ab9-4a95-8b98-5c95ad26f88a" released="2012-05-15" ryppl:vcs-revision="d39a26f8e1363d4d18a9b6579728626ffe83124f" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-circular_buffer-d39a26f" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/d39a26f8e1363d4d18a9b6579728626ffe83124f" size="152210" type="application/zip"/>
       <manifest-digest sha1new="2a913cb1c5b7b9f8db2f66bf8b642206c374b121"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="circular_buffer" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zL+cACgkQxnV5mk56UjG6JQCfUXvYIRf7047kAHmqugauKeqQyxIAoIxB8lL1
-7D0O9fKBPmqlLS8wN2Rw
+iEYEABECAAYFAk+zOP0ACgkQxnV5mk56UjF85gCdGyDTGisUXG2l8LahTLZX2xJ959AAnj7fm2Fh
+KA4SZQ9NoVHyQPlcpIH+
 
 -->

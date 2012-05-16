@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/spirit-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/spirit-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Spirit (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/spirit.git" type="git"/>
@@ -14,17 +14,17 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="67fdc32c-9a4a-4da7-a7b0-7f5886bfc992" released="2012-05-15" ryppl:vcs-revision="a3b48cc9cebc73d6293fd469f442d1ed46fb771c" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="d6b8298b-efc0-4af5-ada8-0fa80ef3481e" released="2012-05-15" ryppl:vcs-revision="a3b48cc9cebc73d6293fd469f442d1ed46fb771c" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-spirit-a3b48cc" href="http://nodeload.github.com/boost-lib/spirit/zipball/a3b48cc9cebc73d6293fd469f442d1ed46fb771c" size="4519465" type="application/zip"/>
       <manifest-digest sha1new="cbd47ac6a45a0c1f4f6774f32f513169bcb17827"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="spirit" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -32,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMGIACgkQxnV5mk56UjGGKwCeM9Lvs7Z8s9PU5NEyw80xTVOjMB0AnRNXiOED
-CFwqQT/aW4bD163Oz4Q6
+iEYEABECAAYFAk+zOXMACgkQxnV5mk56UjE05ACfUGJj/uPYkWw9aJlXEnp8i7rL1wsAoIP8MuoA
+wbojE/xJ3I+JdpACprwb
 
 -->

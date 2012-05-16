@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/polygon-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/polygon-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Polygon (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/polygon.git" type="git"/>
@@ -10,17 +10,17 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="82efb329-aa49-4c0b-901e-8721df545603" released="2012-05-15" ryppl:vcs-revision="fb7c4500aed909fd2c2769efa3b400c4203bf793" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="d11de83b-cdb1-411c-8439-c4e771a45a26" released="2012-05-15" ryppl:vcs-revision="fb7c4500aed909fd2c2769efa3b400c4203bf793" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-polygon-fb7c450" href="http://nodeload.github.com/boost-lib/polygon/zipball/fb7c4500aed909fd2c2769efa3b400c4203bf793" size="5029205" type="application/zip"/>
       <manifest-digest sha1new="9258590134d38f7666be6787e20a0eeba6a61297"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="polygon" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMDUACgkQxnV5mk56UjHGkACdFakiE2Sc/BC7aSo247ASob1W/TsAni0ThhNd
-xYHzLRPnmZDYSUBDQHZt
+iEYEABECAAYFAk+zOUgACgkQxnV5mk56UjHECACfdEWmldjOYqI1HL/uKaa0KqwY6RoAn0JfiPPJ
+sJCRSDnb3YP5z0MGrI15
 
 -->

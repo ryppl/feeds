@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/heap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/heap-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Heap (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/heap.git" type="git"/>
@@ -10,17 +10,17 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="de0be843-f87c-4f86-9833-a58ebe3719a5" released="2012-05-15" ryppl:vcs-revision="78b6a28bd5fc79367a00346751381ab4c3397947" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="10928a1a-2b28-406d-98e6-1a94c024a99a" released="2012-05-15" ryppl:vcs-revision="78b6a28bd5fc79367a00346751381ab4c3397947" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-heap-78b6a28" href="http://nodeload.github.com/boost-lib/heap/zipball/78b6a28bd5fc79367a00346751381ab4c3397947" size="67855" type="application/zip"/>
       <manifest-digest sha1new="9617c786255ced1147d4fee46b66ecff043b7760"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="heap" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMH4ACgkQxnV5mk56UjGlewCgkfeh0L2garQlVXSfy3aHkwvLAXoAoKUXr3YS
-oI2kmPZVNdAV7Zm/3j9I
+iEYEABECAAYFAk+zOY0ACgkQxnV5mk56UjGD1gCdE3gCsXbo0vJCKM6szUSufjYCECEAoJotAam7
+eMr4kmfpbZoTFPfVvFgp
 
 -->

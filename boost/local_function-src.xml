@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.LocalFunction (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/local_function.git" type="git"/>
@@ -11,17 +11,17 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="209f5606-29e9-42da-b3f7-effa75383d62" released="2012-05-15" ryppl:vcs-revision="d13256bcd9a83368645812cbe43680336fb72aa0" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="2c40476d-86d7-4cbd-b8e4-43559fc05119" released="2012-05-15" ryppl:vcs-revision="d13256bcd9a83368645812cbe43680336fb72aa0" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-local_function-d13256b" href="http://nodeload.github.com/boost-lib/local_function/zipball/d13256bcd9a83368645812cbe43680336fb72aa0" size="601039" type="application/zip"/>
       <manifest-digest sha1new="8e63d5343dd4061db2745c366481fa0ba591b96e"/>
     </implementation>
     <command name="develop">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMIAACgkQxnV5mk56UjEzcACeJSyzHJUcm9qxb0aQpGtqVxAdsRAAn2AepnQX
-/0Ku8BOuCZexpuhHgK+Z
+iEYEABECAAYFAk+zOY4ACgkQxnV5mk56UjFOjwCgl24HVr0sP5hgQT39cFidAsG9NkEAoIcP0hf+
+hfzSk3u1K2Ueh5zYbMr8
 
 -->

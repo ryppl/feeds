@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.FunctionalHash (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/functional_hash.git" type="git"/>
@@ -11,17 +11,17 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="43b12fd4-827c-42d6-844c-caf9d99b2551" released="2012-05-15" ryppl:vcs-revision="8d53c3711dbc853429696a4b490ae258e4361a49" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="575b635a-268e-4287-b363-0adc9c841594" released="2012-05-15" ryppl:vcs-revision="8d53c3711dbc853429696a4b490ae258e4361a49" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-functional_hash-8d53c37" href="http://nodeload.github.com/boost-lib/functional_hash/zipball/8d53c3711dbc853429696a4b490ae258e4361a49" size="70030" type="application/zip"/>
       <manifest-digest sha1new="9cafc178096825848e04dfe63ec0f7a58417a7e6"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="functional_hash" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMJkACgkQxnV5mk56UjFvcwCfRAzO0p8gS5OyOmh1+ZokF5x+g00An2W5/dB5
-pwW6Mv+kk3YGusgmzPYX
+iEYEABECAAYFAk+zOaoACgkQxnV5mk56UjGIPACfXZpdcKMq25hXdwMDP8H/uR7lhh8Anjlz7SCh
+IFYAZ6gmRNvG/Ytsw67y
 
 -->

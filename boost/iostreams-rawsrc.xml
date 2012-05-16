@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/iostreams-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.IOStreams (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/iostreams.git" type="git"/>
@@ -12,14 +12,14 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="9298bce0-b8e3-4f82-9bcf-2a8115a3ab45" released="2012-05-15" ryppl:vcs-revision="ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="8fa68126-3e87-445c-86d4-d46adf9647f1" released="2012-05-15" ryppl:vcs-revision="ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-iostreams-ff3fc33" href="http://nodeload.github.com/boost-lib/iostreams/zipball/ff3fc33ac75b555c1c9ea7023cdc2fa6c0e170d2" size="700583" type="application/zip"/>
       <manifest-digest sha1new="ec0f90e558ae4c0fdc21f3c96c435177c8c186ae"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zL+oACgkQxnV5mk56UjF9rACfQkiL7eW+GxxeyQNND4hLSBd7Qz8AmwWVJkOk
-ay4AH/AHfPI1CuYozHnL
+iEYEABECAAYFAk+zOP8ACgkQxnV5mk56UjFiyQCgj5HQMgLiHYvmAfb7u58mS6mWkW0AnRpBO9Yl
+0/nJnwBQ2d62Z2u0T2Sz
 
 -->

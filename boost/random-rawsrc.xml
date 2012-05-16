@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/random-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/random-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Random (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/random.git" type="git"/>
@@ -11,14 +11,14 @@
     generation.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="0820286b-49ec-49d9-bf97-641a7d60459f" released="2012-05-15" ryppl:vcs-revision="c391cf1ed1cf2d43ad80655af375091dbe5cc952" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="106a8d74-5381-46db-93f7-e40673d55a5c" released="2012-05-15" ryppl:vcs-revision="c391cf1ed1cf2d43ad80655af375091dbe5cc952" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-random-c391cf1" href="http://nodeload.github.com/boost-lib/random/zipball/c391cf1ed1cf2d43ad80655af375091dbe5cc952" size="259048" type="application/zip"/>
       <manifest-digest sha1new="de645815364acb78b029019be93f30c4932622e4"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMI0ACgkQxnV5mk56UjGeGACcCwbl2TBGvy5rucw76KJbn0Ak9LsAnjqI4Lbj
-ho83h886aLv//Dh/g/5v
+iEYEABECAAYFAk+zOZ8ACgkQxnV5mk56UjHDtQCfVXuCtsmOGXMwbmwWO7JqkCQTInoAn2hsborc
+QSzzBGSOU/owXYwy3SR2
 
 -->

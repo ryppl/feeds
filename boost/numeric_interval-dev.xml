@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/numeric_interval-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_interval-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.NumericInterval (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/numeric_interval.git" type="git"/>
@@ -11,17 +11,17 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6f456cbb-6576-40d6-b156-25b6006beccc" released="2012-05-15" ryppl:vcs-revision="cbd7821cf49b450ab0e1e40a02a3001f1153dd30" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="89df689f-e311-4ee1-bb93-962e97100b08" released="2012-05-15" ryppl:vcs-revision="cbd7821cf49b450ab0e1e40a02a3001f1153dd30" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-numeric_interval-cbd7821" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/cbd7821cf49b450ab0e1e40a02a3001f1153dd30" size="120472" type="application/zip"/>
       <manifest-digest sha1new="1be594e80315511862a0d1b82a3288775eb7b7f7"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="numeric_interval" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMIgACgkQxnV5mk56UjHiYQCeNXMsWQycjNywwPn9XRTYu6TJmiQAoI7vhAif
-2NbaHsfcP0zBUQgpsboD
+iEYEABECAAYFAk+zOZoACgkQxnV5mk56UjHw1ACeO7fKPZBVojOD967xakWV1XmYWgAAnRj+qLfx
+zV4k8NOnh5q7omJ3kych
 
 -->

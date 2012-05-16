@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.SmartPtr (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/smart_ptr.git" type="git"/>
@@ -13,17 +13,17 @@
   <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bb9e8732-1166-41fa-bd25-c5f406b73ee2" released="2012-05-15" ryppl:vcs-revision="aff6ecf5b379e994538fe1db559fcdc7aa286f45" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="5f33722e-d28b-4609-88d6-b97d1caa2062" released="2012-05-15" ryppl:vcs-revision="aff6ecf5b379e994538fe1db559fcdc7aa286f45" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
       <manifest-digest sha1new="f2ece99274cbce8c8f670882da5273a33181266f"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="smart_ptr" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -31,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMGgACgkQxnV5mk56UjFmawCdGS67Kdf1vp5+AK3xDf9GlLgWrkYAoJ+PlNw7
-qQ7NX6mnJgb5gjBvCXmN
+iEYEABECAAYFAk+zOXkACgkQxnV5mk56UjHt/ACgovp8Oyfo86R+qUXCaK7zeA9yRCEAn354DEzd
+sWCKf+mS7sfG/BL3S/eM
 
 -->

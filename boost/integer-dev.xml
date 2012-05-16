@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/integer-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Integer (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/integer.git" type="git"/>
@@ -16,17 +16,17 @@
     in namespace std.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dbf87ee3-f3ad-4fd2-9148-475abd2cf529" released="2012-05-15" ryppl:vcs-revision="a5560a05991b48e575824f17edaee3523a33264d" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="5207c44c-44a7-42be-822a-de454aa77a83" released="2012-05-15" ryppl:vcs-revision="a5560a05991b48e575824f17edaee3523a33264d" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-integer-a5560a0" href="http://nodeload.github.com/boost-lib/integer/zipball/a5560a05991b48e575824f17edaee3523a33264d" size="66835" type="application/zip"/>
       <manifest-digest sha1new="9a503e46d1f55194d12864de14c1c9f92ccacfc3"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="integer" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -34,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMCwACgkQxnV5mk56UjGfxwCcDwTXTvWQW7vU17IlcnP9ehw7S/YAn2vjhrH8
-OdHieGv2byOP8y1doUMd
+iEYEABECAAYFAk+zOUAACgkQxnV5mk56UjGgOwCgqMXrW/BsgX4TsxQEookftEFwswQAn0QtjfDM
+IzWpe90HSQNYEh1MkVy4
 
 -->

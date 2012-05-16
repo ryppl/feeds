@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/bind-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Bind (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/bind.git" type="git"/>
@@ -27,17 +27,17 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bc297ef6-7fdd-475d-bab6-390b5d610658" released="2012-05-15" ryppl:vcs-revision="b9770cdadcddbe33fce54b317d565a895762eb93" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="a9dcf6c1-a092-47b3-b226-c8857c057647" released="2012-05-15" ryppl:vcs-revision="b9770cdadcddbe33fce54b317d565a895762eb93" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-bind-b9770cd" href="http://nodeload.github.com/boost-lib/bind/zipball/b9770cdadcddbe33fce54b317d565a895762eb93" size="93971" type="application/zip"/>
       <manifest-digest sha1new="baac374d3b369d48ad3be4475059d8678cff533e"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="bind" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -45,7 +45,7 @@ A utility library for passing references to
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMCUACgkQxnV5mk56UjEQlgCeJRcMX1D3wg+jqCCQ2AyWGSvOcnYAnjNYSiLy
-UsfocJU8ivm5qJWcsGU8
+iEYEABECAAYFAk+zOTsACgkQxnV5mk56UjHgeACeKXe+qs3b0/MOIy2BgoDJFEWPYdAAnAkdveUk
+zmoGExoSXe1BJK3n6oPK
 
 -->

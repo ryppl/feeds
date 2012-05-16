@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/unordered-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/unordered-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Unordered (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/unordered.git" type="git"/>
@@ -10,17 +10,17 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f1ab2883-e857-4aec-823d-3de937e91efb" released="2012-05-15" ryppl:vcs-revision="9a66f2df2bca5e691a319314b0b583f69866a2a1" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="002ebd30-ab1c-406f-895a-b2f69595919f" released="2012-05-15" ryppl:vcs-revision="9a66f2df2bca5e691a319314b0b583f69866a2a1" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-unordered-9a66f2d" href="http://nodeload.github.com/boost-lib/unordered/zipball/9a66f2df2bca5e691a319314b0b583f69866a2a1" size="194403" type="application/zip"/>
       <manifest-digest sha1new="a9c3293dd75d1417124f694678bfe2daddb3da6b"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="unordered" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMDgACgkQxnV5mk56UjEfAwCdHQPmS7i0YY34EAX6qcJgexkxgO8Ani1C9Dzl
-YzAf2OY9f087dYdO2LoF
+iEYEABECAAYFAk+zOUsACgkQxnV5mk56UjFZOQCfeHjqJ+0vNgHUMDqcYMZqbs2r+7UAn3Zx7EHA
+XwuRAr3aNbfz7UyRZJxt
 
 -->

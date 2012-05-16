@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DisjointSets (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
@@ -14,20 +14,20 @@
     compression.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="63440617-ee1a-4245-9143-3d73b6479849" released="2012-05-15" ryppl:vcs-revision="01725e43f9f33eef93a295a0f0bf188433c152e6" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="0f9379c7-a56d-4a21-8673-1820e97f10a8" released="2012-05-15" ryppl:vcs-revision="01725e43f9f33eef93a295a0f0bf188433c152e6" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-disjoint_sets-01725e4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/01725e43f9f33eef93a295a0f0bf188433c152e6" size="10385" type="application/zip"/>
       <manifest-digest sha1new="9756e5dd44d12f7715731fe213467030909c4d87"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/graph-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-src.xml"/>
     <command name="develop">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMFoACgkQxnV5mk56UjH0EwCdF8lfnPUzaV/+ATqozIcnKNfEtKIAn0XcjiSF
-06PZ1SuB0mAP6Js73ZfT
+iEYEABECAAYFAk+zOWwACgkQxnV5mk56UjELaACglfYfC9M/BTLe3ObvFlg2VVOSUVcAoIFWri3J
+7Z5GH3rMTfC9eQ4mX5O3
 
 -->

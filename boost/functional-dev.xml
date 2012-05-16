@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/functional-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Functional (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/functional.git" type="git"/>
@@ -25,17 +25,17 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="85bf03a2-4b96-4945-9245-bf7211563925" released="2012-05-15" ryppl:vcs-revision="b639014c3962af5c341a3eb4b092b231c2b33339" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="f979760a-5696-4447-85e5-e8cfbbc12b7f" released="2012-05-15" ryppl:vcs-revision="b639014c3962af5c341a3eb4b092b231c2b33339" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-functional-b639014" href="http://nodeload.github.com/boost-lib/functional/zipball/b639014c3962af5c341a3eb4b092b231c2b33339" size="101447" type="application/zip"/>
       <manifest-digest sha1new="3fc96422dd2fd7ffb1d0794885c7eb2a8627727e"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="functional" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -43,7 +43,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zL9YACgkQxnV5mk56UjEFZQCgoVuwuW9flZYsJzbekWgwgJaOh1wAniA/tmwW
-j5+6+mIEXBBJPY0118XD
+iEYEABECAAYFAk+zOPAACgkQxnV5mk56UjEoWgCdG+8PmPVJ9d2WcdgvLetyaFW/XDkAnRHpFNgi
+ESigbU+3HV8AH7yzRDeU
 
 -->

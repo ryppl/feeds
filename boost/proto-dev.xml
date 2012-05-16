@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/proto-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Proto (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/proto.git" type="git"/>
@@ -10,17 +10,17 @@
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f3f8953b-e8fd-4884-9da7-070a33384828" released="2012-05-15" ryppl:vcs-revision="5ec81983563dc87db4f61c77c6372003db20a5d0" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="bb06c996-a030-4551-87b4-8de802f3d798" released="2012-05-15" ryppl:vcs-revision="5ec81983563dc87db4f61c77c6372003db20a5d0" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-proto-5ec8198" href="http://nodeload.github.com/boost-lib/proto/zipball/5ec81983563dc87db4f61c77c6372003db20a5d0" size="448177" type="application/zip"/>
       <manifest-digest sha1new="f7d50211ea3a678d3e089d1518ed11aa97716dad"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="proto" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMGsACgkQxnV5mk56UjHmwgCfXz1MDMF9idMnHwB6b36ctr2PRZoAoJnqNcbh
-YSHPpZe14TebeKBO6LfW
+iEYEABECAAYFAk+zOX4ACgkQxnV5mk56UjGxKQCfXXFLUDYfg9nhQSeS7y43SXyJE8EAn29F/hLI
+50NjZSC7wmVvWTXI95as
 
 -->

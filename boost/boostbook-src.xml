@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/boostbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/boostbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boostbook (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/boostbook.git" type="git"/>
@@ -11,17 +11,17 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="393f96d2-b161-4de7-b193-102c4cb4fdc0" released="2012-05-15" ryppl:vcs-revision="3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="7e23f302-00bf-4825-8284-6e7e6ea02032" released="2012-05-15" ryppl:vcs-revision="3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-boostbook-3213c0a" href="http://nodeload.github.com/boost-lib/boostbook/zipball/3213c0ab1a8e70c3d0af8c4f64f05422c3c864ab" size="212674" type="application/zip"/>
       <manifest-digest sha1new="652b31d0ebb66ce65d9fd586cbe106debf7c5f49"/>
     </implementation>
     <command name="develop">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMHkACgkQxnV5mk56UjENqwCeLWVk17NLuPVyGITEpK9SFaOVZ6QAnRMY5Yt6
-xzmK4vDc9CzJ8qPxremY
+iEYEABECAAYFAk+zOYcACgkQxnV5mk56UjEl9QCdFTBHSbZjIJCHunZDCOoSveotIvcAn3PDTtbx
+tRqe/JR0zhdKXVXI9Syh
 
 -->

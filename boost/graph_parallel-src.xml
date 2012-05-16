@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/graph_parallel-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph_parallel-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.GraphParallel (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/graph_parallel.git" type="git"/>
@@ -11,21 +11,21 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b553b220-5ab3-493a-adcf-62a94901dcb6" released="2012-05-15" ryppl:vcs-revision="27a217a48581a4e6582791856bf95c558f167285" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="11391a88-e1c5-4fbe-ae43-adedbe9978ff" released="2012-05-15" ryppl:vcs-revision="27a217a48581a4e6582791856bf95c558f167285" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-graph_parallel-27a217a" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/27a217a48581a4e6582791856bf95c558f167285" size="1100320" type="application/zip"/>
       <manifest-digest sha1new="5b7f5d326805fd15891575efc8db4404dc826dc7"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/boost/graph-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/mpi-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/mpi-dev.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpi-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/mpi-dev.xml"/>
     <command name="develop">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMHgACgkQxnV5mk56UjE6VgCfRY8/ehhEL0K3PR1NMNSXlEyLkUsAnRngwh27
-y1fhIV2OfOz/mm96Z+aO
+iEYEABECAAYFAk+zOYcACgkQxnV5mk56UjEeUQCbBedD5FNHV/9cmfAkYbgdokQj5VQAn1odiATE
+tuYwQshwDRp6XRDpoN0X
 
 -->

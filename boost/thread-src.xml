@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/thread-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/thread-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Thread (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/thread.git" type="git"/>
@@ -11,22 +11,22 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="816a14bb-c24b-4c02-9a9d-23af2408a870" released="2012-05-15" ryppl:vcs-revision="f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-*" id="cf195c66-579a-4d9f-b4ed-7196041dfcaf" released="2012-05-15" ryppl:vcs-revision="f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-thread-f0ee580" href="http://nodeload.github.com/boost-lib/thread/zipball/f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10" size="430892" type="application/zip"/>
       <manifest-digest sha1new="ed4133df1d33d1cfdb06985fac68d1109284f83d"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/threads-dev.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/threads-dev.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/system-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-src.xml"/>
     <command name="develop">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMCwACgkQxnV5mk56UjGn8gCfU+FN1eSbmdZFAA+EhTrq7AZkX7EAoIK0NBIu
-JtACShwjFO+2l+8X5fes
+iEYEABECAAYFAk+zOT8ACgkQxnV5mk56UjEsSACgpZLXQDdLeSO1WoJPMZoUOkfrhhAAoIDhM2qp
+bKUSqht6rJvpV/mQ6hVk
 
 -->

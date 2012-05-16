@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/gil-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/gil-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.GIL (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/gil.git" type="git"/>
@@ -15,17 +15,17 @@
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <category type="http://boost.org/lib-categories/2012">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="000c0b79-169e-410f-abbd-41cbd882c51e" released="2012-05-15" ryppl:vcs-revision="cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="83f010e5-ad53-49e3-9e16-c6d2f1cf5767" released="2012-05-15" ryppl:vcs-revision="cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
       <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="gil" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -33,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zL8sACgkQxnV5mk56UjEGJQCeOL13rygEoMDwMnZ8EuYflzdVZHkAnA5zFPUQ
-2Y+Ebp0slAUZnNBgyeDJ
+iEYEABECAAYFAk+zOOcACgkQxnV5mk56UjGvdACfXsvzCqJQzxFnxs2QyeVddt9YbgAAn1XrSsUm
+0y2se7WdtFatcCFkWuK5
 
 -->

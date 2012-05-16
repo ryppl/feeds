@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://ryppl.github.com/feeds/boost/concept_check-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ConceptCheck (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/concept_check.git" type="git"/>
@@ -12,17 +12,17 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6c86c963-25e0-4716-bfc2-0fed6d86e76d" released="2012-05-15" ryppl:vcs-revision="cde285a6a5e3789933ef9cbe773dd130d5d6c643" stability="testing" version="1.49-post-2012.05.16.0440">
+    <implementation arch="*-src" id="09b68b89-3f36-49f7-8655-0b6a36b8064f" released="2012-05-15" ryppl:vcs-revision="cde285a6a5e3789933ef9cbe773dd130d5d6c643" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="boost-lib-concept_check-cde285a" href="http://nodeload.github.com/boost-lib/concept_check/zipball/cde285a6a5e3789933ef9cbe773dd130d5d6c643" size="79363" type="application/zip"/>
       <manifest-digest sha1new="85956c1281ba7f7848816c5c522f97148a215acc"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://ryppl.github.com/feeds/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="concept_check" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zMGYACgkQxnV5mk56UjHSuACgqP/L2QmyVDLHqzGQ841ghi47XTIAn2tM2aV6
-P+Cd68et7JSHm3wYoddZ
+iEYEABECAAYFAk+zOXcACgkQxnV5mk56UjFSdQCfTY8SQVNFNiwt3Gz5n8ihVd5G8EYAn31CrJXk
+L89rtxHy7SwuySTcOfzR
 
 -->
