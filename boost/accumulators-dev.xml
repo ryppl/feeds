@@ -10,9 +10,9 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f84e3573-1401-48b2-8e51-f461086e36a2" released="2012-05-16" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
-      <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
+    <implementation arch="*-src" id="359c777a-b6ae-4666-8e37-88516c9fc94c" released="2012-05-16" ryppl:vcs-revision="c19352150e2492dc0c4865725ae14b4382164da5" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-accumulators-c193521" href="http://nodeload.github.com/boost-lib/accumulators/zipball/c19352150e2492dc0c4865725ae14b4382164da5" size="231851" type="application/zip"/>
+      <manifest-digest sha1new="a375e7b6dba0fac7de3953da7a4488de783dd2a0"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FR4ACgkQxnV5mk56UjG7nQCfWE4f51RG/a18hDvEmGSeHQ4BeaoAoJp5HDhn
-nXwF+hv0jfRTAlyMa+PQ
+iEYEABECAAYFAk+0Im4ACgkQxnV5mk56UjHNGQCfWaoAj7ERa+TreIhJQInUno14IHQAnjNpH2wz
++7rFMnD5E8MfF7/Cwcxj
 
 -->

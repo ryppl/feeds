@@ -16,9 +16,9 @@
     std::tr1.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="7ee98f47-176a-48d5-aee5-52d817740c36" released="2012-05-16" ryppl:vcs-revision="4ef7e95f49ad7adfc1a38591d12192b5c0024574" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-tr1-4ef7e95" href="http://nodeload.github.com/boost-lib/tr1/zipball/4ef7e95f49ad7adfc1a38591d12192b5c0024574" size="187677" type="application/zip"/>
-      <manifest-digest sha1new="c9d66128a3de962b738898dbd50795d2484fa50e"/>
+    <implementation arch="*-src" id="e9532497-83fd-4a26-9e10-382655b2c65a" released="2012-05-16" ryppl:vcs-revision="6022a01a2e754585661330b2e93d875a4ef419eb" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-tr1-6022a01" href="http://nodeload.github.com/boost-lib/tr1/zipball/6022a01a2e754585661330b2e93d875a4ef419eb" size="188123" type="application/zip"/>
+      <manifest-digest sha1new="e2e98fce63b7484f28c40285c96b431b374dbbc0"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FWEACgkQxnV5mk56UjGtMgCggC5N+zHRTD3y+uz9LNUkmVb8TNkAnA3JU6pG
-NDZl5jX4vT9o8P+VHKzk
+iEYEABECAAYFAk+0IxcACgkQxnV5mk56UjE2zwCcDnNJGLH8kwN0XtxvqmKbqzNn0PEAoJned3u9
+sukJFh95WZlCsgowoozc
 
 -->

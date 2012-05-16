@@ -11,9 +11,9 @@
   <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e964c070-2a85-4222-ae23-89e796b433f0" released="2012-05-16" ryppl:vcs-revision="144d8e42ed0405d54eddd409e1822ae4ce87e3f3" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-typeof-144d8e4" href="http://nodeload.github.com/boost-lib/typeof/zipball/144d8e42ed0405d54eddd409e1822ae4ce87e3f3" size="134626" type="application/zip"/>
-      <manifest-digest sha1new="56c8e5dfedf6afaf137e3539b61d551c74047cbf"/>
+    <implementation arch="*-src" id="ea78b012-3266-431f-9150-daa386a0abad" released="2012-05-16" ryppl:vcs-revision="82ecd875b0356cb730e618333864b9d208142d90" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-typeof-82ecd87" href="http://nodeload.github.com/boost-lib/typeof/zipball/82ecd875b0356cb730e618333864b9d208142d90" size="135021" type="application/zip"/>
+      <manifest-digest sha1new="f5db772dcbd3a774cf960ba902fd9c0bb78c715f"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FYkACgkQxnV5mk56UjHbXwCfU48v5m1wTI0GzhVzVYBuVNqI9zEAn0A+KBMX
-haAK69bg+Fl3nG7H8V5B
+iEYEABECAAYFAk+0I2oACgkQxnV5mk56UjHfmwCfX3o6+qZcG+RGncpruK3Onc7WOF0AmgOM8FDL
+XndOGuBXnSEpKd+EfDXC
 
 -->

@@ -10,9 +10,9 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="547e550f-af66-4a9f-9646-12fad5469e36" released="2012-05-16" ryppl:vcs-revision="85df50ea2368a236d2f2240eb4eb34a39bef870b" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-move-85df50e" href="http://nodeload.github.com/boost-lib/move/zipball/85df50ea2368a236d2f2240eb4eb34a39bef870b" size="86190" type="application/zip"/>
-      <manifest-digest sha1new="882a491e77be9be7b97ad0607e8e768a2179f51e"/>
+    <implementation arch="*-src" id="128100ec-741b-44a2-b22d-9fd8016b70c6" released="2012-05-16" ryppl:vcs-revision="28dc8eedca55897c7e1c2fd891c6cc9bb32784d8" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-move-28dc8ee" href="http://nodeload.github.com/boost-lib/move/zipball/28dc8eedca55897c7e1c2fd891c6cc9bb32784d8" size="87016" type="application/zip"/>
+      <manifest-digest sha1new="3d959b2446728f97870d343dbe2979629ea0966e"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FSYACgkQxnV5mk56UjFrYQCfWDVvRYWLKwar0JzfVQce67mf4hwAn3r1QZTG
-0s/3582jxBuVCDA6Beag
+iEYEABECAAYFAk+0IowACgkQxnV5mk56UjGUwQCfUy6ThyO4JLNP5d9dXT9xVMFJWmUAn0laQchK
+X9Hp+1xx0RsHpyjoaWZ2
 
 -->

@@ -12,9 +12,9 @@
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="63ecfa86-6a12-48a6-86ae-c1fbb6b57e54" released="2012-05-16" ryppl:vcs-revision="83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
-      <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
+    <implementation arch="*-src" id="d1936d97-45b4-47d7-bf82-88b97329a00e" released="2012-05-16" ryppl:vcs-revision="9f9fadaae30d321219fbee571ebe10a05a4f5b62" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-signals-9f9fada" href="http://nodeload.github.com/boost-lib/signals/zipball/9f9fadaae30d321219fbee571ebe10a05a4f5b62" size="91280" type="application/zip"/>
+      <manifest-digest sha1new="66308ce2d9cc91929c003f50fc087bdae0cbf2fc"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -51,6 +51,9 @@
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-dev.xml">
         <environment insert="." mode="replace" name="BoostProto_DIR"/>
+      </requires>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
@@ -106,8 +109,8 @@
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-dev.xml">
+        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -206,7 +209,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FYgACgkQxnV5mk56UjFi4gCfXd1OO39miCqiojLK9BsREV6mLd8AnRDQMB+t
-1aRpAWBWGv33RZCs2T/l
+iEYEABECAAYFAk+0I2kACgkQxnV5mk56UjGdKgCggqVoB+vxyBdSs4Pdi+rAZ8aGQmcAoILyqdWP
+seP1EPt51/ENF2m15VMN
 
 -->

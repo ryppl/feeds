@@ -5,7 +5,7 @@
   <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dbfb8ede-5f07-410b-b693-5ef2af27a0d5" released="2012-05-16" stability="testing" version="1.49-post-2012.05.16.2056">
+    <implementation arch="*-src" id="925e5404-4a9a-4929-8691-c939ca4d4783" released="2012-05-16" stability="developer" version="1.49-post-2012.05.16.2150">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -75,6 +75,9 @@
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-dev.xml">
         <environment insert="." mode="replace" name="BoostProto_DIR"/>
       </requires>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
       </requires>
@@ -120,8 +123,8 @@
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-dev.xml">
+        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -202,7 +205,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FIgACgkQxnV5mk56UjGrcwCglKXqMVZrb+fdAST5zoWh/Rx/NTAAmwRYzFG8
-lIKZ9xgN3EV1gaSmrjbp
+iEYEABECAAYFAk+0ITIACgkQxnV5mk56UjEgpQCeNdLMKDtbLQmYuXZn9pO/IbeDi4gAoKBWTUt1
+0cmUjxOqE6xjqHNsH2H+
 
 -->

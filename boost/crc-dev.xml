@@ -13,9 +13,9 @@
     implementations are template-based.</description>
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="52dd88e2-0f78-4eb5-a021-74442c93a7e5" released="2012-05-16" ryppl:vcs-revision="fcb672a9d24c29cc15a8da64189651e01a411295" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-crc-fcb672a" href="http://nodeload.github.com/boost-lib/crc/zipball/fcb672a9d24c29cc15a8da64189651e01a411295" size="50093" type="application/zip"/>
-      <manifest-digest sha1new="5ddd1b41cc17ae810b420e7d3c686e1198d464ed"/>
+    <implementation arch="*-src" id="00d7a5a5-6fea-4d3e-9c9f-5b6392e548a8" released="2012-05-16" ryppl:vcs-revision="52568eb755eee02b4f06f66a80de85805e031aec" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-crc-52568eb" href="http://nodeload.github.com/boost-lib/crc/zipball/52568eb755eee02b4f06f66a80de85805e031aec" size="50856" type="application/zip"/>
+      <manifest-digest sha1new="c708e1b4d1a90b96a35badd667f725bb692ca971"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FP0ACgkQxnV5mk56UjEGpACfc6XNi73jQbJLTtt5aeI+BMugNAYAoImA4Pjl
-zZ6sVjtHq1mvTS/AowWH
+iEYEABECAAYFAk+0IicACgkQxnV5mk56UjEbCACdE3gqkx/rcCGqxzQco6jg7BmDLwoAoJBovaN6
+LEH+XUlqAnLPJ2S496k0
 
 -->

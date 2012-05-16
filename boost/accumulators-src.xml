@@ -10,9 +10,9 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c90e59d0-1174-46c3-be0d-ae9d55519357" released="2012-05-16" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
-      <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
+    <implementation arch="*-*" id="8d566eca-06c2-49e3-b888-a48f0efb0563" released="2012-05-16" ryppl:vcs-revision="c19352150e2492dc0c4865725ae14b4382164da5" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-accumulators-c193521" href="http://nodeload.github.com/boost-lib/accumulators/zipball/c19352150e2492dc0c4865725ae14b4382164da5" size="231851" type="application/zip"/>
+      <manifest-digest sha1new="a375e7b6dba0fac7de3953da7a4488de783dd2a0"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
@@ -31,6 +31,7 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
@@ -39,7 +40,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FR4ACgkQxnV5mk56UjE34wCdFAjdXino0ucGo0za+33N6w6MoQAAnAr98MsU
-pfZEu0hjikJXZzwEsKVM
+iEYEABECAAYFAk+0Im4ACgkQxnV5mk56UjHGygCcC4//bqueRQw4GSeJ4sR3WT9UCYoAn3Kfjqnr
+uBIDK6XsdQ3/qW/RMHOA
 
 -->

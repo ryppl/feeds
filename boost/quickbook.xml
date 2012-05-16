@@ -11,9 +11,9 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="158006c2-2a35-4bd0-8392-9e30a7b066e9" released="2012-05-16" ryppl:vcs-revision="83b29d7724222628781e71a4b4b42cc9ac77d4ab" stability="testing" version="1.49-post-2012.05.16.2056">
-      <archive extract="boost-lib-quickbook-83b29d7" href="http://nodeload.github.com/boost-lib/quickbook/zipball/83b29d7724222628781e71a4b4b42cc9ac77d4ab" size="436928" type="application/zip"/>
-      <manifest-digest sha1new="27846dd16a4f3f9180f23efc0bbc2798a9912713"/>
+    <implementation arch="*-src" id="298a0134-76ea-45c5-8c17-a64d4e40986c" released="2012-05-16" ryppl:vcs-revision="122a67d4698a961f5c1c81fff9b6ac6fb7eeb6b5" stability="developer" version="1.49-post-2012.05.16.2150">
+      <archive extract="boost-lib-quickbook-122a67d" href="http://nodeload.github.com/boost-lib/quickbook/zipball/122a67d4698a961f5c1c81fff9b6ac6fb7eeb6b5" size="437615" type="application/zip"/>
+      <manifest-digest sha1new="25edb3e27038fc99ae72d06c72a75adfc9b2c74f"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -49,6 +49,9 @@
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-dev.xml">
         <environment insert="." mode="replace" name="BoostProto_DIR"/>
+      </requires>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/program_options-dev.xml">
         <environment insert="." mode="replace" name="BoostProgramOptions_DIR"/>
@@ -110,8 +113,8 @@
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-dev.xml">
+        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -263,7 +266,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0FL8ACgkQxnV5mk56UjFKpQCaA5TEG+R5E20T10kORbA3/9ul9OMAoJ+gn8R4
-kRzYgs5mkqmjCa/khKoS
+iEYEABECAAYFAk+0IXwACgkQxnV5mk56UjHxFACeMFi/mT0Q42hZD8SA+7hzayZ7edIAn0O5btTj
+vbEC0ZuCs/Mxjd/woD5/
 
 -->
