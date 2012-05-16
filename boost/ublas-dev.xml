@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.UBLAS (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/ublas.git" type="git"/>
@@ -16,12 +16,12 @@
       <manifest-digest sha1new="447d5fec58f27b9937743d1608de19014e4db8f5"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="ublas" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zRNkACgkQxnV5mk56UjF4qACfQVg/s6A47CjKwaSg9cKwKjo0HV8AoKFCrPxR
-IVx0tHgQonkPx9Y9vPqd
+iEYEABECAAYFAk+zShsACgkQxnV5mk56UjEPqACgoshBV/VY8aUgEzxH3UREfgbKSTcAmwT4ZueM
+SrHo2pkI3ErwlAnx9HQs
 
 -->

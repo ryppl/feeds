@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Preprocessor (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/preprocessor.git" type="git"/>
@@ -17,12 +17,12 @@
       <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
     </implementation>
     <command name="compile">
-      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
         <environment insert="preprocessor" mode="replace" name="BOOST_CMAKELISTS"/>
       </requires>
       <compile:implementation arch="*-*"/>
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zRKwACgkQxnV5mk56UjHnPQCeLyAV54XA3Bw6egm8UOIn6CKKSDwAoIHCE6B5
-eIMsXZZpsv6FlRKyG5zi
+iEYEABECAAYFAk+zSg4ACgkQxnV5mk56UjFWygCfbldcPjafiVZq/OR5AYLWqT90yRAAoKVlyDcz
+Ue3rqu3rGE+b8zfQ76O5
 
 -->

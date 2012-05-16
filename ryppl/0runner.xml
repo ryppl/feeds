@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/0runner.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/0runner.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>0runner</name>
   <summary>A simple multi-step runner for 0install</summary>
   <description>
@@ -9,11 +9,11 @@ separator between lists of arguments to be passed to 0launch.  For
 example, the following snippet issues two cmake commands in sequence:
 
   &lt;command name='compile'&gt;
-   &lt;runner interface='http://raw.github.com/ryppl/feeds/gh-pages/ryppl/0runner.xml'/&gt;
-     &lt;arg&gt;http://raw.github.com/ryppl/feeds/gh-pages/cmake.xml&lt;/arg&gt;
+   &lt;runner interface='https://raw.github.com/ryppl/feeds/gh-pages/ryppl/0runner.xml'/&gt;
+     &lt;arg&gt;https://raw.github.com/ryppl/feeds/gh-pages/cmake.xml&lt;/arg&gt;
          &lt;arg&gt;-D&lt;/arg&gt; &lt;arg&gt;CMAKE_INSTALL_PREFIX=${DISTDIR}&lt;/arg&gt; &lt;arg&gt;${SRCDIR}&lt;/arg&gt;
      &lt;arg&gt;;&lt;/arg&gt;
-     &lt;arg&gt;http://raw.github.com/ryppl/feeds/gh-pages/cmake.xml&lt;/arg&gt;
+     &lt;arg&gt;https://raw.github.com/ryppl/feeds/gh-pages/cmake.xml&lt;/arg&gt;
          &lt;arg&gt;--build&lt;/arg&gt; &lt;arg&gt;.&lt;/arg&gt; &lt;arg&gt;--target&lt;/arg&gt; &lt;arg&gt;install&lt;/arg&gt;
    &lt;/runner&gt;
   &lt;/command&gt;
@@ -33,7 +33,7 @@ example, the following snippet issues two cmake commands in sequence:
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zROUACgkQxnV5mk56UjElLACcCr3uBBFPRrd+GC3mZQxSjZwZ+x4An04Y+7rb
-BTurX5+jylhMfHuzQNhk
+iEYEABECAAYFAk+zSh8ACgkQxnV5mk56UjEghQCghArW/jx2eBTc/lZ/2k8xiCWT31oAmgKdtUmS
+dCAXTUIvdsEnQ7SCDgda
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/local_function-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.LocalFunction (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/local_function.git" type="git"/>
@@ -16,12 +16,12 @@
       <manifest-digest sha1new="8e63d5343dd4061db2745c366481fa0ba591b96e"/>
     </implementation>
     <command name="develop">
-      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zRJcACgkQxnV5mk56UjEqBQCdGJ6kF5NPBvJinU5CmtIQT+pX5xoAoJzbsl3Y
-MK+2Qdpgt+aWmlILNhCa
+iEYEABECAAYFAk+zSggACgkQxnV5mk56UjFODQCfVt9puoTDtlHZ4hnSYvxiwWyaptoAmgPgJFOs
+i74YS2qGEiWlMGKFhEOu
 
 -->

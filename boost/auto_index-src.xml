@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/auto_index-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/auto_index-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.AutoIndex (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/auto_index.git" type="git"/>
@@ -15,16 +15,16 @@
       <archive extract="boost-lib-auto_index-5b3acdc" href="http://nodeload.github.com/boost-lib/auto_index/zipball/5b3acdce9b6cd6a3c0c0b0093e71fadf012f6a45" size="305921" type="application/zip"/>
       <manifest-digest sha1new="ac9ab4fc7d836e06a79b78bc4f5b16ebbf62d27e"/>
     </implementation>
-    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
-    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/filesystem-src.xml"/>
-    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/program_options-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/filesystem-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/program_options-src.xml"/>
     <command name="develop">
-      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zRGAACgkQxnV5mk56UjFxxwCfYwbBbDdO6BlnZUothlwzWy5OmvMAmgOYo9gm
-jdefqcDmecNVIJef3iEW
+iEYEABECAAYFAk+zSfsACgkQxnV5mk56UjGf8wCfWYyAgj9pfdBTmy+Ini6QlEDCsroAni5pD6vJ
+6gqlG+TGDNQr+5PolKRf
 
 -->

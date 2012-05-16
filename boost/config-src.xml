@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Config (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/config.git" type="git"/>
@@ -15,14 +15,14 @@
       <archive extract="boost-lib-config-0fe0c8e" href="http://nodeload.github.com/boost-lib/config/zipball/0fe0c8e662cff508124b340372bce1e5d2a5aa75" size="621733" type="application/zip"/>
       <manifest-digest sha1new="7e6adbdea2fdf447a38262f4254e56bff5ac1d52"/>
     </implementation>
-    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <command name="develop">
-      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zRGsACgkQxnV5mk56UjGBDwCgpLtAi98cUTMh2kRBplWo5rAIixgAn22ySn2G
-VHxMbY3A/mOt27duKUsr
+iEYEABECAAYFAk+zSf0ACgkQxnV5mk56UjGrGACfUMvwhwp1AFwq+T4z+QNaim0gKqQAniCHS/67
+zodnHxi57gdR0PhtkIOR
 
 -->
