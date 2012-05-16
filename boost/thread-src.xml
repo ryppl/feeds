@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/thread-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/thread-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Thread (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/thread.git" type="git"/>
@@ -15,18 +15,18 @@
       <archive extract="boost-lib-thread-f0ee580" href="http://nodeload.github.com/boost-lib/thread/zipball/f0ee580aba9e2cc31893e81a8c7b3e7dd5621f10" size="430892" type="application/zip"/>
       <manifest-digest sha1new="ed4133df1d33d1cfdb06985fac68d1109284f83d"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/threads-dev.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/system-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-src.xml"/>
+    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-src.xml"/>
+    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/threads-dev.xml"/>
+    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/system-src.xml"/>
+    <requires interface="http://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zOT8ACgkQxnV5mk56UjEsSACgpZLXQDdLeSO1WoJPMZoUOkfrhhAAoIDhM2qp
-bKUSqht6rJvpV/mQ6hVk
+iEYEABECAAYFAk+zRM8ACgkQxnV5mk56UjHA7gCfdE4eDIUjVTNglopMNaKlzSJpxo0An0e2ZQu4
+hueGZ7knL4dq1kEyRQYZ
 
 -->

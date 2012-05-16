@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>BoostCMakeLists</name>
   <summary>CMake build files for modularized Boost</summary>
   <description>
@@ -43,7 +43,7 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
     </implementation>
 
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/cmake.xml">
+      <runner interface="http://raw.github.com/ryppl/feeds/gh-pages/cmake.xml">
         <arg>-E</arg>
         <arg>copy_directory</arg>
         <arg>${SRCDIR}/cmake</arg>
@@ -54,7 +54,7 @@ be merged into the Boost repositories and this separate feed can be eliminated.<
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zO5IACgkQxnV5mk56UjH65ACeLoHBlnLprv9KFpU6H2X1b9phdSYAoI4W3FrF
-M1H6d+MQGW2SQV7TzRYs
+iEYEABECAAYFAk+zRGgACgkQxnV5mk56UjG13gCffxzWrKhHSTVDAFl4RAuO8/SmoE4AoI/Y6QsP
+md54lVbIIk6vKtq1/qdR
 
 -->

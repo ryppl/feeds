@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/bzip2-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/bzip2-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>bzip2-dev</name>
   <summary>a block-sorting file compressor</summary>
   <description>
@@ -57,7 +57,7 @@ in memory using the bzip2 algorithms.</description>
   <package-implementation distributions="MacPorts" package="bzip2"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zO/EACgkQxnV5mk56UjHH4gCfQ72tv9euR4P+EfbH8FOdcnoWABcAnA4ciDqu
-xS+L+jfG7VMMsNbP7zO6
+iEYEABECAAYFAk+zROMACgkQxnV5mk56UjHtXACfY5s+bFlfUqQWqjDszJ7b5nJd7BYAn1ff1bO1
+6TpOGQjw0sg8c9oKMcJe
 
 -->

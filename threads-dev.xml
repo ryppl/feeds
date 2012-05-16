@@ -1,17 +1,17 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/threads-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://raw.github.com/ryppl/feeds/gh-pages/threads-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>threads-dev</name>
   <summary>Your platform's native threading support</summary>
   <description>
 </description>
   <category>System</category>
   <implementation id="sha1new=da39a3ee5e6b4b0d3255bfef95601890afd80709" license="WTFPL" released="2012-05-03" stability="testing" version="0.1">
-    <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
+    <archive extract="empty" href="http://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zPJ0ACgkQxnV5mk56UjEZNgCfYGn8bTM5lXm8gEWGHqqqk1pkBT0AoJTjjkS5
-SkR5w8BPjTcfzqE9AQZ3
+iEYEABECAAYFAk+zROYACgkQxnV5mk56UjErjQCfdMoMJ80RYa6DcXWiyQqDKBVd6x4An1TcGt6C
+xfTR6262a/76wld8SFfj
 
 -->
