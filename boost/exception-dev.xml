@@ -12,25 +12,21 @@
     exceptions between threads.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="58473f66-5eea-4962-a533-8a798df08626" released="2012-05-15" ryppl:vcs-revision="860836769ed210a993058c48debcf5ae8f254b24" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="fdb3c063-f8a5-4573-9912-09a47ef50b1c" released="2012-05-16" ryppl:vcs-revision="860836769ed210a993058c48debcf5ae8f254b24" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-exception-8608367" href="http://nodeload.github.com/boost-lib/exception/zipball/860836769ed210a993058c48debcf5ae8f254b24" size="231022" type="application/zip"/>
       <manifest-digest sha1new="835dfed2866c4f535d973843f098d001f5da91a1"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="exception" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgAACgkQxnV5mk56UjEBBQCfaBOVMYDfF+dAiSa2tUPvkMaOMV0An073QjLx
-YZmmqy4zZhZlDrGFmKFR
+iEYEABECAAYFAk+0FPsACgkQxnV5mk56UjH6lwCfebEIqj8s8pe4FWbJNWLXCXjl2b4AoJ6PKtcs
+GxK0/aIgGq3nc/Ha5zQf
 
 -->

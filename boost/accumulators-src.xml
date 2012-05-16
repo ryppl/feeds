@@ -10,7 +10,7 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="9b09b95c-16cb-4b76-8afb-d65d8093b7ff" released="2012-05-15" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-*" id="c90e59d0-1174-46c3-be0d-ae9d55519357" released="2012-05-16" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
       <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
     </implementation>
@@ -31,7 +31,6 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
@@ -40,7 +39,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zOVkACgkQxnV5mk56UjGuhgCeIqSRvch1Wd5v0RuzYtGZT3Wc9MYAn1dQe+Ev
-luxUlyRcumShJCow+c7A
+iEYEABECAAYFAk+0FR4ACgkQxnV5mk56UjE34wCdFAjdXino0ucGo0za+33N6w6MoQAAnAr98MsU
+pfZEu0hjikJXZzwEsKVM
 
 -->

@@ -11,25 +11,21 @@
     idiosyncrasies; not intended for library users.</description>
   <category type="http://boost.org/lib-categories/2012">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="31939dfd-eaf7-44b4-8612-94916cf064de" released="2012-05-15" ryppl:vcs-revision="0fe0c8e662cff508124b340372bce1e5d2a5aa75" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="3b060045-0888-472d-8f48-010eba4ee7d5" released="2012-05-16" ryppl:vcs-revision="0fe0c8e662cff508124b340372bce1e5d2a5aa75" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-config-0fe0c8e" href="http://nodeload.github.com/boost-lib/config/zipball/0fe0c8e662cff508124b340372bce1e5d2a5aa75" size="621733" type="application/zip"/>
       <manifest-digest sha1new="7e6adbdea2fdf447a38262f4254e56bff5ac1d52"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="config" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSf0ACgkQxnV5mk56UjHTwACeP43nGk4YjPPGkL+kqp9vhTDYrK4An3x9j+mK
-G8uN4zbw6d/+HlgYYUVC
+iEYEABECAAYFAk+0FKgACgkQxnV5mk56UjEoGACgjbbfj7blpYsIGOLfTZuu8rrOIrsAn1Rihehl
+0gLhtjRwh3aNHYMXaBRL
 
 -->

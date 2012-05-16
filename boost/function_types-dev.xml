@@ -13,25 +13,21 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bf7addf4-7e9a-4037-970c-3bd13e71dfc4" released="2012-05-15" ryppl:vcs-revision="6f06476f120ff2eb70d68bc435ccda79cc88720b" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="a4fac767-8d63-41fd-b1ad-54f0ca9b4147" released="2012-05-16" ryppl:vcs-revision="6f06476f120ff2eb70d68bc435ccda79cc88720b" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-function_types-6f06476" href="http://nodeload.github.com/boost-lib/function_types/zipball/6f06476f120ff2eb70d68bc435ccda79cc88720b" size="175436" type="application/zip"/>
       <manifest-digest sha1new="c402468b458ad577091375d9b69c2001196bb408"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="function_types" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgIACgkQxnV5mk56UjFZwACfXb28gBXF1ZlrPPkbCx+uhu/9xoIAnjCLXlzD
-6HVu5AfIgRXYymxYsFM3
+iEYEABECAAYFAk+0FT4ACgkQxnV5mk56UjFMlQCcC/HN/xxOP7uxlqiCcqZxAQImhQsAnio/5kDe
+f0I2vailHqExCgxOiQbX
 
 -->

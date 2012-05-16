@@ -13,25 +13,21 @@
   <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5f33722e-d28b-4609-88d6-b97d1caa2062" released="2012-05-15" ryppl:vcs-revision="aff6ecf5b379e994538fe1db559fcdc7aa286f45" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="8edb22ef-5569-4df1-98e2-d80a05153674" released="2012-05-16" ryppl:vcs-revision="aff6ecf5b379e994538fe1db559fcdc7aa286f45" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-smart_ptr-aff6ecf" href="http://nodeload.github.com/boost-lib/smart_ptr/zipball/aff6ecf5b379e994538fe1db559fcdc7aa286f45" size="230233" type="application/zip"/>
       <manifest-digest sha1new="f2ece99274cbce8c8f670882da5273a33181266f"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="smart_ptr" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShYACgkQxnV5mk56UjFiWACeNUdWPVl9a4/RPkYG+nZSWn16GvIAmweN3U3s
-miE82c4DTw/h0uzjbJPD
+iEYEABECAAYFAk+0FUYACgkQxnV5mk56UjGuwQCfQ/e3Vif8HFLF+wg3v/wIGzTA2OcAni9oFG/2
+AS4PFjB/Fdb/bIQiButg
 
 -->

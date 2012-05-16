@@ -11,25 +11,21 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="eeff62e8-9d96-49d2-adae-7bcf3bdf4bf2" released="2012-05-15" ryppl:vcs-revision="d13256bcd9a83368645812cbe43680336fb72aa0" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="eb1448b5-f492-453f-87cf-64b0741bee62" released="2012-05-16" ryppl:vcs-revision="d13256bcd9a83368645812cbe43680336fb72aa0" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-local_function-d13256b" href="http://nodeload.github.com/boost-lib/local_function/zipball/d13256bcd9a83368645812cbe43680336fb72aa0" size="601039" type="application/zip"/>
       <manifest-digest sha1new="8e63d5343dd4061db2745c366481fa0ba591b96e"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="local_function" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSggACgkQxnV5mk56UjElBACdHsa5mieDJQarMYXchLBI80gtkYUAni+p18u8
-5eWOWWwmZPJlqs9y5izX
+iEYEABECAAYFAk+0FWQACgkQxnV5mk56UjFCywCgo++zg76kBgRTU/0qgnQhbliI8XMAn16C+6MG
+3F/TI81pEB8Tj/9Ujx4a
 
 -->

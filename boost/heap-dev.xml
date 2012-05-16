@@ -10,25 +10,21 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="10928a1a-2b28-406d-98e6-1a94c024a99a" released="2012-05-15" ryppl:vcs-revision="78b6a28bd5fc79367a00346751381ab4c3397947" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="98f5e1f7-1f7f-4b54-acf3-2d362124e76b" released="2012-05-16" ryppl:vcs-revision="78b6a28bd5fc79367a00346751381ab4c3397947" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-heap-78b6a28" href="http://nodeload.github.com/boost-lib/heap/zipball/78b6a28bd5fc79367a00346751381ab4c3397947" size="67855" type="application/zip"/>
       <manifest-digest sha1new="9617c786255ced1147d4fee46b66ecff043b7760"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="heap" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgUACgkQxnV5mk56UjHKhwCfaWVLZex9soAfaSYqNoNKI+nj55kAoI2e3PjE
-QNRx3G4qVZeCcTM/LZUt
+iEYEABECAAYFAk+0FWIACgkQxnV5mk56UjG+nACeLfTY7CetPPaee/WaF1N1ThL5lf0An134u0j5
+Rofc/mDc2u09+DR8bORl
 
 -->

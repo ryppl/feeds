@@ -12,20 +12,16 @@
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9895e671-4532-4d61-b479-37f8316af634" released="2012-05-15" ryppl:vcs-revision="83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="63ecfa86-6a12-48a6-86ae-c1fbb6b57e54" released="2012-05-16" ryppl:vcs-revision="83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
       <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="signals" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/circular_buffer-dev.xml">
         <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
       </requires>
@@ -55,9 +51,6 @@
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-dev.xml">
         <environment insert="." mode="replace" name="BoostProto_DIR"/>
-      </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
-        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
@@ -113,8 +106,8 @@
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-dev.xml">
-        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
+        <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -213,7 +206,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShUACgkQxnV5mk56UjEOaQCbBak1ty66WvE9Ta4hqtnH7IlBj1YAn180lNC+
-zggHtgrw4E+Dyrm4WXxF
+iEYEABECAAYFAk+0FYgACgkQxnV5mk56UjFi4gCfXd1OO39miCqiojLK9BsREV6mLd8AnRDQMB+t
+1aRpAWBWGv33RZCs2T/l
 
 -->

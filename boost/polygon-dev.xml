@@ -10,25 +10,21 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d11de83b-cdb1-411c-8439-c4e771a45a26" released="2012-05-15" ryppl:vcs-revision="fb7c4500aed909fd2c2769efa3b400c4203bf793" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="972fdbb3-32d0-461a-a7a1-964f39c14cd6" released="2012-05-16" ryppl:vcs-revision="fb7c4500aed909fd2c2769efa3b400c4203bf793" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-polygon-fb7c450" href="http://nodeload.github.com/boost-lib/polygon/zipball/fb7c4500aed909fd2c2769efa3b400c4203bf793" size="5029205" type="application/zip"/>
       <manifest-digest sha1new="9258590134d38f7666be6787e20a0eeba6a61297"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="polygon" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSg4ACgkQxnV5mk56UjGO6wCfRqTn7M235CseL/3bF4sdKG+YfnsAnRfI2vhb
-Z+8lNmDku+8JJflG6TxJ
+iEYEABECAAYFAk+0FQkACgkQxnV5mk56UjE5OACgn40+eL5yRUU16BRKJHph2H6BRIoAn3YeCjX8
+BR2jL0ZHgg09pnnu1u1o
 
 -->

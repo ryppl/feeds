@@ -11,25 +11,21 @@
     objects.</description>
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="de87a8d9-a812-46c3-8a89-ba2c2578dbb3" released="2012-05-15" ryppl:vcs-revision="15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="72f380a8-daed-4a1a-923f-0258cd207d97" released="2012-05-16" ryppl:vcs-revision="15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-flyweight-15c6153" href="http://nodeload.github.com/boost-lib/flyweight/zipball/15c6153ba3a9cfb4960e258505fcb72ab8b8cc5b" size="268400" type="application/zip"/>
       <manifest-digest sha1new="afba6328cca18f79933c14b5e2fcafecf6b9225e"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="flyweight" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgEACgkQxnV5mk56UjEijQCdG1vONnzdmU0tLOgJVXGypXCH3bYAoJNYdEWj
-cMuXnGqHYEc2VxkRK9+J
+iEYEABECAAYFAk+0FT0ACgkQxnV5mk56UjFOXwCdFXjQOhPuhUU8RdLFdwpx+ROzBmoAnjWgbn4h
+aOv7N11vwxTOF+Dn+4XK
 
 -->

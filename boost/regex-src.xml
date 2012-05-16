@@ -10,12 +10,11 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ebde62cc-8992-4656-a1a0-efa7d55fae58" released="2012-05-15" ryppl:vcs-revision="82db62b2d282e4768bde2e2363d0e0f5bf50939e" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-*" id="36ffdfe8-768f-49e6-a154-e8188a897762" released="2012-05-16" ryppl:vcs-revision="82db62b2d282e4768bde2e2363d0e0f5bf50939e" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-regex-82db62b" href="http://nodeload.github.com/boost-lib/regex/zipball/82db62b2d282e4768bde2e2363d0e0f5bf50939e" size="818655" type="application/zip"/>
       <manifest-digest sha1new="8545addc504bd9164b49f9a9c6aae2feccc42eb3"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
@@ -34,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShMACgkQxnV5mk56UjFFhwCeMOkwJ+s///bBj7Ut7SxMmNMi1XIAmwRd2Zxn
-LiYgWCWUx1AqbX2W0mWx
+iEYEABECAAYFAk+0FZcACgkQxnV5mk56UjGw7ACgklc03uMmHoeiz4IVhlINGIDwEMoAnRSGiHC9
+TjO4CYC/Tlo7PibEATcn
 
 -->

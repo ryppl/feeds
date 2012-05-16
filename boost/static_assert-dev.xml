@@ -13,25 +13,21 @@
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="461f1243-9932-4dae-99bd-04500aaebce9" released="2012-05-15" ryppl:vcs-revision="79959cb0262d59df2fdf7ecc3feb4de03a7b048f" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="e1122e4b-3a3f-4d1a-be4d-f2f2029c72b9" released="2012-05-16" ryppl:vcs-revision="79959cb0262d59df2fdf7ecc3feb4de03a7b048f" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-static_assert-79959cb" href="http://nodeload.github.com/boost-lib/static_assert/zipball/79959cb0262d59df2fdf7ecc3feb4de03a7b048f" size="18650" type="application/zip"/>
       <manifest-digest sha1new="28ef9080ebda7d638f1431807c2b3d2fdb496978"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="static_assert" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShcACgkQxnV5mk56UjH2rQCfeBve1nsbgKR8ZEBuEZkDryA3A18AoICoXf6G
-CJYc1kj1pQOT6a0h4ZLZ
+iEYEABECAAYFAk+0FWkACgkQxnV5mk56UjFLswCeNEwhXVfv98q2tijiHR0cnVkN1uMAoJ1d7ObM
+/O3j6lzzxakryb39UjBO
 
 -->

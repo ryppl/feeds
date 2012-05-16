@@ -13,25 +13,21 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="25f2634b-4865-45ec-b3d8-acdf49e9ac8c" released="2012-05-15" ryppl:vcs-revision="dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="3fe68a48-f5af-4cd9-976f-cd5c9094dd7e" released="2012-05-16" ryppl:vcs-revision="dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
       <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="phoenix" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSg0ACgkQxnV5mk56UjFLGACeOWNUa78Ydn1kyoBCCcfd4McawlQAnRDKdCpo
-p6Y7zZsKIhnepd2gKvlW
+iEYEABECAAYFAk+0FX4ACgkQxnV5mk56UjEztQCfTBYreYhFG9ybIsLiKkzdQX0GQ/QAn0g3tWxx
+WWI53SG4tJ87q5Ec6Nv2
 
 -->

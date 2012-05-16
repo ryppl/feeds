@@ -11,25 +11,21 @@
     has never been easier.</description>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d6830413-cde5-41b0-8e90-18ed19310486" released="2012-05-15" ryppl:vcs-revision="142ad90451a0d197a41d950eaadee0d04e6f992a" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="11c3080f-b0e0-4799-beb7-112335fd112f" released="2012-05-16" ryppl:vcs-revision="142ad90451a0d197a41d950eaadee0d04e6f992a" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-assign-142ad90" href="http://nodeload.github.com/boost-lib/assign/zipball/142ad90451a0d197a41d950eaadee0d04e6f992a" size="62393" type="application/zip"/>
       <manifest-digest sha1new="34f27856715b1e35ea611b9a093beb6aa9a21a08"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="assign" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSfsACgkQxnV5mk56UjGeBACfbw7yuRp5HPvQORuiDpIbr7i/4z0AoIlJyFD3
-s+BcRZu5nUVGt+qNAk4z
+iEYEABECAAYFAk+0FXEACgkQxnV5mk56UjEy0wCfa0vOFKkMImERa8LCcaxZo7dNlOgAni9UGz+W
+VJPsdULDRnNHWfU42Z3K
 
 -->

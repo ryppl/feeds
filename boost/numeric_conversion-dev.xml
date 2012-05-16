@@ -11,25 +11,21 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9c9eee58-8dbd-4b6f-b474-6a29ebee8ced" released="2012-05-15" ryppl:vcs-revision="805a8bef18dd4e09333c6ec53144af7c7b2df830" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="3438fa29-1ad9-4996-bec0-efc5b84485c5" released="2012-05-16" ryppl:vcs-revision="805a8bef18dd4e09333c6ec53144af7c7b2df830" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-numeric_conversion-805a8be" href="http://nodeload.github.com/boost-lib/numeric_conversion/zipball/805a8bef18dd4e09333c6ec53144af7c7b2df830" size="129800" type="application/zip"/>
       <manifest-digest sha1new="8ba3f397604e581f6150d714f6f3503a5dfdff68"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="numeric_conversion" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgwACgkQxnV5mk56UjGJsgCfSuNhADayk735VDyst5RcdiRzucQAoKTeyzU7
-0eOEFF7Ub39qeKBHlo/3
+iEYEABECAAYFAk+0FPwACgkQxnV5mk56UjHYmgCgnF5YZzKrvb40nxNkrzb40pA7wJAAnAiLwpoh
+dVZPuFP6Ti/FhEYSKJy4
 
 -->

@@ -10,25 +10,21 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bb7fbe40-2b98-412e-9a46-ef6fa545fb5d" released="2012-05-15" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="f84e3573-1401-48b2-8e51-f461086e36a2" released="2012-05-16" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
       <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="accumulators" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zOVkACgkQxnV5mk56UjGDEACfd3nUTfDExISNu4GIKNETOdyIDscAn2gziJj6
-rNcg9rOg9u6/cMquRq/s
+iEYEABECAAYFAk+0FR4ACgkQxnV5mk56UjG7nQCfWE4f51RG/a18hDvEmGSeHQ4BeaoAoJp5HDhn
+nXwF+hv0jfRTAlyMa+PQ
 
 -->

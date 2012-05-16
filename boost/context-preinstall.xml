@@ -11,20 +11,16 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="aea2ec46-a056-4068-b385-3e5538e9a8cd" released="2012-05-15" ryppl:vcs-revision="f02a3b84f6fd36e2dfb1f5dd517657bfa2dc27a7" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="2a362af8-32ad-4766-819b-621ff886e21c" released="2012-05-16" ryppl:vcs-revision="f02a3b84f6fd36e2dfb1f5dd517657bfa2dc27a7" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-context-f02a3b8" href="http://nodeload.github.com/boost-lib/context/zipball/f02a3b84f6fd36e2dfb1f5dd517657bfa2dc27a7" size="6106717" type="application/zip"/>
       <manifest-digest sha1new="dccdf3c53504a7e5bcadc72acda9cb954898e11b"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>bin</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="context" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/circular_buffer-dev.xml">
         <environment insert="." mode="replace" name="BoostCircularBuffer_DIR"/>
       </requires>
@@ -64,14 +60,8 @@
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-dev.xml">
         <environment insert="." mode="replace" name="BoostForeach_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-dev.xml">
-        <environment insert="." mode="replace" name="BoostUBLAS_DIR"/>
-      </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ratio-dev.xml">
         <environment insert="." mode="replace" name="BoostRatio_DIR"/>
-      </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-dev.xml">
-        <environment insert="." mode="replace" name="BoostXpressive_DIR"/>
       </requires>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
@@ -260,7 +250,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSf4ACgkQxnV5mk56UjE5DQCfQop6wRapRiLOPuv+PXaT0qUeg8QAnjV51jgz
-tZnnUkPdOmZ0mD2oEEE6
+iEYEABECAAYFAk+0FVQACgkQxnV5mk56UjFiKACffW/DC4idGT5AYgmZslCcmVqk3cQAoJTxC9FI
+mrEySFOFtoiG2MdsYfd0
 
 -->

@@ -10,25 +10,21 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="70216aec-1b2d-400e-b9af-54396f3e2800" released="2012-05-15" ryppl:vcs-revision="46d47aa23ba4a4438cfc9b8354555d85966c94dc" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="1819d35c-3fe4-4d58-97a1-81847f0d006f" released="2012-05-16" ryppl:vcs-revision="46d47aa23ba4a4438cfc9b8354555d85966c94dc" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-pool-46d47aa" href="http://nodeload.github.com/boost-lib/pool/zipball/46d47aa23ba4a4438cfc9b8354555d85966c94dc" size="1044645" type="application/zip"/>
       <manifest-digest sha1new="1a8bfcefb84ea3d0fb24a2886f7afb9ccbf07aaf"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="pool" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSg4ACgkQxnV5mk56UjGedACgkAJpaclqURwdpAlAqv4gL9+3jlAAnAm97kPs
-PG0MQlsJBAGQNHl+oSsY
+iEYEABECAAYFAk+0FYsACgkQxnV5mk56UjEN+wCfVMjf27rCvhZWIFSTduC1GFfQkTAAn0jfLxxG
+F0FAz3rTf8gPvW7iO1ag
 
 -->

@@ -11,25 +11,21 @@
     different value types.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b68a5a35-da6f-47d6-881b-451eccd25096" released="2012-05-15" ryppl:vcs-revision="757512f84cae08d9ecd00faa81ed60521b313cc9" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="d1edbcd9-9263-4084-8cf4-dc0ea284f44e" released="2012-05-16" ryppl:vcs-revision="757512f84cae08d9ecd00faa81ed60521b313cc9" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-any-757512f" href="http://nodeload.github.com/boost-lib/any/zipball/757512f84cae08d9ecd00faa81ed60521b313cc9" size="12919" type="application/zip"/>
       <manifest-digest sha1new="f95407f950adad3f9dbe63552063558bfc538b54"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="any" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSfoACgkQxnV5mk56UjEfzwCgjodTJsoN8+Fb+/6mNgRDgbgwcvUAniPhbH2K
-dqrlgspvvj3LQTKtMJOl
+iEYEABECAAYFAk+0FY0ACgkQxnV5mk56UjHapwCeJEXcPiTe1rm1tSrDADvvG1wvOFIAoJs0iPe/
+HYXaTu5IRuNu6tqXwMOb
 
 -->

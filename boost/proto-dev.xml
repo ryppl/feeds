@@ -10,25 +10,21 @@
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bb06c996-a030-4551-87b4-8de802f3d798" released="2012-05-15" ryppl:vcs-revision="5ec81983563dc87db4f61c77c6372003db20a5d0" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="c2eca9d4-4b13-4d70-8b18-fa1127b14370" released="2012-05-16" ryppl:vcs-revision="5ec81983563dc87db4f61c77c6372003db20a5d0" stability="testing" version="1.49-post-2012.05.16.2056">
       <archive extract="boost-lib-proto-5ec8198" href="http://nodeload.github.com/boost-lib/proto/zipball/5ec81983563dc87db4f61c77c6372003db20a5d0" size="448177" type="application/zip"/>
       <manifest-digest sha1new="f7d50211ea3a678d3e089d1518ed11aa97716dad"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="proto" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShAACgkQxnV5mk56UjE0gwCffF7C64cJA/colQJSEkOPitP2NxoAoIQHJC3I
-W3dm9wSoW3CF1AkM3Tpf
+iEYEABECAAYFAk+0FUsACgkQxnV5mk56UjEhbwCgg6SMG0ULjrOjT9QeK1P7yrS/h5QAn2njpmgd
+CH8JfBruiGw1+d2eeOO2
 
 -->
