@@ -10,21 +10,25 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="6d2ab472-d661-454f-82b8-98cdf487050e" released="2012-05-16" ryppl:vcs-revision="2436b555894f73556412efda95437faab4ddd5b5" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-intrusive-2436b55" href="http://nodeload.github.com/boost-lib/intrusive/zipball/2436b555894f73556412efda95437faab4ddd5b5" size="508934" type="application/zip"/>
-      <manifest-digest sha1new="8556ea44f6044159cda7ab559a7121c39da0a654"/>
+    <implementation arch="*-src" id="054ab2bc-bc13-49a0-b2b9-5b0c598ffb9d" released="2012-05-15" ryppl:vcs-revision="fd955491fcddbcfbc295e02174a14220c343e2be" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-intrusive-fd95549" href="http://nodeload.github.com/boost-lib/intrusive/zipball/fd955491fcddbcfbc295e02174a14220c343e2be" size="508484" type="application/zip"/>
+      <manifest-digest sha1new="13ed982f9366e0f41be9d009fc5733c29e5dc539"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="intrusive" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TN8ACgkQxnV5mk56UjFTIACbBGpPIrzQYytL3rpSHT1z24gHR28An2B0gC2A
-pJjxE2OnBUPPhvIYRUQP
+iEYEABECAAYFAk+zSgYACgkQxnV5mk56UjFpXQCgm2W0jaOnNPVGAQ7X9nA5KAG4KhkAn2555WRp
+dC3H/xwAnMCKAFNENzoc
 
 -->

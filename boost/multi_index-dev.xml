@@ -14,21 +14,25 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dce17440-0cb7-4912-84bf-b17a19fd4378" released="2012-05-16" ryppl:vcs-revision="98aab7b01d5691c034756021824a3dcfec0a801e" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-multi_index-98aab7b" href="http://nodeload.github.com/boost-lib/multi_index/zipball/98aab7b01d5691c034756021824a3dcfec0a801e" size="508524" type="application/zip"/>
-      <manifest-digest sha1new="7f603830955f96495b8daca8c463bbe36268bdda"/>
+    <implementation arch="*-src" id="bd35e05a-fd78-4f14-a3ba-8362f798a4e8" released="2012-05-15" ryppl:vcs-revision="eb9469ca835827db398d5d344314e2b2481b23ab" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-multi_index-eb9469c" href="http://nodeload.github.com/boost-lib/multi_index/zipball/eb9469ca835827db398d5d344314e2b2481b23ab" size="506902" type="application/zip"/>
+      <manifest-digest sha1new="86dce0fb56cca3dc64e6ce0bfaae9634bc663884"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="multi_index" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TGQACgkQxnV5mk56UjHBtwCfdLg6jBbbibXekg3jLUbSvYirrcsAmgLXqrPm
-hRQajdeCtBp1YkLSdHdd
+iEYEABECAAYFAk+zSgwACgkQxnV5mk56UjF7WwCdHpTtZq9+abIyTDVC6qfYXNLXzXwAnR/hcFdT
+1nSbnLBZe0wzL2UzEeiw
 
 -->

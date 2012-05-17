@@ -12,12 +12,11 @@
   <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="256259d9-cb9d-4a39-b1c2-0c8fb38be368" released="2012-05-16" ryppl:vcs-revision="c2554c3d963944828ab3ffd2bd053dc2293e3064" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-tokenizer-c2554c3" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/c2554c3d963944828ab3ffd2bd053dc2293e3064" size="34457" type="application/zip"/>
-      <manifest-digest sha1new="f46caab633d7c9924d3af57ef6335dbd323467ef"/>
+    <implementation arch="*-*" id="bc616573-1135-4737-90f9-7edae93ff983" released="2012-05-15" ryppl:vcs-revision="a3421768e2e9c97986b906b72b25c516a6ded07e" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-tokenizer-a342176" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/a3421768e2e9c97986b906b72b25c516a6ded07e" size="33708" type="application/zip"/>
+      <manifest-digest sha1new="c8de121c4d64f7f38638acb6a6ba15f2c7338db9"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <command name="develop">
@@ -26,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TKcACgkQxnV5mk56UjGiIACdGx+qLLZEExV2Tl3OxB6vyfXtdiEAoIzR2A9V
-iBn6Ge0SYHQ0Ot9Q2B/1
+iEYEABECAAYFAk+zShoACgkQxnV5mk56UjEqtwCffWQqJjFHjvtwikHFoGMzNctpe+UAnA5Whk28
+bx6rAZNbpF3uF4nhH3kU
 
 -->

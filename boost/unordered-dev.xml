@@ -10,21 +10,25 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4df235c9-55d3-44c3-ba74-4dd059e45647" released="2012-05-16" ryppl:vcs-revision="397adf69f93c9c87d17808ede6f9357b714f72f3" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-unordered-397adf6" href="http://nodeload.github.com/boost-lib/unordered/zipball/397adf69f93c9c87d17808ede6f9357b714f72f3" size="194853" type="application/zip"/>
-      <manifest-digest sha1new="d124b245ecf9e99d43aecdf3c20db45edfdfc17f"/>
+    <implementation arch="*-src" id="002ebd30-ab1c-406f-895a-b2f69595919f" released="2012-05-15" ryppl:vcs-revision="9a66f2df2bca5e691a319314b0b583f69866a2a1" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-unordered-9a66f2d" href="http://nodeload.github.com/boost-lib/unordered/zipball/9a66f2df2bca5e691a319314b0b583f69866a2a1" size="194403" type="application/zip"/>
+      <manifest-digest sha1new="a9c3293dd75d1417124f694678bfe2daddb3da6b"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="unordered" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TBgACgkQxnV5mk56UjEIlQCdFl2P5t/+llHgASoaDL/vSzv/PbkAnRgVUBLo
-cMs42jHJRP8HJIyri/n6
+iEYEABECAAYFAk+zSh0ACgkQxnV5mk56UjGnqgCfaZoWPmvzh2sRahMaXDEUagDxcTMAnjSdXgfY
+vSwgk6nymlBeoFxKZEpt
 
 -->

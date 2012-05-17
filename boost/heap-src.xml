@@ -10,9 +10,9 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="45dfe1ab-f145-45bd-a6b9-d8e335a1b989" released="2012-05-16" ryppl:vcs-revision="573f9e9d1b1e7c33857be3ba6e5006cf36483ed4" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-heap-573f9e9" href="http://nodeload.github.com/boost-lib/heap/zipball/573f9e9d1b1e7c33857be3ba6e5006cf36483ed4" size="68292" type="application/zip"/>
-      <manifest-digest sha1new="bb89a6957669d2d408b8e08c3391777a3cce89a8"/>
+    <implementation arch="*-*" id="db2a8ae6-d660-49fe-9933-c02aa194111f" released="2012-05-15" ryppl:vcs-revision="78b6a28bd5fc79367a00346751381ab4c3397947" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-heap-78b6a28" href="http://nodeload.github.com/boost-lib/heap/zipball/78b6a28bd5fc79367a00346751381ab4c3397947" size="67855" type="application/zip"/>
+      <manifest-digest sha1new="9617c786255ced1147d4fee46b66ecff043b7760"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
@@ -20,11 +20,13 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/parameter-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/intrusive-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -32,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TOMACgkQxnV5mk56UjHVVACeKoKhy9wcSSmL5V+sLkWjzJfAmP8An2825EFw
-oAlKca0OYWo2IK80RNlR
+iEYEABECAAYFAk+zSgUACgkQxnV5mk56UjHiRACeLBrH8eChl5CZaR9fQVlbpzZOQcIAoJq4ZVrS
+9zoDDfwlTCn3fy8nkdPs
 
 -->

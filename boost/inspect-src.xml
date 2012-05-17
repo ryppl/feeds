@@ -11,13 +11,12 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="08264bff-e23e-4824-a8d6-c0e3e985880a" released="2012-05-16" ryppl:vcs-revision="1d6ef5c0fe2828473a4801f8ecd335f6ae4fa2ed" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-inspect-1d6ef5c" href="http://nodeload.github.com/boost-lib/inspect/zipball/1d6ef5c0fe2828473a4801f8ecd335f6ae4fa2ed" size="42553" type="application/zip"/>
-      <manifest-digest sha1new="3182a35c75bff2d26b2284aad78b9cf466cbfea6"/>
+    <implementation arch="*-*" id="3fb9c54e-2b80-4ccb-bd9d-78db3bce13eb" released="2012-05-15" ryppl:vcs-revision="7ba03cda1510b8535f3d727e21803c4996dc55ec" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-inspect-7ba03cd" href="http://nodeload.github.com/boost-lib/inspect/zipball/7ba03cda1510b8535f3d727e21803c4996dc55ec" size="42009" type="application/zip"/>
+      <manifest-digest sha1new="efdd9be6e994a3db181314e34db04ad5285c0af8"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/algorithm-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
@@ -29,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TSkACgkQxnV5mk56UjHHAgCfZ+9B4Xa02AB2LVt5Xx1DzxFPm/AAn1pABnN3
-5qbxxv2FtXI25ZgjpTOE
+iEYEABECAAYFAk+zSgUACgkQxnV5mk56UjG6nQCeLuLMRMSYbmEBrC0mWE34B/MCrLcAoJInq7fp
+BN2Mo1XgSJkyU4RowMu8
 
 -->

@@ -11,21 +11,25 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f0470799-760d-45d5-81d6-37a151c433d8" released="2012-05-16" ryppl:vcs-revision="10900db6a35c616c72f591d4f1dadcfa028c55e3" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-interprocess-10900db" href="http://nodeload.github.com/boost-lib/interprocess/zipball/10900db6a35c616c72f591d4f1dadcfa028c55e3" size="834246" type="application/zip"/>
-      <manifest-digest sha1new="739752f979ba53407b0567d1ef28a4cd2a60d9b9"/>
+    <implementation arch="*-src" id="ada861ad-aa80-4825-be0f-c038432e1d18" released="2012-05-15" ryppl:vcs-revision="1b3f40cddd9252808503de1f2de485d0c9cb3fd6" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
+      <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="interprocess" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0SzEACgkQxnV5mk56UjF32QCfa2cc0bHo8dtQunCiwm1s7TRD0x8Anil65KXe
-e2RQspsGPXQg1ykUvQ0M
+iEYEABECAAYFAk+zSgYACgkQxnV5mk56UjHEFQCgkyPK+FqPW8VEZvLtzcwzGXnGm0gAn2wmnqUJ
+AxBv/EYOvNv6I/nInZsG
 
 -->

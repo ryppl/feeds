@@ -44,7 +44,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="93c57469-9bbb-47b5-b8b2-73c61767acf2" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
+    <implementation arch="*-src" id="665d7326-4d82-45dc-9645-f0ec7403a55d" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -54,14 +54,14 @@ A wide selection of univariate statistical distributions and
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-math-random-regex-preinstall.xml">
         <environment insert="math/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TEUACgkQxnV5mk56UjF0sACeNe6cFJUSbStsbg03Hb32toQPB0IAoIQpz+er
-dHUCAm6SFPPRRu6SycQa
+iEYEABECAAYFAk+zSgoACgkQxnV5mk56UjGtBgCfW1mpu/MbEskJ0MFhZoTJqyMS1oUAnjTNhQBo
+joJImhHmRROtE1Jxs7vz
 
 -->

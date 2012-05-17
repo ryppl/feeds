@@ -21,21 +21,25 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cd5f713b-5780-4b32-bd13-3fd8f4d0aeb1" released="2012-05-16" ryppl:vcs-revision="8bd9fada72dfe4e981a69151083d8af73fc0b9f8" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-algorithm-8bd9fad" href="http://nodeload.github.com/boost-lib/algorithm/zipball/8bd9fada72dfe4e981a69151083d8af73fc0b9f8" size="1739396" type="application/zip"/>
-      <manifest-digest sha1new="d141dc2843cc5c277d6fc65536103ddc874112aa"/>
+    <implementation arch="*-src" id="312a374d-ed77-4bb7-bc98-ba0b7a21ff75" released="2012-05-15" ryppl:vcs-revision="5d1155b55cd05273003fb641147aa9db044e05e1" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-algorithm-5d1155b" href="http://nodeload.github.com/boost-lib/algorithm/zipball/5d1155b55cd05273003fb641147aa9db044e05e1" size="1736724" type="application/zip"/>
+      <manifest-digest sha1new="0e2c7e509caddc29f620046b2cb7c02c56f71b32"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="algorithm" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TQEACgkQxnV5mk56UjEKAwCfZnZtUFLSXDRI/inohBYO4GF9v+AAn0nrMkBC
-W7H4A1ytc3o6m7mPYRNI
+iEYEABECAAYFAk+zOZ0ACgkQxnV5mk56UjFnhQCeOAg5NTzLvp7TLJoQv/hoLZ+opRUAn3cFClX5
+6OBOxvurPOnLhFhEjmLm
 
 -->

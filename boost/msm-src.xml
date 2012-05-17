@@ -10,9 +10,9 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories/2012">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="cab445a9-293b-446e-b939-e55419106e4d" released="2012-05-16" ryppl:vcs-revision="b94468836c53282bbd821d381f45b91121741ee1" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-msm-b944688" href="http://nodeload.github.com/boost-lib/msm/zipball/b94468836c53282bbd821d381f45b91121741ee1" size="1903361" type="application/zip"/>
-      <manifest-digest sha1new="e58eed3df5175bab700a4d76c74372648fbb9d81"/>
+    <implementation arch="*-*" id="5f7443da-f72d-45ab-9590-6808386afc07" released="2012-05-15" ryppl:vcs-revision="cc272deb18b1c31cb71c56567c0bf52967f6c986" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
+      <manifest-digest sha1new="f0e161f615c75dfc82a564c6f31615d90ff22c56"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/any-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
@@ -21,23 +21,25 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/parameter-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/circular_buffer-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/fusion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/statechart-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/phoenix-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0S08ACgkQxnV5mk56UjFTHwCeKacyOFzcTMVEwG1ZaPIwst99iw0AnjDDBeic
-aa7p4zGAQ+uU31PYe+X3
+iEYEABECAAYFAk+zSgsACgkQxnV5mk56UjEEDACglN8NAhU+5nUYYtlZhUhYCPDwdzQAn12oWv0l
+gv56eM2Rs6TFFkSEHMBX
 
 -->

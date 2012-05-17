@@ -14,10 +14,12 @@
     compression.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f462934d-4ebd-4994-8b36-f2b3e8a2bf87" released="2012-05-16" ryppl:vcs-revision="dbcbc0783c9280d903a427c0ba2276a2d6b6983f" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-disjoint_sets-dbcbc07" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/dbcbc0783c9280d903a427c0ba2276a2d6b6983f" size="10794" type="application/zip"/>
-      <manifest-digest sha1new="4e4d7f5a20cf1530bccae692e5ab52b93b10d0c5"/>
+    <implementation arch="*-*" id="0f9379c7-a56d-4a21-8673-1820e97f10a8" released="2012-05-15" ryppl:vcs-revision="01725e43f9f33eef93a295a0f0bf188433c152e6" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-disjoint_sets-01725e4" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/01725e43f9f33eef93a295a0f0bf188433c152e6" size="10385" type="application/zip"/>
+      <manifest-digest sha1new="9756e5dd44d12f7715731fe213467030909c4d87"/>
     </implementation>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -25,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0THkACgkQxnV5mk56UjFNcgCaAkg4zGruvJ/o6If8zqj5a/+53AIAn231LXfj
-tunqeK1+I3NbYo77woYF
+iEYEABECAAYFAk+zSgAACgkQxnV5mk56UjG62QCeKz0ZgO1PZ0GPHg3svMWdrp+zrrYAoJdgBepI
+Kwhz5XRWARvlwp/CQKMs
 
 -->

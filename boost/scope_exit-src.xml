@@ -10,26 +10,20 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="86764b4c-c312-4cd9-a981-8fadc995245b" released="2012-05-16" ryppl:vcs-revision="4a9528ffee01c76e1d4238143238bbbe4a626638" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-scope_exit-4a9528f" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/4a9528ffee01c76e1d4238143238bbbe4a626638" size="96226" type="application/zip"/>
-      <manifest-digest sha1new="6ac78c8bca4f2a42c3b86516de080bb80298f349"/>
+    <implementation arch="*-*" id="4186137b-2f55-4e78-9d29-bae9299a9810" released="2012-05-15" ryppl:vcs-revision="aa3a9480edc302422dba4032037a33657d7397b9" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
+      <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/local_function-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TPQACgkQxnV5mk56UjHASACfXGIZxKiPl7eHenMOUkuf/NTDSo0An1XvTJUN
-ZKs0+fZ3r1HKMiQggU3W
+iEYEABECAAYFAk+zShQACgkQxnV5mk56UjFxMwCdF003jE2jAwMxSffeb0J1glAuK94An0BNu/x0
+rw3WvvsLIkv2nXVjxO2Z
 
 -->

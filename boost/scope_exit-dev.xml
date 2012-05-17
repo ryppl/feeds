@@ -10,21 +10,25 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="02308c7a-ec0f-4e8c-a0f2-9d389c966fbb" released="2012-05-16" ryppl:vcs-revision="4a9528ffee01c76e1d4238143238bbbe4a626638" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-scope_exit-4a9528f" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/4a9528ffee01c76e1d4238143238bbbe4a626638" size="96226" type="application/zip"/>
-      <manifest-digest sha1new="6ac78c8bca4f2a42c3b86516de080bb80298f349"/>
+    <implementation arch="*-src" id="a73b5c29-b350-460f-880b-1056e117ee47" released="2012-05-15" ryppl:vcs-revision="aa3a9480edc302422dba4032037a33657d7397b9" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-scope_exit-aa3a948" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/aa3a9480edc302422dba4032037a33657d7397b9" size="95799" type="application/zip"/>
+      <manifest-digest sha1new="0a352a03e1005534e0481a2f18ca17d724a96090"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="scope_exit" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TPQACgkQxnV5mk56UjGH2QCdFQxhLcJtX6wwOWp/DTI9vwBJMtsAnRO5x7w1
-tR2G8BigGowy4bPg3O2h
+iEYEABECAAYFAk+zShQACgkQxnV5mk56UjHZEACbBcG74HUk2GW+O/exT8VQpxNVUEoAniOXuizh
+VeUJhC80cRFTtrOF7bqx
 
 -->

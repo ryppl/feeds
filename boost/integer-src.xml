@@ -16,20 +16,19 @@
     in namespace std.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1dbd199f-2e3e-4a64-9d9a-0231be329d60" released="2012-05-16" ryppl:vcs-revision="0ed44503563fac19d252c6c0580034418361a049" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-integer-0ed4450" href="http://nodeload.github.com/boost-lib/integer/zipball/0ed44503563fac19d252c6c0580034418361a049" size="67672" type="application/zip"/>
-      <manifest-digest sha1new="0b06a175b07a44524a6bd30c930f9901445ba2ce"/>
+    <implementation arch="*-*" id="e43b7cf2-ef39-4bd0-a792-25f3832a7a29" released="2012-05-15" ryppl:vcs-revision="a5560a05991b48e575824f17edaee3523a33264d" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-integer-a5560a0" href="http://nodeload.github.com/boost-lib/integer/zipball/a5560a05991b48e575824f17edaee3523a33264d" size="66835" type="application/zip"/>
+      <manifest-digest sha1new="9a503e46d1f55194d12864de14c1c9f92ccacfc3"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0S/oACgkQxnV5mk56UjFEBQCZAUVCTsi3V//UdvfqPrX7TaSMRBwAn1efoh21
-iVby6Rx0b6B6LDAz5Hnm
+iEYEABECAAYFAk+zSgYACgkQxnV5mk56UjHXWACfe8gw/dCpEJ8cTHtTZlrWE1NB6/AAn337afhz
+JCxWT8S9FdiEAp86+SNr
 
 -->

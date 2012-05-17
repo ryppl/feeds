@@ -11,7 +11,7 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="69521a36-7921-4538-84bb-1812302c6a26" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
+    <implementation arch="*-src" id="63a23394-403a-453f-8a5d-be77ca7ef805" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -21,14 +21,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
-        <environment insert="test/dev" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-preinstall.xml">
+        <environment insert="dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TQYACgkQxnV5mk56UjGNcQCghwZB1gBQG/V+xZA1KhyuQcDVot4An17QTr2g
-6QJAvg8SGBZ1MlqzauuF
+iEYEABECAAYFAk+zShcACgkQxnV5mk56UjFs6ACeKNhFp9hGM5EOiH8/Yi+qPJmckx8An0O3Tvrd
+Ga7n9IRsG96UyuxkGnsw
 
 -->

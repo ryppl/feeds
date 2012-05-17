@@ -11,7 +11,7 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bfd88841-b2d8-4621-b971-7bea4f8b8d1e" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
+    <implementation arch="*-src" id="24ff7d92-de85-45af-8f35-013fcf9c2c82" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -21,14 +21,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
-        <environment insert="system/bin" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/system-preinstall.xml">
+        <environment insert="bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TTUACgkQxnV5mk56UjHG0ACdG0/3nluSr/TxHU1zOv2tnWWskCUAnjoHsXUy
-Iq1MH0A5IZUZoOlKtg1y
+iEYEABECAAYFAk+zShcACgkQxnV5mk56UjEmlgCeMTDNT3wtadaDg6hvPxtL42L9d3sAnjiRV1Nc
+Wnkpz//vWCrhc9uou39e
 
 -->

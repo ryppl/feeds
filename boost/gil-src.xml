@@ -15,9 +15,9 @@
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <category type="http://boost.org/lib-categories/2012">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="dec3b573-bc17-423f-9851-43f5e5ab58a2" released="2012-05-16" ryppl:vcs-revision="cdafb1b566326542225c31c61fbc48f8ca2711c5" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-gil-cdafb1b" href="http://nodeload.github.com/boost-lib/gil/zipball/cdafb1b566326542225c31c61fbc48f8ca2711c5" size="2196722" type="application/zip"/>
-      <manifest-digest sha1new="74b7d8766003177efbd22243688f4735588ef997"/>
+    <implementation arch="*-*" id="f9dc7a8f-a348-4697-a3d8-eee90003bd69" released="2012-05-15" ryppl:vcs-revision="cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-gil-cb807da" href="http://nodeload.github.com/boost-lib/gil/zipball/cb807da3b16ddb4fc81fd5b3c2966501fbf7014a" size="2195723" type="application/zip"/>
+      <manifest-digest sha1new="73e4786fb1af6f24e7e240c2242cfe96ae76f866"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
@@ -37,7 +37,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0SyYACgkQxnV5mk56UjFkgwCbBibu6AAQrTD9wXHA/eE6JYZWCyUAn2ZGvQeI
-TdIVtwBHjvjoytMmXByK
+iEYEABECAAYFAk+zSgMACgkQxnV5mk56UjG5eQCgn9Vr5bMUpf5gkxQGb63qsxFnyFYAnj2oCVit
+RiMGVLUrA8Q52akuYl7B
 
 -->

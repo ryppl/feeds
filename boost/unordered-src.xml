@@ -10,29 +10,30 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c5ce6e19-d967-44d7-85c2-001d12b992bd" released="2012-05-16" ryppl:vcs-revision="397adf69f93c9c87d17808ede6f9357b714f72f3" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-unordered-397adf6" href="http://nodeload.github.com/boost-lib/unordered/zipball/397adf69f93c9c87d17808ede6f9357b714f72f3" size="194853" type="application/zip"/>
-      <manifest-digest sha1new="d124b245ecf9e99d43aecdf3c20db45edfdfc17f"/>
+    <implementation arch="*-*" id="eb6a83d2-564e-41c6-b974-11c69fde4ff7" released="2012-05-15" ryppl:vcs-revision="9a66f2df2bca5e691a319314b0b583f69866a2a1" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-unordered-9a66f2d" href="http://nodeload.github.com/boost-lib/unordered/zipball/9a66f2df2bca5e691a319314b0b583f69866a2a1" size="194403" type="application/zip"/>
+      <manifest-digest sha1new="a9c3293dd75d1417124f694678bfe2daddb3da6b"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/move-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/algorithm-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/container-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TBgACgkQxnV5mk56UjHyFgCfREYwghfqNbiv/xBMsYUF7eSu1u8AoJ+WECyP
-JSBpeuF+JqoidIZN/Se6
+iEYEABECAAYFAk+zSh0ACgkQxnV5mk56UjF9tACglus/l//2NGoJEEhAxYvb8wEIYgYAoIv8OlTV
+Zm7rorUx5QsN4LYcWSAR
 
 -->

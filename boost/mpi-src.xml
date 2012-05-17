@@ -12,9 +12,9 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ed1e0ab5-d014-43f9-9be5-fe610d9aa1f5" released="2012-05-16" ryppl:vcs-revision="25082d0449a3fd031ccbf47acfe3ddbd7184f162" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-mpi-25082d0" href="http://nodeload.github.com/boost-lib/mpi/zipball/25082d0449a3fd031ccbf47acfe3ddbd7184f162" size="221193" type="application/zip"/>
-      <manifest-digest sha1new="499f05f889323f1159fedc3294909262a8c55c90"/>
+    <implementation arch="*-*" id="355f62c0-592c-4afa-92c2-cf8f1b7eb6e7" released="2012-05-15" ryppl:vcs-revision="7ec9cc4d67faade1ea75badd7c3f902064423f4c" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-mpi-7ec9cc4" href="http://nodeload.github.com/boost-lib/mpi/zipball/7ec9cc4d67faade1ea75badd7c3f902064423f4c" size="219933" type="application/zip"/>
+      <manifest-digest sha1new="fcdeacb6bf5e0e970fae330717e65e30aeb64b5f"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/pythonlibs-dev.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
@@ -41,7 +41,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TE4ACgkQxnV5mk56UjE7QACffIYQvpXW/4AXeF6gv9jEGc3L0WcAoKgjFCtV
-C7akWT0HbWQ1YrnxkVJS
+iEYEABECAAYFAk+zSgsACgkQxnV5mk56UjGyAACfRzxsr+EXXrYckG+vDsLapdXEHi4AoJwDNeMD
+lCr/Rg1kHUw7G61IVgDu
 
 -->

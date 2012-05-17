@@ -10,21 +10,25 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories/2012">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="53129f89-7916-4ef3-b006-75d1c839b10f" released="2012-05-16" ryppl:vcs-revision="b94468836c53282bbd821d381f45b91121741ee1" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-msm-b944688" href="http://nodeload.github.com/boost-lib/msm/zipball/b94468836c53282bbd821d381f45b91121741ee1" size="1903361" type="application/zip"/>
-      <manifest-digest sha1new="e58eed3df5175bab700a4d76c74372648fbb9d81"/>
+    <implementation arch="*-src" id="a8aa07cf-80e2-4794-abab-5ddf1802059f" released="2012-05-15" ryppl:vcs-revision="cc272deb18b1c31cb71c56567c0bf52967f6c986" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-msm-cc272de" href="http://nodeload.github.com/boost-lib/msm/zipball/cc272deb18b1c31cb71c56567c0bf52967f6c986" size="1902278" type="application/zip"/>
+      <manifest-digest sha1new="f0e161f615c75dfc82a564c6f31615d90ff22c56"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="msm" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0S08ACgkQxnV5mk56UjGNBwCfVdYZjHdEb5PmikNlNr+CRKyZ4dsAoIlBB7jS
-tPiEG/n4tY4AUEm3JQ4k
+iEYEABECAAYFAk+zSgsACgkQxnV5mk56UjGxHQCeNJWjtFESUEyvJH9MB9tmudJLdX0An3fwFOKM
+gzhGNijIgH+eAFmzNZMo
 
 -->

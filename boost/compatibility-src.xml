@@ -12,9 +12,9 @@
     libraries.</description>
   <category type="http://boost.org/lib-categories/2012">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a72eb508-a05f-4a61-9bed-c5dfd04ce1ed" released="2012-05-16" ryppl:vcs-revision="9af234472d0e987bfaf0d7b46f975b8c06e768a7" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-compatibility-9af2344" href="http://nodeload.github.com/boost-lib/compatibility/zipball/9af234472d0e987bfaf0d7b46f975b8c06e768a7" size="15468" type="application/zip"/>
-      <manifest-digest sha1new="a396af343a92595ff63a11248c61a57cd929a122"/>
+    <implementation arch="*-*" id="58abca6e-3ae0-4632-a8e1-6fc467a2f793" released="2012-05-15" ryppl:vcs-revision="c84115ba67fc022ada1e9a725f1da59fa22102f6" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-compatibility-c84115b" href="http://nodeload.github.com/boost-lib/compatibility/zipball/c84115ba67fc022ada1e9a725f1da59fa22102f6" size="15071" type="application/zip"/>
+      <manifest-digest sha1new="0690cea7e6722e9e5eae4dba3a6d1216b22ac5d0"/>
     </implementation>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -22,7 +22,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TEsACgkQxnV5mk56UjGaBQCfYpMyWZFHtaEchdKqONFdhelVk/wAnjKGHK0c
-fyPBDl54AJrNfHDjVZm6
+iEYEABECAAYFAk+zSf0ACgkQxnV5mk56UjGMLACgkRxGqCdY/a0HroP9F1/8Phy2a2gAn3CbI4Mb
+Yv50bLXzlfMRdKZoef6A
 
 -->

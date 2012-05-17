@@ -11,18 +11,19 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="98822895-2f08-46ca-994e-e9a6cd40671c" released="2012-05-16" ryppl:vcs-revision="10900db6a35c616c72f591d4f1dadcfa028c55e3" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-interprocess-10900db" href="http://nodeload.github.com/boost-lib/interprocess/zipball/10900db6a35c616c72f591d4f1dadcfa028c55e3" size="834246" type="application/zip"/>
-      <manifest-digest sha1new="739752f979ba53407b0567d1ef28a4cd2a60d9b9"/>
+    <implementation arch="*-*" id="077b72c4-24a6-4923-a25a-996e5333dee3" released="2012-05-15" ryppl:vcs-revision="1b3f40cddd9252808503de1f2de485d0c9cb3fd6" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-interprocess-1b3f40c" href="http://nodeload.github.com/boost-lib/interprocess/zipball/1b3f40cddd9252808503de1f2de485d0c9cb3fd6" size="833789" type="application/zip"/>
+      <manifest-digest sha1new="2681dc2c276401aba544532d91472633c727a78d"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/unordered-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/intrusive-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/move-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0SzEACgkQxnV5mk56UjErWACfVY1jisdpGe68+bE5wbXqkV3dg0MAn3HHOhNo
-zq3GQtdnwxaa/y4O+2bA
+iEYEABECAAYFAk+zSgYACgkQxnV5mk56UjGbwQCdEwYUTGmbk5by90w7VVWmpcC6ZToAoI2+qfXH
+/+Bn56A6F8RklOjNEAwN
 
 -->

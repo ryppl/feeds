@@ -16,14 +16,12 @@
     the current language.</description>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3bb137ee-650e-4256-8cb3-bf53a71652ee" released="2012-05-16" ryppl:vcs-revision="889214eafa52549d937a927844a2ca08c678ebf4" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-mpl-889214e" href="http://nodeload.github.com/boost-lib/mpl/zipball/889214eafa52549d937a927844a2ca08c678ebf4" size="2738675" type="application/zip"/>
-      <manifest-digest sha1new="0c843ec969c1a2961e81ef43c9a8311b460e7bb5"/>
+    <implementation arch="*-*" id="f0114623-a10a-4e0b-beda-15cf6c57a74e" released="2012-05-15" ryppl:vcs-revision="b3eedbc816942f9d3d9db4017a696e830f93347d" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-mpl-b3eedbc" href="http://nodeload.github.com/boost-lib/mpl/zipball/b3eedbc816942f9d3d9db4017a696e830f93347d" size="2737234" type="application/zip"/>
+      <manifest-digest sha1new="1273b36b1ee56c14efc485a93407743e95009284"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
@@ -32,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0THwACgkQxnV5mk56UjFK0gCfQIZMfrEju8XH/7E86O1WWj5xtDIAniKyVAbV
-VdnXo4iSz9zvmzg1sydi
+iEYEABECAAYFAk+zSgsACgkQxnV5mk56UjGmpwCgk0+a5n/ct2M71b5acKqWG5EGpjoAn1t669nG
+eXPc38Z+Idf0dSwh0qNz
 
 -->

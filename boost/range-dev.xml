@@ -12,21 +12,25 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="57554514-bc58-4853-9b19-623b81f6af08" released="2012-05-16" ryppl:vcs-revision="64f7485702d15f1979f4d56b7321bcd07759eadf" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-range-64f7485" href="http://nodeload.github.com/boost-lib/range/zipball/64f7485702d15f1979f4d56b7321bcd07759eadf" size="805610" type="application/zip"/>
-      <manifest-digest sha1new="78b97ce9cad4b2c7ac2de69a98c06eef8120fc8b"/>
+    <implementation arch="*-src" id="265992d6-7d3a-4761-892a-7dc1abac280a" released="2012-05-15" ryppl:vcs-revision="01bafff6db2347c88b192993a9c87d8485a4985c" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-range-01bafff" href="http://nodeload.github.com/boost-lib/range/zipball/01bafff6db2347c88b192993a9c87d8485a4985c" size="803762" type="application/zip"/>
+      <manifest-digest sha1new="be0f39ff20e4f2069b24a5e96a420884cd9e7f86"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="range" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0S1QACgkQxnV5mk56UjFXPQCfVgHyx1sgFWSbTMeIXiokftluvd0An3QXLS+l
-mD98oGtHwAy1kuGcbMA3
+iEUEABECAAYFAk+zShIACgkQxnV5mk56UjESjgCXfqSI8pN3YN319Ut6aNoMqvLkAACfX2ZY0wBw
+/WOgayASLiAAxC3Ahq8=
 
 -->

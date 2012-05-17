@@ -10,13 +10,12 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="99fccde4-f1ad-4827-a8ff-1846edfa1d4d" released="2012-05-16" ryppl:vcs-revision="61155ea2fc45f66c7927abd5b498245f820153da" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-polygon-61155ea" href="http://nodeload.github.com/boost-lib/polygon/zipball/61155ea2fc45f66c7927abd5b498245f820153da" size="5030003" type="application/zip"/>
-      <manifest-digest sha1new="0908a85a3250b88d8dc50e5758d48f8d9e7e3b32"/>
+    <implementation arch="*-*" id="e98eae8e-a820-4855-b3f2-cebec8f2db90" released="2012-05-15" ryppl:vcs-revision="fb7c4500aed909fd2c2769efa3b400c4203bf793" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-polygon-fb7c450" href="http://nodeload.github.com/boost-lib/polygon/zipball/fb7c4500aed909fd2c2769efa3b400c4203bf793" size="5029205" type="application/zip"/>
+      <manifest-digest sha1new="9258590134d38f7666be6787e20a0eeba6a61297"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -25,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TA8ACgkQxnV5mk56UjHbOACglreksOCf0pVnPxKvtnnrTIOy+rgAniaCcoD+
-chUP+KqU1A16T+JXbW5J
+iEYEABECAAYFAk+zSg4ACgkQxnV5mk56UjG2cwCfeO/PvGrE9vr7Weq2mFZPG/Ei3LMAoINhIZDM
+ofOxIZ3b5hBSVXCjHvxy
 
 -->

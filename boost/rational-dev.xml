@@ -10,21 +10,25 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a38f8f0f-9546-4d7f-94be-f90f83f7c134" released="2012-05-16" ryppl:vcs-revision="8242cda0a7495a0faa1a80e7bd9a995af548633e" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-rational-8242cda" href="http://nodeload.github.com/boost-lib/rational/zipball/8242cda0a7495a0faa1a80e7bd9a995af548633e" size="29114" type="application/zip"/>
-      <manifest-digest sha1new="0760418cc0e0163466fb36843bdc47fd387ec753"/>
+    <implementation arch="*-src" id="883d0781-0fd4-47d6-a810-4e04ddd9470f" released="2012-05-15" ryppl:vcs-revision="d527701f2921b77c57246ade60a88c42155bf45b" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
+      <manifest-digest sha1new="b4ff063d9351a4701e62b6fa2c099e9939df8a57"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="rational" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TBMACgkQxnV5mk56UjE3iQCgpz1gVuKHKnDVbfIe/fmEEVpQM/MAoIxY1cO+
-cFpdvfLUUeoMTYB1iDdJ
+iEYEABECAAYFAk+zShMACgkQxnV5mk56UjFNYACdE9oVP9DUWISqgoPVdDk0LtB95G8An2+k0HFh
+/h9PjL9J85p936xepK9k
 
 -->

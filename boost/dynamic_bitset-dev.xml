@@ -18,21 +18,25 @@
     dynamic_bitset.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2b5a0990-989d-41c1-a04c-57815c455e00" released="2012-05-16" ryppl:vcs-revision="4fc9b4253b7e7854324ef6b7c82e6a11ec996e4d" stability="developer" version="1.49-post-2012.05.17.0049">
-      <archive extract="boost-lib-dynamic_bitset-4fc9b42" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/4fc9b4253b7e7854324ef6b7c82e6a11ec996e4d" size="54892" type="application/zip"/>
-      <manifest-digest sha1new="0a1f4cacc0cdc63c18e3dba1a80a086164965b52"/>
+    <implementation arch="*-src" id="0a246ff5-2b3a-429c-95ff-8bfa25cbd178" released="2012-05-15" ryppl:vcs-revision="2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" stability="testing" version="1.49-post-2012.05.16.0519">
+      <archive extract="boost-lib-dynamic_bitset-2f5e9b9" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/2f5e9b99b29b178d8fe8a54a8d54c614b6a1029e" size="53595" type="application/zip"/>
+      <manifest-digest sha1new="937c502cc09795474b36d917e423cd5a26584b55"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
+        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
+        <environment insert="dynamic_bitset" mode="replace" name="BOOST_CMAKELISTS"/>
+      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0TBIACgkQxnV5mk56UjHGKQCeNOLhetYvYvPBKpqNg7871eqYPQoAoJsXnd94
-IbX1evxN9t+x+rWB/4pI
+iEYEABECAAYFAk+zSgAACgkQxnV5mk56UjFQNACfZ8fPKoI9VJNUq2q08FWbR6wXHI8An0NX/yDi
+epxfX+Ea4f930szPIO8Q
 
 -->
