@@ -14,7 +14,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories/2012">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cf152b29-5f88-486e-8224-9b922d64b4ce" released="2012-05-16" stability="developer" version="1.49-post-2012.05.16.2150">
+    <implementation arch="*-src" id="aa80d694-faf5-4a4c-bd7a-682e295004b7" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -24,14 +24,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/python-preinstall.xml">
-        <environment insert="bin" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
+        <environment insert="python/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IzYACgkQxnV5mk56UjHjjQCfXesS4CibMNxeZp52HOLl48mZ3C8Ani/JSIWO
-PhJd67IzXXY2G5UIFK7B
+iEUEABECAAYFAk+0TPIACgkQxnV5mk56UjEdqACXSJ4eizCTi5a6esaN0uSvOVnKXwCgjKBhtgVW
+CZ+Hs7tvwESjFKJ2vm8=
 
 -->

@@ -11,11 +11,13 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3cf60f07-ce41-4a3d-8143-becdae06d58a" released="2012-05-16" ryppl:vcs-revision="0426863441f1c89b41a3b97acd2e61314e9697bc" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-units-0426863" href="http://nodeload.github.com/boost-lib/units/zipball/0426863441f1c89b41a3b97acd2e61314e9697bc" size="406759" type="application/zip"/>
-      <manifest-digest sha1new="28fa90434062d49aa9f477f1b8f830b475730f9e"/>
+    <implementation arch="*-*" id="d90a6e27-346f-4974-a24c-58ae10b1f3ac" released="2012-05-16" ryppl:vcs-revision="802c9b35b78620fab2c313863c021c4329cd0065" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-units-802c9b3" href="http://nodeload.github.com/boost-lib/units/zipball/802c9b35b78620fab2c313863c021c4329cd0065" size="406769" type="application/zip"/>
+      <manifest-digest sha1new="523e3169b90ed2edb1c4af68d0d0159355013ad8"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/io-src.xml"/>
@@ -32,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IwYACgkQxnV5mk56UjGipwCfROlIipn9MtsGQrEvt8yfA4qHoIgAn0pkFVlT
-qIHL74O/6ZyvtKPnM2nu
+iEYEABECAAYFAk+0TNYACgkQxnV5mk56UjEv3gCfbfI5y4l8Ct8qTrntubXzoX3+X+kAn2wIvC+f
+zx8IbJA/pUPxTQiMu7II
 
 -->

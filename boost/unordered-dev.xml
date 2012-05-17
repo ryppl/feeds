@@ -10,9 +10,9 @@
   <description>Unordered associative containers.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="279b7440-be07-45e1-960c-c7a21f319640" released="2012-05-16" ryppl:vcs-revision="ab142770550b063d5c30021be642003203dfc0fc" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-unordered-ab14277" href="http://nodeload.github.com/boost-lib/unordered/zipball/ab142770550b063d5c30021be642003203dfc0fc" size="194865" type="application/zip"/>
-      <manifest-digest sha1new="0e03fe157bb5fe9e6b250bf415a89123608f5525"/>
+    <implementation arch="*-src" id="4df235c9-55d3-44c3-ba74-4dd059e45647" released="2012-05-16" ryppl:vcs-revision="397adf69f93c9c87d17808ede6f9357b714f72f3" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-unordered-397adf6" href="http://nodeload.github.com/boost-lib/unordered/zipball/397adf69f93c9c87d17808ede6f9357b714f72f3" size="194853" type="application/zip"/>
+      <manifest-digest sha1new="d124b245ecf9e99d43aecdf3c20db45edfdfc17f"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IkUACgkQxnV5mk56UjECDgCgo9kL0a4vrgCD2iqbU+C6eGT2B1gAn2rwd2Pe
-d7+Xl6oj0UVqa9/gVjzA
+iEYEABECAAYFAk+0TBgACgkQxnV5mk56UjEIlQCdFl2P5t/+llHgASoaDL/vSzv/PbkAnRgVUBLo
+cMs42jHJRP8HJIyri/n6
 
 -->

@@ -11,9 +11,9 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c3d186ed-7717-40cc-90e5-2f23b2f25ecd" released="2012-05-16" ryppl:vcs-revision="30591482c037965b5f7d787d85b34c52ea5ed47e" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-numeric_interval-3059148" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/30591482c037965b5f7d787d85b34c52ea5ed47e" size="120950" type="application/zip"/>
-      <manifest-digest sha1new="b0891268f66f2fc4b2f0aa9a908f1122f5e1ed53"/>
+    <implementation arch="*-src" id="c2a596be-0e9e-44a4-8113-9446d94cde69" released="2012-05-16" ryppl:vcs-revision="b0000742d2661ba4277f65a731f28d55a8e8d181" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-numeric_interval-b000074" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/b0000742d2661ba4277f65a731f28d55a8e8d181" size="120873" type="application/zip"/>
+      <manifest-digest sha1new="badac87b3ae50281db1d09e35465c4bbeaef9ea8"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IzwACgkQxnV5mk56UjGKFgCeOOH+q9W8NjHBDlzw0K4E8iHTaT4AoJchgeky
-aqfYFS58w1Yw3vtEEBJB
+iEYEABECAAYFAk+0TPcACgkQxnV5mk56UjEWUACdFgqXa5YTAt/Xj3LjkAi4zgtAlK4AnjkEsHYp
+J4/ek+xZSpVhntsTL0L3
 
 -->

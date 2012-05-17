@@ -13,18 +13,18 @@
     library.</description>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="65cc02a5-303a-4d34-97ad-025760d3ca5c" released="2012-05-16" ryppl:vcs-revision="fa2877d9e00dea12ba3d4655ec8092f64eacdc33" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-io-fa2877d" href="http://nodeload.github.com/boost-lib/io/zipball/fa2877d9e00dea12ba3d4655ec8092f64eacdc33" size="21196" type="application/zip"/>
-      <manifest-digest sha1new="9215bd79316ae7cb9ffb58696c9ed970de915023"/>
+    <implementation arch="*-*" id="02c81ac0-ca74-429a-a2e3-392ff1dd2086" released="2012-05-16" ryppl:vcs-revision="290892041f99cf190abc0fe7a6efd51a351e041b" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-io-2908920" href="http://nodeload.github.com/boost-lib/io/zipball/290892041f99cf190abc0fe7a6efd51a351e041b" size="21209" type="application/zip"/>
+      <manifest-digest sha1new="ad2699b642c3f49b6089f5760ec0272c94bd9ca2"/>
     </implementation>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0ItMACgkQxnV5mk56UjHj3ACeIGDKE8p0Sjc5xKY4LnDYxLfiZ1YAoIhtExT6
-tA0olK5QgV7nkB90SHl5
+iEYEABECAAYFAk+0TK8ACgkQxnV5mk56UjFEnQCfRL1ojAEJxCP3PWPEtwbhbxCH3QIAn1bD45r5
+hZwbNFJekzbfjUuV0bWe
 
 -->

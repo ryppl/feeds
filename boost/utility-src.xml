@@ -62,18 +62,14 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f681baa0-3e0f-4172-a575-5273b5611575" released="2012-05-16" ryppl:vcs-revision="613a265d5a0d97ac31b1b1331a0977b9fdf4309e" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-utility-613a265" href="http://nodeload.github.com/boost-lib/utility/zipball/613a265d5a0d97ac31b1b1331a0977b9fdf4309e" size="224323" type="application/zip"/>
-      <manifest-digest sha1new="28fda5fb9a9070cc37d4caa5c0cbe21bfa4636b1"/>
+    <implementation arch="*-*" id="9c52ee35-fc0a-465c-b9d7-4a5cd3c896e8" released="2012-05-16" ryppl:vcs-revision="7732c127f1ecc77b81b01d2558061d92750cf679" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-utility-7732c12" href="http://nodeload.github.com/boost-lib/utility/zipball/7732c127f1ecc77b81b01d2558061d92750cf679" size="224298" type="application/zip"/>
+      <manifest-digest sha1new="2c4bf1268a54b4d1be5aa1a742146293851861ec"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
@@ -83,7 +79,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0I3UACgkQxnV5mk56UjE/JwCfdFrhzWnyx/Pf/Pk9G4Axh05QYfQAniv19z9s
-PfGzIO8kMwNIJ257ltyF
+iEYEABECAAYFAk+0TS0ACgkQxnV5mk56UjEWXgCghRI7B5nXwmKv3CeZ4aW5f4tbDXsAn0Y+E6Nr
+kAGr9p9A/5ZdMK/wwZ+n
 
 -->

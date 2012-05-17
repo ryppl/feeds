@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/timer-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+  <name>Boost.Timer (raw source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/timer.git" type="git"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/timer/</homepage>
+  <dc:author>Beman Dawes</dc:author>
+  <description>Event timer, progress timer, and progress display
+    classes.</description>
+  <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="13c9741e-29ef-4a3b-83f1-db7c7388350c" released="2012-05-16" ryppl:vcs-revision="6dd50209b1c0cac506000fa3624d95b257a76ac1" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-timer-6dd5020" href="http://nodeload.github.com/boost-lib/timer/zipball/6dd50209b1c0cac506000fa3624d95b257a76ac1" size="40457" type="application/zip"/>
+      <manifest-digest sha1new="1fac179607b786cea8bb1aa9b3a774341d7d612c"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+0S0YACgkQxnV5mk56UjEcGACfcN6ITd+Gyxu896NX6cpdZ1RJrQ4An2+VObie
+v02wXbjPOqy7O5gCKsyn
+
+-->

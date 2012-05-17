@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="762e5dc0-302e-4cd3-87dc-b34ce0437441" released="2012-05-16" stability="developer" version="1.49-post-2012.05.16.2150">
+    <implementation arch="*-src" id="b7c9da72-4797-4593-be4c-14e690deee37" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -22,14 +22,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-math-random-regex-preinstall.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
         <environment insert="iostreams/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IXgACgkQxnV5mk56UjFYKACfVoZJ4fxecF9LLNSg05YEL1suFYgAn2QNxhoh
-lIHD4QvjwGgwNHjBgYL2
+iEYEABECAAYFAk+0S1YACgkQxnV5mk56UjG33gCeI59qKIWEPARVRP+nEcLDdKS396EAni76aUdV
+tXbfj6eUs1KH//5NW9MR
 
 -->

@@ -14,9 +14,9 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories/2012">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="de427b54-030c-45d0-86b7-a83a38fac05b" released="2012-05-16" ryppl:vcs-revision="ea617b84f420d9f1e405ad9abc6d5c2d9349ab67" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-python-ea617b8" href="http://nodeload.github.com/boost-lib/python/zipball/ea617b84f420d9f1e405ad9abc6d5c2d9349ab67" size="1220722" type="application/zip"/>
-      <manifest-digest sha1new="6dc7511320a132a1a26f8ad63a231d0aa101b10a"/>
+    <implementation arch="*-*" id="049d57c7-ca95-41b2-b6ed-314956cc3f74" released="2012-05-16" ryppl:vcs-revision="9490c23d4ff77e8a0690977f9e9ea95bde486b6d" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-python-9490c23" href="http://nodeload.github.com/boost-lib/python/zipball/9490c23d4ff77e8a0690977f9e9ea95bde486b6d" size="1220791" type="application/zip"/>
+      <manifest-digest sha1new="e2e4c8a0d4b20600b7c93c4427f6c0d37bdddee8"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/pythonlibs-dev.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
@@ -29,6 +29,7 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_conversion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
@@ -43,7 +44,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IzUACgkQxnV5mk56UjF1RwCeLP1Y9zz4fTpE9mIPuaNoblRy3PAAn2VYDnow
-A4rnppYqg8+EEhmHN9Oq
+iEYEABECAAYFAk+0TPsACgkQxnV5mk56UjHZQQCeJL3wLWAavtN40qMQgp5eVip9TyEAnjbbHIrs
+JhvOj0p/nwwKS7IfweLz
 
 -->

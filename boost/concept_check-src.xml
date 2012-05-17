@@ -12,13 +12,14 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="7fea4034-9bf4-487e-86ce-58e65728e940" released="2012-05-16" ryppl:vcs-revision="0f685b8aa0dc851304b90b84db566b3eeec05bed" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-concept_check-0f685b8" href="http://nodeload.github.com/boost-lib/concept_check/zipball/0f685b8aa0dc851304b90b84db566b3eeec05bed" size="79920" type="application/zip"/>
-      <manifest-digest sha1new="560c81555bbe95f698c90dffe1ad99331a40b346"/>
+    <implementation arch="*-*" id="a99a59b3-ecd5-4a49-9d77-b4ac2d624284" released="2012-05-16" ryppl:vcs-revision="8076333482b0eaf1890f7b9a8a44ae620c1301a9" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-concept_check-8076333" href="http://nodeload.github.com/boost-lib/concept_check/zipball/8076333482b0eaf1890f7b9a8a44ae620c1301a9" size="79922" type="application/zip"/>
+      <manifest-digest sha1new="66860ab2121fc365fb6df23c42b7c33474b29e71"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/parameter-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
@@ -28,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IswACgkQxnV5mk56UjH+LACgiYL+/YCbe84adNjbcv/6X8uK1XoAoIOPRYpx
-GlOM7C9XPcPmO+lMMmYH
+iEYEABECAAYFAk+0TKQACgkQxnV5mk56UjFQaACfWJqMBizNQVlGIxNmKbsf5HePHYwAnR+sWuHG
+QMgaZ3XyHc3I7nZGLpTV
 
 -->

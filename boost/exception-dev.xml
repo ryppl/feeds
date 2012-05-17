@@ -12,9 +12,9 @@
     exceptions between threads.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="06f0ea57-2e90-4b9a-a0f8-8bb8c00311e0" released="2012-05-16" ryppl:vcs-revision="692c5d538ee8b2a9761794a2aa12d2f161825ecc" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-exception-692c5d5" href="http://nodeload.github.com/boost-lib/exception/zipball/692c5d538ee8b2a9761794a2aa12d2f161825ecc" size="232319" type="application/zip"/>
-      <manifest-digest sha1new="f0a06a7b118971984bfb71b1ea7c4cdf928c9566"/>
+    <implementation arch="*-src" id="98d3e616-828f-4ba9-a200-8ab43dca8ff2" released="2012-05-16" ryppl:vcs-revision="011d49a1dbfb881a0fb98405335f32889fa382e8" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-exception-011d49a" href="http://nodeload.github.com/boost-lib/exception/zipball/011d49a1dbfb881a0fb98405335f32889fa382e8" size="232320" type="application/zip"/>
+      <manifest-digest sha1new="5358d3e6a9f19be40e231960440324a1ed2f5d5b"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IiQACgkQxnV5mk56UjEFWACgpvOi/gXZREz7lecL3xoR/nyBmw8An1iSd++b
-NWiJUt6+1iosTH8o+E7Z
+iEYEABECAAYFAk+0S/UACgkQxnV5mk56UjEangCgh+IfHaCjTEwNzXvHREE/n7qvywEAnA+63WO5
+/0sm4AVgVdaOKtuPqFaX
 
 -->

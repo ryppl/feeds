@@ -18,13 +18,12 @@
     dynamic_bitset.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1c45c356-554a-4ea8-8f96-bf54a26590dd" released="2012-05-16" ryppl:vcs-revision="d04d77644d59568151ff2d5625cdfbfe7e4d33c9" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-dynamic_bitset-d04d776" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/d04d77644d59568151ff2d5625cdfbfe7e4d33c9" size="54049" type="application/zip"/>
-      <manifest-digest sha1new="2b3a13e6754e7d9bb055cb578299efd1f6c1657a"/>
+    <implementation arch="*-*" id="1ab3c6fa-9f6c-465c-9163-54e43bb8bbbd" released="2012-05-16" ryppl:vcs-revision="4fc9b4253b7e7854324ef6b7c82e6a11ec996e4d" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-dynamic_bitset-4fc9b42" href="http://nodeload.github.com/boost-lib/dynamic_bitset/zipball/4fc9b4253b7e7854324ef6b7c82e6a11ec996e4d" size="54892" type="application/zip"/>
+      <manifest-digest sha1new="0a1f4cacc0cdc63c18e3dba1a80a086164965b52"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -32,7 +31,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IkEACgkQxnV5mk56UjHI3gCgmw0zdSnqjHWmyIj/hnvBnZbkcJgAoJfQgT+H
-KHAQY8ihs+zsXHtX7jea
+iEYEABECAAYFAk+0TBEACgkQxnV5mk56UjE3jQCfXcXPT/sfz8m9JLDICSHQpGbn2MEAni/KlIEs
+8uKV6kuIS8MlPQT4YTBG
 
 -->

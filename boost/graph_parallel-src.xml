@@ -11,21 +11,43 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e318f202-158d-42a8-8586-b043f285c51e" released="2012-05-16" ryppl:vcs-revision="5d8c2d5253d67398f2cd4dbdce86008d25610137" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-graph_parallel-5d8c2d5" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/5d8c2d5253d67398f2cd4dbdce86008d25610137" size="1101086" type="application/zip"/>
-      <manifest-digest sha1new="9fbb22726367b790e126c860e45ef7ba91be820f"/>
+    <implementation arch="*-*" id="9574b570-fcc3-4e4d-97a5-6ea8f976293e" released="2012-05-16" ryppl:vcs-revision="e92e818e1dd8a1f1d392bbc768b291dc05c5d924" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-graph_parallel-e92e818" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/e92e818e1dd8a1f1d392bbc768b291dc05c5d924" size="1101255" type="application/zip"/>
+      <manifest-digest sha1new="54108822bf188fe008de59b2f3ab77f04b30aaad"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpi-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/variant-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/random-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/property_map-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/disjoint_sets-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpi-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/mpi-dev.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/dynamic_bitset-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/filesystem-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IwAACgkQxnV5mk56UjHD0ACdHzqKu0jol6CcyRhmA8X8lVKcpjkAn3Pj6r9o
-8F5g1KJj0Kgp5aTNhsRl
+iEYEABECAAYFAk+0TNcACgkQxnV5mk56UjHmGgCePpulRblcQy8OTpIJeKAyPXfOU6YAn1tX0dQy
+F4hiupil3umjKkhkY5Vh
 
 -->

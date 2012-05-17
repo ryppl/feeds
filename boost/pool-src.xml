@@ -10,22 +10,24 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e4dd78ec-013c-4f93-aa5c-b18d4fee6a97" released="2012-05-16" ryppl:vcs-revision="22b0d9ddb3e0a4a4a0e5eb9d13a8e76c19d171e2" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-pool-22b0d9d" href="http://nodeload.github.com/boost-lib/pool/zipball/22b0d9ddb3e0a4a4a0e5eb9d13a8e76c19d171e2" size="1045035" type="application/zip"/>
-      <manifest-digest sha1new="f4e613c196079d12a2b5f2390889e6c83bc48201"/>
+    <implementation arch="*-*" id="ac7e0fe7-c096-4aa6-8494-2c63ef4fafc4" released="2012-05-16" ryppl:vcs-revision="28cd9d10c579d4dd1122a15904d5ff9dcd225706" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-pool-28cd9d1" href="http://nodeload.github.com/boost-lib/pool/zipball/28cd9d10c579d4dd1122a15904d5ff9dcd225706" size="1045042" type="application/zip"/>
+      <manifest-digest sha1new="c3d54a930f9756a18476bafe90dc829c167cce69"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/thread-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0I24ACgkQxnV5mk56UjGDQwCfdAtBq2lYUFCnRa2v6rH4ju2rcscAn0cV9cFQ
-tki3Qs4fZhtpHAQant72
+iEYEABECAAYFAk+0TSkACgkQxnV5mk56UjGWggCgiVdNp5RfiSeKF6NXih1iPavoa1oAn2AibvTD
+MAlWCnyWCG08a46PAxJn
 
 -->

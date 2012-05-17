@@ -12,7 +12,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="41f300cb-d6aa-41c2-9254-7fcad2dee395" released="2012-05-16" stability="developer" version="1.49-post-2012.05.16.2150">
+    <implementation arch="*-src" id="be61861f-80e5-45e6-b780-6d9ee22d18d7" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -22,14 +22,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpi-preinstall.xml">
-        <environment insert="bin" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
+        <environment insert="mpi/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0InoACgkQxnV5mk56UjEhqwCbBSzGYV8NB9HgobaygR/fXJeh/qwAni99bbbu
-KS0if7BjxuZLZ9tyOM+I
+iEYEABECAAYFAk+0TEsACgkQxnV5mk56UjFK3ACdEkLyyFl7PIvtR3YhfAlvlJdqxwwAnj9gMqJ4
+H+eBR99lLLfRBSfQaOZ9
 
 -->

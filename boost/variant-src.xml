@@ -13,14 +13,15 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="10e8c710-2eb9-4935-94c5-79748e27d174" released="2012-05-16" ryppl:vcs-revision="4ecab4c0d3eb5da2583dabe37de491ec6de67f29" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-variant-4ecab4c" href="http://nodeload.github.com/boost-lib/variant/zipball/4ecab4c0d3eb5da2583dabe37de491ec6de67f29" size="107564" type="application/zip"/>
-      <manifest-digest sha1new="a180665efb2c25ce5ca6c9cac106c18d99f6f9f7"/>
+    <implementation arch="*-*" id="65453a83-78ab-4871-820d-ea561d6323b7" released="2012-05-16" ryppl:vcs-revision="7183a4a732a541f0418e90a251bb5f792781a173" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-variant-7183a4a" href="http://nodeload.github.com/boost-lib/variant/zipball/7183a4a732a541f0418e90a251bb5f792781a173" size="107567" type="application/zip"/>
+      <manifest-digest sha1new="e2d2d70219621f2ae1763e237d8395a156f2e36f"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
@@ -31,7 +32,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0Is8ACgkQxnV5mk56UjF2OQCgg8oqKkMwh1D+8D7TdtVxOumWlakAn19szCpx
-eA4FktU//j4XWTgRLGa7
+iEYEABECAAYFAk+0TKgACgkQxnV5mk56UjF8gwCfWxp3YlHyhx4ZarNfK14dM/JgC/QAoJrtw0JI
+1LN3dfZ5BBRLc76Glwxh
 
 -->

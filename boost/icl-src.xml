@@ -12,14 +12,14 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3a3e6bf1-0a51-4bcd-89ff-577d7ed17614" released="2012-05-16" ryppl:vcs-revision="5a6d85c53819d38cbf0c32285de696f0a0e4acf5" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-icl-5a6d85c" href="http://nodeload.github.com/boost-lib/icl/zipball/5a6d85c53819d38cbf0c32285de696f0a0e4acf5" size="4147483" type="application/zip"/>
-      <manifest-digest sha1new="6b06dfe0886bd33e483bc228f3998a6e62bbe4ea"/>
+    <implementation arch="*-*" id="fb687bf7-26c7-48d4-a7a7-2f5b69eb9795" released="2012-05-16" ryppl:vcs-revision="0f64ddaf73e571f3b95f545a620399da6d1e4ad8" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-icl-0f64dda" href="http://nodeload.github.com/boost-lib/icl/zipball/0f64ddaf73e571f3b95f545a620399da6d1e4ad8" size="4147476" type="application/zip"/>
+      <manifest-digest sha1new="e800bbed941eadd15897379ecf0ffa74448e5013"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/interprocess-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/move-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/rational-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
@@ -34,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IVQACgkQxnV5mk56UjE6hACeNw6ewr3zJMh+eG9q1MhE0nmNX7MAn2wCPFxM
-bXi381Aj1oqVlJPQpgg/
+iEYEABECAAYFAk+0Sz8ACgkQxnV5mk56UjFNiwCeMyXqco40iTKiD5bUjwbWTNpo8YMAn0+PEA70
+u/hzTBCa+EymM8roLB6x
 
 -->

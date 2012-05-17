@@ -10,7 +10,7 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="79df35ee-4ba0-4264-abf7-b36f00100840" released="2012-05-16" stability="developer" version="1.49-post-2012.05.16.2150">
+    <implementation arch="*-src" id="7a52d2a5-f7b7-4c31-b564-73dfb4ead1e1" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -20,14 +20,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-math-random-regex-preinstall.xml">
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
         <environment insert="regex/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0I38ACgkQxnV5mk56UjHeRQCfR6KJ3QTBLniPI4VnZ4uCe4iw1DgAoJEeETjC
-ORT/U+hmaQmzukpkg4sN
+iEYEABECAAYFAk+0TTcACgkQxnV5mk56UjGusACfTxEc27xu3GOvr/B0UV6iF/dXO8EAniYlnhiE
+kVvrXCmozFZV/kNIMk26
 
 -->

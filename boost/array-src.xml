@@ -11,12 +11,14 @@
     constant size.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="950a1c77-811e-412a-b58a-6477bc55f351" released="2012-05-16" ryppl:vcs-revision="b3fbbfa5a3b394d9e448a598c703f71d7d7a7746" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-array-b3fbbfa" href="http://nodeload.github.com/boost-lib/array/zipball/b3fbbfa5a3b394d9e448a598c703f71d7d7a7746" size="17835" type="application/zip"/>
-      <manifest-digest sha1new="5a2f4427c01e8563b171498dc92f79e3475555cf"/>
+    <implementation arch="*-*" id="231823c5-bd66-4ad6-a1be-3a49c3bb4381" released="2012-05-16" ryppl:vcs-revision="4ea55c0c3b14b88661460d8cdf97c0198ddf607f" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-array-4ea55c0" href="http://nodeload.github.com/boost-lib/array/zipball/4ea55c0c3b14b88661460d8cdf97c0198ddf607f" size="17849" type="application/zip"/>
+      <manifest-digest sha1new="d0055d38659773d1a07d1d4994412818f5caa4d0"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -24,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IpMACgkQxnV5mk56UjE8nACfQ/sJkAbc+gL6zrT4tPjeNmEjOeUAn217pNoM
-YxdF0Onq8uuQ2T/QBxdj
+iEYEABECAAYFAk+0TGUACgkQxnV5mk56UjFxdgCfVVSelfUEuH5WKc9QyuimUa64QHYAn0RuKkEi
+L5teIDT1ZYe6Ktnmj4n5
 
 -->

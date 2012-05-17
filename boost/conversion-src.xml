@@ -12,15 +12,16 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="8c21c6f2-8b8b-422f-a38a-11fdb9a3876f" released="2012-05-16" ryppl:vcs-revision="50fe9344abd1596669bcc264e22e6d2cb05cf991" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-conversion-50fe934" href="http://nodeload.github.com/boost-lib/conversion/zipball/50fe9344abd1596669bcc264e22e6d2cb05cf991" size="72659" type="application/zip"/>
-      <manifest-digest sha1new="8cec8c61e74579d095a1956cbe9bd515fdf6575e"/>
+    <implementation arch="*-*" id="efc1d25a-f785-4e69-8b4d-641f0ad2da2c" released="2012-05-16" ryppl:vcs-revision="614533873b83308dececd257a26bd0aa8523571d" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-conversion-6145338" href="http://nodeload.github.com/boost-lib/conversion/zipball/614533873b83308dececd257a26bd0aa8523571d" size="72660" type="application/zip"/>
+      <manifest-digest sha1new="596037c45b4ea1d06d94fc1602ea1977a09eaba3"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_conversion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
@@ -34,7 +35,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IkMACgkQxnV5mk56UjH0jwCeIQTo7oBmvmxhpA1ksMJpRWBblDwAn1JKn3Wo
-zfl0xZ51wqli1TcWQmne
+iEYEABECAAYFAk+0TBQACgkQxnV5mk56UjGzoQCcD4d3OCQAmCebDs4FUbqcpuv155EAn3NdzAN0
+uZs/3rWLwBkeimBiPez5
 
 -->

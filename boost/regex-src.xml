@@ -10,17 +10,16 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d15cb544-eb57-4dae-80aa-5d007cb7b0cd" released="2012-05-16" ryppl:vcs-revision="ea676c7a0b9734ec442f1b3a0b1dab0abce771ad" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-regex-ea676c7" href="http://nodeload.github.com/boost-lib/regex/zipball/ea676c7a0b9734ec442f1b3a0b1dab0abce771ad" size="819387" type="application/zip"/>
-      <manifest-digest sha1new="d0d637c3f2fa0cc8b02fe4fd402054a2f30ab0cd"/>
+    <implementation arch="*-*" id="ea458761-8d3c-4799-a29b-068c1a40eec1" released="2012-05-16" ryppl:vcs-revision="94329af3bad2cf87c6c4cd9fec554cb95e1e7d75" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-regex-94329af" href="http://nodeload.github.com/boost-lib/regex/zipball/94329af3bad2cf87c6c4cd9fec554cb95e1e7d75" size="819380" type="application/zip"/>
+      <manifest-digest sha1new="0ff0a319916b5dde3c50453af8629de6a51b86b1"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/xpressive-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
@@ -34,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0I4MACgkQxnV5mk56UjE2rQCfeZjpQnJgIhYlcegt/s/LPvep8fUAn0Ejx++u
-98NRgNn6zhC7fDzQBQdg
+iEYEABECAAYFAk+0TTwACgkQxnV5mk56UjFzlwCgpOk/KuT2QTlmAHN0VcKs0txnIjUAoINNDi+4
+csAfi6SaMCR8uV20lrKC
 
 -->

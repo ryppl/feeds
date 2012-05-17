@@ -11,9 +11,9 @@
     different value types.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="cda796c1-8ffb-4d5a-88ce-2ff16f03f2b3" released="2012-05-16" ryppl:vcs-revision="02e2ee24311d632348406ca1f973e4efa6b0dbb7" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-any-02e2ee2" href="http://nodeload.github.com/boost-lib/any/zipball/02e2ee24311d632348406ca1f973e4efa6b0dbb7" size="14553" type="application/zip"/>
-      <manifest-digest sha1new="829d313d6bc97c1a10f92c5aa71aa05582c30b80"/>
+    <implementation arch="*-src" id="a84bda9d-998d-4d58-a253-91b8db1badfc" released="2012-05-16" ryppl:vcs-revision="13889e10a6805d6d7d97603290fb4b374404f56e" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-any-13889e1" href="http://nodeload.github.com/boost-lib/any/zipball/13889e10a6805d6d7d97603290fb4b374404f56e" size="14553" type="application/zip"/>
+      <manifest-digest sha1new="c47d0b721319d70383a06c0c714c7d59b91f4b12"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0I3IACgkQxnV5mk56UjFZRACfbl9gzbreYJ7SyKK7FJLSPlXVowsAn1y9toEd
-Z2KglJU/qoaxwLZ5LGtJ
+iEYEABECAAYFAk+0TSoACgkQxnV5mk56UjFPGQCgp8sxSdB/ZRaup29T+kubFbRb8fkAoKl2IJMr
+Cl3IfPys1GIEl2+U2Y2u
 
 -->

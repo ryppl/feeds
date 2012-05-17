@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0b311fac-e5f2-4460-86ca-b088baeba113" released="2012-05-16" stability="developer" version="1.49-post-2012.05.16.2150">
+    <implementation arch="*-src" id="221df325-48e9-477e-9a8d-b4d377cb8529" released="2012-05-16" stability="developer" version="1.49-post-2012.05.17.0049">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -22,14 +22,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-preinstall.xml">
-        <environment insert="dev" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-date_time-filesystem-graph-graph_parallel-iostreams-mpi-math-python-random-regex-serialization-system-test-thread-timer-preinstall.xml">
+        <environment insert="date_time/dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IioACgkQxnV5mk56UjFQwwCePRVQty9yncNtIiy4tcuc1fD57rYAoJRy/feb
-FPL8JhzBz9fd1eKvzNLu
+iEYEABECAAYFAk+0S/gACgkQxnV5mk56UjGA1QCfTL90URwVAFa1eyyly1+W1zTX1E0AoIcBG/d7
+4vkioqqmA75X8bn3ieMT
 
 -->

@@ -10,12 +10,14 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a4e3941f-e229-41d3-a64b-4e09ff8dde7b" released="2012-05-16" ryppl:vcs-revision="39c243dfef5b664aa9de3eb12fcd970b5e89a123" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-rational-39c243d" href="http://nodeload.github.com/boost-lib/rational/zipball/39c243dfef5b664aa9de3eb12fcd970b5e89a123" size="29107" type="application/zip"/>
-      <manifest-digest sha1new="c72cccfbed121eb09caa1f8f063a7b77456f6e16"/>
+    <implementation arch="*-*" id="7886181a-84f8-43a2-b49c-a8e989c58a3d" released="2012-05-16" ryppl:vcs-revision="8242cda0a7495a0faa1a80e7bd9a995af548633e" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-rational-8242cda" href="http://nodeload.github.com/boost-lib/rational/zipball/8242cda0a7495a0faa1a80e7bd9a995af548633e" size="29114" type="application/zip"/>
+      <manifest-digest sha1new="0760418cc0e0163466fb36843bdc47fd387ec753"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -24,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IkIACgkQxnV5mk56UjHGkQCfW/7lgsoA1Yep9VYGgvFiD2Rayf0AoJ/pW1QF
-3Is54CjsZJ5mNQDxUfDa
+iEYEABECAAYFAk+0TBMACgkQxnV5mk56UjFZlgCfcsa+E3zVvgdn3HTAD6Zhjgud0ucAoJUu8aXd
+7HvhO+GK+AUj2m/sgDxP
 
 -->

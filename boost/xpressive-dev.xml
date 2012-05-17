@@ -13,9 +13,9 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="34535720-e721-4212-b6da-89982aec4e40" released="2012-05-16" ryppl:vcs-revision="591111857e9ff4672069351e0c9a541a3e1b04be" stability="developer" version="1.49-post-2012.05.16.2150">
-      <archive extract="boost-lib-xpressive-5911118" href="http://nodeload.github.com/boost-lib/xpressive/zipball/591111857e9ff4672069351e0c9a541a3e1b04be" size="368788" type="application/zip"/>
-      <manifest-digest sha1new="eafe5ce4e124138cbb3811bf8d0053d57cd303c3"/>
+    <implementation arch="*-src" id="adcc00c8-07c6-4dcb-8e11-8f0398829eb9" released="2012-05-16" ryppl:vcs-revision="2da6c02064df727874a5ac8744ed9e1d1d6ee1a5" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-xpressive-2da6c02" href="http://nodeload.github.com/boost-lib/xpressive/zipball/2da6c02064df727874a5ac8744ed9e1d1d6ee1a5" size="368822" type="application/zip"/>
+      <manifest-digest sha1new="e119dbc80541fe76b86f8e30316003be7c80186c"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IwsACgkQxnV5mk56UjH3UQCfWxykfGte5dXfeF16ntedk13eCS8AnR0pO3iz
-1yWt5b5c1j4wmI1dRHXV
+iEYEABECAAYFAk+0TNoACgkQxnV5mk56UjEY5gCeLSywgQWUCNGA0PQS3q4mqCeshREAn2D8CWDQ
+4hKVxEb3k75WGFvGe/GK
 
 -->

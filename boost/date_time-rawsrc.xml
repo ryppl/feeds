@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+  <name>Boost.DateTime (raw source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/date_time.git" type="git"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/date_time/</homepage>
+  <dc:author>Jeff Garland</dc:author>
+  <description>A set of date-time libraries based on generic
+    programming concepts.</description>
+  <category type="http://boost.org/lib-categories/2012">Domain</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="2f17f9c8-b875-4af4-9c3a-19b4fa2bd45b" released="2012-05-16" ryppl:vcs-revision="ded465223f1817e5aeaabd7f185e8b09cadebda9" stability="developer" version="1.49-post-2012.05.17.0049">
+      <archive extract="boost-lib-date_time-ded4652" href="http://nodeload.github.com/boost-lib/date_time/zipball/ded465223f1817e5aeaabd7f185e8b09cadebda9" size="496908" type="application/zip"/>
+      <manifest-digest sha1new="6f7c910ced37feb74da12439f83c70ff055b540f"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+0S/wACgkQxnV5mk56UjEQqgCfdCuTTTEAajQHkIyA2mshT7P1h3kAnisaeR62
+DoJwGs1IbeP86Anr9NfK
+
+-->
