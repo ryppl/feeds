@@ -14,9 +14,9 @@
   <category type="http://boost.org/lib-categories/2012">Programming</category>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c9b227ea-9dae-4cb2-9922-10151488fe15" released="2012-05-15" ryppl:vcs-revision="5a72da5a8ce632915588fb208de0fd82a7e6da60" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-parameter-5a72da5" href="http://nodeload.github.com/boost-lib/parameter/zipball/5a72da5a8ce632915588fb208de0fd82a7e6da60" size="168876" type="application/zip"/>
-      <manifest-digest sha1new="f14d8172a5fa047a5abe507fdd8c9acea4c67eb7"/>
+    <implementation arch="*-*" id="84847dd7-800b-4d3a-80ab-8faa5a773c28" released="2012-05-18" ryppl:vcs-revision="68f4a426082ff74224a2a39862c002828d63db23" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-parameter-68f4a42" href="http://nodeload.github.com/boost-lib/parameter/zipball/68f4a426082ff74224a2a39862c002828d63db23" size="169886" type="application/zip"/>
+      <manifest-digest sha1new="2e702f7dac1d0072a1588d80c37794ad37783e22"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-src.xml"/>
@@ -27,12 +27,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/python-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSg0ACgkQxnV5mk56UjG5MgCeOEU1toGxWQZNNzyYH4vWsHIXTAwAoI4Gk4P5
-9+WF6oyWwkl0kPzudQOe
+iEYEABECAAYFAk+2XAsACgkQxnV5mk56UjEPVwCdE39rVWrNjgPAJ74EVUnlifjYHh8An0VOCFlU
+W8pbtPcbONg6kJ2pn4Jl
 
 -->

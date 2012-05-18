@@ -11,11 +11,12 @@
     has never been easier.</description>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="eadae92f-fd8f-4c18-9616-637e282b4324" released="2012-05-15" ryppl:vcs-revision="142ad90451a0d197a41d950eaadee0d04e6f992a" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-assign-142ad90" href="http://nodeload.github.com/boost-lib/assign/zipball/142ad90451a0d197a41d950eaadee0d04e6f992a" size="62393" type="application/zip"/>
-      <manifest-digest sha1new="34f27856715b1e35ea611b9a093beb6aa9a21a08"/>
+    <implementation arch="*-*" id="1873a7f9-f5df-49e2-bec6-baaf94baeff3" released="2012-05-18" ryppl:vcs-revision="380beef01421a410d8ba0786713167e46122ff5b" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-assign-380beef" href="http://nodeload.github.com/boost-lib/assign/zipball/380beef01421a410d8ba0786713167e46122ff5b" size="63339" type="application/zip"/>
+      <manifest-digest sha1new="0fe2acd1d402fc066041c8da512f6a393a319887"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
@@ -26,14 +27,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSfsACgkQxnV5mk56UjHE9QCcDWBpLg54WCE9I95/iRI/+Smr1vIAnR1Uj9qK
-Dfo0nTQ9ooNv+P5885bp
+iEYEABECAAYFAk+2XKUACgkQxnV5mk56UjE/+wCfSTaVE2VV5qbJHb52DaWGQwNOkkwAni6u/oHy
+rJuIupDIN04EhNt5PTTn
 
 -->

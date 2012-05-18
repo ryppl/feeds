@@ -14,9 +14,9 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="bee9a658-38e8-433e-8cbd-276fb8bce927" released="2012-05-15" ryppl:vcs-revision="cc2dd84632c97f1f8e535ae256c4c25de5159052" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-fusion-cc2dd84" href="http://nodeload.github.com/boost-lib/fusion/zipball/cc2dd84632c97f1f8e535ae256c4c25de5159052" size="1209623" type="application/zip"/>
-      <manifest-digest sha1new="5cc643bcf37e5e8425cd84c3fa6e7c8c61af410b"/>
+    <implementation arch="*-*" id="0d4a08b9-70dc-4078-b22b-2108a270c62e" released="2012-05-18" ryppl:vcs-revision="c13b5b11df39859a317d1c7cd010da54efd84177" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-fusion-c13b5b1" href="http://nodeload.github.com/boost-lib/fusion/zipball/c13b5b11df39859a317d1c7cd010da54efd84177" size="1212286" type="application/zip"/>
+      <manifest-digest sha1new="48ace7090bb4615b5716e67eb076e3b8189dc351"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function_types-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
@@ -30,12 +30,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/any-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgMACgkQxnV5mk56UjFPEwCfSua5necWao6s3sB/IIghQGnRKYoAnAmt30m1
-30Tip73z803/3dCx6463
+iEYEABECAAYFAk+2XBsACgkQxnV5mk56UjGYFwCfYV6kAMdihTevVITlqQAe2f32VlYAnA+Vb3R1
+Bu8I9e8PpR/azZQ5nPvm
 
 -->

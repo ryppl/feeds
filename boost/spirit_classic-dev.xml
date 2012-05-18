@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/spirit_classic-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+  <name>Boost.SpiritClassic (development files)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/spirit_classic.git" type="git"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-src" id="ac1dc3fe-c74c-4ebd-9065-3bc5bf2ce7ca" released="2012-05-18" ryppl:vcs-revision="fb88d8801e3f05adf15a4c2ce85f0512d08bb403" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-spirit_classic-fb88d88" href="http://nodeload.github.com/boost-lib/spirit_classic/zipball/fb88d8801e3f05adf15a4c2ce85f0512d08bb403" size="1255241" type="application/zip"/>
+      <manifest-digest sha1new="2f8fb623f04ca43b42330faa4b9a2f56a489e08e"/>
+    </implementation>
+    <command name="compile">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+        <arg>0install-cmake</arg>
+        <arg>dev</arg>
+      </runner>
+      <compile:implementation arch="*-*"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+2XE8ACgkQxnV5mk56UjGDEgCfaAuuqildnbhg7EGFzaFjyrA/9XcAn1QEwVTr
+y7tBgB5vFOJvKqThCLv9
+
+-->

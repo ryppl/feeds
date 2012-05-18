@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph_parallel-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+  <name>Boost.GraphParallel (raw source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/graph_parallel.git" type="git"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="7fbf8914-ac45-483d-a81b-8156afb5bc82" released="2012-05-18" ryppl:vcs-revision="f4ce9bf680aba726fdf8984cb24ebe603a5110cc" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-graph_parallel-f4ce9bf" href="http://nodeload.github.com/boost-lib/graph_parallel/zipball/f4ce9bf680aba726fdf8984cb24ebe603a5110cc" size="1103103" type="application/zip"/>
+      <manifest-digest sha1new="65b77a0444b63dc20e9c3c3380e036df9d164e0c"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+2XH8ACgkQxnV5mk56UjEaIACeJh/sHLyuwWPwvq7G2Hr2/IzE7HsAnj7ib6iR
+qFF5Hj6qfJF2OKMwGWZs
+
+-->

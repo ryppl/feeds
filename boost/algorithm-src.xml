@@ -21,30 +21,31 @@ String algorithms library.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="0669a02a-c14c-4cb1-b9db-34318a6e48d2" released="2012-05-15" ryppl:vcs-revision="5d1155b55cd05273003fb641147aa9db044e05e1" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-algorithm-5d1155b" href="http://nodeload.github.com/boost-lib/algorithm/zipball/5d1155b55cd05273003fb641147aa9db044e05e1" size="1736724" type="application/zip"/>
-      <manifest-digest sha1new="0e2c7e509caddc29f620046b2cb7c02c56f71b32"/>
+    <implementation arch="*-*" id="1031f696-b49e-49e3-b8fe-ae2ff4488d16" released="2012-05-18" ryppl:vcs-revision="42a37952dc21dcfcd58f0397a6d4ca5ea5a03b29" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-algorithm-42a3795" href="http://nodeload.github.com/boost-lib/algorithm/zipball/42a37952dc21dcfcd58f0397a6d4ca5ea5a03b29" size="1739402" type="application/zip"/>
+      <manifest-digest sha1new="00f4167d3ed499e9774d9c546ca0ef4690219f33"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tr1-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/timer-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSfoACgkQxnV5mk56UjHOiACgjmTzRfJwb/WV8DfoA3EOnjkJav0AnjbR6tle
-JK41RX988xjlwv33Ysb0
+iEYEABECAAYFAk+2XK0ACgkQxnV5mk56UjGvHACghdnIvS5Gb75BficWnUMu4aciTYkAoJgwGxFo
+7Ba2YN4FRStg6rgGKxBN
 
 -->

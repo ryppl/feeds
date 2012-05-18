@@ -16,7 +16,7 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8db2714d-57dd-400c-95a4-673cd38c2c2f" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="967e3808-8a6e-4ce0-8963-207e0308186b" released="2012-05-18" stability="developer" version="1.49-post-2012.05.18.1421">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -26,14 +26,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-preinstall.xml">
-        <environment insert="bin" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-graph_parallel-mpi-python-preinstall.xml">
+        <environment insert="graph/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgQACgkQxnV5mk56UjGXQwCfcoG6ZeOTjSnRzD+xWLd7NXFdjqAAnjmlY2Cu
-/z2Ni0yuhD3oiXRAxdyQ
+iEYEABECAAYFAk+2WyQACgkQxnV5mk56UjHpJwCgjLxYqO2TQlC0v6IViUefyux7cyQAoJM8bxZc
+i5gzNRHrHbEov6Rz/lOE
 
 -->

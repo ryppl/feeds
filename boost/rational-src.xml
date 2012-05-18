@@ -10,21 +10,22 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="46feb39d-9f04-4664-8baf-8967d389d862" released="2012-05-15" ryppl:vcs-revision="d527701f2921b77c57246ade60a88c42155bf45b" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-rational-d527701" href="http://nodeload.github.com/boost-lib/rational/zipball/d527701f2921b77c57246ade60a88c42155bf45b" size="28289" type="application/zip"/>
-      <manifest-digest sha1new="b4ff063d9351a4701e62b6fa2c099e9939df8a57"/>
+    <implementation arch="*-*" id="32f0bb51-70ce-4725-aedc-2bc15a50ced6" released="2012-05-18" ryppl:vcs-revision="8242cda0a7495a0faa1a80e7bd9a995af548633e" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-rational-8242cda" href="http://nodeload.github.com/boost-lib/rational/zipball/8242cda0a7495a0faa1a80e7bd9a995af548633e" size="29114" type="application/zip"/>
+      <manifest-digest sha1new="0760418cc0e0163466fb36843bdc47fd387ec753"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShMACgkQxnV5mk56UjG3DwCePxGs+IiKtTZ9krwsI9rEPmJZYpsAn23LCBj9
-bNpE8nTzKvqdn9cwU49Z
+iEYEABECAAYFAk+2W+MACgkQxnV5mk56UjEVuQCffOgHeLniV4Y5HTAZBGwHhvuquG4An2/Ie21O
+SFUpjjhUG9eKgAH20DLl
 
 -->

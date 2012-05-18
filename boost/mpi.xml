@@ -12,7 +12,7 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c70927a-bb3e-4320-9495-33717b91e127" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="b98a9617-31cd-4370-aee3-142955390938" released="2012-05-18" stability="developer" version="1.49-post-2012.05.18.1421">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -22,14 +22,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpi-preinstall.xml">
-        <environment insert="bin" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-graph_parallel-mpi-python-preinstall.xml">
+        <environment insert="mpi/bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgsACgkQxnV5mk56UjGXBQCfbEfvVW5m08L5T2JgufVJHwkCxNEAoJTKyOLz
-SiSPyetqAyEuuX2XKA7W
+iEYEABECAAYFAk+2XBEACgkQxnV5mk56UjFdMQCaAmP65TaSjvoCf3Gakkzc+gvXxYAAn1NxamZA
+hjBzuyQd1hCQejMhj/9P
 
 -->

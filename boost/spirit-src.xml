@@ -14,32 +14,32 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="de4a6c4d-a163-4ade-961a-c45eaa6b6d5c" released="2012-05-15" ryppl:vcs-revision="a3b48cc9cebc73d6293fd469f442d1ed46fb771c" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-spirit-a3b48cc" href="http://nodeload.github.com/boost-lib/spirit/zipball/a3b48cc9cebc73d6293fd469f442d1ed46fb771c" size="4519465" type="application/zip"/>
-      <manifest-digest sha1new="cbd47ac6a45a0c1f4f6774f32f513169bcb17827"/>
+    <implementation arch="*-*" id="00a1f6c6-6040-4840-80fc-772e9884a1b7" released="2012-05-18" ryppl:vcs-revision="c254017e64fef43f696db769e01ff3b5d39ee68f" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-spirit-c254017" href="http://nodeload.github.com/boost-lib/spirit/zipball/c254017e64fef43f696db769e01ff3b5d39ee68f" size="3271235" type="application/zip"/>
+      <manifest-digest sha1new="57bc2ae2f1a0192d80ef5efc33ba5a8909d452d8"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/variant-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/unordered-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/assign-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/io-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/algorithm-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/proto-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/phoenix-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/format-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/spirit_classic-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/pool-src.xml"/>
@@ -56,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShYACgkQxnV5mk56UjGyjgCeJ91jRq2zVnsIXI+Bn3DlBgUYj5wAn33ynVoK
-Bju+MSHFpkXGz1d/1r81
+iEYEABECAAYFAk+2XDwACgkQxnV5mk56UjFVCgCfWkkt9zCmUgZsZyCIYPfbKXje22wAn3uYQt0u
+IGN61blS5oM4Uc0k8evz
 
 -->

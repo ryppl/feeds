@@ -11,25 +11,21 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d1f53920-ddea-4d15-a860-3ee6bad3f3e1" released="2012-05-15" ryppl:vcs-revision="cb743a6d83ae498f598277bc68c071206d6a8f8b" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-ublas-cb743a6" href="http://nodeload.github.com/boost-lib/ublas/zipball/cb743a6d83ae498f598277bc68c071206d6a8f8b" size="49366389" type="application/zip"/>
-      <manifest-digest sha1new="447d5fec58f27b9937743d1608de19014e4db8f5"/>
+    <implementation arch="*-src" id="0479a506-b5da-4aff-b94b-225edff9c3b1" released="2012-05-18" ryppl:vcs-revision="9570e7ea4b65c6d8105b7ef0657d18f2de59f857" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-ublas-9570e7e" href="http://nodeload.github.com/boost-lib/ublas/zipball/9570e7ea4b65c6d8105b7ef0657d18f2de59f857" size="49366818" type="application/zip"/>
+      <manifest-digest sha1new="e23b809467e28f98f5b4e1b6486883c0b39ab948"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="ublas" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShsACgkQxnV5mk56UjEPqACgoshBV/VY8aUgEzxH3UREfgbKSTcAmwT4ZueM
-SrHo2pkI3ErwlAnx9HQs
+iEYEABECAAYFAk+2W7wACgkQxnV5mk56UjEqDACfWcmOS689R+qRdrqTRPoKU0P/gLwAn05l+rHb
+/JZk/QhcsjtJYMfvPd4C
 
 -->

@@ -12,9 +12,9 @@
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="07733683-85d1-430e-b77b-61d1cf0670ad" released="2012-05-15" ryppl:vcs-revision="83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-signals-83afb65" href="http://nodeload.github.com/boost-lib/signals/zipball/83afb65546cbfce7e3c6fa3863bcc3ab6b93a8c8" size="90217" type="application/zip"/>
-      <manifest-digest sha1new="b2bb65716c1dcceb45ab942bfaf8f4a57eb09172"/>
+    <implementation arch="*-*" id="d8bb506a-cf3d-4cd2-ae5f-28fa682e4777" released="2012-05-18" ryppl:vcs-revision="20c72e1237173dde24b3866e250ade452bdfa0db" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-signals-20c72e1" href="http://nodeload.github.com/boost-lib/signals/zipball/20c72e1237173dde24b3866e250ade452bdfa0db" size="91310" type="application/zip"/>
+      <manifest-digest sha1new="00c0e2126671335b91a4ed914dd5dee2f3f7ae6d"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/any-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
@@ -28,12 +28,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShUACgkQxnV5mk56UjGLZgCfSyiHhvDucTFdvWEIF8QdP6u2zEsAn1M0YipB
-aQ/yunMGZoZk20apAiVs
+iEYEABECAAYFAk+2XOQACgkQxnV5mk56UjGT9wCfZfWrNzKLmC2Nwv5+3V7ZWGRdzAkAn3drMoM3
+B41JDZlBAeWZ4CtU4qdd
 
 -->

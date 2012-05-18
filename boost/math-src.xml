@@ -44,19 +44,19 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="fdf98074-852e-493f-8d7f-dd8b1921588f" released="2012-05-15" ryppl:vcs-revision="f8e6183f9a335c19b0d4869502e4a63b35364da3" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-math-f8e6183" href="http://nodeload.github.com/boost-lib/math/zipball/f8e6183f9a335c19b0d4869502e4a63b35364da3" size="13359860" type="application/zip"/>
-      <manifest-digest sha1new="c99768c8f08d2b7ee47162666daaeebadb26c024"/>
+    <implementation arch="*-*" id="3db099ff-aecc-4c6b-9000-c0d4ee825d3f" released="2012-05-18" ryppl:vcs-revision="16e2fb825ecdce9fbcfab06908fe5469897dd930" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-math-16e2fb8" href="http://nodeload.github.com/boost-lib/math/zipball/16e2fb825ecdce9fbcfab06908fe5469897dd930" size="14422041" type="application/zip"/>
+      <manifest-digest sha1new="fd243027b2a4fa1e2da1299c5185b24419f6305c"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/fusion-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/spirit-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tr1-src.xml"/>
@@ -67,14 +67,14 @@ A wide selection of univariate statistical distributions and
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgkACgkQxnV5mk56UjGobQCcDBStEflx8P9FZsTRiW31wnSohQEAn2qoMUWh
-sn2yOaLSrYHYuNfUkEQw
+iEYEABECAAYFAk+2XCcACgkQxnV5mk56UjEEpQCgk1RtdoXr6ocFVBsh1WxhjEMf1x4AoINAho17
+dHpEmXsgTM88HahxJ31E
 
 -->

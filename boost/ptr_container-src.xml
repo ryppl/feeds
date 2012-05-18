@@ -13,9 +13,9 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="44f00fda-10a0-41e9-a579-f1d53c0b27c9" released="2012-05-15" ryppl:vcs-revision="503c2e740a28a9e4056eb286e44b6b35b4f41683" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-ptr_container-503c2e7" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/503c2e740a28a9e4056eb286e44b6b35b4f41683" size="300124" type="application/zip"/>
-      <manifest-digest sha1new="f4c7dc9504ff16a11d6bdf3818913f13b950fd65"/>
+    <implementation arch="*-*" id="a3c08781-a1d8-47b7-a96c-e3ce5773af08" released="2012-05-18" ryppl:vcs-revision="38092dbce37bea70e39068fb2cdfe45e5656f036" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-ptr_container-38092db" href="http://nodeload.github.com/boost-lib/ptr_container/zipball/38092dbce37bea70e39068fb2cdfe45e5656f036" size="301191" type="application/zip"/>
+      <manifest-digest sha1new="7191e3fd0a9699c9db29eece2d7eb25aa0756603"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
@@ -30,14 +30,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/assign-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShAACgkQxnV5mk56UjHceQCgidRLLmCJiyM9uhdSAigrPV1RYmEAnjPrVrff
-d/Z9QNyKAdgt5ZIiBGnS
+iEYEABECAAYFAk+2XJwACgkQxnV5mk56UjHfSACfZpJWk8hylX2nI7wEdxPU3ZpnCyAAmwbxwinM
+XyOneUfcvXwYOBMjIXOE
 
 -->

@@ -10,9 +10,9 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="9b09b95c-16cb-4b76-8afb-d65d8093b7ff" released="2012-05-15" ryppl:vcs-revision="d69f53c4910c19986f74902d8d89ac5e351c57d9" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-accumulators-d69f53c" href="http://nodeload.github.com/boost-lib/accumulators/zipball/d69f53c4910c19986f74902d8d89ac5e351c57d9" size="227908" type="application/zip"/>
-      <manifest-digest sha1new="7aec47151560f0b012341a425a27b1ff3a2db39b"/>
+    <implementation arch="*-*" id="ba634e51-1f5d-4eae-bdcb-19b111b20275" released="2012-05-18" ryppl:vcs-revision="fbf7b8718636c5b0fb920847c46e608324fadb91" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-accumulators-fbf7b87" href="http://nodeload.github.com/boost-lib/accumulators/zipball/fbf7b8718636c5b0fb920847c46e608324fadb91" size="231857" type="application/zip"/>
+      <manifest-digest sha1new="13649b5940b5749ab0f2437f7bc725ae228f2ec2"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
@@ -25,6 +25,7 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_conversion-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
@@ -34,13 +35,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/serialization-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zOVkACgkQxnV5mk56UjGuhgCeIqSRvch1Wd5v0RuzYtGZT3Wc9MYAn1dQe+Ev
-luxUlyRcumShJCow+c7A
+iEYEABECAAYFAk+2XAkACgkQxnV5mk56UjEKWgCdFcDS1vH8zA23Pyi/0MLAsqsydEwAnjIo48Qx
+0MHYKNTBBDf2Mm8+TbSS
 
 -->

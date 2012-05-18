@@ -21,24 +21,24 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="5aeb7c60-021c-48d2-970d-4a598ce272f9" released="2012-05-15" ryppl:vcs-revision="d2c53da31b298e8abc653978913850d347f32514" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
-      <manifest-digest sha1new="37abb66bae453003ad9989a1fccc0b56f4b5df93"/>
+    <implementation arch="*-*" id="106c607e-3c1a-4eb9-b7f2-49d1718a97b2" released="2012-05-18" ryppl:vcs-revision="14a5e19cf8412b2e9abfc3093ffd987f3cfa9884" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-foreach-14a5e19" href="http://nodeload.github.com/boost-lib/foreach/zipball/14a5e19cf8412b2e9abfc3093ffd987f3cfa9884" size="37838" type="application/zip"/>
+      <manifest-digest sha1new="fb5b9211d87e32eefa94083ae6887652d00ff015"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgEACgkQxnV5mk56UjGWVQCfUrZNdGEX3T6c0Nch3uo6GcUkXoYAnRpL/5st
-vUjpT2uWMoStjXtwoHaQ
+iEYEABECAAYFAk+2XH8ACgkQxnV5mk56UjH/kQCgjx/Pym3Lkic6eIBwyhmvqhxXB38AniM4w50S
+1LwPKUhvTUIqNuz01Zyu
 
 -->

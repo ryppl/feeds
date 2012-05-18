@@ -21,25 +21,21 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ad67aa39-2e87-4101-b815-191686bd12fe" released="2012-05-15" ryppl:vcs-revision="d2c53da31b298e8abc653978913850d347f32514" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-foreach-d2c53da" href="http://nodeload.github.com/boost-lib/foreach/zipball/d2c53da31b298e8abc653978913850d347f32514" size="36871" type="application/zip"/>
-      <manifest-digest sha1new="37abb66bae453003ad9989a1fccc0b56f4b5df93"/>
+    <implementation arch="*-src" id="2cbf0a61-f246-44b3-bbc3-af23169eb71d" released="2012-05-18" ryppl:vcs-revision="14a5e19cf8412b2e9abfc3093ffd987f3cfa9884" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-foreach-14a5e19" href="http://nodeload.github.com/boost-lib/foreach/zipball/14a5e19cf8412b2e9abfc3093ffd987f3cfa9884" size="37838" type="application/zip"/>
+      <manifest-digest sha1new="fb5b9211d87e32eefa94083ae6887652d00ff015"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="foreach" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgEACgkQxnV5mk56UjEwGACdGMLcisvtLSNWZYzK5CccPF1qxsIAniXInG+u
-wJyhPlJx5ZMDtfaQU2a+
+iEYEABECAAYFAk+2XH8ACgkQxnV5mk56UjHiZACeMUS+HbWxytYbWH9ODIfOR4EhDOMAoI3WWRoO
+rJGkzPzTXSNaXqeqwpDX
 
 -->

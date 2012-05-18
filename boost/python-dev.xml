@@ -14,7 +14,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories/2012">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e2f1f867-a85b-4ea1-878c-f94e9256e8b8" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="61a87923-e889-497a-a0cf-6301ec158257" released="2012-05-18" stability="developer" version="1.49-post-2012.05.18.1421">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -24,14 +24,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/python-preinstall.xml">
-        <environment insert="dev" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-graph_parallel-mpi-python-preinstall.xml">
+        <environment insert="python/dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShEACgkQxnV5mk56UjGp4wCgpkEuzcFA4KCn5z8PlbSHQ1mp/VcAnRk7xZX9
-eTi3cAUQwIDfhDByh6ge
+iEYEABECAAYFAk+2XKAACgkQxnV5mk56UjElmQCfdvZ1a6rkb9Pd9d7Av79PxGdCk9AAn0AeSokT
+06y4b82g/iz/FChkRF/p
 
 -->

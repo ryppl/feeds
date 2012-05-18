@@ -11,11 +11,12 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4cc02bdc-201b-444b-9f92-72e4230e4771" released="2012-05-15" ryppl:vcs-revision="7970215134cc2a8dcbbd1a5172be34d872d6b57d" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-units-7970215" href="http://nodeload.github.com/boost-lib/units/zipball/7970215134cc2a8dcbbd1a5172be34d872d6b57d" size="405619" type="application/zip"/>
-      <manifest-digest sha1new="5a0da961c4efc441cad30011fa3bcab5d2cd9c99"/>
+    <implementation arch="*-*" id="c3fa1230-1956-4f40-aeb0-db8dd2db12d9" released="2012-05-18" ryppl:vcs-revision="30255f055fb216a07825232c54942c5521f6708d" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-units-30255f0" href="http://nodeload.github.com/boost-lib/units/zipball/30255f055fb216a07825232c54942c5521f6708d" size="406777" type="application/zip"/>
+      <manifest-digest sha1new="055cd7323d9b4707d6e1a102ae8b0dc3e0fe433a"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/io-src.xml"/>
@@ -32,7 +33,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShwACgkQxnV5mk56UjGGwACfXxwjb1lEFnewkURqdug1m59TMmIAmQGmhK3a
-nODspSAiN6eVkpOKLFPZ
+iEYEABECAAYFAk+2XH4ACgkQxnV5mk56UjGBKgCdGNW8S8Ctc72KN0BXGh1OxFz83PoAn3MymIbe
+dodquEqOHC+VcxjbG96G
 
 -->

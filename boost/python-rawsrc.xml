@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/python-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+  <name>Boost.Python (raw source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/python.git" type="git"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/libs/python/</homepage>
+  <dc:author>Dave Abrahams</dc:author>
+  <description>The Boost Python Library is a framework for
+    interfacing Python and C++. It allows you to quickly and
+    seamlessly expose C++ classes functions and objects to Python,
+    and vice-versa, using no special tools -- just your C++
+    compiler.</description>
+  <category type="http://boost.org/lib-categories/2012">Inter-language</category>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="82d247b3-1e07-4eb2-b775-f52ec644a26b" released="2012-05-18" ryppl:vcs-revision="2e1040253f5f5aa4d5973afdefd4ee993f4685ad" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-python-2e10402" href="http://nodeload.github.com/boost-lib/python/zipball/2e1040253f5f5aa4d5973afdefd4ee993f4685ad" size="1220765" type="application/zip"/>
+      <manifest-digest sha1new="4dc10a8a765f7f8096af64688ebd277237bf7ae7"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+2XKYACgkQxnV5mk56UjG/2ACbBm70ZbdmsD7DFI9QCz+wL/ASFdIAn20czb/P
+BzhUE1iuYgRQBtq/jCKo
+
+-->

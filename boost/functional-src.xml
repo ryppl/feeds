@@ -25,20 +25,21 @@ functional/forward:
 Adapters to allow generic function objects to accept arbitrary arguments</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="667cfa2f-784a-4b18-83a8-121f1cf79362" released="2012-05-15" ryppl:vcs-revision="b639014c3962af5c341a3eb4b092b231c2b33339" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-functional-b639014" href="http://nodeload.github.com/boost-lib/functional/zipball/b639014c3962af5c341a3eb4b092b231c2b33339" size="101447" type="application/zip"/>
-      <manifest-digest sha1new="3fc96422dd2fd7ffb1d0794885c7eb2a8627727e"/>
+    <implementation arch="*-*" id="750054c0-dc64-46a9-9ce0-d79b5a6dad08" released="2012-05-18" ryppl:vcs-revision="f45369e63d5e34772dedc3443cb060668ea794e3" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-functional-f45369e" href="http://nodeload.github.com/boost-lib/functional/zipball/f45369e63d5e34772dedc3443cb060668ea794e3" size="102259" type="application/zip"/>
+      <manifest-digest sha1new="320020f7df792c7168748ef65e8124de21554363"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function_types-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
@@ -46,7 +47,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgIACgkQxnV5mk56UjF3WgCfVakktW7TRBYY4Tm+/sVLVFpzIBAAnRCsS8jV
-dk8RJnt50Lb3ig0mWEsS
+iEYEABECAAYFAk+2WxYACgkQxnV5mk56UjFspACfdtD9lron4b/FlpH/UKbv9GlrZIUAn0Udwr/v
+iQSYX6rrzYpc5knPftRL
 
 -->

@@ -12,11 +12,11 @@
     directories.</description>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="8e13c2e9-4047-4d0d-a163-541229df25dc" released="2012-05-15" ryppl:vcs-revision="1a13710c53ee6c65d4597ee620321134cea777a4" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-filesystem-1a13710" href="http://nodeload.github.com/boost-lib/filesystem/zipball/1a13710c53ee6c65d4597ee620321134cea777a4" size="296985" type="application/zip"/>
-      <manifest-digest sha1new="f3e79a5b9dc173bac7834e6b4b0cec8bdbeb1a0b"/>
+    <implementation arch="*-*" id="7cd226b1-3cd1-482b-869b-a94fd0ed5dd9" released="2012-05-18" ryppl:vcs-revision="35bfbfbf956aa4f4437925a9b8c3415ec1f51849" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-filesystem-35bfbfb" href="http://nodeload.github.com/boost-lib/filesystem/zipball/35bfbfbf956aa4f4437925a9b8c3415ec1f51849" size="298178" type="application/zip"/>
+      <manifest-digest sha1new="94fc39c9563af7be707e3fc208df554172bbe659"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
@@ -27,15 +27,13 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgEACgkQxnV5mk56UjGbHACeMSL706xh1GBoqeC4kCzlB2keGpgAoI00YYtj
-n10UF1RXrvJYrdYuFYYg
+iEYEABECAAYFAk+2XJ4ACgkQxnV5mk56UjGsBwCePgSGC4Jpd6J6aFgB+lyVxM502rgAoJgokmMH
+T0o5dyhpyPUl/zOuR7Z8
 
 -->

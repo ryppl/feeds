@@ -11,9 +11,9 @@
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b9a89325-540f-403f-92ea-ae03818f62b7" released="2012-05-15" ryppl:vcs-revision="9792b6844e27783e0aabf8c368202f4501c5edc0" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-uuid-9792b68" href="http://nodeload.github.com/boost-lib/uuid/zipball/9792b6844e27783e0aabf8c368202f4501c5edc0" size="48953" type="application/zip"/>
-      <manifest-digest sha1new="5555e47d765e89672dfa95491c2c0722e120e98b"/>
+    <implementation arch="*-*" id="406eb7fc-a5ae-49c4-8602-077791d8d081" released="2012-05-18" ryppl:vcs-revision="094cbf57d99d62754f8021b42ba05c089fc99bad" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-uuid-094cbf5" href="http://nodeload.github.com/boost-lib/uuid/zipball/094cbf57d99d62754f8021b42ba05c089fc99bad" size="49389" type="application/zip"/>
+      <manifest-digest sha1new="79487a1d9b7bb42231a52f03bb13ad0365b1ff19"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
@@ -24,14 +24,13 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/random-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSh0ACgkQxnV5mk56UjEZwwCeN9f0TmaaLX+TolMvCXrG+2L63AkAn38mB4ZH
-6kl4ZEWKNnOkcAOyJDOG
+iEYEABECAAYFAk+2W9MACgkQxnV5mk56UjFVJACfefftqDTFMsDRiJAasOGhI1EN1GgAn1klo6dg
+eIUKLPaxoZR+GjMWsZhp
 
 -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/spirit_classic-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+  <name>Boost.SpiritClassic (source code)</name>
+  <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/boost-lib/spirit_classic.git" type="git"/>
+  <summary>A C++ library from Boost.org</summary>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
+  <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation arch="*-*" id="a4b4badf-ba1c-4757-8551-e5e089e52a4c" released="2012-05-18" ryppl:vcs-revision="fb88d8801e3f05adf15a4c2ce85f0512d08bb403" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-spirit_classic-fb88d88" href="http://nodeload.github.com/boost-lib/spirit_classic/zipball/fb88d8801e3f05adf15a4c2ce85f0512d08bb403" size="1255241" type="application/zip"/>
+      <manifest-digest sha1new="2f8fb623f04ca43b42330faa4b9a2f56a489e08e"/>
+    </implementation>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/pool-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <command name="develop">
+      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+    </command>
+  </group>
+</interface>
+<!-- Base64 Signature
+iEYEABECAAYFAk+2XE4ACgkQxnV5mk56UjFfWACfZOgTPtyo5oAlOKcjTmgxPEisVxgAn2nBDe+L
+qdXK8rB1IYVUt+rCJSrD
+
+-->

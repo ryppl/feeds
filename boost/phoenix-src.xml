@@ -13,9 +13,9 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="0285a57f-1ace-4e77-b389-62e957e77c6e" released="2012-05-15" ryppl:vcs-revision="dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-phoenix-dfe2f0e" href="http://nodeload.github.com/boost-lib/phoenix/zipball/dfe2f0e12fa81def09ec851d0e210cb69c5ecd03" size="893905" type="application/zip"/>
-      <manifest-digest sha1new="00884ce6202c4c724527755b21da1010379fdbcb"/>
+    <implementation arch="*-*" id="6f54a43a-80c0-4d8c-aa6d-d4aaedd02632" released="2012-05-18" ryppl:vcs-revision="a5ae1cc377d28f3b3143395698f8e4957646b8dd" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-phoenix-a5ae1cc" href="http://nodeload.github.com/boost-lib/phoenix/zipball/a5ae1cc377d28f3b3143395698f8e4957646b8dd" size="895708" type="application/zip"/>
+      <manifest-digest sha1new="5ddc6f2062c6b08599a8b66fdc4a2007c0365dd7"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
@@ -31,14 +31,11 @@
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/thread-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/assign-src.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/signals2-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSg4ACgkQxnV5mk56UjG/ewCfZMAdS8PW76oe0VLh+xknG5nNmAEAoKWhI/LU
-V8GDFIXaEa9JMGdX3NLB
+iEYEABECAAYFAk+2XMkACgkQxnV5mk56UjFLVACfQRCCz/kn3+GIlvTsd33UjcGJQCwAn2LGCnwh
++XfAOkXNR5GQZF8ZzUBs
 
 -->

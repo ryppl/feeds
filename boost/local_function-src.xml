@@ -11,17 +11,24 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2c40476d-86d7-4cbd-b8e4-43559fc05119" released="2012-05-15" ryppl:vcs-revision="d13256bcd9a83368645812cbe43680336fb72aa0" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-local_function-d13256b" href="http://nodeload.github.com/boost-lib/local_function/zipball/d13256bcd9a83368645812cbe43680336fb72aa0" size="601039" type="application/zip"/>
-      <manifest-digest sha1new="8e63d5343dd4061db2745c366481fa0ba591b96e"/>
+    <implementation arch="*-*" id="6a775749-f036-4f27-af67-84309bd5be2a" released="2012-05-18" ryppl:vcs-revision="7607d4709d1622a8a034235ced41345a40e0c1f1" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-local_function-7607d47" href="http://nodeload.github.com/boost-lib/local_function/zipball/7607d4709d1622a8a034235ced41345a40e0c1f1" size="601468" type="application/zip"/>
+      <manifest-digest sha1new="efac7f777148b1f0b4d4c3596d0bdad9b77b075e"/>
     </implementation>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/scope_exit-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSggACgkQxnV5mk56UjFODQCfVt9puoTDtlHZ4hnSYvxiwWyaptoAmgPgJFOs
-i74YS2qGEiWlMGKFhEOu
+iEYEABECAAYFAk+2XJUACgkQxnV5mk56UjHleQCdFlDIrbaTnco0k0qw/HQRX/UL+rcAn1Fy5RgI
+D0wJgZVsGc6e+UaUV0Mb
 
 -->

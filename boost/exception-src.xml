@@ -12,22 +12,23 @@
     exceptions between threads.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="472788fc-2fc1-4f8d-815e-0bb50490f882" released="2012-05-15" ryppl:vcs-revision="860836769ed210a993058c48debcf5ae8f254b24" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-exception-8608367" href="http://nodeload.github.com/boost-lib/exception/zipball/860836769ed210a993058c48debcf5ae8f254b24" size="231022" type="application/zip"/>
-      <manifest-digest sha1new="835dfed2866c4f535d973843f098d001f5da91a1"/>
+    <implementation arch="*-*" id="f2002758-268b-41b2-b866-416b4e4e43b3" released="2012-05-18" ryppl:vcs-revision="011d49a1dbfb881a0fb98405335f32889fa382e8" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-exception-011d49a" href="http://nodeload.github.com/boost-lib/exception/zipball/011d49a1dbfb881a0fb98405335f32889fa382e8" size="232320" type="application/zip"/>
+      <manifest-digest sha1new="5358d3e6a9f19be40e231960440324a1ed2f5d5b"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/units-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgAACgkQxnV5mk56UjGY6gCfVeFBzkK35VwmdowyCQrKolUGNKIAnRGcfwng
-/nJlaUhjY8yuorIxxgOJ
+iEYEABECAAYFAk+2W8UACgkQxnV5mk56UjFNXQCfYEWQJEMhe7CD9Ut/C2d17/TEjPUAn2NEXdo7
+4FWFd899gQ/sKaPxthhD
 
 -->

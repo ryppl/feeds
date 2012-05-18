@@ -62,25 +62,21 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="487e9ecd-a437-4f3f-b57c-4e7f6c137b68" released="2012-05-15" ryppl:vcs-revision="1bdfe57dcb74563a90186e23ef212852a33d77f4" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-utility-1bdfe57" href="http://nodeload.github.com/boost-lib/utility/zipball/1bdfe57dcb74563a90186e23ef212852a33d77f4" size="223247" type="application/zip"/>
-      <manifest-digest sha1new="2b954b4353b864ec722035bec32725e15a71b861"/>
+    <implementation arch="*-src" id="02eb149b-7a76-4c58-9f43-d929cd2a9712" released="2012-05-18" ryppl:vcs-revision="7732c127f1ecc77b81b01d2558061d92750cf679" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-utility-7732c12" href="http://nodeload.github.com/boost-lib/utility/zipball/7732c127f1ecc77b81b01d2558061d92750cf679" size="224298" type="application/zip"/>
+      <manifest-digest sha1new="2c4bf1268a54b4d1be5aa1a742146293851861ec"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="utility" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSh0ACgkQxnV5mk56UjEy9wCffcBOnUuzoAim+c4cKU6wM5geTMoAn2s+hZ8a
-U2oVgHx9TUyuGNZlHwnK
+iEYEABECAAYFAk+2XPUACgkQxnV5mk56UjFRygCgkGtVYsElQo6TgXyWgFNHKqJsEykAn3Z89SZD
+olTgw+MVVrweWyp094lM
 
 -->

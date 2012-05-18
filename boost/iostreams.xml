@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="dc5e04ca-88bd-4151-ba6f-4b591bb21ec9" released="2012-05-15" stability="testing" version="1.49-post-2012.05.16.0519">
+    <implementation arch="*-src" id="da62a208-130a-4c9e-8609-1b4117cf8728" released="2012-05-18" stability="developer" version="1.49-post-2012.05.18.1421">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -22,14 +22,14 @@
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-math-random-regex-preinstall.xml">
-        <environment insert="iostreams/bin" mode="replace" name="SRCDIR"/>
+      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iostreams-preinstall.xml">
+        <environment insert="bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSgcACgkQxnV5mk56UjEjzgCeJEKY0phnd6qhfOx+BAdIE1qYsu8An0hGSNYl
-cUNrwCj1T/6WR3fHKtZv
+iEYEABECAAYFAk+2WzYACgkQxnV5mk56UjFRMQCgjUe//PTPxpX+nHoD4frcNuoE8vQAn1XHW+H0
+JaYs6Ye9J7X25r3EGtNW
 
 -->

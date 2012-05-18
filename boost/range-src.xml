@@ -12,32 +12,31 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="78ae83d2-3018-4467-ab17-51b5de9f61d9" released="2012-05-15" ryppl:vcs-revision="01bafff6db2347c88b192993a9c87d8485a4985c" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-range-01bafff" href="http://nodeload.github.com/boost-lib/range/zipball/01bafff6db2347c88b192993a9c87d8485a4985c" size="803762" type="application/zip"/>
-      <manifest-digest sha1new="be0f39ff20e4f2069b24a5e96a420884cd9e7f86"/>
+    <implementation arch="*-*" id="07fb9bb9-e1eb-4d65-8dae-e0ab6efd3209" released="2012-05-18" ryppl:vcs-revision="eb46799469d7e8a479ef8cb68b6ea75d2352999d" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-range-eb46799" href="http://nodeload.github.com/boost-lib/range/zipball/eb46799469d7e8a479ef8cb68b6ea75d2352999d" size="805602" type="application/zip"/>
+      <manifest-digest sha1new="459928dd2bdc455528bf15f6f2259a50e850b9fd"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/algorithm-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/assign-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
+    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
     <command name="develop">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zShIACgkQxnV5mk56UjG6lwCfR+P/5DA8l9dQWaidzypaqGD4KasAnjSaxLYt
-wM4IwUFShKrM1h51UHW1
+iEYEABECAAYFAk+2WycACgkQxnV5mk56UjFEqgCfYTM7yjEm91i+TV9jJP923HsDzrsAn1Zuxp/C
+296os+it9qE6of1oTMHI
 
 -->

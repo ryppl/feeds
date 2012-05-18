@@ -16,25 +16,21 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fe0eeaa8-ab13-439b-9687-62bcf58ebe97" released="2012-05-15" ryppl:vcs-revision="909115965b4bfdf95145aaeb21a42bf336ac5102" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-iterator-9091159" href="http://nodeload.github.com/boost-lib/iterator/zipball/909115965b4bfdf95145aaeb21a42bf336ac5102" size="1591731" type="application/zip"/>
-      <manifest-digest sha1new="a699c64679753d861660fdbc628ac2d25a7c7b81"/>
+    <implementation arch="*-src" id="09ec6866-c37e-4c4a-a6e3-0792aa10fe99" released="2012-05-18" ryppl:vcs-revision="bd836349abcceee013558f4da983f1dbad1a9cad" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-iterator-bd83634" href="http://nodeload.github.com/boost-lib/iterator/zipball/bd836349abcceee013558f4da983f1dbad1a9cad" size="1592760" type="application/zip"/>
+      <manifest-digest sha1new="e0efa8a79e8984a6f90dd3df6cd53e69991cb6b1"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="iterator" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSggACgkQxnV5mk56UjEcyACgh+EfoD7b6i3tUoh64Vgg9PF7szEAniGHTwc/
-bPfQgZOJHr8ytbMAQOQO
+iEYEABECAAYFAk+2WwMACgkQxnV5mk56UjHduwCfQqORRe7yxHvTA5/G4WySYsIvcigAn28w9oFK
+xPKTkBmC7g2+db1kmjNz
 
 -->

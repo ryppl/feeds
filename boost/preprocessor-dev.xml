@@ -12,25 +12,21 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories/2012">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="76ee2a6f-61c9-4197-adbf-579042d16141" released="2012-05-15" ryppl:vcs-revision="ac4970c340d8ba2deebd685cea170d24e688be0f" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-preprocessor-ac4970c" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/ac4970c340d8ba2deebd685cea170d24e688be0f" size="827681" type="application/zip"/>
-      <manifest-digest sha1new="d7f2a2f3d48f14f7f7964443b79804d2d0101e8c"/>
+    <implementation arch="*-src" id="9f40c896-d488-4b66-953c-1612980396b0" released="2012-05-18" ryppl:vcs-revision="f1f888e41930055fdf0695a27dc2ff4a2baf94aa" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-preprocessor-f1f888e" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/f1f888e41930055fdf0695a27dc2ff4a2baf94aa" size="828048" type="application/zip"/>
+      <manifest-digest sha1new="8cb729c87403a28de108b31856ae127181e6d69f"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="preprocessor" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSg4ACgkQxnV5mk56UjFWygCfbldcPjafiVZq/OR5AYLWqT90yRAAoKVlyDcz
-Ue3rqu3rGE+b8zfQ76O5
+iEYEABECAAYFAk+2XOMACgkQxnV5mk56UjFh5gCfXNRttL/Xv2onz3ezKE3M0qRyTBQAoJYPatKc
+ZuE6LLHEn7bsv37jTKYN
 
 -->

@@ -13,25 +13,21 @@
     grammars.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f1d36331-4138-41b8-88c1-c776e89015e4" released="2012-05-15" ryppl:vcs-revision="d3dc4e3998db9f7f8f2bacaaaabf244b68af3dcb" stability="testing" version="1.49-post-2012.05.16.0519">
-      <archive extract="boost-lib-xpressive-d3dc4e3" href="http://nodeload.github.com/boost-lib/xpressive/zipball/d3dc4e3998db9f7f8f2bacaaaabf244b68af3dcb" size="367670" type="application/zip"/>
-      <manifest-digest sha1new="fc4f662f594e67221ad2ec254c7c167c924379cd"/>
+    <implementation arch="*-src" id="24f02204-8a6f-4b31-a0b6-f04940627d49" released="2012-05-18" ryppl:vcs-revision="dce0f0f13c4f2d0c8218c1373239ebcf5d131319" stability="developer" version="1.49-post-2012.05.18.1421">
+      <archive extract="boost-lib-xpressive-dce0f0f" href="http://nodeload.github.com/boost-lib/xpressive/zipball/dce0f0f13c4f2d0c8218c1373239ebcf5d131319" size="368820" type="application/zip"/>
+      <manifest-digest sha1new="57f236f77c30e8e84859331e99158fcc626b8729"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
-        <arg>--overlay=${BOOST_CMAKELISTS}</arg>
         <arg>dev</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/CMakeLists.xml">
-        <environment insert="xpressive" mode="replace" name="BOOST_CMAKELISTS"/>
-      </requires>
       <compile:implementation arch="*-*"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSh4ACgkQxnV5mk56UjF7OgCdHz9pag/I4Gi16WeyEddzN4Yuyf0AnjsOLhvH
-an6p7Pv3AIfmxvZecf7o
+iEYEABECAAYFAk+2XIIACgkQxnV5mk56UjFN1wCdGC4YKUoMZPo3lMZ4H4SqFgpCxTMAnjNR96GB
+Xp0+MoCFa80dfGHPZ55b
 
 -->
