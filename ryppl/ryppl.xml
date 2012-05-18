@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>ryppl</name>
   <summary>A Software Ecosystem Driver</summary>
   <description>
@@ -13,9 +13,10 @@ user-level commands.</description>
   <category>Building</category>
   <homepage>http://ryppl.org</homepage>
   <dc:author>Dave Abrahams &lt;dave@boostpro.com&gt;</dc:author>
-
+  <icon href="https://secure.gravatar.com/avatar/c80c76a6b9949b97084ea6f6e8367cab?s=140" type="image/png"/>
+  <ryppl:vcs-repository href="http://github.com/ryppl/ryppl.git" type="git"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation id="sha1new=124f50ae254d20741346fa2adbb8a64395fd3315" stability="developer" version="0.8-pre-2012.05.16.1546">
+    <implementation id="sha1new=124f50ae254d20741346fa2adbb8a64395fd3315" ryppl:vcs-revision="e9cfe569da16903841f2b0f0ab91a63299e7b7fe" stability="developer" version="0.8-pre-2012.05.16.1546">
       <archive extract="ryppl-ryppl-e9cfe56" href="http://nodeload.github.com/ryppl/ryppl/zipball/e9cfe569da16903841f2b0f0ab91a63299e7b7fe" size="65960" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=e19fb7e3b39a7e2296b56460376140d77e29f860" stability="buggy" version="0.8-pre-2012.05.16.0706">
@@ -42,7 +43,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+0IEAACgkQxnV5mk56UjGd/wCfUhzL5C+MWl/kVJf1LUyZELPOXQAAni6XUeIZ
-Azqm5PVTPuceu+yu4d/O
+iEYEABECAAYFAk+2u/oACgkQxnV5mk56UjHuugCgmyJqWj6Av0MoBvRZry81V4cHS6QAnjPbIajv
+TiF/MEbz1jeiWXFzgmQk
 
 -->
