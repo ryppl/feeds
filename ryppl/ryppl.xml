@@ -16,6 +16,9 @@ user-level commands.</description>
   <icon href="https://secure.gravatar.com/avatar/c80c76a6b9949b97084ea6f6e8367cab?s=140" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/ryppl/ryppl.git" type="git"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation id="sha1new=6e04d29d46f030223f5711a4f3561f72a338983b" ryppl:vcs-revision="190f695b377d4a3e77a216e9c87dd2e38fc47ee1" stability="developer" version="0.8-pre-2012.05.18.2037">
+      <archive extract="ryppl-ryppl-190f695" href="http://nodeload.github.com/ryppl/ryppl/zipball/190f695b377d4a3e77a216e9c87dd2e38fc47ee1" size="66422" type="application/zip"/>
+    </implementation>
     <implementation id="sha1new=934e7fb20d38851a652a312fd3d9195810ad75f7" ryppl:vcs-revision="aeaefb145b8d31e7f1ebf8c1bd19b816dde42246" stability="developer" version="0.8-pre-2012.05.18.1649">
       <archive extract="ryppl-ryppl-aeaefb1" href="http://nodeload.github.com/ryppl/ryppl/zipball/aeaefb145b8d31e7f1ebf8c1bd19b816dde42246" size="66402" type="application/zip"/>
     </implementation>
@@ -30,9 +33,6 @@ user-level commands.</description>
     </implementation>
     <implementation id="sha1new=6e26fa3421599b10bb0c7570ebaafa7bffe8c5a8" stability="buggy" version="0.8-pre-2012.05.13.1221">
       <archive extract="ryppl-ryppl-2d9fdc0" href="http://nodeload.github.com/ryppl/ryppl/zipball/2d9fdc09917f96b72cb07308583912cbca733779" size="62532" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=0cfa0119b66806ec2d4d5cff22278c1b482556d9" released="2012-05-18" stability="developer" version="0.8-pre-2012.05.18.1649">
-      <archive extract="ryppl-ryppl-0f036e4" href="http://nodeload.github.com/ryppl/ryppl/zipball/0f036e4aab3dfba1b958e1de08270739f0ce8cf1" size="66422" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=900c89ab44285ff865ad9d515eaee4aa5376daab" stability="developer" version="0.8-pre-2012.05.11.1500">
       <archive extract="ryppl-ryppl-4efd0d8" href="http://nodeload.github.com/ryppl/ryppl/zipball/4efd0d883fa87921498d3f72f00889229e84a647" size="62443" type="application/zip"/>
@@ -49,7 +49,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+20hoACgkQxnV5mk56UjERHgCgqInrDr2Sty6m5ymRPVUTXoxPEKwAnjjHztwV
-pUDfZUVhNOaI0t8Xs0zZ
+iEYEABECAAYFAk+3CA8ACgkQxnV5mk56UjFUiwCfbuAnYOFMTSz+E/6f4cUorSLHz6sAn1m5l9da
+vNHHj59LE5tKfZMrLuAC
 
 -->
