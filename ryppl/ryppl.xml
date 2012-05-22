@@ -39,7 +39,7 @@ user-level commands.</description>
     </implementation>
     <command name="run" path="ryppl/main.py">
       <runner interface="http://repo.roscidus.com/python/python">
-        <version before="3" not-before="2.7"/>
+        <version before="3" not-before="2.6"/>
       </runner>
       <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
         <environment insert="cmake/Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
@@ -49,7 +49,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+3F7wACgkQxnV5mk56UjEnygCfQu8ViWf1p1ar5c3LSxxRG9CBHQAAn2LBgGum
-QRe7/tS7xZK6lCeujmr5
+iEYEABECAAYFAk+8ArwACgkQxnV5mk56UjFJQgCglQrPO7rgMKIKGlGysCtcCoH0H8MAnjKUOil/
+5mQuxq33YKicVHNiI5O/
 
 -->
