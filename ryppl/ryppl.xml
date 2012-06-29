@@ -45,11 +45,14 @@ user-level commands.</description>
         <environment insert="cmake/Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
         <environment insert="." mode="replace" name="PYTHONPATH"/>
       </requires>
+      <requires interface="http://gfxmonk.net/dist/0install/argparse.xml">
+        <environment insert="." mode="append" name="PYTHONPATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+8ArwACgkQxnV5mk56UjFJQgCglQrPO7rgMKIKGlGysCtcCoH0H8MAnjKUOil/
-5mQuxq33YKicVHNiI5O/
+iEYEABECAAYFAk/t22AACgkQxnV5mk56UjHUmwCdGYaLXqFu5rVEMtSKiPdifAgU6dsAn2zK+mhP
+BT2OhXOb+eV9VWzXg8ud
 
 -->
