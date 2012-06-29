@@ -48,11 +48,15 @@ user-level commands.</description>
       <requires interface="http://gfxmonk.net/dist/0install/argparse.xml">
         <environment insert="." mode="append" name="PYTHONPATH"/>
       </requires>
+      <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+        <version not-before="1.8"/>
+        <environment insert="." mode="prepend" name="PYTHONPATH"/>
+      </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk/t22AACgkQxnV5mk56UjHUmwCdGYaLXqFu5rVEMtSKiPdifAgU6dsAn2zK+mhP
-BT2OhXOb+eV9VWzXg8ud
+iEYEABECAAYFAk/t3LsACgkQxnV5mk56UjEazQCdHgJ67k1fk+reme0d4J+6xrj71+gAnRGxdEvC
+qsfpTSKFH66RNYQ02g7M
 
 -->
