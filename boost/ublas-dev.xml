@@ -11,9 +11,9 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0479a506-b5da-4aff-b94b-225edff9c3b1" released="2012-05-18" ryppl:vcs-revision="9570e7ea4b65c6d8105b7ef0657d18f2de59f857" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-ublas-9570e7e" href="http://nodeload.github.com/boost-lib/ublas/zipball/9570e7ea4b65c6d8105b7ef0657d18f2de59f857" size="49366818" type="application/zip"/>
-      <manifest-digest sha1new="e23b809467e28f98f5b4e1b6486883c0b39ab948"/>
+    <implementation arch="*-src" id="babda37b-06e5-4717-89fa-43e18887fa50" released="2012-09-26" ryppl:vcs-revision="5e8b96c3c736b8c31fa10b89a5fbb10bc97bd380" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-ublas-5e8b96c" href="http://nodeload.github.com/boost-lib/ublas/zipball/5e8b96c3c736b8c31fa10b89a5fbb10bc97bd380" size="49368729" type="application/zip"/>
+      <manifest-digest sha1new="e446bcfc02bf20f39978812debfb4635e2e85ea6"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2W7wACgkQxnV5mk56UjEqDACfWcmOS689R+qRdrqTRPoKU0P/gLwAn05l+rHb
-/JZk/QhcsjtJYMfvPd4C
+iEYEABECAAYFAlBjMuoACgkQxnV5mk56UjEmEwCfcZ0eFcmvTV8GzCMNzPc80qxe0WAAoJZ+plBl
+zMyjxNVzBFbxAQ8VbH5r
 
 -->

@@ -10,9 +10,9 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d1a71489-fa18-4815-88ba-1b93b9509372" released="2012-05-18" ryppl:vcs-revision="ee96254e0f33bbfd24b9e4531c152558a9a0270e" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-ratio-ee96254" href="http://nodeload.github.com/boost-lib/ratio/zipball/ee96254e0f33bbfd24b9e4531c152558a9a0270e" size="234280" type="application/zip"/>
-      <manifest-digest sha1new="b61d0566e7082da285e0d04baa19040888601582"/>
+    <implementation arch="*-src" id="a0e37063-6351-479b-b4dc-b4c9a4f6b720" released="2012-09-26" ryppl:vcs-revision="18629abaf71dfe26ab42800c1a216a8eb392457e" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-ratio-18629ab" href="http://nodeload.github.com/boost-lib/ratio/zipball/18629abaf71dfe26ab42800c1a216a8eb392457e" size="101231" type="application/zip"/>
+      <manifest-digest sha1new="1a0bd676a8a0fbef4c8c6c7a21aca1c3ec331b16"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2W78ACgkQxnV5mk56UjGa6gCfXcvrDNT9GVrMpENi5yXyQ8yzcVgAn36NXT2s
-Fzys/aUo16HNx4+qzUwl
+iEYEABECAAYFAlBjMuwACgkQxnV5mk56UjEEUgCgo+KDG8S6oDoskqCoMqGgR5z2qM4AoJku4ND3
+fvDPO/DZzOA0M6H+kTg3
 
 -->

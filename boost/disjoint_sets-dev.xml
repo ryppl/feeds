@@ -5,16 +5,13 @@
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
-  <homepage>http://www.boost.org/libs/disjoint_sets/disjoint_sets.html</homepage>
-  <dc:author>Jeremy Siek</dc:author>
-  <dc:author>Andrew Lumsdaine</dc:author>
-  <dc:author>Lie-Quan Lee</dc:author>
-  <description>Boost.DisjointSets provides disjoint sets
-    operations with union by rank and path
-    compression.</description>
-  <category type="http://boost.org/lib-categories/2012">Containers</category>
+  <homepage>http://www.boost.org/</homepage>
+  <description>Regular expressions that can be written as strings
+    or as expression templates, and which can refer to each other
+    and themselves recursively with the power of context-free
+    grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3c21d0fc-90e0-4357-b2b0-654a2c2a5bb7" released="2012-05-18" ryppl:vcs-revision="dbcbc0783c9280d903a427c0ba2276a2d6b6983f" stability="developer" version="1.49-post-2012.05.18.1421">
+    <implementation arch="*-src" id="b4d60f59-dc54-4979-bf6d-c48ccd6ce26f" released="2012-09-26" ryppl:vcs-revision="dbcbc0783c9280d903a427c0ba2276a2d6b6983f" stability="developer" version="1.51-post-2012.09.26.1650">
       <archive extract="boost-lib-disjoint_sets-dbcbc07" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/dbcbc0783c9280d903a427c0ba2276a2d6b6983f" size="10794" type="application/zip"/>
       <manifest-digest sha1new="4e4d7f5a20cf1530bccae692e5ab52b93b10d0c5"/>
     </implementation>
@@ -28,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XDIACgkQxnV5mk56UjEzFQCcCGe+V1SJPv6sxMi1QSXGwZXLcvwAnA5HRcSR
-qQAvZKylaokzz8KA5n/Z
+iEYEABECAAYFAlBjM1MACgkQxnV5mk56UjE5wgCfaM2xmaul/rz8l/2DB9U4pl6XyEoAnAkTFJvH
++NoXOufJdXT+lst3rzbm
 
 -->

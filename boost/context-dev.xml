@@ -5,13 +5,13 @@
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/context.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
-  <homepage>http://www.boost.org/</homepage>
-  <description>Regular expressions that can be written as strings
-    or as expression templates, and which can refer to each other
-    and themselves recursively with the power of context-free
-    grammars.</description>
+  <homepage>http://www.boost.org/libs/context/</homepage>
+  <dc:author>Oliver Kowalke</dc:author>
+  <description>Context switching library.</description>
+  <category type="http://boost.org/lib-categories/2012">Concurrent</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="d408c2be-d22e-4c19-ac76-10c38a3923fe" released="2012-05-18" stability="developer" version="1.49-post-2012.05.18.1421">
+    <implementation arch="*-src" id="942af2b1-2aea-4528-8460-123809e5ef71" released="2012-09-26" stability="developer" version="1.51-post-2012.09.26.1650">
       <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XHsACgkQxnV5mk56UjEwPgCdHbU2xVacX74s//JXWY+09s+nQ9cAn3+Issmt
-x8iQtnEe20ZySOEifUKL
+iEYEABECAAYFAlBjM4AACgkQxnV5mk56UjGcxgCgiKybzdHG7RrHp2Q+8KmeWNQ4vV8AnjL6HNaZ
+Y0RDGau7rVK4x+15reJu
 
 -->

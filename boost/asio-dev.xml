@@ -12,9 +12,9 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="2c7a21f4-75f1-4297-9541-79d61899b01d" released="2012-05-18" ryppl:vcs-revision="4061fc002bf940b8d1643fffa4657015c6eb11e2" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-asio-4061fc0" href="http://nodeload.github.com/boost-lib/asio/zipball/4061fc002bf940b8d1643fffa4657015c6eb11e2" size="1391087" type="application/zip"/>
-      <manifest-digest sha1new="1290b986e7f6822a13c7f071a748927818add869"/>
+    <implementation arch="*-src" id="79a2e6ec-aa92-4f49-9ac2-fb3b6c8bced5" released="2012-09-26" ryppl:vcs-revision="8bb4b5c54c1e6613a869a338516d0b5bd1848152" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-asio-8bb4b5c" href="http://nodeload.github.com/boost-lib/asio/zipball/8bb4b5c54c1e6613a869a338516d0b5bd1848152" size="1393304" type="application/zip"/>
+      <manifest-digest sha1new="76d2ccf4c7ff59494d29eb43dc18d4e3d2abc456"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XP4ACgkQxnV5mk56UjE96ACggRgJiNHh24jqCb3CbRVxk1kYOI0AoKLvf+kh
-kBAkqT14+4+ESpQkuGP2
+iEYEABECAAYFAlBjM+sACgkQxnV5mk56UjEvnwCeJFCyc57TW5x8gW6FQL2OQktszXoAn0qw0Gcu
+hJC8w8jYrSSl0ZvucfRx
 
 -->

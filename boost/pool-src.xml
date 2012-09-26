@@ -10,9 +10,9 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="486efba5-4a6e-450f-b735-7073d19d0ea1" released="2012-05-18" ryppl:vcs-revision="e4363fc7a646e06e013fae59ff7b479f562c8497" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-pool-e4363fc" href="http://nodeload.github.com/boost-lib/pool/zipball/e4363fc7a646e06e013fae59ff7b479f562c8497" size="1045050" type="application/zip"/>
-      <manifest-digest sha1new="d6290d3fb98ee4a8f1103f2e90a733cb6d134062"/>
+    <implementation arch="*-*" id="4ac26f29-180d-4a63-94d7-ee6a5e46defb" released="2012-09-26" ryppl:vcs-revision="719c7a411a83de9022e15a61535fe13dd2084f7c" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-pool-719c7a4" href="http://nodeload.github.com/boost-lib/pool/zipball/719c7a411a83de9022e15a61535fe13dd2084f7c" size="1045060" type="application/zip"/>
+      <manifest-digest sha1new="7d1352c8851171d272f8263743843a93ba3dba54"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XO4ACgkQxnV5mk56UjET0gCfa9hSwyzBxXrXnb+fa8wIPrwSOC4AnjW0BFkc
-AEBIBQ7zL+dx+qyqWCid
+iEYEABECAAYFAlBjM98ACgkQxnV5mk56UjFbWgCgnwTUoCrQON0JoZaIo3pbnjBIP80Anjy3UrxF
+oQX/8X9S2wpbB/+0kTvc
 
 -->

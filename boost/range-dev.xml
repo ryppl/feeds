@@ -12,9 +12,9 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0ff9deae-e648-4d9e-b4b4-d664746b9562" released="2012-05-18" ryppl:vcs-revision="eb46799469d7e8a479ef8cb68b6ea75d2352999d" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-range-eb46799" href="http://nodeload.github.com/boost-lib/range/zipball/eb46799469d7e8a479ef8cb68b6ea75d2352999d" size="805602" type="application/zip"/>
-      <manifest-digest sha1new="459928dd2bdc455528bf15f6f2259a50e850b9fd"/>
+    <implementation arch="*-src" id="88dc7cff-d14f-4170-843f-ba52ce42a8e7" released="2012-09-26" ryppl:vcs-revision="6c6cd1e268b1f49e55850fcf568e1682fd439c9f" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-range-6c6cd1e" href="http://nodeload.github.com/boost-lib/range/zipball/6c6cd1e268b1f49e55850fcf568e1682fd439c9f" size="805615" type="application/zip"/>
+      <manifest-digest sha1new="2289cfdfaaef4f8d30a30c2dd066be0bac7b3d33"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2WycACgkQxnV5mk56UjEEXQCbB/dUh80Y0AW+VQLlR87ENU9Uu3wAnA4PIZVz
-VZXXPrwarrmacCZNznWX
+iEYEABECAAYFAlBjMngACgkQxnV5mk56UjHssgCfaXA3URCjnSVA1SS4j5xSzmv9atIAnR8e8xYH
+5KjSebKZcu/lOlnVRD6d
 
 -->

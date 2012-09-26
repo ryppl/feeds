@@ -10,9 +10,9 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="12b10ac2-1622-4541-821f-9c8b95c52793" released="2012-05-18" ryppl:vcs-revision="2436b555894f73556412efda95437faab4ddd5b5" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-intrusive-2436b55" href="http://nodeload.github.com/boost-lib/intrusive/zipball/2436b555894f73556412efda95437faab4ddd5b5" size="508934" type="application/zip"/>
-      <manifest-digest sha1new="8556ea44f6044159cda7ab559a7121c39da0a654"/>
+    <implementation arch="*-src" id="38de90e2-77bd-4a0e-b94c-a7ceeaba704d" released="2012-09-26" ryppl:vcs-revision="0a26ce52e3a91e411bd3d90e6040a66dc5ee4ebb" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-intrusive-0a26ce5" href="http://nodeload.github.com/boost-lib/intrusive/zipball/0a26ce52e3a91e411bd3d90e6040a66dc5ee4ebb" size="515273" type="application/zip"/>
+      <manifest-digest sha1new="bed847425236b95d8de80ccbea624d456d27b617"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XIsACgkQxnV5mk56UjEUMQCghtij6J9KBZvEw/aToZyhQJeUoVMAnRHq7V4P
-IUql8kuJ5ePyktypXkrR
+iEYEABECAAYFAlBjM40ACgkQxnV5mk56UjHb1QCgoAnsblOuKVHb3sf7lLRtu77xS5kAnjRGZZrH
+Thbx47047Zcb5pUX8CRK
 
 -->

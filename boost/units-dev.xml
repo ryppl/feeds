@@ -11,9 +11,9 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0007841b-2b3d-4c03-8548-808c887c4f58" released="2012-05-18" ryppl:vcs-revision="30255f055fb216a07825232c54942c5521f6708d" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-units-30255f0" href="http://nodeload.github.com/boost-lib/units/zipball/30255f055fb216a07825232c54942c5521f6708d" size="406777" type="application/zip"/>
-      <manifest-digest sha1new="055cd7323d9b4707d6e1a102ae8b0dc3e0fe433a"/>
+    <implementation arch="*-src" id="5e4d600c-c55f-41fa-a4f2-02b98fbd4495" released="2012-09-26" ryppl:vcs-revision="5f70db874502d51f96ed5032dcb401e15d28567f" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-units-5f70db8" href="http://nodeload.github.com/boost-lib/units/zipball/5f70db874502d51f96ed5032dcb401e15d28567f" size="406971" type="application/zip"/>
+      <manifest-digest sha1new="cd4a4e8ac5a0e80b134bb6548c62ef9de787eaca"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAk+2XH4ACgkQxnV5mk56UjEHDQCgm+VqrDNZpQmiDmpm7lFzHzeal8kAmO7zqdVp
-/wK74u8duAS/M01vikk=
+iEYEABECAAYFAlBjM4UACgkQxnV5mk56UjFj/QCgpReiWNF05MdeVEGAAnWMNyF5bgYAoIgRAyYb
+AbLss53lnA4MKNE/bKrU
 
 -->

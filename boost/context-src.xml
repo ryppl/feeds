@@ -5,15 +5,15 @@
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/context.git" type="git"/>
   <summary>A C++ library from Boost.org</summary>
-  <homepage>http://www.boost.org/</homepage>
-  <description>Regular expressions that can be written as strings
-    or as expression templates, and which can refer to each other
-    and themselves recursively with the power of context-free
-    grammars.</description>
+  <homepage>http://www.boost.org/libs/context/</homepage>
+  <dc:author>Oliver Kowalke</dc:author>
+  <description>Context switching library.</description>
+  <category type="http://boost.org/lib-categories/2012">Concurrent</category>
+  <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="889a37a1-144a-4c44-aa6d-feae5393025a" released="2012-05-18" ryppl:vcs-revision="3ca4e63522ac50b7d4827a45b29aa00347d0a556" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-context-3ca4e63" href="http://nodeload.github.com/boost-lib/context/zipball/3ca4e63522ac50b7d4827a45b29aa00347d0a556" size="6108094" type="application/zip"/>
-      <manifest-digest sha1new="92825927ccc13006a52a12d24fad739d1198abee"/>
+    <implementation arch="*-*" id="b415fc67-009d-4e82-bf34-3b2decc41c1d" released="2012-09-26" ryppl:vcs-revision="ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-context-ca11bb4" href="http://nodeload.github.com/boost-lib/context/zipball/ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f" size="67738" type="application/zip"/>
+      <manifest-digest sha1new="1a36b141b7f6151f4cb5c9cd0f5b900f407d03c8"/>
     </implementation>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
     <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
@@ -34,7 +34,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XHkACgkQxnV5mk56UjHE+gCglsk66R4aTHcAR8ljlY1YvmmalyUAoJ/IHtaH
-Lwjq2PC1H0Iej07ddd3k
+iEYEABECAAYFAlBjM4AACgkQxnV5mk56UjECQQCfel1lCCnkiHPKxtD3Avb8btTDD0YAoI0n9pvK
+9ATqJoFWz2mOv8wwUgMk
 
 -->

@@ -10,9 +10,9 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f42a3343-2db3-4a21-918b-f8c8b2bd0296" released="2012-05-18" ryppl:vcs-revision="8242cda0a7495a0faa1a80e7bd9a995af548633e" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-rational-8242cda" href="http://nodeload.github.com/boost-lib/rational/zipball/8242cda0a7495a0faa1a80e7bd9a995af548633e" size="29114" type="application/zip"/>
-      <manifest-digest sha1new="0760418cc0e0163466fb36843bdc47fd387ec753"/>
+    <implementation arch="*-src" id="7ee72abc-0aa2-4bad-b973-38042524f6b6" released="2012-09-26" ryppl:vcs-revision="ec0e1309a84b61aabb86aff2161e399f81dda48d" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-rational-ec0e130" href="http://nodeload.github.com/boost-lib/rational/zipball/ec0e1309a84b61aabb86aff2161e399f81dda48d" size="29101" type="application/zip"/>
+      <manifest-digest sha1new="f38826edee91b8e6a5524f36fe2382c6835c3ca4"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2W+MACgkQxnV5mk56UjECDACbBfoO+8Lr1n61PZkb7kMaYfmwKMoAnA5pEWxS
-sbXMhWPicdyRcwDk0rtu
+iEYEABECAAYFAlBjMwgACgkQxnV5mk56UjEaMQCfeFvuo9i0I8jebRjzshqRdl1NMTsAoJT2aa2f
++KgV2JOoOO7LHQdWY/mL
 
 -->

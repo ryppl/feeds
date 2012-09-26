@@ -9,6 +9,7 @@
   <dc:author>Mark Rodgers</dc:author>
   <dc:author>Daniel James</dc:author>
   <dc:author>Tobias Schwinger</dc:author>
+  <dc:author>Lorenzo Caminiti</dc:author>
   <description>functional:
 The Boost.Function library contains a family of
     class templates that are function object
@@ -22,12 +23,16 @@ functional/factory:
 Function object templates for dynamic and static object creation
 
 functional/forward:
-Adapters to allow generic function objects to accept arbitrary arguments</description>
+Adapters to allow generic function objects to accept arbitrary arguments
+
+functional/overloaded_function:
+Overload different functions into a single function
+    object.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b08a7509-4b7d-4e3d-bd47-ab76822b9b1d" released="2012-05-18" ryppl:vcs-revision="f45369e63d5e34772dedc3443cb060668ea794e3" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-functional-f45369e" href="http://nodeload.github.com/boost-lib/functional/zipball/f45369e63d5e34772dedc3443cb060668ea794e3" size="102259" type="application/zip"/>
-      <manifest-digest sha1new="320020f7df792c7168748ef65e8124de21554363"/>
+    <implementation arch="*-src" id="5c7fdf2a-c90a-4495-88df-6552eaec8e52" released="2012-09-26" ryppl:vcs-revision="a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-functional-a891d80" href="http://nodeload.github.com/boost-lib/functional/zipball/a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" size="101486" type="application/zip"/>
+      <manifest-digest sha1new="ab3abda34cb82e8ddb51f27e8e26841e16fe246c"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -39,7 +44,7 @@ Adapters to allow generic function objects to accept arbitrary arguments</descri
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2WxYACgkQxnV5mk56UjHnGQCdF+ontywjeg6BHc7xB/95MoCsDtIAn0O6kACO
-UjTgckLJeNIR5Y1VEt7n
+iEYEABECAAYFAlBjMmgACgkQxnV5mk56UjHZ1QCfa57IWC0LChv8TuBhCIFp9qF8dSEAnRXtALjy
+QbL06gBcwstx/S0hc0Hx
 
 -->

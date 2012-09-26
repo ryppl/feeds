@@ -52,6 +52,9 @@ And much more. Refer to the ICU User Guide for details.</description>
   <category>Development</category>
   <group license="ICU License - ICU 1.8.1 and later (http://source.icu-project.org/repos/icu/icu/trunk/license.html)">
     <group released="2012-04-06" stability="testing" version="49.1.1">
+      <implementation arch="Windows-src" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" id="sha1new=ac1ac95a956bd6d1f875dfbbce30d56426cb3ab5">
+        <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.1/icu4c-49_1_1-src.zip" size="20127144" type="application/zip"/>
+      </implementation>
       <implementation arch="Linux-src" compile:command="&quot;$SRCDIR/source/runConfigureICU&quot; Linux --prefix=&quot;$DISTDIR&quot; --mandir=&quot;${DISTDIR}/share/man&quot; --enable-static --disable-samples &amp;&amp; make install" id="sha1new=e973d7a5e8a1b93493eaf31f8e0b860fb420a3b4">
         <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.1/icu4c-49_1_1-src.tgz" size="19001722" type="application/x-compressed-tar"/>
       </implementation>
@@ -68,7 +71,7 @@ And much more. Refer to the ICU User Guide for details.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSh8ACgkQxnV5mk56UjHw/ACePmn+g+q46aU2VYisWpEOZ63vt5IAn10f++Dp
-O2JroQAhGjfA6W+Atw8X
+iEYEABECAAYFAk/t+nsACgkQxnV5mk56UjFtGwCbBMd1NiLucaxbpQ8oiPeoJo9epJMAnjBgdTT0
+uBqP8nzblqnYet/UzfQi
 
 -->

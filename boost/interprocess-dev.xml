@@ -11,9 +11,9 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="4b15bf7d-4f22-41ab-bb47-7ceb123048ca" released="2012-05-18" ryppl:vcs-revision="10900db6a35c616c72f591d4f1dadcfa028c55e3" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-interprocess-10900db" href="http://nodeload.github.com/boost-lib/interprocess/zipball/10900db6a35c616c72f591d4f1dadcfa028c55e3" size="834246" type="application/zip"/>
-      <manifest-digest sha1new="739752f979ba53407b0567d1ef28a4cd2a60d9b9"/>
+    <implementation arch="*-src" id="e47763cf-7843-4a75-ab1e-31d8a6047088" released="2012-09-26" ryppl:vcs-revision="58bb819f628da0e0bada9f9d188311f7a99a2bd5" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-interprocess-58bb819" href="http://nodeload.github.com/boost-lib/interprocess/zipball/58bb819f628da0e0bada9f9d188311f7a99a2bd5" size="867116" type="application/zip"/>
+      <manifest-digest sha1new="7639a82f4036e2f77a9a725e00fc3598f870acab"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2WwcACgkQxnV5mk56UjEHigCeKjOAh9YEL4EbR/vtrnUhVA96naoAn02tWhmY
-pf7uw9E+PbNlcB51FPgV
+iEYEABECAAYFAlBjMl0ACgkQxnV5mk56UjENXQCePb/a5BQaCpv9+YNXZ+VAh6GLadYAnR+NUuXF
+pvPcm1QIuK+ES/92ETam
 
 -->

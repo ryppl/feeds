@@ -7,6 +7,7 @@
   <summary>A C++ library from Boost.org</summary>
   <homepage>http://www.boost.org/libs/utility/utility.htm</homepage>
   <dc:author>Dave Abrahams</dc:author>
+  <dc:author>Lorenzo Caminiti</dc:author>
   <dc:author>Fernando Cacciola</dc:author>
   <dc:author/>
   <dc:author>Howard Hinnant</dc:author>
@@ -34,6 +35,10 @@ utility/enable_if:
 Selective inclusion of function template
     overloads.
 
+utility/identity_type:
+Wrap types within round parenthesis so they can always be
+    passed as macro parameters.
+
 utility/in_place_factories:
 Generic in-place construction of contained objects
     with a variadic argument-list.
@@ -58,13 +63,14 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
+  <category type="http://boost.org/lib-categories/2012">Preprocessor</category>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="02eb149b-7a76-4c58-9f43-d929cd2a9712" released="2012-05-18" ryppl:vcs-revision="7732c127f1ecc77b81b01d2558061d92750cf679" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-utility-7732c12" href="http://nodeload.github.com/boost-lib/utility/zipball/7732c127f1ecc77b81b01d2558061d92750cf679" size="224298" type="application/zip"/>
-      <manifest-digest sha1new="2c4bf1268a54b4d1be5aa1a742146293851861ec"/>
+    <implementation arch="*-src" id="a609f95b-301c-42d8-8bba-516ed72c9988" released="2012-09-26" ryppl:vcs-revision="81e9c0d7257325ab8816d762b44ac4803d9f5443" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-utility-81e9c0d" href="http://nodeload.github.com/boost-lib/utility/zipball/81e9c0d7257325ab8816d762b44ac4803d9f5443" size="224706" type="application/zip"/>
+      <manifest-digest sha1new="d31d56323f6fade73fae0e9d77b4ca39c7153742"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -76,7 +82,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XPUACgkQxnV5mk56UjFRygCgkGtVYsElQo6TgXyWgFNHKqJsEykAn3Z89SZD
-olTgw+MVVrweWyp094lM
+iEYEABECAAYFAlBjM+QACgkQxnV5mk56UjGf0ACdE/b/6vKp/PiBTBT8D2ZM7yC2zoAAnjlOnifP
+Ks2AeRBdLahYMKZq8UQl
 
 -->

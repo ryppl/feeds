@@ -12,9 +12,9 @@
     directories.</description>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="fb037ad4-fc24-4151-bb2d-1886455860ee" released="2012-05-18" ryppl:vcs-revision="35bfbfbf956aa4f4437925a9b8c3415ec1f51849" stability="developer" version="1.49-post-2012.05.18.1421">
-      <archive extract="boost-lib-filesystem-35bfbfb" href="http://nodeload.github.com/boost-lib/filesystem/zipball/35bfbfbf956aa4f4437925a9b8c3415ec1f51849" size="298178" type="application/zip"/>
-      <manifest-digest sha1new="94fc39c9563af7be707e3fc208df554172bbe659"/>
+    <implementation arch="*-src" id="b97f24b9-a56a-4ee5-af27-c6a6d2b29af7" released="2012-09-26" ryppl:vcs-revision="03bbaaa814abcb781fc89294c80d40a98fae95bc" stability="developer" version="1.51-post-2012.09.26.1650">
+      <archive extract="boost-lib-filesystem-03bbaaa" href="http://nodeload.github.com/boost-lib/filesystem/zipball/03bbaaa814abcb781fc89294c80d40a98fae95bc" size="303624" type="application/zip"/>
+      <manifest-digest sha1new="144863d63a34712c4bf269c58860a737905ce98c"/>
     </implementation>
     <command name="compile">
       <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
@@ -155,7 +155,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+2XJ4ACgkQxnV5mk56UjHVigCgnoWCvTX0ywbFF47xCLs0VJmB5WoAoKVoUiym
-9V31eHNcDRx3o+LmzA9x
+iEYEABECAAYFAlBjM5sACgkQxnV5mk56UjHyGACeINx78lRIGBwvnf6clK/uVTbveqkAnRh18AvA
+hybxmRR+hA1VNkuDoEvF
 
 -->
