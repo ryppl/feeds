@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/rational-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/rational-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Rational (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/rational.git" type="git"/>
@@ -10,22 +10,22 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c0eb8c24-8ec9-4370-944a-49df5aa70cd0" released="2012-09-26" ryppl:vcs-revision="ec0e1309a84b61aabb86aff2161e399f81dda48d" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="237c5cc7-f2c6-4501-b44a-14b0eaef53f3" released="2012-09-27" ryppl:vcs-revision="ec0e1309a84b61aabb86aff2161e399f81dda48d" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-rational-ec0e130" href="http://nodeload.github.com/boost-lib/rational/zipball/ec0e1309a84b61aabb86aff2161e399f81dda48d" size="29101" type="application/zip"/>
-      <manifest-digest sha1new="f38826edee91b8e6a5524f36fe2382c6835c3ca4"/>
+      <manifest-digest sha256="ELHVOZK2TEK4OBTDB2YMPDFRUJJNJUCTW4INKOTYQ6FWICRLTFMQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMwgACgkQxnV5mk56UjH5OACcCDzmbTsB9joPF3aNgG0dpS/nabMAn2CM+Y6b
-79dU9XXs3n/wViGbA6o8
+iEYEABECAAYFAlBkng0ACgkQxnV5mk56UjGyfQCfQXqMJM2q81AvmLPsRDyGJgBBQj0An2dGh8zv
+WVoyoL4iQkRX0LFPm0Si
 
 -->

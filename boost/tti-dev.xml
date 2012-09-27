@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/tti-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/tti-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.TTI (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/tti.git" type="git"/>
@@ -11,12 +11,12 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e1acebda-4a00-4a73-8dcb-d9af7e98f367" released="2012-09-26" ryppl:vcs-revision="e0a763a021a82475e91a1ca6e2d4794d08fc4290" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="6c1e65be-e0e4-4441-9e82-dc6c0ea7af12" released="2012-09-27" ryppl:vcs-revision="e0a763a021a82475e91a1ca6e2d4794d08fc4290" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-tti-e0a763a" href="http://nodeload.github.com/boost-lib/tti/zipball/e0a763a021a82475e91a1ca6e2d4794d08fc4290" size="653709" type="application/zip"/>
-      <manifest-digest sha1new="588ea721a499eecaaa550464ef5cebec47ed64e9"/>
+      <manifest-digest sha256="6IYGXG3VZIJYEIJKUHBZROIFHSYEAIJKOH4TJFQ5BVGZV6TBLL4Q"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM6oACgkQxnV5mk56UjFqbQCgpWu4bhNuUismUhLyG2kEzJTCGtcAnjOT3lRg
-d7XAdJkziv9x+x9AVICs
+iEYEABECAAYFAlBknmcACgkQxnV5mk56UjGxpgCdEv4DikcfP3S6oBsrTXuYhtR/mGcAn05C5mP2
+BFRESJlloiL4EtUV3Bwq
 
 -->

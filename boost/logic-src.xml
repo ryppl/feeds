@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/logic-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/logic-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Logic (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/logic.git" type="git"/>
@@ -10,20 +10,20 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="443198ad-f66e-4f0b-b074-caeff7bd4feb" released="2012-09-26" ryppl:vcs-revision="ed16017a674be3d8f294f2816fcbafbebc86963f" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="d0a92a56-eb77-4a7c-b6a4-927db8cf6d3c" released="2012-09-27" ryppl:vcs-revision="ed16017a674be3d8f294f2816fcbafbebc86963f" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-logic-ed16017" href="http://nodeload.github.com/boost-lib/logic/zipball/ed16017a674be3d8f294f2816fcbafbebc86963f" size="15087" type="application/zip"/>
-      <manifest-digest sha1new="40486ce62cc8a03c5dac6f8b425894f4aafb66f6"/>
+      <manifest-digest sha256="S6UC2W5A5RHTOQY5OOBTBUSVWRFS2PCGSPKARQJMEFF3OSIC2VJA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMwoACgkQxnV5mk56UjEddACdFHyBdS1/p31cg7Nxoc4dHQI9QyUAn3hJQEKy
-y9BGYKiP0ySQ07Q5qwYO
+iEYEABECAAYFAlBkng8ACgkQxnV5mk56UjHM8QCgheFl34348mYkMVgfXP6sh/dSo6kAoIgca55f
+dchJYTiCl4WHYUuYylqu
 
 -->

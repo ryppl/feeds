@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/polygon-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/polygon-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Polygon (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/polygon.git" type="git"/>
@@ -10,21 +10,21 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="fac12f3f-9c20-4bae-9e92-04d9050c0411" released="2012-09-26" ryppl:vcs-revision="278da949c750c44a99b21cced9329e1513f534ea" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="c0bef7c2-9643-415d-9280-977fb29c1098" released="2012-09-27" ryppl:vcs-revision="278da949c750c44a99b21cced9329e1513f534ea" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-polygon-278da94" href="http://nodeload.github.com/boost-lib/polygon/zipball/278da949c750c44a99b21cced9329e1513f534ea" size="5029332" type="application/zip"/>
-      <manifest-digest sha1new="99cae0900fe04b492b4423b9de9b149b53b550d3"/>
+      <manifest-digest sha256="JUGC7ERFPBDZC5XH7JGSVFFSK6MYKTVWNWUGWIOPFWAO6KHSCCDQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMwgACgkQxnV5mk56UjF9aQCfTwuZHKy01iyVDRGqIGIuW4ISSA4AmgMM4c20
-zctQJxvFuPAdG0R04MUc
+iEYEABECAAYFAlBkng0ACgkQxnV5mk56UjEAxwCgoaenKbjFDCA0c0NWHwcRqVR7DVYAn2KRqMZZ
+iIEpgwrogpHxZYpnFo7F
 
 -->

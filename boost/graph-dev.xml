@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/graph-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Graph (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/graph.git" type="git"/>
@@ -16,24 +16,24 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="98d30563-9ead-492d-8fd7-2277140831aa" released="2012-09-26" stability="developer" version="1.51-post-2012.09.26.1650">
-      <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
+    <implementation arch="*-src" id="8cbf261b-375c-4b0d-8a37-adb0ed1d769b" released="2012-09-27" stability="developer" version="1.51-post-2012.09.27.1840">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-graph_parallel-mpi-python-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/graph-graph_parallel-mpi-python-preinstall.xml">
         <environment insert="graph/dev" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMnQACgkQxnV5mk56UjHGjgCeK2GfNUb2iimn5/WRhSUIvdrGHoMAoKkOdBj4
-KnrFZnrutREogD/mVip5
+iEYEABECAAYFAlBkncsACgkQxnV5mk56UjFGVgCfcTNcM5JD5hjzglnmwMtUXDjm3SsAn1VK2vfw
+GE1q9wJe0cKxRNl3z+wz
 
 -->

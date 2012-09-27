@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/static_assert-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.StaticAssert (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/static_assert.git" type="git"/>
@@ -13,12 +13,12 @@
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c5dd4028-d0b7-45d7-a47d-e075d8afcd29" released="2012-09-26" ryppl:vcs-revision="8c5d4d36b8e3c8040e961b701bb1b804538f36cc" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="dd05c82a-62bf-4b27-ba68-ac7c47e7c2b3" released="2012-09-27" ryppl:vcs-revision="8c5d4d36b8e3c8040e961b701bb1b804538f36cc" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-static_assert-8c5d4d3" href="http://nodeload.github.com/boost-lib/static_assert/zipball/8c5d4d36b8e3c8040e961b701bb1b804538f36cc" size="19139" type="application/zip"/>
-      <manifest-digest sha1new="cce2767a628f225e22e6db5a4e95ac85100a4350"/>
+      <manifest-digest sha256="4H6QE4ME35KH5XCRAQGFAITE7EE7V66HVB7L2IWZC2F5GEXXBLZQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM5wACgkQxnV5mk56UjEpOQCfYgr4lsgci+i7ZbhMiZEh+gAJPwEAn3NIuTq/
-ZdClOinGdhmyqfe8suze
+iEYEABECAAYFAlBknmAACgkQxnV5mk56UjE9tACeJHwbizUQ2BrFr2gEChmeke3cTvsAniYi/TXC
+s3wrARrcJ+0LOC/vVUM6
 
 -->

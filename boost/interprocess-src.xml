@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/interprocess-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Interprocess (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/interprocess.git" type="git"/>
@@ -11,30 +11,30 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="387af6dd-02af-4e21-bea0-f8cd56cbbd58" released="2012-09-26" ryppl:vcs-revision="58bb819f628da0e0bada9f9d188311f7a99a2bd5" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="e0250a14-3c6a-4b59-8f46-a996a8eb5c28" released="2012-09-27" ryppl:vcs-revision="58bb819f628da0e0bada9f9d188311f7a99a2bd5" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-interprocess-58bb819" href="http://nodeload.github.com/boost-lib/interprocess/zipball/58bb819f628da0e0bada9f9d188311f7a99a2bd5" size="867116" type="application/zip"/>
-      <manifest-digest sha1new="7639a82f4036e2f77a9a725e00fc3598f870acab"/>
+      <manifest-digest sha256="22M4GEM7N55F4PG77DELTHAVEYI36JESOALZ2MMXR6WWLGS3ZVJQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/unordered-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/intrusive-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/move-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/date_time-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/container-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/unordered-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/intrusive-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/move-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/date_time-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMl0ACgkQxnV5mk56UjG6UACeOrwNtTZ8ORnf28271FQCmajKb50AnRlCvHFs
-zuHtI50gOL5JUNJHu0op
+iEYEABECAAYFAlBknbwACgkQxnV5mk56UjH0FwCfeCXrUmZntL0vtrgTLopSE9dhvagAni8yJtRs
+hbo2ySZLSAeOBXq2Va2K
 
 -->

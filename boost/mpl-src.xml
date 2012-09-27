@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/mpl-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MPL (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/mpl.git" type="git"/>
@@ -16,23 +16,23 @@
     the current language.</description>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1b49f215-8dd9-4bdd-aa97-60f38b67feae" released="2012-09-26" ryppl:vcs-revision="889214eafa52549d937a927844a2ca08c678ebf4" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="498436e9-3b74-4989-9d5e-4d1444adecb3" released="2012-09-27" ryppl:vcs-revision="889214eafa52549d937a927844a2ca08c678ebf4" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-mpl-889214e" href="http://nodeload.github.com/boost-lib/mpl/zipball/889214eafa52549d937a927844a2ca08c678ebf4" size="2738675" type="application/zip"/>
-      <manifest-digest sha1new="0c843ec969c1a2961e81ef43c9a8311b460e7bb5"/>
+      <manifest-digest sha256="AY2ILABPHYIW2LR64GEJKJHXHN2DRC7FVP33XCVEEDDAJGD63I7A"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM1UACgkQxnV5mk56UjGWWwCgpFhCMA83gww5vUc0gv1z2S9coqYAn2jOIgMR
-r52CdIB8CH1TS0xVHAmX
+iEYEABECAAYFAlBknjgACgkQxnV5mk56UjHUHgCghWeJeyx8VsbIbdQZm6tpNyrajqMAoIwBHnnQ
+H3wuR8XufUjc0SN+ABb6
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/inspect-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/inspect-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Inspect (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/inspect.git" type="git"/>
@@ -11,25 +11,25 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="aba7486f-2835-4291-8a1e-67ea46251d1d" released="2012-09-26" ryppl:vcs-revision="9045090a4390ea1496fa506f30befe9d44afd176" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="7b98ede6-67e8-4bb0-b94f-90077e3ed6f9" released="2012-09-27" ryppl:vcs-revision="9045090a4390ea1496fa506f30befe9d44afd176" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-inspect-9045090" href="http://nodeload.github.com/boost-lib/inspect/zipball/9045090a4390ea1496fa506f30befe9d44afd176" size="45240" type="application/zip"/>
-      <manifest-digest sha1new="1d2dd1be16f6ef40027b605db21c7ff3db787788"/>
+      <manifest-digest sha256="AGNRHUXTCBZFAY5WP7OHJYJ7AVHFL7ZLXRDWF4VMOGPVNHVK6IYA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/test-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/algorithm-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/filesystem-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/test-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/regex-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/algorithm-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/filesystem-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM+AACgkQxnV5mk56UjGJagCglHZ4o7wBMvcCLSh7gNREbYq0VmQAn3w8yqbE
-tI3SQ8N6ZGqExRzqMjln
+iEYEABECAAYFAlBknogACgkQxnV5mk56UjFL3wCfRqZ0bV6O6o4RMofZbn0f90zaJmMAn3VInGIt
+fGY/LRVCns7BCajVkSxo
 
 -->

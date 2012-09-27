@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/concept_check-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ConceptCheck (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/concept_check.git" type="git"/>
@@ -12,24 +12,24 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="9a052be3-647f-4087-a4a2-9bc30bf5ac58" released="2012-09-26" ryppl:vcs-revision="0019f3dbafdf5c9b6f74675579df60c8e6a6f460" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="e908e7d2-17e8-49e2-98f0-be467b527e54" released="2012-09-27" ryppl:vcs-revision="0019f3dbafdf5c9b6f74675579df60c8e6a6f460" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-concept_check-0019f3d" href="http://nodeload.github.com/boost-lib/concept_check/zipball/0019f3dbafdf5c9b6f74675579df60c8e6a6f460" size="79919" type="application/zip"/>
-      <manifest-digest sha1new="f8b2c76aa64f03697e3c1e75620d5a80e909d641"/>
+      <manifest-digest sha256="DBT42GKTIUGP4ASPIYGZ7E6NUOU2THAK7W2EQYYCDPXPSOXGC5HA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/parameter-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/parameter-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM8YACgkQxnV5mk56UjHmWwCeMwHWH8F44viiqcCX3QqJ+aYNGksAn3IoDupS
-BXOqMyZsAJqDHDRSYcTa
+iEYEABECAAYFAlBknnEACgkQxnV5mk56UjGvEwCgmXRefPVP0VY5yB423CjY10+7J2UAnjmNWnNm
+Ihmk6n5WfoNMsJ56lHcO
 
 -->

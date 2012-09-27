@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/polygon-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/polygon-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Polygon (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/polygon.git" type="git"/>
@@ -10,12 +10,12 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b1128f26-0551-4fb9-acbc-dfed78b1a4f0" released="2012-09-26" ryppl:vcs-revision="278da949c750c44a99b21cced9329e1513f534ea" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="c9da4f60-aaf0-4165-928b-6df85e498ae5" released="2012-09-27" ryppl:vcs-revision="278da949c750c44a99b21cced9329e1513f534ea" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-polygon-278da94" href="http://nodeload.github.com/boost-lib/polygon/zipball/278da949c750c44a99b21cced9329e1513f534ea" size="5029332" type="application/zip"/>
-      <manifest-digest sha1new="99cae0900fe04b492b4423b9de9b149b53b550d3"/>
+      <manifest-digest sha256="JUGC7ERFPBDZC5XH7JGSVFFSK6MYKTVWNWUGWIOPFWAO6KHSCCDQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAlBjMwUACgkQxnV5mk56UjHBygCfbgKl551E2ObdjWsPgIxKS/pnW2gAmMswvzMB
-P/TETQzU7vjKibpwXwA=
+iEYEABECAAYFAlBkngwACgkQxnV5mk56UjFpYwCgmQcepNkust0Jg0PZUwBJnN3rE7wAoJDvHzfd
+rcVybvrsXdu2Mj4MAuSD
 
 -->

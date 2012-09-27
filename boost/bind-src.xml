@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/bind-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Bind (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/bind.git" type="git"/>
@@ -27,21 +27,21 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="503dcd00-8de0-40c6-a20e-538896909129" released="2012-09-26" ryppl:vcs-revision="928da611b29c5c93691c6074c6ce69ffde2e6a29" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="68a19890-3cea-4f25-8065-8d13e86cf489" released="2012-09-27" ryppl:vcs-revision="928da611b29c5c93691c6074c6ce69ffde2e6a29" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-bind-928da61" href="http://nodeload.github.com/boost-lib/bind/zipball/928da611b29c5c93691c6074c6ce69ffde2e6a29" size="94906" type="application/zip"/>
-      <manifest-digest sha1new="c6c35741b061450cd4287d1985c58ee2d06cea25"/>
+      <manifest-digest sha256="IVTWE4EITZD4QCV56LG7MJ6M2Q7WFWOF4PTSH2BEXD3LTHHICJ3Q"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMuwACgkQxnV5mk56UjE5oACglqhCLXqV8Wf9yfKHODmM/rEib8AAn2u8vvnB
-DUUFWJfM50pvYbekvZiV
+iEYEABECAAYFAlBkngAACgkQxnV5mk56UjE/iwCeJg1vOipouKmetUVwHzeXPOdv5XsAn23q9TXD
+6iCDjQRgXHB0+D0ouDNl
 
 -->

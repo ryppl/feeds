@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_conversion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/numeric_conversion-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.NumericConversion (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/numeric_conversion.git" type="git"/>
@@ -11,24 +11,24 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="114793a6-a3e2-45a2-9ebb-316b23e8003d" released="2012-09-26" ryppl:vcs-revision="c97ac7d716598d28754087d82f561e43576a933f" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="3991f7c5-5630-432c-a2d8-7e2e8a1435bc" released="2012-09-27" ryppl:vcs-revision="c97ac7d716598d28754087d82f561e43576a933f" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-numeric_conversion-c97ac7d" href="http://nodeload.github.com/boost-lib/numeric_conversion/zipball/c97ac7d716598d28754087d82f561e43576a933f" size="130235" type="application/zip"/>
-      <manifest-digest sha1new="00a1e5298441d356f3fba66453ffb65eb4f94db0"/>
+      <manifest-digest sha256="LGQX5CC7TA4TQGVLBGFCHCRR2BH7YFRYFL2RSELTY7CRHNX4UDUQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMvAACgkQxnV5mk56UjEfCQCdGQVlCiGE2DtbIYEqMd+oVr+Hm8EAoIph6j7R
-7vhvNBsjuPB9FffwFLPu
+iEYEABECAAYFAlBkngIACgkQxnV5mk56UjFlUgCfbsLNL/4co+CQIE76VNImGyAQrG8Anjk2PTU3
+Sc7fljvbpUXFraCZMcrm
 
 -->

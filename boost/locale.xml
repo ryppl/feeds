@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/locale.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/locale.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Locale (binaries)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/locale.git" type="git"/>
@@ -10,24 +10,24 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="628efccb-9b56-43bf-afc5-dcf075fe077f" released="2012-09-26" stability="developer" version="1.51-post-2012.09.26.1650">
-      <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
+    <implementation arch="*-src" id="41c501aa-688a-4884-bf19-c2ef94950df9" released="2012-09-27" stability="developer" version="1.51-post-2012.09.27.1840">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>writable-directory-overlay</arg>
         <arg>${SRCDIR}</arg>
         <arg>${DISTDIR}</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/locale-preinstall.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/locale-preinstall.xml">
         <environment insert="bin" mode="replace" name="SRCDIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM3sACgkQxnV5mk56UjG20wCfXPvop4c0HCi1gLixGFyXST1vIeoAn1ulNxvk
-BPURwIfJ3VaubxVMPSf+
+iEYEABECAAYFAlBknk0ACgkQxnV5mk56UjEsYQCfTIo2abO0DTw80+b2rtK7I+GdnpQAnRGpeW3P
+ZRrzIhoDvybnG+CYiz7l
 
 -->

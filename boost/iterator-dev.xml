@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/iterator-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Iterator (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/iterator.git" type="git"/>
@@ -16,12 +16,12 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="968010d8-740a-44fc-923c-f8e226ea5d28" released="2012-09-26" ryppl:vcs-revision="bd836349abcceee013558f4da983f1dbad1a9cad" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="7af21dd4-cc51-4d11-9bc7-182b00a7d576" released="2012-09-27" ryppl:vcs-revision="bd836349abcceee013558f4da983f1dbad1a9cad" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-iterator-bd83634" href="http://nodeload.github.com/boost-lib/iterator/zipball/bd836349abcceee013558f4da983f1dbad1a9cad" size="1592760" type="application/zip"/>
-      <manifest-digest sha1new="e0efa8a79e8984a6f90dd3df6cd53e69991cb6b1"/>
+      <manifest-digest sha256="KG5QTUMCSIKYHPBNSNEPI34M4Y6XYAZK5RS6BCGALLC2TT5DFGFA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -30,7 +30,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMlwACgkQxnV5mk56UjGaSACfYo2jZO0l4HcII6mU1uux45YIL2IAoIeaoLzK
-J395xgb8GPN/4gY2TETB
+iEYEABECAAYFAlBknbsACgkQxnV5mk56UjHWewCeIVz7GyYc9XPBMIHATrF+Jetca5oAn2Ltwse2
+oXbhpVK79uYhvZms3Umb
 
 -->

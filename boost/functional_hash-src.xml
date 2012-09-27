@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/functional_hash-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.FunctionalHash (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/functional_hash.git" type="git"/>
@@ -11,24 +11,24 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="087934e3-ea93-4205-9e5e-bf1efd51ac7e" released="2012-09-26" ryppl:vcs-revision="8032ff3d45af4c00b5319bf2d4d79c6a460d7e7f" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="5a783b2c-4deb-425b-a4af-a0697cb535ca" released="2012-09-27" ryppl:vcs-revision="8032ff3d45af4c00b5319bf2d4d79c6a460d7e7f" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-functional_hash-8032ff3" href="http://nodeload.github.com/boost-lib/functional_hash/zipball/8032ff3d45af4c00b5319bf2d4d79c6a460d7e7f" size="70836" type="application/zip"/>
-      <manifest-digest sha1new="8eeabddb4eb529de723fa2e9a116d99f5601355b"/>
+      <manifest-digest sha256="UJOJPQOU7G44JQRLQBVHV6GZ5QNRGBQY3ZG4PJBYS5ABAUMIHYYA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM9AACgkQxnV5mk56UjHNjwCfReCJxyvjEymF6af2Ib5CNnLFnKYAnjTdF4FV
-3njiNt3y9UhnUjiLhvqc
+iEYEABECAAYFAlBknncACgkQxnV5mk56UjGiXwCZAe6csmjafvwsqTSM0+ySk+gl+q0AnR3HqjBn
+ZyBmKaI190iBkaJ+OxsK
 
 -->

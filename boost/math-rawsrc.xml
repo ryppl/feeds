@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/math-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Math (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/math.git" type="git"/>
@@ -44,14 +44,14 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="268dfe4b-eafa-44f3-8591-ccbb684e4139" released="2012-09-26" ryppl:vcs-revision="d6eac68538efa7f383cf07c9ca1343ebdade872c" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="7b34efb0-b714-4eb2-97d7-159a4e05b1d4" released="2012-09-27" ryppl:vcs-revision="d6eac68538efa7f383cf07c9ca1343ebdade872c" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-math-d6eac68" href="http://nodeload.github.com/boost-lib/math/zipball/d6eac68538efa7f383cf07c9ca1343ebdade872c" size="14715016" type="application/zip"/>
-      <manifest-digest sha1new="f0707a1e89885786414f083438736ad23090de1e"/>
+      <manifest-digest sha256="QQTHXQ3E5AKHSV3HA4HKSCS3O2GNYB2NYS2BPXUX6ULII7H5BVAA"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM1oACgkQxnV5mk56UjHAMgCeOrYGbxWmJfWTefUMPyuFFN3T2N0An2BKksN7
-js2txzU02SidhvjH2Ams
+iEYEABECAAYFAlBkni8ACgkQxnV5mk56UjHHjwCgjXnWwu2EwtQ4dqSA1yKskj/evSYAmgI/VgeK
++t2Zz/V4AC3UzSlUQyvZ
 
 -->

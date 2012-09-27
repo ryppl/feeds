@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/msm-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/msm-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MSM (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/msm.git" type="git"/>
@@ -10,12 +10,12 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories/2012">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="301a8d76-a67d-474e-82f9-ec75c99f7fee" released="2012-09-26" ryppl:vcs-revision="24fbe9005e274138cfc89273e8f7664d43e84e82" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="c6120fef-4290-417a-8e30-320773bd677a" released="2012-09-27" ryppl:vcs-revision="24fbe9005e274138cfc89273e8f7664d43e84e82" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-msm-24fbe90" href="http://nodeload.github.com/boost-lib/msm/zipball/24fbe9005e274138cfc89273e8f7664d43e84e82" size="1924308" type="application/zip"/>
-      <manifest-digest sha1new="6d3b16297647155a3003caf8fc81af5d259828e6"/>
+      <manifest-digest sha256="AGII4B5SM26G526JPTZNH5KNQDUSKYVJEVQPVILTSJQA3FQNIR3A"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMnQACgkQxnV5mk56UjEZMQCfdaKiEyATAYEizAPQnVgwu2t9UPgAn2Frbyrb
-cTh/zz7Z6GjwG594KNgY
+iEYEABECAAYFAlBkncsACgkQxnV5mk56UjEBFgCgnU0hcAffk8+ElurK8IerWLtdENgAn1tEC8Y1
+c/AhcSisPgtVZZp5/wZW
 
 -->

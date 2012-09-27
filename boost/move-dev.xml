@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/move-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/move-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Move (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/move.git" type="git"/>
@@ -10,12 +10,12 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="57990a2c-024b-468a-a550-aa1f1163328e" released="2012-09-26" ryppl:vcs-revision="9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="501e2100-0805-4bb1-b756-481e62158561" released="2012-09-27" ryppl:vcs-revision="9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-move-9a901e8" href="http://nodeload.github.com/boost-lib/move/zipball/9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" size="87193" type="application/zip"/>
-      <manifest-digest sha1new="004abc1e6c7b923b8f8d5ec47d510b3a2e02d395"/>
+      <manifest-digest sha256="J3TWZVXYWYVFTXJGBYSIFN7G7E6GGDNVENBKCU3BJUMOZPTZYSKQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMz4ACgkQxnV5mk56UjHKRACfVaW82JknOcYLtrxz3a9U4ZWoKS8AnRpJu1eu
-3mV0AN/tTVN7vzTYBu7+
+iEYEABECAAYFAlBknjAACgkQxnV5mk56UjH4wQCffiPBzBTvXGuQhWzTu0csbnRQoDoAnRXTQupx
+Gkb0TCHr7+xTM6pKa/K/
 
 -->

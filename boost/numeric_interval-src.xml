@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_interval-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/numeric_interval-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.NumericInterval (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/numeric_interval.git" type="git"/>
@@ -11,20 +11,20 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4f36be7d-d3bb-4daa-9ef2-d00a2dbcbe6b" released="2012-09-26" ryppl:vcs-revision="b0000742d2661ba4277f65a731f28d55a8e8d181" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="049baf0c-78d6-48e5-8604-eccbb8fcaf75" released="2012-09-27" ryppl:vcs-revision="b0000742d2661ba4277f65a731f28d55a8e8d181" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-numeric_interval-b000074" href="http://nodeload.github.com/boost-lib/numeric_interval/zipball/b0000742d2661ba4277f65a731f28d55a8e8d181" size="120873" type="application/zip"/>
-      <manifest-digest sha1new="badac87b3ae50281db1d09e35465c4bbeaef9ea8"/>
+      <manifest-digest sha256="FQBYJONK3JIPZNN5RTA6IBTAAYPOFOKLCHTZ5YXJX74DIR4IPVDA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/logic-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/logic-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM6AACgkQxnV5mk56UjEYNgCdEee3P0LmbhQaZ3v5RjYdzWoZMMYAnjSb5V4N
-CWAuFNPTL2yyDgdvk5G/
+iEYEABECAAYFAlBknmIACgkQxnV5mk56UjHY2QCgmPLQoR8lR63ln91QD7m95MAITSoAn3WptIlY
+t356yQJ43Hq32R+dSm9d
 
 -->

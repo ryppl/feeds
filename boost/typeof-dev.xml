@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/typeof-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Typeof (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/typeof.git" type="git"/>
@@ -11,12 +11,12 @@
   <description>Typeof operator emulation.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8380f6d6-5024-4168-a4c6-dc44223b82f9" released="2012-09-26" ryppl:vcs-revision="e563a8bd2f755ddb7ac81b0bada9e9100956cc45" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="2c83ba50-f325-49ef-bc99-e785817b2288" released="2012-09-27" ryppl:vcs-revision="e563a8bd2f755ddb7ac81b0bada9e9100956cc45" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-typeof-e563a8b" href="http://nodeload.github.com/boost-lib/typeof/zipball/e563a8bd2f755ddb7ac81b0bada9e9100956cc45" size="135023" type="application/zip"/>
-      <manifest-digest sha1new="2bbc3c44e58824414a71f29663ac6156b1cb9ae7"/>
+      <manifest-digest sha256="S7XF73TQR4B3YSMDREXM2JCM2LXTH7IXWTYBGIZCJGJD3PJSZFTQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM9sACgkQxnV5mk56UjErEQCfTvlAz0AkCi3XEQjuF68TAeP+FsoAn0KmRAbD
-VsGKUYYNlXkeHY7ozVE/
+iEYEABECAAYFAlBknoIACgkQxnV5mk56UjGsBwCeJVx23348EDKTUjMM734bfMftWBkAoJgD4tu3
+q9QyxiWIw55Jg1E3tCVl
 
 -->

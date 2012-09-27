@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/python-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/python-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Python (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/python.git" type="git"/>
@@ -14,14 +14,14 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories/2012">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="fb10b704-7ae6-46d0-bdc4-e01649bebb8a" released="2012-09-26" ryppl:vcs-revision="914339f5bd52a7b0e1cd54a3e117cea6661c6c8b" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="5c31c1d3-d474-4725-b806-7a9c1942bd67" released="2012-09-27" ryppl:vcs-revision="914339f5bd52a7b0e1cd54a3e117cea6661c6c8b" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-python-914339f" href="http://nodeload.github.com/boost-lib/python/zipball/914339f5bd52a7b0e1cd54a3e117cea6661c6c8b" size="1220773" type="application/zip"/>
-      <manifest-digest sha1new="748912ddc277bd52953dfafe74c2dda0be6522d5"/>
+      <manifest-digest sha256="EZPYH6PBWWQIOGLEDWR47D5BKQWUBMW3FTDFF5RMFHENS6DQVATQ"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM6IACgkQxnV5mk56UjGUGACfd38Yl4kDrWztWL70al1foHv7w8wAn2Ck7j4k
-h6Qm+JT/tDcHSZnhUIcF
+iEYEABECAAYFAlBknmMACgkQxnV5mk56UjHFCwCfd6t54o7kXUn/8jzCSTZKkfo106YAn0A3cfuN
+KgkNXLvH+vXKhScATXtA
 
 -->

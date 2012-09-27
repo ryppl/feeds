@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/system-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/system-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.System (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/system.git" type="git"/>
@@ -11,20 +11,20 @@
     that will be part of the C++0x standard library.</description>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a43b1a09-97e6-41b5-8ea6-c94dc0479166" released="2012-09-26" ryppl:vcs-revision="10bc4d383a91a6423e5ed8e53987454529e6739e" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="b7110129-06c4-44d0-8111-3a25be83a26a" released="2012-09-27" ryppl:vcs-revision="10bc4d383a91a6423e5ed8e53987454529e6739e" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-system-10bc4d3" href="http://nodeload.github.com/boost-lib/system/zipball/10bc4d383a91a6423e5ed8e53987454529e6739e" size="48182" type="application/zip"/>
-      <manifest-digest sha1new="1a3a3158e1eef0fc2ba9c347799df0aba77fa9e5"/>
+      <manifest-digest sha256="6ZZUKK3JOVJWY2URQQH6K6Q5BXDR5QCKKM3H7TNM3NJQW3FRMENQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM+4ACgkQxnV5mk56UjHH+wCfWoZdfCmOeofpOXTSfVJxUjCZrEAAn3bQAWdP
-t0hBZOYr1yvAyiGRoiva
+iEYEABECAAYFAlBknpUACgkQxnV5mk56UjELlwCfcRlTrtAZrKVnfib9xOQc3AAUSewAn1CYNieX
+aD+36wSMNbubyOB9uKN/
 
 -->

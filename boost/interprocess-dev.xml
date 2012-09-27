@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/interprocess-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/interprocess-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Interprocess (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/interprocess.git" type="git"/>
@@ -11,12 +11,12 @@
     condition variables, containers and allocators.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e47763cf-7843-4a75-ab1e-31d8a6047088" released="2012-09-26" ryppl:vcs-revision="58bb819f628da0e0bada9f9d188311f7a99a2bd5" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="157afc41-f180-44dd-917f-691c49329015" released="2012-09-27" ryppl:vcs-revision="58bb819f628da0e0bada9f9d188311f7a99a2bd5" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-interprocess-58bb819" href="http://nodeload.github.com/boost-lib/interprocess/zipball/58bb819f628da0e0bada9f9d188311f7a99a2bd5" size="867116" type="application/zip"/>
-      <manifest-digest sha1new="7639a82f4036e2f77a9a725e00fc3598f870acab"/>
+      <manifest-digest sha256="22M4GEM7N55F4PG77DELTHAVEYI36JESOALZ2MMXR6WWLGS3ZVJQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMl0ACgkQxnV5mk56UjENXQCePb/a5BQaCpv9+YNXZ+VAh6GLadYAnR+NUuXF
-pvPcm1QIuK+ES/92ETam
+iEYEABECAAYFAlBknbwACgkQxnV5mk56UjEfsACgkjSjGL6aia4qsCJP8A0WP7uEOeQAn2IaETw8
+3eNbaHkKXHypCFoG/cpA
 
 -->

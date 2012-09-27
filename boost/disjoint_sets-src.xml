@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/disjoint_sets-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.DisjointSets (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/disjoint_sets.git" type="git"/>
@@ -11,18 +11,18 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="368e850c-c416-4ab2-9cb4-0a9785fc585f" released="2012-09-26" ryppl:vcs-revision="dbcbc0783c9280d903a427c0ba2276a2d6b6983f" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="87d5f1fc-fefd-4bea-beb5-fef127ebcf6e" released="2012-09-27" ryppl:vcs-revision="dbcbc0783c9280d903a427c0ba2276a2d6b6983f" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-disjoint_sets-dbcbc07" href="http://nodeload.github.com/boost-lib/disjoint_sets/zipball/dbcbc0783c9280d903a427c0ba2276a2d6b6983f" size="10794" type="application/zip"/>
-      <manifest-digest sha1new="4e4d7f5a20cf1530bccae692e5ab52b93b10d0c5"/>
+      <manifest-digest sha256="4FCN2PATANL5MHJHJVJKHBOKGE5IIQLKUGOCHEK6LNJVSCTN7FGQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/graph-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM1MACgkQxnV5mk56UjGjpgCeLZIrn8a+iQm83cwaPadg7Sb0BfAAmgLRL8SH
-CvYP1r1RBkbMpt16cwRJ
+iEYEABECAAYFAlBknjkACgkQxnV5mk56UjG7AwCdHgetDhJtkDe8ROGmRMIEsIkigIgAn2oWBXs2
+BhyThbSvH6J9M+xOjeap
 
 -->

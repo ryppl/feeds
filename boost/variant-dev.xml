@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/variant-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/variant-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Variant (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/variant.git" type="git"/>
@@ -13,12 +13,12 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1f06386c-394c-4203-934e-116778d7cbd9" released="2012-09-26" ryppl:vcs-revision="44b9610d2431c5e557514a6e974827ee7b6ffdb4" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="b8069a90-0a1d-4385-9621-e4b3a9230d6f" released="2012-09-27" ryppl:vcs-revision="44b9610d2431c5e557514a6e974827ee7b6ffdb4" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-variant-44b9610" href="http://nodeload.github.com/boost-lib/variant/zipball/44b9610d2431c5e557514a6e974827ee7b6ffdb4" size="107702" type="application/zip"/>
-      <manifest-digest sha1new="5f30923d041dc719219a52f69defacb322ba607a"/>
+      <manifest-digest sha256="6FWGKQWDJLUWSKYVADYI4MXDLY4J2POX4SWA3TANGQZFLXRHXNJQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM3IACgkQxnV5mk56UjFkNgCfTnhNe4yBc7vyC+x8qG6EZX/NSYEAn3tgrnSU
-lKPAtTyFquXBuHDga1gL
+iEYEABECAAYFAlBknkgACgkQxnV5mk56UjGJtACgpkJOSE/CeSKb+DzcXacLrxm425gAnRuZ7Jmg
+cEqyil0ZJ9m7w1edlrpW
 
 -->

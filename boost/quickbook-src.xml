@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/quickbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/quickbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Quickbook (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/quickbook.git" type="git"/>
@@ -11,20 +11,20 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b62614bd-5689-458d-bd29-f9028d39ac66" released="2012-09-26" ryppl:vcs-revision="131c5394acca897486220d9db2265fd5952bdebc" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="fc4b02f8-dcce-4ba4-9ae1-ba52bfd90dc9" released="2012-09-27" ryppl:vcs-revision="131c5394acca897486220d9db2265fd5952bdebc" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-quickbook-131c539" href="http://nodeload.github.com/boost-lib/quickbook/zipball/131c5394acca897486220d9db2265fd5952bdebc" size="437606" type="application/zip"/>
-      <manifest-digest sha1new="19edc7b8a511cf147e1efa4aff60150892d74d07"/>
+      <manifest-digest sha256="WX53EQIFACQYF5D7INJSIFQCI2BSRLB73YJCDECWFF3R3UXL7ILA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/spirit-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/filesystem-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/program_options-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/spirit-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/filesystem-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/program_options-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMoAACgkQxnV5mk56UjGX4ACfbftHstYefFAJbVUw9vm4DhgA6QwAn2TbksuI
-EJ1zGc1kLyj2i8KLNmbV
+iEYEABECAAYFAlBkndIACgkQxnV5mk56UjHutgCggVU4yHB6XtQF86UfNq5mGqLKFfYAoI4AnqZT
+fBNffql8cJun2NsTdFYM
 
 -->

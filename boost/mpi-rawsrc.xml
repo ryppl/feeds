@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpi-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/mpi-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.MPI (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/mpi.git" type="git"/>
@@ -12,14 +12,14 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a4f4cee5-1299-4f69-8f60-e0080c283183" released="2012-09-26" ryppl:vcs-revision="6a73624570e96e76fe27de71583477d37b2a41e9" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="d2c14687-43f6-461b-9d8a-d816fa201e75" released="2012-09-27" ryppl:vcs-revision="6a73624570e96e76fe27de71583477d37b2a41e9" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-mpi-6a73624" href="http://nodeload.github.com/boost-lib/mpi/zipball/6a73624570e96e76fe27de71583477d37b2a41e9" size="221203" type="application/zip"/>
-      <manifest-digest sha1new="640bf5199b34bd7d099d14cd020bbcd6a443c948"/>
+      <manifest-digest sha256="74QROQTM2UQ6QI7ASCBCUS3TORWFNBRRBZPYHMZZC4CGWJ6WL2EQ"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMzMACgkQxnV5mk56UjG+ggCfbUOHspUF5M/6XEMfIPdzR+xb+MoAn17KHGXs
-pCwbb3x/dPmT8qPkuvcM
+iEYEABECAAYFAlBknisACgkQxnV5mk56UjFacgCgpIJDXtJDV+SukM+QXn4uRRNGqq4AoJrwwmRe
+OOy7ylFxRwqxfuYeZ/uH
 
 -->

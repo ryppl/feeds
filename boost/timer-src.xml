@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/timer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/timer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Timer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/timer.git" type="git"/>
@@ -11,23 +11,23 @@
     classes.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="31696c08-d638-4dc0-8480-f946e74c05e9" released="2012-09-26" ryppl:vcs-revision="ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="3976581a-fc08-4d7f-846b-6e088f311dc2" released="2012-09-27" ryppl:vcs-revision="ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-timer-ec0be7e" href="http://nodeload.github.com/boost-lib/timer/zipball/ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8" size="40450" type="application/zip"/>
-      <manifest-digest sha1new="f2959f95437fd5fe17b4d47299dbb26d080ead57"/>
+      <manifest-digest sha256="3UCVG7REIYFOPW7ZHHDQZXQINIX4W6QELISQLA4HNAUCKDKCICGQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/system-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/chrono-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMmwACgkQxnV5mk56UjG6EQCeIJfu+/mty2gJ4m7eIHnJ7/RrS78An1zQ/TXV
-/ZeBGyjEABwcE52vxdRJ
+iEYEABECAAYFAlBknccACgkQxnV5mk56UjFx6gCcDIrrqwg5jEcd4WNfdBMFjBDTLawAmgOWc1vs
+f4N1EW5m15yZHCD36nBd
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/tuple-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Tuple (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/tuple.git" type="git"/>
@@ -11,22 +11,22 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="7e42abbd-5cfe-4f1a-96b8-ffa5b16c576c" released="2012-09-26" ryppl:vcs-revision="ed5d84389717ea32f26c9311fd1e4de9cd58c390" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="1f7644c7-2bd8-4875-a186-19b6beadc3e0" released="2012-09-27" ryppl:vcs-revision="ed5d84389717ea32f26c9311fd1e4de9cd58c390" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-tuple-ed5d843" href="http://nodeload.github.com/boost-lib/tuple/zipball/ed5d84389717ea32f26c9311fd1e4de9cd58c390" size="39306" type="application/zip"/>
-      <manifest-digest sha1new="dda0f419de01b524172f2f846df3d0054507220b"/>
+      <manifest-digest sha256="2V6D3R5OJJ2SITL6H6EGT4W2BXUZUJBS4DR4TXUDAFHW7A4JROIA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM7kACgkQxnV5mk56UjGX8QCfezMceagdzIzfC8ce1YSYj4VBYh0An03BxOhO
-fXctGc/OaxdGiwyy7Uej
+iEYEABECAAYFAlBknmwACgkQxnV5mk56UjGW6QCfcEaZgf7CLfs0fVUcOfI+gh63k1gAnidKjjke
+JH2n+0S6KaLxVz8CmZdR
 
 -->

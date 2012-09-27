@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/conversion-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Conversion (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/conversion.git" type="git"/>
@@ -12,12 +12,12 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3851178f-7328-4cde-bf1f-d8e830fe69ea" released="2012-09-26" ryppl:vcs-revision="45c3397b5e4ed8aa287cbfa2f6ea54f0dcbd4a01" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="094e9f8b-d2de-476d-8411-f2ef0a4380d6" released="2012-09-27" ryppl:vcs-revision="45c3397b5e4ed8aa287cbfa2f6ea54f0dcbd4a01" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-conversion-45c3397" href="http://nodeload.github.com/boost-lib/conversion/zipball/45c3397b5e4ed8aa287cbfa2f6ea54f0dcbd4a01" size="78226" type="application/zip"/>
-      <manifest-digest sha1new="2224407745b63deda7bfd4f5c0aa0a0f008971f8"/>
+      <manifest-digest sha256="AMEINIAWRJEBHQDON45AXCEZ6X3667TBBHLYEUVN3JTVOA77JP7Q"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMwkACgkQxnV5mk56UjGkHwCdFA2Aq5Q1i1YJ9k6OV/En2VBiYqwAn1FSd+LT
-a7nNz7TaNh384LqTje24
+iEYEABECAAYFAlBkng4ACgkQxnV5mk56UjFQbACfeL3DJTaZTmI988T4Gk0Xbaw0Zl8An3bfMTWj
+nFO5OJWvWL7oQ749m7on
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/functional-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Functional (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/functional.git" type="git"/>
@@ -30,12 +30,12 @@ Overload different functions into a single function
     object.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5c7fdf2a-c90a-4495-88df-6552eaec8e52" released="2012-09-26" ryppl:vcs-revision="a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="5a7c0d4b-28d0-49e3-8c66-7a36ea29641f" released="2012-09-27" ryppl:vcs-revision="a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-functional-a891d80" href="http://nodeload.github.com/boost-lib/functional/zipball/a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" size="101486" type="application/zip"/>
-      <manifest-digest sha1new="ab3abda34cb82e8ddb51f27e8e26841e16fe246c"/>
+      <manifest-digest sha256="CHRY2ZWBAORRXSAT7S5NHEYV6OMSG6V4FBLLE7A35DH7JJMPJWKA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -44,7 +44,7 @@ Overload different functions into a single function
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMmgACgkQxnV5mk56UjHZ1QCfa57IWC0LChv8TuBhCIFp9qF8dSEAnRXtALjy
-QbL06gBcwstx/S0hc0Hx
+iEYEABECAAYFAlBkncIACgkQxnV5mk56UjErXwCfVa6JeOK9LihRzFoM95R5p+GGcl8AnjjUWCUP
+ZYPM0qujgjD085amB5Vp
 
 -->

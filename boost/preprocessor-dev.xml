@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Preprocessor (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/preprocessor.git" type="git"/>
@@ -12,12 +12,12 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories/2012">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a7ca758e-b5be-4de3-a22e-5fba4cf447f1" released="2012-09-26" ryppl:vcs-revision="f1f888e41930055fdf0695a27dc2ff4a2baf94aa" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="b4a630fd-9cfa-489b-a1e2-71025a290d39" released="2012-09-27" ryppl:vcs-revision="f1f888e41930055fdf0695a27dc2ff4a2baf94aa" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-preprocessor-f1f888e" href="http://nodeload.github.com/boost-lib/preprocessor/zipball/f1f888e41930055fdf0695a27dc2ff4a2baf94aa" size="828048" type="application/zip"/>
-      <manifest-digest sha1new="8cb729c87403a28de108b31856ae127181e6d69f"/>
+      <manifest-digest sha256="R2JRJH2BMW3BKMXHANG4X6O2UUAGOTNZPML6FPLSGD55262WRCLA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM9YACgkQxnV5mk56UjFYGgCfcWe3RhdffKiS1k7zkK84XKx6XbUAnjhtoETe
-pEBUjAa60Mc0XjBNOnkK
+iEYEABECAAYFAlBknn4ACgkQxnV5mk56UjFixQCgi5nhPp3VHSP7DuK0hUkfr0hORkQAn0Hpwcpj
+kd7eX67tzGd5o+cpHXCq
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/ratio-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/ratio-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Ratio (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/ratio.git" type="git"/>
@@ -10,12 +10,12 @@
   <description>Compile time rational arithmetic.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a0e37063-6351-479b-b4dc-b4c9a4f6b720" released="2012-09-26" ryppl:vcs-revision="18629abaf71dfe26ab42800c1a216a8eb392457e" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="01d42159-a0f4-421a-abe0-d9c9c0b04106" released="2012-09-27" ryppl:vcs-revision="18629abaf71dfe26ab42800c1a216a8eb392457e" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-ratio-18629ab" href="http://nodeload.github.com/boost-lib/ratio/zipball/18629abaf71dfe26ab42800c1a216a8eb392457e" size="101231" type="application/zip"/>
-      <manifest-digest sha1new="1a0bd676a8a0fbef4c8c6c7a21aca1c3ec331b16"/>
+      <manifest-digest sha256="2R4OKCIJ625DUTYKRFZNYXSCY4M7SUCIX3ZXDZH3OOOWQC2MAUWA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMuwACgkQxnV5mk56UjEEUgCgo+KDG8S6oDoskqCoMqGgR5z2qM4AoJku4ND3
-fvDPO/DZzOA0M6H+kTg3
+iEYEABECAAYFAlBknf8ACgkQxnV5mk56UjHINwCfRD9rAHkNP86J0pJqurLWuezoFgQAniHn2DsI
+fpou7QNzSbtGX5P5vFdQ
 
 -->

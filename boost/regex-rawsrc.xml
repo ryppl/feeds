@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/regex-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Regex (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/regex.git" type="git"/>
@@ -10,14 +10,14 @@
   <description>Regular expression library.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="eadbe51b-3e00-4d9a-9c9a-0987b7e5a746" released="2012-09-26" ryppl:vcs-revision="9b80c9a1e741da13e68c62eb77e6e84950141344" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="3b8423f3-ce0c-4ff3-a544-d240c1772b5e" released="2012-09-27" ryppl:vcs-revision="9b80c9a1e741da13e68c62eb77e6e84950141344" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-regex-9b80c9a" href="http://nodeload.github.com/boost-lib/regex/zipball/9b80c9a1e741da13e68c62eb77e6e84950141344" size="819743" type="application/zip"/>
-      <manifest-digest sha1new="11639a1e03bc8e84f8ca0fad473e96ae8da81cdc"/>
+      <manifest-digest sha256="NDCNE2W55CPWVPFIODX2NOFNYPIF7UCKFNXIRFFGAC7GAUHHV7AA"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM/cACgkQxnV5mk56UjGIAwCfcSWJ0f69k6+jDXBbh/Jj4sj7+YwAnRpJXQCR
-Yoh9ckBuD5We4oL22YBI
+iEYEABECAAYFAlBknp0ACgkQxnV5mk56UjHj6QCeI7g5V0+uMpR0oCwjclAmLxaW1vkAnREs79Dl
+Q64syVwrYOqA9yPyEyA9
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/circular_buffer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/circular_buffer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.CircularBuffer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/circular_buffer.git" type="git"/>
@@ -11,25 +11,25 @@
     </description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="dde698fe-fdf7-4118-b92b-893ff9a899a5" released="2012-09-26" ryppl:vcs-revision="f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="e1722d41-056c-40b0-9c71-877ee084c2fc" released="2012-09-27" ryppl:vcs-revision="f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-circular_buffer-f446ad6" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" size="153325" type="application/zip"/>
-      <manifest-digest sha1new="9273df703f746b819d6777d5c8265468ab80ec7d"/>
+      <manifest-digest sha256="RONSZ6RNLAGBYBU4OJPHZCIDKIZTZFLJU4S5IP2HDZIBQCLIMGZQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMnkACgkQxnV5mk56UjFucgCfejsReGwcyhKcZd0Fe7YLL2vrwrwAoKdOoUnL
-bxQhy7mhLvFCpgomWMgS
+iEYEABECAAYFAlBknc4ACgkQxnV5mk56UjHm5ACeNGxXHPuiQd68N2TNhcgzczn+ApIAn2dVbHp3
+GZA19riTNhQG/aQ0kKOt
 
 -->

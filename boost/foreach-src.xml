@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/foreach-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/foreach-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Foreach (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/foreach.git" type="git"/>
@@ -21,24 +21,24 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="98464b3d-61db-4d26-ba0f-defae0b3d3af" released="2012-09-26" ryppl:vcs-revision="e775427f65aa792b405f8cf09caad7319e9d0b8d" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="c111c5fe-7fd0-47cf-832f-1a3e26c89b06" released="2012-09-27" ryppl:vcs-revision="e775427f65aa792b405f8cf09caad7319e9d0b8d" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-foreach-e775427" href="http://nodeload.github.com/boost-lib/foreach/zipball/e775427f65aa792b405f8cf09caad7319e9d0b8d" size="37846" type="application/zip"/>
-      <manifest-digest sha1new="e331582ef2c01ffe98e383c5ce252bcc9a0868c7"/>
+      <manifest-digest sha256="V3F4KU2YBT74G65UX3DMWFZWD75JEECZJH4VF537ZZJ2ON7GPCGA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/range-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM4YACgkQxnV5mk56UjHUFwCgqRT/gNzGccH6GJ5aPQrgjbwsHRwAn3M98vpP
-g/EoMNU5faAtdXTZjXrW
+iEYEABECAAYFAlBknlMACgkQxnV5mk56UjH5mACdEBv23jZvcYbOiR6Dr13lycl93C0An2I17yFf
+eqO+dMeYpTafZNwTK+HX
 
 -->

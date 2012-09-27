@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/auto_index-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/auto_index-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.AutoIndex (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/auto_index.git" type="git"/>
@@ -11,20 +11,20 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="62617274-7843-441a-9ade-612fa612a7ea" released="2012-09-26" ryppl:vcs-revision="3bd0d8adf15f0d28b3453aeb4b135c94f01460b7" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="e6fa7ef0-d48d-4d0a-827c-9863c9041ab4" released="2012-09-27" ryppl:vcs-revision="3bd0d8adf15f0d28b3453aeb4b135c94f01460b7" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-auto_index-3bd0d8a" href="http://nodeload.github.com/boost-lib/auto_index/zipball/3bd0d8adf15f0d28b3453aeb4b135c94f01460b7" size="306411" type="application/zip"/>
-      <manifest-digest sha1new="e9b2dec4fae493e96ea9ed57981b5a0e8ab4ea6e"/>
+      <manifest-digest sha256="UKGYVZJIE5KDA2HKOVUBLK7YG42ZGCWVZ2HFAZDD7NCD6P5URICQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/filesystem-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/program_options-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/array-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/filesystem-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/program_options-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM8gACgkQxnV5mk56UjFjKwCffDKc+MnqW6foPqoEFznAOZQVZdgAn1lzOPE1
-rjhEtWEv+IDhB5Q0JCg1
+iEYEABECAAYFAlBknnIACgkQxnV5mk56UjHp3gCbB9CNIlzM9lMl0uABG+JOaJfC0mcAoIsD/uu8
+1avmrnz4Tu5j3lX2r5gd
 
 -->

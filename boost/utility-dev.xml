@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/utility-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Utility (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/utility.git" type="git"/>
@@ -68,12 +68,12 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="a609f95b-301c-42d8-8bba-516ed72c9988" released="2012-09-26" ryppl:vcs-revision="81e9c0d7257325ab8816d762b44ac4803d9f5443" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="bd79d45f-3981-4a74-8f15-f5e910ab0c2b" released="2012-09-27" ryppl:vcs-revision="81e9c0d7257325ab8816d762b44ac4803d9f5443" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-utility-81e9c0d" href="http://nodeload.github.com/boost-lib/utility/zipball/81e9c0d7257325ab8816d762b44ac4803d9f5443" size="224706" type="application/zip"/>
-      <manifest-digest sha1new="d31d56323f6fade73fae0e9d77b4ca39c7153742"/>
+      <manifest-digest sha256="4W6TLPUQFIMQMAYCZOVHAQ2IWBGJ4UZIJZOGUBXSLJSVBCZSGCWQ"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -82,7 +82,7 @@ Wrapper for uniform-syntax value initialization,
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM+QACgkQxnV5mk56UjGf0ACdE/b/6vKp/PiBTBT8D2ZM7yC2zoAAnjlOnifP
-Ks2AeRBdLahYMKZq8UQl
+iEYEABECAAYFAlBknowACgkQxnV5mk56UjG2pACeMSP/gHCCzMzOzDBnvoWLJBqdMSQAnjKkKZc9
+0rIDfmB8j8GMg+Ougqs9
 
 -->

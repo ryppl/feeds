@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/logic-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/logic-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Logic (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/logic.git" type="git"/>
@@ -10,12 +10,12 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="09720268-faa4-438a-bc62-b90142c36afa" released="2012-09-26" ryppl:vcs-revision="ed16017a674be3d8f294f2816fcbafbebc86963f" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="140dcb23-ecbf-44ac-a17b-741a5ffe6ba7" released="2012-09-27" ryppl:vcs-revision="ed16017a674be3d8f294f2816fcbafbebc86963f" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-logic-ed16017" href="http://nodeload.github.com/boost-lib/logic/zipball/ed16017a674be3d8f294f2816fcbafbebc86963f" size="15087" type="application/zip"/>
-      <manifest-digest sha1new="40486ce62cc8a03c5dac6f8b425894f4aafb66f6"/>
+      <manifest-digest sha256="S6UC2W5A5RHTOQY5OOBTBUSVWRFS2PCGSPKARQJMEFF3OSIC2VJA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMwoACgkQxnV5mk56UjGhOQCfYW0hIOan8OaeF+DRWGcZKZhDLRsAoJHU7nwH
-tYWiqdGE8V+lRU4HjuvH
+iEYEABECAAYFAlBkng8ACgkQxnV5mk56UjHrtwCfeRXUVCbOTCBCKg4AUittcnesAZIAn09Yt00q
+mws1r3TY1NqIvo04p88K
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/scope_exit-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/scope_exit-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ScopeExit (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/scope_exit.git" type="git"/>
@@ -10,12 +10,12 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="79f3d105-3a29-4d3c-814a-42b2dc191967" released="2012-09-26" ryppl:vcs-revision="4a9528ffee01c76e1d4238143238bbbe4a626638" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="abe2470a-881d-40b2-9f8c-58fdca955303" released="2012-09-27" ryppl:vcs-revision="4a9528ffee01c76e1d4238143238bbbe4a626638" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-scope_exit-4a9528f" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/4a9528ffee01c76e1d4238143238bbbe4a626638" size="96226" type="application/zip"/>
-      <manifest-digest sha1new="6ac78c8bca4f2a42c3b86516de080bb80298f349"/>
+      <manifest-digest sha256="3UKA4DGU5MJQHRBUXFRJ4AKOBON3OWWVFKAT7P35DI4W22PNDHXA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM54ACgkQxnV5mk56UjE12QCZAeIi9CtkDJdPpdUbja31gkEKR3UAnjO4gF7b
-Iya93Spvd5PEcszU3eov
+iEYEABECAAYFAlBknmAACgkQxnV5mk56UjGV/wCcCeoOLJNOoTJpT+W/Je8laA9BniQAn2IVsapO
+dcviyquQi6G1f9UsKGno
 
 -->

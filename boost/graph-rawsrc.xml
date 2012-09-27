@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/graph-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/graph-rawsrc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Graph (raw source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/graph.git" type="git"/>
@@ -16,14 +16,14 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="80067c92-2821-42b6-8c65-ef19848ab6cf" released="2012-09-26" ryppl:vcs-revision="7d83e9306fc976cd6e36b7618eb248e81ab43185" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="4a3e332d-5c84-4e86-87ce-bbf75aa49270" released="2012-09-27" ryppl:vcs-revision="7d83e9306fc976cd6e36b7618eb248e81ab43185" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-graph-7d83e93" href="http://nodeload.github.com/boost-lib/graph/zipball/7d83e9306fc976cd6e36b7618eb248e81ab43185" size="3674548" type="application/zip"/>
-      <manifest-digest sha1new="7a909ebb974a775e66fdfbb0fbb88a213b0897e5"/>
+      <manifest-digest sha256="EUQ23LF74WQOHE3YBUAVA32H3AKOOIADRRMJCLCUZDVYVXXSTBGA"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMoMACgkQxnV5mk56UjFuTACbBIieHUzgRla0uHp2+52ILcyJ8JwAoKNLnZ8Z
-PeNOqR+0jvlE5otqjfp/
+iEYEABECAAYFAlBkndMACgkQxnV5mk56UjGjLgCeJOjc8t/paGyVA/xqA/CZDHOAkcoAoJ63fFti
+jIgJXOAUYt0+NDoEy2jD
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/config-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Config (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/config.git" type="git"/>
@@ -11,18 +11,18 @@
     idiosyncrasies; not intended for library users.</description>
   <category type="http://boost.org/lib-categories/2012">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3e85de82-80a0-4b45-80da-43012275fd13" released="2012-09-26" ryppl:vcs-revision="a8a1d8ea89175afe5e203c0b2c1dabed5ee934ce" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="fae1714e-3c61-4ec4-aa4c-3e0f39446074" released="2012-09-27" ryppl:vcs-revision="a8a1d8ea89175afe5e203c0b2c1dabed5ee934ce" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-config-a8a1d8e" href="http://nodeload.github.com/boost-lib/config/zipball/a8a1d8ea89175afe5e203c0b2c1dabed5ee934ce" size="627444" type="application/zip"/>
-      <manifest-digest sha1new="e37cf687c056d8922e55d8046ecb674d3661b3bb"/>
+      <manifest-digest sha256="NAMTASGPPKI7DAXRQ4HAGXCBW43YDB54ERJNNIMJS2OQOQADCOTA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMmwACgkQxnV5mk56UjHwoACfaVYraw2+ZJJU9PzArEV1kvSiCCgAnAhedXvh
-Dg7iMcbd81Qwr8CQHDSw
+iEYEABECAAYFAlBkncQACgkQxnV5mk56UjHxzwCgg7gZ7DNHHZGONBGsNxJgoH9YQz4AoKcExfrr
+y/w7u0/4GkaTstSseJCw
 
 -->

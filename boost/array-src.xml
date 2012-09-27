@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/array-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Array (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/array.git" type="git"/>
@@ -11,22 +11,22 @@
     constant size.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="73583855-7b77-4675-b2ad-6c809da50a6b" released="2012-09-26" ryppl:vcs-revision="1026846cdaa5137741b9c39ec5ca3b0ab9aee804" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="3930e480-7328-4e8c-96ed-df306df8305c" released="2012-09-27" ryppl:vcs-revision="1026846cdaa5137741b9c39ec5ca3b0ab9aee804" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-array-1026846" href="http://nodeload.github.com/boost-lib/array/zipball/1026846cdaa5137741b9c39ec5ca3b0ab9aee804" size="17953" type="application/zip"/>
-      <manifest-digest sha1new="1305f07fc9cbc77b31b40695e22133fe0613ed19"/>
+      <manifest-digest sha256="VEKUEBAEBUTVD33SETWHDS6JSQUKIVIIETH46GBH57C7JWFBA32A"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM0IACgkQxnV5mk56UjFOBgCfb4bZchXTEgv0ZjDp7wqe5EV1c/EAn3NUiozh
-42Y7jiBVBEBVWDGAjv39
+iEYEABECAAYFAlBknjIACgkQxnV5mk56UjEGfQCbB7/nyk0eHFk+yzAJQtYQUkzzB+AAnRibLqfM
+LrNABsJDwLUO5q8Dh3LI
 
 -->

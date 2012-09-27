@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/lambda-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/lambda-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Lambda (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/lambda.git" type="git"/>
@@ -12,25 +12,25 @@
     actual call site, and more.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="0ebb3dec-77de-47b4-9e96-a857ef2a69db" released="2012-09-26" ryppl:vcs-revision="8d1d6ab4465c2e57d6cf69cffed6231bb3be2187" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="e4a11c11-d73f-48e0-a67e-eeb833960a50" released="2012-09-27" ryppl:vcs-revision="8d1d6ab4465c2e57d6cf69cffed6231bb3be2187" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-lambda-8d1d6ab" href="http://nodeload.github.com/boost-lib/lambda/zipball/8d1d6ab4465c2e57d6cf69cffed6231bb3be2187" size="167922" type="application/zip"/>
-      <manifest-digest sha1new="6d9bbdf78bf854cb27e852a0795fa2f193aaee44"/>
+      <manifest-digest sha256="2MZDODMEKW2TO3T4MIQRD7G66E4DNFHFQDNBIQ2U6PTIZ2CR5BMA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/tuple-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMw0ACgkQxnV5mk56UjEFxQCdFdOAyt3GUXvkQLxzlnfMKhVi8scAn2afj97S
-qmlvfQ9E+gg3k410zHEp
+iEYEABECAAYFAlBknhAACgkQxnV5mk56UjFgxQCfVBg3wJ3ewBDo+XTtp7eZdIgPea8AnRX1CBJB
+Wg33+5hNLbSEASPstHnR
 
 -->

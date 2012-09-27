@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/tokenizer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/tokenizer-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Tokenizer (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/tokenizer.git" type="git"/>
@@ -12,21 +12,21 @@
   <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="1d13cbe8-4c08-4442-ab9c-7af6a229d5f8" released="2012-09-26" ryppl:vcs-revision="cf85cbb89471053c236aebdefc046c76ee8b7b17" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="d1356e7d-dde9-4ffe-9af5-d4f40a823f9d" released="2012-09-27" ryppl:vcs-revision="cf85cbb89471053c236aebdefc046c76ee8b7b17" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-tokenizer-cf85cbb" href="http://nodeload.github.com/boost-lib/tokenizer/zipball/cf85cbb89471053c236aebdefc046c76ee8b7b17" size="34537" type="application/zip"/>
-      <manifest-digest sha1new="26d4b4f2679efb20fa09d67aec0946537207845e"/>
+      <manifest-digest sha256="LKEKJOZUY6CW52CEJ5J2Y4FICZ7GHSKX4SCOEFAOCBEELJHRSJIQ"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAlBjM3EACgkQxnV5mk56UjEjSgCYmZT5p1SD9cWx+JN/aocASwsj9gCeLj57ds40
-C8bln0TnAI1NJo3n40g=
+iEYEABECAAYFAlBknkgACgkQxnV5mk56UjEZOwCeJPKdaZChvJnwVrJv0BDeKBQd6KYAoIo8ngfH
+4um78Jhy3766xK0WEMIL
 
 -->

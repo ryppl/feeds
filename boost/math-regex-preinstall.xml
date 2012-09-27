@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-regex-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<interface uri="http://ryppl.github.com/feeds/boost/math-regex-preinstall.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <name>BoostMath, BoostRegex (built state)</name>
   <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e05b3dd0-c170-4699-b05a-ad2db63480f7" released="2012-09-26" stability="developer" version="1.51-post-2012.09.26.1650">
-      <archive extract="empty" href="https://raw.github.com/ryppl/feeds/gh-pages/empty.zip" size="162" type="application/zip"/>
+    <implementation arch="*-src" id="78e4deb5-9cb2-4dc5-8eed-3bbc1306fab1" released="2012-09-27" stability="developer" version="1.51-post-2012.09.27.1840">
+      <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>--add-subdirectory</arg>
         <arg>${BoostRegex_SRCDIR}</arg>
@@ -23,128 +23,128 @@
         <arg>regex/bin</arg>
         <arg>math/bin</arg>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/regex-rawsrc.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/regex-rawsrc.xml">
         <environment insert="." mode="replace" name="BoostRegex_SRCDIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/math-rawsrc.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/math-rawsrc.xml">
         <environment insert="." mode="replace" name="BoostMath_SRCDIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/iterator-dev.xml">
         <environment insert="." mode="replace" name="BoostIterator_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/unordered-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/unordered-dev.xml">
         <environment insert="." mode="replace" name="BoostUnordered_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/io-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/io-dev.xml">
         <environment insert="." mode="replace" name="BoostIO_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/lambda-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/lambda-dev.xml">
         <environment insert="." mode="replace" name="BoostLambda_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/algorithm-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/algorithm-dev.xml">
         <environment insert="." mode="replace" name="BoostAlgorithm_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/type_traits-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeTraits_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/optional-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/optional-dev.xml">
         <environment insert="." mode="replace" name="BoostOptional_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/utility-dev.xml">
         <environment insert="." mode="replace" name="BoostUtility_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/parameter-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/parameter-dev.xml">
         <environment insert="." mode="replace" name="BoostParameter_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/range-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/range-dev.xml">
         <environment insert="." mode="replace" name="BoostRange_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/move-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/move-dev.xml">
         <environment insert="." mode="replace" name="BoostMove_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/tuple-dev.xml">
         <environment insert="." mode="replace" name="BoostTuple_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/format-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/format-dev.xml">
         <environment insert="." mode="replace" name="BoostFormat_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/units-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/units-dev.xml">
         <environment insert="." mode="replace" name="BoostUnits_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/array-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/array-dev.xml">
         <environment insert="." mode="replace" name="BoostArray_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/ublas-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/ublas-dev.xml">
         <environment insert="." mode="replace" name="BoostUBLAS_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/mpl-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/mpl-dev.xml">
         <environment insert="." mode="replace" name="BoostMPL_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/function-dev.xml">
         <environment insert="." mode="replace" name="BoostFunction_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/bind-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/bind-dev.xml">
         <environment insert="." mode="replace" name="BoostBind_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-dev.xml">
         <environment insert="." mode="replace" name="BoostSmartPtr_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/functional_hash-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/functional_hash-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctionalHash_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/intrusive-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/intrusive-dev.xml">
         <environment insert="." mode="replace" name="BoostIntrusive_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/preprocessor-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-dev.xml">
         <environment insert="." mode="replace" name="BoostPreprocessor_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/exception-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/exception-dev.xml">
         <environment insert="." mode="replace" name="BoostException_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/tr1-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/tr1-dev.xml">
         <environment insert="." mode="replace" name="BoostTR1_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/config-dev.xml">
         <environment insert="." mode="replace" name="BoostConfig_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/typeof-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/typeof-dev.xml">
         <environment insert="." mode="replace" name="BoostTypeof_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/icu-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/icu-dev.xml">
         <environment insert="." mode="replace" name="ICU_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function_types-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/function_types-dev.xml">
         <environment insert="." mode="replace" name="BoostFunctionTypes_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/integer-dev.xml">
         <environment insert="." mode="replace" name="BoostInteger_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/core-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/core-dev.xml">
         <environment insert="." mode="replace" name="BoostCore_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/fusion-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/fusion-dev.xml">
         <environment insert="." mode="replace" name="BoostFusion_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/concept_check-dev.xml">
         <environment insert="." mode="replace" name="BoostConceptCheck_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/conversion-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/conversion-dev.xml">
         <environment insert="." mode="replace" name="BoostConversion_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/numeric_conversion-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/numeric_conversion-dev.xml">
         <environment insert="." mode="replace" name="BoostNumericConversion_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/container-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/container-dev.xml">
         <environment insert="." mode="replace" name="BoostContainer_DIR"/>
       </requires>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/static_assert-dev.xml">
+      <requires interface="http://ryppl.github.com/feeds/boost/static_assert-dev.xml">
         <environment insert="." mode="replace" name="BoostStaticAssert_DIR"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjMlMACgkQxnV5mk56UjEQXgCfWFlGQ6pdCHNoKyYV4+o9m6lZHFwAnRwdOZOF
-JNM4FqQNYHnnBEKk+8k9
+iEYEABECAAYFAlBknbMACgkQxnV5mk56UjG/xgCePQdtRvy2s2WeyDNl8jvukzfEbl4AoIFk4Cfr
+F6UdH3loOC0rf9iXqTJJ
 
 -->

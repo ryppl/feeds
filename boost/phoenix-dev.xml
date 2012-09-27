@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/phoenix-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/phoenix-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Phoenix (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/phoenix.git" type="git"/>
@@ -13,12 +13,12 @@
     call site, and more.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="c89831c9-11be-428d-a9e2-84af1c9dfb0d" released="2012-09-26" ryppl:vcs-revision="d3944c17b99ec835b2a37b865fddc81a1dc00afa" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="ec7b7579-c256-434b-87f2-c365f841a4d9" released="2012-09-27" ryppl:vcs-revision="d3944c17b99ec835b2a37b865fddc81a1dc00afa" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-phoenix-d3944c1" href="http://nodeload.github.com/boost-lib/phoenix/zipball/d3944c17b99ec835b2a37b865fddc81a1dc00afa" size="896498" type="application/zip"/>
-      <manifest-digest sha1new="dfbe629e17b6df3820aed23dd87d5d87f6ba801f"/>
+      <manifest-digest sha256="Q4SUID7CDADJXNER64B2BB4KTYNZXV3W66L4YU7H5S5U5BFODK2Q"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -27,7 +27,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM8EACgkQxnV5mk56UjG2uACfWHSPtlv7/XcDM7JobgOPXC4uHDgAnjE33eIH
-pqgmkre1BK0xPZVhr99e
+iEYEABECAAYFAlBknm8ACgkQxnV5mk56UjGE5wCffB6JWRA4QV1x1ZnDAe+0LFU/ZbEAn1dXKRX9
+HCNKaplhyzw4HPfKExNu
 
 -->

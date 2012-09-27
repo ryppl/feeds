@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/boostbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/boostbook-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boostbook (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/boostbook.git" type="git"/>
@@ -11,17 +11,17 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="91f09891-b287-4aa7-99d6-8f80679ab907" released="2012-09-26" ryppl:vcs-revision="e8cb3cac364e74222ba16ee09b11dfea035f2efb" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="b3203ac6-5569-44af-9e39-d995a09f7323" released="2012-09-27" ryppl:vcs-revision="e8cb3cac364e74222ba16ee09b11dfea035f2efb" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-boostbook-e8cb3ca" href="http://nodeload.github.com/boost-lib/boostbook/zipball/e8cb3cac364e74222ba16ee09b11dfea035f2efb" size="216848" type="application/zip"/>
-      <manifest-digest sha1new="1946ed635fd85b8b3cf14beff8696024a8c81175"/>
+      <manifest-digest sha256="3IHEXYWRY7VIHVAN2H3EFWUXWMGRABBINBHSMJQ2CQMYVOHORI6A"/>
     </implementation>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM4IACgkQxnV5mk56UjEsUwCfdSr/wAAEHXQ+be/RSzXEP4swcF4Ani5dMk4f
-8MH1tS8zWgbWxnvy8zst
+iEYEABECAAYFAlBknlEACgkQxnV5mk56UjG2BACgjVTs0HiQNACA56vrwHXR/By6cHIAoIN7Wp7f
+V3WWRY5UGzEChxQdjSUz
 
 -->

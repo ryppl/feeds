@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/tuple-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/tuple-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Tuple (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/tuple.git" type="git"/>
@@ -11,12 +11,12 @@
     values, and more.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5ebb018e-54b8-418c-8393-3660446de808" released="2012-09-26" ryppl:vcs-revision="ed5d84389717ea32f26c9311fd1e4de9cd58c390" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="3e564010-ad46-408f-970a-a8dca5070fe8" released="2012-09-27" ryppl:vcs-revision="ed5d84389717ea32f26c9311fd1e4de9cd58c390" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-tuple-ed5d843" href="http://nodeload.github.com/boost-lib/tuple/zipball/ed5d84389717ea32f26c9311fd1e4de9cd58c390" size="39306" type="application/zip"/>
-      <manifest-digest sha1new="dda0f419de01b524172f2f846df3d0054507220b"/>
+      <manifest-digest sha256="2V6D3R5OJJ2SITL6H6EGT4W2BXUZUJBS4DR4TXUDAFHW7A4JROIA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -25,7 +25,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM7wACgkQxnV5mk56UjGqUwCgnZT4uLuaFO0GkN8Eu2ag8XXcJuAAnRJsP7z5
-IyWzMSz40SkEoL/bfTgW
+iEYEABECAAYFAlBknmwACgkQxnV5mk56UjFCBgCeL/tOA6h2hgifXMdxd2tOAlO0c58Anju5+lqr
+Eq1grHhGPKj4JCf2bHgN
 
 -->

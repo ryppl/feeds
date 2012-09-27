@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/concept_check-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/concept_check-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.ConceptCheck (development files)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/concept_check.git" type="git"/>
@@ -12,12 +12,12 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="48057f64-8f7f-40fc-9d78-1ab9e80dc3a7" released="2012-09-26" ryppl:vcs-revision="0019f3dbafdf5c9b6f74675579df60c8e6a6f460" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-src" id="6aa548c6-b00b-44b8-a0f6-fdb7b3143054" released="2012-09-27" ryppl:vcs-revision="0019f3dbafdf5c9b6f74675579df60c8e6a6f460" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-concept_check-0019f3d" href="http://nodeload.github.com/boost-lib/concept_check/zipball/0019f3dbafdf5c9b6f74675579df60c8e6a6f460" size="79919" type="application/zip"/>
-      <manifest-digest sha1new="f8b2c76aa64f03697e3c1e75620d5a80e909d641"/>
+      <manifest-digest sha256="DBT42GKTIUGP4ASPIYGZ7E6NUOU2THAK7W2EQYYCDPXPSOXGC5HA"/>
     </implementation>
     <command name="compile">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <arg>0install-cmake</arg>
         <arg>dev</arg>
       </runner>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM8YACgkQxnV5mk56UjHG7gCgn4Oz1ZW8M2Ptr80U5XtYnLVkklcAnjTKNXiz
-VOz3iyqB8xqhRUgOVy4I
+iEYEABECAAYFAlBknnEACgkQxnV5mk56UjHi/QCglspCv9z3BnNFN/1Rc6JdE9S9EUYAnRc4OHP1
+K5JXGf2DI3lluGosbyXX
 
 -->

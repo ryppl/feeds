@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/boost/locale-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/boost/locale-src.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>Boost.Locale (source code)</name>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/boost-lib/locale.git" type="git"/>
@@ -10,28 +10,28 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="67b64c11-2027-43ec-9583-a4a48dd6c625" released="2012-09-26" ryppl:vcs-revision="cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" stability="developer" version="1.51-post-2012.09.26.1650">
+    <implementation arch="*-*" id="1c7462ba-0918-415e-a85a-53b33a2f1688" released="2012-09-27" ryppl:vcs-revision="cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" stability="developer" version="1.51-post-2012.09.27.1840">
       <archive extract="boost-lib-locale-cdf0c5e" href="http://nodeload.github.com/boost-lib/locale/zipball/cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" size="1180142" type="application/zip"/>
-      <manifest-digest sha1new="1a919c5126bec99acaacf223974c6964a35fc85d"/>
+      <manifest-digest sha256="VSNOHENIWUJNY3HCXFN6C3BZT7CQQTTGJJKKO3RLLNVDBEHJKRXA"/>
     </implementation>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/iconv-dev.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/function-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/integer-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/iterator-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/utility-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/unordered-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/smart_ptr-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/config-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/thread-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/boost/type_traits-src.xml"/>
-    <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/icu-dev.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/iconv-dev.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/unordered-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/thread-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/icu-dev.xml"/>
     <command name="develop">
-      <runner interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml"/>
+      <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBjM3oACgkQxnV5mk56UjHkEgCgiEDemTSGNNhvkOlG4GciR3ZHQI4AnjW2t8Xm
-9z6Gsv4TYJwDYpMzF0CB
+iEYEABECAAYFAlBknk0ACgkQxnV5mk56UjHj2QCeLRM+VomAnPJA3USdLmFGYxyjZGYAn0lZmgvg
+l/PaA4jVjkVwEvDV8+2O
 
 -->
