@@ -58,7 +58,7 @@ And much more. Refer to the ICU User Guide for details.</description>
       <implementation arch="Linux-src" compile:command="&quot;$SRCDIR/source/runConfigureICU&quot; Linux --prefix=&quot;$DISTDIR&quot; --mandir=&quot;${DISTDIR}/share/man&quot; --enable-static --disable-samples &amp;&amp; make install" id="sha1new=e973d7a5e8a1b93493eaf31f8e0b860fb420a3b4">
         <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.1/icu4c-49_1_1-src.tgz" size="19001722" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation arch="MacOSX-src" compile:command="&quot;$SRCDIR/source/runConfigureICU&quot; MacOSX --prefix=&quot;$DISTDIR&quot; --mandir=&quot;${DISTDIR}/share/man&quot; --enable-static --disable-samples &amp;&amp; make install" id="5685B94C-BF95-4F07-A31F-FC08DBBA0992">
+      <implementation arch="MacOSX-src" compile:command="&quot;$SRCDIR/source/runConfigureICU&quot; MacOSX --prefix=&quot;$DISTDIR&quot; --mandir=&quot;${DISTDIR}/share/man&quot; --enable-static --disable-samples &amp;&amp; make -j`sysctl -n hw.ncpu` install" id="5685B94C-BF95-4F07-A31F-FC08DBBA0992">
         <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.1/icu4c-49_1_1-src.tgz" size="19001722" type="application/x-compressed-tar"/>
         <manifest-digest sha1new="e973d7a5e8a1b93493eaf31f8e0b860fb420a3b4"/>
       </implementation>
@@ -71,7 +71,7 @@ And much more. Refer to the ICU User Guide for details.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBk7zEACgkQxnV5mk56UjEKfgCaAqL7HXHz9XvZ0gqt0Fm5aFDrG3IAn166Ejmo
-yFnEEsxWU2N2SKaP9P73
+iEYEABECAAYFAlBl3BgACgkQxnV5mk56UjHgpwCglEvfnjmLIoFEGsP9mCAioeWC7W4An3kPKc2f
+yo9CRrhjOaRm0Hunaq80
 
 -->
