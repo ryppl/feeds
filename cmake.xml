@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/cmake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://ryppl.github.com/feeds/cmake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>CMake</name>
   <summary>cross platform make</summary>
   <description>
@@ -49,7 +49,7 @@
   <package-implementation distributions="MacPorts" main="/opt/local/bin/cmake" package="cmake"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSh4ACgkQxnV5mk56UjFvOACeLUqdQqXpMEj8rMqxdqRZL8ElMYcAnR/d9pGF
-x1cfeFnLc6+CnDb6Ixbd
+iEYEABECAAYFAlBk7yAACgkQxnV5mk56UjFSZwCfWJYbjYuY9Q46aSSYhwqikDQK274AnAylH3ek
+3CUZvl9rsSOay7REf/Zb
 
 -->

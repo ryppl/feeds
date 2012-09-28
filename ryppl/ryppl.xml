@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
+<interface uri="http://ryppl.github.com/feeds/ryppl/ryppl.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ryppl="http://ryppl.org/2012">
   <name>ryppl</name>
   <summary>A Software Ecosystem Driver</summary>
   <description>
@@ -41,7 +41,7 @@ user-level commands.</description>
       <runner interface="http://repo.roscidus.com/python/python">
         <version before="3" not-before="2.6"/>
       </runner>
-      <requires interface="https://raw.github.com/ryppl/feeds/gh-pages/ryppl/ryppl.xml">
+      <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
         <environment insert="cmake/Modules" mode="replace" name="RYPPL_CMAKE_MODULE_PATH"/>
         <environment insert="." mode="replace" name="PYTHONPATH"/>
       </requires>
@@ -56,7 +56,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk/t3LsACgkQxnV5mk56UjEazQCdHgJ67k1fk+reme0d4J+6xrj71+gAnRGxdEvC
-qsfpTSKFH66RNYQ02g7M
+iEYEABECAAYFAlBk72AACgkQxnV5mk56UjErSQCfVPPAepXkj3XVLqNdKqxDsABxMgUAn0YuWvd2
+iAMVlSVu0zzJOyrcP9p1
 
 -->

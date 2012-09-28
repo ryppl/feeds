@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="https://raw.github.com/ryppl/feeds/gh-pages/zlib-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://ryppl.github.com/feeds/zlib-dev.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>zlib-dev</name>
   <summary>A Massively Spiffy Yet Delicately Unobtrusive Compression Library</summary>
   <description>
@@ -39,7 +39,7 @@ January 1997 issue (see below).
   <package-implementation distributions="MacPorts" package="zlib"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk+zSh8ACgkQxnV5mk56UjHZhgCbBSvazZJ5pdIV6GO1ZIF7tuVUPDAAniOF8Yg3
-9+pgtwbMBgm1m3AbyocB
+iEYEABECAAYFAlBk73oACgkQxnV5mk56UjFHmwCeNxksRGkjtNl8iuWJI6vtiyffmusAnjQois64
+ISC4OztoshB7GgQsv5Ae
 
 -->
