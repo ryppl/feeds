@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>Ninja</name>
   <summary>a small build system with a focus on speed</summary>
@@ -10,14 +11,18 @@ possible. Where other build systems are high-level languages Ninja aims to be an
 assembler.</description>
   <homepage>http://martine.github.com/ninja/</homepage>
   <category>Development</category>
-  <group compile:dup-src="true" compile:binary-main="ninja" 
-         compile:command='cd ${BUILDDIR} &amp;&amp; ${PYTHON} bootstrap.py &amp;&amp; ${PYTHON} -c "import os;os.rename(&apos;ninja&apos;,os.path.join(os.environ[&apos;DISTDIR&apos;],&apos;ninja&apos;))"'>
+  <group compile:binary-main="ninja" compile:command="cd ${BUILDDIR} &amp;&amp; ${PYTHON} bootstrap.py &amp;&amp; ${PYTHON} -c &quot;import os;os.rename('ninja',os.path.join(os.environ['DISTDIR'],'ninja'))&quot;" compile:dup-src="true">
     <implementation arch="*-src" id="sha1new=8831c7446c01e87ab5ec413928f1c87a66d7411d" released="2012-09-13" stability="testing" version="1.0.0">
       <archive extract="martine-ninja-7096bf1" href="http://nodeload.github.com/martine/ninja/zipball/7096bf1507f98be981aa14ffd9ed5a4a8b1c1494" size="185758" type="application/zip"/>
     </implementation>
 
     <requires interface="http://repo.roscidus.com/python/python">
-      <executable-in-var name='PYTHON'/>
+      <executable-in-var name="PYTHON"/>
     </requires>
   </group>
 </interface>
+<!-- Base64 Signature
+iEYEABECAAYFAlBmNisACgkQxnV5mk56UjGlXwCgkbJw+ohqZDPOY/ENqBspjRvbxvQAoJMiWqj7
+GiiP1ygsNZymbwtn4h6D
+
+-->
