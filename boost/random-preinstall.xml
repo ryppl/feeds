@@ -11,9 +11,9 @@
     generation.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="0c6100b7-0db9-4a23-9b4c-623bf1f87ba4" released="2012-09-27" ryppl:vcs-revision="0c65bf065188655a0c28f4717f5aa0d1523fde1a" stability="developer" version="1.51-post-2012.09.28.0243">
+    <implementation arch="*-src" id="589201ae-fe07-48e4-9a4a-439217e4cbbc" released="2012-09-28" ryppl:vcs-revision="0c65bf065188655a0c28f4717f5aa0d1523fde1a" stability="developer" version="1.51-post-2012.09.28.1518">
       <archive extract="boost-lib-random-0c65bf0" href="http://nodeload.github.com/boost-lib/random/zipball/0c65bf065188655a0c28f4717f5aa0d1523fde1a" size="260691" type="application/zip"/>
-      <manifest-digest sha256="187e11ef740ff8e3968f72d4f50d7b696b29004ceb87dedd80fcd4af2c9a2f74"/>
+      <manifest-digest sha256new="DB7BD33UB74OHFUPOLKPKDL3NFVSSACM5OD55XMA7TKK6LE2F52A"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -148,7 +148,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlEFIACgkQxnV5mk56UjGIHwCgoFPHvzpLmNJgZBCK+7yA63QBXSkAn0+1joCS
-ZAQ92DxB6rFeH0jyqY1a
+iEYEABECAAYFAlBlwNIACgkQxnV5mk56UjFBSwCdE3kaQvFzMJAPKkicgVIeGL/3ejwAn0SPVH0h
+Yg3mkw85DGQOsgXffubE
 
 -->
