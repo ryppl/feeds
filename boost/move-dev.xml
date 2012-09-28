@@ -10,9 +10,9 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="5353a4d2-8c69-4155-9af3-7b9e909bff67" released="2012-09-27" ryppl:vcs-revision="9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-src" id="4f86a378-7b7d-43f6-b07e-95bcaba3c39a" released="2012-09-27" ryppl:vcs-revision="9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-move-9a901e8" href="http://nodeload.github.com/boost-lib/move/zipball/9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" size="87193" type="application/zip"/>
-      <manifest-digest sha256="J3TWZVXYWYVFTXJGBYSIFN7G7E6GGDNVENBKCU3BJUMOZPTZYSKQ"/>
+      <manifest-digest sha256="4ee76cd6f8b62a59dd260e2482b7e6f93c630db52342a153614d18ecbe79c495"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlB+oACgkQxnV5mk56UjF/vwCfeQ60fwXvV9mU9Rim2aTCQqtlshMAnAzXDu46
-04m6Kgm4ZME/QBgyPMZ7
+iEYEABECAAYFAlBlD8QACgkQxnV5mk56UjHrhACfZje9/2R1ZHk1zlJ6Gi86cpAnd0oAn1+aThfq
+ERDQciy+RT0S/POZtkt6
 
 -->

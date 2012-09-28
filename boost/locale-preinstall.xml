@@ -10,9 +10,9 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b564293c-8d48-4f1d-abb3-2ebbce8a6ac6" released="2012-09-27" ryppl:vcs-revision="cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-src" id="91ffad1a-9fe0-4965-92ee-ebbb65de12c5" released="2012-09-27" ryppl:vcs-revision="cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-locale-cdf0c5e" href="http://nodeload.github.com/boost-lib/locale/zipball/cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" size="1180142" type="application/zip"/>
-      <manifest-digest sha256="VSNOHENIWUJNY3HCXFN6C3BZT7CQQTTGJJKKO3RLLNVDBEHJKRXA"/>
+      <manifest-digest sha256="ac9ae391a8b512dc6ce2b95be16c399fc5084e664a54a76e2b5b6a3090e9546e"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -195,7 +195,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlCGkACgkQxnV5mk56UjF+AgCgqNx+d2t7Ou0UE6zCyrsYH4lTclsAoJc0xjVf
-QSopaj485tdIgySpVEiu
+iEYEABECAAYFAlBlEBwACgkQxnV5mk56UjGnjgCfcEiW1/Ef8BplkyfcPIax96X9v5kAn0cmNhTa
+1AzpLrVEUyNVmfmwP5pl
 
 -->

@@ -12,9 +12,9 @@
     directories.</description>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="36a69a6f-83c4-4e9b-a03b-84d1362060e5" released="2012-09-27" ryppl:vcs-revision="03bbaaa814abcb781fc89294c80d40a98fae95bc" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-src" id="ecc3645f-82a5-40d2-ad00-9444e47a4d15" released="2012-09-27" ryppl:vcs-revision="03bbaaa814abcb781fc89294c80d40a98fae95bc" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-filesystem-03bbaaa" href="http://nodeload.github.com/boost-lib/filesystem/zipball/03bbaaa814abcb781fc89294c80d40a98fae95bc" size="303624" type="application/zip"/>
-      <manifest-digest sha256="WWNM7SQDVQ2YP2BTRABDTKAEXA67FD3J5ZSQDEI6EHHPOHAWU7JQ"/>
+      <manifest-digest sha256="b59acfca03ac3587e833880239a804b83df28f69ee6501911e21cef71c16a7d3"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -155,7 +155,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlCK0ACgkQxnV5mk56UjGOFACffnbzFsXteMdGSJ2DX6fXm04uthwAn2SBZ+CG
-cXAoEfZ7zN5Bo/K5oYTV
+iEYEABECAAYFAlBlED8ACgkQxnV5mk56UjHzPACbBv+Ss/Tn/XnTfMWmPLsLWay6kVkAmwXZ0f53
+7FGtgvW7ksDQ+2AeMUyC
 
 -->

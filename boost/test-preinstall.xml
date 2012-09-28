@@ -11,9 +11,9 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="863725ed-9471-4fb7-97e2-8993bc02a372" released="2012-09-27" ryppl:vcs-revision="ba9a2ad29a7b31ff9e4a05100db634170ec74e7e" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-src" id="924c9460-4951-4911-bdd1-db67cc96768d" released="2012-09-27" ryppl:vcs-revision="ba9a2ad29a7b31ff9e4a05100db634170ec74e7e" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-test-ba9a2ad" href="http://nodeload.github.com/boost-lib/test/zipball/ba9a2ad29a7b31ff9e4a05100db634170ec74e7e" size="1005223" type="application/zip"/>
-      <manifest-digest sha256="KEP2GPRRZVK4XPYV5ERIRD762ZDUYWOBMLZGOGT5AWXUKSZLGXOA"/>
+      <manifest-digest sha256="511fa33e31cd55cbbf15e922888ffed6474c59c162f2671a7d05af454b2b35dc"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -190,7 +190,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlCOQACgkQxnV5mk56UjEX+wCgoy2HIu29WfD9059Z27FIMfzA9rQAniS60tgE
-//+HW6SO40SIK+n1+u+x
+iEYEABECAAYFAlBlEFcACgkQxnV5mk56UjF6uACfXYbu4QTegqoD94YsJn0d1r0N800AoKgsNbyR
+9jpm53Z8ChUPT18IjNwG
 
 -->

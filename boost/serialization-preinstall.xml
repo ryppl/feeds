@@ -12,9 +12,9 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="ff2d8104-426f-43f1-ad49-970659558ae4" released="2012-09-27" ryppl:vcs-revision="74575c0fdcd7f6afdf12efc3de3e24539a0a7f9f" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-src" id="b4bb6b90-c492-4fbd-8f9f-bd4722fb961d" released="2012-09-27" ryppl:vcs-revision="74575c0fdcd7f6afdf12efc3de3e24539a0a7f9f" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-serialization-74575c0" href="http://nodeload.github.com/boost-lib/serialization/zipball/74575c0fdcd7f6afdf12efc3de3e24539a0a7f9f" size="845267" type="application/zip"/>
-      <manifest-digest sha256="FU6FNRR34XARTV3DX4MNJ6BATNUVPWWTZET7WAAH3JJDAZMN6VSQ"/>
+      <manifest-digest sha256="2d3c56c63be5c119d763bf18d4f8209b6957dad3c927fb0007da5230658df565"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -149,7 +149,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlBrkACgkQxnV5mk56UjHK2QCfbGEglWDvYeXh/kls7clAxTsimIMAni8ecdtL
-BAFS/qPqmem5rJO0R7wG
+iEYEABECAAYFAlBlDtcACgkQxnV5mk56UjGDiQCeLxYkx5almSgw90TWm1sbKVMSqVsAoJAHT5Ko
+iYRuomntbnhVzKpbc6x9
 
 -->

@@ -14,9 +14,9 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="cf901e3f-92c2-4956-aab8-5ee3c01c6a0f" released="2012-09-27" ryppl:vcs-revision="10d0cbf3f1c7285b91715b75b98d3eb815f9d8f9" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-*" id="b2d12d87-8a78-42e8-8ec2-6c87a0235f0f" released="2012-09-27" ryppl:vcs-revision="10d0cbf3f1c7285b91715b75b98d3eb815f9d8f9" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-spirit-10d0cbf" href="http://nodeload.github.com/boost-lib/spirit/zipball/10d0cbf3f1c7285b91715b75b98d3eb815f9d8f9" size="3271242" type="application/zip"/>
-      <manifest-digest sha256="YVD5LZVDBTLISVCUBAYQ6GDIJYF4LOI7ELG7XBE73P2SE7S46ZKA"/>
+      <manifest-digest sha256="c547d5e6a30cd689545408310f18684e0bc5b91f22cdfb849fdbf5227e5cf654"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/variant-src.xml"/>
@@ -56,7 +56,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlCC8ACgkQxnV5mk56UjH2VgCdFXh4taXPAQMBK4w12bGu0OOzz3QAn2NWc+k9
-DPztAJEj8bf1PtprCGm8
+iEUEABECAAYFAlBlEAcACgkQxnV5mk56UjGtWwCeOZf7K6p0CIXl56XHI7ul86cPGqEAmK1RyTPP
+TYjp2t4hkgdOnSuSAZs=
 
 -->

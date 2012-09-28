@@ -11,9 +11,9 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="f3dde3d2-ce02-4614-8e90-660beda4588a" released="2012-09-27" ryppl:vcs-revision="802184d02ce794a7368c42521a485dca04aa72fc" stability="developer" version="1.51-post-2012.09.28.0208">
+    <implementation arch="*-src" id="4c9c086e-3490-40f8-9ab2-cb83b4ae71a6" released="2012-09-27" ryppl:vcs-revision="802184d02ce794a7368c42521a485dca04aa72fc" stability="developer" version="1.51-post-2012.09.28.0243">
       <archive extract="boost-lib-thread-802184d" href="http://nodeload.github.com/boost-lib/thread/zipball/802184d02ce794a7368c42521a485dca04aa72fc" size="440824" type="application/zip"/>
-      <manifest-digest sha256="JCZB2NQIVZXNHGXSE76C37JEP4OEAE7KO3SONECKDQKOYYJ65JDA"/>
+      <manifest-digest sha256="48b21d3608ae6ed39af227fc2dfd247f1c4013ea76e4e6904a1c14ec613eea46"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -187,7 +187,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlB3cACgkQxnV5mk56UjGzzgCfUitiL0xfa8FCur42gLDwEVYZeBgAn3HiOnu0
-kqlJJbmq8naM/n1Q2bbn
+iEYEABECAAYFAlBlD30ACgkQxnV5mk56UjH58gCgh/jpsxC2gMY0bC4z1gXl7HNEYPwAniErpWFj
+b8KpSMQsChKbVbuINZeM
 
 -->
