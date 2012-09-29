@@ -20,9 +20,14 @@ assembler.</description>
       <executable-in-var name="PYTHON"/>
     </requires>
   </group>
+  <package-implementation distributions="Debian" main="/usr/bin/ninja" package="ninja"/>
+  <package-implementation distributions="RPM" main="/usr/bin/ninja" package="ninja"/>
+  <package-implementation distributions="Cygwin" main="/usr/bin/ninja" package="ninja"/>
+  <package-implementation distributions="Ports" main="/usr/local/bin/ninja" package="ninja"/>
+  <package-implementation distributions="MacPorts" main="/opt/local/bin/ninja" package="ninja"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBmPy0ACgkQxnV5mk56UjGG1QCgmZcCWFI3yz56wYYqiw5CBRsd17YAoKAaVHZ2
-XHNbxESKeM8lZzL4x0Zr
+iEYEABECAAYFAlBmQfAACgkQxnV5mk56UjGGmQCgheoOlxeqnIXiUI2IgQeb6SZ0ixsAnAzLm8us
+Jhj8te3OQwHRVFilQUcQ
 
 -->
