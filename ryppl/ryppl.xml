@@ -16,6 +16,9 @@ user-level commands.</description>
   <icon href="https://secure.gravatar.com/avatar/c80c76a6b9949b97084ea6f6e8367cab?s=140" type="image/png"/>
   <ryppl:vcs-repository href="http://github.com/ryppl/ryppl.git" type="git"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
+    <implementation id="sha1new=2d41d04e27604e9b2b1dfcbd303d65c1e71297c7" released="2012-09-28" ryppl:vcs-revision="d8c96571df9ad6328b2e1db3fa5a04f7f8b55761" stability="developer" version="0.8-pre-2012.09.28.2004">
+      <archive extract="ryppl-ryppl-d8c9657" href="http://nodeload.github.com/ryppl/ryppl/zipball/d8c96571df9ad6328b2e1db3fa5a04f7f8b55761" size="70675" type="application/zip"/>
+    </implementation>
     <implementation id="sha1new=6e04d29d46f030223f5711a4f3561f72a338983b" ryppl:vcs-revision="190f695b377d4a3e77a216e9c87dd2e38fc47ee1" stability="developer" version="0.8-pre-2012.05.18.2037">
       <archive extract="ryppl-ryppl-190f695" href="http://nodeload.github.com/ryppl/ryppl/zipball/190f695b377d4a3e77a216e9c87dd2e38fc47ee1" size="66422" type="application/zip"/>
     </implementation>
@@ -59,7 +62,7 @@ user-level commands.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBmOewACgkQxnV5mk56UjFQuQCePvDa9l7zj7Ey6XdfZvgtR1IoQGEAoJfQ5Xq/
-Y+GHtn/dlctRXEGrBAJz
+iEYEABECAAYFAlBmO+UACgkQxnV5mk56UjGOPwCfbV4neP4XjaMRe2oZYKJDh11QeqoAoJJVSqeY
+zMDrqwWcp8+6ecAdZn3b
 
 -->
