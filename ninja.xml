@@ -11,6 +11,12 @@ possible. Where other build systems are high-level languages Ninja aims to be an
 assembler.</description>
   <homepage>http://martine.github.com/ninja/</homepage>
   <category>Development</category>
+  <implementation arch="Windows-x86_64" id="sha1new=efe0bed363b33d02c78cb31fad7418e069e8693f" main="ninja.exe" released="2012-09-30" stability="testing" version="1.0.0">
+    <archive href="https://github.com/downloads/ryppl/feeds/ninja-1.0.0-windows-x86_64.zip" size="127577" type="application/zip"/>
+  </implementation>
+  <implementation arch="Darwin-x86_64" id="sha1new=14f7a65d1388dcccea164561386532ed819731e6" main="ninja" released="2012-09-30" stability="testing" version="1.0.0">
+    <archive href="https://github.com/downloads/martine/ninja/ninja-1.0.0-mac-x86_64.zip" size="53858" type="application/zip"/>
+  </implementation>
   <group compile:binary-main="ninja" compile:command="cd ${BUILDDIR} &amp;&amp; ${PYTHON} bootstrap.py &amp;&amp; ${PYTHON} -c &quot;import os;os.rename('ninja',os.path.join(os.environ['DISTDIR'],'ninja'))&quot;" compile:dup-src="true">
     <implementation arch="*-src" id="sha1new=8831c7446c01e87ab5ec413928f1c87a66d7411d" released="2012-09-13" stability="testing" version="1.0.0">
       <archive extract="martine-ninja-7096bf1" href="http://nodeload.github.com/martine/ninja/zipball/7096bf1507f98be981aa14ffd9ed5a4a8b1c1494" size="185758" type="application/zip"/>
@@ -27,7 +33,7 @@ assembler.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/ninja" package="ninja"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBmQfAACgkQxnV5mk56UjGGmQCgheoOlxeqnIXiUI2IgQeb6SZ0ixsAnAzLm8us
-Jhj8te3OQwHRVFilQUcQ
+iEYEABECAAYFAlBousAACgkQxnV5mk56UjFH/wCfeOFDgbCspv3j7uB/42J4weyMJnQAn3hryJxo
+XhClbirZAXiY9SW2Fj+T
 
 -->
