@@ -56,13 +56,13 @@ user-level commands.</description>
         <environment insert="." mode="prepend" name="PYTHONPATH"/>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/ninja.xml">
-        <executable-in-path name="ninja"/>
+        <executable-in-path/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBmO+UACgkQxnV5mk56UjGOPwCfbV4neP4XjaMRe2oZYKJDh11QeqoAoJJVSqeY
-zMDrqwWcp8+6ecAdZn3b
+iEYEABECAAYFAlBprdMACgkQxnV5mk56UjFCogCeKpD0RsKbEJPY6jJEdyvgXwhXLUoAnRf7K2sH
+/VX0QjPWFmGec8vCMk3y
 
 -->
