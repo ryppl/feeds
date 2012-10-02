@@ -11,20 +11,27 @@ possible. Where other build systems are high-level languages Ninja aims to be an
 assembler.</description>
   <homepage>http://martine.github.com/ninja/</homepage>
   <category>Development</category>
-  <implementation arch="Windows-x86_64" id="sha1new=7de806fafb4daf249fea3e6133c3fa837f50e04e" main="ninja.exe" released="2012-09-30" stability="testing" version="1.0.0">
-    <archive href="https://github.com/downloads/ryppl/feeds/ninja-1.0.0-windows-x86_64.zip" size="127577" type="application/zip"/>
-  </implementation>
-  <implementation arch="Darwin-x86_64" id="sha1new=14f7a65d1388dcccea164561386532ed819731e6" main="ninja" released="2012-09-30" stability="testing" version="1.0.0">
-    <archive href="https://github.com/downloads/martine/ninja/ninja-1.0.0-mac-x86_64.zip" size="53858" type="application/zip"/>
-  </implementation>
-  <group compile:binary-main="ninja" compile:command="cd ${BUILDDIR} &amp;&amp; ${PYTHON} bootstrap.py &amp;&amp; ${PYTHON} -c &quot;import os;os.rename('ninja',os.path.join(os.environ['DISTDIR'],'ninja'))&quot;" compile:dup-src="true">
-    <implementation arch="*-src" id="sha1new=8831c7446c01e87ab5ec413928f1c87a66d7411d" released="2012-09-13" stability="testing" version="1.0.0">
-      <archive extract="martine-ninja-7096bf1" href="http://nodeload.github.com/martine/ninja/zipball/7096bf1507f98be981aa14ffd9ed5a4a8b1c1494" size="185758" type="application/zip"/>
+  <group main="ninja" released="2012-09-13" stability="testing" version="1.0.0">
+
+    <implementation arch="Windows-x86_64" id="sha1new=7de806fafb4daf249fea3e6133c3fa837f50e04e" main="ninja.exe">
+      <archive href="https://github.com/downloads/ryppl/feeds/ninja-1.0.0-windows-x86_64.zip" size="127577" type="application/zip"/>
     </implementation>
 
-    <requires interface="http://repo.roscidus.com/python/python">
-      <executable-in-var name="PYTHON"/>
-    </requires>
+    <implementation arch="Darwin-x86_64" id="sha1new=14f7a65d1388dcccea164561386532ed819731e6">
+      <archive href="https://github.com/downloads/martine/ninja/ninja-1.0.0-mac-x86_64.zip" size="53858" type="application/zip"/>
+    </implementation>
+
+    <group compile:binary-main="ninja" compile:command="cd ${BUILDDIR} &amp;&amp; ${PYTHON} bootstrap.py &amp;&amp; ${PYTHON} -c &quot;import os;os.rename('ninja',os.path.join(os.environ['DISTDIR'],'ninja'))&quot;" compile:dup-src="true">
+
+      <implementation arch="*-src" id="sha1new=8831c7446c01e87ab5ec413928f1c87a66d7411d">
+        <archive extract="martine-ninja-7096bf1" href="http://nodeload.github.com/martine/ninja/zipball/7096bf1507f98be981aa14ffd9ed5a4a8b1c1494" size="185758" type="application/zip"/>
+      </implementation>
+
+      <requires interface="http://repo.roscidus.com/python/python">
+        <executable-in-var name="PYTHON"/>
+      </requires>
+    </group>
+
   </group>
   <package-implementation distributions="Debian" main="/usr/bin/ninja" package="ninja"/>
   <package-implementation distributions="RPM" main="/usr/bin/ninja" package="ninja"/>
@@ -33,7 +40,7 @@ assembler.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/ninja" package="ninja"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBov3wACgkQxnV5mk56UjHTcACdEal3NECsiDbM/AbaW8LKA7n2QdcAoKJ28Q7z
-2EC1lOUU3C+4tfHxEDXO
+iEYEABECAAYFAlBq/hgACgkQxnV5mk56UjFUiQCfeJonJMk87G1diztW8h/Z4Ip5F0YAnRgoaUg6
+M6qzOJZ9YZ0UQ2//ifwS
 
 -->
