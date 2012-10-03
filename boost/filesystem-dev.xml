@@ -12,9 +12,9 @@
     directories.</description>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="03468122-085b-4a14-8db2-34f82a0bb87f" released="2012-09-28" stability="developer" version="1.51-post-2012.09.28.1518">
+    <implementation arch="*-src" id="9c4cfa9c-7148-429e-b33d-c9b339279350" released="2012-10-03" stability="developer" version="1.51-post-2012.10.03.1149">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+      <manifest-digest sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlwLQACgkQxnV5mk56UjHoWACggjkUB+xcvqhnZiU6ShRC8A3cXXcAmgL5Yvqs
-gTY1jyi+57bX7uLGnPbe
+iEUEABECAAYFAlBsJtYACgkQxnV5mk56UjFVgQCfbNxEaLc69pkFrOmHWJ/szVQcZggAlid6x/DI
+gOWKYMy63aL3fCI3azk=
 
 -->

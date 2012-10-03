@@ -12,9 +12,9 @@
     parallel application programming.</description>
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="e3e96b29-aa5b-4488-8e00-736d2b9f1398" released="2012-09-28" stability="developer" version="1.51-post-2012.09.28.1518">
+    <implementation arch="*-src" id="d9cbeaf4-1093-40ff-ab4c-6655db6b8659" released="2012-10-03" stability="developer" version="1.51-post-2012.10.03.1149">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+      <manifest-digest sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlwFoACgkQxnV5mk56UjHyFwCfSm6OctFExp5b9Jhot4WqslOQz6gAoKh7hP7F
-uTxvXivExcTVpheBWt8V
+iEYEABECAAYFAlBsJqoACgkQxnV5mk56UjFn0QCgjdjo0Sfxz1hSJ946AHtLZN0rNAsAn35QkLsq
+N4U7+O825vLOek28s/yv
 
 -->

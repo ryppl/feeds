@@ -5,9 +5,9 @@
   <summary>Evil Build Dependency Cluster (EBDC)</summary>
   <icon href="http://svn.boost.org/svn/boost/website/public_html/live/gfx/boost-dark-trans.png" type="image/png"/>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="8bf46a4c-bc84-45ad-b952-72f9afa6dab9" released="2012-09-28" stability="developer" version="1.51-post-2012.09.28.1518">
+    <implementation arch="*-src" id="8a549f2d-c192-4970-b6b7-e277c01998d2" released="2012-10-03" stability="developer" version="1.51-post-2012.10.03.1149">
       <archive extract="empty" href="http://ryppl.github.com/feeds/empty.zip" size="162" type="application/zip"/>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
+      <manifest-digest sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -238,7 +238,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBlv7YACgkQxnV5mk56UjEI8QCfeEHT3l14AMyzC2v2R592p1ytNEUAn0mFLzXj
-vCmgmynqnE7CH1ZVGzlv
+iEYEABECAAYFAlBsJkkACgkQxnV5mk56UjHrkACgjpEMoXaGt9rzq4xo2j05i79M7VEAn2mgbUFF
+CMbVJ7hIN8GiZ/P1Ql6+
 
 -->
