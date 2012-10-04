@@ -42,17 +42,21 @@ workspaces that can be used in the compiler environment of your choice.</descrip
     </implementation>
   </group>
   <group license="OSI Approved :: BSD License (revised)" released="2012-08-09" stability="stable" version="2.8.9">
-    <implementation arch="Windows-i386" id="sha1new=c860cf06aaf327f6a5ffcc013465d2619988f8d4" main="bin/cmake.exe">
+    <implementation arch="Windows-i386" id="6DC169CB-DCD9-4356-B5F6-739CEC9DE8B7" main="bin/cmake.exe">
       <archive extract="cmake-2.8.9-win32-x86" href="http://www.cmake.org/files/v2.8/cmake-2.8.9-win32-x86.zip" size="11806280" type="application/zip"/>
+      <manifest-digest sha256new="UVAEO6FAQZ5NQ6WXVJ677FZMONSOO6VJS3TX3FNSZ2WKCVY7LUUQ"/>
     </implementation>
-    <implementation arch="Linux-i386" id="sha1new=2b6b4421dc98c98f8e740139068b7031cf5490b7" main="bin/cmake">
+    <implementation arch="Linux-i386" id="2B6BF19C-86F0-4DA7-8860-18CE11CADB73" main="bin/cmake">
       <archive extract="cmake-2.8.9-Linux-i386" href="http://www.cmake.org/files/v2.8/cmake-2.8.9-Linux-i386.tar.gz" size="19476433" type="application/x-compressed-tar"/>
+      <manifest-digest sha256new="RN5DLREF4JKX7DDY67RULOR5E26QQTKPZCJQ2J6WNVH7IPBQL6SA"/>
     </implementation>
-    <implementation arch="Darwin-*" id="sha1new=1a9c42e7b8f66843103b013d1225d7662bd1fc07" main="CMake 2.8-9.app/Contents/bin/cmake">
+    <implementation arch="Darwin-*" id="5D98DF8D-AE66-429D-8780-D4FC33F8A652" main="CMake 2.8-9.app/Contents/bin/cmake">
       <archive extract="cmake-2.8.9-Darwin64-universal" href="http://www.cmake.org/files/v2.8/cmake-2.8.9-Darwin64-universal.tar.gz" size="34073267" type="application/x-compressed-tar"/>
+      <manifest-digest sha256new="DJNZBMHJHQIPONJPAYSEZARHF7VPVCZRYN7F34ZFOWLI5FF6RD4Q"/>
     </implementation>
-    <implementation arch="*-src" compile:binary-main="bin/cmake" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="sha1new=9bcb98bf033ec3abfc876ddd78a8f7bfc3b3016f">
+    <implementation arch="*-src" compile:binary-main="bin/cmake" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="9F81F6CE-15F4-4FA6-AB86-F05CC921BD6C">
       <archive extract="cmake-2.8.9" href="http://www.cmake.org/files/v2.8/cmake-2.8.9.tar.gz" size="5658837" type="application/x-compressed-tar"/>
+      <manifest-digest sha256new="NLGNV7NRPAIP4JMUHKRA3RETQ77NJWW36PU7JVMQVGIWLUBP2YWA"/>
     </implementation>
   </group>
   <package-implementation distributions="Debian" main="/usr/bin/cmake" package="cmake"/>
@@ -62,7 +66,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   <package-implementation distributions="MacPorts" main="/opt/local/bin/cmake" package="cmake"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsaTAACgkQxnV5mk56UjEnPACgpxGLQyb8WwQIDe2ps2s+Wt3zvuAAniPilS6N
-CHOGaqug39Le5nVNdxp/
+iEYEABECAAYFAlBs734ACgkQxnV5mk56UjH79QCeINFvjQiG59HZ3HW/5LlE8CO2n+MAnAifTUJP
+or6r07nANoW7F1ke1gbA
 
 -->
