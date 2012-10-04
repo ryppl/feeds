@@ -57,13 +57,12 @@ user-level commands.</description>
       </requires>
       <requires interface="http://ryppl.github.com/feeds/ninja.xml">
         <executable-in-path name="ninja"/>
-        <environment insert="." mode="prepend" name="PATH"/>
       </requires>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBrS1MACgkQxnV5mk56UjHSjgCeLQ8opTPkyirCV/sxGezINuSfmo8An1I8KsNN
-xF22w15xMQcRU+Puu0g4
+iEYEABECAAYFAlBtGCsACgkQxnV5mk56UjHTPgCfZdc+uD4JSeJ/qnB2VJF9zpbzJ7AAn2XFv0Fm
+N6y8gRzZmIsJScC2pLBg
 
 -->
