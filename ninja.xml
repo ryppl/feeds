@@ -12,8 +12,8 @@ assembler.</description>
   <homepage>http://martine.github.com/ninja/</homepage>
   <category>Development</category>
   <group main="ninja" released="2012-09-13" stability="testing" version="1.0.0">
-    <implementation arch="Windows-x86_64" id="8C0E5051-A105-4736-B3FA-FD5C4D6522A8" main="ninja.exe">
-      <archive href="https://github.com/downloads/ryppl/feeds/ninja-1.0.0-windows-x86_64.zip" size="131018" type="application/zip"/>
+    <implementation arch="Windows-i386" id="8C0E5051-A105-4736-B3FA-FD5C4D6522A8" main="NINJA.EXE">
+      <archive href="https://github.com/downloads/ryppl/feeds/ninja-1.0.0-windows.zip" size="131018" type="application/zip"/>
       <manifest-digest sha256new="PTG3V5VTCBPOA4LZKBHGF26ZLWQDQDTDVWWZMYQZN5U55KYV25SQ"/>
     </implementation>
 
@@ -40,7 +40,7 @@ assembler.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/ninja" package="ninja"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBtE7EACgkQxnV5mk56UjFE/gCdEy8HOU0qgOjO1EFPoHkp/S8njb4An0YZoJdl
-c0eTz/gVfA8MynhKz7a9
+iEYEABECAAYFAlBxiIgACgkQxnV5mk56UjH3hQCggl8zUymkk90VUPibat438O/uX7EAniPmFe4A
+YEFS1rh0ohIC7gQCs7rE
 
 -->
