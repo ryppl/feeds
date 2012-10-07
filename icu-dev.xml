@@ -51,6 +51,14 @@ And much more. Refer to the ICU User Guide for details.</description>
   <homepage>http://site.icu-project.org/home</homepage>
   <category>Development</category>
   <group license="ICU License - ICU 1.8.1 and later (http://source.icu-project.org/repos/icu/icu/trunk/license.html)">
+    <group released="2012-06-06" stability="testing" version="49.1.2">
+      <implementation arch="Windows-i386" id="sha1new=de101334c73585debaddb713d9a0ad44581fafa6">
+        <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.2/icu4c-49_1_2-Win32-msvc10.zip" size="9327628" type="application/zip"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=0bfe0201987900a674a03733d5a478700260acfb">
+        <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.2/icu4c-49_1_2-Win64-msvc10.zip" size="9567181" type="application/zip"/>
+      </implementation>
+    </group>
     <group released="2012-04-06" stability="testing" version="49.1.1">
       <implementation arch="Windows-src" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" id="sha1new=ac1ac95a956bd6d1f875dfbbce30d56426cb3ab5">
         <archive extract="icu" href="http://download.icu-project.org/files/icu4c/49.1.1/icu4c-49_1_1-src.zip" size="20127144" type="application/zip"/>
@@ -71,7 +79,7 @@ And much more. Refer to the ICU User Guide for details.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBl3BgACgkQxnV5mk56UjHgpwCglEvfnjmLIoFEGsP9mCAioeWC7W4An3kPKc2f
-yo9CRrhjOaRm0Hunaq80
+iEYEABECAAYFAlBxq3UACgkQxnV5mk56UjGtagCcCmr/x9/LPhnWoG2KroyPc5aIV6gAoISRhCp9
+TJnaXahvNhRyZgd8W2nS
 
 -->
