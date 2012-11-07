@@ -11,8 +11,8 @@
     </description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e24cb8c9-9b52-4923-85a0-1c7da112f885" released="2012-10-03" ryppl:vcs-revision="f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-circular_buffer-f446ad6" href="http://nodeload.github.com/boost-lib/circular_buffer/zipball/f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" size="153325" type="application/zip"/>
+    <implementation arch="*-*" id="f3864c4a-d549-4831-b60d-5a0171bfec35" released="2012-11-07" ryppl:vcs-revision="f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="circular_buffer-f446ad6a78e23bf809f0a4b1f0f0a202a043a7be" href="http://github.com/boost-lib/circular_buffer/archive/f446ad6a78e23bf809f0a4b1f0f0a202a043a7be.zip" size="155027" type="application/zip"/>
       <manifest-digest sha256new="RONSZ6RNLAGBYBU4OJPHZCIDKIZTZFLJU4S5IP2HDZIBQCLIMGZQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJmUACgkQxnV5mk56UjG7hgCeKm/x5BnkbLIf1bPCldcAg/LOFEwAn08H10s1
-msYPeOTFNKgCW6MfV6ei
+iEUEABECAAYFAlCauyQACgkQxnV5mk56UjGWjwCeJW6wdKg4ORKbiSKF944RYIHUIbsAkgMkNq56
+FiegcH/LMYHPjAIf9TA=
 
 -->

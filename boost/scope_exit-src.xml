@@ -10,8 +10,8 @@
   <description>Execute arbitrary code at scope exit.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="8c99abfd-08bb-4405-bad4-8ab52663398a" released="2012-10-03" ryppl:vcs-revision="4a9528ffee01c76e1d4238143238bbbe4a626638" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-scope_exit-4a9528f" href="http://nodeload.github.com/boost-lib/scope_exit/zipball/4a9528ffee01c76e1d4238143238bbbe4a626638" size="96226" type="application/zip"/>
+    <implementation arch="*-*" id="63b68057-2931-434d-87b0-22a030b42955" released="2012-11-07" ryppl:vcs-revision="4a9528ffee01c76e1d4238143238bbbe4a626638" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="scope_exit-4a9528ffee01c76e1d4238143238bbbe4a626638" href="http://github.com/boost-lib/scope_exit/archive/4a9528ffee01c76e1d4238143238bbbe4a626638.zip" size="99446" type="application/zip"/>
       <manifest-digest sha256new="3UKA4DGU5MJQHRBUXFRJ4AKOBON3OWWVFKAT7P35DI4W22PNDHXA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/local_function-src.xml"/>
@@ -29,7 +29,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJtcACgkQxnV5mk56UjHtzgCeM20aTA98zEMX3C1CWDaw5PJfB6MAoJSmcBV4
-GH1EUjsXbSVvGOnxUxzw
+iEYEABECAAYFAlCavFUACgkQxnV5mk56UjGsXgCdHlpZW2lpj4QC2ngVtuode0lJQdUAnjJBJRNA
+GlWCsU81RsqxJX9d3lxY
 
 -->

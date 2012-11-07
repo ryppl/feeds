@@ -10,8 +10,8 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="9e6757a6-a0c0-45cb-b017-047461e2bf05" released="2012-10-03" ryppl:vcs-revision="719c7a411a83de9022e15a61535fe13dd2084f7c" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-pool-719c7a4" href="http://nodeload.github.com/boost-lib/pool/zipball/719c7a411a83de9022e15a61535fe13dd2084f7c" size="1045060" type="application/zip"/>
+    <implementation arch="*-src" id="c0e3cb7f-6215-4740-9d48-65ed83c2bed4" released="2012-11-07" ryppl:vcs-revision="719c7a411a83de9022e15a61535fe13dd2084f7c" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="pool-719c7a411a83de9022e15a61535fe13dd2084f7c" href="http://github.com/boost-lib/pool/archive/719c7a411a83de9022e15a61535fe13dd2084f7c.zip" size="1051132" type="application/zip"/>
       <manifest-digest sha256new="4KEX45SF4J4NWMFH2C6CNNZTLRHXHLDIUQ53LFFTJK4YTVLDJCZA"/>
     </implementation>
     <command name="compile">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJu4ACgkQxnV5mk56UjG1aQCgkST3LHp2pwZlRKZsS63Dbt4WcVsAnRwkSmO/
-AuiyXap9y+rXEZyUiHiO
+iEYEABECAAYFAlCavJYACgkQxnV5mk56UjFP1QCfWeEl55H/Yozlk8EzlflHaQWud4kAn3Oog3lS
+5hn6nK9tMEFsgOjKp8qb
 
 -->

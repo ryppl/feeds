@@ -11,8 +11,8 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="1a93374b-1e23-4044-bab1-b954546838ce" released="2012-10-03" ryppl:vcs-revision="802184d02ce794a7368c42521a485dca04aa72fc" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-thread-802184d" href="http://nodeload.github.com/boost-lib/thread/zipball/802184d02ce794a7368c42521a485dca04aa72fc" size="440824" type="application/zip"/>
+    <implementation arch="*-src" id="5b1f0d57-200d-4b00-9772-1735713d2c08" released="2012-11-07" ryppl:vcs-revision="802184d02ce794a7368c42521a485dca04aa72fc" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="thread-802184d02ce794a7368c42521a485dca04aa72fc" href="http://github.com/boost-lib/thread/archive/802184d02ce794a7368c42521a485dca04aa72fc.zip" size="461110" type="application/zip"/>
       <manifest-digest sha256new="JCZB2NQIVZXNHGXSE76C37JEP4OEAE7KO3SONECKDQKOYYJ65JDA"/>
     </implementation>
     <command name="compile">
@@ -187,7 +187,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJpAACgkQxnV5mk56UjFmYgCdGzZ4FJs95aSVbAMjQD+dPETZINYAoIJB5+rt
-D+28ak2ZbObzUEY3zvB+
+iEYEABECAAYFAlCau5sACgkQxnV5mk56UjHBoQCdFEQGrgXJfLPxWOxpsqzK8J1IiSQAoKDc7PCK
+S0fUHAtj/gtdifAwtdDB
 
 -->

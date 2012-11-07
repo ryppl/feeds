@@ -12,8 +12,8 @@
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b6bb1e20-2cf7-4280-af96-fcff9f47556f" released="2012-10-03" ryppl:vcs-revision="08d8f816c6e9ca4be540e79b5d912101db51612c" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-signals2-08d8f81" href="http://nodeload.github.com/boost-lib/signals2/zipball/08d8f816c6e9ca4be540e79b5d912101db51612c" size="151650" type="application/zip"/>
+    <implementation arch="*-*" id="403ea9e3-c5d0-4dda-805d-e918905b55e3" released="2012-11-07" ryppl:vcs-revision="08d8f816c6e9ca4be540e79b5d912101db51612c" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="signals2-08d8f816c6e9ca4be540e79b5d912101db51612c" href="http://github.com/boost-lib/signals2/archive/08d8f816c6e9ca4be540e79b5d912101db51612c.zip" size="156940" type="application/zip"/>
       <manifest-digest sha256new="3LAQD25M7ZZ5FWMQRS7H6MNEAQKN7UXI7SFMTSAHKLGXLCFLKA2A"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/any-src.xml"/>
@@ -39,7 +39,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJuQACgkQxnV5mk56UjHj5ACgpqx57Np2OarLBl0TOKgw9eUOnt0AnjANfTeC
-8FNw8fqjs/qu4v+Pm/MO
+iEYEABECAAYFAlCavHkACgkQxnV5mk56UjEPGgCdG2Bt5a4VMgkRmKBClg4RzOvoGSAAn1KjzdB0
+7sw1wLG0unomHKvjDjDe
 
 -->

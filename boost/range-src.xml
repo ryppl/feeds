@@ -12,8 +12,8 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="30dea0c4-ef6a-4b46-acff-9610a93f0915" released="2012-10-03" ryppl:vcs-revision="6c6cd1e268b1f49e55850fcf568e1682fd439c9f" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-range-6c6cd1e" href="http://nodeload.github.com/boost-lib/range/zipball/6c6cd1e268b1f49e55850fcf568e1682fd439c9f" size="805615" type="application/zip"/>
+    <implementation arch="*-*" id="790c0837-a32a-4944-998f-7afd1c7eed4e" released="2012-11-07" ryppl:vcs-revision="6c6cd1e268b1f49e55850fcf568e1682fd439c9f" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="range-6c6cd1e268b1f49e55850fcf568e1682fd439c9f" href="http://github.com/boost-lib/range/archive/6c6cd1e268b1f49e55850fcf568e1682fd439c9f.zip" size="835101" type="application/zip"/>
       <manifest-digest sha256new="3B54V2CGJDNFMJG5PPLSRULWDCH247OI4P6TVWWOCDUOQJ5GS5YQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
@@ -36,7 +36,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJmUACgkQxnV5mk56UjEmdwCgjHTPoTbPVPJwlZVmRf9NURPc7YoAnibW2Bp2
-jyT6w9MgKA3xKYezYrco
+iEYEABECAAYFAlCauyEACgkQxnV5mk56UjGl/ACcCa+/Anok++o1Ghj6JnMn50jCYWMAn33fnXO3
+GS2sfmgnnYmbvESzs8Nx
 
 -->

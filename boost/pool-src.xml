@@ -10,8 +10,8 @@
   <description>Memory pool management.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b03e5449-b19f-467d-b488-d06dc81f2edf" released="2012-10-03" ryppl:vcs-revision="719c7a411a83de9022e15a61535fe13dd2084f7c" stability="developer" version="1.51-post-2012.10.03.1149">
-      <archive extract="boost-lib-pool-719c7a4" href="http://nodeload.github.com/boost-lib/pool/zipball/719c7a411a83de9022e15a61535fe13dd2084f7c" size="1045060" type="application/zip"/>
+    <implementation arch="*-*" id="e5caf6fd-5f8f-4edd-8237-78091ad7973b" released="2012-11-07" ryppl:vcs-revision="719c7a411a83de9022e15a61535fe13dd2084f7c" stability="developer" version="1.51-post-2012.11.07.1948">
+      <archive extract="pool-719c7a411a83de9022e15a61535fe13dd2084f7c" href="http://github.com/boost-lib/pool/archive/719c7a411a83de9022e15a61535fe13dd2084f7c.zip" size="1051132" type="application/zip"/>
       <manifest-digest sha256new="4KEX45SF4J4NWMFH2C6CNNZTLRHXHLDIUQ53LFFTJK4YTVLDJCZA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
@@ -26,7 +26,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBsJu4ACgkQxnV5mk56UjFHUQCgp6wv99AHAwXVAa8T/LgdazH0AB0An3dO6EHz
-2teHDV0cyvUFSb0guF6b
+iEYEABECAAYFAlCavJcACgkQxnV5mk56UjEQoQCfQJMTVaLaAm50i8x5VDSo9Qn0e9IAnigzHwPf
+2akcn5PVzlUJOkP/zic4
 
 -->
