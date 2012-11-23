@@ -28,10 +28,10 @@ assembler.</description>
 
     <group compile:binary-main="ninja" compile:command="cd ${BUILDDIR} &amp;&amp; ${PYTHON} bootstrap.py &amp;&amp; ${PYTHON} -c &quot;import os;os.rename('ninja',os.path.join(os.environ['DISTDIR'],'ninja'))&quot;" compile:dup-src="true">
 
-      <implementation arch="*-src" id="sha1new=8831c7446c01e87ab5ec413928f1c87a66d7411d">
-        <archive extract="martine-ninja-7096bf1" href="http://nodeload.github.com/martine/ninja/zip/7096bf1507f98be981aa14ffd9ed5a4a8b1c1494" size="185758" type="application/zip"/>
+      <implementation arch="*-src" id="38330F20-B436-43DB-B4AF-5A2EF5E0AE76">
+        <archive extract="ninja-7096bf1507f98be981aa14ffd9ed5a4a8b1c1494" href="http://github.com/martine/ninja/archive/7096bf1507f98be981aa14ffd9ed5a4a8b1c1494.zip" size="190608" type="application/zip"/>
+        <manifest-digest sha256new="6NUHY6GPHNTUW236JCZMPKB5XVMNXT6GVDWDAREQVDKWC6YJQ2YA"/>
       </implementation>
-
       <requires interface="http://repo.roscidus.com/python/python">
         <executable-in-var name="PYTHON"/>
       </requires>
@@ -45,7 +45,7 @@ assembler.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/ninja" package="ninja"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCu6kYACgkQxnV5mk56UjG03gCeOnaORn7XNlCCRpzSph6GPbfSlNUAn3AbRPLi
-M9IKFameAdaS/lla0vUf
+iEYEABECAAYFAlCu88sACgkQxnV5mk56UjHwPQCffUn8i1HWiHWVU+bTMJ5wMyHQ4VUAn1OrxFMG
+4nojnB75IQIr1Lpup2IB
 
 -->
