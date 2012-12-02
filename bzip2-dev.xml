@@ -51,10 +51,12 @@ in memory using the bzip2 algorithms.</description>
     <archive href="http://softlayer.dl.sourceforge.net/project/gnuwin32/bzip2/1.0.5/bzip2-1.0.5-lib.zip" size="36170" type="application/zip"/>
   </implementation>
   <group license="   Copyright (C) 1996-2010 by Julian Seward.         This program is free software; you can redistribute it and/or modify     it under the terms set out in the LICENSE file, which is included     in the bzip2-1.0.6 source distribution.         This program is distributed in the hope that it will be useful,     but WITHOUT ANY WARRANTY; without even the implied warranty of     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     LICENSE file for more details." released="2010-09-20" stability="testing" version="1.0.6">
-    <implementation arch="Windows-src" compile:command="attrib -R /S/D * &amp;&amp; nmake -f makefile.msc lib &amp;&amp; mkdir $(DISTDIR)\include &amp;&amp; mkdir $(DISTDIR)\lib &amp;&amp; COPY bzlib.h $(DISTDIR)\include &amp;&amp; XCOPY *.lib *.dll $(DISTDIR)\lib" compile:dup-src="true" id="sha1new=ee51aade9f2da6608a57a4f2c3eb7e254550dd84">
+    <implementation arch="Windows-src" compile:command="attrib -R /S/D * &amp;&amp; nmake -f makefile.msc lib &amp;&amp; mkdir $(DISTDIR)\include &amp;&amp; mkdir $(DISTDIR)\lib &amp;&amp; COPY bzlib.h $(DISTDIR)\include &amp;&amp; XCOPY *.lib *.dll $(DISTDIR)\lib" compile:dup-src="true" id="D830C0D8-624A-40DD-9505-309B2ECD5410">
+      <manifest-digest sha1new="ee51aade9f2da6608a57a4f2c3eb7e254550dd84"/>
       <archive extract="bzip2-1.0.6" href="http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz" size="782025" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="*-src" compile:command="chmod -R +w . &amp;&amp; make PREFIX=&quot;$DISTDIR&quot; install" compile:dup-src="true" id="sha1new=ee51aade9f2da6608a57a4f2c3eb7e254550dd84">
+    <implementation arch="*-src" compile:command="chmod -R +w . &amp;&amp; make PREFIX=&quot;$DISTDIR&quot; install" compile:dup-src="true" id="036345A8-F086-48E9-A430-150280DA9538">
+      <manifest-digest sha1new="ee51aade9f2da6608a57a4f2c3eb7e254550dd84"/>
       <archive extract="bzip2-1.0.6" href="http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz" size="782025" type="application/x-compressed-tar"/>
     </implementation>
   </group>
@@ -65,7 +67,7 @@ in memory using the bzip2 algorithms.</description>
   <package-implementation distributions="MacPorts" package="bzip2"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC6jBAACgkQxnV5mk56UjHK3gCggGxUSA+gL8f3GvVNwawoYKczflAAnii514Zx
-gE+VE3qHM1uVfC3GgDaM
+iEYEABECAAYFAlC6xBoACgkQxnV5mk56UjGJsgCdFAAg8qbigKzlca9/k0iumukpLGcAniB/vMvU
+zW2Rdd+G0yQSR/rC/JXg
 
 -->
