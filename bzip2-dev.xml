@@ -51,7 +51,7 @@ in memory using the bzip2 algorithms.</description>
     <archive href="http://softlayer.dl.sourceforge.net/project/gnuwin32/bzip2/1.0.5/bzip2-1.0.5-lib.zip" size="36170" type="application/zip"/>
   </implementation>
   <group license="   Copyright (C) 1996-2010 by Julian Seward.         This program is free software; you can redistribute it and/or modify     it under the terms set out in the LICENSE file, which is included     in the bzip2-1.0.6 source distribution.         This program is distributed in the hope that it will be useful,     but WITHOUT ANY WARRANTY; without even the implied warranty of     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     LICENSE file for more details." released="2010-09-20" stability="testing" version="1.0.6">
-    <implementation arch="Windows-src" compile:command="attrib -R /S/D * &amp;&amp; nmake -f makefile.msc lib &amp;&amp; mkdir $(DISTDIR)\include &amp;&amp; mkdir $(DISTDIR)\lib &amp;&amp; COPY bzlib.h $(DISTDIR)\include &amp;&amp; COPY *.lib+*.dll $(DISTDIR)\lib" compile:dup-src="true" id="D830C0D8-624A-40DD-9505-309B2ECD5410">
+    <implementation arch="Windows-src" compile:command="attrib -R /S /D * &amp;&amp; nmake -f makefile.msc lib &amp;&amp; mkdir $(DISTDIR)\include &amp;&amp; mkdir $(DISTDIR)\lib &amp;&amp; COPY bzlib.h $(DISTDIR)\include &amp;&amp; COPY *.lib+*.dll $(DISTDIR)\lib" compile:dup-src="true" id="D830C0D8-624A-40DD-9505-309B2ECD5410">
       <manifest-digest sha1new="ee51aade9f2da6608a57a4f2c3eb7e254550dd84"/>
       <archive extract="bzip2-1.0.6" href="http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz" size="782025" type="application/x-compressed-tar"/>
     </implementation>
@@ -67,7 +67,7 @@ in memory using the bzip2 algorithms.</description>
   <package-implementation distributions="MacPorts" package="bzip2"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC6xrsACgkQxnV5mk56UjGApQCZAa6vNLytlJCSA6aSQNkkYeVOCNIAniG+JtwH
-ZExEDfFtMtObP0VddPk0
+iEYEABECAAYFAlC8vsYACgkQxnV5mk56UjF2BACfU+VHlyqEQiZzoTvjfdH7KxTHkK8AnRl/Th4g
+0D5CWfFRyy9bpam5BakD
 
 -->
