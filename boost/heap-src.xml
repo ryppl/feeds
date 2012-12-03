@@ -10,9 +10,9 @@
   <description>Priority queue data structures.</description>
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c16151d8-9f45-41a6-9f74-dd56a4ba4a7d" released="2012-11-07" ryppl:vcs-revision="760dffc682ed42503b086cc5d37499ae59708742" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="heap-760dffc682ed42503b086cc5d37499ae59708742" href="http://github.com/boost-lib/heap/archive/760dffc682ed42503b086cc5d37499ae59708742.zip" size="70542" type="application/zip"/>
-      <manifest-digest sha256new="JWG63VNZMCRJWAKEID4GAXFIXNUBY2UOKOHBKVVM45V2RGTS63DQ"/>
+    <implementation arch="*-*" id="c2dde8f9-02f7-4ef4-ac0a-85186d5f86af" released="2012-12-02" ryppl:vcs-revision="53b5c7d8bfd187c81d4780ac501e546599197f35" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="heap-53b5c7d8bfd187c81d4780ac501e546599197f35" href="http://github.com/boost-lib/heap/archive/53b5c7d8bfd187c81d4780ac501e546599197f35.zip" size="72847" type="application/zip"/>
+      <manifest-digest sha256new="JNFXNFNC7E5HAM7ADFZGSYOTPVLBQRH3JCHUVGHJF7234QM5LP4Q"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
@@ -26,13 +26,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavEAACgkQxnV5mk56UjHBFgCeI5NFnlSAKYUnysOGsjMbYVxHWDEAoIPDEw1E
-qEuJs9ggUxHeNtF7+xUw
+iEYEABECAAYFAlC8CBQACgkQxnV5mk56UjFmBwCgmFpooM0mKk0FkfI/BQkUBq3nvXQAn3JqG7iu
+2V3mqRF4E8+OImyWQtZ0
 
 -->

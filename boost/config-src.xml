@@ -11,18 +11,19 @@
     idiosyncrasies; not intended for library users.</description>
   <category type="http://boost.org/lib-categories/2012">workarounds</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b24b8e1f-08ff-4a74-87cf-6110cd43d60e" released="2012-11-07" ryppl:vcs-revision="a8a1d8ea89175afe5e203c0b2c1dabed5ee934ce" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="config-a8a1d8ea89175afe5e203c0b2c1dabed5ee934ce" href="http://github.com/boost-lib/config/archive/a8a1d8ea89175afe5e203c0b2c1dabed5ee934ce.zip" size="657528" type="application/zip"/>
-      <manifest-digest sha256new="NAMTASGPPKI7DAXRQ4HAGXCBW43YDB54ERJNNIMJS2OQOQADCOTA"/>
+    <implementation arch="*-*" id="e44ce5f9-972b-44cc-90bd-04bfdef0a4d4" released="2012-12-02" ryppl:vcs-revision="e417fcb92c932085910febb27263e689619a3255" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="config-e417fcb92c932085910febb27263e689619a3255" href="http://github.com/boost-lib/config/archive/e417fcb92c932085910febb27263e689619a3255.zip" size="660101" type="application/zip"/>
+      <manifest-digest sha256new="AHGMTA3OAJAHINRL3E7DVEJRZS3JFD5B72RXOLWWX3B4QMLIN6TQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCauxEACgkQxnV5mk56UjHQgACggn66TogPAH9L1so5VL75K6whp/sAnRyWjB5I
-Ell79IBagbflJE+xcHbj
+iEYEABECAAYFAlC8AjgACgkQxnV5mk56UjFvegCfbhwWz2oMqkTD1skJ+r7GefY96XQAoJYjPo41
+DPLncev7oL9UiR3h1fzt
 
 -->

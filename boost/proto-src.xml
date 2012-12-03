@@ -10,9 +10,9 @@
   <description>Expression template library and compiler construction toolkit for domain-specific embedded languages.</description>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="8591bc18-1c38-40ea-a357-97ea32e07393" released="2012-11-07" ryppl:vcs-revision="f5a2469c198fcff1b37a4adbed928fd4a460c980" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="proto-f5a2469c198fcff1b37a4adbed928fd4a460c980" href="http://github.com/boost-lib/proto/archive/f5a2469c198fcff1b37a4adbed928fd4a460c980.zip" size="509241" type="application/zip"/>
-      <manifest-digest sha256new="WOPW7W2PBSY3ANYSIPAJE2SW6SMT7KEAFACKVVTC5PIYYSG4NXHQ"/>
+    <implementation arch="*-*" id="bf4e1d1d-be22-40e6-8fd2-c33fbbf8a8b9" released="2012-12-02" ryppl:vcs-revision="600342831bffae319e24c3ec776b7c8b689de04c" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="proto-600342831bffae319e24c3ec776b7c8b689de04c" href="http://github.com/boost-lib/proto/archive/600342831bffae319e24c3ec776b7c8b689de04c.zip" size="509990" type="application/zip"/>
+      <manifest-digest sha256new="WMQNGIWNXWRQGODEJLNRZMFDF73YVL2FVCB2X3LRP24EE6BFTQOA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
@@ -24,13 +24,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavCgACgkQxnV5mk56UjHPuwCghqPWU8DE6tLjC2eFXzYEYIXE0U4AnRChlAKI
-95ejUDQijRrfDEcHSaAG
+iEYEABECAAYFAlC8B8gACgkQxnV5mk56UjHxfACgnAsr3W7zOQG8BacEd4SgREKlOVUAnRbGlaTm
+9/JavhVIV8ITEUYbPweG
 
 -->

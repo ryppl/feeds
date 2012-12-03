@@ -10,9 +10,9 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2c6fdd97-c550-4887-9945-bd4452708cc0" released="2012-11-07" ryppl:vcs-revision="0a26ce52e3a91e411bd3d90e6040a66dc5ee4ebb" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="intrusive-0a26ce52e3a91e411bd3d90e6040a66dc5ee4ebb" href="http://github.com/boost-lib/intrusive/archive/0a26ce52e3a91e411bd3d90e6040a66dc5ee4ebb.zip" size="525761" type="application/zip"/>
-      <manifest-digest sha256new="H44GTTNXPNJSMYSZZLW6KKOERFIDXVZ4YUCFC7BO2D4XAMH4BOOA"/>
+    <implementation arch="*-*" id="a4466032-f085-473f-88ae-3c3fb76ded66" released="2012-12-02" ryppl:vcs-revision="e17bd34449a92938ba68c60dcf0975c736bf4671" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="intrusive-e17bd34449a92938ba68c60dcf0975c736bf4671" href="http://github.com/boost-lib/intrusive/archive/e17bd34449a92938ba68c60dcf0975c736bf4671.zip" size="525843" type="application/zip"/>
+      <manifest-digest sha256new="RIH352ZTGP742ZAQUQPL7RXRPQDJMOYICO6YNLXTXYF3LYNQPFEQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
@@ -23,13 +23,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavDwACgkQxnV5mk56UjFUBACfagjWltHNum/XmTFNxvlXMejGXFAAoIyzDz0g
-q3ag3yTwzt1+85LXK12i
+iEYEABECAAYFAlC8CAcACgkQxnV5mk56UjGBBQCggMxLknZJLFfQed6PXqAB0TBE0wEAn2t8VECh
+TmZ+WX3ogqoR9GjUSQb7
 
 -->

@@ -14,9 +14,9 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Parsing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="3712b5f6-7815-48e8-8ea4-5cb9d35857e8" released="2012-11-07" ryppl:vcs-revision="10d0cbf3f1c7285b91715b75b98d3eb815f9d8f9" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="spirit-10d0cbf3f1c7285b91715b75b98d3eb815f9d8f9" href="http://github.com/boost-lib/spirit/archive/10d0cbf3f1c7285b91715b75b98d3eb815f9d8f9.zip" size="3353168" type="application/zip"/>
-      <manifest-digest sha256new="YVD5LZVDBTLISVCUBAYQ6GDIJYF4LOI7ELG7XBE73P2SE7S46ZKA"/>
+    <implementation arch="*-src" id="9e65e534-e74a-4243-8d0b-2c2c41b4fbce" released="2012-12-02" ryppl:vcs-revision="509e6ccb023c8a163dd80b3e1fb90698e5f9b1eb" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="spirit-509e6ccb023c8a163dd80b3e1fb90698e5f9b1eb" href="http://github.com/boost-lib/spirit/archive/509e6ccb023c8a163dd80b3e1fb90698e5f9b1eb.zip" size="3377603" type="application/zip"/>
+      <manifest-digest sha256new="KN3GYVOCTAJFFNNQLA3UH42L6YVPWZQHJ75665EWLYECZPTIS4YQ"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavAUACgkQxnV5mk56UjHnAACfQyiPVfLABk08kZ7dpUej98OBXbQAn1RBmGt8
-eJPxhPn7euzyz3Zjk5ln
+iEYEABECAAYFAlC8BzsACgkQxnV5mk56UjHgDwCgir4nlfxbyUGxlU9L336s4GtDrugAnjHsUHck
+RvbycYDCtiP4y/dttlRj
 
 -->

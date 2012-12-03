@@ -11,9 +11,9 @@
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3cf45ca8-21a2-43e7-a9a8-e93a90e986f5" released="2012-11-07" ryppl:vcs-revision="8b25610b30ab3f7d9752613682002733ff6f4aa9" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="chrono-8b25610b30ab3f7d9752613682002733ff6f4aa9" href="http://github.com/boost-lib/chrono/archive/8b25610b30ab3f7d9752613682002733ff6f4aa9.zip" size="604191" type="application/zip"/>
-      <manifest-digest sha256new="GE5E3GUI6AHQTIHYASJOHYQSHQLOQ2VFBPZLSZES4V44LJMYHXOA"/>
+    <implementation arch="*-*" id="91639b63-fa19-46ca-a274-67ce89457117" released="2012-12-02" ryppl:vcs-revision="030e5e7b3a70a913f0f35fbec144e501e87ef100" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="chrono-030e5e7b3a70a913f0f35fbec144e501e87ef100" href="http://github.com/boost-lib/chrono/archive/030e5e7b3a70a913f0f35fbec144e501e87ef100.zip" size="612962" type="application/zip"/>
+      <manifest-digest sha256new="BNVOY7RICHMO6GAOZ5J6QJS4ABFV7JRA5I6UVTFO2NPA6Y5XNZVQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/ratio-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
@@ -30,13 +30,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavA4ACgkQxnV5mk56UjH0MACeLikSBqO7SS/cWTr130W489Oef98AnRW/gYxs
-vrPkwqL6SADQav5VDPXO
+iEYEABECAAYFAlC8B2YACgkQxnV5mk56UjGR9wCffQkIUppBgHOcWqDK2cAo9X1Si8QAn1BdULG4
+4qFYDUtaFNcOTPO8gNyh
 
 -->

@@ -10,20 +10,21 @@
   <description>3-state boolean type library.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="cc0f3c95-4455-440a-bd84-8ebb64f9a071" released="2012-11-07" ryppl:vcs-revision="ed16017a674be3d8f294f2816fcbafbebc86963f" stability="developer" version="1.51-post-2012.11.07.1948">
+    <implementation arch="*-*" id="2e37f20e-1030-4ebe-8eed-37cec4ba5570" released="2012-12-02" ryppl:vcs-revision="ed16017a674be3d8f294f2816fcbafbebc86963f" stability="developer" version="1.51-post-2012.12.03.0135">
       <archive extract="logic-ed16017a674be3d8f294f2816fcbafbebc86963f" href="http://github.com/boost-lib/logic/archive/ed16017a674be3d8f294f2816fcbafbebc86963f.zip" size="15915" type="application/zip"/>
       <manifest-digest sha256new="S6UC2W5A5RHTOQY5OOBTBUSVWRFS2PCGSPKARQJMEFF3OSIC2VJA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau7MACgkQxnV5mk56UjFMMgCfV42U4eCQviOtsyfJrCNULYib/Y8AnjaqxJeG
-07Gze4Y4xznFIYviTSO4
+iEYEABECAAYFAlC8BPwACgkQxnV5mk56UjHrmACcDDSlOAMGT5b1w63ZMEDzrrnF4KgAn0v46dQB
+uSWeGBy/o3wCELJBnZj9
 
 -->

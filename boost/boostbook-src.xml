@@ -11,17 +11,18 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="383cd6fa-9662-4178-997f-4edd5559dbfd" released="2012-11-07" ryppl:vcs-revision="e8cb3cac364e74222ba16ee09b11dfea035f2efb" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="boostbook-e8cb3cac364e74222ba16ee09b11dfea035f2efb" href="http://github.com/boost-lib/boostbook/archive/e8cb3cac364e74222ba16ee09b11dfea035f2efb.zip" size="221356" type="application/zip"/>
-      <manifest-digest sha256new="3IHEXYWRY7VIHVAN2H3EFWUXWMGRABBINBHSMJQ2CQMYVOHORI6A"/>
+    <implementation arch="*-*" id="2617bb50-a5af-4214-be82-1bf0a64b76f4" released="2012-12-02" ryppl:vcs-revision="df26c181a4d50495bcaebdfd21b044b83ddf8cc7" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="boostbook-df26c181a4d50495bcaebdfd21b044b83ddf8cc7" href="http://github.com/boost-lib/boostbook/archive/df26c181a4d50495bcaebdfd21b044b83ddf8cc7.zip" size="221365" type="application/zip"/>
+      <manifest-digest sha256new="YIBESVWOJXBOARAESPIDTEZORKQDHNYVWNVUGE3EUQSSIHZCGHRA"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavC4ACgkQxnV5mk56UjGofgCfZU0vTeOVa6JXHOkWdZDZ312PZUMAmwYxfjlp
-yXx6o2YbHwra34LqPh2t
+iEYEABECAAYFAlC8B9sACgkQxnV5mk56UjEbIgCfW86TVKQuJa9FYHglW40Lt6ddsuMAn2lFmfg9
+0GC+IvxhCqbCjQhi+1Mb
 
 -->

@@ -13,22 +13,23 @@
   <description>Smart pointer class templates.</description>
   <category type="http://boost.org/lib-categories/2012">Memory</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="b8d81d66-421c-43fc-844f-2538cf25bd6d" released="2012-11-07" ryppl:vcs-revision="a5e8e53d914173d5e9706da46f7ce369b5381788" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="smart_ptr-a5e8e53d914173d5e9706da46f7ce369b5381788" href="http://github.com/boost-lib/smart_ptr/archive/a5e8e53d914173d5e9706da46f7ce369b5381788.zip" size="239323" type="application/zip"/>
-      <manifest-digest sha256new="J6NPWTWXNE7OBGJBHNQYQCACOI5Z7SXNDHFSZRHONVODC7DAHBWQ"/>
+    <implementation arch="*-*" id="feb41e21-9b67-4d71-9bf6-4e1c69388a88" released="2012-12-02" ryppl:vcs-revision="523c61d8aa89e82cdda162ecfd9ee337f5dcd7fc" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="smart_ptr-523c61d8aa89e82cdda162ecfd9ee337f5dcd7fc" href="http://github.com/boost-lib/smart_ptr/archive/523c61d8aa89e82cdda162ecfd9ee337f5dcd7fc.zip" size="267667" type="application/zip"/>
+      <manifest-digest sha256new="5DLDZGS7QRW6XOE6JNY5IOWVDYRL6OGQJPGGKN24T3G6CDJKVMBA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/exception-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavBsACgkQxnV5mk56UjG1jwCgh3Jm9TELsz7FD39QJEVcUzgZjyAAniLRgNeZ
-A5xVMDpoPjJwU5oIQ+AP
+iEYEABECAAYFAlC8B5YACgkQxnV5mk56UjGnlACcCepLBjxvki7tEs/Upz4nQMBqCxsAoJnD/9Nh
+t70K5WSpCEz11kossn1F
 
 -->

@@ -10,7 +10,7 @@
   <description>A very high-performance library for expressive UML2 finite state machines.</description>
   <category type="http://boost.org/lib-categories/2012">State</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="ec75d8f7-965e-49ce-b82c-b7455c477926" released="2012-11-07" ryppl:vcs-revision="24fbe9005e274138cfc89273e8f7664d43e84e82" stability="developer" version="1.51-post-2012.11.07.1948">
+    <implementation arch="*-*" id="a289d6b6-eba5-4219-8b11-8059bec279f4" released="2012-12-02" ryppl:vcs-revision="24fbe9005e274138cfc89273e8f7664d43e84e82" stability="developer" version="1.51-post-2012.12.03.0135">
       <archive extract="msm-24fbe9005e274138cfc89273e8f7664d43e84e82" href="http://github.com/boost-lib/msm/archive/24fbe9005e274138cfc89273e8f7664d43e84e82.zip" size="1938844" type="application/zip"/>
       <manifest-digest sha256new="AGII4B5SM26G526JPTZNH5KNQDUSKYVJEVQPVILTSJQA3FQNIR3A"/>
     </implementation>
@@ -29,13 +29,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCauxoACgkQxnV5mk56UjFI7gCgpxzIO5xnb7npHTnOepeZG9mmxI4AnjjEG/qh
-WR/xkGOxQCTK+QeC0aWM
+iEYEABECAAYFAlC8AkYACgkQxnV5mk56UjGlmACeOMARHP48W05PqUDLWyL3dKbTP7cAnR3SjyQ4
+fLrkisnyYq42u2b7DK9l
 
 -->

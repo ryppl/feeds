@@ -11,9 +11,9 @@
     generation.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="6561981b-9526-4cbf-b68b-534495611451" released="2012-11-07" ryppl:vcs-revision="0c65bf065188655a0c28f4717f5aa0d1523fde1a" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="random-0c65bf065188655a0c28f4717f5aa0d1523fde1a" href="http://github.com/boost-lib/random/archive/0c65bf065188655a0c28f4717f5aa0d1523fde1a.zip" size="270581" type="application/zip"/>
-      <manifest-digest sha256new="DB7BD33UB74OHFUPOLKPKDL3NFVSSACM5OD55XMA7TKK6LE2F52A"/>
+    <implementation arch="*-*" id="f6de60e2-daea-4bf4-8d8b-f9cd46bd7e5d" released="2012-12-02" ryppl:vcs-revision="a146635d4fd106985844e7269ded49982fcf7f11" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="random-a146635d4fd106985844e7269ded49982fcf7f11" href="http://github.com/boost-lib/random/archive/a146635d4fd106985844e7269ded49982fcf7f11.zip" size="275029" type="application/zip"/>
+      <manifest-digest sha256new="C6LTITNXIIASCPMGBBIUZ5D3XL6PSVKQO3P5US3ONIUFGP6T33HA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
@@ -24,13 +24,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavGgACgkQxnV5mk56UjF6BgCeIN8boBCm5oZBKZH3v6/jYY4izp4An1P5Lkgd
-wyKgOSx+iPz7+jD+77IM
+iEYEABECAAYFAlC8CIcACgkQxnV5mk56UjFhqgCdFOXrXMaf7DtilaygWVfyE1J8Ll8Anjn7D4ug
+f73bhkUUOLw+Lp8jTQOY
 
 -->

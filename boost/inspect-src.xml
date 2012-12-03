@@ -11,9 +11,9 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="44994340-06c3-42fd-9275-765512959040" released="2012-11-07" ryppl:vcs-revision="9045090a4390ea1496fa506f30befe9d44afd176" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="inspect-9045090a4390ea1496fa506f30befe9d44afd176" href="http://github.com/boost-lib/inspect/archive/9045090a4390ea1496fa506f30befe9d44afd176.zip" size="47264" type="application/zip"/>
-      <manifest-digest sha256new="AGNRHUXTCBZFAY5WP7OHJYJ7AVHFL7ZLXRDWF4VMOGPVNHVK6IYA"/>
+    <implementation arch="*-*" id="e74015bc-674a-4e02-9f9f-70ec0637442a" released="2012-12-02" ryppl:vcs-revision="389ee1d638b4ac895d440efdd524d49f79d3845f" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="inspect-389ee1d638b4ac895d440efdd524d49f79d3845f" href="http://github.com/boost-lib/inspect/archive/389ee1d638b4ac895d440efdd524d49f79d3845f.zip" size="47276" type="application/zip"/>
+      <manifest-digest sha256new="KRABEVM77VR32C2FATJ6J5BNZWP3OW6G3KGXBRPG5WK64EDQ6CHQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
@@ -23,13 +23,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/filesystem-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavJwACgkQxnV5mk56UjF1jwCeJiZZ2jFN+XL0WtLqy6Ur8oQ/gSwAn2YN4+uG
-LauYkbu5tzZ+lA2i4wQT
+iEYEABECAAYFAlC8CSAACgkQxnV5mk56UjGTFQCfS4N7igsMGdgSu1bpWuieDET6+z8AmwUvLRH/
+rv2WN1F1vjye2kLfIAuv
 
 -->

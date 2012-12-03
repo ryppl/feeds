@@ -11,7 +11,7 @@
     classes.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="49e448fd-d9c4-47f7-9b71-16044fa53eea" released="2012-11-07" ryppl:vcs-revision="ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8" stability="developer" version="1.51-post-2012.11.07.1948">
+    <implementation arch="*-*" id="0f168493-e0b5-47f6-b101-72c4458631ea" released="2012-12-02" ryppl:vcs-revision="ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8" stability="developer" version="1.51-post-2012.12.03.0135">
       <archive extract="timer-ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8" href="http://github.com/boost-lib/timer/archive/ec0be7e89c0de7c899d08c0e2277a25e07d6d3c8.zip" size="42244" type="application/zip"/>
       <manifest-digest sha256new="3UCVG7REIYFOPW7ZHHDQZXQINIX4W6QELISQLA4HNAUCKDKCICGQ"/>
     </implementation>
@@ -21,13 +21,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/system-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCauxMACgkQxnV5mk56UjGn6gCfWqGN0Uz9em9iLFMd5JqTYHjnJz8An0nitDtA
-dbbXYvwRD73+yfyf7lTu
+iEYEABECAAYFAlC8AjkACgkQxnV5mk56UjFgjgCgmLPRemRfJ/EVRKd2Pwqjw4bAAXQAoIJXRVHD
+NB2C+GU5XJedTPyHfdAN
 
 -->

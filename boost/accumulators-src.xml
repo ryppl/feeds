@@ -10,9 +10,9 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="75534e33-852f-4821-98fa-718545ceba0c" released="2012-11-07" ryppl:vcs-revision="358474945f5619420e506e4e55a3e9d30e1cd856" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="accumulators-358474945f5619420e506e4e55a3e9d30e1cd856" href="http://github.com/boost-lib/accumulators/archive/358474945f5619420e506e4e55a3e9d30e1cd856.zip" size="239325" type="application/zip"/>
-      <manifest-digest sha256new="UZ7PFJXG6CGW2TNFW53IGLGE25RVOVFJYRC4VESORGZHZQTOSMXA"/>
+    <implementation arch="*-*" id="a240a348-faf1-4778-b484-4e6f2c71a323" released="2012-12-02" ryppl:vcs-revision="9a61115fabaa2e5b874ac6d3ff1adbe07023cc0d" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="accumulators-9a61115fabaa2e5b874ac6d3ff1adbe07023cc0d" href="http://github.com/boost-lib/accumulators/archive/9a61115fabaa2e5b874ac6d3ff1adbe07023cc0d.zip" size="239495" type="application/zip"/>
+      <manifest-digest sha256new="KZEIGR77TKMT3ASLD66V3S7REJJVXUTDNEG4FJ2RWROUOL3JLIWA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
@@ -33,13 +33,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/ublas-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau9IACgkQxnV5mk56UjFxNACfYKJJ+AaKN9ba4DtVm20lAjRFA4sAoI/NSS8N
-P3N1q8krEGAaZYaZPmtf
+iEYEABECAAYFAlC8BdMACgkQxnV5mk56UjEYOACgkx9w+chIE4ASyLVkG9hSSK2Zce8AnjC2bkqz
+lCmzfxF26H/z0vFae9Fd
 
 -->

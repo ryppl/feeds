@@ -12,9 +12,9 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e5d9e02f-b527-4f4d-87ef-40823c484783" released="2012-11-07" ryppl:vcs-revision="45c3397b5e4ed8aa287cbfa2f6ea54f0dcbd4a01" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="conversion-45c3397b5e4ed8aa287cbfa2f6ea54f0dcbd4a01" href="http://github.com/boost-lib/conversion/archive/45c3397b5e4ed8aa287cbfa2f6ea54f0dcbd4a01.zip" size="80250" type="application/zip"/>
-      <manifest-digest sha256new="AMEINIAWRJEBHQDON45AXCEZ6X3667TBBHLYEUVN3JTVOA77JP7Q"/>
+    <implementation arch="*-*" id="e19a9bda-6ba5-4806-ab76-2df0eba516aa" released="2012-12-02" ryppl:vcs-revision="c592da9bab51270c159a72e217b4d001fa832d14" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="conversion-c592da9bab51270c159a72e217b4d001fa832d14" href="http://github.com/boost-lib/conversion/archive/c592da9bab51270c159a72e217b4d001fa832d14.zip" size="80950" type="application/zip"/>
+      <manifest-digest sha256new="6KKMSUUPOWJNVU5QKA42XMVVLKZMWH3VWOKV4E466GFU442M2BBQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
@@ -28,13 +28,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau7IACgkQxnV5mk56UjEOoACeIRHUawjWrssA+RIjasE3RmeckuUAn37+GhnL
-uSbocEKcYiZWf+RIoPoq
+iEYEABECAAYFAlC8BPoACgkQxnV5mk56UjHNeACfdd37Vp4rl5DHx+Q8MDCdUj0PlcIAn0mSAdlL
+amKT+cLra3fb8kSsH50o
 
 -->

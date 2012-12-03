@@ -10,7 +10,7 @@
   <description>Provide localization and Unicode handling tools for C++.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="14b72f54-7621-4242-8328-c5684d1c3ad2" released="2012-11-07" ryppl:vcs-revision="cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" stability="developer" version="1.51-post-2012.11.07.1948">
+    <implementation arch="*-*" id="bed574ca-0cce-42b6-8f34-e8a8454cfc45" released="2012-12-02" ryppl:vcs-revision="cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" stability="developer" version="1.51-post-2012.12.03.0135">
       <archive extract="locale-cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6" href="http://github.com/boost-lib/locale/archive/cdf0c5ec4946ea6d3a42ba6e197d16a04495efd6.zip" size="1202912" type="application/zip"/>
       <manifest-digest sha256new="VSNOHENIWUJNY3HCXFN6C3BZT7CQQTTGJJKKO3RLLNVDBEHJKRXA"/>
     </implementation>
@@ -25,13 +25,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/thread-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/icu-dev.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAlCavCAACgkQxnV5mk56UjHenQCdHHwsQBC4kQxvOy/Zym2DYEMh9nQAmOsaARId
-cEyuBd7Nh+BwFa5IhHk=
+iEYEABECAAYFAlC8B7sACgkQxnV5mk56UjHe0ACfWr9W94Za+8jP5ew0SCm88IAcaEcAnA56LG7t
+meh8Uxfwtbu6aJfRd2WD
 
 -->

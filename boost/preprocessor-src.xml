@@ -12,17 +12,18 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories/2012">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c8c7400b-b3d8-4f49-9b1f-20c0b65461c3" released="2012-11-07" ryppl:vcs-revision="f1f888e41930055fdf0695a27dc2ff4a2baf94aa" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="preprocessor-f1f888e41930055fdf0695a27dc2ff4a2baf94aa" href="http://github.com/boost-lib/preprocessor/archive/f1f888e41930055fdf0695a27dc2ff4a2baf94aa.zip" size="866780" type="application/zip"/>
-      <manifest-digest sha256new="R2JRJH2BMW3BKMXHANG4X6O2UUAGOTNZPML6FPLSGD55262WRCLA"/>
+    <implementation arch="*-*" id="73836633-08a0-4036-b13d-cf873e6f754b" released="2012-12-02" ryppl:vcs-revision="48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="preprocessor-48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b" href="http://github.com/boost-lib/preprocessor/archive/48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b.zip" size="869151" type="application/zip"/>
+      <manifest-digest sha256new="M2XN4RRAD6VDMRG3VSFCT7T2UVM6XOUBLM4HLKF7DRZAN4T45SCQ"/>
     </implementation>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavIwACgkQxnV5mk56UjEAIQCfaLtiRGytk/l2QA3LBA37dJ89zlkAn1KXitBc
-kLK5Bwqv9eMrWfO29XUC
+iEYEABECAAYFAlC8CQcACgkQxnV5mk56UjErRgCeNKL/TCVNuZotHDZ/zfWExryAqCcAn3Rwcpbv
+WlhmvfHa0jFA8jHXWUKC
 
 -->

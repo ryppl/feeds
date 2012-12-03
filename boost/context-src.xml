@@ -11,9 +11,9 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4897ac13-9d2f-4cf3-adbb-8dd8d06f8daa" released="2012-11-07" ryppl:vcs-revision="ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="context-ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f" href="http://github.com/boost-lib/context/archive/ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f.zip" size="71418" type="application/zip"/>
-      <manifest-digest sha256new="VFEIZMCZKI577VQ4K2E3CTGEIUP5QTFDDZOTLV43XF6EAVFIILDA"/>
+    <implementation arch="*-*" id="4c559901-1c68-41f2-abf8-17d7a3efd284" released="2012-12-02" ryppl:vcs-revision="0b3e044418d0f93a415be10670f50a1e49f1a32b" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="context-0b3e044418d0f93a415be10670f50a1e49f1a32b" href="http://github.com/boost-lib/context/archive/0b3e044418d0f93a415be10670f50a1e49f1a32b.zip" size="84337" type="application/zip"/>
+      <manifest-digest sha256new="FNA6DXEHTHNAOX3WOGTJ2DLRBROR43OYAPW3V6XXPEPMJES2RXRA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/bind-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
@@ -28,13 +28,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/program_options-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavCoACgkQxnV5mk56UjH3ZgCfdjl/2oyQ00Bd68tNyZoihurKf88An3vanGA1
-8aEnYtJ8XLFShentdLC9
+iEYEABECAAYFAlC8B9QACgkQxnV5mk56UjHIygCcCWGYY5p1rd54hB3Nfoxliqug//cAoJmht6Lg
+9P3LQuJ3LD3jticSiim+
 
 -->

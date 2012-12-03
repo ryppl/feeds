@@ -10,9 +10,9 @@
   <description>Framework for incremental calculation, and collection of statistical accumulators.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="bca9bb9b-81d9-4f79-aeff-f07c04f4905a" released="2012-11-07" ryppl:vcs-revision="358474945f5619420e506e4e55a3e9d30e1cd856" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="accumulators-358474945f5619420e506e4e55a3e9d30e1cd856" href="http://github.com/boost-lib/accumulators/archive/358474945f5619420e506e4e55a3e9d30e1cd856.zip" size="239325" type="application/zip"/>
-      <manifest-digest sha256new="UZ7PFJXG6CGW2TNFW53IGLGE25RVOVFJYRC4VESORGZHZQTOSMXA"/>
+    <implementation arch="*-src" id="f8e326ec-eb4d-4da4-a681-d6f7ae29f059" released="2012-12-02" ryppl:vcs-revision="9a61115fabaa2e5b874ac6d3ff1adbe07023cc0d" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="accumulators-9a61115fabaa2e5b874ac6d3ff1adbe07023cc0d" href="http://github.com/boost-lib/accumulators/archive/9a61115fabaa2e5b874ac6d3ff1adbe07023cc0d.zip" size="239495" type="application/zip"/>
+      <manifest-digest sha256new="KZEIGR77TKMT3ASLD66V3S7REJJVXUTDNEG4FJ2RWROUOL3JLIWA"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -24,7 +24,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau9IACgkQxnV5mk56UjEMgwCeP/8eQNRCT6dOO/liOiTWqPkVR0gAn3h4vffE
-V/CCGbCR8ccII4gmklxL
+iEYEABECAAYFAlC8BdQACgkQxnV5mk56UjETpgCgkZKEPd6R0Cm7yzrm8xuH0Sf17y8An2Q7P6Il
+CVUfssErS/sh8Dx5SON/
 
 -->

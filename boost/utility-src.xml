@@ -68,9 +68,9 @@ Wrapper for uniform-syntax value initialization,
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="163eae1d-d80b-4296-8bb9-8b29cbee382e" released="2012-11-07" ryppl:vcs-revision="81e9c0d7257325ab8816d762b44ac4803d9f5443" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="utility-81e9c0d7257325ab8816d762b44ac4803d9f5443" href="http://github.com/boost-lib/utility/archive/81e9c0d7257325ab8816d762b44ac4803d9f5443.zip" size="231928" type="application/zip"/>
-      <manifest-digest sha256new="4W6TLPUQFIMQMAYCZOVHAQ2IWBGJ4UZIJZOGUBXSLJSVBCZSGCWQ"/>
+    <implementation arch="*-*" id="e42e0a3e-e20f-46a2-9c40-28f35b7ce68d" released="2012-12-02" ryppl:vcs-revision="e68e5ec1498d19ab474545fda8c2fb455edbd242" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="utility-e68e5ec1498d19ab474545fda8c2fb455edbd242" href="http://github.com/boost-lib/utility/archive/e68e5ec1498d19ab474545fda8c2fb455edbd242.zip" size="235257" type="application/zip"/>
+      <manifest-digest sha256new="GAXSJ573A7TTRGQIDIWBIYVE5NN4CWSZ4RBVHTFXK6YPJXUNS7VA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/iterator-src.xml"/>
@@ -79,13 +79,14 @@ Wrapper for uniform-syntax value initialization,
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavJ8ACgkQxnV5mk56UjH4uQCePMpxkz6EIm9VDhI95x7fTx3dqoAAn3i8VMCI
-PBuge2Qk7sTwllayJFl2
+iEYEABECAAYFAlC8CScACgkQxnV5mk56UjFLAACfSNtkunA6jv/Jp3YeizTwyrYQOp0An3eCwBV3
+ZUkbnmqKqEkTbNWmIoDd
 
 -->

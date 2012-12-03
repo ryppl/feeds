@@ -13,9 +13,9 @@
     iterator interface.</description>
   <category type="http://boost.org/lib-categories/2012">String</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="2e850100-d8ee-4ae0-9f40-19576f31402a" released="2012-11-07" ryppl:vcs-revision="e5aa6ce0392e7d52923186c8d69204244c6e1594" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="wave-e5aa6ce0392e7d52923186c8d69204244c6e1594" href="http://github.com/boost-lib/wave/archive/e5aa6ce0392e7d52923186c8d69204244c6e1594.zip" size="885942" type="application/zip"/>
-      <manifest-digest sha256new="7XW35LRB5FOIWY43OTEB3OKVT2Z3VCD26TTKERMYRNZ757QM5XTQ"/>
+    <implementation arch="*-*" id="4c974b9a-3d6f-413a-afc5-4c22bc216be4" released="2012-12-02" ryppl:vcs-revision="38a6383415064591fd013a84505cc2750da87af3" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="wave-38a6383415064591fd013a84505cc2750da87af3" href="http://github.com/boost-lib/wave/archive/38a6383415064591fd013a84505cc2750da87af3.zip" size="885860" type="application/zip"/>
+      <manifest-digest sha256new="3S4VFSMZFK3WMRKJSDNI5DDG2LKOHUOAK62HYZXJJICFR7L5VSCA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
@@ -35,13 +35,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/thread-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau7wACgkQxnV5mk56UjGdPgCfRW72GntOc0xygFM3xPcVZtiEtLoAoIGf5Rt5
-hM6tV3xogVFkuvYo23UF
+iEYEABECAAYFAlC8BRsACgkQxnV5mk56UjF+QACfdrpcTuGOo3ZOpRpbSs75lCSBHN8An31YGKVo
+tMKPxCCbQMO03uuzecco
 
 -->

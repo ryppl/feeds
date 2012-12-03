@@ -12,9 +12,9 @@
   <category type="http://boost.org/lib-categories/2012">String</category>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3d4ef159-aac7-4be9-b35e-4755151fbf7a" released="2012-11-07" ryppl:vcs-revision="63922dfe446ffc8c3eb961756ef2126de259bcf8" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="iostreams-63922dfe446ffc8c3eb961756ef2126de259bcf8" href="http://github.com/boost-lib/iostreams/archive/63922dfe446ffc8c3eb961756ef2126de259bcf8.zip" size="720313" type="application/zip"/>
-      <manifest-digest sha256new="6I5ROQ46O6HKWTZKRWFNBGAXAQEHK7YNUUZJT5EOFNEQ746CXZ3Q"/>
+    <implementation arch="*-*" id="10e5080b-dcd2-4e32-8ef7-c0fb207b7dd7" released="2012-12-02" ryppl:vcs-revision="4515b19912b2340b1ee485c84fa3011e4a2f8289" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="iostreams-4515b19912b2340b1ee485c84fa3011e4a2f8289" href="http://github.com/boost-lib/iostreams/archive/4515b19912b2340b1ee485c84fa3011e4a2f8289.zip" size="720315" type="application/zip"/>
+      <manifest-digest sha256new="BK6BANK3XGSWUYIZA5DMV53XQZZARUA5GE4OKSHBRKXFTGQJHRDQ"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/function-src.xml"/>
@@ -32,13 +32,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCauykACgkQxnV5mk56UjEaxACeIwlg080qcdBzaeNYrnLJscFYBWQAnjxOKBYM
-DeX0gJ5ZD+lMNc4bW3S6
+iEYEABECAAYFAlC8AmEACgkQxnV5mk56UjFpuwCfTBlzdbMVklgKve3+GmKVNy6wr3IAnRj2aXCT
+vD52frU/3JoDxmzC0coO
 
 -->

@@ -14,7 +14,7 @@
   <category type="http://boost.org/lib-categories/2012">Programming</category>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="7bb26039-713f-461a-b196-d7e9e1ae8c9c" released="2012-11-07" ryppl:vcs-revision="68f4a426082ff74224a2a39862c002828d63db23" stability="developer" version="1.51-post-2012.11.07.1948">
+    <implementation arch="*-*" id="b926219a-8771-4750-839b-28aa9538e4ac" released="2012-12-02" ryppl:vcs-revision="68f4a426082ff74224a2a39862c002828d63db23" stability="developer" version="1.51-post-2012.12.03.0135">
       <archive extract="parameter-68f4a426082ff74224a2a39862c002828d63db23" href="http://github.com/boost-lib/parameter/archive/68f4a426082ff74224a2a39862c002828d63db23.zip" size="175084" type="application/zip"/>
       <manifest-digest sha256new="6LUEEZ7Y25WXYS2SGAOLF7ZOGF4C24CIB66OKZECQOPUKTNPQPEA"/>
     </implementation>
@@ -25,13 +25,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau9QACgkQxnV5mk56UjGRqgCaA0+75Vno0uN5XSrSRugD9RVPhYQAoJD2lvTL
-ktwS5uvQ0zK3lXLi+wr9
+iEYEABECAAYFAlC8Be0ACgkQxnV5mk56UjEVYgCffTxnfVGMMFP/Xv6291QLSo2sFPoAn2tvXrMo
+6vMwZOty42sEBoZ4oymu
 
 -->

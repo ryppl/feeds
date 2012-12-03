@@ -14,9 +14,9 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Metaprogramming</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="b2b94b9c-bd4a-401d-a8c9-b1f85df39ada" released="2012-11-07" ryppl:vcs-revision="98606dd5b554777e3ad8747e8a43ddd6db01f298" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="type_traits-98606dd5b554777e3ad8747e8a43ddd6db01f298" href="http://github.com/boost-lib/type_traits/archive/98606dd5b554777e3ad8747e8a43ddd6db01f298.zip" size="925902" type="application/zip"/>
-      <manifest-digest sha256new="FU2DQEKMI3HY4VURUNSAUAI33PVBI4IJTOKF5BEVMLIZQNTBXB4Q"/>
+    <implementation arch="*-src" id="1c86a02f-4f5f-42e8-8b7d-6848f0492f25" released="2012-12-02" ryppl:vcs-revision="98c6f896e99beb7144ee67f0f980f158b9d3a11b" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="type_traits-98c6f896e99beb7144ee67f0f980f158b9d3a11b" href="http://github.com/boost-lib/type_traits/archive/98c6f896e99beb7144ee67f0f980f158b9d3a11b.zip" size="926202" type="application/zip"/>
+      <manifest-digest sha256new="GKSUJJ6ZMB67GI6Q2UOALWINSZBR2KIQTPK6WW6CCM6XLW7YAVGQ"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -28,7 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau84ACgkQxnV5mk56UjFbVQCgl63+vT/oqwbuVBO1jP/YPtkQRPYAn1dtGc4x
-2jnCeJsw5BZ7LfTyOxeX
+iEYEABECAAYFAlC8BbIACgkQxnV5mk56UjFaqwCglwY2XPl0Hmkav779oZffSX+k7pkAn1Cf+akv
+s9t/JmCSbSKbYH0wtmPR
 
 -->

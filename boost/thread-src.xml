@@ -11,9 +11,9 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="3e35550a-6b19-4e53-892b-5dfa10b198f7" released="2012-11-07" ryppl:vcs-revision="802184d02ce794a7368c42521a485dca04aa72fc" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="thread-802184d02ce794a7368c42521a485dca04aa72fc" href="http://github.com/boost-lib/thread/archive/802184d02ce794a7368c42521a485dca04aa72fc.zip" size="461110" type="application/zip"/>
-      <manifest-digest sha256new="JCZB2NQIVZXNHGXSE76C37JEP4OEAE7KO3SONECKDQKOYYJ65JDA"/>
+    <implementation arch="*-*" id="60237d21-749a-49d9-9e8c-b8c20eb9f8e4" released="2012-12-02" ryppl:vcs-revision="f97bf2caffed31030cd9c838dac2202737d5b87e" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="thread-f97bf2caffed31030cd9c838dac2202737d5b87e" href="http://github.com/boost-lib/thread/archive/f97bf2caffed31030cd9c838dac2202737d5b87e.zip" size="531521" type="application/zip"/>
+      <manifest-digest sha256new="AUPGYMO7EE247DVEQQG3VHI63PAKGEG6F64Q4K5CGOEN7SNVXU2A"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/chrono-src.xml"/>
@@ -35,13 +35,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/container-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau5sACgkQxnV5mk56UjH89QCfU9bh/n4I1+ViYFOJelOWIyNGX/sAnjf7+T2c
-sF0uZkN8L/opNC2p6ELI
+iEYEABECAAYFAlC8BIcACgkQxnV5mk56UjHt4QCggAuHL2cLzDpgDhcLKWqRcgUM20oAnRodBAz/
+Rg5t7UPRtxGCU5IPiQkQ
 
 -->

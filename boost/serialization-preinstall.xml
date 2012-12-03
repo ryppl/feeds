@@ -12,9 +12,9 @@
     marshalling.</description>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="137143f6-35c9-4a84-b35f-64c6b222ad7a" released="2012-11-07" ryppl:vcs-revision="74575c0fdcd7f6afdf12efc3de3e24539a0a7f9f" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="serialization-74575c0fdcd7f6afdf12efc3de3e24539a0a7f9f" href="http://github.com/boost-lib/serialization/archive/74575c0fdcd7f6afdf12efc3de3e24539a0a7f9f.zip" size="872683" type="application/zip"/>
-      <manifest-digest sha256new="FU6FNRR34XARTV3DX4MNJ6BATNUVPWWTZET7WAAH3JJDAZMN6VSQ"/>
+    <implementation arch="*-src" id="8483076a-a050-4778-ba82-c4ec1e979af9" released="2012-12-02" ryppl:vcs-revision="2f3b7ff641754af9cfe5abb28e12ba72c86ec803" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="serialization-2f3b7ff641754af9cfe5abb28e12ba72c86ec803" href="http://github.com/boost-lib/serialization/archive/2f3b7ff641754af9cfe5abb28e12ba72c86ec803.zip" size="872741" type="application/zip"/>
+      <manifest-digest sha256new="EJQRLO6457O4XMU464U35AIYDBL4OET57ODLFTHDKTWWGJDASN4Q"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -149,7 +149,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCauvoACgkQxnV5mk56UjEaBgCfXy5lc7vYkYN8Lc4M9AD89Jf/vOYAoKUZMk5D
-vFdxpovZ39wJuay5ibMf
+iEYEABECAAYFAlC8Ag4ACgkQxnV5mk56UjFlmgCeNL1pNKTJP0ZvO8EIfYnVZU1XOoAAni5QELU+
+MQzfkhflXmiEooeu7xO0
 
 -->

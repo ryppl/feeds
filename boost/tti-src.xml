@@ -11,22 +11,23 @@
     and themselves recursively with the power of context-free
     grammars.</description>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="d27b6468-51de-4de5-bc2b-05d5e932491f" released="2012-11-07" ryppl:vcs-revision="e0a763a021a82475e91a1ca6e2d4794d08fc4290" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="tti-e0a763a021a82475e91a1ca6e2d4794d08fc4290" href="http://github.com/boost-lib/tti/archive/e0a763a021a82475e91a1ca6e2d4794d08fc4290.zip" size="671741" type="application/zip"/>
-      <manifest-digest sha256new="6IYGXG3VZIJYEIJKUHBZROIFHSYEAIJKOH4TJFQ5BVGZV6TBLL4Q"/>
+    <implementation arch="*-*" id="b30c73f3-a426-4dbc-add7-9a252197952d" released="2012-12-02" ryppl:vcs-revision="beffdbafee222b7ef3c323f49b7c3c66dfbc0df1" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="tti-beffdbafee222b7ef3c323f49b7c3c66dfbc0df1" href="http://github.com/boost-lib/tti/archive/beffdbafee222b7ef3c323f49b7c3c66dfbc0df1.zip" size="421291" type="application/zip"/>
+      <manifest-digest sha256new="AS4HGPMQHQU32AUQO6OM3DO3BCPTYI2SAZVLY3ZMCUUGZW2XFTZA"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/function_types-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavGQACgkQxnV5mk56UjGCBgCbBowBs+diGh+79QSUVv2PIhT0KBAAn0KRRDuL
-otV2ZdmtaW9q6q+wKVJK
+iEYEABECAAYFAlC8CH8ACgkQxnV5mk56UjHUpgCeJbxACgEivXO6tvURLMzPziQO9LAAn3fviOCu
+jlozs1533zq3zV/Q1V72
 
 -->

@@ -10,7 +10,7 @@
   <description>Portable move semantics for C++03 and C++11 compilers.</description>
   <category type="http://boost.org/lib-categories/2012">Emulation</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f91f7b1c-b5bb-44bf-9afd-654753f7d3aa" released="2012-11-07" ryppl:vcs-revision="9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" stability="developer" version="1.51-post-2012.11.07.1948">
+    <implementation arch="*-*" id="34f81296-378f-4bed-87d1-82f8221f62ce" released="2012-12-02" ryppl:vcs-revision="9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" stability="developer" version="1.51-post-2012.12.03.0135">
       <archive extract="move-9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11" href="http://github.com/boost-lib/move/archive/9a901e8a4bdc3ef3a0a8d48b7463f24dff156b11.zip" size="90367" type="application/zip"/>
       <manifest-digest sha256new="J3TWZVXYWYVFTXJGBYSIFN7G7E6GGDNVENBKCU3BJUMOZPTZYSKQ"/>
     </implementation>
@@ -18,13 +18,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCau+EACgkQxnV5mk56UjGKdwCdG/PqGtnZqhY371R0L3o8tHU9A2kAnRlyYHKL
-pW6GYwLoEMGgna5lyV4m
+iEYEABECAAYFAlC8Bi0ACgkQxnV5mk56UjFdMACdF2fysKcFh9p5UoYJjHDz1kVgWW4An0Rd4vVU
+5s4+z5Nje334jd7YftD2
 
 -->

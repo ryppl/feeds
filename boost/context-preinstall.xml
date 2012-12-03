@@ -11,9 +11,9 @@
   <category type="http://boost.org/lib-categories/2012">Concurrent</category>
   <category type="http://boost.org/lib-categories/2012">System</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-src" id="120230e7-fe0b-4b6f-a41f-8caf642ff503" released="2012-11-07" ryppl:vcs-revision="ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f" stability="developer" version="1.51-post-2012.11.07.1948">
-      <archive extract="context-ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f" href="http://github.com/boost-lib/context/archive/ca11bb40bb239ddd8e5f2196797d7d8dc7bb0a1f.zip" size="71418" type="application/zip"/>
-      <manifest-digest sha256new="VFEIZMCZKI577VQ4K2E3CTGEIUP5QTFDDZOTLV43XF6EAVFIILDA"/>
+    <implementation arch="*-src" id="339356da-43cf-471c-82e1-7cd70a56c3d5" released="2012-12-02" ryppl:vcs-revision="0b3e044418d0f93a415be10670f50a1e49f1a32b" stability="developer" version="1.51-post-2012.12.03.0135">
+      <archive extract="context-0b3e044418d0f93a415be10670f50a1e49f1a32b" href="http://github.com/boost-lib/context/archive/0b3e044418d0f93a415be10670f50a1e49f1a32b.zip" size="84337" type="application/zip"/>
+      <manifest-digest sha256new="FNA6DXEHTHNAOX3WOGTJ2DLRBROR43OYAPW3V6XXPEPMJES2RXRA"/>
     </implementation>
     <command name="compile">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml">
@@ -202,7 +202,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlCavCoACgkQxnV5mk56UjEH0QCeJm+QGrZXWJxbzYy/CzH8ZZd7YiAAoIZILJC5
-jrtT7/3o8f4poAXJALTh
+iEYEABECAAYFAlC8B8wACgkQxnV5mk56UjHy9wCfSUKjSyEoOU9UcOZKuKwYDDP4WtUAoI0ZdaRk
+r4Q5Ealmu0yRixcZIYi9
 
 -->
