@@ -27,7 +27,7 @@ A utility library for passing references to
     generic functions.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="77af9ea0-9ad7-462b-8a65-46c85b31b073" released="2012-12-02" ryppl:vcs-revision="928da611b29c5c93691c6074c6ce69ffde2e6a29" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="8e9ff359-f9c7-418a-a44a-6c266771128d" released="2012-12-02" ryppl:vcs-revision="928da611b29c5c93691c6074c6ce69ffde2e6a29" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="bind-928da611b29c5c93691c6074c6ce69ffde2e6a29" href="http://github.com/boost-lib/bind/archive/928da611b29c5c93691c6074c6ce69ffde2e6a29.zip" size="98448" type="application/zip"/>
       <manifest-digest sha256new="IVTWE4EITZD4QCV56LG7MJ6M2Q7WFWOF4PTSH2BEXD3LTHHICJ3Q"/>
     </implementation>
@@ -35,14 +35,14 @@ A utility library for passing references to
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/smart_ptr-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8BF0ACgkQxnV5mk56UjFFWwCff65pLaSCMzjTZuzeHs8tTd3pmAsAnAzZyOOi
-6UWOujISn8G0+9cHat2M
+iEYEABECAAYFAlC8FQ0ACgkQxnV5mk56UjGvPQCfVnauSY1E2El/Yhh6YC9ZW6FjIawAnjlYV2vc
+9UsFuPJGUf90TGL+LVDY
 
 -->

@@ -15,7 +15,7 @@
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <category type="http://boost.org/lib-categories/2012">Image-processing</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="f8477208-c967-46b0-8d41-742ce86f37d1" released="2012-12-02" ryppl:vcs-revision="cdafb1b566326542225c31c61fbc48f8ca2711c5" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="ab336233-f793-4c9d-8d1d-751b5e1127eb" released="2012-12-02" ryppl:vcs-revision="cdafb1b566326542225c31c61fbc48f8ca2711c5" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="gil-cdafb1b566326542225c31c61fbc48f8ca2711c5" href="http://github.com/boost-lib/gil/archive/cdafb1b566326542225c31c61fbc48f8ca2711c5.zip" size="2236052" type="application/zip"/>
       <manifest-digest sha256new="Z3RAL3RQP7YQD7SW77LP7YWBLS3YH7IQTROTBR4Y3SHEO575KI7A"/>
     </implementation>
@@ -30,14 +30,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8AggACgkQxnV5mk56UjEWNwCcCgPA5ZRAnAyp/BHfgnrAdXJGVwYAnRMrQeda
-SkpVwqBBGMv5GIDpTSpJ
+iEYEABECAAYFAlC8E40ACgkQxnV5mk56UjEbqACffRb3u/88gAfptOQEkSTHEXsNY70An0pZn0t3
+N8QlhPYVOYWvAlJqu+s8
 
 -->

@@ -13,7 +13,7 @@
   <category type="http://boost.org/lib-categories/2012">Data</category>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="e6548416-d82f-4d8c-b6cf-16305d35e126" released="2012-12-02" ryppl:vcs-revision="44b9610d2431c5e557514a6e974827ee7b6ffdb4" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="9649d2d3-b012-4aad-889d-7ac487f33286" released="2012-12-02" ryppl:vcs-revision="44b9610d2431c5e557514a6e974827ee7b6ffdb4" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="variant-44b9610d2431c5e557514a6e974827ee7b6ffdb4" href="http://github.com/boost-lib/variant/archive/44b9610d2431c5e557514a6e974827ee7b6ffdb4.zip" size="111520" type="application/zip"/>
       <manifest-digest sha256new="6FWGKQWDJLUWSKYVADYI4MXDLY4J2POX4SWA3TANGQZFLXRHXNJQ"/>
     </implementation>
@@ -26,14 +26,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8B48ACgkQxnV5mk56UjGNawCglrnAnrJSb3zAI806KW8fZKzBwtgAoI8GFSbu
-WnhDJU/C6D/NI1ZvN0HL
+iEYEABECAAYFAlC8FiMACgkQxnV5mk56UjGbMACeKZe9kuQV5caxveJf5rAyf3pk5lcAoJUA0pfg
+6od+5575rfY0+EKEJvZQ
 
 -->

@@ -11,7 +11,7 @@
     testing, and for program execution monitoring.</description>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4796b9b6-ebd1-4e26-a232-d79659525395" released="2012-12-02" ryppl:vcs-revision="c33098d1af53e39e608e590212cbf0e97d5c02b5" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="b2628926-1b7b-4592-a3f0-e053f1a7c15b" released="2012-12-02" ryppl:vcs-revision="c33098d1af53e39e608e590212cbf0e97d5c02b5" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="test-c33098d1af53e39e608e590212cbf0e97d5c02b5" href="http://github.com/boost-lib/test/archive/c33098d1af53e39e608e590212cbf0e97d5c02b5.zip" size="1075384" type="application/zip"/>
       <manifest-digest sha256new="MCEUR3KZU5MRRRHWOPZL47LEAEMJDLGOTPAZFZNJYDLVGW2E5QNA"/>
     </implementation>
@@ -32,14 +32,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/timer-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8CJ8ACgkQxnV5mk56UjG5VgCbBiGXF15VArlL3LLwq7V2pVtbMNsAmgOdQAqT
-VdUWknMvfL07xfJGoSPN
+iEYEABECAAYFAlC8FoIACgkQxnV5mk56UjFdpQCgpbq38eurkpnLHSBOiidiVl90zGAAnA5nGD4x
+vTjTbTuH5gqhLrQ7uaKi
 
 -->

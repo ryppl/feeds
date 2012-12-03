@@ -10,7 +10,7 @@
   <description>Booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.</description>
   <category type="http://boost.org/lib-categories/2012">Miscellaneous</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="deda3be9-b122-4f24-bd80-7aaf4c2bca0c" released="2012-12-02" ryppl:vcs-revision="d58e95b38a6a9401a8ee1d1e084c1640033b1e7f" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="bd97e973-80ef-4a16-ad3b-06aea3058bdd" released="2012-12-02" ryppl:vcs-revision="d58e95b38a6a9401a8ee1d1e084c1640033b1e7f" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="polygon-d58e95b38a6a9401a8ee1d1e084c1640033b1e7f" href="http://github.com/boost-lib/polygon/archive/d58e95b38a6a9401a8ee1d1e084c1640033b1e7f.zip" size="5056618" type="application/zip"/>
       <manifest-digest sha256new="X2MAH5WHB6AHKJTT7DTIWCZR5A5RFU5XJ2ZDUUZ5EIEYQUPOIIEQ"/>
     </implementation>
@@ -18,14 +18,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/mpl-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/integer-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8BPAACgkQxnV5mk56UjFuGwCdH40KTMr0XulT6hxCLOJyoiHFREEAn3GY88H+
-Kbt66Z1WypC8QLY6NFye
+iEYEABECAAYFAlC8FUwACgkQxnV5mk56UjGMHQCfczzb+dk1ysG9+IdH4wHJGaH1FA8An3shqgdT
+IONpmhJAMIIGVls5lIfj
 
 -->

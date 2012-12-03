@@ -11,7 +11,7 @@
   <description>Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.</description>
   <category type="http://boost.org/lib-categories/2012">Domain</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="4e8fb615-8a2a-4cf3-838d-a422e889c1c4" released="2012-12-02" ryppl:vcs-revision="5f70db874502d51f96ed5032dcb401e15d28567f" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="2f3cd856-8c0c-4496-a6c3-110e00580a9d" released="2012-12-02" ryppl:vcs-revision="5f70db874502d51f96ed5032dcb401e15d28567f" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="units-5f70db874502d51f96ed5032dcb401e15d28567f" href="http://github.com/boost-lib/units/archive/5f70db874502d51f96ed5032dcb401e15d28567f.zip" size="427073" type="application/zip"/>
       <manifest-digest sha256new="3LY2XRPTXMGOYBHOBBGHALCFCZUY7EOS243FJ4V7UPVOYNWR7ZBA"/>
     </implementation>
@@ -27,14 +27,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8B98ACgkQxnV5mk56UjEhxwCgmcN5yzk1CbgKb9uBpeLankIWnAQAn2/Mkmub
-r1RUTQ2iKFaMUUlX6nNV
+iEYEABECAAYFAlC8FjgACgkQxnV5mk56UjEVDwCeLNMEPplvPA8vooEu3YIuWSQYUJMAoId7XFUU
+n2OZEbSOglbZYqyLBriN
 
 -->

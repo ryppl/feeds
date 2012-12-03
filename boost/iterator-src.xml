@@ -16,7 +16,7 @@
     includes several useful iterator adaptors.</description>
   <category type="http://boost.org/lib-categories/2012">Iterators</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="38f26d37-b99e-4ebb-8706-b079ec98fe61" released="2012-12-02" ryppl:vcs-revision="6698de7c9bd427f6cab13356531566ab247ba5b7" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="6d49bf2b-57fc-4809-88bc-c6a53e194a2d" released="2012-12-02" ryppl:vcs-revision="6698de7c9bd427f6cab13356531566ab247ba5b7" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="iterator-6698de7c9bd427f6cab13356531566ab247ba5b7" href="http://github.com/boost-lib/iterator/archive/6698de7c9bd427f6cab13356531566ab247ba5b7.zip" size="1604646" type="application/zip"/>
       <manifest-digest sha256new="TM4WG7U6BDFPGFDSUOTNUZXLIBTQ6AIJA4O3AVA5NTO2O7SWPMXA"/>
     </implementation>
@@ -31,14 +31,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8AhgACgkQxnV5mk56UjExxwCdET2RP5qvMvBl4l/4tD+HrzayZgMAnibsG6xY
-Vil0fUKoc4TtIBv2sFCA
+iEYEABECAAYFAlC8E6cACgkQxnV5mk56UjFOZgCfeuAV5jP9MWErBn3UKWR7iI+mEdkAniniHoIb
+hPy5DuOlcd5+EL5a3Juf
 
 -->

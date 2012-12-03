@@ -30,7 +30,7 @@ Overload different functions into a single function
     object.</description>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="af54c567-b412-4117-be50-4af0632a0623" released="2012-12-02" ryppl:vcs-revision="a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="dd7270e2-a63e-4ce7-a14d-c060c96e35bc" released="2012-12-02" ryppl:vcs-revision="a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="functional-a891d80ca3be44ecc61e7c7af56fa6dec5962ea2" href="http://github.com/boost-lib/functional/archive/a891d80ca3be44ecc61e7c7af56fa6dec5962ea2.zip" size="104936" type="application/zip"/>
       <manifest-digest sha256new="CHRY2ZWBAORRXSAT7S5NHEYV6OMSG6V4FBLLE7A35DH7JJMPJWKA"/>
     </implementation>
@@ -46,14 +46,14 @@ Overload different functions into a single function
     <requires interface="http://ryppl.github.com/feeds/boost/typeof-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8AjMACgkQxnV5mk56UjEWwQCfVeWuVUccyrRK3STZnGuIsHliD18AnA+gJdNa
-N74jvb+8dA+KOAPS6xvq
+iEYEABECAAYFAlC8E8kACgkQxnV5mk56UjFPdwCgpXSEWfKt190Z7SQZVNlKtTPxQGwAoJwapTjx
+jusuzm4oyY48cEnuCAaJ
 
 -->

@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories/2012">Patterns</category>
   <category type="http://boost.org/lib-categories/2012">Function-objects</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="c6cdab9d-7306-427b-808f-04ff75ee0854" released="2012-12-02" ryppl:vcs-revision="08d8f816c6e9ca4be540e79b5d912101db51612c" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="348792d3-c7c0-42be-82b2-0fbf16451514" released="2012-12-02" ryppl:vcs-revision="08d8f816c6e9ca4be540e79b5d912101db51612c" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="signals2-08d8f816c6e9ca4be540e79b5d912101db51612c" href="http://github.com/boost-lib/signals2/archive/08d8f816c6e9ca4be540e79b5d912101db51612c.zip" size="156940" type="application/zip"/>
       <manifest-digest sha256new="3LAQD25M7ZZ5FWMQRS7H6MNEAQKN7UXI7SFMTSAHKLGXLCFLKA2A"/>
     </implementation>
@@ -33,14 +33,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/optional-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/parameter-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8CMEACgkQxnV5mk56UjHanwCcCH5xzQxDXEoP5i/S7D2yERf0tt0An1yuipAI
-SELClkQEhffzgWQZk2Sx
+iEYEABECAAYFAlC8FokACgkQxnV5mk56UjEaEACfS6Kp0lN/fVJuosdLmU+0QgimurUAmwXwS5AJ
+TQrnEwp3mf4XhXn9+yeV
 
 -->

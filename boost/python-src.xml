@@ -14,7 +14,7 @@
     compiler.</description>
   <category type="http://boost.org/lib-categories/2012">Inter-language</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="fad6a406-852b-4f84-8856-a2793472fb43" released="2012-12-02" ryppl:vcs-revision="914339f5bd52a7b0e1cd54a3e117cea6661c6c8b" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="2d0c5444-d230-4598-b67d-4e5df7b178cc" released="2012-12-02" ryppl:vcs-revision="914339f5bd52a7b0e1cd54a3e117cea6661c6c8b" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="python-914339f5bd52a7b0e1cd54a3e117cea6661c6c8b" href="http://github.com/boost-lib/python/archive/914339f5bd52a7b0e1cd54a3e117cea6661c6c8b.zip" size="1254031" type="application/zip"/>
       <manifest-digest sha256new="EZPYH6PBWWQIOGLEDWR47D5BKQWUBMW3FTDFF5RMFHENS6DQVATQ"/>
     </implementation>
@@ -38,14 +38,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/serialization-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8CGcACgkQxnV5mk56UjHi2wCdF0y2Z9rLHm1K3qnQck3X3/VCtBAAoIEH3uL/
-Ggmxzh+gB7GDhTGVMq08
+iEYEABECAAYFAlC8Fm4ACgkQxnV5mk56UjGC2QCgmlNsAvP3z2y5EwvnWiUDj7VP6X8An1OdRXEv
+6snHYRgbXexFIxNmchCa
 
 -->

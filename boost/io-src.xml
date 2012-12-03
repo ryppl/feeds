@@ -13,19 +13,19 @@
     library.</description>
   <category type="http://boost.org/lib-categories/2012">IO</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="514715f8-9737-4053-bb3b-c2ba8599a7d5" released="2012-12-02" ryppl:vcs-revision="290892041f99cf190abc0fe7a6efd51a351e041b" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="50e51342-d02b-46bc-9e44-df21c50b1728" released="2012-12-02" ryppl:vcs-revision="290892041f99cf190abc0fe7a6efd51a351e041b" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="io-290892041f99cf190abc0fe7a6efd51a351e041b" href="http://github.com/boost-lib/io/archive/290892041f99cf190abc0fe7a6efd51a351e041b.zip" size="22129" type="application/zip"/>
       <manifest-digest sha256new="G4TEDKQNR7RO3KIVFHJUDKITKX6G2JRY4LZRX43OT2GFA47V5X5A"/>
     </implementation>
     <requires interface="http://ryppl.github.com/feeds/boost/core-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8B5kACgkQxnV5mk56UjEthACgjPIaPStzvf3FchxTJxqFTS93i8YAn3z8FRJx
-J9isbja2NoxGK+Q6PTnw
+iEYEABECAAYFAlC8FiYACgkQxnV5mk56UjHHUQCfd/b7Z4l5vH2Sn/Asyv9aREtgR7IAoIM2tSsi
+qtfiG84EaIrlbwvK/dir
 
 -->

@@ -13,7 +13,7 @@
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a2841eda-a210-463b-ade2-a7a6c15bac08" released="2012-12-02" ryppl:vcs-revision="0e63f75cf5cdf4610ffe07aeea3fa225115029fb" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="bb30f42c-671b-40ce-bcff-e4a0afdaa4bd" released="2012-12-02" ryppl:vcs-revision="0e63f75cf5cdf4610ffe07aeea3fa225115029fb" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="geometry-0e63f75cf5cdf4610ffe07aeea3fa225115029fb" href="http://github.com/boost-lib/geometry/archive/0e63f75cf5cdf4610ffe07aeea3fa225115029fb.zip" size="5361935" type="application/zip"/>
       <manifest-digest sha256new="W3HQNUAY7SPI44WS2X3MFG43D5BXMAW7VVWDHPJ7KUGQLBXYAEJA"/>
     </implementation>
@@ -44,14 +44,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/concept_check-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/conversion-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8BY4ACgkQxnV5mk56UjG+hgCaA58ZbhDiNK73cUeSh5aerNaduqAAn3aPmP4l
-ZElmw8KekbHY3ScSDQOk
+iEYEABECAAYFAlC8FYQACgkQxnV5mk56UjFZtgCgiprzjfzJvhFLU503Lb9NyvxcaEoAoKKmqI1b
+uoAtoPypMbeGWmt8ox6V
 
 -->

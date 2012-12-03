@@ -12,7 +12,7 @@
   <category type="http://boost.org/lib-categories/2012">Generic</category>
   <category type="http://boost.org/lib-categories/2012">Correctness</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="5fda7964-2517-4af5-a196-19b38509e1c3" released="2012-12-02" ryppl:vcs-revision="0019f3dbafdf5c9b6f74675579df60c8e6a6f460" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="0e16dc03-9354-49db-8465-85444e218527" released="2012-12-02" ryppl:vcs-revision="0019f3dbafdf5c9b6f74675579df60c8e6a6f460" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="concept_check-0019f3dbafdf5c9b6f74675579df60c8e6a6f460" href="http://github.com/boost-lib/concept_check/archive/0019f3dbafdf5c9b6f74675579df60c8e6a6f460.zip" size="82863" type="application/zip"/>
       <manifest-digest sha256new="DBT42GKTIUGP4ASPIYGZ7E6NUOU2THAK7W2EQYYCDPXPSOXGC5HA"/>
     </implementation>
@@ -23,14 +23,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/preprocessor-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8CMQACgkQxnV5mk56UjGuOQCfW3hSdEHaY68750wCImiGwan/HLYAnjg0CzXQ
-0vm5ejBsNpSVj9uBj4ic
+iEYEABECAAYFAlC8FooACgkQxnV5mk56UjGg2QCfcKOgQwhnOhZW2oz95NPpdb5/gRYAmwdbskSz
+xLW8Tuz79g8swRajnNKp
 
 -->

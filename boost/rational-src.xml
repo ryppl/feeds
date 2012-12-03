@@ -10,7 +10,7 @@
   <description>A rational number class.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="49052571-97bb-4298-9c2a-28198523c539" released="2012-12-02" ryppl:vcs-revision="ec0e1309a84b61aabb86aff2161e399f81dda48d" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="22284a2b-f2be-422d-83c7-b5555c7fc0b7" released="2012-12-02" ryppl:vcs-revision="ec0e1309a84b61aabb86aff2161e399f81dda48d" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="rational-ec0e1309a84b61aabb86aff2161e399f81dda48d" href="http://github.com/boost-lib/rational/archive/ec0e1309a84b61aabb86aff2161e399f81dda48d.zip" size="29653" type="application/zip"/>
       <manifest-digest sha256new="ELHVOZK2TEK4OBTDB2YMPDFRUJJNJUCTW4INKOTYQ6FWICRLTFMQ"/>
     </implementation>
@@ -19,14 +19,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/math-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/utility-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8BPgACgkQxnV5mk56UjHJQQCeKiHWCP90qqihrOvF9jsbp40XLSQAnjmE7UaM
-xx9YDwtiC/L28p6W+oF2
+iEYEABECAAYFAlC8FUwACgkQxnV5mk56UjFhOACgifBDQAfYrFEyEcX8/tHvvBrP+GQAniMXiWxz
+o5W7z3rY4HgQNodEd38Y
 
 -->

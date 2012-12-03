@@ -10,7 +10,7 @@
   <description>Intrusive containers and algorithms.</description>
   <category type="http://boost.org/lib-categories/2012">Containers</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="a4466032-f085-473f-88ae-3c3fb76ded66" released="2012-12-02" ryppl:vcs-revision="e17bd34449a92938ba68c60dcf0975c736bf4671" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="354c9242-6fa2-4d30-a1a5-d8f344c705b4" released="2012-12-02" ryppl:vcs-revision="e17bd34449a92938ba68c60dcf0975c736bf4671" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="intrusive-e17bd34449a92938ba68c60dcf0975c736bf4671" href="http://github.com/boost-lib/intrusive/archive/e17bd34449a92938ba68c60dcf0975c736bf4671.zip" size="525843" type="application/zip"/>
       <manifest-digest sha256new="RIH352ZTGP742ZAQUQPL7RXRPQDJMOYICO6YNLXTXYF3LYNQPFEQ"/>
     </implementation>
@@ -23,14 +23,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/config-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8CAcACgkQxnV5mk56UjGBBQCggMxLknZJLFfQed6PXqAB0TBE0wEAn2t8VECh
-TmZ+WX3ogqoR9GjUSQb7
+iEYEABECAAYFAlC8FkwACgkQxnV5mk56UjGniACdE493GgjOBJDidZvJT9Qc1cO+1dAAnRh2Lt56
+uIsPiXNfHkmm1GW4iBNa
 
 -->

@@ -12,7 +12,7 @@
     builds on top of the new iterator concepts.</description>
   <category type="http://boost.org/lib-categories/2012">Algorithms</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="0080acb6-fccb-45bb-98c7-e80a9adae450" released="2012-12-02" ryppl:vcs-revision="6c6cd1e268b1f49e55850fcf568e1682fd439c9f" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="c88aaa31-17e0-44d2-b1d6-2539369f8699" released="2012-12-02" ryppl:vcs-revision="6c6cd1e268b1f49e55850fcf568e1682fd439c9f" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="range-6c6cd1e268b1f49e55850fcf568e1682fd439c9f" href="http://github.com/boost-lib/range/archive/6c6cd1e268b1f49e55850fcf568e1682fd439c9f.zip" size="835101" type="application/zip"/>
       <manifest-digest sha256new="3B54V2CGJDNFMJG5PPLSRULWDCH247OI4P6TVWWOCDUOQJ5GS5YQ"/>
     </implementation>
@@ -30,14 +30,14 @@
     <requires interface="http://ryppl.github.com/feeds/boost/array-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8Ak8ACgkQxnV5mk56UjFRcgCfeK8Be9Xf8EIxyafuZ0+djacH+coAn2j+cpUN
-iAEYY862nVn2w5vQx41r
+iEYEABECAAYFAlC8E+cACgkQxnV5mk56UjHbowCfSpfcfYmCwOzN3e4ambfJWe8aXH0An3E4HTz3
+z2oWjkB1PaZImUD4zEan
 
 -->

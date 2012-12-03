@@ -12,18 +12,18 @@
     repetition and recursion.</description>
   <category type="http://boost.org/lib-categories/2012">Preprocessor</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="73836633-08a0-4036-b13d-cf873e6f754b" released="2012-12-02" ryppl:vcs-revision="48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="42c7f494-f2de-4ff4-add1-bd21161b6fe3" released="2012-12-02" ryppl:vcs-revision="48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="preprocessor-48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b" href="http://github.com/boost-lib/preprocessor/archive/48d0a0bf5ca7b44f03db9a87f46f13714cb6bf2b.zip" size="869151" type="application/zip"/>
       <manifest-digest sha256new="M2XN4RRAD6VDMRG3VSFCT7T2UVM6XOUBLM4HLKF7DRZAN4T45SCQ"/>
     </implementation>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8CQcACgkQxnV5mk56UjErRgCeNKL/TCVNuZotHDZ/zfWExryAqCcAn3Rwcpbv
-WlhmvfHa0jFA8jHXWUKC
+iEYEABECAAYFAlC8FpkACgkQxnV5mk56UjFF4wCgoM2FLaKGcdpoBA78P8BuIAiqCykAn3Rv6YyB
+tAStm7xwKlb81pWwRAyp
 
 -->

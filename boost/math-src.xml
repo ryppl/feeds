@@ -44,7 +44,7 @@ A wide selection of univariate statistical distributions and
     functions that operate on them.</description>
   <category type="http://boost.org/lib-categories/2012">Math</category>
   <group license="OSI Approved :: Boost Software License 1.0 (BSL-1.0)">
-    <implementation arch="*-*" id="243c2d31-09f7-42ab-8758-dbe5966d945c" released="2012-12-02" ryppl:vcs-revision="8aead8ddf54e790df369e7ace8f282d02409239d" stability="developer" version="1.51-post-2012.12.03.0135">
+    <implementation arch="*-*" id="31f00b8a-42c8-4073-a407-3e3499fd1e8b" released="2012-12-02" ryppl:vcs-revision="8aead8ddf54e790df369e7ace8f282d02409239d" stability="developer" version="1.51-post-2012.12.03.0250">
       <archive extract="math-8aead8ddf54e790df369e7ace8f282d02409239d" href="http://github.com/boost-lib/math/archive/8aead8ddf54e790df369e7ace8f282d02409239d.zip" size="14846664" type="application/zip"/>
       <manifest-digest sha256new="TOQVVNWTWZ6KOQOD3SD2B7RJHJF3YNX6TWRQ3UQLG5S2UI5G5FHA"/>
     </implementation>
@@ -68,14 +68,14 @@ A wide selection of univariate statistical distributions and
     <requires interface="http://ryppl.github.com/feeds/boost/static_assert-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/type_traits-src.xml"/>
     <requires interface="http://ryppl.github.com/feeds/boost/ublas-src.xml"/>
-    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml.xml"/>
+    <requires interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     <command name="develop">
       <runner interface="http://ryppl.github.com/feeds/ryppl/ryppl.xml"/>
     </command>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlC8B1wACgkQxnV5mk56UjHRcgCaA1h1U4A0wkKEPQQdRk6Prrwl/R8AnA0Lt0gX
-7r3MEcdzBef1VeHJNrZA
+iEYEABECAAYFAlC8FhEACgkQxnV5mk56UjFsMgCeJI1E8zFLC2a/pMVTtl5CIJpwqaAAmQFem+9k
+46QTUk1qH+Rf6xVN1Ajm
 
 -->
