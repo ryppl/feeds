@@ -68,7 +68,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
       <archive extract="cmake-2.8.10-Linux-i386" href="http://www.cmake.org/files/v2.8/cmake-2.8.10-Linux-i386.tar.gz" size="22984040" type="application/x-compressed-tar"/>
       <manifest-digest sha256new="B4Q6P374676NQZDTZYDE2ZQFCC7FO7ZDRQVBIQWIIPCKETQNGXYA"/>
     </implementation>
-    <implementation arch="Darwin-*" id="6DADDE5B-202A-44B2-A5ED-0580211E9600" main="CMake 2.8-9.app/Contents/bin/cmake">
+    <implementation arch="Darwin-*" id="6DADDE5B-202A-44B2-A5ED-0580211E9600" main="CMake 2.8-10.app/Contents/bin/cmake">
       <archive extract="cmake-2.8.10-Darwin64-universal" href="http://www.cmake.org/files/v2.8/cmake-2.8.10-Darwin64-universal.tar.gz" size="40106637" type="application/x-compressed-tar"/>
       <manifest-digest sha256new="W7536PGWR27LVED3A5OVUFB3KVT3ER47LWP7APKYFKNM7PBWEOGA"/>
     </implementation>
@@ -84,7 +84,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   <package-implementation distributions="MacPorts" main="/opt/local/bin/cmake" package="cmake"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlDTxRwACgkQxnV5mk56UjFU5wCggDKrHsnPmaITxUzq7iZgWEw7lLgAoJkQciGo
-ILAGo5xUXmas7LFF//4k
+iEYEABECAAYFAlDTzQEACgkQxnV5mk56UjH0wACdE9cKSwgrC/OwFr0ya8Xw8x4LoswAn33IEWOY
+0v48BEjyQaSM0l9TAP+U
 
 -->
