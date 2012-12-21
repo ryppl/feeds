@@ -52,7 +52,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
     </implementation>
     <implementation arch="Darwin-*" id="5D98DF8D-AE66-429D-8780-D4FC33F8A652" main="CMake 2.8-9.app/Contents/bin/cmake">
       <archive extract="cmake-2.8.9-Darwin64-universal" href="http://www.cmake.org/files/v2.8/cmake-2.8.9-Darwin64-universal.tar.gz" size="34073267" type="application/x-compressed-tar"/>
-      <manifest-digest sha256new="DJNZBMHJHQIPONJPAYSEZARHF7VPVCZRYN7F34ZFOWLI5FF6RD4Q"/>
+      <manifest-digest sha256new="QF6NFC3CPA5U2BUBWTNZCWUZVUDKBFMVS6RZQFVSWR5PYZZDMRMQ"/>
     </implementation>
     <implementation arch="*-src" compile:binary-main="bin/cmake" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="9F81F6CE-15F4-4FA6-AB86-F05CC921BD6C">
       <archive extract="cmake-2.8.9" href="http://www.cmake.org/files/v2.8/cmake-2.8.9.tar.gz" size="5658837" type="application/x-compressed-tar"/>
@@ -66,7 +66,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   <package-implementation distributions="MacPorts" main="/opt/local/bin/cmake" package="cmake"/>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlBs8pAACgkQxnV5mk56UjEpDACeN90gpcqskD4Mt3P5KKn+gwKOklwAoKPVWKaK
-u3stRzi+AJd/+5tB7r5T
+iEUEABECAAYFAlDTumIACgkQxnV5mk56UjFzNgCghwyUxNG86IGuCMuZSkRamrzPJksAmLNQYglR
+HR1VXUUVFlnC3WToqM4=
 
 -->
