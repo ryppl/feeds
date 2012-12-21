@@ -59,6 +59,24 @@ workspaces that can be used in the compiler environment of your choice.</descrip
       <manifest-digest sha256new="NLGNV7NRPAIP4JMUHKRA3RETQ77NJWW36PU7JVMQVGIWLUBP2YWA"/>
     </implementation>
   </group>
+  <group license="OSI Approved :: BSD License (revised)" released="2012-11-07" stability="stable" version="2.8.10">
+    <implementation arch="Windows-i386" id="11BF1F44-8459-4B05-80AC-C427759F9AF4" main="bin/cmake.exe">
+      <archive extract="cmake-2.8.10-win32-x86" href="http://www.cmake.org/files/v2.8/cmake-2.8.10-win32-x86.zip" size="12680918" type="application/zip"/>
+      <manifest-digest sha256new="F5SOJ2HTNR755SNAOHQIKY7J4YPQC3NJJMUL4YTIDHWEBUFE5H4A"/>
+    </implementation>
+    <implementation arch="Linux-i386" id="75F3F3A0-CB2B-4666-8204-613BF00C4E2E" main="bin/cmake">
+      <archive extract="cmake-2.8.10-Linux-i386" href="http://www.cmake.org/files/v2.8/cmake-2.8.10-Linux-i386.tar.gz" size="22984040" type="application/x-compressed-tar"/>
+      <manifest-digest sha256new="B4Q6P374676NQZDTZYDE2ZQFCC7FO7ZDRQVBIQWIIPCKETQNGXYA"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="6DADDE5B-202A-44B2-A5ED-0580211E9600" main="CMake 2.8-9.app/Contents/bin/cmake">
+      <archive extract="cmake-2.8.10-Darwin64-universal" href="http://www.cmake.org/files/v2.8/cmake-2.8.10-Darwin64-universal.tar.gz" size="40106637" type="application/x-compressed-tar"/>
+      <manifest-digest sha256new="W7536PGWR27LVED3A5OVUFB3KVT3ER47LWP7APKYFKNM7PBWEOGA"/>
+    </implementation>
+    <implementation arch="*-src" compile:binary-main="bin/cmake" compile:command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install" compile:dup-src="true" id="B6A1FD81-9C23-4A79-9263-8D0ABBE66688">
+      <archive extract="cmake-2.8.10" href="http://www.cmake.org/files/v2.8/cmake-2.8.10.tar.gz" size="5766728" type="application/x-compressed-tar"/>
+      <manifest-digest sha256new="CYHTY7E7UQFKDKDIAOS6UN5TMOVFS3CM5RP2ARJ66JPROEUGBGVQ"/>
+    </implementation>
+  </group>
   <package-implementation distributions="Debian" main="/usr/bin/cmake" package="cmake"/>
   <package-implementation distributions="RPM" main="/usr/bin/cmake" package="cmake"/>
   <package-implementation distributions="Cygwin" main="/usr/bin/cmake" package="cmake"/>
@@ -66,7 +84,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   <package-implementation distributions="MacPorts" main="/opt/local/bin/cmake" package="cmake"/>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAlDTumIACgkQxnV5mk56UjFzNgCghwyUxNG86IGuCMuZSkRamrzPJksAmLNQYglR
-HR1VXUUVFlnC3WToqM4=
+iEYEABECAAYFAlDTxRwACgkQxnV5mk56UjFU5wCggDKrHsnPmaITxUzq7iZgWEw7lLgAoJkQciGo
+ILAGo5xUXmas7LFF//4k
 
 -->
