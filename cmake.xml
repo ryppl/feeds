@@ -1,4 +1,5 @@
-<?xml version="1.0" ?>
+
+<feed src="http://0install.de/feeds/CMake.xml" /><?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://ryppl.github.com/feeds/cmake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>CMake</name>
@@ -12,6 +13,7 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   <category>Development</category>
   <icon href="http://cloud.ohloh.net/attachments/920/CMake-logo-triangle-high-res_med.png" type="image/png"/>
   <needs-terminal/>
+  <feed src="http://0install.de/feeds/CMake.xml" />
   <group license="OSI Approved :: BSD License (revised)" main="bin/cmake" released="2012-01-02" stability="stable" version="2.8.7">
     <implementation arch="Windows-i386" id="sha1new=bfc59135fdd1309d2e1346632ec9fe80872b5e07" main="bin/cmake.exe">
       <archive extract="cmake-2.8.7-win32-x86" href="http://www.cmake.org/files/v2.8/cmake-2.8.7-win32-x86.zip" size="10885434" type="application/zip"/>
